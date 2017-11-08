@@ -8,6 +8,7 @@ description: Find developer, hardware, and IT pro docs to help you build and mai
 <div id="main" class="v2">
     <div class="container">
         <h1>Windows Mixed Reality: Enthusiast Guide</h1>
+        <p>Everything you need to know about setting up and using Windows Mixed Reality.</p>
         <ul class="pivots">
             <li>
                 <a href="#enthusiast">Enthusiast Guide</a>
