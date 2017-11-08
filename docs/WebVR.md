@@ -14,7 +14,7 @@ keywords:
 
 ## What is WebVR?
 
-[WebVR](https://webvr.info) is an open specification that makes it possible to experience VR in your browser. If a website implements WebVR support and provides 3D content, it can display immersive content in the headset, with user consent.
+[WebVR](/microsoft-edge/webvr/webvr-with-edge) is an open specification that makes it possible to experience VR in your browser. If a website implements WebVR support and provides 3D content, it can display immersive content in the headset, with user consent.
 
 ## What is the difference between WebVR and browsing the web in VR?
 
