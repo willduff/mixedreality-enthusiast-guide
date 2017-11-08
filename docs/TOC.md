@@ -1,4 +1,4 @@
-# [MR Enthusiast Guide](index.md)
+# [Mixed Reality: Enthusiast Guide](index.md)
 ## [FAQs before you buy](before_you_buy_-_faqs.md)
 ## [Check your Windows 10 PC's Compatibility](check_your_compatibility.md)
 ## [Plug in your headset](Plug_in_your_headset.md)
