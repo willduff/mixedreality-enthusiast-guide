@@ -250,5 +250,6 @@ description: Find developer, hardware, and IT pro docs to help you build and mai
                 </ul>
             </li>
         </ul>
+        <p>If you can't find something you're looking for, let us know in the [Windows Mixed Reality Developer Forum.](https://forums.hololens.com)</p>
     </div>
 </div>
