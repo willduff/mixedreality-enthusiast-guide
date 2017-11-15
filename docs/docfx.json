@@ -31,11 +31,15 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/mixedreality-enthusiast-guide/breadcrumb/toc.json",
-      "extendBreadcrumb": true
+      "breadcrumb_path": "/mixedreality/breadcrumb/toc.json",
+      "extendBreadcrumb": true,
+      "titleSuffix": "Mixed Reality",
+      "ms.prod": "windows",
+      "ms.technology": "mixed-reality",
+      "keywords": "mixed reality, holographic, hololens, virtual reality, vr headset"
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "mixedreality-enthusiast-guide"
+    "dest": "mixedreality"
   }
 }
