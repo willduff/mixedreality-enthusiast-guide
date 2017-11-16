@@ -1,5 +1,5 @@
 ---
-layout: LandingPage
+layout: HubPage
 description: Information for intermediate to advanced customers on how to get the most out of using Windows Mixed Reality.
 title:  Enthusiast's Guide to Mixed Reality
 keywords: Windows Mixed Reality, Windows Virtual Reality, VR, MR
