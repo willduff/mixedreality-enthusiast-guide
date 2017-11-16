@@ -1,5 +1,5 @@
-﻿---
-title: Your Mixed Reality Home
+---
+title: Your mixed reality home
 description: 
 author: GitHubUserName
 ms.author: MicrosoftAlias
@@ -9,8 +9,7 @@ keywords:
 ---
 
 
-
-# Your Mixed Reality Home
+# Your mixed reality home
 
 ## What is the mixed reality home?
 
@@ -65,14 +64,14 @@ To change the visual quality settings, go to the Settings App > Mixed Reality > 
 
 Go to **Settings > Mixed Reality > Environment > Reset my home**
 
-![Windows Settings panel to reset my home](images/1050px-EnvironmentReset.png)
+![Windows Settings panel to reset my home](images/1050px-environmentreset.png)
 
 ### How do I uninstall Windows Mixed Reality?
 1. Unplug your headset
 2. Close Mixed Reality Portal
 3. Go to **Settings > Mixed Reality > Uninstall > Uninstall**
 
-![Windows Settings panel to uninstall mixed reality](images/1050px-Uninstall2.png)
+![Windows Settings panel to uninstall mixed reality](images/1050px-uninstall2.png)
 
 ### How do I turn off the boundary?
 
@@ -92,19 +91,12 @@ Just press the **Play** icon at the bottom of your Mixed Reality Portal.
 
 **Note:** This feature is disabled on PCs with integrated graphics due to the load placed on the GPU
 
-## Troubleshooting
-
-See [Troubleshooting > Windows Mixed Reality Home](Troubleshooting_Windows_Mixed_Reality.md#windows_mixed_reality_home)
-
-## Next Chapter
-
-[Using games and apps](Using_games_and_apps_in_Windows_Mixed_Reality.md)
-
 ## See also
 
-If you're interested in learning more about how Windows Mixed Reality works, you may also want to read about
-* [Tracking System](Tracking_System.md)
-* [Motion Controllers](Motion_controllers.md)
-* [WebVR](WebVR.md)
-* [SteamVR](Using_SteamVR_with_Windows_Mixed_Reality.md)
-* [Filing Feedback](Filing_Feedback.md)
+* [Troubleshooting > Windows Mixed Reality home](troubleshooting-windows-mixed-reality.md#windows-mixed-reality-home)
+* [Using games and apps](using-games-and-apps-in-windows-mixed-reality.md)
+* [Tracking System](tracking-system.md)
+* [Motion Controllers](motion-controllers.md)
+* [WebVR](webvr.md)
+* [SteamVR](using-steamvr-with-windows-mixed-reality.md)
+* [Filing feedback](filing-feedback.md)

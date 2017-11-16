@@ -1,5 +1,5 @@
-﻿---
-title: Learn Mixed Reality
+---
+title: Learn mixed reality
 description: 
 author: GitHubUserName
 ms.author: MicrosoftAlias
@@ -9,14 +9,13 @@ keywords:
 ---
 
 
-
-# Learn Mixed Reality
+# Learn mixed reality
 
 ## How do I run the learning experience the first time?
 
 Mixed Reality Portal should now launch an immersive experience in your headset called **Learn Mixed Reality** that will teach you how to use Windows Mixed Reality. Gaze at the gem in the loading screen to get started. You should hear Cortana's voice in your headset giving you instructions on what to do next.
 
-![Learn Mixed Reality](images/File-LearnMixedRealityStart.png)
+![Learn Mixed Reality](images/file-learnmixedrealitystart.png)
 
 ## How do I re-run the learning experience?
 
@@ -30,10 +29,7 @@ Learn Mixed Reality is an app. The app can be launched from the Start menu insid
 1. Press **Windows Key > All Apps > Learn Mixed Reality**
 2. Left click with your mouse to place the app in your world and launch the app
 
-## Troubleshooting
+## See also
 
-See [Troubleshooting > Installation and Setup](Troubleshooting_Windows_Mixed_Reality.md#installation_and_setup)
-
-## Next Chapter
-
-[Your Mixed Reality Home](Your_Mixed_Reality_Home.md)
+* [Troubleshooting > Installation and Setup](troubleshooting-windows-mixed-reality.md#installation-and-setup)
+* [Your Mixed Reality Home](your-mixed-reality-home.md)
