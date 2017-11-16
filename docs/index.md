@@ -17,7 +17,7 @@ description: Find developer, hardware, and IT pro docs to help you build and mai
                         <a href="#enthusiast-all"></a>
                         <ul id="enthusiast-all" class="cardsC">
                             <li>
-                                <a href="before_you_buy_-_faqs.md">
+                                <a href="before-you-buy-faqs.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -36,7 +36,7 @@ description: Find developer, hardware, and IT pro docs to help you build and mai
                                 </a>
                             </li>
                             <li>
-                                <a href="check_your_compatibility.md">
+                                <a href="check-your-compatibility.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -55,7 +55,7 @@ description: Find developer, hardware, and IT pro docs to help you build and mai
                                 </a>
                             </li>
                             <li>
-                                <a href="Plug_in_your_headset.md">
+                                <a href="plug-in-your-headset.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -74,7 +74,7 @@ description: Find developer, hardware, and IT pro docs to help you build and mai
                                 </a>
                             </li>
                             <li>
-                                <a href="Install_Windows_Mixed_Reality.md">
+                                <a href="install-windows-mixed-reality.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -93,7 +93,7 @@ description: Find developer, hardware, and IT pro docs to help you build and mai
                                 </a>
                             </li>
                             <li>
-                                <a href="Set_up_Windows_Mixed_Reality.md">
+                                <a href="set-up-windows-mixed-reality.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -112,7 +112,7 @@ description: Find developer, hardware, and IT pro docs to help you build and mai
                                 </a>
                             </li>
                             <li>
-                                <a href="Learn_Mixed_Reality.md">
+                                <a href="learn-mixed-reality.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -131,7 +131,7 @@ description: Find developer, hardware, and IT pro docs to help you build and mai
                                 </a>
                             </li>
                             <li>
-                                <a href="Your_Mixed_Reality_Home.md">
+                                <a href="your-mixed-reality-home.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -150,7 +150,7 @@ description: Find developer, hardware, and IT pro docs to help you build and mai
                                 </a>
                             </li>
                             <li>
-                                <a href="Using_games_and_apps_in_Windows_Mixed_Reality.md">
+                                <a href="using-games-and-apps-in-windows-mixed-reality.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -169,7 +169,7 @@ description: Find developer, hardware, and IT pro docs to help you build and mai
                                 </a>
                             </li>
                             <li>
-                                <a href="Troubleshooting_Windows_Mixed_Reality.md">
+                                <a href="troubleshooting-windows-mixed-reality.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
