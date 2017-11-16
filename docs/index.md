@@ -1,8 +1,8 @@
 ---
-layout: HubPage
-hide_bc: true
-title: Windows Mixed Reality Enthusiast Guide
-description: Find developer, hardware, and IT pro docs to help you build and maintain your Windows solution.
+layout: LandingPage
+description: Information for intermediate to advanced customers on how to get the most out of using Windows Mixed Reality.
+title:  Enthusiast's Guide to Mixed Reality
+keywords: Windows Mixed Reality, Windows Virtual Reality, VR, MR
 ---
 
 <div id="main" class="v2">

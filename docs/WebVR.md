@@ -66,3 +66,4 @@ To experience WebVR content on a Windows Mixed Reality headset (using hardware o
 * [Motion Controllers](motion-controllers.md)
 * [SteamVR](using-steamvr-with-windows-mixed-reality.md)
 * [Filing feedback](filing-feedback.md)
+>>>>>>> 1e81ca8ae4af50b98e7cd478abeb612cdbe426c1
