@@ -34,6 +34,9 @@
       "breadcrumb_path": "/mixedreality/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "titleSuffix": "Mixed Reality",
+      "author": "mattzmsft",
+      "ms.author": "mazeller",
+      "ms.date": "12/10/2017",
       "ms.prod": "windows",
       "ms.technology": "mixed-reality",
       "keywords": "mixed reality, holographic, hololens, virtual reality, vr headset"
