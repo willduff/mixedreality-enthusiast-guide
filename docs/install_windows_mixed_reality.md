@@ -35,4 +35,3 @@ You will see a "Getting ready to set you up" message on your screen with a spinn
 
 * [Troubleshooting > Installation](troubleshooting-windows-mixed-reality.md#installation-and-setup)
 * [Set up Windows Mixed Reality](set-up-windows-mixed-reality.md)
->>>>>>> 1e81ca8ae4af50b98e7cd478abeb612cdbe426c1
