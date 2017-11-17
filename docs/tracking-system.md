@@ -1,9 +1,6 @@
 ---
 title: Tracking system
 description: Information about tracking systems for Windows Mixed Reality
-author: GitHubUserName
-ms.author: MicrosoftAlias
-ms.date: 10/17/2017
 ms.topic: article
 keywords: Windows Mixed Reality, Inside-out tracking
 ---

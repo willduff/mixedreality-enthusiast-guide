@@ -1,9 +1,6 @@
 ---
 title: Recommended adapters for Windows Mixed Reality capable PCs
 description: 
-author: GitHubUserName
-ms.author: MicrosoftAlias
-ms.date: 10/17/2017
 ms.topic: article
 keywords: 
 ---

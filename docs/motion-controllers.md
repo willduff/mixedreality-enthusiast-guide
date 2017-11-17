@@ -1,9 +1,6 @@
 ---
 title: Motion controllers
 description: 
-author: GitHubUserName
-ms.author: MicrosoftAlias
-ms.date: 10/17/2017
 ms.topic: article
 keywords: 
 ---
