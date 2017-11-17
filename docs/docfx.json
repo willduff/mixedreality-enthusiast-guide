@@ -31,18 +31,18 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/mixedreality/breadcrumb/toc.json",
+      "breadcrumb_path": "/mixedreality-enthusiast-guide/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "titleSuffix": "Enthusiast Guide",
-      "author": "mattzmsft",
-      "ms.author": "mazeller",
+      "author": "paaron301 ",
+      "ms.author": "paaron",
       "ms.date": "12/10/2017",
       "ms.prod": "windows",
-      "ms.technology": "mixed-reality",
-      "keywords": "mixed reality, holographic, hololens, virtual reality, vr headset"
+      "ms.technology": "enthusiast-guide",
+      "keywords": "mixed reality, virtual reality, vr"
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "mixedreality"
+    "dest": "mixedreality-enthusiast-guide"
   }
 }
