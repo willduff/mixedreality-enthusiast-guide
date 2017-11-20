@@ -41,7 +41,10 @@ Surface products require an adapter from the video port (Mini DisplayPort or USB
 
 More information on Surface compatibility with Windows Mixed Reality is available in the table below.
 
-<table border-style:solid; border-width:1px;>
+<style type="text/css">
+td {border:1px solid black;}
+</style>
+<table>
 	<tr bgcolor="#D3D3D3">
 		<th> Surface </th><th> Windows Mixed Reality Supported? </th><th> Minimum Configuration </th><th> Notes</th>
 	</tr>
