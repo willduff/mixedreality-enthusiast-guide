@@ -41,34 +41,31 @@ Surface products require an adapter from the video port (Mini DisplayPort or USB
 
 More information on Surface compatibility with Windows Mixed Reality is available in the table below.
 
-<style type="text/css">
-td {border:1px solid black;}
-</style>
 <table>
 	<tr bgcolor="#D3D3D3">
 		<th> Surface </th><th> Windows Mixed Reality Supported? </th><th> Minimum Configuration </th><th> Notes</th>
 	</tr>
 	<tr>
-		<td> <b>Surface Pro</b> (original) <b>/ Surface Pro 2</b> </td><td> No </td><td> </td><td></td>
+		<td style="border: solid 1px black;"> <b>Surface Pro</b> (original) <b>/ Surface Pro 2</b> </td><td style="border: solid 1px black;"> No </td><td style="border: solid 1px black;"> </td><td style="border: solid 1px black;"></td>
 	</tr>
 	<tr>
-		<td> <b>Surface Pro 3</b> </td><td> No </td><td> </td><td></td>
+		<td style="border: solid 1px black;"> <b>Surface Pro 3</b> </td><td style="border: solid 1px black;"> No </td><td style="border: solid 1px black;"> </td><td style="border: solid 1px black;"></td>
 	</tr>
 	<tr>
-		<td> <b>Surface Pro 4</b> </td><td> No </td><td> </td><td></td>
+		<td style="border: solid 1px black;"> <b>Surface Pro 4</b> </td><td style="border: solid 1px black;"> No </td><td style="border: solid 1px black;"> </td><td style="border: solid 1px black;"></td>
 	</tr>
 	<tr>
-		<td> <b>Surface 3</b> </td><td> No </td><td> </td><td></td>
+		<td style="border: solid 1px black;"> <b>Surface 3</b> </td><td style="border: solid 1px black;"> No </td><td style="border: solid 1px black;"> </td><td style="border: solid 1px black;"></td>
 	</tr>
 	<tr>
-		<td> <b>Surface Book</b> </td><td> No </td><td> </td><td></td>
+		<td style="border: solid 1px black;"> <b>Surface Book</b> </td><td style="border: solid 1px black;"> No </td><td style="border: solid 1px black;"> </td><td style="border: solid 1px black;"></td>
 	</tr>
 	<tr>
-		<td> <b>Surface Book with Performance Base</b> </td><td> No </td><td> </td><td></td>
+		<td style="border: solid 1px black;"> <b>Surface Book with Performance Base</b> </td><td style="border: solid 1px black;"> No </td><td style="border: solid 1px black;"> </td><td style="border: solid 1px black;"></td>
 	</tr>
 	<tr>
-		<td> <b>Surface Pro (2017)</b> </td><td> Yes </td><td> Intel 7th-Gen Core i5/i7 min 8GB of RAM or more </td>
-		<td>
+		<td style="border: solid 1px black;"> <b>Surface Pro (2017)</b> </td><td style="border: solid 1px black;"> Yes </td><td style="border: solid 1px black;"> Intel 7th-Gen Core i5/i7 min 8GB of RAM or more </td>
+		<td style="border: solid 1px black;">
 			<ul>
 				<li>Requires HDMI 2.0-compatible Mini Display Port adapter</li>
 				<li>Requires <a href="https://support.microsoft.com/en-us/help/4023450/surface-surface-battery-and-power">Performance Slider</a> set to “Best Performance” during usage</li>
@@ -77,8 +74,8 @@ td {border:1px solid black;}
 		</td>
 	</tr>
 	<tr>
-		<td> <b>Surface Book 2 (13.5&quot; and 15&quot;)</b> </td><td> Yes </td><td> All Configurations </td>
-		<td>
+		<td style="border: solid 1px black;"> <b>Surface Book 2 (13.5&quot; and 15&quot;)</b> </td><td style="border: solid 1px black;"> Yes </td><td style="border: solid 1px black;"> All Configurations </td>
+		<td style="border: solid 1px black;">
 			<ul>
 				<li>Requires HDMI 2.0-compatible USB C adapter</li>
 				<li>Configurations with only the Intel HD Graphics 620 integrated GPU achieve Windows Mixed Reality (60Hz) experience, Requires <a href="https://support.microsoft.com/en-us/help/4023450/surface-surface-battery-and-power">Performance Slider</a> set to “Best Performance” during usage</li>
@@ -87,8 +84,8 @@ td {border:1px solid black;}
 		</td>
 	</tr>
 	<tr>
-		<td> <b>Surface Studio</b> </td><td> Yes </td><td> All Configurations </td>
-		<td>
+		<td style="border: solid 1px black;"> <b>Surface Studio</b> </td><td style="border: solid 1px black;"> Yes </td><td style="border: solid 1px black;"> All Configurations </td>
+		<td style="border: solid 1px black;">
 			<ul>
 				<li>Requires HDMI 2.0-compatible Mini Display Port adapter</li><li>Windows Mixed Reality HMD must be connected to USB port with “+” symbol</li>
 				<li>Configurations with NVIDIA GeForce GTX 965m achieve Windows Mixed Reality (60Hz) experience.</li>
@@ -98,10 +95,10 @@ td {border:1px solid black;}
 		</td>
 	</tr>
 	<tr>
-		<td> <b>Surface Laptop</b> </td>
-		<td> Yes </td>
-		<td> Intel 7th-Gen Core i5/i7 min 8GB of RAM or more </td>
-		<td>
+		<td style="border: solid 1px black;"> <b>Surface Laptop</b> </td>
+		<td style="border: solid 1px black;"> Yes </td>
+		<td style="border: solid 1px black;"> Intel 7th-Gen Core i5/i7 min 8GB of RAM or more </td>
+		<td style="border: solid 1px black;">
 			<ul>
 				<li>Requires HDMI 2.0-compatible Mini Display Port adapter</li><li>Requires <a href="https://support.microsoft.com/en-us/help/4023450/surface-surface-battery-and-power">Performance Slider</a> set to “Best Performance” during usage</li><li>Achieves Windows Mixed Reality (60Hz) experience</li>
 			</ul>
