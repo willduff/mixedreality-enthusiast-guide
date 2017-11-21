@@ -43,7 +43,7 @@ More information on Surface compatibility with Windows Mixed Reality is availabl
 
 <table>
 	<tr bgcolor="#D3D3D3">
-		<th> Surface </th><th> Windows Mixed Reality Supported? </th><th> Minimum Configuration </th><th> Notes</th>
+		<th style="border: solid 1px black;"> Surface </th><th style="border: solid 1px black;"> Windows Mixed Reality Supported? </th><th style="border: solid 1px black;"> Minimum Configuration </th><th style="border: solid 1px black;"> Notes</th>
 	</tr>
 	<tr>
 		<td style="border: solid 1px black;"> <b>Surface Pro</b> (original) <b>/ Surface Pro 2</b> </td><td style="border: solid 1px black;"> No </td><td style="border: solid 1px black;"> </td><td style="border: solid 1px black;"></td>
