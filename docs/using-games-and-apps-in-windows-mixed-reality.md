@@ -1,8 +1,8 @@
 ---
 title: Using games and apps in Windows Mixed Reality
-description: 
+description: How to launch immersive and 2D apps and games, view the desktop, and experience WebVR and SteamVR content.
 ms.topic: article
-keywords: 
+keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, apps, games, desktop, SteamVR, WebVR, Steam
 ---
 
 # Using games and apps in Windows Mixed Reality
