@@ -1,8 +1,8 @@
 ---
 title: Using SteamVR with Windows Mixed Reality
-description: 
+description: How to play SteamVR games on Windows Mixed Reality headsets with compatible PCs.
 ms.topic: article
-keywords: 
+keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, games, SteamVR, Steam, system requirements
 ---
 
 
