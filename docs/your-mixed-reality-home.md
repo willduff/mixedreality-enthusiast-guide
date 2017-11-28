@@ -1,8 +1,8 @@
 ---
 title: Your mixed reality home
-description: 
+description: How to navigate and teleport within the Windows Mixed Reality home, launch apps and games, personalize the home, and change visual, audio, and speech settings.
 ms.topic: article
-keywords: 
+keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Home, Navigate, Get around, apps, games
 ---
 
 
