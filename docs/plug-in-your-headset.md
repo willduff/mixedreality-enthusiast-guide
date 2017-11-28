@@ -1,8 +1,8 @@
 ---
 title: Plug in your headset
-description: 
+description: How to connect your Windows Mixed Reality headset to your PC.
 ms.topic: article
-keywords: 
+keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, headset, setup, get started
 ---
 
 # Plug in your headset
