@@ -1,8 +1,8 @@
 ---
 title: Tracking system
-description: Information about tracking systems for Windows Mixed Reality
+description: Information about the camera-based, inside-out tracking system used in Windows Mixed Reality headsets.
 ms.topic: article
-keywords: Windows Mixed Reality, Inside-out tracking
+keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, inside-out, inside out, tracking, camera
 ---
 
 # Tracking system
