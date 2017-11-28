@@ -20,7 +20,7 @@ Motion controllers are hardware accessories that allow users to take action in m
 
 ## Hardware details
 
-[!VIDEO https://www.youtube.com/embed/1nlcdDNOdm8?rel=0&modestbranding=1&frameborder=0&allowfullscreen]
+>[!VIDEO https://www.youtube.com/embed/1nlcdDNOdm8?rel=0&modestbranding=1&frameborder=0&allowfullscreen]
 
 Windows Mixed Reality motion controllers offer precise and responsive tracking of movement in your field of view using the sensors in the immersive headset, meaning there is no need to install hardware on the walls in your space. These motion controllers will offer the same ease of setup and portability as Windows Mixed Reality immersive headsets. Our device partners plan to market and sell these controllers on retail shelves this holiday.
 
@@ -143,7 +143,7 @@ At this point, the system will body-lock the controller to the user, tracking th
 
 The best way to get a feel for this is to try it yourself. Check out this video with examples of immersive content that works with motion controllers across various tracking states:
 
-[!VIDEO https://www.youtube.com/embed/QK_fOFDHj0g?rel=0&modestbranding=1&frameborder=0&allowfullscreen]
+>[!VIDEO https://www.youtube.com/embed/QK_fOFDHj0g?rel=0&modestbranding=1&frameborder=0&allowfullscreen]
 
 ### Reasoning about tracking state explicitly
 
