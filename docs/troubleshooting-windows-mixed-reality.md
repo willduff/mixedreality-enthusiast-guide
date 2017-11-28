@@ -1,8 +1,8 @@
 ---
 title: Troubleshooting Windows Mixed Reality
-description: 
+description: Advanced Windows Mixed Reality troubleshooting that goes beyond our standard consumer support documentation.
 ms.topic: article
-keywords: 
+keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Troubleshoot, Errors, Help, Support
 ---
 
 
@@ -71,7 +71,7 @@ You can re-run the learning experience by following the [re-run steps](learn-mix
 You are asked to turn your head side to side so your headset can recognizing your space and restore the virtual floor and boundary you set up previously. When you put on your headset, this scanning process can take up to 10 seconds. After it is complete, you will either be in the Mixed Reality Home or you will be prompted to set up your boundary again.
 
 If the scanning process takes longer than 10 seconds, there could be a problem with the proximity sensor in the headset:
-1. Check that the sticker has been removed from the proximity sensor (the proximity sensor is located inside the HMD roughly where the center of your forehead would be)
+1. Check that the sticker has been removed from the proximity sensor (the proximity sensor is located inside the headset roughly where the center of your forehead would be)
 2. Check that your proximity sensor is toggling input to your headset: with your finger, cover and uncover the proximity sensor a few times to verify input is switching to the headset. You should see the **Windows Key + Y** banner at the top of your PC. You can manually switch input to the headset at any time by typing **Windows Key + Y** on your keyboard
 
 ## Windows Mixed Reality Home
@@ -92,13 +92,13 @@ Make sure the lights are turned on and that there isn't anything obstructing the
 
 Mixed Reality Portal has a **Play** button at the bottom of the screen that allows you to show a preview of what you're seeing in your headset on your desktop's screen. However, this feature is disabled on PCs with integrated graphics due to the load placed on the GPU
 
-## HMD Connectivity
+## Headset Connectivity
 
-### The screen inside of my HMD is black
+### The screen inside of my headset is black
 * Check to make sure that the HDMI cable is plugged in all the way
-* If you're using an HDMI adapter (e.g. a Mini DisplayPort to HDMI adapter), please try connecting the adapter to your PC before connecting the HMD to the adapter.
+* If you're using an HDMI adapter (e.g. a Mini DisplayPort to HDMI adapter), please try connecting the adapter to your PC before connecting the headset to the adapter.
 * Check to make sure the USB cable is plugged in a USB 3.0 or faster port. USB 3.0 ports have SS (Super Speed) written next to them. They are often (but not always) colored blue.
-* Consult the [HMD troubleshooting flow chart](troubleshooting-windows-mixed-reality.md)
+* Consult the [Headset troubleshooting flow chart](troubleshooting-windows-mixed-reality.md)
 
 ### My computer does not have an HDMI port
 
@@ -106,14 +106,14 @@ If your computer does not have an HDMI port, you will need to use a [supported a
 
 ### I am getting a "Something Went Wrong" error 2181038087-12
 
-**Likely reason for the error code:** The HMD is plugged in to a USB port for which a non-Microsoft USB device driver is installed and running.
+**Likely reason for the error code:** The headset is plugged in to a USB port for which a non-Microsoft USB device driver is installed and running.
 
 **Troubleshooting:**
 1. Launch Device Manager (run devmgmt.msc).
 2. Expand the category for Universal Serial Bus controllers.
 3. Uninstall the driver for each item that includes the text "eXtensible Host Controller" **and** does *not* have "Microsoft" in the name.
 4. You are done when you verify that each item that includes the text "eXtensible Host Controller" has "Microsoft" at the end.
-5. Now you should not see this error when you plug in the HMD.
+5. Now you should not see this error when you plug in the headset.
 
 ### I am getting a "Something Went Wrong" error 2181038087-4
 
@@ -155,7 +155,7 @@ After the device updates, you should see a Mixed Reality Device appear in Device
 
 ![Mixed Reality Device appear in Device Manager](images/mixedrealitydevices.png)
 
-### HMD Troubleshooting Flowcharts
+### Headset Troubleshooting Flowcharts
 
 ![Black screen/Can't see anything](images/hmd-connectivity.jpg)
 
@@ -219,7 +219,7 @@ If the controller isn’t working correctly and you’re unable to update the de
 5. While holding pairing button, power on the controller by pressing and holding the Windows button for 5 seconds (keep both buttons held).
 6. Release buttons and wait for controller to power on. This takes up to 15 seconds and there are no indicators when device recovery is happening. If device powers on immediately on button release, recovery button sequence did not get registered and you need to try again.
 7. Remove old controller associations from Bluetooth settings (Settings->Bluetooth & other devices, select "Motion controller - Left" or "Motion controller - Right" and Remove device. After that pair controller with PC again.
-8. After connecting with host and HMD, device will update firmware to latest available.
+8. After connecting with host and headset, device will update firmware to latest available.
 
 ### Lights and indicators
 
@@ -251,7 +251,7 @@ Motion Controllers should work with other Bluetooth keyboards, mice and game con
 * If you're using a USB Bluetooth Adapter:
 * Please ensure the USB Bluetooth Adapter is connected to a USB 2.0 port (black and doesn’t say SS) if available
 * Please plug the USB Bluetooth Adapter into a port that is physically separated from:
-* the HMD USB connector,
+* the headset USB connector,
 * flash drives,
 * hard drives,
 * or wireless USB receivers like those for keyboards/mice.
@@ -273,7 +273,7 @@ Make sure the motion controllers show up as 'Connected'. Just 'Paired' does not 
 If you're using an external USB Bluetooth Adapter:
 * Please ensure the USB Bluetooth Adapter is connected to a USB 2.0 port (black) if available
 * Please plug the USB Bluetooth Adapter into a port that is physically separated from:
-* the HMD USB connector,
+* the headset USB connector,
 * flash drives,
 * hard drives,
 * or wireless USB receivers like those for keyboards/mice.
@@ -287,7 +287,7 @@ Please power off Bluetooth headphones and speakers. These are not supported with
 
 Check the virtual battery level on the motion controller - in mixed reality, turn the controllers over, and you'll be able to see a battery icon. If it is red, please go ahead and replace the batteries. Battery reporting typically reports higher than the actual level immediately after connecting a controller. Please wait around 15 seconds to let battery level to stabilize and then read the level.
 
-You can try a one-time workaround of unplugging the USB cable on your HMD and plugging it back into the PC. This will restart the controller functionality on the PC.
+You can try a one-time workaround of unplugging the USB cable on your headset and plugging it back into the PC. This will restart the controller functionality on the PC.
 
 Check if the motion controllers LEDs are brightly lit or dimly lit - brightly lit means that they are paired and connected. Dimly lit means that they aren't connected.
 
@@ -354,7 +354,7 @@ This is caused by the device taking too long to find the bounds. You can bypass 
 
 ### I frequently see a message saying "I've lost my bounds"
 
-This means that the tracking system is having a hard time tracking and identifying your environment. In this state, the device can no longer show you your bounds and to encourage you to not move around and accidently bump into things in the real world, you will be in 3DOF in the HMD until the device can find your bounds again. Check the following:
+This means that the tracking system is having a hard time tracking and identifying your environment. In this state, the device can no longer show you your bounds and to encourage you to not move around and accidently bump into things in the real world, you will be in 3DOF in the headset until the device can find your bounds again. Check the following:
 1. Make sure the room has enough light.
 2. If you have recently redecorated or remodeled the room, re-run setup.
 3. Try unplugging the device, closing Windows Mixed Reality, and plugging the device back in.
@@ -370,23 +370,23 @@ This means that the tracking system cannot generate pose, or the application has
 
 If this message persists, contact customer support
 
-### The view in the HMD is completely frozen
+### The view in the headset is completely frozen
 
 Typically, this means the application or a system level component has failed. Try the following.
 1. Press the "home" button to leave the application.
 2. Unplug the device, close MRP and plug the device back in.
 3. Reboot the PC.
 
-### I frequently see a black border around the edges of the view in the HMD. Sometimes it looks like I'm looking down a tunnel
+### I frequently see a black border around the edges of the view in the headset. Sometimes it looks like I'm looking down a tunnel
 
-This means that the application is not able to hit frame rate on your PC and the system is having to use old frames to render the view in the HMD. Since applications only render the part of the world you are looking at, if they do not consistently hit their frame rates, then the system will attempt to continue to render the world from a previous point of view and will fill in the missing details with black. If this happens frequently, Check the following:
+This means that the application is not able to hit frame rate on your PC and the system is having to use old frames to render the view in the headset. Since applications only render the part of the world you are looking at, if they do not consistently hit their frame rates, then the system will attempt to continue to render the world from a previous point of view and will fill in the missing details with black. If this happens frequently, Check the following:
 1. Close or terminate all unneeded programs to free up memory and CPU.
 2. Reduce detail settings in your application.
 3. Reduce detail settings in Windows Mixed Reality settings.
 
-### The view in the HMD is jittering and stuttering a lot
+### The view in the headset is jittering and stuttering a lot
 
-There are several reasons this may happen. The primary causes are the system not being able to render content to the HMD, or the tracking system is experiencing problems. Check the following:
+There are several reasons this may happen. The primary causes are the system not being able to render content to the headset, or the tracking system is experiencing problems. Check the following:
 1. Make sure your PC is not under resource contention. Open Task Manager and ensure your compute resources are free (e.g. 80% CPU free, 400MB of ram and disk IO is below 80%).
 2. Make sure you have the latest graphics drivers for your hardware. See the graphics drive section for more info.
 3. Make sure the room has enough light.
@@ -404,16 +404,16 @@ This could be caused by an app or system level component hitting a fatal error, 
 
 ### The world flipped upside down momentarily and returned to normal
 
-This is typically caused by errors in obtaining sensor data from the HMD to inform the tracking algorithms. If this happens frequently, try the following:
-1. Plug the HMD into a different USB 3.0 port.
-2. Plug the HMD directly into the PC rather than a USB 3.0 hub.
+This is typically caused by errors in obtaining sensor data from the headset to inform the tracking algorithms. If this happens frequently, try the following:
+1. Plug the headset into a different USB 3.0 port.
+2. Plug the headset directly into the PC rather than a USB 3.0 hub.
 
 If this problem persists, contact customer support.
 
 ### The world is tilted but I can navigate and walk around fine in Windows Mixed Reality
 
 This is typically caused by errors in sensor data being recorded into the environment data that is stored on your PC. This can cause the Windows Mixed Reality to appear tilted, sometimes permanently. Try the following:
-1. Unplug the HDM, close Windows Mixed Reality and plug the HMD back in.
+1. Unplug the HDM, close Windows Mixed Reality and plug the headset back in.
 2. Reboot the PC.
 3. Clear your environment data.
 
@@ -559,6 +559,6 @@ Cortana can be slow the first time she is invoked in a Mixed Reality Portal sess
 
 On some PCs, the default voice capture gain for your headset-connected microphone may be set too low. If you experience unreliable speech commands or dictation, you can try running the Microphone Setup troubleshooter. You can reach this troubleshooter through the **Settings** > **Time & Language** > **Speech**, then click "Get Started" in the "Microphone" section. To affect the microphone you use for Windows Mixed Reality, you have to do this through the Desktop app in the Windows Mixed Reality home while wearing the headset. Select the appropriate endpoint in the troubleshooter wizard.
 
-### I only have one audio headset and I want to use it for both Desktop and my HMD
+### I only have one audio headset and I want to use it for both Desktop and my headset
 
-There is no way to use the audio device connected to (or part of) the HMD for audio playback when the device is not worn. If you only have one audio headset and not an HMD with built in headphones, you may want to connect the audio headset to the host PC instead of the HMD. Then you must turn off "switch to headset audio" in the MRP settings.
+There is no way to use the audio device connected to (or part of) the headset for audio playback when the device is not worn. If you only have one audio headset and not an headset with built in headphones, you may want to connect the audio headset to the host PC instead of the headset. Then you must turn off "switch to headset audio" in the MRP settings.
