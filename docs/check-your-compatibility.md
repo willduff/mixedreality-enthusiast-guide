@@ -2,7 +2,7 @@
 title: Check your compatibility
 description: How to make sure your PC is compatible with, and ready for, Windows Mixed Reality.
 ms.topic: article
-keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, compatible, compatibility, PC, system requirements
+keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, compatible, compatibility, get started, setup, PC, system requirements
 ---
 
 
