@@ -1,8 +1,8 @@
 ---
 title: Set up Windows Mixed Reality
-description: 
+description: How to set up your Windows Mixed Reality motion controllers, speech, and audio, and define your room boundary for a safe play space.
 ms.topic: article
-keywords: 
+keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, get started, setup, motion controller, controller, speech, audio, seated, standing, boundary
 ---
 
 
