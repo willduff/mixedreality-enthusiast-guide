@@ -1,6 +1,6 @@
 ---
 title: Motion controllers
-description: How to set up and use motion controllers for Windows Mixed Reality.
+description: More information about motion controllers for Windows Mixed Reality.
 ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, controller, Motion controller
 ---
