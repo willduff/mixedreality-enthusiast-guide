@@ -60,16 +60,6 @@ The basic controls in games are controlled by the app developer but the high lev
 
 After you've completed the setup staying up to date is easy. You can pull the latest version from Steam by checking for updates under the downloads section of your Library. If you have auto-updates enabled, then the Windows Mixed Reality SteamVR preview will stay up to date automatically.
 
-## Tuning your App for Windows Mixed Reality
-
-Below is an overview of common adjustments developers can make to ensure their experience is tuned for Windows Mixed Reality.
-1. If your app renders controller models:
-* Use the [Windows Mixed Reality motion controller models](motion-controllers.md#rendering-the-motion-controller-model)
-* Use IVRRenderModel::GetComponentState to get local transforms to component parts (eg. Pointer pose)
-2. If your application shows button layouts, controller tutorials, or any other UI directly related to platform specific controllers, update them to include Windows Mixed Reality Motion Controller layouts.
-3. Experiences that have a notion of handedness should get hints from the input APIs to differentiate controllers (Unity example)
-4. If possible, default to thumb stick based teleportation to match the Windows Mixed Reality home teleportation behavior
-
 ## Bugs and feedback
 
 Your feedback is invaluable when it comes to improving the Windows Mixed Reality SteamVR preview experience. Please submit all feedback and bugs through the Windows Feedback Hub. Please select the **Mixed Reality** category, and put the word **SteamVR** in the problem summary.
