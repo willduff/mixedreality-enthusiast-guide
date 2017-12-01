@@ -17,11 +17,11 @@ Identify the **HDMI out** port on your computer and plug in the HDMI cable. Make
 
 ## Connect headphones to headset
 
-Unless you purchased a Samsung HMD Odyssey headset (which has integrated AKG headphones and an integrated dual-array microphone), you will need to get an audio headset a pair of headphones that can plug into your HMD’s headset's 3.5mm audio jack.
+Unless you purchased a Samsung HMD Odyssey headset (which has integrated AKG headphones and an integrated dual-array microphone), you will need to get an audio headset a pair of headphones that can plug into your headset's 3.5mm audio jack.
 
 ## Common issues
 * Make sure to plug in the USB 3.0 cable **before** plugging in the HDMI cable
-* If you are using a Bluetooth dongle, do not plug in your HMD's USB cable next to that dongle as the resulting radio interference may negatively impact Bluetooth performance
+* If you are using a Bluetooth dongle, do not plug in your headset's USB cable next to that dongle as the resulting radio interference may negatively impact Bluetooth performance
 
 ## My PC doesn't have an HDMI port; I may need an adapter
 
@@ -31,5 +31,5 @@ Note: There is an older Surface Mini DisplayPort to HDMI adapter that only suppo
 
 ## See also
 
-* [Troubleshooting > HMD connectivity](troubleshooting-windows-mixed-reality.md#hmd-connectivity)
+* [Troubleshooting > Headset connectivity](troubleshooting-windows-mixed-reality.md#headset-connectivity)
 * [Install Windows Mixed Reality](install-windows-mixed-reality.md)
