@@ -118,7 +118,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR
                                             <div class="card">
                                                 <div>
                                                     <div class="cardImage"> 
-                                                        <img src="images/LearnMixedReality_OOBE.jpg" alt="" />
+                                                        <img src="images/learnmixedreality-oobe.jpg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
