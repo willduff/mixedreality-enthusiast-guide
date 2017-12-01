@@ -115,7 +115,7 @@ If your computer does not have an HDMI port, you will need to use a [supported a
 4. You are done when you verify that each item that includes the text "eXtensible Host Controller" has "Microsoft" at the end.
 5. Now you should not see this error when you plug in the headset.
 
-### I am getting a "Something Went Wrong" error 2181038087-4
+### I am getting a "Something Went Wrong" error 2181038087-4 or 2181038087-5
 
 **Likely reason for the error code:** The headset driver failed to initialize the two tracking cameras in the headset.
 
