@@ -53,4 +53,4 @@ The engineering team internally uses the same mechanism for finding and filing b
 * [Tracking system](tracking-system.md)
 * [Motion controllers](motion-controllers.md)
 * [WebVR](webvr.md)
-* [SteamVR](wsing-steamvr-with-windows-mixed-reality.md)
+* [SteamVR](using-steamvr-with-windows-mixed-reality.md)
