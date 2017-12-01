@@ -34,7 +34,7 @@ If you are seeing the following screen, try the following troubleshooting steps:
 
 ### Setup is stuck on the "Hang tight while we do some downloading" page
 
-Follow the guidance above in [We couldn't download the mixed reality software](troubleshooting-windows-mixed-reality.md#we-couldn.27t-download-the-mixed-reality-software).
+Follow the guidance above in [We couldn't download the mixed reality software](troubleshooting-windows-mixed-reality.md#we-couldnt-download-the-mixed-reality-software).
 
 ### I get an error message when I try to create a boundary
 
@@ -64,7 +64,7 @@ If input doesn't get toggled automatically, you will need to manually toggle inp
 
 ### Learn Mixed Reality didn't run on first launch, and I went right into the Windows Mixed Reality home
 
-You can re-run the learning experience by following the [re-run steps](learn-mixed-reality.md#how-do-i-re-run-the-learning-experience.3f).
+You can re-run the learning experience by following the [re-run steps](learn-mixed-reality.md#how-do-i-re-run-the-learning-experience). 
 
 ### During start up of Mixed Reality, I'm stuck at the step "Turn your head side to side, and then at the floor"
 
