@@ -67,6 +67,5 @@ The tracking system stores some environment data so that it can recall the real-
 
 ## See also
 * [Motion controllers](motion-controllers.md)
-* [Motion Controller Tracking](motion-controllers.md#controller-tracking-state)
 * [Your Mixed Reality Home](your-mixed-reality-home.md)
 * [Using games and apps in Windows Mixed Reality](using-games-and-apps-in-windows-mixed-reality.md)
