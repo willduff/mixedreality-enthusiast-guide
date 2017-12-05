@@ -1,5 +1,5 @@
 ---
-title: Motion controllers
+title: How motion controllers work
 description: More information about motion controllers for Windows Mixed Reality.
 ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, controller, Motion controller
