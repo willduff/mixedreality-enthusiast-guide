@@ -36,7 +36,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR
                                 </a>
                             </li>
                             <li>
-                                <a href="check-your-compatibility.md">
+                                <a href="before-you-start.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -46,7 +46,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Check your Windows 10 PC's Compatibility</h3>
+                                                    <h3>Before you start</h3>
                                                     <p>Here are the steps you can take to check your PC's compatibility and get your PC ready for Windows Mixed Reality.</p>
                                                 </div>
                                             </div>
