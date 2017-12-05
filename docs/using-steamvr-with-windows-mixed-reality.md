@@ -8,85 +8,45 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, games, 
 
 # Using SteamVR with Windows Mixed Reality
 
-The Windows Mixed Reality SteamVR preview allows developers to test and optimize their SteamVR experiences to run on Windows Mixed Reality headsets. This program is currently in an invite-only **closed preview.** while we work with a limited set of developers to uncover stability and performance issues. We will be making the preview available to all consumers on Steam Early Access this holiday season so stay tuned for a broader preview release. If you have not yet joined our developer program and are interested in participating, please sign up at [aka.ms/iwantmr](http://aka.ms/iwantmr).
+Windows Mixed Reality for SteamVR allows users to run SteamVR experiences on Windows Mixed Reality immersive headsets. After installing the Windows Mixed Reality for SteamVR, users can launch their favorite SteamVR applications from their desktop or Steam library and play them directly on their Windows headset.
 
-## Hardware recommendations
+To get started follow the [SteamVR setup instructions for Windows Mixed Reality](https://support.microsoft.com/en-us/help/4053622/windows-10-play-steamvr-games-in-windows-mixed-reality).
 
-In addition to the [Ultra PC requirements for running Windows Mixed Reality](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md), we recommend running the SteamVR Preview on a PC with a GTX 1070 video card (or better) and an Intel Core i7 processor. We are continuing to review feedback and optimize the performance to support additional system configurations in future updates. If your PC does not meet these specs you won't be blocked from running the Windows Mixed Reality SteamVR preview however this will impact the performance and quality of the overall experience.
+## Getting the most out of SteamVR on Windows Mixed Reality
 
-## Initial setup instructions
+We will be releasing frequent updates to improve the performance, reliability, and overall experience of using SteamVR on Windows Mixed Reality immersive headsets. To stay up to date with the latest improvements:
+* Check for Windows updates regularly
+* Switch to the SteamVR beta if you want to try out fixes before they're released to a broader audience
+  1. In Steam - use the drop down under your Library to filter to Tools and then locate SteamVR in the list
+  2. Open SteamVR properties - right click SteamVR in the same Tools page and open the Properties dialog.![Install SteamVR from the tools section of your Steam Library](images/steamvr-install.png)
+  3. Join the SteamVR Beta - click the Betas tab and opt into SteamVR Beta Update by selecting it from the drop down. **Note:** The beta access code field should be left blank and you can just hit close to confirm.![Switch to the SteamVR beta in the properties dialog for SteamVR](images/steamvr-beta.png)
+  
+## Changing the resolution
 
-### Install the Windows 10 Fall Creators Update
+You can adjust the "Supersampling" slider in the SteamVR -> Settings -> Developer window at any time if you'd like to play games at a higher resolution. Note that when using a higher "Supersampling" multiplier you can expect the game to put more strain on your PC. If you increase the multiplier and see degraded performance readjust this slider to the default level and restart the game to ensure that the change takes effect.![Adjust Supersampling](images/RenderTarget.jpg)
 
-You must be running the latest Windows 10 Fall Creators update to use the Windows Mixed Reality SteamVR preview.
+## Using multiple headsets
 
-### Setting up SteamVR
-1. Install Steam - http://store.steampowered.com/about. **Note:** If you already have Steam and you're running the client beta, you'll need to opt out before proceeding - Steam (top left of the UI) -> Settings -> Account -> Beta Participation - Not Participating.
-2. Install SteamVR - Use the drop down under your Library to filter to Tools and then locate SteamVR in the list and right click to install.
-3. Open SteamVR properties - right click SteamVR in the same Tools page and open the Properties dialog.![Install SteamVR from the tools section of your Steam Library](images/steamvr-install.png)
-4. Join the SteamVR Beta - click the Betas tab and opt into SteamVR Beta Update by selecting it from the drop down. **Note:** The beta access code field should be left blank and you can just hit close to confirm.![Switch to the SteamVR beta in the properties dialog for SteamVR](images/steamvr-beta.png)
+If you're a VR enthusiast you might regularly use more than one VR headset on the same PC. If that's the case note that when a Windows Mixed Reality headset is plugged in, SteamVR games will always launch to the Windows Mixed Reality headset. If you'd like to launch SteamVR games on another headset make sure to first unplug the Windows Mixed Reality headset before continuing. 
 
-### Enable Developer mode in Windows settings
+## Sharing feedback on SteamVR
 
-Windows Settings -> Update and Security -> For developers - Select Developer Mode![Enable Developer mode in Windows Settings](images/steamvr-devmode.png)
+Your feedback is invaluable when it comes to improving the Windows Mixed Reality SteamVR experience. Please submit all feedback and bugs through the [Windows Feedback Hub](filing-feedback.md). Please follow these suggestions to help us get the most from your feedback: 
+1. In Feedback Hub, indicate that you're reporting a new Problem in the "What kind of feedback is it?" section at the top.
+2. Select the **Mixed Reality** category and the **Apps** subcategory.
+3. Put the word "SteamVR" in the problem summary. That helps us find your feedback.
+4. Describe what SteamVR game or application you were using when you encountered the issue.
+5. Please consider attaching a SteamVR System Report to your feedback. This provides additional logs that can help us diagnose your problem. 
+    1. On the SteamVR Window (the small windows that shows your controller status) click on the title to open the menu.
+    2. Select "Create System Report"
+    3. Save to File
+    4. Attach the file to your Feedback Hub entry directly.
+6. If your feedback is about SteamVR performance, please collect a Mixed Reality Performance trace: 
+    1. Click the **Recreate my Problem** button
+    2. In the drop down next to "include data about" select **Mixed Reality Performance** 
+    3. Make sure the game is running and click **Start Capture**
+    4. Spend a few seconds playing the game to capture the trace. Please do not capture the trace for more than 10-15 seconds, or it will be too large to submit.
+    5. Click **Stop Capture**.
+7. Click **Submit** once you have completed the rest of the fields.
 
-### Activate the Windows Mixed Reality SteamVR Preview
-
-The Windows Mixed Reality SteamVR preview is currently in a **closed developer preview** so you must have a key to download it on Steam. Once you receive your key, activate the product through Steam:
-
-Under the "Games" drop down menu at the top left of your Steam Client select "Activate a Product on Steam" -> Next -> Accept -> copy/paste your key -> Next -> Finish![Use the product key to obtain your download of the SteamVR preview](images/steamvr-activateproduct.jpg)
-
-### Install the Windows Mixed Reality SteamVR preview
-1. Filter your Steam Library to ‘Software’ to find the Windows Mixed Reality SteamVR preview that you just activated with the product key
-2. Select it in the list and click Install
-
-## Launching and playing Steam games
-
-Once you've installed the SteamVR preview according to the directions above you should be ready to play VR games from your personal Steam library. To play titles from your collection:
-1. Close SteamVR if its already running
-2. Launch the Mixed Reality Portal and make sure you make it to the Windows Mixed Reality Home and that your controllers are working correctly
-3. Use Steam to download and launch the title you wish to play or launch them directly from a shortcut on your desktop (if asked, choose to launch in SteamVR mode).
-
-Note: If you lock your screen, remove your headset, switch users or if your PC goes to sleep Steam will exit
-
-## Controls
-
-The basic controls in games are controlled by the app developer but the high level system controls are as follows:
-1. Click down the **left analog thumbstick** to bring up the **Steam Dashboard**.
-2. Click down the **right analog thumbstick** to switch your **controller handedness** (older SteamVR titles may have been designed for identical Vive controllers that weren't specific to left and right handedness).
-3. Use the **Windows button** to return to the **Windows Mixed Reality home**.
-
-## Staying up-to-date
-
-After you've completed the setup staying up to date is easy. You can pull the latest version from Steam by checking for updates under the downloads section of your Library. If you have auto-updates enabled, then the Windows Mixed Reality SteamVR preview will stay up to date automatically.
-
-## Bugs and feedback
-
-Your feedback is invaluable when it comes to improving the Windows Mixed Reality SteamVR preview experience. Please submit all feedback and bugs through the Windows Feedback Hub. Please select the **Mixed Reality** category, and put the word **SteamVR** in the problem summary.
-
-If you have questions or comments to share, you can also reach us on our [Steam forum](http://steamcommunity.com/app/719950/discussions/).
-
-## FAQs and troubleshooting
-
-### SteamVR won't launch or continuously crashes
-1. Launch the Mixed Reality Portal and make your way to the Windows Mixed Reality Home, then try launching SteamVR again
-2. Make sure your PC is in developer mode
-3. Double check that you opted into the SteamVR beta
-4. Confirm that you aren't running a Beta version of the Steam client
-
-### My controllers aren't working as expected
-1. Close SteamVR
-2. Return to the Windows Mixed Reality Home and confirm that your controllers are working as expected
-3. Launch the experience again and your controllers should be back to normal
-4. If issues persist please file feedback using the Windows Feedback Hub
-
-### My games are running slowly
-1. Pause the preview (display mirror) in the Mixed Reality Portal
-2. Confirm you're running against the recommended specs for the Windows Mixed Reality Preview
-3. Confirm you're running against the recommended specs for the game located on the Steam page
-
-### SteamVR is Showing a Compositor Error
-1. If you have multiple graphics adapters, the main monitor and Mixed Reality HMD should be connected to the same adapter
-
-## See also
-* [Windows Mixed Reality minimum PC hardware compatibility guidelines](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md)
+If you have questions or comments to share, you can also reach us on our [Steam forum](http://steamcommunity.com/app/719950/discussions/). 
