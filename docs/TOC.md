@@ -1,6 +1,7 @@
 # [Mixed Reality: Enthusiast Guide](index.md)
 
-## [Before you buy](before-you-buy-faqs.md)
+## Before you buy
+### [Frequently asked questions](before-you-buy-faqs.md)
 ### [Recommended adapters](recommended-adapters-for-windows-mixed-reality-capable-pcs.md)
 ### [Minimum PC hardware guidelines](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md)
 ### [Windows Mixed Reality PC Check app](windows-mixed-reality-pc-check-app.md)
@@ -11,14 +12,16 @@
 ### [Install Windows Mixed Reality](install-windows-mixed-reality.md)
 ### [Set up Windows Mixed Reality](set-up-windows-mixed-reality.md)
 
-## Experiencing mixed reality
-### [Learn mixed reality](learn-mixed-reality.md)
+## Using Windows Mixed Reality
+### [Learn Mixed Reality](learn-mixed-reality.md)
 ### [Your mixed reality home](your-mixed-reality-home.md)
 ### [Games, 360 videos, and apps](using-games-and-apps-in-windows-mixed-reality.md)
 ### [SteamVR](using-steamvr-with-windows-mixed-reality.md)
 ### [WebVR](webvr.md)
 
-### [Troubleshooting](troubleshooting-windows-mixed-reality.md)
-### [Filing Feedback](filing-feedback.md)
-### [Motion controllers](motion-controllers.md)
-### [Tracking System](tracking-system.md)
+## [Troubleshooting](troubleshooting-windows-mixed-reality.md)
+
+## Appendix
+### [Filing bugs and feedback](filing-feedback.md)
+### [How motion controllers work](motion-controllers.md)
+### [How inside-out tracking works](tracking-system.md)
