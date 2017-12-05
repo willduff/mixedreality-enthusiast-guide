@@ -13,7 +13,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, compati
 
 Check that your PC is connected to the Internet. You will need to do bit of downloading to get mixed reality up and running.
 
-## Make Sure You Have the Windows 10 Fall Creator's Update Installed
+## Make sure you have the Windows 10 Fall Creators Update installed
 
 You must be running the Windows 10 Fall Creators Update to run mixed reality. You can check this by running winver.exe: **Start > Run > winver.exe**. The Version should be **1709**.
 
