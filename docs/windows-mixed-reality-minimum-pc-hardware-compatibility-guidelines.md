@@ -6,7 +6,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Ultra, 
 ---
 
 
-# Minimum PC hardware compatibility guidelines
+# Minimum PC hardware guidelines
 
 **NOTE:** guidelines for development PCs are higher than those for consumers' PCs running mixed reality apps.
 
