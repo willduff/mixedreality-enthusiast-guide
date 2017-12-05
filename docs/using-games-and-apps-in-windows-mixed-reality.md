@@ -64,9 +64,9 @@ Entering VR from Microsoft Edge within the Mixed Reality cliffhouse.
 
 ## How to get into your first SteamVR experience
 
-The Windows Mixed Reality SteamVR preview allows users to run SteamVR experiences on Windows Mixed Reality headsets. After installing the Windows Mixed Reality SteamVR preview on Steam users can launch their Steam applications from their desktop or Steam library and play them directly on their Windows headset.
+Windows Mixed Reality for SteamVR allows users to run SteamVR experiences on Windows Mixed Reality immersive headsets. After installing  Windows Mixed Reality for SteamVR, users can launch their favorite SteamVR applications from their desktop or Steam library and play them directly on their Windows headset.
 
-To get started with the SteamVR preview, follow the steps [here](https://aka.ms/WindowsMixedRealitySteamVR).
+To get started follow the [SteamVR setup instructions for Windows Mixed Reality](https://support.microsoft.com/en-us/help/4053622/windows-10-play-steamvr-games-in-windows-mixed-reality).
 
 ## See also
 
@@ -75,5 +75,5 @@ If you're interested in learning more about how Windows Mixed Reality works, you
 * [Tracking system](tracking-system.md)
 * [Motion controllers](motion-controllers.md)
 * [WebVR](webvr.md)
-* [SteamVR](using-steamvr-with-windows-mixed-reality.md)
+* [Using SteamVR with Windows Mixed Reality](using-steamvr-with-windows-mixed-reality.md)
 * [Filing feedback](filing-feedback.md)
