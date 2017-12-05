@@ -92,7 +92,7 @@ You can enable Cortana commands inside of mixed reality. This allows you to use 
 
 Mixed reality is better with speech
 
-## Setting up your audio headset
+## Set up your audio headset
 
 Unless you purchased a Samsung HMD Odyssey (which has integrated AKG headphones and an integrated dual microphone array), you will need to get an audio headset (that has both mic AND headphones) and plug that into your HMD's 3.5mm audio jack. The 3.5mm audio headset jack for your HMD will - depending on the HMD model - be located either on the underside of the HMD visor or at the end of a short audio cable coming out of the HMD visor.
 
