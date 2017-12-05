@@ -1,17 +1,17 @@
 ---
 layout: HubPage
 description: Information for intermediate to advanced customers on how to get the most out of using Windows Mixed Reality.
-title:  Enthusiast's Guide to Mixed Reality
-keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR
+title:  Enthusiast's Guide to Windows Mixed Reality
+keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, EG, enthusiast
 ---
 
 <div id="main" class="v2">
     <div class="container">
-        <h1>Windows Mixed Reality: Enthusiast Guide</h1>
-        <p>Everything you need to know about setting up and using Windows Mixed Reality.</p>
+        <h1>Windows Mixed Reality: Enthusiast's Guide</h1>
+        <p>Welcome to the Enthusiast's Guide to Windows Mixed Reality! We know you might be looking to dive deeper on Windows Mixed Reality and learn how to get the most of your new headset and motion controllers, so we created the EG to provide you with exclusive information and answer the top questions people have about Windows Mixed Reality before and after they buy. In this guide, you'll find an FAQ, setup instructions, how to use your headset and controllers, how the tech works, and how to troubleshoot issues with more detail than you'll find anywhere else. If you can't find something you're looking for, let us know in the forums. Enjoy!.</p>
         <ul class="pivots">
             <li>
-                <a href="#enthusiast">Enthusiast Guide</a>
+                <a href="#enthusiast">Enthusiast's Guide</a>
                 <ul id="enthusiast">
                     <li>
                         <a href="#enthusiast-all"></a>
@@ -160,7 +160,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Games and apps</h3>
+                                                    <h3>Games, 360 videos, and apps</h3>
                                                     <p>Learn how to download and play VR experiences, 2D apps, WebVR, and SteamVR in Windows Mixed Reality.</p>
                                                 </div>
                                             </div>
