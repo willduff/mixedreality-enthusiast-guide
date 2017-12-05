@@ -5,13 +5,13 @@ ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, adapter, dongle, HDMI, USB, DisplayPort
 ---
 
-# Recommended adapters for Windows Mixed Reality capable PCs
+# Recommended adapters
 > [!NOTE]
 > We will be updating, making additions to and may be revising these Windows Mixed Reality PC adapter recommendations. Please check back regularly for the latest.
 
 Your [Windows Mixed Reality compatible PC](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md) may not have the full-sized HDMI and USB 3.0 ports needed to connect your immersive headset. If that's the case, you'll need adapters to connect your headset. Below you'll find a list of adapter types you may need, and some recommendations on specific adapter models.
 
-## Recommended display adapters for Windows Mixed Reality capable PCs
+## Recommended display adapters
 
 **Note:** Microsoft does not manufacture, test, certify, nor guarantee the functionality, reliability or quality of any adapter. For any questions, concerns or issues with any adapter, you should contact the seller or manufacturer of your adapter.
 
@@ -35,7 +35,7 @@ Your [Windows Mixed Reality compatible PC](windows-mixed-reality-minimum-pc-hard
 
 
 
-## Windows Mixed Reality port compatibility and adapter requirements tables
+## Port compatibility and adapter requirements tables
 
 These tables will help you determine if you'll need display or USB adapters for your Windows Mixed Reality PC or Windows Mixed Reality Ultra PC and, if so, which you'll need. See the [table above](recommended-adapters-for-windows-mixed-reality-capable-pcs.md#recommended-display-adapters-for-windows-mixed-reality-capable-pcs) for recommended display adapter models.
 
