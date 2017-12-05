@@ -1,11 +1,11 @@
 ---
-title: WebVR
+title: Using WebVR with Windows Mixed Reality
 description: Describes WebVR and how to use it with Microsoft Edge on Windows Mixed Reality headsets.
 ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, WebVR, Edge, Microsoft Edge, web browsing
 ---
 
-# WebVR
+# Using WebVR with Windows Mixed Reality
 
 ## What is WebVR?
 
