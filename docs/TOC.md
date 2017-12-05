@@ -1,7 +1,6 @@
 # [Mixed Reality: Enthusiast Guide](index.md)
 
 ## [Before you buy](before-you-buy-faqs.md)
-### [Check Your Compatibility](check-your-compatibility.md)
 ### [Recommended adapters](recommended-adapters-for-windows-mixed-reality-capable-pcs.md)
 ### [Minimum PC hardware guidelines](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md)
 ### [Windows Mixed Reality PC Check app](windows-mixed-reality-pc-check-app.md)
