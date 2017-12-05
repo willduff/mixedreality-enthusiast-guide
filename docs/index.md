@@ -8,7 +8,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, EG, ent
 <div id="main" class="v2">
     <div class="container">
         <h1>Windows Mixed Reality: Enthusiast's Guide</h1>
-        <p>Welcome to the Enthusiast's Guide to Windows Mixed Reality! We know you might be looking to dive deeper on Windows Mixed Reality and learn how to get the most of your new headset and motion controllers, so we created the EG to provide you with exclusive information and answer the top questions people have about Windows Mixed Reality before and after they buy. In this guide, you'll find an FAQ, setup instructions, how to use your headset and controllers, how the tech works, and how to troubleshoot issues with more detail than you'll find anywhere else. If you can't find something you're looking for, let us know in the forums. Enjoy!.</p>
+        <p>Welcome to the Enthusiast's Guide to Windows Mixed Reality! We know you might be looking to dive deeper on Windows Mixed Reality and learn how to get the most of your new headset and motion controllers, so we created the EG to provide you with exclusive information and answer the top questions people have about Windows Mixed Reality before and after they buy. In this guide, you'll find an FAQ, setup instructions, how to use your headset and controllers, how the tech works, and how to troubleshoot issues with more detail than you'll find anywhere else. If you can't find something you're looking for, let us know in the forums. Enjoy!</p>
         <ul class="pivots">
             <li>
                 <a href="#enthusiast">Enthusiast's Guide</a>
