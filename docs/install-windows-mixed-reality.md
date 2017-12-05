@@ -13,6 +13,10 @@ After you plug in your Windows Mixed Reality headset and the driver installs suc
 
 ![Welcome to Mixed Reality](images/1050px-mixedrealityportal.png)
 
+## Download Windows Mixed Reality
+
+Windows Mixed Reality is approximately 1GB in size, and your download times will vary depending on your internet connection. If you hit a message that says "We couldn't download the Mixed Reality software", please view [the troubleshooting steps](troubleshooting-windows-mixed-reality.md#we-couldnt-download-the-mixed-reality-software).
+
 ## Review and Accept Terms and Conditions
 
 To continue with setup you must have 2GB of free space on your PC. Review and press **I Agree** to the terms and conditions to continue
