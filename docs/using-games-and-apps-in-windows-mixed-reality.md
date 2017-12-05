@@ -66,7 +66,9 @@ Entering VR from Microsoft Edge within the Mixed Reality cliffhouse.
 
 Windows Mixed Reality for SteamVR allows users to run SteamVR experiences on Windows Mixed Reality immersive headsets. After installing  Windows Mixed Reality for SteamVR, users can launch their favorite SteamVR applications from their desktop or Steam library and play them directly on their Windows headset.
 
-To get started follow the [SteamVR setup instructions for Windows Mixed Reality](https://support.microsoft.com/en-us/help/4053622/windows-10-play-steamvr-games-in-windows-mixed-reality).
+To get started, follow the [SteamVR setup instructions for Windows Mixed Reality](https://support.microsoft.com/en-us/help/4053622/windows-10-play-steamvr-games-in-windows-mixed-reality).
+
+To get the most out of SteamVR for Windows Mixed Reality, and to set up beta updates to the software, see [Using SteamVR with Windows Mixed Reality](using-steamvr-with-windows-mixed-reality.md)
 
 ## See also
 
