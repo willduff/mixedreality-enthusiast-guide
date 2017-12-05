@@ -6,13 +6,13 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Ultra, 
 ---
 
 
-# Windows Mixed Reality minimum PC hardware compatibility guidelines
+# Minimum PC hardware compatibility guidelines
 
 **NOTE:** guidelines for development PCs are higher than those for consumers' PCs running mixed reality apps.
 
 Performance may vary depending on your exact setup. You'll also need to make sure your PC has the [right ports](recommended-adapters-for-windows-mixed-reality-capable-pcs.md) for the Windows Mixed Reality immersive headset that you are using.
 
-## Windows Mixed Reality PC Check
+## Windows Mixed Reality PC Check app
 
 ![Screenshot of Windows Mixed Reality PC Check](images/screenshot-mr-pc-check.jpg) 
 <a class="doc-storelink" href="https://www.microsoft.com/store/productid/9NZVL19N7CNC"><div>
