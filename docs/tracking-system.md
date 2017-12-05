@@ -1,13 +1,13 @@
 ---
-title: Tracking system
+title: How inside-out tracking works
 description: Information about the camera-based, inside-out tracking system used in Windows Mixed Reality headsets.
 ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, inside-out, inside out, tracking, camera
 ---
 
-# Tracking system
+# Inside-out tracking
 
-## How does tracking work?
+## How does inside-out tracking work?
 
 (101 level answer): the tracking system uses two visible light low resolution cameras to observe features in your environment, and fuses this information with IMU data to determine a precise position of the device in your environment.
 
@@ -27,7 +27,7 @@ There are two concerns to address to ensure tracking will work well for you:
 
 A good rule of thumb is if you can comfortably move around in the environment without feeling it is too dark and if you can observe the features on another persons face from across the room, then the tracking system probably has enough light.
 
-## How many features are enough features?
+## How many environmental features are enough features?
 
 The product has been designed to work in normal environments. Consider the thought experiment - if you were in a completely blank room (white walls, white ceiling, white floor) then the tracking system would find no features to track and would fail. If you were in a room that was covered in art work and decoration, then the tracking system would find many features to track and would work well. Typically decorated homes and offices have been demonstrated to have sufficient feature detail to track.
 
