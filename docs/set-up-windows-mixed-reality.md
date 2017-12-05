@@ -92,10 +92,6 @@ You can enable Cortana commands inside of mixed reality. This allows you to use 
 
 Mixed reality is better with speech
 
-## Download Windows Mixed Reality
-
-Windows Mixed Reality is approximately 1GB in size, and your download times will vary depending on your internet connection. If you hit a message that says "We couldn't download the Mixed Reality software", please view [the troubleshooting steps](troubleshooting-windows-mixed-reality.md#we-couldnt-download-the-mixed-reality-software).
-
 ## Setting up your audio headset
 
 Unless you purchased a Samsung HMD Odyssey (which has integrated AKG headphones and an integrated dual microphone array), you will need to get an audio headset (that has both mic AND headphones) and plug that into your HMD's 3.5mm audio jack. The 3.5mm audio headset jack for your HMD will - depending on the HMD model - be located either on the underside of the HMD visor or at the end of a short audio cable coming out of the HMD visor.
