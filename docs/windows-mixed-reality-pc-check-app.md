@@ -23,4 +23,4 @@ The Mixed Reality PC Check app only works on devices with Windows 10 after Versi
 ## See also
 * [Get help with PC compatibility checker results](https://support.microsoft.com/en-us/help/4045777/windows-10-get-help-with-pc-compatibility-in-windows-mixed-reality?preview)
 * [Before you buy - FAQs](before-you-buy-faqs.md)
-* [Check your compatibility](check-your-compatibility.md)
+* [Before you start](before-you-start.md)
