@@ -8,7 +8,8 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Ultra, 
 
 # Minimum PC hardware guidelines
 
-**NOTE:** guidelines for development PCs are higher than those for consumers' PCs running mixed reality apps. If you're a mixed reality developer, [see recommended development PC specifications](https://developer.microsoft.com/en-us/windows/mixed-reality/install_the_tools#immersive_headset_development).
+>[!NOTE]
+>Guidelines for development PCs are higher than those for consumers' PCs running mixed reality apps. If you're a mixed reality developer, [see recommended development PC specifications](https://developer.microsoft.com/en-us/windows/mixed-reality/install_the_tools#immersive_headset_development).
 
 Performance may vary depending on your exact setup. You'll also need to make sure your PC has the [right ports](recommended-adapters-for-windows-mixed-reality-capable-pcs.md) for the Windows Mixed Reality immersive headset that you are using.
 
@@ -16,9 +17,9 @@ Performance may vary depending on your exact setup. You'll also need to make sur
 
 The **[Windows Mixed Reality PC Check](windows-mixed-reality-pc-check-app.md)** app is the best way to make sure your PC is ready to run Windows Mixed Reality. 
 
-![Windows Mixed Reality PC Check app icon](images/Store-icon-windows-mixed-reality-pc-check.png)
-
-[Download the app for free from the Microsoft Store](https://www.microsoft.com/store/productid/9NZVL19N7CNC)
+<table>
+<td> <img alt="Windows Mixed Reality PC Check app icon" width="90" height="90" src="images/Store-icon-windows-mixed-reality-pc-check.png" /></td><td><a href="https://www.microsoft.com/store/productid/9NZVL19N7CNC">Download the app for free from the Microsoft Store</a></td>
+</table>
 
 Upon running the app, you'll get one of the following messages:
 * **You're good to go.** Your PC has what it takes to run Windows Mixed Reality.
@@ -30,7 +31,7 @@ You will then get an analysis of your PC against the required hardware, drivers,
 
 <table>
 <tr>
-<th></th><th> What it means</th>
+<th>Icon</th><th>What it means</th>
 </tr><tr>
 <td> <img alt="Succeeded" width="30" height="30" src="images/glyph-succeeded.png" /></td><td> Your PC passes the required item.</td>
 </tr><tr>
@@ -41,7 +42,7 @@ You will then get an analysis of your PC against the required hardware, drivers,
 </table>
 
 ## Compatibility guidelines
-> [!NOTE]
+> [!IMPORTANT]
 > We will be updating, making additions to and may be revising these Windows Mixed Reality PC Compatibility Guidelines. Please check back regularly for the latest guidelines and requirements.
 
 <table>
