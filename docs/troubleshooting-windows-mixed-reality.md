@@ -1,3 +1,4 @@
+
 ---
 title: Troubleshooting Windows Mixed Reality
 description: Advanced Windows Mixed Reality troubleshooting that goes beyond our standard consumer support documentation.
@@ -27,10 +28,12 @@ If you get this message, your PC doesn’t meet the minimum requirements needed 
 
 If you are seeing the following screen, try the following troubleshooting steps:
 1. Check your network connectivity. Your PC must be connected to the Internet to download Windows Mixed Reality.
-2. Make sure you don’t have any pending update by running **Settings > Windows Update > Check for Update**.
-3. Make sure you have Windows Update enabled.
-4. Restart your PC and try again.
-5. If you are on Enterprise managed network, and having issues downloading Mixed Reality Portal, it could be because your enterprise is using WSUS server, or have other policies that may block the download. Please check with your IT admin to make sure they enable the download for the enterprise.
+2. Make sure your internet is not set as a Metered Connection by going to: **Settings > Network & Internet > Status > Change connection properties > Set as metered connection > Off**. See more details on Metered Connections [here](https://support.microsoft.com/en-us/help/17452/windows-metered-internet-connections-faq).
+3. Make sure you don’t have any pending update by running **Settings > Windows Update > Check for Update**.
+4. Make sure you have Windows Update enabled.
+5. Restart your PC and try again.
+
+**Note**: If you are on Enterprise managed network, and having issues downloading Mixed Reality Portal, it could be because your enterprise is using WSUS server, or have other policies that may block the download. Please check with your IT admin to make sure they enable the download for the enterprise.
 
 ### Setup is stuck on the "Hang tight while we do some downloading" page
 
