@@ -45,11 +45,11 @@ You will then get an analysis of your PC against the required hardware, drivers,
 > [!IMPORTANT]
 > We will be updating, making additions to and may be revising these Windows Mixed Reality PC Compatibility Guidelines. Please check back regularly for the latest guidelines and requirements.
 
-<table>
+<table style="vertical-align: middle; text-align: center;">
 <tr>
-<th style="width:20%"></th><th style="width:40%">Windows Mixed Reality Ultra PCs<br /><img alt="Windows Mixed Reality Ultra badge" width="104" height="147" src="images/Badge-windows-mixed-reality-ultra-pc.png" /></th><th style="width:40%">Windows Mixed Reality PCs<br /><img alt="Windows Mixed Reality badge" width="103" height="120" src="images/Badge-windows-mixed-reality-pc.png" /></th>
+<th style="width:20%"></th><th style="width:40%">Windows Mixed Reality Ultra PCs</th><th style="width:40%">Windows Mixed Reality PCs</th>
 </tr><tr>
-<td>Operating System</td><td colspan="2" style="vertical-align: middle; text-align: center;">Windows 10 Fall Creators Update (RS3) - Home, Pro, Business, Education</td>
+<td style="vertical-align: middle; text-align: center;">Operating System</td><td colspan="2" style="vertical-align: middle; text-align: center;">Windows 10 Fall Creators Update (RS3) - Home, Pro, Business, Education</td>
 </tr><tr>
 <td>Processor</td><td>Intel Core i5 4590 (4th generation), quad core (or better) AMD Ryzen 5 1400 3.4Ghz (desktop), quad core (or better)</td><td>Intel Core i5 7200U (7th generation mobile), dual core with Intel&#174; Hyper-Threading Technology enabled (or better)</td>
 </tr><tr>
