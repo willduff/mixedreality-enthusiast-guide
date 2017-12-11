@@ -55,5 +55,3 @@ The engineering team internally uses the same mechanism for finding and filing b
 * [WebVR](webvr.md)
 * [SteamVR](using-steamvr-with-windows-mixed-reality.md)
 
-
-
