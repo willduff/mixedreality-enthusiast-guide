@@ -8,46 +8,37 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Ultra, 
 
 # Minimum PC hardware guidelines
 
-**NOTE:** guidelines for development PCs are higher than those for consumers' PCs running mixed reality apps.
+**NOTE:** guidelines for development PCs are higher than those for consumers' PCs running mixed reality apps. If you're a mixed reality developer, [see recommended development PC specifications](https://developer.microsoft.com/en-us/windows/mixed-reality/install_the_tools#immersive_headset_development).
 
 Performance may vary depending on your exact setup. You'll also need to make sure your PC has the [right ports](recommended-adapters-for-windows-mixed-reality-capable-pcs.md) for the Windows Mixed Reality immersive headset that you are using.
 
 ## Windows Mixed Reality PC Check app
 
-![Screenshot of Windows Mixed Reality PC Check](images/screenshot-mr-pc-check.jpg) 
-<a class="doc-storelink" href="https://www.microsoft.com/store/productid/9NZVL19N7CNC"><div>
-<div>
-Windows Mixed Reality PC Check
-</div><div>
-Microsoft Corporation
-</div><div>
-Available for free in the Microsoft Store
-</div>
-</div><div>
-<img alt="Windows Mixed Reality PC Check icon" width="150" height="150" src="images/store-icon-windows-mixed-reality-pc-check.png" />
-</div></a>
+The **[Windows Mixed Reality PC Check](windows-mixed-reality-pc-check-app.md)** app is the best way to make sure your PC is ready to run Windows Mixed Reality. 
 
+![Windows Mixed Reality PC Check app icon](images/Store-icon-windows-mixed-reality-pc-check.png)
 
-The *[Windows Mixed Reality PC Check](windows-mixed-reality-pc-check-app.md)* app is the best way to make sure your PC is ready to run mixed reality. Upon running the app, you'll get one of the following messages:
+[Download the app for free from the Microsoft Store](https://www.microsoft.com/store/productid/9NZVL19N7CNC)
+
+Upon running the app, you'll get one of the following messages:
 * **You're good to go.** Your PC has what it takes to run Windows Mixed Reality.
 * **You’re nearly there.** This PC may be able to run Windows Mixed Reality, but some features might be limited.
 * **Can't run mixed reality.** This PC doesn't meet the minimum requirements needed to run Windows Mixed Reality.
 
 You will then get an analysis of your PC against the required hardware, drivers, and operating system.
+![Screenshot of Windows Mixed Reality PC Check](images/screenshot-mr-pc-check.jpg) 
 
 <table>
 <tr>
 <th></th><th> What it means</th>
 </tr><tr>
-<td> <img alt="Succeeded" width="60" height="60" src="images/glyph-succeeded.png" /></td><td> Your PC passes the required item.</td>
+<td> <img alt="Succeeded" width="30" height="30" src="images/glyph-succeeded.png" /></td><td> Your PC passes the required item.</td>
 </tr><tr>
-<td> <img alt="Warning" width="60" height="60" src="images/glyph-warning.png" /></td><td> There may be issues with your PC for the given requirement. If you encounter issues, you may need to troubleshoot or upgrade your PC.</td>
+<td> <img alt="Warning" width="30" height="30" src="images/glyph-warning.png" /></td><td> There may be issues with your PC for the given requirement. If you encounter issues, you may need to troubleshoot or upgrade your PC.</td>
 </tr><tr>
-<td> <img alt="Error" width="59" height="60" src="images/glyph-error.png" /></td><td> Your PC does not meet the requirements for the specified item.</td>
+<td> <img alt="Error" width="30" height="30" src="images/glyph-error.png" /></td><td> Your PC does not meet the requirements for the specified item.</td>
 </tr>
 </table>
-
-
 
 ## Compatibility guidelines
 > [!NOTE]
