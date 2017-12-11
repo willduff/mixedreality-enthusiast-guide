@@ -18,9 +18,9 @@ Windows Mixed Reality is the first spatial operating system. Instead of using a 
 * **Teleporting (using gamepad):** Using a gamepad, you can teleport by pushing the left thumbstick forward.
 * **Teleporting (using mouse):** Using a mouse, hold down the right-click mouse button and release at your desired location.
 
-You can modify the direction you teleport in for all the above inputs by rotating the thumbstick (for the motion controllers and gamepad) or by using the scroll wheel on the mouse.
+    You can modify the direction you teleport in for all the above inputs by rotating the thumbstick (for the motion controllers and gamepad) or by using the scroll wheel on the mouse.
 
-A handy feature is called "Snap to app" that lets you jump to the ideal position to interact with app windows. Simply point you teleportation arc to a window and let go. The system will automatically place you in the ideal location to enjoy the content of that targeted window.
+    A handy feature is called "Snap to app" that lets you jump to the ideal position to interact with app windows. Simply point you teleportation arc to a window and let go. The system will automatically place you in the ideal location to enjoy the content of that targeted window.
 * **Virtually walking:** You can virtually move continuously by depressing the thumbstick (you should feel it click) on your motion controllers or gamepad and then moving in the desired direction.
 
 ## How do I launch an app?
@@ -67,12 +67,12 @@ To change the visual quality settings, go to **Settings > Mixed Reality > Visual
 
 ## How do I reset my home's furniture and app placement back to default?
 
-Go to **Settings > Mixed Reality > Environment > Reset my home**![Windows Settings panel to reset my home](images/1050px-environmentreset.png)
+Go to **Settings > Mixed Reality > Environment > Reset my home** ![Windows Settings panel to reset my home](images/1050px-environmentreset.png)
 
 ## How do I uninstall Windows Mixed Reality?
 1. Unplug your headset
 2. Close Mixed Reality Portal
-3. Go to **Settings > Mixed Reality > Uninstall > Uninstall**![Windows Settings panel to uninstall mixed reality](images/1050px-uninstall2.png)
+3. Go to **Settings > Mixed Reality > Uninstall > Uninstall** ![Windows Settings panel to uninstall mixed reality](images/1050px-uninstall2.png)
 
 ## How do I turn off the boundary?
 
