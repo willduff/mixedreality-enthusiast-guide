@@ -45,31 +45,31 @@ You will then get an analysis of your PC against the required hardware, drivers,
 > [!IMPORTANT]
 > We will be updating, making additions to and may be revising these Windows Mixed Reality PC Compatibility Guidelines. Please check back regularly for the latest guidelines and requirements.
 
-<table style="vertical-align: middle; text-align: center;">
+<table>
 <tr>
-<th style="width:20%"></th><th style="width:40%">Windows Mixed Reality Ultra PCs</th><th style="width:40%">Windows Mixed Reality PCs</th>
+<th style="width:20%"></th><th style="vertical-align: middle; text-align: center; width:40%">Windows Mixed Reality Ultra PCs</th><th style="vertical-align: middle; text-align: center; width:40%">Windows Mixed Reality PCs</th>
 </tr><tr>
-<td style="vertical-align: middle; text-align: center;">Operating System</td><td colspan="2" style="vertical-align: middle; text-align: center;">Windows 10 Fall Creators Update (RS3) - Home, Pro, Business, Education</td>
+<td style="vertical-align: middle">Operating System</td><td colspan="2" style="vertical-align: middle; text-align: center;">Windows 10 Fall Creators Update (RS3) - Home, Pro, Business, Education</td>
 </tr><tr>
-<td>Processor</td><td>Intel Core i5 4590 (4th generation), quad core (or better) AMD Ryzen 5 1400 3.4Ghz (desktop), quad core (or better)</td><td>Intel Core i5 7200U (7th generation mobile), dual core with Intel&#174; Hyper-Threading Technology enabled (or better)</td>
+<td style="vertical-align: middle">Processor</td><td>Intel Core i5 4590 (4th generation), quad core (or better) AMD Ryzen 5 1400 3.4Ghz (desktop), quad core (or better)</td><td>Intel Core i5 7200U (7th generation mobile), dual core with Intel&#174; Hyper-Threading Technology enabled (or better)</td>
 </tr><tr>
-<td>RAM</td><td>8GB DDR3 (or better)</td><td>8GB DDR3 dual channel (or better)</td>
+<td style="vertical-align: middle">RAM</td><td>8GB DDR3 (or better)</td><td>8GB DDR3 dual channel (or better)</td>
 </tr><tr>
-<td>Free disk space</td><td colspan="2" style="vertical-align: middle; text-align: center;">At least 10 GB</td>
+<td style="vertical-align: middle">Free disk space</td><td colspan="2" style="vertical-align: middle; text-align: center;">At least 10 GB</td>
 </tr><tr>
-<td>Graphics Card</td><td>NVIDIA GTX 960/1050 (or greater) DX12-capable discrete GPU AMD RX 460/560 (or greater) DX12-capable discrete GPU GPU must be hosted in a PCIe 3.0 x4+ Link slot</td><td>Integrated Intel&#174; HD Graphics 620 (or greater) DX12-capable integrated GPU <a href="https://en.wikipedia.org/wiki/List-of-Intel-graphics-processing-units#Ninth-generation">(Check if your model is greater)</a> NVIDIA MX150/965M (or greater) DX12-capable discrete GPU</td>
+<td style="vertical-align: middle">Graphics Card</td><td>NVIDIA GTX 960/1050 (or greater) DX12-capable discrete GPU AMD RX 460/560 (or greater) DX12-capable discrete GPU GPU must be hosted in a PCIe 3.0 x4+ Link slot</td><td>Integrated Intel&#174; HD Graphics 620 (or greater) DX12-capable integrated GPU <a href="https://en.wikipedia.org/wiki/List-of-Intel-graphics-processing-units#Ninth-generation">(Check if your model is greater)</a> NVIDIA MX150/965M (or greater) DX12-capable discrete GPU</td>
 </tr><tr>
-<td>Graphics Driver</td><td>Windows Display Driver Model (WDDM) 2.2 (7/17/2017 or later)</td><td>Windows Display Driver Model (WDDM) 2.2 (7/24/2017 or later)</td>
+<td style="vertical-align: middle">Graphics Driver</td><td>Windows Display Driver Model (WDDM) 2.2 (7/17/2017 or later)</td><td>Windows Display Driver Model (WDDM) 2.2 (7/24/2017 or later)</td>
 </tr><tr>
-<td><a href="Recommended-adapters-for-Windows-Mixed-Reality-Capable-PCs.md">Graphics display port</a></td><td>HDMI 2.0 or DisplayPort 1.2</td><td>HDMI 1.4 or DisplayPort 1.2</td>
+<td style="vertical-align: middle"><a href="Recommended-adapters-for-Windows-Mixed-Reality-Capable-PCs.md">Graphics display port</a></td><td>HDMI 2.0 or DisplayPort 1.2</td><td>HDMI 1.4 or DisplayPort 1.2</td>
 </tr><tr>
-<td>Display</td><td colspan="2" style="vertical-align: middle; text-align: center;">Connected external or integrated VGA (800x600) display (or better)</td>
+<td style="vertical-align: middle">Display</td><td colspan="2" style="vertical-align: middle; text-align: center;">Connected external or integrated VGA (800x600) display (or better)</td>
 </tr><tr>
-<td><a href="Recommended-adapters-for-Windows-Mixed-Reality-Capable-PCs.md">USB connectivity</a></td><td colspan="2" style="vertical-align: middle; text-align: center;">USB 3.0 Type-A or Type-C</td>
+<td style="vertical-align: middle"><a href="Recommended-adapters-for-Windows-Mixed-Reality-Capable-PCs.md">USB connectivity</a></td><td colspan="2" style="vertical-align: middle; text-align: center;">USB 3.0 Type-A or Type-C</td>
 </tr><tr>
-<td>Bluetooth connectivity (for <a href="Motion-controllers.md">motion controllers</a>)</td><td colspan="2" style="vertical-align: middle; text-align: center;">Bluetooth 4.0</td>
+<td style="vertical-align: middle">Bluetooth connectivity (for <a href="Motion-controllers.md">motion controllers</a>)</td><td colspan="2" style="vertical-align: middle; text-align: center;">Bluetooth 4.0</td>
 </tr><tr>
-<td>Expected headset framerate</td><td>90 Hz</td><td>60 Hz</td>
+<td style="vertical-align: middle">Expected headset framerate</td><td>90 Hz</td><td>60 Hz</td>
 </tr>
 </table>
 
