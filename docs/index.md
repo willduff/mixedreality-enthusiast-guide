@@ -79,7 +79,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, EG, ent
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div>
-                                                    <div class="cardImage bgdAccent1"> 
+                                                    <div class="cardImage"> 
                                                         <img src="images/Troubleshoot.jpg" alt="" />
                                                     </div>
                                                 </div>
@@ -98,7 +98,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, EG, ent
                                         <div class="cardPadding">
                                             <div class="card">
                                                 <div>
-                                                    <div class="cardImage bgdAccent1"> 
+                                                    <div class="cardImage"> 
                                                         <img src="images/plug-in-your-headset-tile.jpg" alt="" />
                                                     </div>
                                                 </div>
