@@ -94,13 +94,16 @@ Make sure the lights are turned on and that there isn't anything obstructing the
 
 Mixed Reality Portal has a **Play** button at the bottom of the screen that allows you to show a preview of what you're seeing in your headset on your desktop's screen. However, this feature is disabled on PCs with integrated graphics due to the load placed on the GPU
 
-## Headset Connectivity
+## HMD Connectivity
 
-### The screen inside of my headset is black
+### The screen inside of my HMD is black
 * Check to make sure that the HDMI cable is plugged in all the way
 * If you're using an HDMI adapter (e.g. a Mini DisplayPort to HDMI adapter), please try connecting the adapter to your PC before connecting the headset to the adapter.
 * Check to make sure the USB cable is plugged in a USB 3.0 or faster port. USB 3.0 ports have SS (Super Speed) written next to them. They are often (but not always) colored blue.
-* Consult the [Headset troubleshooting flow chart](troubleshooting-windows-mixed-reality.md)
+* Consult the Headset troubleshooting flow chart below
+
+### The screen inside of my HMD flickers, flashes or is black when using a Surface device
+Not all Surface devices are compatible with Windows Mixed Reality.  Learn more about [Surface compatiblity and requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md#windows-mixed-reality-and-surface) 
 
 ### My computer does not have an HDMI port
 
@@ -110,8 +113,11 @@ If your computer does not have an HDMI port, you will need to use a [supported a
 Windows Mixed Reality head mounted displays were not designed to work with extension cables. Use of extension cables with mixed reality head mounted displays is unsupported and use may impact your experience. 
 
 ### I am getting a "Check your display cable" error
-
-Make sure that you plugged your headset's HDMI cable into an **HDMI out** port on your PC, not an HDMI in port.
+* If you are using any adapters to connect your HMD to your PC, please make sure they support Windows Mixed Reality. Also try connecting the adapter to the PC, before connecting the HMD to the adapter.
+* If your PC has both integrated and discrete graphics, make sure you're using the HDMI port on your active graphics card. In some cases, this may mean that you'll need to connect your PC display to a non HDMI port.
+* Make sure your PC's HDMI port is working by trying to connect a PC monitor to it.
+* Make sure your graphics drivers are up to date. Download and install the ones from AMD, Nvidia or Intel directly as they will likely * be newer than what's published to Windows Update.
+* Make sure that you plugged your headset's HDMI cable into an **HDMI out** port on your PC, not an HDMI in port.
 
 ### I get a message that says "Connect your headset" even though I’ve plugged in my headset
 
@@ -137,8 +143,15 @@ After the device updates, you should see a Mixed Reality Device appear in Device
 
 ![Mixed Reality Device appear in Device Manager](images/mixedrealitydevices.png)
 
-### Headset Troubleshooting Flowcharts
+**Note**:If you have an "N"-edition of Windows, you will need to upgrade to a regular edition of Windows to use Windows Mixed Reality. 
 
+If manually installing the driver didn’t work, or you don't find it under Other Devices, then you probably need to uninstall the existing driver and reinstall it. 
+* Open up Device Manager (**Start > Device Manager**), look under **Mixed Reality devices** for your HMD, it should appear normal and healthy, without a yellow bang.
+* Right Click on the device and select **Uninstall Device**.
+* In the new popup that appears, select the check box **Delete the driver software for this device** and this click **Uninstall**.
+* When that completes unplug the HMD from your PC, and plug it back in. Windows Update will now download and install a new driver.
+
+### Headset Troubleshooting Flowcharts
 
 ![Black screen/Can't see anything](images/hmd-connectivity.jpg)
 
@@ -158,10 +171,6 @@ After the device updates, you should see a Mixed Reality Device appear in Device
 | 2181038087-12 | <ul><li>**One reason for the error code**: The HMD is plugged in to a USB port for which a non-Microsoft USB device driver is installed and running.</li><li>**Troubleshooting**:</li><ol start="1"><li>Launch Device Manager (run devmgmt.msc).</li><li>Expand the category for Universal Serial Bus controllers.</li>Right click to uninstall the driver for each item that includes the text "eXtensible Host Controller" **and** does not have "Microsoft" in the name.</li><li>Check "Delete the driver software for this device" to ensure the old drivers are removed.</li><li>Check "Delete the driver software for this device" to ensure the old drivers are removed.</li><li>You are done when you verify that each item that includes the text "eXtensible Host Controller" has "Microsoft" at the end.</li><li><li>Now you should not see this error when you plug in the HMD.</li></ol></ul><ul><li>**A second reason for the error code**: The HMD is not properly responding to commands from the HMD driver. Unlike the previous reason this issue is intermittent.</li><li>**Troubleshooting**:</li><ol start="1"><li>Unplug the HMD for 30 or more seconds.</li><li>Plug it back in.</li></ol></ul> |
 | 2181038087-13 | <ul><li>**Likely reason for the error code**: Windows Mixed Reality is unable to synchronize the Mixed Reality camera frame timestamps to your PC timestamps. </li><li>This is most likely caused by an incompatible USB Host controller. </li></ul> |
 
-
-
-
-
 ## Motion Controllers
 
 ### My controller is stuck in an infinite reboot (buzzing after LEDs cycle) OR the controller doesn't turn on at all
@@ -178,13 +187,17 @@ Your notebook may share Wifi antenna with Bluetooth when connected to 2.4GHz acc
 
 ![Wifi band selection settings can be found through device manager](images/wifi5ghz.png)
 
-### My second controller takes long time to re-connect
+### My second controller takes a long time to re-connect
 
 Some older Intel radios experience this issue if motion controllers are powered on at the same time. To workaround this, do not power on controllers at the same time.
 
-### Bluetooth radio stopped working after PC crash
+### Qualcomm Bluetooth radio cannot pair controllers after PC crash
 
-Some QCA radios have issue where radio may end up in bad state after Windows crash. Workaround until driver fix is available is to power off the PC completely. Keep eye on QCA radio driver updates for fix!
+Some Qualcomm (QCA) Bluetooth radios have issue where the device may end up in bad state after Windows crash. Workaround until driver fix is available is to power off the PC completely. This issue is fixed in QCA Bluetooth radio driver 10.0.0.448 or later. 
+
+### Poor controller tracking with Marvell radio
+
+Please ensure you have driver 15.68.9210.47 or later in use (**device manager->Bluetooth->Marvell AVASTAR Bluetooth Radio Adapter->Properties->Driver**) 
 
 ### Mixed Reality Portal is working, but motion controllers are tracking poorly (controllers keep flying away, shaking etc.)
 
@@ -219,8 +232,8 @@ If the controller isn’t working correctly and you’re unable to update the de
 4. Press and hold pairing button (tab at the bottom under the batteries).
 5. While holding pairing button, power on the controller by pressing and holding the Windows button for 5 seconds (keep both buttons held).
 6. Release buttons and wait for controller to power on. This takes up to 15 seconds and there are no indicators when device recovery is happening. If device powers on immediately on button release, recovery button sequence did not get registered and you need to try again.
-7. Remove old controller associations from Bluetooth settings (Settings->Bluetooth & other devices, select "Motion controller - Left" or "Motion controller - Right" and Remove device. After that pair controller with PC again.
-8. After connecting with host and headset, device will update firmware to latest available.
+7. Remove old controller associations from Bluetooth settings (**Settings->Bluetooth>other devices**, select **"Motion controller - Left"** or **"Motion controller - Right"** and **Remove device**. After that pair controller with PC again.
+8. After connecting with host and HMD, device will update firmware to latest available.
 
 ### Lights and indicators
 
@@ -246,22 +259,26 @@ First verify that your PC has a Bluetooth radio. If the device passed the Mixed 
 
 If your computer has Bluetooth already, but you are still having problems with the Motion Controllers, consider replacing your Bluetooth radio with the Plugable external Bluetooth Adapter plugged into USB.
 
-Note: you can only have one Bluetooth radio adapter active at a time. if you plug in an external radio in addition to an existing radio you need to disable your existing Bluetooth radio in Device Manager (right click on the adapter and click Disable Device) and un-pair / re-pair all of your previous Bluetooth devices.
+**Note**: you can only have one Bluetooth radio adapter active at a time. if you plug in an external radio in addition to an existing radio you need to disable your existing Bluetooth radio in Device Manager (right click on the adapter and click Disable Device) and un-pair / re-pair all of your previous Bluetooth devices.
 
 Motion Controllers should work with other Bluetooth keyboards, mice and game controllers, but the experience will vary depending on the model of keyboard, mouse or game controller you use.
 * If you're using a USB Bluetooth Adapter:
-* Please ensure the USB Bluetooth Adapter is connected to a USB 2.0 port (black and doesn’t say SS) if available
-* Please plug the USB Bluetooth Adapter into a port that is physically separated from:
-* the headset USB connector,
-* flash drives,
-* hard drives,
-* or wireless USB receivers like those for keyboards/mice.
-* Plugging the USB Bluetooth Adapter into the opposite side of the computer as far as possible from these other connectors is ideal.
-* Do not install any 3rd party software
-* Close the Bluetooth settings window if it's open. Leaving it open in the background means that a lot of extra calls are made to the Bluetooth protocol.
-* If you are using an internal Bluetooth card, please ensure you are using an external Bluetooth antenna. No external Bluetooth antenna in this case is known to cause tracking issues. If this doesn’t work, please use an external Bluetooth dongle (USB) after disabling the internal Bluetooth.
-* It is important that the device appears under Mouse, Keyboard & Pen category in the Bluetooth settings. If under Other devices then unpair/pair.
-* Please remove, un-pair and power off Bluetooth headphones and speakers. These are not supported with Windows Mixed Reality. You can use the headphone jack or built-in speakers on your Mixed Reality headset for the best audio experience.
+<ul style="padding-left:20px">
+  <li>Please ensure the USB Bluetooth Adapter is connected to a USB 2.0 port (black and doesn’t say SS) if available</il>
+  <li>Please plug the USB Bluetooth Adapter into a port that is physically separated from:</il>
+    <ul>
+    <li>the HMD USB connector,</il>
+    <li>flash drives,</il>
+    <li>hard drives,</il>
+    <li>or wireless USB receivers like those for keyboards/mice.</il>
+    </ul>
+  <li>Plugging the USB Bluetooth Adapter into the opposite side of the computer as far as possible from these other connectors is ideal.</il>
+  <li>Do not install any 3rd party software</li>
+  <li>Close the Bluetooth settings window if it's open. Leaving it open in the background means that a lot of extra calls are made to the Bluetooth protocol.</il>
+  <li>If you are using an internal Bluetooth card, please ensure you are using an external Bluetooth antenna. No external Bluetooth antenna in this case is known to cause tracking issues. If this doesn’t work, please use an external Bluetooth dongle (USB) after disabling the internal Bluetooth.</il>
+  <li>If direct line of sign to Bluetooth radio is problem or it is impossible to avoid interference close to the PC.</il>
+  <li>It is important that the device appears under Mouse, Keyboard & Pen category in the Bluetooth settings. If under Other devices then unpair/pair.</il>
+  <li>Please remove, un-pair and power off Bluetooth headphones and speakers. These are not supported with Windows Mixed Reality. You can use the headphone jack or built-in speakers on your Mixed Reality headset for the best audio experience.</il></ul>
 
 ### Motion Controller Troubleshooting Flowchart
 
@@ -269,9 +286,9 @@ Motion Controllers should work with other Bluetooth keyboards, mice and game con
 
 **Motion Controllers Troubleshooting Steps:**
 
-Make sure the motion controllers show up as 'Connected'. Just 'Paired' does not necessarily mean the controllers are connected to the PC. Controllers should appear under "Mouse, keyboard & pen" category. Motion controllers under "Other devices" have failed pairing process and is not functional.
+**Step A**: Make sure the motion controllers show up as 'Connected'. Just 'Paired' does not necessarily mean the controllers are connected to the PC. Controllers should appear under "Mouse, keyboard & pen" category. Motion controllers under "Other devices" have failed pairing process and is not functional.
 
-If you're using an external USB Bluetooth Adapter:
+**Step B**: If you're using an external USB Bluetooth Adapter:
 * Please ensure the USB Bluetooth Adapter is connected to a USB 2.0 port (black) if available
 * Please plug the USB Bluetooth Adapter into a port that is physically separated from:
 * the headset USB connector,
@@ -280,19 +297,19 @@ If you're using an external USB Bluetooth Adapter:
 * or wireless USB receivers like those for keyboards/mice.
 * Plugging the USB Bluetooth Adapter into the opposite side of the computer as far as possible from these other connectors is ideal.
 
-Verify there’s only one Bluetooth radio in the PC. Right click on the Windows Start Menu and select Device Manager. Expand the Bluetooth section and look for one Adapter. If you are using the desktop PC configuration with built-in radio, check if an external antenna is connected. If there isn’t an external antenna connected, it is expected to issues with tracking. Another option would be to use an external bluetooth dongle (USB), disable the internal Bluetooth capability and retry pairing and connecting.
+**Step C**: Verify there’s only one Bluetooth radio in the PC. Right click on the Windows Start Menu and select Device Manager. Expand the Bluetooth section and look for one Adapter. If you are using the desktop PC configuration with built-in radio, check if an external antenna is connected. If there isn’t an external antenna connected, it is expected to issues with tracking. Another option would be to use an external bluetooth dongle (USB), disable the internal Bluetooth capability and retry pairing and connecting.
 
-Close the Bluetooth settings window if it's open. Leaving it open in the background means that a lot of extra calls are made to the Bluetooth protocol.
+**Step D & E**: Close the Bluetooth settings window if it's open. Leaving it open in the background means that a lot of extra calls are made to the Bluetooth protocol.
 
-Please power off Bluetooth headphones and speakers. These are not supported with Windows Mixed Reality. You can use the headphone jack or built-in speakers on your Mixed Reality headset for the best audio experience.
+**Step F**: Check the virtual battery level on the motion controller - in mixed reality, turn the controllers over, and you'll be able to see a battery icon. If it is red, please go ahead and replace the batteries. Battery reporting typically reports higher than the actual level immediately after connecting a controller. Please wait around 15 seconds to let battery level to stabilize and then read the level.
 
-Check the virtual battery level on the motion controller - in mixed reality, turn the controllers over, and you'll be able to see a battery icon. If it is red, please go ahead and replace the batteries. Battery reporting typically reports higher than the actual level immediately after connecting a controller. Please wait around 15 seconds to let battery level to stabilize and then read the level.
+**Step G**: Please power off Bluetooth headphones and speakers. These are not supported with Windows Mixed Reality. You can use the headphone jack or built-in speakers on your Mixed Reality headset for the best audio experience.
 
 You can try a one-time workaround of unplugging the USB cable on your headset and plugging it back into the PC. This will restart the controller functionality on the PC.
 
-Check if the motion controllers LEDs are brightly lit or dimly lit - brightly lit means that they are paired and connected. Dimly lit means that they aren't connected.
+**Step H**: Check if the motion controllers LEDs are brightly lit or dimly lit - brightly lit means that they are paired and connected. Dimly lit means that they aren't connected.
 
-If the controller lights are flashing, they are undergoing a firmware update. Wait for the firmware update to complete and the controllers appear in Mixed Reality.
+**Step I**: If the controller lights are flashing, they are undergoing a firmware update. Wait for the firmware update to complete and the controllers appear in Mixed Reality.
 
 For laptops check if they are connected to 2.4GHz or 5GHz Wifi network. Laptops connected to 2.4GHz Wifi are typically sharing the same antenna with the Bluetooth connection. This may impact negatively either Wifi or Bluetooth performance, depending on product design. Options to resolve this include:
 * Network adapter settings typically allow to change preferred band to 5Ghz
@@ -305,12 +322,12 @@ Need to take account if user has paired earlier and Bluetooth settings have moti
 Windows Mixed Reality requires a WDDM 2.2 or later graphics driver in order to complete Mixed Reality setup.
 
 If your PC does not already have a compatible graphics driver, please try these sources:
-1. Check for the latest critical driver updates using Windows Update (**in Start -> Windows Settings -> Update and Security -> Check for Updates**)
+1. Check for the latest critical driver updates using Windows Update (**Start -> Windows Settings -> Update and Security -> Check for Updates**)
 2. Check for the latest optional driver updates using Device Manager (Right-click **Start -> Device Manager** -> expand **Display Adapters** -> right-click on the graphics card, choose **Update Driver -> Search automatically for updated driver software**)
 3. The website for the manufacturer (OEM) of your PC
 4. The website for the manufacturer of the graphics card in your PC (e.g., AMD, Intel, NVIDIA)
 
-Note: Recent graphics drivers tend to have performance and quality fixes for the latest content and experiences. If you are encountering performance problems with Mixed Reality, consider updating the graphics driver to the most recent version available for the graphics card in your PC.
+**Note**: Recent graphics drivers tend to have performance and quality fixes for the latest content and experiences. If you are encountering performance problems with Mixed Reality, consider updating the graphics driver to the most recent version available for the graphics card in your PC.
 
 ### Graphics Driver Troubleshooting Flowchart
 
@@ -319,6 +336,12 @@ This flow chart below helps further explain the best steps to acquire a WDDM 2.2
 ![Troubleshooting Flow Chart for Graphics Drivers](images/graphics-driver.jpg)
 
 ## Performance
+
+### How do I tell if the Windows Mixed Reality HMD is rendering at 60Hz or 90Hz framerate?
+
+The easiest way to check if WMR is running at 60 Hz or 90 Hz is to use the [Device Portal](https://docs.microsoft.com/en-us/windows/uwp/debug-test-perf/device-portal) -> Performance tab. 
+The Headset display -> visual quality settings only affect the rendering of the WMR Home experience. If you have a discrete GPU with HDMI 2.0 ports and a CPU with 4+ Physical cores, you should be getting 90 Hz. If your GPU only has a HDMI 1.4 output, you can use a DisplayPort to HDMI 2.0 adapter as a workaround. 
+[View the full list of recommended adapters here](https://holodocswiki.com/wiki/Recommended_adapters_for_Windows_Mixed_Reality_Capable_PCs) 
 
 ### What do I do if my PC appears to be running sluggish?
 
@@ -371,21 +394,21 @@ This means that the tracking system cannot generate pose, or the application has
 
 If this message persists, contact customer support
 
-### The view in the headset is completely frozen
+### The view in the HMD is completely frozen
 
 Typically, this means the application or a system level component has failed. Try the following.
 1. Press the "home" button to leave the application.
 2. Unplug the device, close MRP and plug the device back in.
 3. Reboot the PC.
 
-### I frequently see a black border around the edges of the view in the headset. Sometimes it looks like I'm looking down a tunnel
+### I frequently see a black border around the edges of the view in the HMD. Sometimes it looks like I'm looking down a tunnel
 
-This means that the application is not able to hit frame rate on your PC and the system is having to use old frames to render the view in the headset. Since applications only render the part of the world you are looking at, if they do not consistently hit their frame rates, then the system will attempt to continue to render the world from a previous point of view and will fill in the missing details with black. If this happens frequently, Check the following:
+This means that the application is not able to hit frame rate on your PC and the system is having to use old frames to render the view in the HMD. Since applications only render the part of the world you are looking at, if they do not consistently hit their frame rates, then the system will attempt to continue to render the world from a previous point of view and will fill in the missing details with black. If this happens frequently, Check the following:
 1. Close or terminate all unneeded programs to free up memory and CPU.
 2. Reduce detail settings in your application.
 3. Reduce detail settings in Windows Mixed Reality settings.
 
-### The view in the headset is jittering and stuttering a lot
+### The view in the HMD is jittering and stuttering a lot
 
 There are several reasons this may happen. The primary causes are the system not being able to render content to the headset, or the tracking system is experiencing problems. Check the following:
 1. Make sure your PC is not under resource contention. Open Task Manager and ensure your compute resources are free (e.g. 80% CPU free, 400MB of ram and disk IO is below 80%).
@@ -491,9 +514,9 @@ Microsoft Edge does not currently support haptics on the WebVR gamepad API exten
 
 ## SteamVR
 
-### SteamVR won't launch or continuously crashes
-1. Launch the Mixed Reality Portal and make your way to the Windows Mixed Reality Home, then try launching SteamVR again.
-2. Confirm that you aren't running a Beta version of the Steam client.
+### I get a message that says “To use SteamVR with Windows Mixed Reality, you need to install the latest Windows Update." or "Windows Developer Mode Required"
+1. Make sure your PC is running the latest version of Windows 10. To check this, go to Settings  > System > About. Under Windows specifications, make sure OS Build is 16299.64 or greater.
+2. Make sure you don’t have any updates waiting to download or install. Go to Settings  > Update & Security > Windows Update, and select Check for updates. You may have to check for updates multiple times so keep checking for updates until no further updates are available and then restart your PC.
 
 ### My controllers aren't working as expected
 1. Close SteamVR.
@@ -502,9 +525,24 @@ Microsoft Edge does not currently support haptics on the WebVR gamepad API exten
 4. If issues persist please file feedback using the Windows Feedback Hub under the Mixed Reality category and include SteamVR in the summary.
 
 ### My games are running slowly
-1. Confirm you're running against the recommended specs for the Windows Mixed Reality SteamVR Preview.
-2. Confirm you're running against the recommended specs for the game located on the Steam page.
-3. If issues persist please file feedback using the Windows Feedback Hub under the Mixed Reality category and include SteamVR in the summary.
+1. Confirm that your PC meets the specifications for the SteamVR game you are playing.
+2. In Mixed Reality Portal on your desktop, select Pause to stop desktop preview.
+3. Follow the instructions above to make sure you are running Windows 10 build 16299.64 or later.
+4. Make sure your PC has the latest graphics drivers.
+5. Check Task Manager to see what other processes might be running on your PC and consuming resources.
+6. Check to see if Steam is downloading a game in the background. This can consume resources and make games run poorly.
+7. There is a known performance issue that affects a small class of apps that do not have a visible window. The primary example of this is SteamVR Home. While the vast majority of apps do not fall into this category, a fix will be available in a future update.
+
+If you're still running into unexpected performance issues, send us feedback using the Windows Feedback Hub. Make sure to follow the instructions to [include a SteamVR Performance Trace](using-steamvr-with-windows-mixed-reality.md#sharing-feedback-on-steamvr). 
+
+### SteamVR is showing a compositor error (e.g. Shared IPC Compositor Connect Failed (400))
+There is a known issue where this can happen if your headset and primary monitor are on two different video adapters. To work around, attach your monitor to the same adapter as your headset and configure that monitor to be the primary using **Settings app -> System -> Display**
+
+### SteamVR content appears in the wrong place (e.g., beneath the floor or above my head)
+Try this to reset your position: 
+1. Click the left controller's thumbstick to bring up the **SteamVR Dashboard**
+2. Click the **Settings** button
+3. Click **Reset Seated Position**
 
 ## Speech and Audio
 
@@ -520,6 +558,7 @@ Other troubleshooting steps:
 * Make sure your audio headset is plugged into the audio jack completely - the Acer headset in particular may require more care to ensure the audio headset is plugged in all the way.
 * Check that the audio headset/mic is plugged into the headset and not the PC.
 * The Windows Sound Control Panel shows a list of enabled audio endpoints. It does not by default show disabled endpoints. The headset audio device will be disabled when you're not wearing the headset, so you have to right-click in the sound control panel and choose "Show disabled devices" to see it; the device name is "Realtek USB2.0 Audio". Once you do this, you can change the friendly name in the "Properties" page to something you'll recognize more easily. Do this for both the playback and recording tabs.
+* If your audio is not working in Mixed Reality apps (for example Netflix), this may be caused by a known issue where Windows Mixed Reality is not be automatically updated to match the OS version. To fix this issue and get the best Mixed Reality experience, go to **Settings -> Update & Security -> Windows Update -> Check for Updates**.
 
 ### I'm experiencing sudden volume changes, lost audio, or buzzing
 
@@ -563,3 +602,66 @@ On some PCs, the default voice capture gain for your headset-connected microphon
 ### I only have one audio headset and I want to use it for both Desktop and my headset
 
 There is no way to use the audio device connected to (or part of) the headset for audio playback when the device is not worn. If you only have one audio headset and not an headset with built in headphones, you may want to connect the audio headset to the host PC instead of the headset. Then you must turn off "switch to headset audio" in the MRP settings.
+
+## Accessing your Desktop in Mixed Reality
+
+### Desktop App
+You can access your PC desktop in Mixed Reality using the Desktop app. You can launch Desktop app in the headset from **Windows Button > All apps > Desktop** 
+
+### Using Desktop app with Multiple Monitors
+By default, Desktop app automatically switch to display the monitor with focus. 
+If you wish to see all of your monitors in Mixed Reality, follow steps below: 
+* Click the monitor icon on the top left corner of the app
+* Disable "Automatically Switch Monitor"
+* Pick the monitor you wish to see
+* Launch another instance of the Desktop app
+* Pick the monitor you wish to see on that instance 
+* Repeat for as many physical monitors as you have. 
+Please note that you will have to re-pick which monitor to show on each Desktop app every time you restart Mixed Reality. 
+
+### Desktop apps showing Black Screen
+If the Desktop app shows only a black screen, and your PC has Nvidia hybrid GPU, the issue may be caused by Nvidia device running the runtimebroker.exe on the discrete GPU instead of the integrated one. To fix this issue, follow these instructions under "[How do I create Optimus settings for a new program?](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/~/how-do-i-customize-optimus-profiles-and-settings%3F)" to add C:\windows\system32\runtimebroker.exe and force it to run on the "Integrated graphics" processor. 
+
+## Uninstalling Mixed Reality
+You can uninstall Windows Mixed Reality from **Settings -> Mixed Reality -> Uninstall**. 
+If you uninstall Windows Mixed Reality and then see a message that says "We couldn't finish uninstalling Windows Mixed Reality," here's what to do. 
+**Note**: This section is intended for advanced users. It involves modifying the registry and using Windows PowerShell to run commands. If you modify the registry incorrectly, serious problems might occur. Make sure to follow these steps carefully. For added protection, back up your registry before you modify it. Then, you can restory the registry if a problem occurrs. For more info, see How to back up and restory the registry in Windows. 
+
+1. Restart your PC.
+2. In the **Search** box, type "regedit" and then select **Yes**.
+3. Remove the following registry values:
+<ul>
+    <li><b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Holographic</b>, then delete <b>FirstRunSucceeded</b>.</li> 
+    <li><b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Holographic\SpeechAndAudio</b>, then delete <b>PreferDesktopSpeaker</b> and <b>PreferDesktopMic</b>.</li> 
+    <li><b>HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore> Settings\Holographic</b>, then delete <b>DisableSpeechInput</b>. Note:the registry items in HHKEY_CURRENT_USER must be deleted for every user account on the PC that has used Windows Mixed Reality.</li> 
+    <li><b>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\PerceptionSimulationExtensions</b>, then delete <b>DeviceID</b> and <b>Mode</b>.</li> 
+    <li><b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Holographic</b>, then delete <b>OnDeviceLearningCompleted</b>.</li> 
+</ul>
+
+4. Remove the following registry keys: 
+<ul>
+  <li> <b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\HoloSI</b></li> 
+  <li> <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\HoloSI</b></li> 
+  <li> <b>HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Settings\HolographicPreferences</b></li>  
+</ul>
+
+5. Close Registry Editor.
+
+6. Navigate to **C:\Users\user name\AppData\Local\Packages\Microsoft.Windows.HolographicFirstRun_cw5n1h2txyewy\LocalState**, and then delete **RoomBounds.json**. Repeat this for each user who has used Windows Mixed Reality.
+
+7. Open admin cmd prompt and navigate to **C:\ProgramData\WindowsHolographicDevices\SpatialStore\HoloLensSensors**. Then delete the contents of the **HeadTracking data** folder (but not the folder itself).
+
+8. Type "powershell" in the **Search box**, right-click **Windows PowerShell**, and then select **Run as administrator**.
+
+9. In Windows PowerShell, do the following:
+<ul>
+  <li>Copy and paste the following at the command prompt, then press Enter: <b>Dism /online /Get-Capabilities</b></li> 
+  <li>Copy the Capability Identity that begins with Analog.Holographic.Desktop (if it isn't there, that means this item isn't installed. In that case, skip to step 10 ).</li> 
+  <li>Copy and paste the following command prompt, then press Enter: <b>Dism /online /Remove-Capability /CapabilityName:the Capability Identity copied in the last step</b></li>
+</ul>
+
+10. Restart your PC.
+
+
+
+
