@@ -15,7 +15,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, inside-
 
 Because tracking on Windows Mixed Reality immersive headsets works like tracking on [Microsoft HoloLens](www.hololens.com), you may find this video useful:
 
-[!VIDEO https://www.youtube.com/embed/TneGSeqVAXQ]
+>[!VIDEO https://www.youtube.com/embed/TneGSeqVAXQ]
 
 ## What do I need to make tracking work well?
 
