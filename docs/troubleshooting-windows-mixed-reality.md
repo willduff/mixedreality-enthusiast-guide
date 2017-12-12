@@ -1,4 +1,3 @@
-
 ---
 title: Troubleshooting Windows Mixed Reality
 description: Advanced Windows Mixed Reality troubleshooting that goes beyond our standard consumer support documentation.
