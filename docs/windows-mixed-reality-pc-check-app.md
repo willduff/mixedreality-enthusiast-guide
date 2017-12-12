@@ -8,7 +8,9 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, compati
 
 # Windows Mixed Reality PC Check app
 
-On Windows 10 PCs with at least "Version 1607" (Anniversary Update), this application can check your hardware and software to determine whether the device can support Windows Mixed Reality in its current state. ![Snapshot of results from PC Check app](images/450px-snapshot-of-results-from-pc-check-app.png)
+On Windows 10 PCs with at least "Version 1607" (Anniversary Update), this application can check your hardware and software to determine whether the device can support Windows Mixed Reality in its current state. 
+
+![Snapshot of results from PC Check app](images/450px-snapshot-of-results-from-pc-check-app.png)
 
 ## How do I get the app?
 
