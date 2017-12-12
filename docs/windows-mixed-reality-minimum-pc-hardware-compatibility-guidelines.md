@@ -18,7 +18,7 @@ Performance may vary depending on your exact setup. You'll also need to make sur
 The **[Windows Mixed Reality PC Check](windows-mixed-reality-pc-check-app.md)** app is the best way to make sure your PC is ready to run Windows Mixed Reality. 
 
 <table style="width: auto">
-<td style="border: none"> <img alt="Windows Mixed Reality PC Check app icon" width="90" height="90" src="images/Store-icon-windows-mixed-reality-pc-check.png" /></td><td style="vertical-align: middle; border: none"><a href="https://www.microsoft.com/store/productid/9NZVL19N7CNC">Download the app for free from the Microsoft Store</a></td>
+<td style="border: none"> <img alt="Windows Mixed Reality PC Check app icon" width="90" height="90" src="images/Store-icon-windows-mixed-reality-pc-check.png" /></td><td style="vertical-align: middle; border: none"><a href="https://www.microsoft.com/store/productid/9NZVL19N7CNC">Download the app for free <br> from the Microsoft Store</a></td>
 </table>
 
 Upon running the app, you'll get one of the following messages:
