@@ -109,5 +109,5 @@ Please also note the following guidance for use of an external USB 3.0 hub:
 * The Plugable 10-Port USB 3.0 SuperSpeed Hub with 48W Power Adapter is known to work well with Windows Mixed Reality headsets and most PCs.
 
 ## See also
-* [Troubleshooting headset connectivity](troubleshooting-windows-mixed-reality.md#headset-connectivity)
+* [Troubleshooting headset connectivity](troubleshooting-windows-mixed-reality.md#hmd-connectivity)
 * [Windows Mixed Reality minimum PC hardware compatibility guidelines](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md)
