@@ -10,7 +10,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, get sta
 
 ## Set up your motion controllers
 
-The next step is to set up your motion controllers. Windows Mixed Reality motion controllers require Bluetooth 4.0. If your PC does not have onboard Bluetooth, you will need to plugin a USB Bluetooth dongle that supports Bluetooth 4.0 to enable your motion controllers.
+Windows Mixed Reality motion controllers require Bluetooth 4.0. If your PC does not have built-in Bluetooth, you will need to plug in a USB Bluetooth adapter that supports Bluetooth 4.0 to enable your motion controllers.
 
 **Common issues:**
 1. Verify you have one and only one Bluetooth radio active on your PC. If you have more than one Bluetooth radio, you’ll need to disable the other radios in Device Manager.
@@ -48,15 +48,13 @@ Once controller firmware update is complete it will restart and re-connect to ho
 
 The next step is to choose a room scale or desk scale experience:
 
-**Option 1: Set me up for all experiences ("room scale")** will allow you to walk around the room and is the most immersive mixed reality experience. We recommend you at clear at least 5 foot x 7 foot (1.5 meters x 2 meters) of space for mixed reality.
+**Option 1: Set me up for all experiences (also known as room scale)** will allow you to walk around the room and is the most immersive mixed reality experience. We recommend you at clear at least 5 foot x 7 foot (1.5 meters x 2 meters) of space for mixed reality.
 
-**Option 2: Set me up for seated and standing experience ("desk scale")** experience will work at your desk. It's a good option if you don't have a lot of room in your space. It also means that you will be using your headset without a boundary. You'll need to stay in one place, as you'll have no boundary to help you avoid physical obstacles. Also, some apps and games may be designed to be used with a boundary, so they might not work as intended.
+**Option 2: Set me up for seated and standing (also known as desk scale)** experience will work at your desk. It's a good option if you don't have a lot of room in your space. It also means that you will be using your headset without a boundary. You'll need to stay in one place, as you'll have no boundary to help you avoid physical obstacles. Also, some apps and games may be designed to be used with a boundary, so they might not work as intended.
 
 ![Choose a setup](images/1050px-chooseasetup.png)
 
-Choose an option.
-
-### Option 1: Set me up for all experiences ("room scale")
+### If you choose "Set me up for all experiences"
 
 Soon, your room will become a virtual world where you can walk around and interact! Stand up and clear some space in your room for running mixed reality (e.g. clear some floor space and move your chair to the side of the room). We recommend you at clear at least 5 foot x 7 foot (1.5 meters x 2 meters) of space for mixed reality.
 
@@ -80,23 +78,27 @@ Keep your headset pointed toward your PC.
 
 Here's your boundary.
 
-### Option 2: Set me up for seated and standing experience ("desk scale")
+### If you choose "Set me up for seated and standing"
 
 There are no additional steps required if you choose this option.
 
 ## Set up speech
 
-You can enable Cortana commands inside of mixed reality. This allows you to use speech commands inside of mixed reality to teleport, open apps, and do other things. You'll learn more about this in the [learn mixed reality](learn-mixed-reality.md) chapter.
+You can enable Cortana commands inside of mixed reality. This allows you to use speech commands inside of mixed reality to teleport, open apps, and do other things. You'll learn more about this in the [Learn Mixed Reality](learn-mixed-reality.md) chapter.
 
 ![Mixed reality is better with speech](images/1050px-betterwithspeech.png)
 
-Mixed reality is better with speech
-
 ## Set up your audio headset
 
-Unless you purchased a Samsung HMD Odyssey (which has integrated AKG headphones and an integrated dual microphone array), you will need to get an audio headset (that has both mic AND headphones) and plug that into your HMD's 3.5mm audio jack. The 3.5mm audio headset jack for your HMD will - depending on the HMD model - be located either on the underside of the HMD visor or at the end of a short audio cable coming out of the HMD visor.
+Unless you purchased a Samsung HMD Odyssey (which has integrated AKG headphones and an integrated dual microphone array), you will need to get an audio headset (that has both microphone and headphones) and plug that into your headset's 3.5mm audio jack. The 3.5mm audio jack for your headset will - depending on the headset model - be located either on the underside of the headset visor or at the end of a short audio cable coming out of the headset visor.
+
+## Launching mixed reality after the first time
+
+Entering mixed reality a second time is as easy as putting the headset back on while its connected to your PC. You can also launch the Mixed Reality Portal app manually by opening it from the Start menu. Input and audio will route automatically to the headset when you put it on, or you can trigger this manually by pressing **Windows + Y** on your keyboard. 
 
 ## See also
 
-* [Troubleshooting > Installation and Setup](troubleshooting-windows-mixed-reality.md#installation-and-setup)
-* [Learn mixed reality](learn-mixed-reality.md)
+* [Troubleshooting installation and setup](troubleshooting-windows-mixed-reality.md#installation-and-setup)
+* [Learn Mixed Reality](learn-mixed-reality.md)
+* [How motion controllers work](motion-controllers.md)
+* [How inside-out tracking works](tracking-system.md)
