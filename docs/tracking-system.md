@@ -13,7 +13,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, inside-
 
 **More details:** The tracking system uses two low-resolution black and white cameras to identify features in your environment in visible light. The system will triangulate its position based on the observed features, and supplement this information by fusing high rate IMU data to produce a continuous pose estimation for the HMD in your environment. The pose information is used by both applications to render a scene and by the system to correct this rendering for any mis-prediction in time and position. Information on your environment is stored on your PC so that the tracking system can recall environment specific data such as the physical location of the boundary in your room. If you use your device in multiple rooms, you can set up different boundaries in each room and the tracking system will be able to recall the specific boundary for the specific room.
 
-Because tracking on Windows Mixed Reality immersive headsets works like tracking on [Microsoft HoloLens](www.hololens.com), you may find this video useful:
+Because tracking on Windows Mixed Reality immersive headsets works like tracking on [Microsoft HoloLens](https://www.microsoft.com/en-us/hololens), you may find this video useful:
 
 >[!VIDEO https://www.youtube.com/embed/TneGSeqVAXQ]
 
