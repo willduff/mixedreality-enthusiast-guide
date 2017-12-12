@@ -161,3 +161,4 @@ More information on Surface compatibility with Windows Mixed Reality is availabl
 
 ## See also
 * [Recommended adapters for Windows Mixed Reality capable PCs](recommended-adapters-for-windows-mixed-reality-capable-pcs.md)
+* [Windows Mixed Reality PC Check app](windows-mixed-reality-pc-check-app.md)
