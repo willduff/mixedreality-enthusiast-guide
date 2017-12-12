@@ -43,8 +43,8 @@ This will lead you to Thank You page. At this point, your feedback has been succ
 
 > [!IMPORTANT]
 > Before filing a bug, please ensure you meet the following constraints so that the logs are successfully uploaded with the feedback.
-  * Have a minimum of 3GB free disk space available on the main drive of the device.
-  * Ensure that a non-metered network is available in order to upload cabs.
+>  * Have a minimum of 3GB free disk space available on the main drive of the device.
+>  * Ensure that a non-metered network is available in order to upload cabs.
 
 
 ## See also
