@@ -139,7 +139,7 @@ These tables will help you determine if you'll need display or USB adapters for 
     <th style="border: 1px solid black; background-color: lightgrey">USB 3.0 Type-A</th>
     <th style="border: 1px solid black; background-color: lightgrey">USB 3.0 Type-C</th>
   </tr>
-  <tr style="border: 1px solid black;>
+  <tr style="border: 1px solid black;">
 	<td style="text-align: center; vertical-align: middle; border: 1px solid black">✔️</td>
 	<td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
 	<td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
@@ -147,9 +147,9 @@ These tables will help you determine if you'll need display or USB adapters for 
 	<td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
 	<td style="text-align: center; vertical-align: middle; border: 1px solid black">✔️</td>
 	<td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
-	<td style="border: 1px solid black;>None</td>
+	<td style="border: 1px solid black;">None</td>
 </tr>
-  <tr style="border: 1px solid black;>
+  <tr style="border: 1px solid black;">
     <td style="text-align: center; vertical-align: middle; border: 1px solid black">✔️</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
@@ -157,9 +157,9 @@ These tables will help you determine if you'll need display or USB adapters for 
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black">✔️</td>
-    <td style="border: 1px solid black;>USB 3.0 Type-C to USB 3.0 Type-A</td>
+    <td style="border: 1px solid black;">USB 3.0 Type-C to USB 3.0 Type-A</td>
   </tr>
-  <tr style="border: 1px solid black;>
+  <tr style="border: 1px solid black;">
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black">✔️</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
@@ -167,9 +167,9 @@ These tables will help you determine if you'll need display or USB adapters for 
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black">✔️</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
-    <td style="border: 1px solid black;>None</td>
+    <td style="border: 1px solid black;">None</td>
   </tr>
-  <tr style="border: 1px solid black;>
+  <tr style="border: 1px solid black;">
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black">✔️</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
@@ -177,9 +177,9 @@ These tables will help you determine if you'll need display or USB adapters for 
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black">✔️</td>
-    <td style="border: 1px solid black;>USB 3.0 Type-C to USB 3.0 Type-A</td>
+    <td style="border: 1px solid black;">USB 3.0 Type-C to USB 3.0 Type-A</td>
   </tr>
-  <tr style="border: 1px solid black;>
+  <tr style="border: 1px solid black;">
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black">✔️</td>
@@ -187,9 +187,9 @@ These tables will help you determine if you'll need display or USB adapters for 
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black">✔️</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
-    <td style="border: 1px solid black;>DisplayPort 1.x to HDMI 2.0</td>
+    <td style="border: 1px solid black;">DisplayPort 1.x to HDMI 2.0</td>
   </tr>
-  <tr style="border: 1px solid black;>
+  <tr style="border: 1px solid black;">
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black">✔️</td>
@@ -197,9 +197,9 @@ These tables will help you determine if you'll need display or USB adapters for 
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black">✔️</td>
-    <td style="border: 1px solid black;>DisplayPort 1.x to HDMI 2.0 USB 3.0 Type-C to USB 3.0 Type-A</td>
+    <td style="border: 1px solid black;">DisplayPort 1.x to HDMI 2.0 USB 3.0 Type-C to USB 3.0 Type-A</td>
   </tr>
-  <tr style="border: 1px solid black;>
+  <tr style="border: 1px solid black;">
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
@@ -207,9 +207,9 @@ These tables will help you determine if you'll need display or USB adapters for 
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black">✔️</td>
     <td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
-    <td style="border: 1px solid black;>Mini DisplayPort 1.x to HDMI 2.0</td>
+    <td style="border: 1px solid black;">Mini DisplayPort 1.x to HDMI 2.0</td>
   </tr>
-  <tr style="border: 1px solid black;>
+  <tr style="border: 1px solid black;">
 	<td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
 	<td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
 	<td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
@@ -217,9 +217,9 @@ These tables will help you determine if you'll need display or USB adapters for 
 	<td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
 	<td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
 	<td style="text-align: center; vertical-align: middle; border: 1px solid black">✔️</td>
-	<td style="border: 1px solid black;>Mini DisplayPort 1.x to HDMI 2.0 USB 3.0 Type-C to USB 3.0 Type-A</td>
+	<td style="border: 1px solid black;">Mini DisplayPort 1.x to HDMI 2.0 USB 3.0 Type-C to USB 3.0 Type-A</td>
   </tr>
-  <tr style="border: 1px solid black;>
+  <tr style="border: 1px solid black;">
   	<td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
   	<td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
   	<td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
@@ -227,9 +227,9 @@ These tables will help you determine if you'll need display or USB adapters for 
   	<td style="text-align: center; vertical-align: middle; border: 1px solid black">✔️</td>
   	<td style="text-align: center; vertical-align: middle; border: 1px solid black">✔️</td>
   	<td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
-  	<td style="border: 1px solid black;>USB 3.0 Type-C to HDMI 2.0</td>
+  	<td style="border: 1px solid black;">USB 3.0 Type-C to HDMI 2.0</td>
   </tr>
-  <tr style="border: 1px solid black;>
+  <tr style="border: 1px solid black;">
 	<td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
 	<td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
 	<td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
@@ -237,7 +237,7 @@ These tables will help you determine if you'll need display or USB adapters for 
 	<td style="text-align: center; vertical-align: middle; border: 1px solid black">✔️</td>
 	<td style="text-align: center; vertical-align: middle; border: 1px solid black"> -</td>
 	<td style="text-align: center; vertical-align: middle; border: 1px solid black">✔️</td>
-	<td style="border: 1px solid black;>USB 3.0 Type-C to HDMI 2.0 USB 3.0 Type-C to USB 3.0 Type-A</td>
+	<td style="border: 1px solid black;">USB 3.0 Type-C to HDMI 2.0 USB 3.0 Type-C to USB 3.0 Type-A</td>
   </tr>
 </table>
 
