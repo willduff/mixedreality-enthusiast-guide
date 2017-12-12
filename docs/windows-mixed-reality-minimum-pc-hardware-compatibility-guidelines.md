@@ -17,7 +17,7 @@ Performance may vary depending on your exact setup. You'll also need to make sur
 
 The **[Windows Mixed Reality PC Check](windows-mixed-reality-pc-check-app.md)** app is the best way to make sure your PC is ready to run Windows Mixed Reality. 
 
-<table border="0">
+<table>
 <td> <img alt="Windows Mixed Reality PC Check app icon" width="90" height="90" src="images/Store-icon-windows-mixed-reality-pc-check.png" /></td><td style="vertical-align: middle"><a href="https://www.microsoft.com/store/productid/9NZVL19N7CNC">Download the app for free from the Microsoft Store</a></td>
 </table>
 
@@ -99,35 +99,35 @@ More information on Surface compatibility with Windows Mixed Reality is availabl
 		<th> Surface </th><th> Windows Mixed Reality supported? </th><th> Minimum configuration </th><th> Notes</th>
 	</tr>
 	<tr>
-		<td> Surface Pro (original)/ Surface Pro 2 </td><td> No </td><td> </td><td></td>
+		<td style="vertical-align: middle"> Surface Pro (original)/ Surface Pro 2 </td><td style="vertical-align: middle"> No </td><td> </td><td></td>
 	</tr>
 	<tr>
-		<td> Surface Pro 3 </td><td> No </td><td> </td><td></td>
+		<td style="vertical-align: middle"> Surface Pro 3 </td><td style="vertical-align: middle"> No </td><td> </td><td></td>
 	</tr>
 	<tr>
-		<td> Surface Pro 4 </td><td> No </td><td> </td><td></td>
+		<td style="vertical-align: middle"> Surface Pro 4 </td><td style="vertical-align: middle"> No </td><td> </td><td></td>
 	</tr>
 	<tr>
-		<td> Surface 3 </td><td> No </td><td> </td><td></td>
+		<td style="vertical-align: middle"> Surface 3 </td><td style="vertical-align: middle"> No </td><td> </td><td></td>
 	</tr>
 	<tr>
-		<td> Surface Book </td><td> No </td><td> </td><td></td>
+		<td style="vertical-align: middle"> Surface Book </td><td style="vertical-align: middle"> No </td><td> </td><td></td>
 	</tr>
 	<tr>
-		<td> Surface Book with Performance Base </td><td> No </td><td> </td><td></td>
+		<td style="vertical-align: middle"> Surface Book with Performance Base </td><td style="vertical-align: middle"> No </td><td> </td><td></td>
 	</tr>
 	<tr>
-		<td > Surface Pro (2017) </td><td> Yes </td><td> Intel 7th generation Core i5/i7 with 8GB of RAM or more </td>
+		<td style="vertical-align: middle"> Surface Pro (2017) </td><td style="vertical-align: middle"> Yes </td><td style="vertical-align: middle"> Intel 7th generation Core i5/i7 with 8GB of RAM or more </td>
 		<td>
 			<ul>
-				<li>Requires HDMI 2.0-compatible Mini Display Port adapter</li>
+				<li>Requires HDMI 2.0-compatible Mini DisplayPort adapter</li>
 				<li>Requires <a href="https://support.microsoft.com/en-us/help/4023450/surface-surface-battery-and-power">Performance Slider</a> set to “Best Performance” during usage</li>
 				<li>Achieves Windows Mixed Reality (60Hz) experience</li>
 			</ul>
 		</td>
 	</tr>
 	<tr>
-		<td> <b>Surface Book 2 (13.5&quot; and 15&quot;) </td><td> Yes </td><td > All configurations </td>
+		<td style="vertical-align: middle"> Surface Book 2 (13.5&quot; and 15&quot;) </td><td style="vertical-align: middle"> Yes </td><td style="vertical-align: middle"> All configurations </td>
 		<td>
 			<ul>
 				<li>Requires <a href="https://www.microsoft.com/en-us/store/d/surface-usb-c-to-hdmi-adapter/94chb2m80s54/4gj5">Surface USB-C to HDMI Adapter</a> (other adapters may work, but are untested)</li>
@@ -138,7 +138,7 @@ More information on Surface compatibility with Windows Mixed Reality is availabl
 		</td>
 	</tr>
 	<tr>
-		<td> Surface Studio </td><td> Yes </td><td> All configurations </td>
+		<td style="vertical-align: middle"> Surface Studio </td><td style="vertical-align: middle"> Yes </td><td style="vertical-align: middle"> All configurations </td>
 		<td>
 			<ul>
 				<li>Requires HDMI 2.0-compatible Mini DisplayPort adapter</li><li>Windows Mixed Reality headset must be connected to USB port with “+” symbol</li>
@@ -149,7 +149,7 @@ More information on Surface compatibility with Windows Mixed Reality is availabl
 		</td>
 	</tr>
 	<tr>
-		<td> Surface Laptop </td><td> Yes </td><td> Intel 7th generation Core i5/i7 with 8GB of RAM or more </td>
+		<td style="vertical-align: middle"> Surface Laptop </td><td style="vertical-align: middle"> Yes </td><td style="vertical-align: middle"> Intel 7th generation Core i5/i7 with 8GB of RAM or more </td>
 		<td>
 			<ul>
 				<li>Requires HDMI 2.0-compatible Mini DisplayPort adapter</li><li>Requires <a href="https://support.microsoft.com/en-us/help/4023450/surface-surface-battery-and-power">Performance Slider</a> set to “Best Performance” during usage</li><li>Achieves Windows Mixed Reality (60Hz) experience</li>
