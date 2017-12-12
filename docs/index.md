@@ -92,10 +92,6 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, EG, ent
                                     </div>
                                 </a>
                             </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
                             <li>
                                 <a href="filing-feedback.md">
                                     <div class="cardSize">
