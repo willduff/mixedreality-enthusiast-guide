@@ -17,10 +17,8 @@ Windows Mixed Reality is the first spatial operating system. Instead of using a 
 * **Teleporting (using motion controllers):** You can quickly jump to a location by teleporting. Using the motion controllers, you can teleport by pushing the right or left thumbstick forward, aiming towards the direction you want to go, and then releasing the thumbstick.
 * **Teleporting (using gamepad):** Using a gamepad, you can teleport by pushing the left thumbstick forward.
 * **Teleporting (using mouse):** Using a mouse, hold down the right-click mouse button and release at your desired location.
-
-    You can modify the direction you teleport in for all the above inputs by rotating the thumbstick (for the motion controllers and gamepad) or by using the scroll wheel on the mouse.
-
-    A handy feature is called "Snap to app" that lets you jump to the ideal position to interact with app windows. Simply point you teleportation arc to a window and let go. The system will automatically place you in the ideal location to enjoy the content of that targeted window.
+  * You can modify the direction you teleport in for all the above inputs by rotating the thumbstick (for the motion controllers and gamepad) or by using the scroll wheel on the mouse.
+  * A handy feature is called "Snap to app" that lets you jump to the ideal position to interact with app windows. Simply point you teleportation arc to a window and let go. The system will automatically place you in the ideal location to enjoy the content of that targeted window.
 * **Virtually walking:** You can virtually move continuously by depressing the thumbstick (you should feel it click) on your motion controllers or gamepad and then moving in the desired direction.
 
 ## How do I launch an app?
@@ -47,7 +45,7 @@ Windows Mixed Reality is the first spatial operating system. Instead of using a 
 
 Alternatively, you can use the "New for you" app to browse for content, which appears as a shopping bag in your mixed reality home.
 
-## What is the New for You app?
+## What is the "New for you" app?
 
 You may notice that there is a Microsoft Store bag in your mixed reality home. Clicking it will show you new and exciting apps that you can download and/or purchase.
 
@@ -88,9 +86,10 @@ The Windows Mixed Reality home includes a spatial sound simulation where sound f
 
 ## How can I show a preview of what I'm seeing in my headset on my desktop's screen?
 
-Just press the **Play** icon at the bottom of the Mixed Reality Portal app.
+Just press the **Play** icon at the bottom of the Mixed Reality Portal app. 
 
-**Note:** This feature is disabled on PCs with integrated graphics due to the load placed on the GPU.
+> [!NOTE]
+> This feature is disabled on PCs with integrated graphics due to the load placed on the GPU.
 
 ## See also
 
