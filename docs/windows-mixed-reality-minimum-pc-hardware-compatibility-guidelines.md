@@ -86,8 +86,8 @@ You will then get an analysis of your PC against the required hardware, drivers,
 Surface Book 2, Surface Studio, Surface Laptop and Surface Pro (2017) support Windows Mixed Reality when equipped with an Intel Core i5 CPU (or better) and at least 8GB of RAM.
 
 **Requirements:**
-* Surface products require driver updates to be compatible with Mixed Reality. These drivers can be installed on your Surface by going to **Settings > Update and Security > Check for Updates**.
-* Surface products require an adapter from the video port (Mini DisplayPort or USB-C) to HDMI 2.0 for Windows Mixed Reality headsets. The most recent version of the Surface Mini DisplayPort to HDMI AV Adapter is compatible with HDMI 2.0 (the older version is not). Similarly, the new <a href="https://www.microsoft.com/en-us/store/d/surface-usb-c-to-hdmi-adapter/94chb2m80s54/4gj5">Surface USB-C to HDMI Adapter</a> is also compatible with HDMI 2.0.
+* Surface products require driver updates to be compatible with Windows Mixed Reality. These drivers can be installed on your Surface by going to **Settings > Update and Security > Check for Updates**.
+* Surface products require an [adapter](Recommended-adapters-for-Windows-Mixed-Reality-Capable-PCs.md) from the video port (Mini DisplayPort or USB-C) to HDMI 2.0 for Windows Mixed Reality headsets. The most recent version of the Surface Mini DisplayPort to HDMI AV Adapter is compatible with HDMI 2.0 (the older version is not). Similarly, the new <a href="https://www.microsoft.com/en-us/store/d/surface-usb-c-to-hdmi-adapter/94chb2m80s54/4gj5">Surface USB-C to HDMI Adapter</a> is also compatible with HDMI 2.0.
 
 >[!WARNING]
 >Not all Mini DisplayPort or USB-C to HDMI adapters are HDMI 2.0-capable. Consider checking for explicit “HDMI 2.0” compatibility or “4K” compatibility on any adapter.
