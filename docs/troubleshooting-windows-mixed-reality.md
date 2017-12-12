@@ -109,29 +109,6 @@ If your computer does not have an HDMI port, you will need to use a [supported a
 ### Can I use an USB / HDMI extension cord with Windows Mixed Reality head mounted displays?
 Windows Mixed Reality head mounted displays were not designed to work with extension cables. Use of extension cables with mixed reality head mounted displays is unsupported and use may impact your experience. 
 
-### I am getting a "Something Went Wrong" error 2181038087-12
-
-**Likely reason for the error code:** The headset is plugged in to a USB port for which a non-Microsoft USB device driver is installed and running.
-
-**Troubleshooting:**
-1. Launch Device Manager (run devmgmt.msc).
-2. Expand the category for Universal Serial Bus controllers.
-3. Uninstall the driver for each item that includes the text "eXtensible Host Controller" **and** does *not* have "Microsoft" in the name.
-4. You are done when you verify that each item that includes the text "eXtensible Host Controller" has "Microsoft" at the end.
-5. Now you should not see this error when you plug in the headset.
-
-### I am getting a "Something Went Wrong" error 2181038087-4 or 2181038087-5
-
-**Likely reason for the error code:** The headset driver failed to initialize the two tracking cameras in the headset.
-
-**Troubleshooting:** This is most likely a transient error. Unplugging and re-plugging in your headset should resolve this issue.
-
-### I am getting a "Something Went Wrong" error 2181038087-11
-
-**Likely reason for the error code:** Your CPU is too old to be compatible with Windows Mixed Reality. Your PC is failing the compatibility check because your CPU is missing the AVX instruction set required to run our motion controllers.
-
-**Troubleshooting:** You'll need a Windows Mixed Reality compatible PC. You can find a list of Windows Mixed Reality badged PCs here: https://www.microsoft.com/en-us/windows/view-all-devices?col=wmr-pcs#icons
-
 ### I am getting a "Check your display cable" error
 
 Make sure that you plugged your headset's HDMI cable into an **HDMI out** port on your PC, not an HDMI in port.
@@ -162,9 +139,28 @@ After the device updates, you should see a Mixed Reality Device appear in Device
 
 ### Headset Troubleshooting Flowcharts
 
+
 ![Black screen/Can't see anything](images/hmd-connectivity.jpg)
 
 ![Connect your headset/check your USB cable](images/hmd-connectivity2.jpg)
+
+## I am getting a "Something Went Wrong" error code
+
+| **Error Code**             | **Troubleshooting steps**                                          |
+|----------------------------|--------------------------------------------------------------------|
+| H0002000-0 | <ul><li>**Likely reason for the error code**: Your PC's operating system has gotten into a mismatched state for Windows Mixed Reality.</li><li>Please try checking Windows Updates for updates.</li></ul> |
+| S0002261-101 | <ul><li>**Likely reason for the error code**: The HDMI adapter you are using is incompatible with Windows Mixed Reality.</li><li>Please see the supported and recommended HDMI to mini display port (DP) dongle [here](recommended-adapters-for-windows-mixed-reality-capable-pcs.md).</li></ul> |
+| 2181038087-3 | <ul><li>**Likely reason for the error code**: The Mixed Reality headset failed to completely initialize. </li><li>**Troubleshooting**: This is most likely a transient error. Unplugging and re-plugging in your headset should resolve this issue. </li></ul>
+| 2181038087-4 | <ul><li>**Likely reason for the error code**: The Mixed Reality headset driver failed to initialize the tracking cameras on your headset. </li><li>**Troubleshooting**: This is most likely a transient error. Unplugging and re-plugging in your headset should resolve this issue. </li></ul>
+| 2181038087-5 | <ul><li>**Likely reason for the error code**: Windows Mixed Reality lost synchronization between the Mixed Reality camera frame timestamps and your PC timestamps. </li><li>**Troubleshooting**: This could be a transient error, or an indication of USB signal integrity issues. Try to unplug all of your USB devices, remove all extension cables, and plug in just your headset. </li></ul>
+| 2181038087-7 | <ul><li>**Likely reason for the error code**: The Mixed Reality headset driver failed to initialize the firmware on your headset. </li><li>**Troubleshooting**: This is most likely a transient error. Unplugging and re-plugging in your headset should resolve this issue. </li></ul>
+| 2181038087-11 | <ul><li>**Likely reason for the error code**: Your CPU is too old to be compatible with Windows Mixed Reality. Your PC is failing the compatibility check because your CPU is missing the AVX instruction set required by the Mixed Reality motion controllers. </li><li>**Troubleshooting**: You'll need a Windows Mixed Reality compatible PC. You can find a list of Windows Mixed Reality badged PCs [here](https://www.microsoft.com/en-us/windows/view-all-devices?col=wmr-pcs#icons).</li></ul>
+| 2181038087-12 | <ul><li>**One reason for the error code**: The HMD is plugged in to a USB port for which a non-Microsoft USB device driver is installed and running.</li><li>**Troubleshooting**:</li><ol start="1"><li>Launch Device Manager (run devmgmt.msc).</li><li>Expand the category for Universal Serial Bus controllers.</li>Right click to uninstall the driver for each item that includes the text "eXtensible Host Controller" **and** does not have "Microsoft" in the name.</li><li>Check "Delete the driver software for this device" to ensure the old drivers are removed.</li><li>Check "Delete the driver software for this device" to ensure the old drivers are removed.</li><li>You are done when you verify that each item that includes the text "eXtensible Host Controller" has "Microsoft" at the end.</li><li><li>Now you should not see this error when you plug in the HMD.</li></ol></ul><ul><li>**A second reason for the error code**: The HMD is not properly responding to commands from the HMD driver. Unlike the previous reason this issue is intermittent.</li><li>**Troubleshooting**:</li><ol start="1"><li>Unplug the HMD for 30 or more seconds.</li><li>Plug it back in.</li></ol></ul> |
+| 2181038087-13 | <ul><li>**Likely reason for the error code**: Windows Mixed Reality is unable to synchronize the Mixed Reality camera frame timestamps to your PC timestamps. </li><li>This is most likely caused by an incompatible USB Host controller. </li></ul> |
+
+
+
+
 
 ## Motion Controllers
 
