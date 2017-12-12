@@ -37,16 +37,16 @@ Your [Windows Mixed Reality compatible PC](windows-mixed-reality-minimum-pc-hard
 ## Port compatibility and adapter requirements tables
 
 These tables will help you determine if you'll need display or USB adapters for your Windows Mixed Reality PC or Windows Mixed Reality Ultra PC and, if so, which you'll need. See the [table above](recommended-adapters-for-windows-mixed-reality-capable-pcs.md#recommended-display-adapters) for recommended display adapter models.
-
+<br>
 <table border="1">
-<tr>
-<th rowspan="2" style="vertical-align: middle;">Badge</th><th colspan="5">Built-in display port</th><th colspan="2">Built-in data port</th><th rowspan="2" style="vertical-align: middle;">Required adapter(s)</th>
+<tr border="1">
+<th border="1" rowspan="2" style="vertical-align: middle;">Badge</th><th border="1" colspan="5">Built-in display port</th><th border="1" colspan="2">Built-in data port</th><th border="1" rowspan="2" style="vertical-align: middle;">Required adapter(s)</th>
 </tr><tr>
-<th>HDMI 1.4</th><th>HDMI 2.0</th><th>DisplayPort 1.2</th><th>Mini DisplayPort 1.2</th><th>USB 3.0 Type-C</th><th>USB 3.0 Type-A</th><th>USB 3.0 Type-C</th>
+<th border="1">HDMI 1.4</th><th border="1">HDMI 2.0</th><th border="1">DisplayPort 1.2</th><th border="1">Mini DisplayPort 1.2</th><th border="1">USB 3.0 Type-C</th><th border="1">USB 3.0 Type-A</th><th border="1">USB 3.0 Type-C</th>
 </tr><tr>
-<th rowspan="8" style="vertical-align: middle;"><a href="Windows-Mixed-Reality-minimum-PC-hardware-compatibility-guidelines.md">Windows Mixed Reality Ultra PC</a></th><td rowspan="8" style="text-align: center; vertical-align: middle;">Not supported</td><td style="text-align: center; vertical-align: middle;">✔️</td><td style="text-align: center; vertical-align: middle;"> -</td><td style="text-align: center; vertical-align: middle;"> -</td><td style="text-align: center; vertical-align: middle;"> -</td><td style="text-align: center; vertical-align: middle;">✔️</td><td style="text-align: center; vertical-align: middle;"> -</td><td>None</td>
+<th border="1" rowspan="8" style="vertical-align: middle;"><a href="Windows-Mixed-Reality-minimum-PC-hardware-compatibility-guidelines.md">Windows Mixed Reality Ultra PC</a></th><td border="1" rowspan="8" style="text-align: center; vertical-align: middle;">Not supported</td><td border="1" style="text-align: center; vertical-align: middle;">✔️</td><td border="1" style="text-align: center; vertical-align: middle;"> -</td><td border="1" style="text-align: center; vertical-align: middle;"> -</td><td border="1" style="text-align: center; vertical-align: middle;"> -</td><td border="1" style="text-align: center; vertical-align: middle;">✔️</td><td border="1"  style="text-align: center; vertical-align: middle;"> -</td><td border="1">None</td>
 </tr><tr>
-<td style="text-align: center; vertical-align: middle;">✔️</td><td style="text-align: center; vertical-align: middle;"> -</td><td style="text-align: center; vertical-align: middle;"> -</td><td style="text-align: center; vertical-align: middle;"> -</td><td style="text-align: center; vertical-align: middle;"> -</td><td style="text-align: center; vertical-align: middle;">✔️</td><td>USB 3.0 Type-C to USB 3.0 Type-A</td>
+<td border="1" style="text-align: center; vertical-align: middle;">✔️</td><td border="1" style="text-align: center; vertical-align: middle;"> -</td><td border="1" style="text-align: center; vertical-align: middle;"> -</td><td border="1" style="text-align: center; vertical-align: middle;"> -</td><td border="1" style="text-align: center; vertical-align: middle;"> -</td><td border="1" style="text-align: center; vertical-align: middle;">✔️</td><td border="1">USB 3.0 Type-C to USB 3.0 Type-A</td>
 </tr><tr>
 <td style="text-align: center; vertical-align: middle;"> -</td><td style="text-align: center; vertical-align: middle;">✔️</td><td style="text-align: center; vertical-align: middle;"> -</td><td style="text-align: center; vertical-align: middle;"> -</td><td style="text-align: center; vertical-align: middle;">✔️</td><td style="text-align: center; vertical-align: middle;"> -</td><td>DisplayPort 1.x to HDMI 2.0</td>
 </tr><tr>
@@ -61,7 +61,7 @@ These tables will help you determine if you'll need display or USB adapters for 
 <td style="text-align: center; vertical-align: middle;"> -</td><td style="text-align: center; vertical-align: middle;"> -</td><td style="text-align: center; vertical-align: middle;"> -</td><td style="text-align: center; vertical-align: middle;">✔️</td><td style="text-align: center; vertical-align: middle;"> -</td><td style="text-align: center; vertical-align: middle;">✔️</td><td>USB 3.0 Type-C to HDMI 2.0 USB 3.0 Type-C to USB 3.0 Type-A</td>
 </tr>
 </table>
-
+<br>
 <table border="1">
 <tr>
 <th rowspan="2" style="vertical-align: middle;">Badge</th><th colspan="5">Built-in display port</th><th colspan="2">Built-in data port</th><th rowspan="2" style="vertical-align: middle;">Required adapter(s)</th>
