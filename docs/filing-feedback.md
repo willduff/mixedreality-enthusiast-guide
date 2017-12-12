@@ -39,7 +39,9 @@ The engineering team internally uses the same mechanism for finding and filing b
 11. After you are done with your scenario, go back to the feedback app and click **Stop Capture**. Once you do that, you should see that a file containing the traces has been added.
 12. Click **Submit**.
 
-This will lead you to Thank You page. At this point, your feedback has been successfully submitted. * After you submit feedback, to easily direct other people (e.g. co-workers, Microsoft staff, [forum](https://forums.hololens.com/) readers, etc.) to the issue go to **Feedback > My Feedback**, click on the issue, and use the **Share** icon to get a shortened URL you can give to others to upvote, or escalate.
+This will lead you to the "Thank You" page. At this point, your feedback has been successfully submitted. 
+
+After you submit feedback, to easily direct other people (e.g. co-workers, Microsoft staff, [forum](https://forums.hololens.com/) readers, etc.) to the issue go to **Feedback > My Feedback**, click on the issue, and use the **Share** icon to get a shortened URL you can give to others to upvote, or escalate.
 
 > [!IMPORTANT]
 > Before filing a bug, please ensure you meet the following constraints so that the logs are successfully uploaded with the feedback.
