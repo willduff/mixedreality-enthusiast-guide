@@ -55,3 +55,4 @@ If you have questions or comments to share, you can also reach us on our [Steam 
 * [Troubleshooting SteamVR with Windows Mixed Reality](troubleshooting-windows-mixed-reality.md#steamvr)
 * [Using games and apps in Windows Mixed Reality](using-games-and-apps-in-windows-mixed-reality.md)
 * [Minimum PC hardware guidelines](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md)
+* [Filing bugs and feedback](filing-feedback.md)
