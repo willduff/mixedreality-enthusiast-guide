@@ -42,18 +42,18 @@ These tables will help you determine if you'll need display or USB adapters for 
 
 <table>
   <tr style="border: 1px solid black">
-    <th colspan="5" style="border: 1px solid black">Built-in display port</th>
-    <th colspan="2" style="border: 1px solid black">Built-in data port</th>
-    <th rowspan="2" style=" vertical-align: middle; border: 1px solid black">Required adapter(s)</th>
+    <th colspan="5" style="border: 1px solid black; background-color: lightgrey">Built-in display port</th>
+    <th colspan="2" style="border: 1px solid black; background-color: lightgrey">Built-in data port</th>
+    <th rowspan="2" style=" vertical-align: middle; border: 1px solid black; background-color: lightgrey">Required adapter(s)</th>
   </tr>
-  <tr style="border: 1px solid black">
-    <th style="border: 1px solid black">HDMI 1.4</th>
-    <th style="border: 1px solid black">HDMI 2.0</th>
-    <th style="border: 1px solid black">DisplayPort 1.2</th>
-    <th style="border: 1px solid black">Mini DisplayPort 1.2</th>
-    <th style="border: 1px solid black">USB 3.0 Type-C</th>
-    <th style="border: 1px solid black">USB 3.0 Type-A</th>
-    <th style="border: 1px solid black">USB 3.0 Type-C</th>
+  <tr style="border: 1px solid black; background-color: lightgrey">
+    <th style="border: 1px solid black; background-color: lightgrey">HDMI 1.4</th>
+    <th style="border: 1px solid black; background-color: lightgrey">HDMI 2.0</th>
+    <th style="border: 1px solid black; background-color: lightgrey">DisplayPort 1.2</th>
+    <th style="border: 1px solid black; background-color: lightgrey">Mini DisplayPort 1.2</th>
+    <th style="border: 1px solid black; background-color: lightgrey">USB 3.0 Type-C</th>
+    <th style="border: 1px solid black; background-color: lightgrey">USB 3.0 Type-A</th>
+    <th style="border: 1px solid black; background-color: lightgrey">USB 3.0 Type-C</th>
   </tr>
   <tr style="border: 1px solid black">
     <td rowspan="8" style="text-align: center;  vertical-align: middle; border: 1px solid black">Not supported</td>
