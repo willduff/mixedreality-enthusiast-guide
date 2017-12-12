@@ -51,15 +51,15 @@ You will then get an analysis of your PC against the required hardware, drivers,
 </tr><tr>
 <td style="vertical-align: middle">Operating System</td><td colspan="2" style="vertical-align: middle; text-align: center;">Windows 10 Fall Creators Update (RS3) - Home, Pro, Business, Education</td>
 </tr><tr>
-<td style="vertical-align: middle">Processor</td><td style="vertical-align: middle; text-align: center;">Intel Core i5 4590 (4th generation), quad core (or better) AMD Ryzen 5 1400 3.4Ghz (desktop), quad core (or better)</td><td style="vertical-align: middle; text-align: center;">Intel Core i5 7200U (7th generation mobile), dual core with Intel&#174; Hyper-Threading Technology enabled (or better)</td>
+<td style="vertical-align: middle">Processor</td><td style="vertical-align: middle; text-align: center;">Intel Core i5 4590 (4th generation), quad-core (or better) <br>AMD Ryzen 5 1400 3.4Ghz (desktop), quad-core (or better)</td><td style="vertical-align: middle; text-align: center;">Intel Core i5 7200U (7th generation mobile), dual-core with Intel&#174; Hyper-Threading Technology enabled (or better)</td>
 </tr><tr>
 <td style="vertical-align: middle">RAM</td><td style="vertical-align: middle; text-align: center;">8GB DDR3 (or better)</td><td style="vertical-align: middle; text-align: center;">8GB DDR3 dual channel (or better)</td>
 </tr><tr>
 <td style="vertical-align: middle">Free disk space</td><td colspan="2" style="vertical-align: middle; text-align: center;">At least 10 GB</td>
 </tr><tr>
-<td style="vertical-align: middle">Graphics Card</td><td style="vertical-align: middle; text-align: center;">NVIDIA GTX 960/1050 (or greater) DX12-capable discrete GPU AMD RX 460/560 (or greater) DX12-capable discrete GPU GPU must be hosted in a PCIe 3.0 x4+ Link slot</td><td style="vertical-align: middle; text-align: center;">Integrated Intel&#174; HD Graphics 620 (or greater) DX12-capable integrated GPU <a href="https://en.wikipedia.org/wiki/List-of-Intel-graphics-processing-units#Ninth-generation">(Check if your model is greater)</a> NVIDIA MX150/965M (or greater) DX12-capable discrete GPU</td>
+<td style="vertical-align: middle">Graphics Card</td><td style="vertical-align: middle; text-align: center;">NVIDIA GTX 960/1050 (or greater) DX12-capable discrete GPU <br>AMD RX 460/560 (or greater) DX12-capable discrete GPU <br>GPU must be hosted in a PCIe 3.0 x4+ Link slot</td><td style="vertical-align: middle; text-align: center;">Integrated Intel&#174; HD Graphics 620 (or greater) DX12-capable integrated GPU <a href="https://en.wikipedia.org/wiki/List-of-Intel-graphics-processing-units#Ninth-generation">(check if your model is greater)</a> <br>NVIDIA MX150/965M (or greater) DX12-capable discrete GPU</td>
 </tr><tr>
-<td style="vertical-align: middle">Graphics Driver</td><td style="vertical-align: middle; text-align: center;">Windows Display Driver Model (WDDM) 2.2 (7/17/2017 or later)</td><td style="vertical-align: middle; text-align: center;">Windows Display Driver Model (WDDM) 2.2 (7/24/2017 or later)</td>
+<td style="vertical-align: middle">Graphics Driver</td><td style="vertical-align: middle; text-align: center;">Windows Display Driver Model (WDDM) 2.2</td><td style="vertical-align: middle; text-align: center;">Windows Display Driver Model (WDDM) 2.2</td>
 </tr><tr>
 <td style="vertical-align: middle"><a href="Recommended-adapters-for-Windows-Mixed-Reality-Capable-PCs.md">Graphics display port</a></td><td style="vertical-align: middle; text-align: center;">HDMI 2.0 or DisplayPort 1.2</td><td style="vertical-align: middle; text-align: center;">HDMI 1.4 or DisplayPort 1.2</td>
 </tr><tr>
