@@ -34,9 +34,9 @@ If you're a VR enthusiast you might regularly use more than one VR headset on th
 **Windows Mixed Reality for SteamVR** has an experimental feature to enable the use of a controller thumbstick for artificial turns in any StreamVR application.  
 
 To enable thumbstick turning:
-1. Edit "C:\Program Files (x86)\Steam\steamapps\common MixedRealityVRDriver\resources\settings\default.vrsettings"
+1. Edit "C:\Program Files (x86)\Steam\steamapps\common\MixedRealityVRDriver\resources\settings\default.vrsettings"
 2. Change either `thumbstickTurnLeftEnabled` or `thumbstickTurnRightEnabled` to `true`
-3. Select **stutter turn** of **smooth turn** as shown in the examples below
+3. Select **stutter turn** or **smooth turn** as shown in the examples below
 
 **Example 1: Enabling stutter turn**
 
@@ -60,8 +60,6 @@ To enable thumbstick turning:
         "thumbstickTurnSmooth" : true
     }
     
-Once thumbstick turning is enabled, the controller thumbstick can be used to turn in any SteamVR application.
-
 ## Sharing feedback on SteamVR
 
 Your feedback is invaluable when it comes to improving the Windows Mixed Reality SteamVR experience. Please submit all feedback and bugs through the [Windows Feedback Hub](filing-feedback.md). Please follow these suggestions to help us get the most from your feedback: 
