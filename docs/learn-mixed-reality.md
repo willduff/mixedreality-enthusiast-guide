@@ -6,7 +6,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Tutoria
 ---
 
 
-# Learn mixed reality
+# Learn Mixed Reality
 
 ## How do I run the learning experience the first time?
 
