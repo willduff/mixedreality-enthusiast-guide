@@ -22,7 +22,7 @@ The **[Windows Mixed Reality PC Check](windows-mixed-reality-pc-check-app.md)** 
   <tr>
     <td></td>
     <td></td>
-    <td><img alt="Windows Mixed Reality PC Check app icon" width="90" height="90" src="images/Store-icon-windows-mixed-reality-pc-check.png" /></td>
+    <td><a href="https://www.microsoft.com/store/productid/9NZVL19N7CNC"><img alt="Windows Mixed Reality PC Check app icon" width="90" height="90" src="images/Store-icon-windows-mixed-reality-pc-check.png"/></a></td>
     <td><a href="https://www.microsoft.com/store/productid/9NZVL19N7CNC">Download the app for free <br> from the Microsoft Store</a></td>
     <td></td>
     <td></td>
