@@ -106,6 +106,7 @@ Mixed Reality Portal has a **Play** button at the bottom of the screen that allo
 ### The screen inside of my HMD flickers, flashes or is black when using a Surface device
 * Make sure you're using a compatible HDMI adapter
 * Make sure your graphics driver is up-to-date
+
 Not all Surface devices are compatible with Windows Mixed Reality.  Learn more about [Surface compatiblity and requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md#windows-mixed-reality-and-surface) 
 
 ### My computer does not have an HDMI port
