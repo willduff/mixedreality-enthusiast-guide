@@ -131,7 +131,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, EG, ent
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3><a href="//developer.microsoft.com/windows/mixed-reality">Windows Mixed Reality Dev Center</a></h3>
+                                                <h3><a href="https://developer.microsoft.com/windows/mixed-reality">Windows Mixed Reality Development and Design Documentation</a></h3>
                                             </div>
                                         </div>
                                     </div>
@@ -147,23 +147,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, EG, ent
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3><a href="//developer.microsoft.com/en-us/windows/mixed-reality/academy">Mixed Reality Academy</a></h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage">
-                                                    <img src="/media/common/i_benefits.svg" alt="" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3><a href="index.md">Mixed Reality Developer Documentation</a></h3>
+                                                <h3><a href="https://developer.microsoft.com/en-us/windows/mixed-reality/academy">Windows Mixed Reality Academy</a></h3>
                                             </div>
                                         </div>
                                     </div>
@@ -174,6 +158,6 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, EG, ent
                 </ul>
             </li>
         </ul>
-        <p>If you can't find something you're looking for, let us know in the [Windows Mixed Reality Developer Forum.](https://forums.hololens.com)</p>
+        <p>If you can't find something you're looking for, let us know in the [Windows Mixed Reality User Forum.](https://forums.hololens.com/categories/using-windows-mixed-reality)</p>
     </div>
 </div>
