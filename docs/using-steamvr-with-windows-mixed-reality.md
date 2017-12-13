@@ -35,7 +35,7 @@ If you're a VR enthusiast you might regularly use more than one VR headset on th
 
 To enable thumbstick turning:
 1. Edit "C:\Program Files (x86)\Steam\steamapps\common\MixedRealityVRDriver\resources\settings\default.vrsettings"
-  * Path may be different if **Windows Mixed Reality for SteamVR** was installed to a different library
+    * Path may be different if **Windows Mixed Reality for SteamVR** was installed to a different library
 2. Change either `thumbstickTurnLeftEnabled` or `thumbstickTurnRightEnabled` to `true`
 3. Select **stutter turn** or **smooth turn** as shown in the examples below
 
