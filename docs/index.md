@@ -2,6 +2,11 @@
 layout: HubPage
 description: Information for intermediate to advanced customers on how to get the most out of using Windows Mixed Reality.
 title:  Enthusiast's Guide to Windows Mixed Reality
+author: mattwojo
+ms.author: mattwoj
+ms.topic: hub-page
+ms.prod: windows
+ms.technology: enthusiast-guide
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, EG, enthusiast
 ---
 
