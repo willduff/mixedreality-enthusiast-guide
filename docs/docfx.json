@@ -31,8 +31,15 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/mixedreality-enthusiast-guide/breadcrumb/toc.json",
-      "extendBreadcrumb": true
+      "breadcrumb_path": "/windows/mixed-reality/enthusiast-guide/breadcrumb/toc.json",
+      "extendBreadcrumb": true,
+      "titleSuffix": "Enthusiast Guide",
+      "author": "paaron301 ",
+      "ms.author": "paaron",
+      "ms.date": "12/10/2017",
+      "ms.prod": "windows",
+      "ms.technology": "enthusiast-guide",
+      "keywords": "mixed reality, virtual reality, vr"
     },
     "fileMetadata": {},
     "template": [],
