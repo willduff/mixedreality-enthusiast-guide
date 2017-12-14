@@ -12,6 +12,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, get sta
 The first step is to set up your Motion Controllers. If you plan to use an Xbox gamepad or keyboard and mouse you can skip this step. 
 
 **Note**: Windows Mixed Reality motion controllers require Bluetooth 4.0. If your PC does not have built-in Bluetooth, you will need to plug in a USB Bluetooth adapter that supports Bluetooth 4.0 to enable your motion controllers.
+
 ![Motion controllers](images/1050px-controllers.png)
 
 ### Get familiar with your motion controllers
