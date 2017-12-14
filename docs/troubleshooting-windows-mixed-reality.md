@@ -97,11 +97,15 @@ Mixed Reality Portal has a **Play** button at the bottom of the screen that allo
 ## HMD Connectivity
 
 ### The screen inside of my HMD is black
-* Check to make sure that the headset's HDMI cable is plugged in all the way
-* Try your PC's HDMI port with a PC monitor. Some PCs may have more than one HDMI port, and not all of them may be active
-* If you're using an HDMI adapter (e.g. a Mini DisplayPort to HDMI adapter), please try connecting the adapter to your PC before connecting the headset to the adapter. Make sure the adapter supports HDMI 2.0
-* Try removing any extension cables, as they are not officially supported
-* Consult the Headset black screen troubleshooting flow chart below
+
+* Check to make sure that the HDMI cable is plugged in all the way
+* If you're using an HDMI adapter (e.g. a Mini DisplayPort to HDMI adapter), please try connecting the adapter to your PC before connecting the headset to the adapter.
+* Check to make sure the USB cable is plugged in a USB 3.0 or faster port. USB 3.0 ports have SS (Super Speed) written next to them. They are often (but not always) colored blue.
+* If your PC has both an integrated graphics processing unit (iGPU) and a discrete graphics processing unit (dGPU), make sure that you are plugged into your dGPU's HDMI port. 
+
+![HDMI Ports](images/HP_HDMI_Ports.png)
+
+* Consult the Headset troubleshooting flow chart below
 
 ### The screen inside of my HMD flickers, flashes or is black when using a Surface device
 * Make sure you're using a compatible HDMI adapter
