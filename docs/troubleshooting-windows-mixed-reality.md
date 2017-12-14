@@ -126,8 +126,9 @@ Windows Mixed Reality head mounted displays were not designed to work with exten
 ### I get a message that says "Connect your headset" even though I’ve plugged in my headset
 
 Make sure your headset is connected to the correct ports on your computer:
-1. Your headset's HDMI cable should be plugged into your PC's discrete graphics card.
-2. Your headset's cable should be plugged into a USB 3.0 port.
+
+1. Your headset's cable should be plugged into a USB 3.0 port. Try another USB 3.0 port if possible.
+2. Your headset's HDMI cable should be plugged into your PC's discrete graphics card.
 
 ### Mixed Reality portal did not launch automatically after I plugged in my headset
 
