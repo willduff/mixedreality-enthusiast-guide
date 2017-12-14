@@ -47,7 +47,7 @@ Unless you purchased a Samsung HMD Odyssey headset (which has integrated AKG hea
 
 ## Make sure your PC is connected to the internet
 
-Check that your PC is connected to the Internet. You will need to download drivers and some additional software to get Windows Mixed Reality up and running.
+Check that your PC is connected to the Internet. You will need to download drivers and some additional software to get Windows Mixed Reality up and running.  If your Wi-Fi network connection is set to metered, change it to unmetered. [Learn more](https://support.microsoft.com/en-us/help/4028458/windows-metered-connections-in-windows-10)
 
 ## Make sure that you have a large, open space
 
