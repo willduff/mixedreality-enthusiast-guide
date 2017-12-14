@@ -103,7 +103,7 @@ Mixed Reality Portal has a **Play** button at the bottom of the screen that allo
 * Check to make sure the USB cable is plugged in a USB 3.0 or faster port. USB 3.0 ports have SS (Super Speed) written next to them. They are often (but not always) colored blue.
 * If your PC has both an integrated graphics processing unit (iGPU) and a discrete graphics processing unit (dGPU), make sure that you are plugged into your dGPU's HDMI port. 
 
-![HDMI Ports](images/HP_HDMI_Ports.png)
+![HDMI Ports](images/HP_HDMI_Ports_m.png)
 
 * Consult the Headset troubleshooting flow chart below
 
