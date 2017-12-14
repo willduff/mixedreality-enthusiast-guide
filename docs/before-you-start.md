@@ -59,5 +59,5 @@ If you choose "All experiences," you'll set up a boundary, and you will be able 
 
 ## See also
 * [Plug in your HMD](docs/plug-in-your-headset.md)
-* [Windows Mixed Reality minimum pc hardware requirements](docs/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md)
-
+* [Minimum PC hardware requirements](docs/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md)
+* [Recommended adapters](recommended-adapters-for-windows-mixed-reality-capable-pcs.md)
