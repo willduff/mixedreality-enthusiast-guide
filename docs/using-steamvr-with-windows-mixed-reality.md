@@ -45,7 +45,39 @@ We will be releasing frequent updates to improve the performance, reliability, a
   1. In Steam - use the drop down under your Library to filter to Tools and then locate SteamVR in the list
   2. Open SteamVR properties - right click SteamVR in the same Tools page and open the Properties dialog.![Install SteamVR from the tools section of your Steam Library](images/steamvr-install.png)
   3. Join the SteamVR Beta - click the Betas tab and opt into SteamVR Beta Update by selecting it from the drop down. **Note:** The beta access code field should be left blank and you can just hit close to confirm.![Switch to the SteamVR beta in the properties dialog for SteamVR](images/steamvr-beta.png)
-  
+
+## Enabling controller thumbstick turning in any SteamVR application
+
+**Windows Mixed Reality for SteamVR** has an experimental feature to enable the use of a controller thumbstick for artificial turns in any StreamVR application.  
+
+To enable thumbstick turning:
+1. Edit "C:\Program Files (x86)\Steam\steamapps\common\MixedRealityVRDriver\resources\settings\default.vrsettings"
+    * Path will be different if **Windows Mixed Reality for SteamVR** was installed to a different library
+2. Change either `thumbstickTurnLeftEnabled` or `thumbstickTurnRightEnabled` to `true`
+3. Select **stutter turn** or **smooth turn** as shown in the examples below
+
+**Example 1: Enabling stutter turn**
+
+    "driver_Holographic_Experimental" : {
+        "thumbstickTurnLeftEnabled" : false,
+        "thumbstickTurnRightEnabled" : true,
+
+        // Some people may experience increased discomfort such as nausea, motion sickness, dizziness,
+        // disorientation, headache, fatigue, or eye strain when using “smooth turns” in Windows Mixed Reality.
+        "thumbstickTurnSmooth" : false
+    }
+    
+**Example 2: Enabling smooth turn**
+
+    "driver_Holographic_Experimental" : {
+        "thumbstickTurnLeftEnabled" : false,
+        "thumbstickTurnRightEnabled" : true,
+
+        // Some people may experience increased discomfort such as nausea, motion sickness, dizziness,
+        // disorientation, headache, fatigue, or eye strain when using “smooth turns” in Windows Mixed Reality.
+        "thumbstickTurnSmooth" : true
+    }
+    
 ## Sharing feedback on SteamVR
 
 Your feedback is invaluable when it comes to improving the Windows Mixed Reality SteamVR experience. Please submit all feedback and bugs through the [Windows Feedback Hub](filing-feedback.md). Please follow these suggestions to help us get the most from your feedback: 

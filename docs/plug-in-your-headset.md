@@ -7,17 +7,17 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, headset
 
 # Plug in your headset
 
-## Connect your HMD to your PC's USB 3.0 port
+## Connect your headset to your PC's USB 3.0 port
 
 Identify the USB 3.0 port on your computer and plug in the USB cable. USB 3.0 ports have SS (Super Speed) written next to them. They are often (but not always) colored blue.
 
 If you do not have enough open USB ports on your PC, you can use an [AC-powered external USB 3.0 hub](recommended-adapters-for-windows-mixed-reality-capable-pcs.md#using-external-usb-30-hubs-with-windows-mixed-reality-headsets).
 
-## Connect your HMD to your PC's HDMI out port
+## Connect your headset to your PC's HDMI out port
 
-Identify the **HDMI out** port on your computer and plug in the HMD's HDMI cable. Make sure you are **not** plugging into the HDMI in port!
+Identify the **HDMI out** port on your computer and plug in the headset's HDMI cable. Make sure you are **not** plugging into the HDMI in port!
 
-## Connect headphones to your HMD
+## Connect headphones to your headset
 
 Unless you purchased a Samsung HMD Odyssey headset (which has integrated AKG headphones and an integrated dual-array microphone), you will need to connect headphones (preferably with an inline microphone) that can plug into your headset's 3.5mm audio jack.
 
