@@ -5,8 +5,6 @@ ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, compatible, compatibility, get started, setup, PC, system requirements
 ---
 
-
-
 # Before you start
 
 ## What you'll need to run Windows Mixed Reality
@@ -58,3 +56,8 @@ If you select Seated and standing , you'll be using your headset without a bound
 
 ### All experiences (boundary)
 If you choose "All experiences," you'll set up a boundary, and you will be able to move around and use apps and experiences that work with a boundary as well as those that don't require one. You'll need to prepare your space to make sure there are no obstacles, hazards, or fragile items in the area you’ll be using (including above your head). Don’t set up at the top of a staircase or under an extra-low ceiling fan. Remove breakables and obstacles from the area, and make sure that you and anyone who uses your headset reads and understands the safety guidelines.
+
+## See also
+* [Plug in your HMD](docs/plug-in-your-headset.md)
+* [Windows Mixed Reality minimum pc hardware requirements](docs/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md)
+
