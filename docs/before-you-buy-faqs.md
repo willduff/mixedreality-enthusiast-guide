@@ -159,6 +159,7 @@ Read more about 3DOF and 6DOF here: <https://www.roadtovr.com/introduction-posit
 ### What are the minimums specs to run Windows Mixed Reality?
 
 **Quick Answer:** You can find the minimum specs [here](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md)
+
 ### Will Windows Mixed Reality work with my Xbox?
 
 **Quick Answer:** No, Windows Mixed Reality only works with PCs. See if your PC is WMR ready by running <https://aka.ms/mrcheck>
@@ -184,6 +185,7 @@ Read more about 3DOF and 6DOF here: <https://www.roadtovr.com/introduction-posit
 **Quick Answer:** To learn more about inside-out tracking, visit <https://youtu.be/67yLuiSfMWM>
 
 ## Motion Controllers
+
 ### Will Windows Mixed Reality work with my Oculus Touch controllers or HTC Vive headsets / controllers?
 
 **Quick Answer:** No, Windows Mixed Reality will only work with approved headsets / controllers. See <https://www.microsoft.com/en-us/store/collections/VRandMixedrealityheadsets>
