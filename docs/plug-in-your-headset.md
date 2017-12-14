@@ -26,7 +26,7 @@ Unless you purchased a Samsung HMD Odyssey headset (which has integrated AKG hea
 * You plugged in a bluetooth adapter next to your HMD's USB cable.  If you are using a Bluetooth adapter, **do not** plug in your headset's USB cable next to that adapter as the resulting radio interference may negatively impact Bluetooth performance.
 * You plugged in your HDMI cable to your iGPU HDMI port instead of your dGPU HDMI port (for PCs with both). Some Desktop PCs have both an integrated graphics processing unit (iGPU) and a discrete graphics processing unit (dGPU) and often the iGPU ports will be disabled. If your PC does have a dGPU your HMD needs to be plugged into the dGPU.  
 * Your PC doesn't have an HDMI port; you may need an adapter. [View the full list of recommended adapters here](recommended-adapters-for-windows-mixed-reality-capable-pcs.md). 
-* Your connecting your headset to a Surface device.  Please read [using Surface with Windows Mixed Reality](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md#windows-mixed-reality-and-surface).
+* You are connecting your headset to a Surface device.  Please read [using Surface with Windows Mixed Reality](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md#windows-mixed-reality-and-surface).
 
 ## See also
 
