@@ -29,6 +29,38 @@ You can adjust the "Supersampling" slider in the SteamVR -> Settings -> Develope
 
 If you're a VR enthusiast you might regularly use more than one VR headset on the same PC. If that's the case note that when a Windows Mixed Reality headset is plugged in, SteamVR games will always launch to the Windows Mixed Reality headset. If you'd like to launch SteamVR games on another headset make sure to first unplug the Windows Mixed Reality headset before continuing. 
 
+## Enabling controller thumbstick turning in any SteamVR application
+
+**Windows Mixed Reality for SteamVR** has an experimental feature to enable the use of a controller thumbstick for artificial turns in any StreamVR application.  
+
+To enable thumbstick turning:
+1. Edit "C:\Program Files (x86)\Steam\steamapps\common\MixedRealityVRDriver\resources\settings\default.vrsettings"
+    * Path will be different if **Windows Mixed Reality for SteamVR** was installed to a different library
+2. Change either `thumbstickTurnLeftEnabled` or `thumbstickTurnRightEnabled` to `true`
+3. Select **stutter turn** or **smooth turn** as shown in the examples below
+
+**Example 1: Enabling stutter turn**
+
+    "driver_Holographic_Experimental" : {
+        "thumbstickTurnLeftEnabled" : false,
+        "thumbstickTurnRightEnabled" : true,
+
+        // Some people may experience increased discomfort such as nausea, motion sickness, dizziness,
+        // disorientation, headache, fatigue, or eye strain when using “smooth turns” in Windows Mixed Reality.
+        "thumbstickTurnSmooth" : false
+    }
+    
+**Example 2: Enabling smooth turn**
+
+    "driver_Holographic_Experimental" : {
+        "thumbstickTurnLeftEnabled" : false,
+        "thumbstickTurnRightEnabled" : true,
+
+        // Some people may experience increased discomfort such as nausea, motion sickness, dizziness,
+        // disorientation, headache, fatigue, or eye strain when using “smooth turns” in Windows Mixed Reality.
+        "thumbstickTurnSmooth" : true
+    }
+    
 ## Sharing feedback on SteamVR
 
 Your feedback is invaluable when it comes to improving the Windows Mixed Reality SteamVR experience. Please submit all feedback and bugs through the [Windows Feedback Hub](filing-feedback.md). Please follow these suggestions to help us get the most from your feedback: 
