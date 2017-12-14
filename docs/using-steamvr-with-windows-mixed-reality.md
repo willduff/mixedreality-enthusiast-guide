@@ -7,10 +7,35 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, games, 
 
 
 # Using SteamVR with Windows Mixed Reality
-
 Windows Mixed Reality for SteamVR allows users to run SteamVR experiences on Windows Mixed Reality immersive headsets. After installing the Windows Mixed Reality for SteamVR, users can launch their favorite SteamVR applications from their desktop or Steam library and play them directly on their Windows headset.
 
-To get started follow the [SteamVR setup instructions for Windows Mixed Reality](https://support.microsoft.com/en-us/help/4053622/windows-10-play-steamvr-games-in-windows-mixed-reality).
+## Get your PC ready
+* Make sure you have no pending updates: Select **Start > Settings > Update & Security > Windows Update**. If updates are available, select **Install now**. If no updates are available, select **Check for updates**, and then install any new ones. 
+* PC requirements vary for the apps and content on Steam. See the minimum requirements per title. A PC with a GTX 1070 graphics card (or equivalent) and an Intel® Core™ i7 processor should offer a good experience for a broad range of titles.
+
+## Set up Windows Mixed Reality for SteamVR
+1. Install Steam and SteamVR on your PC. [Learn how](https://go.microsoft.com/fwlink/?linkid=862788) 
+2. Install [Windows Mixed Reality for SteamVR](http://store.steampowered.com/app/719950/Windows_Mixed_Reality_SteamVR_preview/).
+
+## Play SteamVR games
+1. Connect your headset to your PC and turn on your motion controllers.
+2. Once the Windows Mixed Reality home has loaded and your controllers are visible, open the Steam app on your desktop.
+3. Use the Steam app to launch a SteamVR game from your Steam library. 
+
+**Tip**: To launch SteamVR games without taking off your headset, use the Desktop app (**Start > Desktop**) to view and interact with your PC desktop inside Windows Mixed Reality.
+
+## Using Motion Controllers with SteamVR
+You'll use your motion controllers differently in different games. Here are a few basics to help you get started:
+* To open the Steam dashboard, press straight down on the left thumbstick. 
+* To exit a SteamVR game and return to the Windows Mixed Reality home, press the Windows button.
+
+## Changing the resolution
+
+You can adjust the "Supersampling" slider in the SteamVR -> Settings -> Developer window at any time if you'd like to play games at a higher resolution. Note that when using a higher "Supersampling" multiplier you can expect the game to put more strain on your PC. If you increase the multiplier and see degraded performance readjust this slider to the default level and restart the game to ensure that the change takes effect.![Adjust Supersampling](images/RenderTarget.jpg)
+
+## Using multiple headsets
+
+If you're a VR enthusiast you might regularly use more than one VR headset on the same PC. If that's the case note that when a Windows Mixed Reality headset is plugged in, SteamVR games will always launch to the Windows Mixed Reality headset. If you'd like to launch SteamVR games on another headset make sure to first unplug the Windows Mixed Reality headset before continuing. 
 
 ## Getting the most out of SteamVR on Windows Mixed Reality
 
@@ -21,14 +46,6 @@ We will be releasing frequent updates to improve the performance, reliability, a
   2. Open SteamVR properties - right click SteamVR in the same Tools page and open the Properties dialog.![Install SteamVR from the tools section of your Steam Library](images/steamvr-install.png)
   3. Join the SteamVR Beta - click the Betas tab and opt into SteamVR Beta Update by selecting it from the drop down. **Note:** The beta access code field should be left blank and you can just hit close to confirm.![Switch to the SteamVR beta in the properties dialog for SteamVR](images/steamvr-beta.png)
   
-## Changing the resolution
-
-You can adjust the "Supersampling" slider in the SteamVR -> Settings -> Developer window at any time if you'd like to play games at a higher resolution. Note that when using a higher "Supersampling" multiplier you can expect the game to put more strain on your PC. If you increase the multiplier and see degraded performance readjust this slider to the default level and restart the game to ensure that the change takes effect.![Adjust Supersampling](images/RenderTarget.jpg)
-
-## Using multiple headsets
-
-If you're a VR enthusiast you might regularly use more than one VR headset on the same PC. If that's the case note that when a Windows Mixed Reality headset is plugged in, SteamVR games will always launch to the Windows Mixed Reality headset. If you'd like to launch SteamVR games on another headset make sure to first unplug the Windows Mixed Reality headset before continuing. 
-
 ## Sharing feedback on SteamVR
 
 Your feedback is invaluable when it comes to improving the Windows Mixed Reality SteamVR experience. Please submit all feedback and bugs through the [Windows Feedback Hub](filing-feedback.md). Please follow these suggestions to help us get the most from your feedback: 
