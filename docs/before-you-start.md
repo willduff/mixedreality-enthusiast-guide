@@ -17,10 +17,6 @@ Check that your PC is connected to the Internet. You will need to do bit of down
 
 You must be running the Windows 10 Fall Creators Update to run mixed reality. You can check this by running winver.exe: **Start > Run > winver.exe**. The Version should be **1709**.
 
-## Get headphones if your headset didn't come with them
-
-Unless you purchased a Samsung HMD Odyssey headset (which has integrated AKG headphones and an integrated dual-array microphone), you will need to get an audio headset a pair of headphones that can plug into your HMD’s headset's 3.5mm audio jack.
-
 ## Make sure your PC is compatible with Windows Mixed Reality
 
 **Download and run the app:** Launch the Windows Store from your Desktop, search for the **Mixed Reality PC Check App** and click Get to download and install it. You can also [follow this link](https://aka.ms/mrcheck) to launch the correct Store page
@@ -35,4 +31,6 @@ After the app has installed to run the app. After reading the terms and conditio
 
 ![Good to go](images/700px-goodtogo.png)
 
+## Get headphones if your headset didn't come with them
 
+Unless you purchased a Samsung HMD Odyssey headset (which has integrated AKG headphones and an integrated dual-array microphone), you will need to get an audio headset a pair of headphones that can plug into your HMD’s headset's 3.5mm audio jack.
