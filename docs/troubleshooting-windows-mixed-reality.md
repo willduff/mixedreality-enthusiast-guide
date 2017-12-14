@@ -527,28 +527,30 @@ Microsoft Edge does not currently support haptics on the WebVR gamepad API exten
 ## SteamVR
 
 ### I get a message that says “To use SteamVR with Windows Mixed Reality, you need to install the latest Windows Update." or "Windows Developer Mode Required"
-1. Make sure your PC is running the latest version of Windows 10. To check this, go to Settings  > System > About. Under Windows specifications, make sure OS Build is 16299.64 or greater.
-2. Make sure you don’t have any updates waiting to download or install. Go to Settings  > Update & Security > Windows Update, and select Check for updates. You may have to check for updates multiple times so keep checking for updates until no further updates are available and then restart your PC.
+1. Make sure your PC is running the latest version of Windows 10. To check this, go to **Settings  > System > About**. Under **Windows specifications**, make sure **OS Build** is 16299.64 or greater.
+2. Make sure you don’t have any updates waiting to download or install. Go to **Settings  > Update & Security > Windows Update**, and select **Check for updates**. You may have to check for updates multiple times so keep checking for updates until no further updates are available and then restart your PC.
 
 ### My controllers aren't working as expected
 1. Close SteamVR.
 2. Return to the Mixed Reality Home and confirm that your controllers are working as expected.
 3. Launch the SteamVR experience again and your controllers should be back to normal.
+**Note**: If your left and right controllers are reversed, press straight down on the right thumbstick to switch them back.
 4. If issues persist please file feedback using the Windows Feedback Hub under the Mixed Reality category and include SteamVR in the summary.
 
 ### My games are running slowly
-1. Confirm that your PC meets the specifications for the SteamVR game you are playing.
-2. In Mixed Reality Portal on your desktop, select Pause to stop desktop preview.
+1. Confirm that your PC meets the specifications for SteamVR in Windows Mixed Reality
+2. Confirm that your PC meets the specifications for the SteamVR game you are playing.
+2. In Mixed Reality Portal on your desktop, select **Pause** to stop desktop preview.
 3. Follow the instructions above to make sure you are running Windows 10 build 16299.64 or later.
 4. Make sure your PC has the latest graphics drivers.
 5. Check Task Manager to see what other processes might be running on your PC and consuming resources.
 6. Check to see if Steam is downloading a game in the background. This can consume resources and make games run poorly.
 7. There is a known performance issue that affects a small class of apps that do not have a visible window. The primary example of this is SteamVR Home. While the vast majority of apps do not fall into this category, a fix will be available in a future update.
 
-If you're still running into unexpected performance issues, send us feedback using the Windows Feedback Hub. Make sure to follow the instructions to [include a SteamVR Performance Trace](using-steamvr-with-windows-mixed-reality.md#sharing-feedback-on-steamvr). 
+If you're still running into unexpected performance issues, please send us feedback using the Windows Feedback Hub. Make sure to follow the instructions to [include a SteamVR Performance Trace](using-steamvr-with-windows-mixed-reality.md#sharing-feedback-on-steamvr). 
 
 ### SteamVR is showing a compositor error (e.g. Shared IPC Compositor Connect Failed (400))
-There is a known issue where this can happen if your headset and primary monitor are on two different video adapters. To work around, attach your monitor to the same adapter as your headset and configure that monitor to be the primary using **Settings app -> System -> Display**
+There is a known issue where this can happen if your HMD and primary monitor are on two different video adapters. To work around, attach your monitor to the same adapter as your headset and configure that monitor to be the primary using **Settings app -> System -> Display**
 
 ### SteamVR content appears in the wrong place (e.g., beneath the floor or above my head)
 Try this to reset your position: 
