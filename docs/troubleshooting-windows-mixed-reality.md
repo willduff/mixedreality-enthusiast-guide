@@ -97,10 +97,16 @@ Mixed Reality Portal has a **Play** button at the bottom of the screen that allo
 ## HMD Connectivity
 
 ### The screen inside of my HMD is black
-* Check to make sure that the headset's HDMI cable is plugged in all the way
-* Try your PC's HDMI port with a PC monitor. Some PCs may have more than one HDMI port, and not all of them may be active
+
+* Check to make sure that the HDMI cable is plugged in all the way
+* If you're using extension cables, try removing them. 
 * If you're using an HDMI adapter (e.g. a Mini DisplayPort to HDMI adapter), please try connecting the adapter to your PC before connecting the headset to the adapter. Make sure the adapter supports HDMI 2.0
-* Try removing any extension cables, as they are not officially supported
+* Check to make sure the USB cable is plugged into a USB 3.0 or faster port. USB 3.0 ports have SS (Super Speed) written next to them. They are often (but not always) colored blue.
+* Try your PC's HDMI port with a PC monitor. Some PCs may have more than one HDMI port, and not all of them may be active
+* If your PC has both an integrated graphics processing unit (iGPU) and a discrete graphics processing unit (dGPU), make sure that you are plugged into your dGPU's HDMI port. 
+
+![HDMI Ports](images/HP_HDMI_Ports.png)
+
 * Consult the Headset black screen troubleshooting flow chart below
 
 ### The screen inside of my HMD flickers, flashes or is black when using a Surface device
@@ -126,8 +132,9 @@ Windows Mixed Reality head mounted displays were not designed to work with exten
 ### I get a message that says "Connect your headset" even though I’ve plugged in my headset
 
 Make sure your headset is connected to the correct ports on your computer:
-1. Your headset's HDMI cable should be plugged into your PC's discrete graphics card.
-2. Your headset's cable should be plugged into a USB 3.0 port.
+
+1. Your headset's cable should be plugged into a USB 3.0 port. Try another USB 3.0 port if possible.
+2. Your headset's HDMI cable should be plugged into your PC's discrete graphics card.
 
 ### Mixed Reality portal did not launch automatically after I plugged in my headset
 
