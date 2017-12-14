@@ -58,6 +58,6 @@ If you select Seated and standing , you'll be using your headset without a bound
 If you choose "All experiences," you'll set up a boundary, and you will be able to move around and use apps and experiences that work with a boundary as well as those that don't require one. You'll need to prepare your space to make sure there are no obstacles, hazards, or fragile items in the area you’ll be using (including above your head). Don’t set up at the top of a staircase or under an extra-low ceiling fan. Remove breakables and obstacles from the area, and make sure that you and anyone who uses your headset reads and understands the safety guidelines.
 
 ## See also
-* [Plug in your HMD](docs/plug-in-your-headset.md)
-* [Minimum PC hardware requirements](docs/windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md)
+* [Plug in your HMD](plug-in-your-headset.md)
+* [Minimum PC hardware requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md)
 * [Recommended adapters](recommended-adapters-for-windows-mixed-reality-capable-pcs.md)
