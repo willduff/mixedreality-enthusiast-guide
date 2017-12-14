@@ -1,4 +1,4 @@
-You---
+---
 title: Plug in your headset
 description: How to connect your Windows Mixed Reality headset to your PC.
 ms.topic: article
