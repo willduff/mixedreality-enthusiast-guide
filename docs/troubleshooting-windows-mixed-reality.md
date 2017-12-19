@@ -90,6 +90,7 @@ If the floor of your Windows Mixed Reality Home doesn't feel like it's at the ri
 
 Make sure the lights are turned on and that there isn't anything obstructing the inside-out tracking cameras on the front of your headset. If tracking is lost, it can take a few seconds for tracking to resume. If tracking does not resume, try restarting the Windows Mixed Reality Portal. See [Tracking Troubleshooting](troubleshooting-windows-mixed-reality.md#tracking-system) for more details.
 
+
 ### I cannot show a preview of what I'm seeing in my headset on my Desktop's screen?
 
 Mixed Reality Portal has a **Play** button at the bottom of the screen that allows you to show a preview of what you're seeing in your headset on your desktop's screen. However, this feature is disabled on PCs with integrated graphics due to the load placed on the GPU
@@ -135,6 +136,8 @@ Make sure your headset is connected to the correct ports on your computer:
 
 1. Your headset's cable should be plugged into a USB 3.0 port. Try another USB 3.0 port if possible.
 2. Your headset's HDMI cable should be plugged into your PC's discrete graphics card.
+
+Earlier versions of the Surface Dock and Surface USB Hub firmware update software are incompatible with Mixed Reality headsets.  If you get a "Connect your headset" message and are using a Surface PC, try following the instructions in this [Support Article](https://support.microsoft.com/en-us/help/4032123/kinect-sensor-is-not-recognized-on-a-surface-book).
 
 ### Mixed Reality portal did not launch automatically after I plugged in my headset
 
