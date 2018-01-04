@@ -215,6 +215,8 @@ Please ensure you have driver 15.68.9210.47 or later in use (**device manager->B
 
 Check the [Bluetooth Best Practices section](troubleshooting-windows-mixed-reality.md#bluetooth-best-practices) below. These symptoms are generally caused by failures to communicate between the controller and the host PC, which is indicative of poor Bluetooth link quality.
 
+Some environments with unusual lighting conditions can affect tracking. Verify you are not exposed to direct sunlight and that you don't have a lot of point light sources visible to your HMD (e.g. strings of lights like a christmas tree). 
+
 ### Mixed Reality Portal is working, but motion controllers do not appear
 
 Check the [Bluetooth Best Practices section](troubleshooting-windows-mixed-reality.md#bluetooth-best-practices) below. These symptoms are generally caused by poor Bluetooth link quality.
