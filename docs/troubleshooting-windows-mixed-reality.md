@@ -113,7 +113,7 @@ Mixed Reality Portal has a **Play** button at the bottom of the screen that allo
 * Make sure you're using a compatible HDMI adapter
 * Make sure your graphics driver is up-to-date
 
-Not all Surface devices are compatible with Windows Mixed Reality.  Learn more about [Surface compatiblity and requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md#windows-mixed-reality-and-surface) 
+**Note:** Not all Surface devices are compatible with Windows Mixed Reality.  Learn more about [Surface compatiblity and requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md#windows-mixed-reality-and-surface) 
 
 ### My computer does not have an HDMI port
 
@@ -135,6 +135,8 @@ Make sure your headset is connected to the correct ports on your computer:
 
 1. Your headset's cable should be plugged into a USB 3.0 port. Try another USB 3.0 port if possible.
 2. Your headset's HDMI cable should be plugged into your PC's discrete graphics card.
+
+**Note:** Earlier versions of the Surface Dock and Surface USB Hub firmware update software are incompatible with Mixed Reality headsets.  If you get a "Connect your headset" message and are using a Surface PC, try following the instructions in this [Support Article](https://support.microsoft.com/en-us/help/4032123/kinect-sensor-is-not-recognized-on-a-surface-book).
 
 ### Mixed Reality portal did not launch automatically after I plugged in my headset
 
@@ -213,7 +215,9 @@ Please ensure you have driver 15.68.9210.47 or later in use (**device manager->B
 
 ### Mixed Reality Portal is working, but motion controllers are tracking poorly (controllers keep flying away, shaking etc.)
 
-Check the [Bluetooth Best Practices section](troubleshooting-windows-mixed-reality.md#bluetooth-best-practices) below. These symptoms are generally caused by failures to communicate between the controller and the host PC, which is indicative of poor Bluetooth link quality.
+1. Verify you are not exposed to direct sunlight and that you don't have a lot of point light sources visible to your HMD (e.g. strings of lights like a christmas tree). 
+Some environments with unusual lighting conditions can affect tracking. 
+2. Check the [Bluetooth Best Practices section](troubleshooting-windows-mixed-reality.md#bluetooth-best-practices) below. These symptoms are generally caused by failures to communicate between the controller and the host PC, which is indicative of poor Bluetooth link quality.
 
 ### Mixed Reality Portal is working, but motion controllers do not appear
 
