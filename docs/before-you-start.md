@@ -10,6 +10,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, compati
 ## What you'll need to run Windows Mixed Reality
 * A Windows [Mixed Reality head mounted display (HMD)](https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices).
 * A new [Windows Mixed Reality ready PC](https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices) or a Windows Mixed Reality compatible PC runing Windows 10 Fall Creators Update.   
+* Display, USB, and Bluetooth adapaters (if required)
 * Motion Controllers, an Xbox controller, or a mouse and keyboard
 * Headphones with a mic (if your HMD doesn't have them built in)
 * An internet connection
@@ -33,7 +34,15 @@ After the app has installed to run the app. After reading the terms and conditio
 
 ## Make sure you have the Windows 10 Fall Creators Update installed
 
-You must be running the Windows 10 Fall Creators Update to run Windows Mixed Reality. You can check this by running winver.exe: **Start > Run > winver.exe**. The Version should be **1709**.
+You must be running the Windows 10 Fall Creators Update to run Windows Mixed Reality. Windows 10 will notify you when the Fall Creators Update is available for your device.  When the update is ready, you'll be asked to pick a time to install it if you're not ready. After it’s installed, your device will be running Windows 10, version 1709. To see which version of Windows 10 your device is currently running, select the **Start** button, then select **Settings  > System > About**. 
+
+If you want to install the update now, go to the [Microsoft software download website](https://go.microsoft.com/fwlink/p/?LinkId=821363) and select **Update now**. Before doing this, you'll need to [make sure your device is up to date](https://support.microsoft.com/help/4027667). Select the **Start** button, then select **Settings > Update & security > Windows Update**.  Select **Check for updates**. If updates are available, install them. 
+
+For more information on how to keep your PC up to date go [here](https://support.microsoft.com/en-us/help/12373/windows-update-faq)
+
+## Make sure that you have any required adapters
+
+Your Windows Mixed Reality compatible PC may not have the full-sized HDMI and USB 3.0 ports needed to connect your immersive headset. Or you may need a Bluetooth adapater to meet the PC Check requirements.  If that's the case, you'll need adapters to connect your headset and Motion Contollers. You'll find a list of adapter types you may need, and some recommendations on specific adapter models [here](recommended-adapters-for-windows-mixed-reality-capable-pcs.md).
 
 ## Make sure that you have input devices
 
