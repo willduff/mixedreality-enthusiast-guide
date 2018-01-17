@@ -33,6 +33,8 @@ Windows Mixed Reality motion controllers offer precise and responsive tracking o
 * Thumbstick
 * Touchpad
 
+>[!VIDEO https://www.youtube.com/embed/rkDpRllbLII?rel=0&modestbranding=1&frameborder=0&allowfullscreen]
+
 ## Using Motion controllers:
 
 | If you want to	  | Then do this 	                                  | 
