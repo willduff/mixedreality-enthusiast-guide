@@ -32,7 +32,7 @@ Your [Windows Mixed Reality compatible PC](windows-mixed-reality-minimum-pc-hard
 </tr><tr>
 <td>Cable Matters Active Mini DisplayPort to HDMI Adapter Supporting 4K 60Hz</td><td style="text-align: center; vertical-align: middle;">✔️</td><td style="text-align: center; vertical-align: middle;">✔️</td>
 </tr><tr>
-<td rowspan="3" style="vertical-align: middle;">USB 3.0 Type-C (with Thunderbolt 3 support)</td><td>Surface USB-C to HDMI Adapter</td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td>
+<td rowspan="3" style="vertical-align: middle;">USB 3.0 Type-C (with Thunderbolt 3 support)</td><td>Surface USB-C to HDMI Adapter (supports HDMI 2.0)</td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td>
 </tr><tr>
 <td>Plugable USB-C to HDMI 2.0</td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td>
 </tr><tr>
