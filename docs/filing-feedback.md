@@ -13,6 +13,15 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Feedbac
 
 The engineering team internally uses the same mechanism for finding and filing bugs. So use Feedback Hub and file issues; we are listening!
 
+## Before you file feedback
+
+Please make sure your PC is set to provide us with full data for feedback and diagnostics. Here's how to double check the setting on your PC before filing feedback:
+1. Open the Windows **Settings** app.
+2. Click on **Privacy**.
+3. Go to **Feedback & diagnostics** on the left pane.
+4. Under **Select how much data you send to Microsoft**, select **Full** if it isn't already selected.
+5. Be sure to restart your PC and repeat the steps to reproduce your issue before filing feedback.
+
 ## How to file feedback for Windows Mixed Reality immersive headsets on PC
 1. Ensure you have the immersive headset connected to your PC.
 2. Launch **Feedback Hub** on desktop with the HMD connected.
