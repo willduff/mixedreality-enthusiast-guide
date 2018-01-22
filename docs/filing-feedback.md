@@ -11,7 +11,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Feedbac
 
 ## Why it's important
 
-The engineering team internally uses the same mechanism for finding and filing bugs. So use Feedback Hub and file issues; we are listening!
+The engineering team uses the same mechanism internally for tracking and fixing bugs, so please us Feedback Hub and report any bugs you are seeing; we are listening!
 
 ## How to file feedback for Windows Mixed Reality immersive headsets on PC
 1. Ensure you have the immersive headset connected to your PC.
