@@ -20,15 +20,21 @@ Your [Windows Mixed Reality compatible PC](windows-mixed-reality-minimum-pc-hard
 <tr>
 <th style="width:30%">Type</th><th style="width:40%">Adapter</th><th style="width:15%">60Hz capable</th><th style="width:15%">90Hz capable</th>
 </tr><tr>
-<td rowspan="4" style="vertical-align: middle;">Full-size or Mini DisplayPort (MiniDP) to HDMI 2.0</td><td>Club3D (mini or full-size) DisplayPort 1.2 to HDMI 2.0 Active Adapter</td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td>
+<td rowspan="2" style="vertical-align: middle;">DisplayPort (full-size) to HDMI 2.0</td><td>Club3D DisplayPort 1.2 to HDMI 2.0 Active Adapter</td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td>
+</tr><tr>
+<td>Cable Matters Active (full-size) DisplayPort to HDMI Adapter Supporting 4K 60Hz</td><td style="text-align: center; vertical-align: middle;">✔️</td><td style="text-align: center; vertical-align: middle;">✔️</td>
+</tr><tr>
+<td rowspan="4" style="vertical-align: middle;">Mini DisplayPort (MiniDP) to HDMI 2.0</td><td>Club3D Mini DisplayPort 1.2 to HDMI 2.0 Active Adapter</td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td>
 </tr><tr>
 <td>Surface Mini DisplayPort to HDMI 2.0 Adapter</td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td>
 </tr><tr>
-<td>Plugable miniDP to Active HDMI 2.0</td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td>
+<td>Plugable Mini DisplayPort to Active HDMI 2.0</td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td>
 </tr><tr>
-<td>Cable Matters Active (mini or full-size) DisplayPort to HDMI Adapter Supporting 4K 60Hz</td><td style="text-align: center; vertical-align: middle;">✔️</td><td style="text-align: center; vertical-align: middle;">✔️</td>
+<td>Cable Matters Active Mini DisplayPort to HDMI Adapter Supporting 4K 60Hz</td><td style="text-align: center; vertical-align: middle;">✔️</td><td style="text-align: center; vertical-align: middle;">✔️</td>
 </tr><tr>
-<td rowspan="2" style="vertical-align: middle;">USB 3.0 Type-C (with Thunderbolt 3 support)</td><td>Plugable USB-C to HDMI 2.0</td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td>
+<td rowspan="3" style="vertical-align: middle;">USB 3.0 Type-C (with Thunderbolt 3 support)</td><td>Surface USB-C to HDMI Adapter (supports HDMI 2.0)</td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td>
+</tr><tr>
+<td>Plugable USB-C to HDMI 2.0</td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td>
 </tr><tr>
 <td>Accell USB-C to HDMI 2.0</td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td>
 </tr>
