@@ -28,7 +28,7 @@ Your [Windows Mixed Reality compatible PC](windows-mixed-reality-minimum-pc-hard
 </tr><tr>
 <td>Surface Mini DisplayPort to HDMI 2.0 Adapter</td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td>
 </tr><tr>
-<td>Plugable Mini DisplayPort to Active HDMI 2.0</td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td>
+<td>Plugable Mini DisplayPort to Active HDMI 2.0 (currently not compatible with Microsoft Surface Book 2)</td><td style="text-align: center;">✔️</td><td style="text-align: center;">✔️</td>
 </tr><tr>
 <td>Cable Matters Active Mini DisplayPort to HDMI Adapter Supporting 4K 60Hz</td><td style="text-align: center; vertical-align: middle;">✔️</td><td style="text-align: center; vertical-align: middle;">✔️</td>
 </tr><tr>
