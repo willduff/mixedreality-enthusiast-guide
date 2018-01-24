@@ -102,7 +102,7 @@ More information on Surface compatibility with Windows Mixed Reality is availabl
 	<tr>
 		<td style="vertical-align: middle"> Surface Pro 3 </td><td style="vertical-align: middle"> No </td><td> </td><td></td>
 	</tr>
-	<tr>
+ (with Windows 10 Pro installed) <tr>
 		<td style="vertical-align: middle"> Surface Pro 4 </td><td style="vertical-align: middle"> No </td><td> </td><td></td>
 	</tr>
 	<tr>
@@ -150,7 +150,7 @@ More information on Surface compatibility with Windows Mixed Reality is availabl
 		<td style="vertical-align: middle"> Surface Laptop </td><td style="vertical-align: middle"> Yes </td><td style="vertical-align: middle"> Intel 7th generation Core i5/i7 with 8GB of RAM or more </td>
 		<td>
 			<ul>
-				<li>Requires HDMI 2.0-compatible Mini DisplayPort adapter</li><li>Requires <a href="https://support.microsoft.com/en-us/help/4023450/surface-surface-battery-and-power">Performance Slider</a> set to “Best Performance” during usage</li><li>Achieves Windows Mixed Reality (60Hz) experience</li>
+				<li>Requires Windows 10 Pro (Windows Mixed Reality is incompatible with Windows 10 S)</li><li>Requires HDMI 2.0-compatible Mini DisplayPort adapter</li><li>Requires <a href="https://support.microsoft.com/en-us/help/4023450/surface-surface-battery-and-power">Performance Slider</a> set to “Best Performance” during usage</li><li>Achieves Windows Mixed Reality (60Hz) experience</li>
 			</ul>
 		</td>
 	</tr>
