@@ -307,3 +307,4 @@ Read more about 3DOF and 6DOF here: <https://www.roadtovr.com/introduction-posit
 ### What platforms will Halo Recruit support? Will it run cross-platform on Vive/Oculus?
 
 **Quick Answer:** Halo Recruit, our first glimpse of what Halo in mixed reality can feel like, is built exclusively for Windows Mixed Reality. For more details, see <https://blogs.windows.com/windowsexperience/2017/10/03/the-era-of-windows-mixed-reality-begins-october-17>
+
