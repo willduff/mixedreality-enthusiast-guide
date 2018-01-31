@@ -118,7 +118,7 @@ More information on Surface compatibility with Windows Mixed Reality is availabl
 		<td style="vertical-align: middle"> Surface Pro (2017) </td><td style="vertical-align: middle"> Yes </td><td style="vertical-align: middle"> Intel 7th generation Core i5/i7 with 8GB of RAM or more </td>
 		<td>
 			<ul>
-				<li>Requires HDMI 2.0-compatible Mini DisplayPort adapter</li>
+				<li>Requires Surface Mini DisplayPort to HDMI 2.0 Adapter (other adapters may work, but are untested)</li>
 				<li>Requires <a href="https://support.microsoft.com/en-us/help/4023450/surface-surface-battery-and-power">Performance Slider</a> set to “Best Performance” during usage</li>
 				<li>Achieves Windows Mixed Reality (60Hz) experience</li>
 			</ul>
@@ -139,18 +139,16 @@ More information on Surface compatibility with Windows Mixed Reality is availabl
 		<td style="vertical-align: middle"> Surface Studio </td><td style="vertical-align: middle"> Yes </td><td style="vertical-align: middle"> All configurations </td>
 		<td>
 			<ul>
-				<li>Requires HDMI 2.0-compatible Mini DisplayPort adapter</li><li>Windows Mixed Reality headset must be connected to USB port with “+” symbol</li>
+				<li>Surface Mini DisplayPort to HDMI 2.0 Adapter (other adapters may work, but are untested)</li><li>Windows Mixed Reality headset must be connected to USB port with “+” symbol</li>
 				<li>Configurations with NVIDIA GeForce GTX 965m achieve Windows Mixed Reality (60Hz) experience.</li>
-				<li>Configurations with NVIDIA GeForce GTX 980m achieve Windows Mixed Reality (90Hz) experience.</li>
-				<li>Requires installation of Windows Mixed Reality <a href="https://www.microsoft.com/en-us/download/details.aspx?id=54311">preview drivers</a>. Final drivers will be published to Windows Update when available.</li>
-			</ul>
+				<li>Configurations with NVIDIA GeForce GTX 980m achieve Windows Mixed Reality (90Hz) experience.</li>				</ul>
 		</td>
 	</tr>
 	<tr>
 		<td style="vertical-align: middle"> Surface Laptop </td><td style="vertical-align: middle"> Yes </td><td style="vertical-align: middle"> Intel 7th generation Core i5/i7 with 8GB of RAM or more </td>
 		<td>
 			<ul>
-				<li>Requires Windows 10 Pro (Windows Mixed Reality is incompatible with Windows 10 S)</li><li>Requires HDMI 2.0-compatible Mini DisplayPort adapter</li><li>Requires <a href="https://support.microsoft.com/en-us/help/4023450/surface-surface-battery-and-power">Performance Slider</a> set to “Best Performance” during usage</li><li>Achieves Windows Mixed Reality (60Hz) experience</li>
+				<li>Requires Windows 10 Pro (Windows Mixed Reality is incompatible with Windows 10 S)</li><li>Requires Surface Mini DisplayPort to HDMI 2.0 Adapter (other adapters may work, but are untested)</li><li>Requires <a href="https://support.microsoft.com/en-us/help/4023450/surface-surface-battery-and-power">Performance Slider</a> set to “Best Performance” during usage</li><li>Achieves Windows Mixed Reality (60Hz) experience</li>
 			</ul>
 		</td>
 	</tr>
