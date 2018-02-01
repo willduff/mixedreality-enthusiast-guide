@@ -26,7 +26,7 @@ Windows Mixed Reality for SteamVR allows users to run SteamVR experiences on Win
 
 ## Using Motion Controllers with SteamVR
 You'll use your motion controllers differently in different games. Here are a few basics to help you get started:
-* To open the Steam dashboard, press straight down on the left thumbstick. 
+* To open the Steam dashboard, press straight down on the left or right thumbstick. 
 * To exit a SteamVR game and return to the Windows Mixed Reality home, press the Windows button.
 
 ## Changing the resolution
