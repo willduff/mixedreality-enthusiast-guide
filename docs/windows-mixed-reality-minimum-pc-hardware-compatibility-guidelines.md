@@ -129,7 +129,7 @@ More information on Surface compatibility with Windows Mixed Reality is availabl
 		<td>
 			<ul>
 				<li>Requires <a href="https://www.microsoft.com/en-us/store/d/surface-usb-c-to-hdmi-adapter/94chb2m80s54/4gj5">Surface USB-C to HDMI Adapter</a> (other adapters may work, but are untested)</li>
-				<li>The use of Surface Dock with Surface Book 2 is not officially supported with Windows Mixed Reality, due to Surface Dock’s power supply limitations.</li>
+				<li><b>Note</b>: The use of Surface Dock with Surface Book 2 is not officially supported with Windows Mixed Reality, due to Surface Dock’s power supply limitations.</li>
 				<li>Configurations with only the Intel HD Graphics 620 integrated GPU achieve Windows Mixed Reality (60Hz) experience</li>				
 				<li>Configurations with NVIDIA GeForce GTX 1050 and 1060 discrete GPU achieve Windows Mixed Reality (90Hz) experience</li>
 			</ul>
