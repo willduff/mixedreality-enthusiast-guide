@@ -1,12 +1,12 @@
 ---
-title: Mixed Reality software
-description: An overview of the major software components for Windows Mixed Reality
+title: Mixed Reality software overview and release history
+description: An overview of the major software components for Windows Mixed Reality, and their release history
 ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, software components, release history, release notes, version history
 ---
 
 
-# Mixed Reality software
+# Mixed Reality software overview and release history
 
 ## Introduction to Mixed Reality software
 
