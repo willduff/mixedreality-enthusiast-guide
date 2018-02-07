@@ -42,6 +42,6 @@ This driver is automatically downloaded and installed via Windows Update, but do
 
 Valve's release notes for SteamVR can be found here: [https://steamcommunity.com/app/250820](https://steamcommunity.com/app/250820)
 
-### Windows Mixed Reality for SteamVR Release History ###
+### Windows Mixed Reality for SteamVR release history ###
 
 Our release notes for the Windows Mixed Reality for SteamVR component can be found here: [http://steamcommunity.com/games/719950/announcements/](http://steamcommunity.com/games/719950/announcements/)
