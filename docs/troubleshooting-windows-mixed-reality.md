@@ -188,6 +188,12 @@ If manually installing the driver didn’t work, or you don't find it under Othe
 | 2181038087-13 | <ul><li>**Likely reason for the error code**: Windows Mixed Reality is unable to synchronize the Mixed Reality camera frame timestamps to your PC timestamps. </li><li>This is most likely caused by an incompatible USB Host controller. </li></ul> |
 | 2181038087-14 | <ul><li>**Likely reason for the error code**: Windows Mixed Reality is having trouble initializing the presence sensor on your Mixed Reality headset. </li><li>**Troubleshooting**:</li><ol start="1"><li>Unplug your HMD and plug it back in.</li><li>Try another USB port.</li></ol></ul> |
 
+## I'm getting a "The install class is not present or is invalid" error in Device Manager
+
+If you see "HoloLens Sensors" with a yellow exclamation mark in Device Manager, double click on the device for additional details. If you see a message saying "The install class is not present or is invalid", this is typically because your PC is running Windows 10 N. Please note that N-editions of Windows 10 do not support Windows Mixed Reality, and you'll need to install a non-N version of Windows 10.
+
+For more information on Windows 10 N, please visit [this page](https://support.microsoft.com/en-us/help/4039813/media-feature-pack-for-windows-10-n-october-2017).
+
 ## Motion Controllers
 
 ### My controller is stuck in an infinite reboot (buzzing after LEDs cycle) OR the controller doesn't turn on at all
@@ -200,7 +206,7 @@ Check that you do not have controllers paired already, remove them and try again
 
 ### Wifi speeds becomes slow on my notebook when motion controllers are turned on
 
-Your notebook may share Wifi antenna with Bluetooth when connected to 2.4GHz access point. Check from device manager if you can switch band preference to 5GHz. If 5GHz network is not available and performance is severely impacts consider using Bluetooth dongle.
+Your notebook may share its WiFi antenna with Bluetooth when connected to 2.4GHz access point. Check from device manager if you can switch band preference to 5GHz. If 5GHz network is not available and performance is severely impacts consider using Bluetooth dongle.
 
 ![Wifi band selection settings can be found through device manager](images/wifi5ghz.png)
 
