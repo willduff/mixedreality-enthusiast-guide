@@ -190,7 +190,7 @@ If manually installing the driver didn’t work, or you don't find it under Othe
 
 ## I'm getting a "The install class is not present or is invalid" error in Device Manager
 
-If you see "HoloLens Sensors" with a yellow exclamation mark in Device Manager, double click on the device for additional details. If you see a message saying "The install class is not present or is invalid", this is typically because your PC is running Windows 10 N. Please note that N-editions of Windows 10 do not support Windows Mixed Reality, and you'll need to install a non-N version of Windows 10.
+If you see "HoloLens Sensors" with a yellow exclamation mark in Device Manager, double click on the device for additional details. If you see a message saying "The drivers for this device are not installed. (Code 28) -- The install class is not present or is invalid", this is typically because your PC is running Windows 10 N. Please note that N-editions of Windows 10 do not support Windows Mixed Reality, and you'll need to install a non-N version of Windows 10.
 
 For more information on Windows 10 N, please visit [this page](https://support.microsoft.com/en-us/help/4039813/media-feature-pack-for-windows-10-n-october-2017).
 
