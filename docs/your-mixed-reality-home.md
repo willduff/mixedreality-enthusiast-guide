@@ -72,6 +72,9 @@ Go to **Settings > Mixed Reality > Environment > Reset my home** ![Windows Setti
 2. Close Mixed Reality Portal
 3. Go to **Settings > Mixed Reality > Uninstall > Uninstall** ![Windows Settings panel to uninstall mixed reality](images/1050px-uninstall2.png)
 
+## What is the maximum size of the boundary?
+The currently supported maximum boundary size in Windows Mixed Reality is 18x18ft (5.7x5.7m) or 13ft (4m) radius from the center.  The boundary size is dependent on the anchor point and how far from the anchor point you can move before you risk the stability of the boundary.  Windows Mixed Reality is built on a stage abstraction in the platform, the stage being the space you move around in, and that stage depends on a single anchor (which nearly every app also assumes – it’s how Vive and Oculus work too, as they only have a single coordinate system).  The reason that this is important is that with inside-out tracking, as you move further away from an anchor point the headset tracking is reliable at keeping the boundary stable.  Where the boundary is intended to help avoid physical obstacles, it becomes more and more of a problem the further out from the center you go.  Two factors went into the decision on maximum boundary size; the maximum distance at which Windows Mixed Reality headsets could provide the best room scale experience with a boundary and the length of the headset cable, which for most Windows Mixed Reality headsets is 10ft (3m). 
+
 ## How do I turn off the boundary?
 
 Go to Mixed Reality Portal and open the menu in the upper left of the screen. Select **Run Set up > Room Boundary**. Switch the toggle to OFF. You should remain seated at your desk if you turn off the boundary.
