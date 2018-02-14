@@ -38,6 +38,14 @@ This driver is automatically downloaded and installed via Windows Update, but do
    | 10.0.16299.1036  | November 7th, 2017    | <ul><li>Motion Controller throwing mechanic improvements:<ul><li>Velocity will now be reported properly when position accuracy is approximate, so you can now throw behind your head!</li><li>Example code for throwing can be found in the "ThrowingStarter" unity package [here](https://github.com/keluecke/MixedRealityToolkit-Unity/tree/master/External/Unitypackages/). Open the throwing scene to get started</li></ul></li><li>Improved Motion Controller battery reporting</li><li>Various stability and reliability fixes</li></ul> |
    | 10.0.16299.1012  | October 17th, 2017    | Initial public release of the driver                              |
 
+### Mixed Reality motion controller model driver release history ###
+
+This driver is also automatically downloaded and installed via Windows Update, but download links are provided inline:
+
+   | Version          | Release Date          | Major changes                                                 |
+   |------------------|-----------------------|---------------------------------------------------------------|
+   | [10.0.16291.1000, 10.0.16299.1012](http://www.microsoft.com/en-us/download/details.aspx?id=56414)  | October 17th, 2017    | Initial public release of the driver                          |
+
 ### SteamVR release history ###
 
 Valve's release notes for SteamVR can be found here: [https://steamcommunity.com/app/250820](https://steamcommunity.com/app/250820)
