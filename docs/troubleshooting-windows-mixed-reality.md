@@ -466,7 +466,7 @@ If this problem persists, contact customer support.
 ### The world is tilted but I can navigate and walk around fine in Windows Mixed Reality
 
 This is typically caused by errors in sensor data being recorded into the environment data that is stored on your PC. This can cause the Windows Mixed Reality to appear tilted, sometimes permanently. Try the following:
-1. Unplug the HDM, close Windows Mixed Reality and plug the headset back in.
+1. Unplug the HMD, close Windows Mixed Reality and plug the headset back in.
 2. Reboot the PC.
 3. Clear your environment data.
 
