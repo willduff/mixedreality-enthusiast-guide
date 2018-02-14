@@ -232,6 +232,10 @@ Some environments with unusual lighting conditions can affect tracking.
 
 Check the [Bluetooth Best Practices section](troubleshooting-windows-mixed-reality.md#bluetooth-best-practices) below. These symptoms are generally caused by poor Bluetooth link quality.
 
+### Motion controllers do not appear in SteamVR apps/games ###
+
+If you're able to see your Motion Controllers in the cliff house, but not in SteamVR apps and games, the Motion Controller model driver may not be installed properly. This driver is typically automatically downloaded and installed via Windows Update, but if you're on a PC that has enterprise policies or if Windows Update is otherwise restricted, you may need to install this manually. Please visit [this page](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/mixed-reality-software) for more information and to manually download and install this driver.
+
 ### Motion controllers firmware update takes significantly longer than 2 minutes
 
 Check the [Bluetooth Best Practices section](troubleshooting-windows-mixed-reality.md#bluetooth-best-practices) below. These symptoms are generally caused by poor Bluetooth link quality.
