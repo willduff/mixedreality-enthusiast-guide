@@ -41,11 +41,13 @@ If you're a VR enthusiast you might regularly use more than one VR headset on th
 
 We will be releasing frequent updates to improve the performance, reliability, and overall experience of using SteamVR on Windows Mixed Reality immersive headsets. To stay up to date with the latest improvements:
 * Check for Windows updates regularly
-* Switch to the SteamVR beta if you want to try out fixes before they're released to a broader audience
+* Switch to the beta for both SteamVR and Windows Mixed Reality for SteamVR if you want to try out fixes before they're released to a broader audience
   1. In Steam - use the drop down under your Library to filter to Tools and then locate SteamVR in the list
   2. Open SteamVR properties - right click SteamVR in the same Tools page and open the Properties dialog.![Install SteamVR from the tools section of your Steam Library](images/steamvr-install.png)
   3. Join the SteamVR Beta - click the Betas tab and opt into SteamVR Beta Update by selecting it from the drop down. **Note:** The beta access code field should be left blank and you can just hit close to confirm.![Switch to the SteamVR beta in the properties dialog for SteamVR](images/steamvr-beta.png)
-
+  4. Use  the drop down under your Library to filter to Software and then locate Windows Mixed Reality for SteamVR in the list
+  5. Repeat Steps 2-3 to also join the beta for Windows Mixed Reality for SteamVR
+  
 ## Enabling controller thumbstick turning in any SteamVR application
 
 **Windows Mixed Reality for SteamVR** has an experimental feature to enable the use of a controller thumbstick for artificial turns in any StreamVR application.  
