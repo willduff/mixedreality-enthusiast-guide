@@ -92,7 +92,7 @@ Make sure the lights are turned on and that there isn't anything obstructing the
 
 ### I cannot show a preview of what I'm seeing in my headset on my Desktop's screen?
 
-Mixed Reality Portal has a **Play** button at the bottom of the screen that allows you to show a preview of what you're seeing in your headset on your desktop's screen. However, this feature is disabled on PCs with integrated graphics due to the load placed on the GPU
+Mixed Reality Portal has a **Play** button at the bottom of the screen that allows you to show a preview of what you're seeing in your headset on your desktop's screen. However, for performance reasons, this feature is only available on PCs running at Windows Mixed Reality Ultra (90Hz).
 
 ## Mixed Reality headset connectivity
 
@@ -379,10 +379,12 @@ This flow chart below helps further explain the best steps to acquire a WDDM 2.2
 
 ## Performance
 
-### How do I tell if the Windows Mixed Reality HMD is rendering at 60Hz or 90Hz framerate?
+### How do I tell if the Windows Mixed Reality headset is rendering at 60Hz or 90Hz framerate?
 
-The easiest way to check if WMR is running at 60 Hz or 90 Hz is to use the [Device Portal](https://docs.microsoft.com/en-us/windows/uwp/debug-test-perf/device-portal) -> Performance tab. 
-The Headset display -> visual quality settings only affect the rendering of the WMR Home experience. If you have a discrete GPU with HDMI 2.0 ports and a CPU with 4+ Physical cores, you should be getting 90 Hz. If your GPU only has a HDMI 1.4 output, you can use a DisplayPort to HDMI 2.0 adapter as a workaround. 
+The easiest way to check if Windows Mixed Reality is running at 60 Hz or 90 Hz is to use the [Device Portal](https://docs.microsoft.com/en-us/windows/uwp/debug-test-perf/device-portal) -> Performance tab. 
+The Headset display -> visual quality settings only affect the rendering of the Windows Mixed Reality Home experience.
+* If you have a discrete GPU with HDMI 2.0 ports and a CPU with 4+ physical cores, you should be getting 90 Hz.
+* If your GPU only has a HDMI 1.4 output, you can use a DisplayPort to HDMI 2.0 adapter as a workaround. 
 [View the full list of recommended adapters here](https://holodocswiki.com/wiki/Recommended_adapters_for_Windows_Mixed_Reality_Capable_PCs) 
 
 ### What do I do if my PC appears to be running sluggish?
