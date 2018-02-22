@@ -94,7 +94,29 @@ Make sure the lights are turned on and that there isn't anything obstructing the
 
 Mixed Reality Portal has a **Play** button at the bottom of the screen that allows you to show a preview of what you're seeing in your headset on your desktop's screen. However, for performance reasons, this feature is only available on PCs running at Windows Mixed Reality Ultra (90Hz).
 
-## Mixed Reality headset connectivity
+## HMD Connectivity
+
+### The screen inside of my HMD is black
+
+* Check to make sure that the HDMI cable is plugged in all the way.
+* If you're using extension cables, try removing them.
+* If you're using an HDMI adapter (e.g. a Mini DisplayPort to HDMI adapter), please try connecting the adapter to your PC before connecting the headset to the adapter. 
+  * Make sure the HDMI adapter supports HDMI 2.0.
+  * See [Recommended adapters for Windows Mixed Reality](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs) for more details.
+* Check to make sure the USB cable is plugged into a USB 3.0 or faster port. USB 3.0 ports have SS (Super Speed) written next to them. They are often (but not always) colored blue.		
+* Try your PC's HDMI port with a PC monitor. Some PCs may have more than one HDMI port, and not all of them may be active
+* If your PC has both an integrated graphics processing unit (iGPU) and a discrete graphics processing unit (dGPU), make sure that you are plugged into your dGPU's HDMI port. 
+* If you have a headset with a detachable cable (for example, the HP Mixed Reality headset), make sure the detachable cable is securely and properly connected to the headset.
+
+![HDMI Ports](images/HP_HDMI_Ports_m.png)
+
+* Consult the headset black screen troubleshooting flow chart below
+
+### The screen inside of my HMD flickers, flashes or is black when using a Surface device
+* Make sure you're using a compatible HDMI adapter
+* Make sure your graphics driver is up-to-date
+
+**Note:** Not all Surface devices are compatible with Windows Mixed Reality.  Learn more about [Surface compatiblity and requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md#windows-mixed-reality-and-surface) 
 
 ### My computer does not have an HDMI port
 
