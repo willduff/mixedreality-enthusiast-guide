@@ -94,28 +94,7 @@ Make sure the lights are turned on and that there isn't anything obstructing the
 
 Mixed Reality Portal has a **Play** button at the bottom of the screen that allows you to show a preview of what you're seeing in your headset on your desktop's screen. However, this feature is disabled on PCs with integrated graphics due to the load placed on the GPU
 
-## HMD Connectivity
-
-### The screen inside of my HMD is black
-
-* Check to make sure that the HDMI cable is plugged in all the way.
-* If you're using extension cables, try removing them.
-* If you're using an HDMI adapter (e.g. a Mini DisplayPort to HDMI adapter), please try connecting the adapter to your PC before connecting the headset to the adapter. 
-  * Make sure the HDMI adapter supports HDMI 2.0.
-  * See [Recommended adapters for Windows Mixed Reality](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs) for more details.
-* Check to make sure the USB cable is plugged into a USB 3.0 or faster port. USB 3.0 ports have SS (Super Speed) written next to them. They are often (but not always) colored blue.		
-* Try your PC's HDMI port with a PC monitor. Some PCs may have more than one HDMI port, and not all of them may be active
-* If your PC has both an integrated graphics processing unit (iGPU) and a discrete graphics processing unit (dGPU), make sure that you are plugged into your dGPU's HDMI port. 
-
-![HDMI Ports](images/HP_HDMI_Ports_m.png)
-
-* Consult the headset black screen troubleshooting flow chart below
-
-### The screen inside of my HMD flickers, flashes or is black when using a Surface device
-* Make sure you're using a compatible HDMI adapter
-* Make sure your graphics driver is up-to-date
-
-**Note:** Not all Surface devices are compatible with Windows Mixed Reality.  Learn more about [Surface compatiblity and requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md#windows-mixed-reality-and-surface) 
+## Mixed Reality headset connectivity
 
 ### My computer does not have an HDMI port
 
@@ -166,11 +145,44 @@ If manually installing the driver didn’t work, or you don't find it under Othe
 * In the new popup that appears, select the check box **Delete the driver software for this device** and this click **Uninstall**.
 * When that completes unplug the HMD from your PC, and plug it back in. Windows Update will now download and install a new driver.
 
-### Headset Troubleshooting Flowcharts
+### Troubleshooting Flowchart
+
+![Connect your headset/check your USB cable](images/hmd-connectivity2.jpg)
+
+## Mixed Reality headset displays ##
+
+### My headset displays are black
+
+* Check to make sure that the HDMI cable is plugged in all the way.
+* If you're using extension cables, try removing them.
+* If you're using an HDMI adapter (e.g. a Mini DisplayPort to HDMI adapter), please try connecting the adapter to your PC before connecting the headset to the adapter. 
+  * Make sure the HDMI adapter supports HDMI 2.0.
+  * See [Recommended adapters for Windows Mixed Reality](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs) for more details.
+* Check to make sure the USB cable is plugged into a USB 3.0 or faster port. USB 3.0 ports have SS (Super Speed) written next to them. They are often (but not always) colored blue.		
+* Try your PC's HDMI port with a PC monitor. Some PCs may have more than one HDMI port, and not all of them may be active
+* If your PC has both an integrated graphics processing unit (iGPU) and a discrete graphics processing unit (dGPU), make sure that you are plugged into your dGPU's HDMI port. 
+
+![HDMI Ports](images/HP_HDMI_Ports_m.png)
+
+* Consult the headset black screen troubleshooting flow chart below
+
+### My PC or headset displays flicker, flash or remains black when using a Surface device
+
+* Make sure you're using a compatible HDMI adapter
+* Make sure your graphics driver is up-to-date
+
+**Note:** Not all Surface devices are compatible with Windows Mixed Reality.  Learn more about [Surface compatiblity and requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md#windows-mixed-reality-and-surface) 
+
+### My headset displays turn blue for a moment, and then Mixed Reality Portal reinitializes
+
+This typically indicates an occasional USB controller reliability issue on your PC:
+* Try another USB port. Your PC may have multiple USB 3.0 controllers.
+* If you're using a Desktop PC, consider purchasing a USB 3.0 PCIe card to add another USB controller to your PC.
+
+### Troubleshooting Flowchart
 
 ![Black screen/Can't see anything](images/hmd-connectivity.jpg)
 
-![Connect your headset/check your USB cable](images/hmd-connectivity2.jpg)
 
 ## I am getting a "Something Went Wrong" error code
 
