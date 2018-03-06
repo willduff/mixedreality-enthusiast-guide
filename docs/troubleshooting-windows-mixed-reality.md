@@ -188,6 +188,13 @@ If manually installing the driver didn’t work, or you don't find it under Othe
 
 * Consult the headset black screen troubleshooting flow chart below
 
+### One of the displays on my headset are black
+
+* If you're using an HDMI adapter, make sure it supports HDMI 2.0
+* Remove any USB and HDMI extension cables if you're using any
+* Make sure your graphics driver is up-to-date
+* If possible, try the Mixed Reality headset on another PC
+
 ### My PC or headset displays flicker, flash or remains black when using a Surface device
 
 * Make sure you're using a compatible HDMI adapter
