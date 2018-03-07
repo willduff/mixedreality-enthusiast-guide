@@ -188,6 +188,13 @@ If manually installing the driver didn’t work, or you don't find it under Othe
 
 * Consult the headset black screen troubleshooting flow chart below
 
+### One of the displays on my headset are black
+
+* If you're using an HDMI adapter, make sure it supports HDMI 2.0
+* Remove any USB and HDMI extension cables if you're using any
+* Make sure your graphics driver is up-to-date
+* If possible, try the Mixed Reality headset on another PC
+
 ### My PC or headset displays flicker, flash or remains black when using a Surface device
 
 * Make sure you're using a compatible HDMI adapter
@@ -210,7 +217,7 @@ This typically indicates an occasional USB controller reliability issue on your 
 
 | **Error Code**             | **Troubleshooting steps**                                          |
 |----------------------------|--------------------------------------------------------------------|
-| C0001160-101 | <ul><li>**Likely reason for the error code**: Your PC's graphics card or graphics card driver may not be compatible with Windows Update.</li><li>Please double check that your PC meets the minimum system requirements for Windows Mixed Reality. Please also ensure that you've installed the latest graphics driver from the graphics card manufacturer's website.</li></ul> |
+| C0001160-101 | <ul><li>**Likely reason for the error code**: Your PC's graphics card or graphics card driver may not be compatible with Windows Mixed Reality.</li><li>Please double check that your PC meets the minimum system requirements for Windows Mixed Reality. Please also ensure that you've installed the latest graphics driver from the graphics card manufacturer's website.</li></ul> |
 | H0002000-0 | <ul><li>**Likely reason for the error code**: Your PC's operating system has gotten into a mismatched state for Windows Mixed Reality.</li><li>Please try checking Windows Updates for updates.</li></ul> |
 | S0002261-101 | <ul><li>**Likely reason for the error code**: The HDMI adapter you are using is incompatible with Windows Mixed Reality.</li><li>Please see the supported and recommended HDMI to mini display port (DP) dongle [here](recommended-adapters-for-windows-mixed-reality-capable-pcs.md).</li></ul> |
 | 2181038087-3 | <ul><li>**Likely reason for the error code**: The Mixed Reality headset failed to completely initialize. </li><li>**Troubleshooting**: This is most likely a transient error. Unplugging and re-plugging in your headset should resolve this issue. </li></ul>
