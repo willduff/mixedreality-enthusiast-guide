@@ -184,6 +184,11 @@ If manually installing the driver didn’t work, or you don't find it under Othe
 * Try your PC's HDMI port with a PC monitor. Some PCs may have more than one HDMI port, and not all of them may be active
 * If your PC has both an integrated graphics processing unit (iGPU) and a discrete graphics processing unit (dGPU), make sure that you are plugged into your dGPU's HDMI port. 
 
+If your headset displays are occasionally turning black after some time:
+
+* Try disabling any USB suspend / power saving features your PC might have, for instance: Selective suspend in Windows power options, the "Allow the computer to turn off this device to save power" setting in Device Manager, and any USB power saving settings in your PC's firmware.
+* Temporarily disconnect any other USB devices and peripherals connected to your PC.
+
 ![HDMI Ports](images/HP_HDMI_Ports_m.png)
 
 * Consult the headset black screen troubleshooting flow chart below
