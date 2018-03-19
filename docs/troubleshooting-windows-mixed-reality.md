@@ -96,28 +96,6 @@ Mixed Reality Portal has a **Play** button at the bottom of the screen that allo
 
 ## HMD Connectivity
 
-### The screen inside of my HMD is black
-
-* Check to make sure that the HDMI cable is plugged in all the way.
-* If you're using extension cables, try removing them.
-* If you're using an HDMI adapter (e.g. a Mini DisplayPort to HDMI adapter), please try connecting the adapter to your PC before connecting the headset to the adapter. 
-  * Make sure the HDMI adapter supports HDMI 2.0.
-  * See [Recommended adapters for Windows Mixed Reality](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs) for more details.
-* Check to make sure the USB cable is plugged into a USB 3.0 or faster port. USB 3.0 ports have SS (Super Speed) written next to them. They are often (but not always) colored blue.		
-* Try your PC's HDMI port with a PC monitor. Some PCs may have more than one HDMI port, and not all of them may be active
-* If your PC has both an integrated graphics processing unit (iGPU) and a discrete graphics processing unit (dGPU), make sure that you are plugged into your dGPU's HDMI port. 
-* If you have a headset with a detachable cable (for example, the HP Mixed Reality headset), make sure the detachable cable is securely and properly connected to the headset.
-
-![HDMI Ports](images/HP_HDMI_Ports_m.png)
-
-* Consult the headset black screen troubleshooting flow chart below
-
-### The screen inside of my HMD flickers, flashes or is black when using a Surface device
-* Make sure you're using a compatible HDMI adapter
-* Make sure your graphics driver is up-to-date
-
-**Note:** Not all Surface devices are compatible with Windows Mixed Reality.  Learn more about [Surface compatiblity and requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md#windows-mixed-reality-and-surface) 
-
 ### My computer does not have an HDMI port
 
 If your computer does not have an HDMI port, you will need to use a [supported and recommended HDMI to mini display port (DP) dongle](recommended-adapters-for-windows-mixed-reality-capable-pcs.md).
@@ -183,10 +161,15 @@ If manually installing the driver didn’t work, or you don't find it under Othe
 * Check to make sure the USB cable is plugged into a USB 3.0 or faster port. USB 3.0 ports have SS (Super Speed) written next to them. They are often (but not always) colored blue.		
 * Try your PC's HDMI port with a PC monitor. Some PCs may have more than one HDMI port, and not all of them may be active
 * If your PC has both an integrated graphics processing unit (iGPU) and a discrete graphics processing unit (dGPU), make sure that you are plugged into your dGPU's HDMI port. 
-
 ![HDMI Ports](images/HP_HDMI_Ports_m.png)
 
-* Consult the headset black screen troubleshooting flow chart below
+
+If your headset displays are occasionally turning black after some time:
+
+* Try disabling any USB suspend / power saving features your PC might have, for instance: Selective suspend in Windows power options, the "Allow the computer to turn off this device to save power" setting in Device Manager, and any USB power saving settings in your PC's firmware.
+* Temporarily disconnect any other USB devices and peripherals connected to your PC.
+
+Also consult the headset black screen troubleshooting flow chart below.
 
 ### One of the displays on my headset are black
 
@@ -222,7 +205,7 @@ This typically indicates an occasional USB controller reliability issue on your 
 | S0002261-101 | <ul><li>**Likely reason for the error code**: The HDMI adapter you are using is incompatible with Windows Mixed Reality.</li><li>Please see the supported and recommended HDMI to mini display port (DP) dongle [here](recommended-adapters-for-windows-mixed-reality-capable-pcs.md).</li></ul> |
 | 2181038087-3 | <ul><li>**Likely reason for the error code**: The Mixed Reality headset failed to completely initialize. </li><li>**Troubleshooting**: This is most likely a transient error. Unplugging and re-plugging in your headset should resolve this issue. </li></ul>
 | 2181038087-4 | <ul><li>**Likely reason for the error code**: The Mixed Reality headset driver failed to initialize the tracking cameras on your headset. </li><li>**Troubleshooting**: This is most likely a transient error. Unplugging and re-plugging in your headset should resolve this issue. </li></ul>
-| 2181038087-5 | <ul><li>**Likely reason for the error code**: Windows Mixed Reality lost synchronization between the Mixed Reality camera frame timestamps and your PC timestamps. </li><li>**Troubleshooting**: This could be a transient error, or an indication of USB signal integrity issues. Try to unplug all of your USB devices, remove all extension cables, and plug in just your headset. </li></ul>
+| 2181038087-5 | <ul><li>**Likely reason for the error code**: Windows Mixed Reality lost synchronization between the Mixed Reality camera frame timestamps and your PC timestamps. </li><li>**Troubleshooting**: This could be a transient error, or an indication of USB signal integrity issues.<ul><li>Try to unplug all of your USB devices, remove all extension cables, and plug in just your headset.</li><li>Try disabling any USB suspend / power saving features your PC might have, for instance: Selective suspend in Windows power options, the "Allow the computer to turn off this device to save power" setting in Device Manager, and any USB power saving settings in your PC's firmware.</li></ul></li></ul>
 | 2181038087-7 | <ul><li>**Likely reason for the error code**: The Mixed Reality headset driver failed to initialize the firmware on your headset. </li><li>**Troubleshooting**: This is most likely a transient error. Unplugging and re-plugging in your headset should resolve this issue. Please also ensure that you are running the latest Windows Mixed Reality HMD driver. </li></ul>
 | 2181038087-11 | <ul><li>**Likely reason for the error code**: Your CPU is too old to be compatible with Windows Mixed Reality. Your PC is failing the compatibility check because your CPU is missing the AVX instruction set required by the Mixed Reality motion controllers. </li><li>**Troubleshooting**: You'll need a Windows Mixed Reality compatible PC. You can find a list of Windows Mixed Reality badged PCs [here](https://www.microsoft.com/en-us/windows/view-all-devices?col=wmr-pcs#icons).</li></ul>
 | 2181038087-12 | <ul><li>**One reason for the error code**: The HMD is plugged in to a USB port for which a non-Microsoft USB controller driver is installed and running.</li><li>**More Information**: The most common USB 3.0 devices today are storage (such as flash drives) and network. The storage and network device classes use a narrow range of USB 3.0 functionality. One feature in particular that USB 3.0 controller drivers are often missing is the ability to read and handle the ContainerID descriptor. See [USB ContainerIDs in Windows](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-containerids-in-windows) for more information. We use the reported ContainerID to aggregate all the logically disparate parts of the Mixed Reality headset into a cohesive unit: we want to play audio out of the correct headphones, video out the correct displays, and pull tracking data from the correct sensors. When the USB XHCI driver fails to report the ContainerID, you'll encounter this error.</li><li>**Troubleshooting**:</li><ol start="1"><li>Launch Device Manager (run devmgmt.msc).</li><li>Expand the category for Universal Serial Bus controllers.</li>Right click to uninstall the driver for each item that includes the text "eXtensible Host Controller" **and** does not have "Microsoft" in the name.</li><li>Check "Delete the driver software for this device" to ensure the old drivers are removed.</li><li>Check "Delete the driver software for this device" to ensure the old drivers are removed.</li><li>You are done when you verify that each item that includes the text "eXtensible Host Controller" has "Microsoft" at the end.</li><li>Now you should not see this error when you plug in the HMD.</li></ol></ul><ul><li>**A second reason for the error code**: The HMD is not properly responding to commands from the HMD driver. Unlike the previous reason this issue is intermittent.</li><li>**Troubleshooting**:</li><ol start="1"><li>Unplug the HMD for 30 or more seconds.</li><li>Plug it back in.</li></ol></ul> | 
