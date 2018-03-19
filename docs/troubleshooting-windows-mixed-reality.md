@@ -153,21 +153,18 @@ If manually installing the driver didn’t work, or you don't find it under Othe
 
 ### My headset displays are black
 
-* Check to make sure that the HDMI cable is plugged in all the way.
-* If you're using extension cables, try removing them.
-* If you're using an HDMI adapter (e.g. a Mini DisplayPort to HDMI adapter), please try connecting the adapter to your PC before connecting the headset to the adapter. 
-  * Make sure the HDMI adapter supports HDMI 2.0.
-  * See [Recommended adapters for Windows Mixed Reality](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs) for more details.
+If your Mixed Reality's headset displays are showing black, here are a few of the most common causes and how to troubleshoot them:
+
+| **Common causes**          | **Troubleshooting steps**                                          |
+|----------------------------|--------------------------------------------------------------------|
+| **PC performance and stability**  | <ul><li>Check Task Manager to see if any processes are maxing out your PC's CPU, GPU and/or disk drives</li><li>Check the Applications and System Event Logs in Windows (using Event Viewer) to see if you have an app that is frequently crashing and generating Windows Error Reporting (WER) reports.</li><li>Make sure Windows is up-to-date by checking Windows Update. You may have to click "Check for Updates" multiple times</li><li>**If your headsets are occasionally turning black after some time**:<ul><li>Try disabling any USB suspend / power saving features your PC might have, for instance: Selective suspend in Windows power options, the "Allow the computer to turn off this device to save power" setting in Device Manager, and any USB power saving settings in your PC's firmware.</li><li>Temporarily disconnect any other USB devices and peripherals connected to your PC.</li></ul></li></ul> |
+| **App and game stability** | <ul><li>Check that your PC meets the minimum system requirements to run the app/game that is stuttering or otherwise non-performant.</li><li>Double check your GPU driver version: Make sure it's recent, but also pay attention to any new performance and compatibility issues and regressions on brand new drivers.</li><li>For SteamVR apps and games, make sure SteamVR and the Windows Mixed Reality for SteamVR components are up to date.</li></ul> |
+| **HDMI adapter compatibility** | <ul><li>Make sure that the HDMI cable is plugged in all the way.</li><li>If you're using an HDMI adapter (for example, a Mini DisplayPort to HDMI adapter):<ul><li>Please make sure the HDMI adapter is compatible with Windows Mixed Reality: the adapter must support HDMI 2.0, and there are many older adapters that only support 1080p which is not sufficient for Windows Mixed Reality. See [Recommended adapters for Windows Mixed Reality](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs) for more details.</li><li>Plug order: Try connecting the HDMI adapter to your PC before connecting the headset to the adapter, especially if you're using a USB-C to HDMI adapter.</li></ul></li><li>If you're using extension cables, try removing them.</li></ul> |
+| **Graphics card compatibility** | <ul><li>Try your PC's HDMI port with a PC monitor. Some PCs may have more than one HDMI port, and not all of them may be active.</li><li>If your PC has both an integrated graphics processing unit (iGPU) and a discrete graphics processing unit (dGPU), make sure that you are plugged into your dGPU's HDMI port.<br> ![HDMI Ports](images/HP_HDMI_Ports_m.png)</li><li>On older graphics cards, the HDMI port may not support HDMI 2.0. Please try an [active DisplayPort 1.2 to HDMI 2.0 adapter](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs)</li><li>Some AMD R9 graphics cards do not have the HDMI bandwidth to support the Samsung Odyssey Mixed Reality headset even at 60Hz. A workaround for this is currently being investigated by Samsung.</li><li>If you're using a Surface Book 2, please make sure you're using the [Surface USB-C to HDMI adapter](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs).</li></ul> |
+| **Mixed Reality headset hardware issue** | To confirm or rule out hardware issues with your Mixed Reality headset, please try connecting and trying your Mixed Reality headset to another PC. <ul><li>Please checking for PC compatibility and setup issues in the buckets above first, as the symptoms are very similar.</li></ul> |
+
+**Other helpful tips:**
 * Check to make sure the USB cable is plugged into a USB 3.0 or faster port. USB 3.0 ports have SS (Super Speed) written next to them. They are often (but not always) colored blue.		
-* Try your PC's HDMI port with a PC monitor. Some PCs may have more than one HDMI port, and not all of them may be active
-* If your PC has both an integrated graphics processing unit (iGPU) and a discrete graphics processing unit (dGPU), make sure that you are plugged into your dGPU's HDMI port. 
-![HDMI Ports](images/HP_HDMI_Ports_m.png)
-
-
-If your headset displays are occasionally turning black after some time:
-
-* Try disabling any USB suspend / power saving features your PC might have, for instance: Selective suspend in Windows power options, the "Allow the computer to turn off this device to save power" setting in Device Manager, and any USB power saving settings in your PC's firmware.
-* Temporarily disconnect any other USB devices and peripherals connected to your PC.
 
 Also consult the headset black screen troubleshooting flow chart below.
 
