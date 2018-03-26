@@ -313,23 +313,23 @@ If your computer has Bluetooth already, but you are still having problems with t
 **Note**: you can only have one Bluetooth radio adapter active at a time. if you plug in an external radio in addition to an existing radio you need to disable your existing Bluetooth radio in Device Manager (right click on the adapter and click Disable Device) and un-pair / re-pair all of your previous Bluetooth devices.
 
 Motion Controllers should work with other Bluetooth keyboards, mice and game controllers, but the experience will vary depending on the model of keyboard, mouse or game controller you use.
+
 * If you're using a USB Bluetooth Adapter:
-<ul style="padding-left:20px">
-  <li>Please ensure the USB Bluetooth Adapter is connected to a USB 2.0 port (black and doesn’t say SS) if available</il>
-  <li>Please plug the USB Bluetooth Adapter into a port that is physically separated from:</il>
-    <ul>
-    <li>the HMD USB connector,</il>
-    <li>flash drives,</il>
-    <li>hard drives,</il>
-    <li>or wireless USB receivers like those for keyboards/mice.</il>
-    </ul>
-  <li>Plugging the USB Bluetooth Adapter into the opposite side of the computer as far as possible from these other connectors is ideal.</il>
-  <li>Do not install any 3rd party software</li>
-  <li>Close the Bluetooth settings window if it's open. Leaving it open in the background means that a lot of extra calls are made to the Bluetooth protocol.</il>
-  <li>If you are using an internal Bluetooth card, please ensure you are using an external Bluetooth antenna. No external Bluetooth antenna in this case is known to cause tracking issues. If this doesn’t work, please use an external Bluetooth dongle (USB) after disabling the internal Bluetooth.</il>
-  <li>If direct line of sign to Bluetooth radio is problem or it is impossible to avoid interference close to the PC.</il>
-  <li>It is important that the device appears under Mouse, Keyboard & Pen category in the Bluetooth settings. If under Other devices then unpair/pair.</il>
-  <li>Please remove, un-pair and power off Bluetooth headphones and speakers. These are not supported with Windows Mixed Reality. You can use the headphone jack or built-in speakers on your Mixed Reality headset for the best audio experience.</il></ul>
+  * Please ensure the USB Bluetooth Adapter is connected to a USB 2.0 port (black and doesn’t say SS) if available
+  * Please plug the USB Bluetooth Adapter into a port that is physically separated from:
+    - the HMD USB connector,
+    - flash drives,
+    - hard drives,
+    - or wireless USB receivers like those for keyboards/mice.
+   * Plugging the USB Bluetooth Adapter into the opposite side of the computer as far as possible from these other connectors is ideal.
+* Do not install any 3rd party software.
+* Close the Bluetooth settings window if it's open. Leaving it open in the background means that a lot of extra calls are made to the Bluetooth protocol.
+* Disable "Show notification to connect using Swift Pair" setting under Bluetooth & other devices, this will reduce host radio scanning activity.
+* If you are using an internal Bluetooth card, please ensure you are using an external Bluetooth antenna. 
+  * Lack of external Bluetooth antenna in this case is known to cause tracking issues. 
+  * If this doesn’t work, please use an external Bluetooth dongle (USB) after disabling the internal Bluetooth.
+* It is important that the device appears under Mouse, Keyboard & Pen category in the Bluetooth settings. If under Other devices then unpair/pair.
+* Please remove, un-pair and power off Bluetooth headphones and speakers. These are not supported with Windows Mixed Reality. You can use the headphone jack or built-in speakers on your Mixed Reality headset for the best audio experience.
 
 ### Motion Controller Troubleshooting Flowchart
 
