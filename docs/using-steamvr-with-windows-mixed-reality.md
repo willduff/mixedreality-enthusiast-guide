@@ -48,37 +48,40 @@ We will be releasing frequent updates to improve the performance, reliability, a
   4. Use  the drop down under your Library to filter to Software and then locate Windows Mixed Reality for SteamVR in the list
   5. Repeat Steps 2-3 to also join the beta for Windows Mixed Reality for SteamVR
   
-## Enabling controller thumbstick turning in any SteamVR application
+## Enabling controller thumbstick controls in any SteamVR application
 
-**Windows Mixed Reality for SteamVR** has an experimental feature to enable the use of a controller thumbstick for artificial turns in any StreamVR application.  
+**Windows Mixed Reality for SteamVR** has an experimental feature to enable the use of a controller thumbstick for artificial movement in any StreamVR application.  Thumbstick controls simulate real movement as if you were actually walking around your physical space.  This may cause issues for some applications.
 
-To enable thumbstick turning:
+To enable thumbstick controls:
 1. Edit "C:\Program Files (x86)\Steam\steamapps\common\MixedRealityVRDriver\resources\settings\default.vrsettings"
     * Path will be different if **Windows Mixed Reality for SteamVR** was installed to a different library
-2. Change either `thumbstickTurnLeftEnabled` or `thumbstickTurnRightEnabled` to `true`
-3. Select **stutter turn** or **smooth turn** as shown in the examples below
+2. Change **thumbstickControlsEnabled** to true as shown in the examples below
+3. To reverse the handedness of the controls, change **thumbstickControlsReversed** to true.
+4. To increase comfort, this feature defaults to small discrete turns. If you would prefer a smooth turning experience, set **thumbstickTurnSmooth** to true.
 
-**Example 1: Enabling stutter turn**
-
-    "driver_Holographic_Experimental" : {
-        "thumbstickTurnLeftEnabled" : false,
-        "thumbstickTurnRightEnabled" : true,
-
+**Example 1: Enabling thumbstick controls**
+```
+  "driver_Holographic_Experimental" : {
         // Some people may experience increased discomfort such as nausea, motion sickness, dizziness,
-        // disorientation, headache, fatigue, or eye strain when using “smooth turns” in Windows Mixed Reality.
-        "thumbstickTurnSmooth" : false
+        // disorientation, headache, fatigue, or eye strain when using thumbstick controls in Windows Mixed Reality.
+        "thumbstickControlsEnabled" : true,
+        "thumbstickControlsReversed" : false,
+        "thumbstickTurnSmooth" : false,
+        "thumbstickDeadzone" : 0.25
     }
+```
     
 **Example 2: Enabling smooth turn**
-
-    "driver_Holographic_Experimental" : {
-        "thumbstickTurnLeftEnabled" : false,
-        "thumbstickTurnRightEnabled" : true,
-
+```
+  "driver_Holographic_Experimental" : {
         // Some people may experience increased discomfort such as nausea, motion sickness, dizziness,
-        // disorientation, headache, fatigue, or eye strain when using “smooth turns” in Windows Mixed Reality.
-        "thumbstickTurnSmooth" : true
+        // disorientation, headache, fatigue, or eye strain when using thumbstick controls in Windows Mixed Reality.
+        "thumbstickControlsEnabled" : true,
+        "thumbstickControlsReversed" : false,
+        "thumbstickTurnSmooth" : true,
+        "thumbstickDeadzone" : 0.25
     }
+```
 
 ## Enabling motion reprojection for SteamVR Apps
 Windows Mixed Reality for SteamVR has an experimental motion reprojection feature to make 90 FPS reprojection more smooth.
