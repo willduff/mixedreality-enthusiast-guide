@@ -104,13 +104,13 @@ You can opt-in to this mode by updating the MixedRealityVRDriver\resources\setti
 3.	Edit "C:\Program Files (x86)\Steam\steamapps\common\MixedRealityVRDriver\resources\settings\default.vrsettings"
     * Path will be different if Windows Mixed Reality for SteamVR was installed to a different library
 4.	Add  this line just below  "driver_Holographic_Experimental" as shown in the example below
-"forceHalfRateWithReprojectionMode" : "motionvector",
+"motionReprojectionMode" : "motionvector",
 5.	Restart SteamVR with Windows Mixed Reality
  
 **Example 1: Enabling motion reprojection**
  ```
   "driver_Holographic_Experimental" : {
-         "forceHalfRateWithReprojectionMode" : "motionvector",      
+         "motionReprojectionMode" : "motionvector",      
          
         // Some people may experience increased discomfort such as nausea, motion sickness, dizziness,
         // disorientation, headache, fatigue, or eye strain when using thumbstick controls in Windows Mixed Reality.
@@ -123,7 +123,7 @@ You can opt-in to this mode by updating the MixedRealityVRDriver\resources\setti
 **Example 2: Disabling motion reprojection**
 ```
   "driver_Holographic_Experimental" : {
-        // "forceHalfRateWithReprojectionMode" : "motionvector", 
+        // "motionReprojectionMode" : "motionvector", 
         
         // Some people may experience increased discomfort such as nausea, motion sickness, dizziness,
         // disorientation, headache, fatigue, or eye strain when using thumbstick controls in Windows Mixed Reality.
