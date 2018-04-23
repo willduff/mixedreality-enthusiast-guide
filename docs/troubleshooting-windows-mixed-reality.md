@@ -26,7 +26,7 @@ If you get this message, your PC doesn’t meet the minimum requirements needed 
 
 ### I get a message that says, "Before we can set up Windows Mixed Reality, your administrator will need to enable it for your organization. Learn More"
 
-If you get this message, you are likely on an Enterpise managed network and your organization is using Windows Server Update Services (WSUS) or has other policies that may block the download.  You will need to contact your organizations IT department or system administrator to [enable Windows Mixed Reality](https://docs.microsoft.com/en-us/windows/application-management/manage-windows-mixed-reality#enable) 
+If you get this message, you are likely on an Enterprise managed network and your organization is using Windows Server Update Services (WSUS) or has other policies that may block the download.  You will need to contact your organizations IT department or system administrator to [enable Windows Mixed Reality](https://docs.microsoft.com/en-us/windows/application-management/manage-windows-mixed-reality#enable) 
 
 ### We couldn't download the mixed reality software
 
