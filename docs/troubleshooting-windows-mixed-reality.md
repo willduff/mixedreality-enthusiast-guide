@@ -1,3 +1,4 @@
+
 ---
 title: Troubleshooting Windows Mixed Reality
 description: Advanced Windows Mixed Reality troubleshooting that goes beyond our standard consumer support documentation.
@@ -22,6 +23,10 @@ Notes on graphics cards:
 ### I get a message that says, "You’re nearly there—this PC doesn’t meet the minimum requirements needed to run Windows Mixed Reality"
 
 If you get this message, your PC doesn’t meet the minimum requirements needed for the best experience in Windows Mixed Reality. Your PC may be able to run an immersive headset, but may not be able to run certain apps or might have problems with performance.
+
+### I get a message that says, "Before we can set up Windows Mixed Reality, your administrator will need to enable it for your organization. Learn More"
+
+If you get this message, your organization is using Windows Server Update Services (WSUS) and you will need to contact your organizations IT department or system administrator to [enable Windows Mixed Reality](https://docs.microsoft.com/en-us/windows/application-management/manage-windows-mixed-reality#enable) 
 
 ### We couldn't download the mixed reality software
 
