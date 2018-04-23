@@ -26,18 +26,18 @@ If you get this message, your PC doesn’t meet the minimum requirements needed 
 
 ### I get a message that says, "Before we can set up Windows Mixed Reality, your administrator will need to enable it for your organization. Learn More"
 
-If you get this message, your organization is using Windows Server Update Services (WSUS) and you will need to contact your organizations IT department or system administrator to [enable Windows Mixed Reality](https://docs.microsoft.com/en-us/windows/application-management/manage-windows-mixed-reality#enable) 
+If you get this message, you are likely on an Enterpise managed network and your organization is using Windows Server Update Services (WSUS) or has other policies that may block the download.  You will need to contact your organizations IT department or system administrator to [enable Windows Mixed Reality](https://docs.microsoft.com/en-us/windows/application-management/manage-windows-mixed-reality#enable) 
 
 ### We couldn't download the mixed reality software
 
-If you are seeing the following screen, try the following troubleshooting steps:
+If you get this message, try the following troubleshooting steps:
 1. Check your network connectivity. Your PC must be connected to the Internet to download Windows Mixed Reality.
 2. Make sure your internet is not set as a Metered Connection by going to: **Settings > Network & Internet > Status > Change connection properties > Set as metered connection > Off**. See more details on Metered Connections [here](https://support.microsoft.com/en-us/help/17452/windows-metered-internet-connections-faq).
 3. Make sure you don’t have any pending update by running **Settings > Windows Update > Check for Update**.
 4. Make sure you have Windows Update enabled.
 5. Restart your PC and try again.
 
-**Note**: If you are on Enterprise managed network, and having issues downloading Mixed Reality Portal, it could be because your enterprise is using WSUS server, or have other policies that may block the download. Please check with your IT admin to make sure they enable the download for the enterprise.
+**Note**: If you are on Enterprise managed network, and having issues downloading Mixed Reality Portal, it could be because your organization is using Windows Server Update Services (WSUS) or has other policies that may block the download.  You will need to contact your organizations IT department or system administrator to [enable Windows Mixed Reality](https://docs.microsoft.com/en-us/windows/application-management/manage-windows-mixed-reality#enable) 
 
 ### Setup is stuck on the "Hang tight while we do some downloading" page
 
