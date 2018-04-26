@@ -103,7 +103,7 @@ Mixed Reality Portal has a **Play** button at the bottom of the screen that allo
 
 ### My computer does not have an HDMI port
 
-If your computer does not have an HDMI port, you will need to use a [supported and recommended HDMI to mini display port (DP) dongle](recommended-adapters-for-windows-mixed-reality-capable-pcs.md).
+If your computer does not have an HDMI port, but it does have a DisplayPort (DP), mini DisplayPort (miniDP) or USB Type-C (USB-C) port for outputting video, you may need to use a [supported adapter](recommended-adapters-for-windows-mixed-reality-capable-pcs.md).
 
 ### Can I use USB or HDMI extension cables with Windows Mixed Reality headsets?
 The use of USB or HDMI extension cables is not officially supported with Windows Mixed Reality headsets. Due to varying resulting signal integrity and bus power between your PC's USB controller and the Mixed Reality headset, the use of such cables may significantly impact your Mixed Reality experience.
@@ -136,7 +136,7 @@ If you're running into any of the following symptoms while using Windows Mixed R
 
 **Note for Surface users:** Earlier versions of the Surface Dock and Surface USB Hub firmware update software are incompatible with Mixed Reality headsets. If you get a "Connect your headset" message on a Surface PC, check to see if any devices are reporting a **"Code 10: The device cannot start" error** in Device Manager. If so, follow the instructions in this [Support Article](https://support.microsoft.com/en-us/help/4032123/kinect-sensor-is-not-recognized-on-a-surface-book) to remove the conflicting driver. You should only need to do this once.
 
-**Note for Windows N users:** If your PC is running Windows 10 N, you'll see a **"Code 28: The install class is not present or is invalid" error** when plugging in your Mixed Reality headset. Unfortunately, N-editions of Windows 10 are not supported by Windows Mixed Reality. Follow the instructions in [this section](troubleshooting-windows-mixed-reality.md#im-getting-a-the-install-class-is-not-present-or-is-invalid-error-in-device-manager) for more information.
+**Note for Windows 10 N users:** If your PC is running Windows 10 N, you'll see a **"Code 28: The install class is not present or is invalid" error** in Device Manager after plugging in your Mixed Reality headset. Unfortunately, N-editions of Windows 10 are not supported by Windows Mixed Reality. Follow the instructions in [this section](troubleshooting-windows-mixed-reality.md#im-getting-a-the-install-class-is-not-present-or-is-invalid-error-in-device-manager) for more information.
 
 **Other useful troubleshooting steps:** Make sure your headset is connected to the correct ports on your computer:
 * Your headset's USB cable should be plugged into a USB 3.0 port. Try another USB 3.0 port if possible.
