@@ -109,7 +109,7 @@ If your computer does not have an HDMI port, you will need to use a [supported a
 Windows Mixed Reality head mounted displays were not designed to work with extension cables. Use of extension cables with mixed reality head mounted displays is unsupported and use may impact your experience. 
 
 ### I am getting a "Check your display cable" error
-* If you are using any adapters to connect your HMD to your PC, please make sure they support Windows Mixed Reality. Also try connecting the adapter to the PC, before connecting the HMD to the adapter.
+* If you are using any adapters to connect your headset to your PC, please make sure they support Windows Mixed Reality. Also try connecting the adapter to the PC, before connecting the HMD to the adapter.
 * If your PC has both integrated and discrete graphics, make sure you're using the HDMI port on your active graphics card. In some cases, this may mean that you'll need to connect your PC display to a non HDMI port.
 * If your PC has both integrated and discrete graphics, and the integrated graphics is older and does not support Windows Mixed Reality, try disabling the integrated GPU.
 * Make sure your PC's HDMI port is working by trying to connect a PC monitor to it. Make sure your graphics drivers are up to date. Download and install the ones from AMD, Nvidia or Intel directly as they will likely * be newer than what's published to Windows Update.
@@ -117,38 +117,58 @@ Windows Mixed Reality head mounted displays were not designed to work with exten
 
 ### I get a message that says "Connect your headset" even though I’ve plugged in my headset
 
-Make sure your headset is connected to the correct ports on your computer:
+1. Make sure your headset's USB and HDMI cables are securely connected to your PC.
 
-1. Your headset's cable should be plugged into a USB 3.0 port. Try another USB 3.0 port if possible.
-2. Your headset's HDMI cable should be plugged into your PC's discrete graphics card.
+2. Try unplugging both the USB and HDMI cables from your headset, and then plugging them back in. When plugging in the USB cable, try to do so quickly (try not to pause during insertion of the USB cable)
 
-**Note:** Earlier versions of the Surface Dock and Surface USB Hub firmware update software are incompatible with Mixed Reality headsets.  If you get a "Connect your headset" message and are using a Surface PC, try following the instructions in this [Support Article](https://support.microsoft.com/en-us/help/4032123/kinect-sensor-is-not-recognized-on-a-surface-book).
-
-### Mixed Reality portal did not launch automatically after I plugged in my headset
-
-If mixed reality portal did not launch automatically, you may need to install the driver for your headset manually.
-
-Open up Device Manager (**Start > Device Manager**), look under **Other devices** for a **HoloLens Sensors** device with a yellow bang:
-
-![View of Device Manager HoloLens Sensors](images/hololenssensors.png)
-
-Right Click on the device and select properties. If the device's properties read **The drivers for this device are not installed (Code 28)** exit the window.
-
-![Code 28 of HoloLens Sensors in Device Manager](images/code28.png)
-
-Right click on the device again and press **Update Drivers > Search automatically for updated driver software**
-
-After the device updates, you should see a Mixed Reality Device appear in Device Manager:
+3. Open Device Manager and confirm that your headset is listed under "Mixed Reality devices". Double click on your headset under "Mixed Reality devices" and confirm that the device status indicates "This device is working properly."
 
 ![Mixed Reality Device appear in Device Manager](images/mixedrealitydevices.png)
 
-**Note**:If you have an "N"-edition of Windows, you will need to upgrade to a regular edition of Windows to use Windows Mixed Reality. 
+4. Look for any yellow exclamation marks on devices listed in Device Manager. Yellow exclamation marks indicate any errors reported by the devices connected to your PC.
+
+**Ensure that the headset driver is installed:** If you see "Hololens Sensors" listed with a yellow exclamation mark, double click on the device. If you see a **"Code 10: The drivers for this device are not installed. There are no compatible drivers for this device"**, follow the instructions [below](troubleshooting-windows-mixed-reality.md#manually-installing-the-headset-driver) to manually install the headset driver.
+
+**Note for Surface users:** Earlier versions of the Surface Dock and Surface USB Hub firmware update software are incompatible with Mixed Reality headsets. If you get a "Connect your headset" message on a Surface PC, check to see if any devices are reporting a **"Code 10: The device cannot start" error** in Device Manager. If so, follow the instructions in this [Support Article](https://support.microsoft.com/en-us/help/4032123/kinect-sensor-is-not-recognized-on-a-surface-book) to remove the conflicting driver. You should only need to do this once.
+
+**Note for Windows N users:** If your PC is running Windows 10 N, you'll see a **"Code 28: The install class is not present or is invalid" error** when plugging in your Mixed Reality headset. Unfortunately, N-editions of Windows 10 are not supported by Windows Mixed Reality. Follow the instructions in [this section](troubleshooting-windows-mixed-reality.md#im-getting-a-the-install-class-is-not-present-or-is-invalid-error-in-device-manager) for more information.
+
+**Other useful troubleshooting steps:** Make sure your headset is connected to the correct ports on your computer:
+* Your headset's cable should be plugged into a USB 3.0 port. Try another USB 3.0 port if possible.
+* Your headset's HDMI cable should be plugged into your PC's discrete graphics card.
+
+Lastly, try connecting your headset to another PC, and open up Device Manager. Even if that PC is not fully compatible with Windows Mixed Reality, you can check to see if your headset enumerates. If your headset does not enumerate on multiple PCs, it could have a hardware issue.
+
+
+### Mixed Reality portal did not launch automatically after I plugged in my headset
+
+If Mixed Reality Portal did not launch automatically, there could be an underlying issue causing the headset to not be detected properly. Try launching Mixed Reality Portal manually, and look for any error messages that appear. 
+
+### Manually installing the headset driver
+
+You may need to install the driver for your headset manually if Windows 10 does not install the driver automatically when you plug your headset in. For example, on new PCs or PCs with a newly installed copy of Windows 10, the headset driver could be queued behind other Windows Updates and not install right away.
+
+Open up Device Manager (**Start > Device Manager**), look under **Other devices** for a **HoloLens Sensors** device with a yellow exclamation mark:
+
+![View of Device Manager HoloLens Sensors](images/hololenssensors.png)
+
+Right Click on the device and select properties. If the device's properties read **The drivers for this device are not installed (Code 28)**, close the window and proceed. If there is another message, follow troubleshooting steps on the rest of this page.
+
+![Code 28 of HoloLens Sensors in Device Manager](images/code28.png)
+
+Right click on the device again and click **Update Drivers...** and then click **Search automatically for updated driver software**
+
+After the device updates, you should see your headset listed under "Mixed Reality devices" in Device Manager:
+
+![Mixed Reality Device appear in Device Manager](images/mixedrealitydevices.png)
+
+**Note**:If you have an "N"-edition of Windows, you will need to switch to a regular edition of Windows 10 to use Windows Mixed Reality. 
 
 If manually installing the driver didn’t work, or you don't find it under Other Devices, then you probably need to uninstall the existing driver and reinstall it. 
-* Open up Device Manager (**Start > Device Manager**), look under **Mixed Reality devices** for your HMD, it should appear normal and healthy, without a yellow bang.
+* Open up Device Manager (**Start > Device Manager**), look under **Mixed Reality devices** for your headset. The device status should indicate that "The device is working properly."
 * Right Click on the device and select **Uninstall Device**.
 * In the new popup that appears, select the check box **Delete the driver software for this device** and this click **Uninstall**.
-* When that completes unplug the HMD from your PC, and plug it back in. Windows Update will now download and install a new driver.
+* When that completes, unplug the headset from your PC, and plug it back in. Windows Update will now download and install a new driver.
 
 ### Troubleshooting Flowchart
 
