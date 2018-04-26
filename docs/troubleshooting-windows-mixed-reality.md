@@ -134,11 +134,17 @@ Windows Mixed Reality head mounted displays were not designed to work with exten
 **Note for Windows N users:** If your PC is running Windows 10 N, you'll see a **"Code 28: The install class is not present or is invalid" error** when plugging in your Mixed Reality headset. Unfortunately, N-editions of Windows 10 are not supported by Windows Mixed Reality. Follow the instructions in [this section](troubleshooting-windows-mixed-reality.md#im-getting-a-the-install-class-is-not-present-or-is-invalid-error-in-device-manager) for more information.
 
 **Other useful troubleshooting steps:** Make sure your headset is connected to the correct ports on your computer:
-* Your headset's cable should be plugged into a USB 3.0 port. Try another USB 3.0 port if possible.
+* Your headset's USB cable should be plugged into a USB 3.0 port. Try another USB 3.0 port if possible.
 * Your headset's HDMI cable should be plugged into your PC's discrete graphics card.
 
 Lastly, try connecting your headset to another PC, and open up Device Manager. Even if that PC is not fully compatible with Windows Mixed Reality, you can check to see if your headset enumerates. If your headset does not enumerate on multiple PCs, it could have a hardware issue.
 
+### I get a message that says "Check your USB cable" or "Insufficient USB speed"
+
+* Make sure that your headset's USB cable is plugged into a USB 3.0 port. Try another USB 3.0 port on your PC if possible.
+* Open Device Manager to check that the headset is connected through a USB 3.0 (XHCI) controller. On custom-built PCs, even though a port may be marked as a USB 3.0 port, it may be connected to a USB 2.0 controller. 
+* Run the [Windows Mixed Reality PC Check](http://aka.ms/pccheckapp) app to make sure your USB controller is supported.
+* Try your headset on another PC. If that other PC is not fully compatible with Windows Mixed Reality, check in Device Manager to see if you see the "insufficient USB speed" message. If your headset does not enumerate properly on multiple PCs, your headset could be defective.
 
 ### Mixed Reality portal did not launch automatically after I plugged in my headset
 
@@ -169,6 +175,7 @@ If manually installing the driver didn’t work, or you don't find it under Othe
 * Right Click on the device and select **Uninstall Device**.
 * In the new popup that appears, select the check box **Delete the driver software for this device** and this click **Uninstall**.
 * When that completes, unplug the headset from your PC, and plug it back in. Windows Update will now download and install a new driver.
+
 
 ### Troubleshooting Flowchart
 
