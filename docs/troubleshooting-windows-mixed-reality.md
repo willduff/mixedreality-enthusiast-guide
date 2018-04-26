@@ -105,8 +105,13 @@ Mixed Reality Portal has a **Play** button at the bottom of the screen that allo
 
 If your computer does not have an HDMI port, you will need to use a [supported and recommended HDMI to mini display port (DP) dongle](recommended-adapters-for-windows-mixed-reality-capable-pcs.md).
 
-### Can I use an USB / HDMI extension cord with Windows Mixed Reality head mounted displays?
-Windows Mixed Reality head mounted displays were not designed to work with extension cables. Use of extension cables with mixed reality head mounted displays is unsupported and use may impact your experience. 
+### Can I use USB or HDMI extension cables with Windows Mixed Reality headsets?
+The use of USB or HDMI extension cables is not officially supported with Windows Mixed Reality headsets. Due to varying resulting signal integrity and bus power between your PC's USB controller and the Mixed Reality headset, the use of such cables may significantly impact your Mixed Reality experience.
+
+If you're running into any of the following symptoms while using Windows Mixed Reality, please try your headset without any extension cables to see if the symptoms persist:
+* Headset de-enumerates during use (headset displays briefly show a blue screen and then turn black and Mixed Reality Portal restarts, or completely de-enumerates)
+* Headset audio cuts out during use or becomes glitchy
+* Headset displays flicker between black and working
 
 ### I am getting a "Check your display cable" error
 * If you are using any adapters to connect your headset to your PC, please make sure they support Windows Mixed Reality. Also try connecting the adapter to the PC, before connecting the HMD to the adapter.
