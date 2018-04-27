@@ -37,16 +37,35 @@ You can adjust the "Supersampling" slider in the SteamVR -> Settings -> Develope
 
 If you're a VR enthusiast you might regularly use more than one VR headset on the same PC. If that's the case note that when a Windows Mixed Reality headset is plugged in, SteamVR games will always launch to the Windows Mixed Reality headset. If you'd like to launch SteamVR games on another headset make sure to first unplug the Windows Mixed Reality headset before continuing. 
 
-## Getting the most out of SteamVR on Windows Mixed Reality
+## Preview programs
 
-We will be releasing frequent updates to improve the performance, reliability, and overall experience of using SteamVR on Windows Mixed Reality immersive headsets. To stay up to date with the latest improvements:
-* Check for Windows updates regularly
-* Switch to the beta for both SteamVR and Windows Mixed Reality for SteamVR if you want to try out fixes before they're released to a broader audience
-  1. In Steam - use the drop down under your Library to filter to Tools and then locate SteamVR in the list
-  2. Open SteamVR properties - right click SteamVR in the same Tools page and open the Properties dialog.![Install SteamVR from the tools section of your Steam Library](images/steamvr-install.png)
-  3. Join the SteamVR Beta - click the Betas tab and opt into SteamVR Beta Update by selecting it from the drop down. **Note:** The beta access code field should be left blank and you can just hit close to confirm.![Switch to the SteamVR beta in the properties dialog for SteamVR](images/steamvr-beta.png)
-  4. Use  the drop down under your Library to filter to Software and then locate Windows Mixed Reality for SteamVR in the list
-  5. Repeat Steps 2-3 to also join the beta for Windows Mixed Reality for SteamVR
+We release regular updates to improve the performance, reliability, and overall experience of using SteamVR on Windows Mixed Reality immersive headsets. While none of these preview programs are required, we encourage you to join them if you would like to get updates sooner and more frequently (and give us feedback on those updates!).
+
+### Windows Mixed Reality for SteamVR Beta
+
+Windows Mixed Reality for SteamVR is the component you install from the Steam Store that enables SteamVR to work with your Windows Mixed Reality headset.  We publish updates to this "bridge" regularly and Steam installs them automatically.
+
+If you want to get updates sooner and more frequently, we encourage you to join our public Beta.  Updates go to our Beta audience first, and we use their feedback to make sure the updates are high quality before publishing them to all users.  If you’re not in our Beta program, you’ll eventually get all of the same fixes and features, but after they have been tested by our Beta users.
+
+To join:
+  1. In Steam, use the drop down under the **Library** menu to filter to **Software**
+  2. In the list, right-click **Windows Mixed Reality for SteamVR** and select **Properties**
+  3. Click the **Betas** tab
+  4. Opt-in to **"beta - public beta"** and click **Close** to confirm.  Note that the beta access code field should be left blank.
+  
+### SteamVR Beta
+
+SteamVR is built and released by Valve and is common across all SteamVR headsets.  It follows a similar model of releasing updates to Beta members before publising to all users.
+
+To join:
+  1. In Steam, use the drop down under the **Library** menu to filter to **Tools**
+  2. In the list, right-click **SteamVR** and select **Properties**
+  3. Click the **Betas** tab
+  4. Opt-in to **"beta - public beta"** and click **Close** to confirm.  Note that the beta access code field should be left blank.![Switch to the SteamVR beta in the properties dialog for SteamVR](images/steamvr-beta.png)
+
+### Windows Insider Program
+
+Windows Mixed Reality is a part of Windows 10.  Many fixes and features that affect SteamVR users come with the Windows OS.  If you want to try the latest Windows 10 preview builds, we encourage you to join the [Windows Insider Program](https://insider.windows.com).
   
 ## Enabling controller thumbstick controls in any SteamVR application
 
