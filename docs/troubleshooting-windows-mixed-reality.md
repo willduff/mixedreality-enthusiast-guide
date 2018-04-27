@@ -181,10 +181,10 @@ If manually installing the driver didn’t work, or you don't find it under Othe
 * In the new popup that appears, select the check box **Delete the driver software for this device** and this click **Uninstall**.
 * When that completes, unplug the headset from your PC, and plug it back in. Windows Update will now download and install a new driver.
 
-
 ### Troubleshooting Flowchart
 
 ![Connect your headset/check your USB cable](images/hmd-connectivity2.jpg)
+
 
 ## Mixed Reality headset displays ##
 
@@ -212,18 +212,20 @@ Also consult the headset black screen troubleshooting flow chart below.
 * Make sure your graphics driver is up-to-date
 * If possible, try the Mixed Reality headset on another PC
 
-### My PC or headset displays flicker, flash or remains black when using a Surface device
-
-* Make sure you're using a compatible HDMI adapter
-* Make sure your graphics driver is up-to-date
-
-**Note:** Not all Surface devices are compatible with Windows Mixed Reality.  Learn more about [Surface compatiblity and requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md#windows-mixed-reality-and-surface) 
-
 ### My headset displays turn blue for a moment, and then Mixed Reality Portal reinitializes
 
 This typically indicates an occasional USB controller reliability issue on your PC:
-* Try another USB port. Your PC may have multiple USB 3.0 controllers.
-* If you're using a Desktop PC, consider purchasing a USB 3.0 PCIe card to add another USB controller to your PC.
+* Try another USB port. Your PC may have multiple USB 3.0 controllers
+* Remove any extension cables (if applicable)
+* Try unplugging all other USB devices from your PC
+* If you're using a Desktop PC, consider purchasing a USB 3.0 PCIe card to add another USB controller to your PC
+
+### My PC or headset displays flicker, flash or remain black when using a Surface PC
+
+* Make sure you're using a compatible HDMI adapter. Specifically, make sure the HDMI adapter supports HDMI 2.0. Many older HDMI adapters only support 1080p resolution, which is insufficient for Mixed Reality headsets
+* Make sure your graphics driver is up-to-date. In addition to checking Windows Update, you may wish to check the PC manufacturer's website for an updated graphics driver
+
+**Note:** Not all Surface devices are compatible with Windows Mixed Reality.  Learn more about [Surface compatiblity and requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md#windows-mixed-reality-and-surface) 
 
 ### Troubleshooting Flowchart
 
