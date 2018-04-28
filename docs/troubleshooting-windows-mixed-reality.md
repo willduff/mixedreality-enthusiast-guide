@@ -63,7 +63,7 @@ We don’t recommend that you remove any installed updates.  However, sometimes 
 
 ### Setup is stuck on the "Hang tight while we do some downloading" page
 
-Follow the guidance above in [We couldn't download the mixed reality software](troubleshooting-windows-mixed-reality.md#we-couldnt-download-the-mixed-reality-software).
+Follow the guidance above in [We couldn't download the mixed reality software](troubleshooting-windows-mixed-reality.md#i-get-a-message-that-says-we-couldnt-download-the-mixed-reality-software).
 
 ### I get an error message when I try to create a boundary
 
