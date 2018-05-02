@@ -633,6 +633,32 @@ Microsoft Edge does not currently support haptics on the WebVR gamepad API exten
 1. Make sure your PC is running the latest version of Windows 10. To check this, go to **Settings  > System > About**. Under **Windows specifications**, make sure **OS Build** is 16299.64 or greater.
 2. Make sure you don’t have any updates waiting to download or install. Go to **Settings  > Update & Security > Windows Update**, and select **Check for updates**. You may have to check for updates multiple times so keep checking for updates until no further updates are available and then restart your PC.
 
+### SteamVR is crashing after updating Windows
+Some older versions of Windows Mixed Reality for SteamVR are no longer compatible with Windows. If SteamVR is crashing it's possible that you have an old version of Windows Mixed Reality for SteamVR. To ensure that you are up to date:
+1. In his steam library, locate Windows Mixed Reality for SteamVR, under Software
+2. Right click it, go to properties, select the update tab, select Always keep this application up to date
+3. Force the update by going to the Local Files tab and selecting “Verify integrity of application files”
+4. Restart Steam and SteamVR
+
+If SteamVR is still crashing after updating its possible you have 2 installations of Windows Mixed Reality for SteamVR on your machine. To confirm if this is the case:
+1. Locate the following file and open it in notepad %localappdata%\openvr\openvrpaths.vrpath
+2. Under the external drivers sections look for multiple entries for "MixedRealityVRDriver" 
+```json
+   "external_drivers" : [
+      "D:\\Steam\\steamapps\\common\\MixedRealityVRDriver",
+      "E:\\Steam\\steamapps\\common\\MixedRealityVRDriver"
+   ],
+```
+  
+3. If you see multiple entries remove the older of the two entries. Note that once you have only one entry there should no longer be a comma at the end of the line, for example:
+```json
+"external_drivers" : [
+      "D:\\Steam\\steamapps\\common\\MixedRealityVRDriver"
+   ],
+```
+4. Save the file and close it
+5. Restart Steam and SteamVR
+
 ### My controllers aren't working as expected
 1. Close SteamVR.
 2. Return to the Mixed Reality Home and confirm that your controllers are working as expected.
