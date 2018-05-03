@@ -169,6 +169,7 @@ Lastly, try connecting your headset to another PC, and open up Device Manager. E
 ### I get a message that says "Check your USB cable" or "Insufficient USB speed"
 
 * Make sure that your headset's USB cable is plugged into a USB 3.0 port. Try another USB 3.0 port on your PC if possible.
+* Make sure that your headset's USB cable is plugged in all the way.
 * Open Device Manager to check that the headset is connected through a USB 3.0 (XHCI) controller. On custom-built PCs, even though a port may be marked as a USB 3.0 port, it may be connected to a USB 2.0 controller. 
 * Run the [Windows Mixed Reality PC Check](http://aka.ms/pccheckapp) app to make sure your USB controller is supported.
 * Try your headset on another PC. If that other PC is not fully compatible with Windows Mixed Reality, check in Device Manager to see if you see the "insufficient USB speed" message. If your headset does not enumerate properly on multiple PCs, your headset could be defective.
