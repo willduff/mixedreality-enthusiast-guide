@@ -130,7 +130,7 @@ You can opt-in to this mode by updating the MixedRealityVRDriver\resources\setti
 5.	Restart SteamVR with Windows Mixed Reality
 
 **Motion Reprojection Indicator**
-motionReprojectionIndicatorEnabled is a new setting in the configuration file to help diagnose issues with the experimental automatic motion reprojection feature. When set to true, you will see an indicator in the headset (see example image below) that corresponds to the current motion reprojection mode. 
+motionReprojectionIndicatorEnabled is a new setting in the configuration file to help diagnose issues with the experimental automatic motion reprojection feature. When set to true, you will see an indicator in the top-left of your headset display during auto motion-vector LSR. The color and position of this indicator corresponds to the current motion reprojection mode - see the diagram below for examples.
 
 ![mvLSR Indicator](images/mvLSRIndicator.png)
  
