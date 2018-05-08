@@ -33,7 +33,8 @@ This driver is automatically downloaded and installed via Windows Update, but do
 
    | Version          | Release Date          | Major changes                                                 |
    |------------------|-----------------------|---------------------------------------------------------------|
-   | 10.0.17134.1004  | April 27th, 2018      | Initial public release of the driver for Windows 10, version 1803<br/> <ul><li>Headset tracking and reliability improvements</li><li>Motion controller tracking and performance improvements</li></ul>  |
+   | 10.0.17134.1004  | April 27th, 2018      | Initial public release of the driver for Windows 10, version 1803<br/> <ul><li>Headset tracking and reliability improvements</li><li>Motion controller tracking and performance improvements</li><li>SteamVR support exits early access</li><li>SkyLoft Place added to Mixed Reality Home</li><li>Various new features in mixed reality home such as app autoplace on launch, resizing slates using corners, horizontal resize of slate content, "teleport" voice command being able to target app Slates.</li></ul>  |
+
 
 #### Windows 10, version 1709 (Fall Creators Update) ####
 
