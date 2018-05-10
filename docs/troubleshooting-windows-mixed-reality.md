@@ -141,6 +141,7 @@ If you're running into any of the following symptoms while using Windows Mixed R
 * If your PC has both integrated and discrete graphics, and the integrated graphics is older and does not support Windows Mixed Reality, try disabling the integrated GPU.
 * Make sure your PC's HDMI port is working by trying to connect a PC monitor to it. Make sure your graphics drivers are up to date. Download and install the ones from AMD, Nvidia or Intel directly as they will likely be newer than what's published to Windows Update.
 * Make sure that you plugged your headset's HDMI cable into an **HDMI out** port on your PC, not an HDMI in port.
+* In some cases, Windows is unable to detect the display cable connection. Open device manager and see if the headset is listed under "Monitors". If not, click on "Action"->"Scan for hardware changes". This may resolve the issue.
 
 ### I get a message that says "Connect your headset" even though I’ve plugged in my headset
 
