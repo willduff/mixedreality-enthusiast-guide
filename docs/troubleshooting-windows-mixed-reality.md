@@ -163,6 +163,7 @@ If you're running into any of the following symptoms while using Windows Mixed R
 **Other useful troubleshooting steps:** Make sure your headset is connected to the correct ports on your computer:
 * Your headset's USB cable should be plugged into a USB 3.0 port. Try another USB 3.0 port if possible.
 * Your headset's HDMI cable should be plugged into your PC's discrete graphics card.
+* If you're seeing partial enumeration of the headset (a series of USB devices enumerate, but nothing under "Mixed Reality headsets" in Device Manager), consider trying an externally powered USB 3.0 hub.
 
 Lastly, try connecting your headset to another PC, and open up Device Manager. Even if that PC is not fully compatible with Windows Mixed Reality, you can check to see if your headset enumerates. If your headset does not enumerate on multiple PCs, it could have a hardware issue.
 
@@ -241,6 +242,7 @@ This typically indicates an occasional USB controller reliability issue on your 
 * Try another USB port. Your PC may have multiple USB 3.0 controllers
 * Remove any extension cables (if applicable)
 * Try unplugging all other USB devices from your PC
+* Try connecting an externally-powered USB 3.0 hub to your PC, and connecting your headset to the hub
 * If you're using a Desktop PC, consider purchasing a USB 3.0 PCIe card to add another USB controller to your PC
 
 ### My PC or headset displays flicker, flash or remain black when using a Surface PC
