@@ -8,27 +8,18 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, pre-sal
 
 # Frequently asked questions
 
-## Retailers and OEMs (manufacturers)
+## General Questions
 
-### When can I buy a Windows Mixed Reality headset?
+### Where can I buy a Windows Mixed Reality ready PC or headset?
 
-**Quick Answer:** Windows Mixed Reality headsets will be available for purchase beginning October 17, 2017 here: <https://www.microsoft.com/en-us/store/collections/vrandmixedrealityheadsets>
-
-### Where can I buy a Windows Mixed Reality headset?
-
-**Quick Answer:** You can buy a Windows Mixed Reality headset at approved local retailers, or your nearest Microsoft Store: <https://www.microsoft.com/en-us/store/locations/all-locations>
-
-### Where can I pre-order a mixed reality headset?
-
-**Quick Answer:** You can learn more about pre-ordering your Windows Mixed Reality headset here: <https://blogs.windows.com/windowsexperience/2017/10/03/how-to-pre-order-your-windows-mixed-reality-headset>
-
-### Where can I buy a Windows Mixed Reality ready PC?
-
-**Quick Answer:** You can purchase a badged Windows Mixed Reality compatible PC here: <https://www.microsoft.com/en-us/windows/view-all-devices?col=wmr-pcs#icons>
+**Quick Answer:** You can buy a Windows Mixed Reality ready PC or headset at an approved local retailer or online from a variety of retailers including the Microsoft Store. 
+* Find your local Microsoft Store: <https://www.microsoft.com/en-us/store/locations/all-locations> 
+* Find a Windows Mixed Reality ready PC or headset online: <https://www.microsoft.com/en-us/windows/view-all-devices?col=wmr> 
 
 ### Where can I try Windows Mixed Reality?
 
-**Quick Answer:** You can try Windows Mixed Reality at your nearest Microsoft Store beginning October 17, 2017: <https://www.microsoft.com/en-us/store/locations/all-locations>
+**Quick Answer:** You can try Windows Mixed Reality in store at many local retailers including the Microsoft Store.  
+* Find you local Microsoft Store: <https://www.microsoft.com/en-us/store/locations/all-locations>
 
 ### Where can I buy standalone motion controllers?
 
@@ -36,7 +27,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, pre-sal
 
 ### What OEMs are selling devices?
 
-**Quick Answer:** Headsets are available from Dell, HP, Lenovo, Acer, and Samsung. See <https://www.microsoft.com/en-us/store/collections/vrandmixedrealityheadsets>
+**Quick Answer:** Headsets are currently available from Dell, HP, Lenovo, Acer, Asus and Samsung. See <https://www.microsoft.com/en-us/store/collections/vrandmixedrealityheadsets>
 
 ### What is the price point?
 
@@ -50,15 +41,30 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, pre-sal
 
 **Quick Answer:** Details about Windows Mixed Reality PCs and Ultra PCs are captured here: <https://aka.ms/mrcompat>
 
+### Why is this called Windows "Mixed Reality" when the devices look like they provide a "Virtual Reality" experience?
+
+**Quick Answer:** Mixed Reality refers to the full spectrum of spatial computing, from augmented reality and holograms to virtual reality. Microsofts Mixed Reality platform supports both Virtual Reality and Augmented Reality. We currently support two device types with similar technology on that spectrum: HoloLens (AR) and Windows Mixed Reality (VR) headsets with motion controllers. 
+
+Learn more about Mixed Reality here: <https://docs.microsoft.com/en-us/windows/mixed-reality/mixed-reality>
+
 ### What is the difference between Windows Mixed Reality and other VR headsets?
 
 **Quick Answer:** Windows Mixed Reality headsets feature inside-out tracking (tracking cameras are in the headset) and plug-and-play setup with Windows 10.
 
 **More detail**: Windows Mixed Reality offers several features, including easy setup (no need for external sensors to track you and your controllers), your choice of headsets to meet your comfort and price-point, headsets that have competitive resolutions, and finally a unique user experience that features a spatial interface which allows you to use thousands of apps from the Microsoft Store.
 
-### Why is this called Windows "Mixed Reality" when the devices look like they provide a "Virtual Reality" experience?
 
-**Quick Answer:** Because the Windows Mixed Reality platform supports the spectrum of spatial computing, from augmented reality and holograms to virtual reality. Learn more here
+### Does Mixed Reality mean that inside-out cameras are passthrough? Can you they do Augmented Reality in addition to Virtual Reality?
+
+**Quick Answer:** No, the inside-out cameras on Windows Mixed Reality headsets are used for positional tracking only. Windows Mixed Reality headsets are occluded, meaning that they are for Virtual Reality and do not provide a view of the real world or Augented Reality. 
+
+### What is inside-out tracking? How is it differnt than Outside-in tracking?
+
+* **Inside-out Tracking** Windows Mixed Reality uses inside-out tracking. With Inside-out tracking cameras are built into the headset and track changes in the environement in order to determine the headsets position in relation to the environment as you move around.
+
+* **Outside-in Tracking** Occulus, Vive and others use Outside-in tracking.  With Outside-in tracking the headset is tracked by one or more external devices. Camera(s) are built into those external devices, placed around the environment and are used to determine the position of the headset in relation to the environment. 
+
+To learn more about inside-out tracking you can go here: <https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/tracking-system>
 
 ### Can inside-out tracking of motion controllers impact my game play due to camera FOV?
 
@@ -70,11 +76,10 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, pre-sal
 
 ### How is Windows Mixed Reality different from Samsung Gear VR?
 
-**Quick Answer:** All smartphone based VR products, including the Samsung Gear VR and Google Daydream, use 3 Degrees Of Freedom (3DOF) head position tracking systems. 3DOF based systems allow you to move your head **only** from the neck up in the virtual world. Windows MR on the other hand uses a 6 Degrees of Freedom (6DOF) head and controllers position tracking systems. 6DOF based systems allow you to move your entire body in the virtual world; so you can walk around an object and see it from different perspectives, just like you can in the physical world.
+**Quick Answer:** All smartphone based VR products, including the Samsung Gear VR and Google Daydream, use 3 Degrees Of Freedom (3DOF) head position tracking systems. 3DOF based systems allow you to move your head **only** from the neck up in the virtual world. Windows MR on the other hand uses a 6 Degrees of Freedom (6DOF) head and controllers position tracking systems. 6DOF based systems allow you to move your entire body in the virtual world; so you can walk around an object and see it from different perspectives, just like you can in the physical world. The Rift and the Vive are also 6DOF based systems.
 
-The Rift and the Vive are also 6DOF based systems.
-
-Read more about 3DOF and 6DOF here: <https://www.roadtovr.com/introduction-positional-tracking-degrees-freedom-dof/>
+* Read more about 3DOF and 6DOF here: <https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/tracking-system#what-is-the-difference-between-3dof-and-6dof> 
+* Read more about Positional Tracking and Degree's of Freedom (DOF) her: <https://www.roadtovr.com/introduction-positional-tracking-degrees-freedom-dof/>
 
 ## Technical specifications
 
