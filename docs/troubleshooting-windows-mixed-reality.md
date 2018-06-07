@@ -667,8 +667,10 @@ If SteamVR is still crashing after updating its possible you have 2 installation
 1. Close SteamVR.
 2. Return to the Mixed Reality Home and confirm that your controllers are working as expected.
 3. Launch the SteamVR experience again and your controllers should be back to normal.
-**Note**: If your left and right controllers are reversed, press straight down on the right thumbstick to switch them back.
 4. If issues persist please file feedback using the Windows Feedback Hub under the Mixed Reality category and include SteamVR in the summary.
+
+### My left and right controllers are reversed
+If you encounter a game that reverses your controllers, try starting the game with your controllers off and then turning the left one on, followed by the right one.
 
 ### My games are running slowly
 1. Confirm that your PC meets the specifications for SteamVR in Windows Mixed Reality
