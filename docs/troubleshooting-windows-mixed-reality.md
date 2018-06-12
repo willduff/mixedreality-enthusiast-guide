@@ -697,16 +697,16 @@ Try this to reset your position:
 
 ### I can't hear any sound in my headset, or sound is playing through my computer
 
-If your immersive headset doesn’t include built-in headphones, you’ll need to connect headphones to the audio jack on the headset. (The jack is often located just behind the headset visor or lenses; check with your headset manufacturer if you have trouble finding it.)
+If your immersive headset doesn’t include built-in headphones, you’ll need to connect headphones to the audio jack on the headset. (The jack is often located just behind or under the headset visor or lenses; check with your headset manufacturer if you have trouble finding it.)
 
 Some audio headsets have physical buttons to control the volume. If audio isn't working, check to see whether the volume is turned down or muted.
 
-Windows Mixed Reality is designed to play sound through your immersive headset when you’re wearing it and have headphones connected to it. When you take the headset off or flip the visor up, audio will switch to your default Windows playback device. You can change this setting in **Settings > Mixed reality > Audio and speech.**
+Windows Mixed Reality is designed to play sound through your immersive headset when the Mixed Reality Portal is running and you have headphones connected to it. When you close the Mixed Reality Portal application or when that app has not been used for 15 minutes, audio will switch to your default Windows playback device. You can change this setting in **Settings > Mixed reality > Audio and speech.**
 
 Other troubleshooting steps:
 * Make sure your audio headset is plugged into the audio jack completely - the Acer headset in particular may require more care to ensure the audio headset is plugged in all the way.
 * Check that the audio headset/mic is plugged into the headset and not the PC.
-* The Windows Sound Control Panel shows a list of enabled audio endpoints. It does not by default show disabled endpoints. The headset audio device will be disabled when you're not wearing the headset, so you have to right-click in the sound control panel and choose "Show disabled devices" to see it; the device name is "Realtek USB2.0 Audio". Once you do this, you can change the friendly name in the "Properties" page to something you'll recognize more easily. Do this for both the playback and recording tabs.
+* The Windows Sound Control Panel shows a list of enabled audio endpoints. It does not by default show disabled endpoints. The headset audio device will be disabled when you're not wearing the headset, so you have to right-click in the sound control panel and choose "Show disabled devices" to see it; the device name is "Realtek USB2.0 Audio". Once you do this, you can change the friendly name in the "Properties" page to something you'll recognize more easily. You can do this for both the playback and recording tabs.
 * If your audio is not working in Mixed Reality apps (for example Netflix), this may be caused by a known issue where Windows Mixed Reality is not be automatically updated to match the OS version. To fix this issue and get the best Mixed Reality experience, go to **Settings -> Update & Security -> Windows Update -> Check for Updates**.
 
 ### I'm experiencing sudden volume changes, lost audio, or buzzing
@@ -715,11 +715,11 @@ Some applications, including many of those launched through SteamVR, can lose au
 
 When another multimedia USB device (such as a web cam) shares the same USB hub (either external or inside your PC) with the Windows Mixed Reality headset, in rare cases the headset's audio jack/headphones may either have a buzzing sound or no audio at all. You can fix this by plugging your headset into a USB port that does not share the same hub as the other device, or disconnect/disable your other USB multimedia device.
 
-In very rare cases, the host PC's USB hub cannot provide enough power to the Windows Mixed Reality headset and you may notice a burst of noise from the headphones connected to the headset.
+In very rare cases, the host PC's USB hub cannot provide enough power to the Windows Mixed Reality headset and you may notice a loud burst of noise from the headphones connected to the headset. If this occurs please file a Feedback Hub bug immediately. Workarounds that have helped some users include not using extension cables, using a dedicated, external powered USB 3.0 HUB or trying a different USB port on the PC.
 
 ### My Bluetooth audio headset isn't working as expected
 
-Bluetooth audio peripherals do not work well with Windows Mixed Reality voice and spatial sound experiences. They can also negatively affect your motion controller experience. We do not recommend using Bluetooth Audio headsets with Windows Mixed Reality.
+Bluetooth audio peripherals do not work well with Windows Mixed Reality voice and spatial sound experiences. BT Audio headsets cannot support mic input and stereo output at the same time so when using it for gamechat or other voice input, you won't hear stereo or spatialized sound. BT Audio headsets can also negatively affect your motion controller experience. Microsoft does not recommend using Bluetooth Audio headsets with Windows Mixed Reality.
 
 ### Sound is or isn't coming from expected directions
 
@@ -750,7 +750,11 @@ On some PCs, the default voice capture gain for your headset-connected microphon
 
 ### I only have one audio headset and I want to use it for both Desktop and my headset
 
-There is no way to use the audio device connected to (or part of) the headset for audio playback when the device is not worn. If you only have one audio headset and not an headset with built in headphones, you may want to connect the audio headset to the host PC instead of the headset. Then you must turn off "switch to headset audio" in the MRP settings.
+If you only have one audio headset and not an headset with built in headphones, you may want to connect the audio headset to the host PC instead of the headset. Then you must turn off "switch to headset audio" in the MRP settings.
+
+### Dolby Atmos for Headphones
+
+Windows Mixed Reality environments and the applications within, such as placing a web browser on the wall of the Cliff House or the Sky Loft use the Windows Sonic for Headphones spatial audio technology. This technology differs from others in that it is customized for mixed reality experiences. Other spatial audio technologies can be applied for full screen applications like SteamVR games but not for the Windows Mixed Reality shell environments which have been specially designed using Windows Sonic for Headphones spatial sound and acoustics. So trying to switch Dolby Atmos for Headphones on the endpoint used for Windows Mixed Reality is not supported.
 
 ## Accessing your Desktop in Mixed Reality
 
