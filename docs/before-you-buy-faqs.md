@@ -58,7 +58,7 @@ Learn more about Mixed Reality here: <https://docs.microsoft.com/en-us/windows/m
 
 **Quick Answer:** No, the inside-out cameras on Windows Mixed Reality headsets are used for positional tracking only. Windows Mixed Reality headsets are occluded, meaning that they are for Virtual Reality and do not provide a view of the real world or Augented Reality. 
 
-### What is inside-out tracking? How is it differnt than Outside-in tracking?
+### What is inside-out tracking? How is it different than Outside-in tracking?
 
 * **Inside-out Tracking** Windows Mixed Reality uses inside-out tracking. With Inside-out tracking cameras are built into the headset and track changes in the environement in order to determine the headsets position in relation to the environment as you move around.
 
