@@ -340,6 +340,10 @@ Haptics is disabled when battery level gets low, replace with fresh batteries to
 
 Your batteries are running low and hitting cut-off threshold. Replace with fresh batteries.
 
+### My Samsung Motion Controller’s touchpad is off center or has a dead spot 
+
+This is most likely a hardware defect and you should go back to your retailer or OEM for a replacement or exchange.
+
 ### Device recovery
 
 If the controller isn’t working correctly and you’re unable to update the device, you can always restore the device to factory conditions. To recover your device:
