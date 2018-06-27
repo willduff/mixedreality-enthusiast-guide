@@ -133,6 +133,8 @@ More information on Surface compatibility with Windows Mixed Reality is availabl
 				<li><b>Note</b>: The use of Surface Dock with Surface Book 2 is not officially supported with Windows Mixed Reality, due to Surface Dock’s power supply limitations.</li>				
 				<li>Configurations with only the Intel HD Graphics 620 integrated GPU achieve Windows Mixed Reality (60Hz) experience</li>
 				<li>Configurations with NVIDIA GeForce GTX 1050 and 1060 discrete GPU achieve Windows Mixed Reality (90Hz) experience</li>
+				<li><b>Note on Windows 10 Version 1803:</b> If you're running Windows 10 Version 1803, please make sure you're on OS build 17134.137 or newer (installed by KB4284848) to ensure that you have the latest performance fixes. For more information, please see the release notes for <a href="https://support.microsoft.com/en-us/help/4284848/windows-10-update-kb4284848">KB4284848</a>.</li>
+				<li>For best performance, please use the Nvidia graphics drivers specifically released for Surface Book 2. Newer drivers may be available on Nvidia's website, but are untested.</li>
 			</ul>
 		</td>
 	</tr>
