@@ -9,7 +9,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, compati
 
 ## What you'll need to run Windows Mixed Reality
 * A Windows [Mixed Reality head mounted display (HMD)](https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices).
-* A new [Windows Mixed Reality ready PC](https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices) or a Windows Mixed Reality compatible PC runing Windows 10 Fall Creators Update.   
+* A new [Windows Mixed Reality ready PC](https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices) or a Windows Mixed Reality compatible PC running Windows 10 Version 1709 or later.   
 * Display, USB, and Bluetooth adapaters (if required)
 * Motion Controllers, an Xbox controller, or a mouse and keyboard
 * Headphones with a mic (if your HMD doesn't have them built in)
@@ -20,7 +20,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, compati
 To see if your PC is Windows Mixed Reality compatible check the [Windows Mixed Reality minimum pc hardware requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md) or run the Windows Mixed Reality PC Check app
 
 ### How do I get the app?
-**Download and run the app:** Launch the Windows Store from your Desktop, search for the **Mixed Reality PC Check App** and click Get to download and install it. You can also [follow this link](https://aka.ms/mrcheck) to launch the correct Store page. On Windows 10 PCs with at least "Version 1607" (Anniversary Update), this application can check your hardware and software to determine whether the device can support Windows Mixed Reality in its current state. 
+**Download and run the app:** Launch the Windows Store from your Desktop, search for the **Mixed Reality PC Check App** and click Get to download and install it. You can also [follow this link](https://aka.ms/mrcheck) to launch the correct Store page. On Windows 10 PCs with at least Windows 10 Version 1607 (Anniversary Update), this application can check your hardware and software to determine whether the device can support Windows Mixed Reality in its current state. 
 
 ![Mixed Reality PC Check App](images/700px-mrpccheck.png)
 
