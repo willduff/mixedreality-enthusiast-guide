@@ -32,11 +32,15 @@ After the app has installed to run the app. After reading the terms and conditio
 
 ![Good to go](images/700px-goodtogo.png)
 
-## Make sure you have the Windows 10 Fall Creators Update installed
+## Make sure you have the Windows 10 Version 1709 or newer installed
 
-You must be running the Windows 10 Fall Creators Update to run Windows Mixed Reality. Windows 10 will notify you when the Fall Creators Update is available for your device.  When the update is ready, you'll be asked to pick a time to install it if you're not ready. After it’s installed, your device will be running Windows 10, version 1709. To see which version of Windows 10 your device is currently running, select the **Start** button, then select **Settings  > System > About**. 
+You must be running the Windows 10 Version 1709 (the Fall Creators Update) or newer to use Windows Mixed Reality. Compatible versions of Windows 10 include:
+* Windows 10 Version 1709 (Fall Creators Update, build 16299)
+* Windows 10 Version 1803 (Spring Update, build 17134)
 
-If you want to install the update now, go to the [Microsoft software download website](https://go.microsoft.com/fwlink/p/?LinkId=821363) and select **Update now**. Before doing this, you'll need to [make sure your device is up to date](https://support.microsoft.com/help/4027667). Select the **Start** button, then select **Settings > Update & security > Windows Update**.  Select **Check for updates**. If updates are available, install them. 
+To see which version of Windows 10 your device is currently running, select the **Start** button, then select **Settings  > System > About**. 
+
+To ensure that Windows 10 is up to date on your PC, select the **Start** button, then select **Settings > Update & security > Windows Update**.  Select **Check for updates**. If updates are available, install them. 
 
 For more information on how to keep your PC up to date go [here](https://support.microsoft.com/en-us/help/12373/windows-update-faq)
 
