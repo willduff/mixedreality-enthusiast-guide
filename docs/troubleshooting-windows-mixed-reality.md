@@ -298,9 +298,9 @@ Verify you have fresh batteries in the device. Controller buzzing 3 times and sh
 
 Check that you do not have controllers paired already, remove them and try again. If problem persists reboot PC and try again.'' If that fails, consult the [Bluetooth Best Practices](troubleshooting-windows-mixed-reality.md#bluetooth-best-practices) section
 
-### Wifi speeds becomes slow on my notebook when motion controllers are turned on
+### Wi-Fi speeds becomes slow on my notebook when motion controllers are turned on
 
-Your notebook may share its WiFi antenna with Bluetooth when connected to 2.4GHz access point. Check from device manager if you can switch band preference to 5GHz. If 5GHz network is not available and performance is severely impacts consider using Bluetooth dongle.
+Your notebook may share its Wi-Fi antenna with Bluetooth when connected to 2.4GHz access point. Check from device manager if you can switch band preference to 5GHz. If 5GHz network is not available and performance is severely impacts consider using Bluetooth dongle.
 
 ![Wifi band selection settings can be found through device manager](images/wifi5ghz.png)
 
@@ -328,7 +328,17 @@ Check the [Bluetooth Best Practices section](troubleshooting-windows-mixed-reali
 
 ### Motion controllers do not appear in SteamVR apps/games ###
 
-If you're able to see your Motion Controllers in the cliff house, but not in SteamVR apps and games, the Motion Controller model driver may not be installed properly. This driver is typically automatically downloaded and installed via Windows Update, but if you're on a PC that has enterprise policies or if Windows Update is otherwise restricted, you may need to install this manually. Please visit [this page](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/mixed-reality-software) for more information and to manually download and install this driver.
+If you're able to see your Motion Controllers in the cliff house, but not in SteamVR apps and games, the Motion Controller model driver may not be installed properly. This driver is typically automatically downloaded and installed via Windows Update, but if you're on a PC that has enterprise policies or if Windows Update is otherwise restricted, you may need to install this manually.
+
+To check that the Motion Controller model driver is correctly installed:
+
+1. Turn on both of your motion controllers, and make sure both of them show up as "Connected" in the Settings app under Devices > Bluetooth & other devices. If they do not show up or show up as "Paired", follow the instructions above to properly pair your motion controllers.
+2. Open Device Manager and look for "Motion controller - Left" and "Motion controller - Right" under "Bluetooth"
+3. Single click either of the two devices, and then go to View > Devices by Connection.
+4. You will now see a view of the Motion Controller Bluetooth devices roll up to your Bluetooth radio. Under the same node as the two Motion Controllers should be two **Bluetooth HID Device** devices, and under each Bluetooth HID Device should be devices named **Motion Controller** (with gray icons).
+5. Double click each of the "Motion Controller" devices and go to the **Driver** tab. Confirm that the Driver Version listed corresponds to the Motion Controller model driver versions listed on [this page](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/mixed-reality-software#mixed-reality-motion-controller-model-driver-release-history)
+
+To manually download and install the Motion Controller model driver, please visit [this page](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/mixed-reality-software#mixed-reality-motion-controller-model-driver-release-history) and look for the driver version corresponding to your version of Windows 10. Installation instructions are available on the download page.
 
 ### Motion controllers firmware update takes significantly longer than 2 minutes
 
