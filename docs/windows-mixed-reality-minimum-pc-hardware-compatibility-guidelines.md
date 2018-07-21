@@ -8,10 +8,16 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Ultra, 
 
 # Minimum PC hardware guidelines
 
+For the best experience with Windows Mixed Reality you want to start with a new [Windows Mixed Reality-ready PC](https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices#wmrpcs) or a Windows Mixed Reality-compatible PC that can provide Windows Mixed Reality Ultra experiences. Windows Mixed Reality Ultra provides crisper visuals at higher refresh rates, more apps and experiences including the most graphics-intensive games, mirroring of your Windows Mixed Reality experience on your desktop and the ability to record and share (photo and video) your experiences with others. 
+
+To see if your PC can run Windows Mixed Reality review the hardware guidelines below and run the [Windows Mixed Reality PC Check App](https://www.microsoft.com/store/apps/9nzvl19n7cnc).
+
+Remember, your performance will vary depending on your exact setup. You'll also need to make sure your PC has the [right ports](recommended-adapters-for-windows-mixed-reality-capable-pcs.md) for the Windows Mixed Reality immersive headset that you are using.
+
 >[!NOTE]
 >Guidelines for development PCs are higher than those for consumers' PCs running mixed reality apps. If you're a mixed reality developer, [see recommended development PC specifications](https://developer.microsoft.com/en-us/windows/mixed-reality/install_the_tools#immersive_headset_development).
 
-Performance may vary depending on your exact setup. You'll also need to make sure your PC has the [right ports](recommended-adapters-for-windows-mixed-reality-capable-pcs.md) for the Windows Mixed Reality immersive headset that you are using.
+
 
 ## Windows Mixed Reality PC Check app
 
