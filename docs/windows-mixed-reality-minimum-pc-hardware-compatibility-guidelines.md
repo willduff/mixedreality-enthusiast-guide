@@ -98,28 +98,28 @@ More information on Surface compatibility with Windows Mixed Reality is availabl
 		<th> Surface Device </th><th> Windows Mixed Reality Feature Support? </th><th> Recommended configuration </th><th> Notes</th>
 	</tr>
 	<tr>
-		<td style="vertical-align: middle"> Surface Pro (original)/ Surface Pro 2 </td><td style="vertical-align: middle"> No </td><td> </td><td></td>
+		<td style="vertical-align: middle"> Surface Pro (original)/ Surface Pro 2 </td><td style="vertical-align: middle"> None </td><td> </td><td></td>
 	</tr>
 	<tr>
-		<td style="vertical-align: middle"> Surface Pro 3 </td><td style="vertical-align: middle"> No </td><td> </td><td></td>
+		<td style="vertical-align: middle"> Surface Pro 3 </td><td style="vertical-align: middle"> None </td><td> </td><td></td>
 	</tr>
  (with Windows 10 Pro installed) <tr>
-		<td style="vertical-align: middle"> Surface Pro 4 </td><td style="vertical-align: middle"> No </td><td> </td><td></td>
+		<td style="vertical-align: middle"> Surface Pro 4 </td><td style="vertical-align: middle"> None </td><td> </td><td></td>
 	</tr>
 	<tr>
-		<td style="vertical-align: middle"> Surface 3 </td><td style="vertical-align: middle"> No </td><td> </td><td></td>
+		<td style="vertical-align: middle"> Surface 3 </td><td style="vertical-align: middle"> None </td><td> </td><td></td>
 	</tr>
 	<tr>
-		<td style="vertical-align: middle"> Surface Book </td><td style="vertical-align: middle"> No </td><td> </td><td></td>
+		<td style="vertical-align: middle"> Surface Book </td><td style="vertical-align: middle"> None </td><td> </td><td></td>
 	</tr>
 	<tr>
-		<td style="vertical-align: middle"> Surface Book with Performance Base </td><td style="vertical-align: middle"> No </td><td> </td><td></td>
+		<td style="vertical-align: middle"> Surface Book with Performance Base </td><td style="vertical-align: middle"> None </td><td> </td><td></td>
 	</tr>
 	<tr>
-		<td style="vertical-align: middle"> Surface Go </td><td style="vertical-align: middle"> No </td><td> </td><td></td>
+		<td style="vertical-align: middle"> Surface Go </td><td style="vertical-align: middle"> None </td><td> </td><td></td>
 	</tr>
 <tr>
-		<td style="vertical-align: middle"> Surface Book 2 (15&quot;) </td><td style="vertical-align: middle"> All </td><td style="vertical-align: middle"> Intel Core i7/NVIDIA GTX 1060/16GB of RAM </td>
+		<td style="vertical-align: middle"> Surface Book 2 (15&quot;) </td><td style="vertical-align: middle"> Full </td><td style="vertical-align: middle"> Intel Core i7/NVIDIA GTX 1060/16GB of RAM </td>
 		<td>
 			<ul>
 				<li><b>RECOMMENDED</b>: For the best Windows Mixed Reality experience on a Surface Device, we recommend the SurfaceBook 2 15” configured with the NVIDIA GeForce GTX 1060 and 16GB of RAM.  This configuration is tested and Badged as Windows Mixed Reality Ultra so will support All Windows Mixed Reality Features and will allow you to enjoy the widest array of compatible apps and games.</li>
@@ -132,7 +132,7 @@ More information on Surface compatibility with Windows Mixed Reality is availabl
 		</td>
 	</tr>
 	<tr>
-		<td style="vertical-align: middle"> Surface Book 2 (13.5&quot;) </td><td style="vertical-align: middle"> Some </td><td style="vertical-align: middle"> Intel Core i7/NVIDIA GTX 1050/16GB of RAM </td>
+		<td style="vertical-align: middle"> Surface Book 2 (13.5&quot;) </td><td style="vertical-align: middle"> Partial </td><td style="vertical-align: middle"> Intel Core i7/NVIDIA GTX 1050/16GB of RAM </td>
 		<td>
 			<ul>
 				<li><b>NOTE</b>: The Surface Book 2 (13”) is not badged for Windows Mixed Reality but will support some Windows Mixed Reality Features allowing you to use a limited number of compatible apps and games.  Performance will depend on your configuration.</li>
@@ -145,7 +145,7 @@ More information on Surface compatibility with Windows Mixed Reality is availabl
 		</td>
 	</tr>
 	<tr>
-		<td style="vertical-align: middle"> Surface Studio </td><td style="vertical-align: middle"> Some </td><td style="vertical-align: middle"> Intel Core i7/ NVIDIA GeForce GTX 980m/16GB of RAM </td>
+		<td style="vertical-align: middle"> Surface Studio </td><td style="vertical-align: middle"> Partial </td><td style="vertical-align: middle"> Intel Core i7/ NVIDIA GeForce GTX 980m/16GB of RAM </td>
 		<td>
 			<ul>
 				<li><b>NOTE</b>: The Surface Studio is not badged for Windows Mixed Reality but will support some Windows Mixed Reality Features allowing you to use a limited number of compatible apps and games.  Performance will depend on your configuration.</li>
@@ -157,7 +157,7 @@ More information on Surface compatibility with Windows Mixed Reality is availabl
 		</td>
 	</tr>
 	<tr>
-		<td style="vertical-align: middle"> Surface Pro (2017) </td><td style="vertical-align: middle"> Some </td><td style="vertical-align: middle"> Intel Core i7/ Intel® Iris™ Plus Graphics 640/16GB of RAM </td>
+		<td style="vertical-align: middle"> Surface Pro (2017) </td><td style="vertical-align: middle"> Partial </td><td style="vertical-align: middle"> Intel Core i7/ Intel® Iris™ Plus Graphics 640/16GB of RAM </td>
 		<td>
 			<ul>
 				<li><b>NOTE</b>: The Surface Pro (2017) is not badged for Windows Mixed Reality but will support some Windows Mixed Reality Features allowing you to use a limited number of compatible apps and games.  Performance will depend on your configuration.</li>
@@ -170,7 +170,7 @@ More information on Surface compatibility with Windows Mixed Reality is availabl
 		</td>
 	</tr>	
 	<tr>
-		<td style="vertical-align: middle"> Surface Laptop </td><td style="vertical-align: middle"> Some </td><td style="vertical-align: middle"> Intel Core i7/ Intel® Iris™ Plus Graphics 640/16GB of RAM </td>
+		<td style="vertical-align: middle"> Surface Laptop </td><td style="vertical-align: middle"> Partial </td><td style="vertical-align: middle"> Intel Core i7/ Intel® Iris™ Plus Graphics 640/16GB of RAM </td>
 		<td>
 			<ul>
 				<li><b>NOTE</b>: The Surface Laptop is not badged for Windows Mixed Reality but will support some Windows Mixed Reality Features allowing you to use a limited number of compatible apps and games.  Performance will depend on your configuration.</li>
@@ -183,8 +183,6 @@ More information on Surface compatibility with Windows Mixed Reality is availabl
 		</td>
 	</tr>
 </table>
-
-
 
 ## See also
 * [Recommended adapters for Windows Mixed Reality capable PCs](recommended-adapters-for-windows-mixed-reality-capable-pcs.md)
