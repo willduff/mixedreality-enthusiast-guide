@@ -25,7 +25,7 @@ The **[Windows Mixed Reality PC Check](windows-mixed-reality-pc-check-app.md)** 
 
 <a href="https://www.microsoft.com/store/productid/9NZVL19N7CNC"><img alt="Download Windows Mixed Reality PC Check app" src="images/WMR-PC-Check-app.png"/></a>
 
-Upon running the app, you'll get one of the following messages:
+After running the app, you'll get one of the following messages:
 * **You're good to go.** Your PC has what it takes to run Windows Mixed Reality.
 * **You’re nearly there.** This PC may be able to run Windows Mixed Reality, but some features might be limited.
 * **Can't run mixed reality.** This PC doesn't meet the minimum requirements needed to run Windows Mixed Reality.
@@ -44,6 +44,8 @@ You will then get an analysis of your PC against the required hardware, drivers,
 <td> <img alt="Error" width="30" height="30" src="images/glyph-error.png" /></td><td style="vertical-align: middle">Your PC does not meet the requirements for the specified item.</td>
 </tr>
 </table>
+
+ [Get help with Windows Mixed Reality PC Check results](https://support.microsoft.com/en-us/help/4045777/windows-10-get-help-with-pc-compatibility-in-windows-mixed-reality)
 
 ## Compatibility guidelines
 > [!IMPORTANT]
