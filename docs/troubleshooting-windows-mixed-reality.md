@@ -259,6 +259,11 @@ This typically indicates an occasional USB controller reliability issue on your 
 
 **Note:** Not all Surface devices are compatible with Windows Mixed Reality.  Learn more about [Surface compatiblity and requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md#windows-mixed-reality-and-surface) 
 
+### My headset displays are very choppy, but Mixed Reality Portal's preview window appears fine
+
+* Make sure your PC's system resources (CPU, memory and hard drive) are available and not pegged or maxed out by another app or process.
+* Try updating your graphics driver.
+
 ### Troubleshooting Flowchart
 
 ![Black screen/Can't see anything](images/hmd-connectivity.jpg)
