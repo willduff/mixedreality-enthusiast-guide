@@ -151,7 +151,7 @@ If you're running into any of the following symptoms while using Windows Mixed R
 
 3. Open Device Manager and confirm that your headset is listed under "Mixed Reality devices". Double click on your headset under "Mixed Reality devices" and confirm that the device status indicates "This device is working properly."
 
-4. Look for any yellow exclamation marks on devices listed in Device Manager. Yellow exclamation marks indicate any errors reported by the devices connected to your PC.
+4. Look for any yellow exclamation marks on devices listed in Device Manager. Yellow exclamation marks indicate any errors reported by the devices connected to your PC:
 
 ![Mixed Reality Device appear in Device Manager](images/mixedrealitydevices.png)
 
@@ -160,6 +160,8 @@ If you're running into any of the following symptoms while using Windows Mixed R
 **Note for Surface users:** Earlier versions of the Surface Dock and Surface Book USB Hub firmware update software are incompatible with Mixed Reality headsets. If you get a "Connect your headset" message on a Surface PC, check to see if any devices are reporting a **"Code 10: The device cannot start" error** in Device Manager. If so, follow the instructions in this [Support Article](https://support.microsoft.com/en-us/help/4032123/kinect-sensor-is-not-recognized-on-a-surface-book) to remove the conflicting driver. You should only need to do this once.
 
 **Note for Windows 10 N users:** If your PC is running Windows 10 N, you'll see a **"Code 28: The install class is not present or is invalid" error** in Device Manager after plugging in your Mixed Reality headset. Unfortunately, N-editions of Windows 10 are not supported by Windows Mixed Reality. Follow the instructions in [this section](troubleshooting-windows-mixed-reality.md#im-getting-a-the-install-class-is-not-present-or-is-invalid-error-in-device-manager) for more information.
+
+**If you alternate between multiple headsets on your PC:** If you have and use multiple Mixed Reality headsets on your PC, and have manually installed the Mixed Reality headset driver before, in some circumstances, the manual driver update may only apply to the headset connected at the time, and not to your other headsets. In this case, you'll see **"Code 31: This device is not working properly because Windows cannot load the drivers required for this device. (Code 31). The ALPC message requested is no longer available."** To resolve this, in Device Manager, right click on your headset under "Mixed Reality devices", and click "Uninstall device". Click OK to confirm, and then unplug and replug your headset.
 
 **Other useful troubleshooting steps:** Make sure your headset is connected to the correct ports on your computer:
 * Your headset's USB cable should be plugged into a USB 3.0 port. Try another USB 3.0 port if possible.
