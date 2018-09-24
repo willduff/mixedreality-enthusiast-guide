@@ -412,7 +412,8 @@ Motion Controllers should work with other Bluetooth keyboards, mice and game con
     - flash drives,
     - hard drives,
     - or wireless USB receivers like those for keyboards/mice.
-   * Plugging the USB Bluetooth Adapter into the opposite side of the computer as far as possible from these other connectors is ideal.
+    - Plugging the USB Bluetooth Adapter into the opposite side of the computer as far as possible from these other connectors is ideal.
+
 * Do not install any 3rd party software.
 * Close the Bluetooth settings window if it's open. Leaving it open in the background means that a lot of extra calls are made to the Bluetooth protocol.
 * Disable "Show notification to connect using Swift Pair" setting under Bluetooth & other devices, this will reduce host radio scanning activity.
@@ -439,7 +440,7 @@ Motion Controllers should work with other Bluetooth keyboards, mice and game con
 * or wireless USB receivers like those for keyboards/mice.
 * Plugging the USB Bluetooth Adapter into the opposite side of the computer as far as possible from these other connectors is ideal.
 
-**Step C**: Verify there’s only one Bluetooth radio in the PC. Right click on the Windows Start Menu and select Device Manager. Expand the Bluetooth section and look for one Adapter. If you are using the desktop PC configuration with built-in radio, check if an external antenna is connected. If there isn’t an external antenna connected, it is expected to issues with tracking. Another option would be to use an external bluetooth dongle (USB), disable the internal Bluetooth capability and retry pairing and connecting.
+**Step C**: Verify there’s only one Bluetooth radio in the PC. Right click on the Windows Start Menu and select Device Manager. Expand the Bluetooth section and look for one Adapter. If you are using the desktop PC configuration with built-in radio, check if an external antenna is connected. If there isn’t an external antenna connected, it is expected to issues with tracking. Another option would be to use an external bluetooth dongle (USB), disable the internal Bluetooth capability and retry pairing and connecting.
 
 **Step D & E**: Close the Bluetooth settings window if it's open. Leaving it open in the background means that a lot of extra calls are made to the Bluetooth protocol.
 
@@ -672,19 +673,19 @@ Some older versions of Windows Mixed Reality for SteamVR are no longer compatibl
 If SteamVR is still crashing after updating its possible you have 2 installations of Windows Mixed Reality for SteamVR on your machine. To confirm if this is the case:
 1. Locate the following file and open it in notepad %localappdata%\openvr\openvrpaths.vrpath
 2. Under the external drivers sections look for multiple entries for "MixedRealityVRDriver" 
-```json
+   ```json
    "external_drivers" : [
       "D:\\Steam\\steamapps\\common\\MixedRealityVRDriver",
       "E:\\Steam\\steamapps\\common\\MixedRealityVRDriver"
    ],
-```
-  
+   ```
+
 3. If you see multiple entries remove the older of the two entries. Note that once you have only one entry there should no longer be a comma at the end of the line, for example:
-```json
-"external_drivers" : [
+   ```json
+   "external_drivers" : [
       "D:\\Steam\\steamapps\\common\\MixedRealityVRDriver"
    ],
-```
+   ```
 4. Save the file and close it
 5. Restart Steam and SteamVR
 
@@ -756,8 +757,8 @@ If you have Cortana enabled on your host PC prior to using your Windows Mixed Re
 1. Left-click the speaker icon on the desktop taskbar and select from list of audio devices.
 2. Right-click the speaker icon on the desktop taskbar and select "Windows Sonic for Headphones" in the "Speaker setup" menu.
 3. Repeat these steps for all of your audio devices (endpoints).
-* **Note:** Because the headphones/speakers connected to your headset won't appear unless you're wearing it, you have to do this from within the Desktop app window in the Windows Mixed Reality home to apply this setting to the audio device connected to your headset (or integrated into your headset).
-* **Note:** Another option is to turn off "Let Cortana respond to Hey Cortana" in **Settings** > **Cortana** on your desktop prior to launching Windows Mixed Reality.
+4. **Note:** Because the headphones/speakers connected to your headset won't appear unless you're wearing it, you have to do this from within the Desktop app window in the Windows Mixed Reality home to apply this setting to the audio device connected to your headset (or integrated into your headset).
+5. **Note:** Another option is to turn off "Let Cortana respond to Hey Cortana" in **Settings** > **Cortana** on your desktop prior to launching Windows Mixed Reality.
 
 ### Speech commands are not working as expected
 
@@ -808,20 +809,19 @@ If you uninstall Windows Mixed Reality and then see a message that says "We coul
 1. Restart your PC.
 2. In the **Search** box, type "regedit" and then select **Yes**.
 3. Remove the following registry values:
-<ul>
+   <ul>
     <li><b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Holographic</b>, then delete <b>FirstRunSucceeded</b>.</li> 
     <li><b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Holographic\SpeechAndAudio</b>, then delete <b>PreferDesktopSpeaker</b> and <b>PreferDesktopMic</b>.</li> 
-    <li><b>HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore> Settings\Holographic</b>, then delete <b>DisableSpeechInput</b>. Note:the registry items in HHKEY_CURRENT_USER must be deleted for every user account on the PC that has used Windows Mixed Reality.</li> 
+    <li><b>HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore&gt; Settings\Holographic</b>, then delete <b>DisableSpeechInput</b>. Note:the registry items in HHKEY_CURRENT_USER must be deleted for every user account on the PC that has used Windows Mixed Reality.</li> 
     <li><b>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\PerceptionSimulationExtensions</b>, then delete <b>DeviceID</b> and <b>Mode</b>.</li> 
     <li><b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Holographic</b>, then delete <b>OnDeviceLearningCompleted</b>.</li> 
-</ul>
+   </ul>
 
 4. Remove the following registry keys: 
-<ul>
-  <li> <b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\HoloSI</b></li> 
-  <li> <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\HoloSI</b></li> 
-  <li> <b>HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Settings\HolographicPreferences</b></li>  
-</ul>
+   <ul>
+   <li> <b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\HoloSI</b></li> 
+   <li> <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\HoloSI</b></li> 
+   <li> <b>HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Settings\HolographicPreferences</b></li><br/></ul>
 
 5. Close Registry Editor.
 
@@ -832,11 +832,11 @@ If you uninstall Windows Mixed Reality and then see a message that says "We coul
 8. Type "powershell" in the **Search box**, right-click **Windows PowerShell**, and then select **Run as administrator**.
 
 9. In Windows PowerShell, do the following:
-<ul>
-  <li>Copy and paste the following at the command prompt, then press Enter: <b>Dism /online /Get-Capabilities</b></li> 
-  <li>Copy the Capability Identity that begins with Analog.Holographic.Desktop (if it isn't there, that means this item isn't installed. In that case, skip to step 10 ).</li> 
-  <li>Copy and paste the following command prompt, then press Enter: <b>Dism /online /Remove-Capability /CapabilityName:the Capability Identity copied in the last step</b></li>
-</ul>
+   <ul>
+   <li>Copy and paste the following at the command prompt, then press Enter: <b>Dism /online /Get-Capabilities</b></li> 
+   <li>Copy the Capability Identity that begins with Analog.Holographic.Desktop (if it isn&#39;t there, that means this item isn&#39;t installed. In that case, skip to step 10 ).</li> 
+   <li>Copy and paste the following command prompt, then press Enter: <b>Dism /online /Remove-Capability /CapabilityName:the Capability Identity copied in the last step</b></li>
+   </ul>
 
 10. Restart your PC.
 
