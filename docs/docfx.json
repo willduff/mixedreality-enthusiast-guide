@@ -50,6 +50,7 @@
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "mixedreality-enthusiast-guide"
+    "dest": "mixedreality-enthusiast-guide",
+    "markdownEngineName": "markdig"
   }
 }
