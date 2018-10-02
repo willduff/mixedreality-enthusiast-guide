@@ -17,7 +17,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, compati
 * A large, open space 
 
 ## Make sure your PC is compatible with Windows Mixed Reality
-To see if your PC is Windows Mixed Reality compatible check the [Windows Mixed Reality minimum P hardware requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md) or run the Windows Mixed Reality PC Check app
+To see if your PC is Windows Mixed Reality compatible check the [Windows Mixed Reality minimum PC hardware requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md) or run the Windows Mixed Reality PC Check app
 
 ### How do I get the app?
 **Download and run the app:** Launch the Windows Store from your Desktop, search for the **Mixed Reality PC Check App** and click Get to download and install it. You can also [follow this link](https://aka.ms/mrcheck) to launch the correct Store page. On Windows 10 PCs with at least Windows 10 Version 1607 (Anniversary Update), this application can check your hardware and software to determine whether the device can support Windows Mixed Reality in its current state. 
