@@ -14,8 +14,11 @@ Windows Mixed Reality for SteamVR allows users to run SteamVR experiences on Win
 * PC requirements vary for the apps and content on Steam. See the minimum requirements per title. A PC with a GTX 1070 graphics card (or equivalent) and an Intel® Core™ i7 processor should offer a good experience for a broad range of titles.
 
 ## Set up Windows Mixed Reality for SteamVR
-1. Install Steam and SteamVR on your PC. [Learn how](https://go.microsoft.com/fwlink/?linkid=862788) 
-2. Install [Windows Mixed Reality for SteamVR](http://store.steampowered.com/app/719950/Windows_Mixed_Reality_SteamVR_preview/).
+1. If you haven't already setup up [Windows Mixed Reality](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality)
+2. Install [Steam](http://store.steampowered.com/about/) and **login** or **create a new account.**
+3. Install SteamVR. With your headset plugged in, launch Steam and you should see a dialog prompting you to install SteamVR. Follow the prompts on the dialog to install it. 
+    * If you don't see the popup, install SteamVR by navigating to the *Tools* section of your *library*. Locate SteamVR in the list and then right click and select *Install Game...*
+4. Install [Windows Mixed Reality for SteamVR](https://store.steampowered.com/app/719950/Windows_Mixed_Reality_for_SteamVR/). 
 
 ## Play SteamVR games
 1. Connect your headset to your PC and turn on your motion controllers.
@@ -26,7 +29,7 @@ Windows Mixed Reality for SteamVR allows users to run SteamVR experiences on Win
 
 ## Using Motion Controllers with SteamVR
 You'll use your motion controllers differently in different games. Here are a few basics to help you get started:
-* To open the Steam dashboard, press straight down on the left thumbstick. 
+* To open the Steam dashboard, press straight down on the left or right thumbstick. 
 * To exit a SteamVR game and return to the Windows Mixed Reality home, press the Windows button.
 
 ## Changing the resolution
@@ -37,47 +40,152 @@ You can adjust the Application Resolution slider in the SteamVR -> Settings -> A
 
 If you're a VR enthusiast you might regularly use more than one VR headset on the same PC. If that's the case note that when a Windows Mixed Reality headset is plugged in, SteamVR games will always launch to the Windows Mixed Reality headset. If you'd like to launch SteamVR games on another headset make sure to first unplug the Windows Mixed Reality headset before continuing. 
 
-## Getting the most out of SteamVR on Windows Mixed Reality
+## Preview programs
 
-We will be releasing frequent updates to improve the performance, reliability, and overall experience of using SteamVR on Windows Mixed Reality immersive headsets. To stay up to date with the latest improvements:
-* Check for Windows updates regularly
-* Switch to the SteamVR beta if you want to try out fixes before they're released to a broader audience
-  1. In Steam - use the drop down under your Library to filter to Tools and then locate SteamVR in the list
-  2. Open SteamVR properties - right click SteamVR in the same Tools page and open the Properties dialog.![Install SteamVR from the tools section of your Steam Library](images/steamvr-install.png)
-  3. Join the SteamVR Beta - click the Betas tab and opt into SteamVR Beta Update by selecting it from the drop down. **Note:** The beta access code field should be left blank and you can just hit close to confirm.![Switch to the SteamVR beta in the properties dialog for SteamVR](images/steamvr-beta.png)
+We release regular updates to improve the performance, reliability, and overall experience of using SteamVR on Windows Mixed Reality immersive headsets. While none of these preview programs are required, we encourage you to join them if you would like to get updates sooner and more frequently (and give us feedback on those updates!).
 
-## Enabling controller thumbstick turning in any SteamVR application
+### Windows Mixed Reality for SteamVR Beta
 
-**Windows Mixed Reality for SteamVR** has an experimental feature to enable the use of a controller thumbstick for artificial turns in any StreamVR application.  
+Windows Mixed Reality for SteamVR is the component you install from the Steam Store that enables SteamVR to work with your Windows Mixed Reality headset.  We publish updates to this "bridge" regularly and Steam installs them automatically.
 
-To enable thumbstick turning:
+If you want to get updates sooner and more frequently, we encourage you to join our public Beta.  Updates go to our Beta audience first, and we use their feedback to make sure the updates are high quality before publishing them to all users.  If you’re not in our Beta program, you’ll eventually get all of the same fixes and features, but after they have been tested by our Beta users.
+
+To join:
+  1. In Steam, use the drop down under the **Library** menu to filter to **Software**
+  2. In the list, right-click **Windows Mixed Reality for SteamVR** and select **Properties**
+  3. Click the **Betas** tab
+  4. Opt-in to **"beta - public beta"** and click **Close** to confirm.  Note that the beta access code field should be left blank.
+  
+### SteamVR Beta
+
+SteamVR is built and released by Valve and is common across all SteamVR headsets.  It follows a similar model of releasing updates to Beta members before publising to all users.
+
+To join:
+  1. In Steam, use the drop down under the **Library** menu to filter to **Tools**
+  2. In the list, right-click **SteamVR** and select **Properties**
+  3. Click the **Betas** tab
+  4. Opt-in to **"beta - public beta"** and click **Close** to confirm.  Note that the beta access code field should be left blank.![Switch to the SteamVR beta in the properties dialog for SteamVR](images/steamvr-beta.png)
+
+### Windows Insider Program
+
+Windows Mixed Reality is a part of Windows 10.  Many fixes and features that affect SteamVR users come with the Windows OS.  If you want to try the latest Windows 10 preview builds, we encourage you to join the [Windows Insider Program](https://insider.windows.com).
+  
+## Enabling controller thumbstick controls in any SteamVR application
+
+**Windows Mixed Reality for SteamVR** has an experimental feature to enable the use of a controller thumbstick for artificial movement in any StreamVR application.  Thumbstick controls simulate real movement as if you were actually walking around your physical space.  This may cause issues for some applications.
+
+To enable thumbstick controls:
 1. Edit "C:\Program Files (x86)\Steam\steamapps\common\MixedRealityVRDriver\resources\settings\default.vrsettings"
     * Path will be different if **Windows Mixed Reality for SteamVR** was installed to a different library
-2. Change either `thumbstickTurnLeftEnabled` or `thumbstickTurnRightEnabled` to `true`
-3. Select **stutter turn** or **smooth turn** as shown in the examples below
+2. Change **thumbstickControlsEnabled** to true as shown in the examples below
+3. To reverse the handedness of the controls, change **thumbstickControlsReversed** to true.
+4. To increase comfort, this feature defaults to small discrete turns. If you would prefer a smooth turning experience, set **thumbstickTurnSmooth** to true.
 
-**Example 1: Enabling stutter turn**
-
-    "driver_Holographic_Experimental" : {
-        "thumbstickTurnLeftEnabled" : false,
-        "thumbstickTurnRightEnabled" : true,
-
+**Example 1: Enabling thumbstick controls**
+```
+  "driver_Holographic_Experimental" : {
         // Some people may experience increased discomfort such as nausea, motion sickness, dizziness,
-        // disorientation, headache, fatigue, or eye strain when using “smooth turns” in Windows Mixed Reality.
-        "thumbstickTurnSmooth" : false
+        // disorientation, headache, fatigue, or eye strain when using thumbstick controls in Windows Mixed Reality.
+        "thumbstickControlsEnabled" : true,
+        "thumbstickControlsReversed" : false,
+        "thumbstickTurnSmooth" : false,
+        "thumbstickDeadzone" : 0.25
     }
+```
     
 **Example 2: Enabling smooth turn**
-
-    "driver_Holographic_Experimental" : {
-        "thumbstickTurnLeftEnabled" : false,
-        "thumbstickTurnRightEnabled" : true,
-
+```
+  "driver_Holographic_Experimental" : {
         // Some people may experience increased discomfort such as nausea, motion sickness, dizziness,
-        // disorientation, headache, fatigue, or eye strain when using “smooth turns” in Windows Mixed Reality.
-        "thumbstickTurnSmooth" : true
+        // disorientation, headache, fatigue, or eye strain when using thumbstick controls in Windows Mixed Reality.
+        "thumbstickControlsEnabled" : true,
+        "thumbstickControlsReversed" : false,
+        "thumbstickTurnSmooth" : true,
+        "thumbstickDeadzone" : 0.25
     }
-    
+```
+
+## Enabling motion reprojection for SteamVR Apps
+Windows Mixed Reality for SteamVR has an experimental motion reprojection feature to make 90 FPS reprojection more smooth.
+
+When motion reprojection is enabled, all Steam VR games will render nominally at ½ frame rate (45 fps instead of 90 FPS) while Windows Mixed Reality for SteamVR uses motion vectors generated by the GPU to extrapolate the next frame. For SteamVR games that reliably hit 60 FPS+ on a given PC, this should result in a solid 90 FPS experience with occasional artifacts while maintaining a comfortable experience. 
+
+When motionReprojectionMode is set to "auto", motion reprojection will turn on automatically when a game is rendering too slowly to maintain 90 FPS. When a game begins to maintain 90 FPS or starts rendering at less than 45 FPS, motion reprojection will turn off. Asynchronous rotational reprojection is enabled at all times.
+
+**Expected Visual Artifacts** 
+1.	Sharp contrast edges or text, especially on in-game HUDs or menus, may look temporarily warped or distorted due to disocclusion
+2.	SteamVR Home and many other games that do not reliably hit 50-60 FPS on your PC will continue to have a poor experience with this mode
+3.  Some games have been reported to run at 50% speed or with increased latency (lag). Please report these games through the [Windows Feedback Hub](filing-feedback.md) instructions below.
+ 
+Initially we have experimental support for recent generation NVidia GPUs. We are continuing to iterate on and improve our motion reprojection support on additional GPUs, and we’re eager to hear your feedback.
+
+ 
+**Supported GPUs:** NVidia GeForce GTX 1060/1070/1080+ with Windows Mixed Reality compatible Graphics Drivers
+
+You can opt-in to this mode by updating the MixedRealityVRDriver\resources\settings\default.vrsettings file in the MixedRealityVRDriver install folder.
+ 
+1.	Make sure you have opted into the Windows Mixed Reality for SteamVR Beta using the instructions above.
+2.	Close SteamVR if it is running
+3.	Edit "C:\Program Files (x86)\Steam\steamapps\common\MixedRealityVRDriver\resources\settings\default.vrsettings"
+    * Path will be different if Windows Mixed Reality for SteamVR was installed to a different library
+4.	Add  this line just below  "driver_Holographic_Experimental" as shown in the example below
+"motionReprojectionMode" : "auto",
+5.	Restart SteamVR with Windows Mixed Reality
+
+**Motion Reprojection Indicator**
+motionReprojectionIndicatorEnabled is a new setting in the configuration file to help diagnose issues with the experimental automatic motion reprojection feature. When set to true, you will see an indicator in the top-left of your headset display during automatic motion reprojection. The color and position of this indicator corresponds to the current motion reprojection mode - see the diagram below for examples.
+
+![mvLSR Indicator](images/mvLSRIndicator.png)
+ 
+**Example 1: Enabling automatic motion reprojection**
+ ```
+  "driver_Holographic_Experimental" : {
+         "motionReprojectionMode" : "auto", 
+         
+         // motionReprojectionIndicatorEnabled is a new setting in the configuration file to help diagnose issues with the experimental automatic motion reprojection feature. When set to true, you will see an indicator in the headset that corresponds to the current motion reprojection mode:
+        // green = off because application can render at full framerate
+        // light blue = on because application is cpu bound
+        // dark blue = on because application is gpu bound
+        // red = off because application running at less than half framerate, reduce super sampling if enabled
+        // Uncomment the next line to enable the motion reprojection indicator
+        
+        // "motionReprojectionIndicatorEnabled" : true,
+         
+        // Some people may experience increased discomfort such as nausea, motion sickness, dizziness,
+        // disorientation, headache, fatigue, or eye strain when using thumbstick controls in Windows Mixed Reality.
+        "thumbstickControlsEnabled" : false,
+        "thumbstickControlsReversed" : false,
+        "thumbstickTurnSmooth" : false,
+        "thumbstickDeadzone" : 0.25        
+    }
+```
+**Example 2: Enabling motion reprojection at all times**
+ ```
+  "driver_Holographic_Experimental" : {
+         "motionReprojectionMode" : "motionvector",      
+         
+        // Some people may experience increased discomfort such as nausea, motion sickness, dizziness,
+        // disorientation, headache, fatigue, or eye strain when using thumbstick controls in Windows Mixed Reality.
+        "thumbstickControlsEnabled" : false,
+        "thumbstickControlsReversed" : false,
+        "thumbstickTurnSmooth" : false,
+        "thumbstickDeadzone" : 0.25        
+    }
+```
+**Example 3: Disabling motion reprojection**
+```
+  "driver_Holographic_Experimental" : {
+        // "motionReprojectionMode" : "auto", 
+        
+        // Some people may experience increased discomfort such as nausea, motion sickness, dizziness,
+        // disorientation, headache, fatigue, or eye strain when using thumbstick controls in Windows Mixed Reality.
+        "thumbstickControlsEnabled" : false,
+        "thumbstickControlsReversed" : false,
+        "thumbstickTurnSmooth" : false,
+        "thumbstickDeadzone" : 0.25
+    }
+```
+
 ## Sharing feedback on SteamVR
 
 Your feedback is invaluable when it comes to improving the Windows Mixed Reality SteamVR experience. Please submit all feedback and bugs through the [Windows Feedback Hub](filing-feedback.md). Please follow these suggestions to help us get the most from your feedback: 

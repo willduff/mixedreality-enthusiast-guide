@@ -58,6 +58,11 @@ After you submit feedback, to easily direct other people (e.g. co-workers, Micro
 >    * Ensure that a non-metered network is available in order to upload cabs.
 
 
+## After filing feedback
+
+Make sure to check back regularly with Feedback Hub after filing feedback! In most cases, we'll try to respond as soon as we can. If you're not already in touch with us when you file feedback, the only way we can reach out to you with troubleshooting suggestions or more questions is via the comments system in Feedback Hub. Unfortunately, at this time, notifications are not sent to you outside of Feedback Hub.
+
+
 ## See also
 * [Troubleshooting](troubleshooting-windows-mixed-reality.md)
 
