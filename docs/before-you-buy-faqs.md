@@ -57,7 +57,7 @@ Learn more about Mixed Reality here: <https://docs.microsoft.com/en-us/windows/m
 
 * **Inside-out Tracking** Windows Mixed Reality uses inside-out tracking. With Inside-out tracking cameras are built into the headset and track changes in the environement in order to determine the headsets position in relation to the environment as you move around. 
 
-* **Outside-in Tracking** Occulus, Vive and others use Outside-in tracking.  With Outside-in tracking the headset is tracked by one or more external devices. Camera(s) are built into those external devices, placed around the environment and are used to determine the position of the headset in relation to the environment. 
+* **Outside-in Tracking** Oculus, Vive and others use Outside-in tracking.  With Outside-in tracking the headset is tracked by one or more external devices. Camera(s) are built into those external devices, placed around the environment and are used to determine the position of the headset in relation to the environment. 
 
 To learn more about inside-out tracking you can go here: <https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/tracking-system>
 
