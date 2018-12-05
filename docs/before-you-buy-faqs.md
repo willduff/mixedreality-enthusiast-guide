@@ -128,6 +128,18 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 </tr>
 
 <tr>
+<td> Fujitsu FMV Headset </td>
+<td> 2880x1440 </td>
+<td> LCD </td>
+<td> Up to 90Hz </td>
+<td> 105˚ </td>
+<td> 3.5mm jack </td>
+<td style="text-align: center;">No</td>
+<td> Fall 2017 </td>
+<td> <a href="http://pr.fujitsu.com/jp/news/2017/10/17.html">Fujitsu</a> </td>
+</tr>
+
+<tr>
 <td> HP VR1000 </td>
 <td> 2880x1440 </td>
 <td> LCD </td>
