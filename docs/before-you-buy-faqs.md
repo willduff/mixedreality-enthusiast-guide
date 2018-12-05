@@ -21,21 +21,17 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, pre-sal
 **Quick Answer:** You can try Windows Mixed Reality in store at many local retailers including the Microsoft Store.  
 * Find you local Microsoft Store: <https://www.microsoft.com/en-us/store/locations/all-locations>
 
+### Which manufacturers are selling Windows Mixed Reality devices?
+
+**Quick Answer:** Headsets and motion controllers are currently available from Acer, ASUS, HP and Samsung. See <https://www.microsoft.com/en-us/store/collections/vrandmixedrealityheadsets>
+
 ### Where can I buy standalone motion controllers?
 
-**Quick Answer:** Dell.com is selling standalone controllers in the US here: <http://www.dell.com/en-us/shop/accessories/apd/536-bbbs?c=us&l=en&s=dhs&cs=19&sku=536-BBBS>
-
-### What OEMs are selling devices?
-
-**Quick Answer:** Headsets are currently available from Dell, HP, Lenovo, Acer, Asus and Samsung. See <https://www.microsoft.com/en-us/store/collections/vrandmixedrealityheadsets>
+**Quick Answer:** Unfortunately, we're not aware of any retailers selling standalone motion controllers at this time.
 
 ### What is the price point?
 
-**Quick Answer:** Headset and controller bundles range from $399 to $499. See <https://www.microsoft.com/en-us/store/collections/vrandmixedrealityheadsets>
-
-### What are the different bundles I can buy?
-
-**Quick Answer:** Bundles are available from Dell, HP, Lenovo, Acer, and Samsung. See <https://www.microsoft.com/en-us/store/collections/vrandmixedrealityheadsets>
+**Quick Answer:** Headset and controller pricing varies by manufacturer and retailer. See <https://www.microsoft.com/en-us/store/collections/vrandmixedrealityheadsets> for Mixed Reality devices currently for sale from Microsoft.
 
 ### What is the difference between a Windows Mixed Reality PC and a Windows Mixed Reality Ultra PC?
 
@@ -61,7 +57,7 @@ Learn more about Mixed Reality here: <https://docs.microsoft.com/en-us/windows/m
 
 * **Inside-out Tracking** Windows Mixed Reality uses inside-out tracking. With Inside-out tracking cameras are built into the headset and track changes in the environement in order to determine the headsets position in relation to the environment as you move around. 
 
-* **Outside-in Tracking** Occulus, Vive and others use Outside-in tracking.  With Outside-in tracking the headset is tracked by one or more external devices. Camera(s) are built into those external devices, placed around the environment and are used to determine the position of the headset in relation to the environment. 
+* **Outside-in Tracking** Oculus, Vive and others use Outside-in tracking.  With Outside-in tracking the headset is tracked by one or more external devices. Camera(s) are built into those external devices, placed around the environment and are used to determine the position of the headset in relation to the environment. 
 
 To learn more about inside-out tracking you can go here: <https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/tracking-system>
 
@@ -90,30 +86,33 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <th style="width:10%"> Refresh Rate </th>
 <th style="width:10%"> FOV </th>
 <th style="width:15%"> Audio </th>
-<th style="width:10%">Manual IPD</th>
+<th style="width:10%"> Manual IPD </th>
+<th style="width:10%"> Release Date </th>
 <th style="width:25%"> More info </th>
 </tr>
 
 <tr>
-<td> Samsung HMD Odyssey</td>
-<td> 2880x1600 </td>
-<td> AMOLED </td>
-<td> Up to 90Hz </td>
-<td> 110˚ </td>
-<td> Integrated </td>
-<td style="text-align: center;">Yes</td>
-<td> <a href="https://www.samsung.com/us/computing/hmd/windows-mixed-reality/xe800zaa-hc1us-xe800zaa-hc1us/?redir=windows%20mixed%20reality">Samsung</a> </td>
-</tr>
-
-<tr>
-<td> Acer Headset </td>
+<td> Acer AH101 </td>
 <td> 2880x1440 </td>
 <td> LCD </td>
 <td> Up to 90Hz </td>
 <td> 105˚ </td>
 <td> 3.5mm jack </td>
 <td style="text-align: center;">No</td>
+<td> Fall 2017 </td>
 <td> <a href="https://www.acer.com/ac/en/US/content/windows-mixed-reality-home">Acer</a> </td>
+</tr>
+
+<tr>
+<td> ASUS HC102 </td>
+<td> 2880x1440 </td>
+<td> LCD </td>
+<td> Up to 90Hz </td>
+<td> 95˚ </td>
+<td> 3.5mm jack </td>
+<td style="text-align: center;">No</td>
+<td> Fall 2017 </td>
+<td> <a href="https://www.asus.com/us/Headset/ASUS-Windows-Mixed-Reality-Headset-HC102/">ASUS</a> </td>
 </tr>
 
 <tr>
@@ -124,29 +123,32 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <td> 105˚ </td>
 <td> 3.5mm jack </td>
 <td style="text-align: center;">No</td>
+<td> Fall 2017 </td>
 <td> <a href="https://www.dell.com/en-us/shop/accessories/apd/536-bbbr?~ck=mn">Dell</a> </td>
 </tr>
 
 <tr>
-<td> HP VR1000 Headset </td>
+<td> Fujitsu FMV Headset </td>
 <td> 2880x1440 </td>
 <td> LCD </td>
 <td> Up to 90Hz </td>
 <td> 105˚ </td>
 <td> 3.5mm jack </td>
 <td style="text-align: center;">No</td>
-<td> <a href="https://store.hp.com/us/en/pdp/hp-windows-mixed-reality-headset-vr1000-100">HP</a> </td>
+<td> Fall 2017 </td>
+<td> <a href="http://pr.fujitsu.com/jp/news/2017/10/17.html">Fujitsu</a> </td>
 </tr>
 
 <tr>
-<td> HP Professional Edition </td>
+<td> HP VR1000 </td>
 <td> 2880x1440 </td>
 <td> LCD </td>
 <td> Up to 90Hz </td>
 <td> 105˚ </td>
 <td> 3.5mm jack </td>
 <td style="text-align: center;">No</td>
-<td> <a href="https://store.hp.com/us/en/pdp/hp-windows-mixed-reality-headset-professional-edition">HP</a> </td>
+<td> Fall 2017 </td>
+<td> <a href="https://store.hp.com/us/en/pdp/hp-windows-mixed-reality-headset-vr1000-100">HP</a> </td>
 </tr>
 
 <tr>
@@ -157,28 +159,55 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <td> 105˚ </td>
 <td> 3.5mm jack </td>
 <td style="text-align: center;">No</td>
+<td> Fall 2017 </td>
 <td> <a href="https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/virtual-and-augmented-reality/lenovo-explorer/Lenovo-Explorer/p/G10NREAG0A2">Lenovo</a> </td>
 </tr>
 
 <tr>
-<td> ASUS Headset </td>
+<td> Medion ERAZER MR X1000 </td>
 <td> 2880x1440 </td>
 <td> LCD </td>
 <td> Up to 90Hz </td>
-<td> 95˚ </td>
-<td> 3.5mm jack </td>
-<td style="text-align: center;">No</td>
-<td> <a href="https://www.asus.com/us/Headset/ASUS-Windows-Mixed-Reality-Headset-HC102/">ASUS</a> </td>
-</tr>
-
-<tr>
-<td> 3Glasses Lampe S2</td>
-<td> 2880x1440 </td>
-<td> LCD </td>
-<td> Up to 120Hz </td>
 <td> 105˚ </td>
 <td> 3.5mm jack </td>
 <td style="text-align: center;">No</td>
+<td> Fall 2017 </td>
+<td> <a href="https://www.medion.com/be/shop/monitoren-medion-erazer-mr-x1000-vr-headset-controllers-30023616a1.html">Medion</a> </td>
+</tr>
+
+<tr>
+<td> Samsung HMD Odyssey</td>
+<td> 2880x1600 </td>
+<td> AMOLED </td>
+<td> Up to 90Hz </td>
+<td> 110˚ </td>
+<td> Integrated </td>
+<td style="text-align: center;">Yes</td>
+<td> Fall 2017 </td>
+<td> <a href="https://www.samsung.com/us/computing/hmd/windows-mixed-reality/xe800zaa-hc1us-xe800zaa-hc1us/?redir=windows%20mixed%20reality">Samsung</a> </td>
+</tr>
+
+<tr>
+<td> Samsung HMD Odyssey+</td>
+<td> 2880x1600 </td>
+<td> AMOLED </td>
+<td> Up to 90Hz </td>
+<td> 110˚ </td>
+<td> Integrated </td>
+<td style="text-align: center;">Yes</td>
+<td> Fall 2018 </td>
+<td> <a href="https://www.samsung.com/us/computing/hmd/windows-mixed-reality/hmd-odyssey-windows-mixed-reality-headset-xe800zba-hc1us/">Samsung</a> </td>
+</tr>
+
+<tr>
+<td> 3Glasses Blubur S2</td>
+<td> 2880x1440 </td>
+<td> LCD </td>
+<td> Up to 90Hz </td>
+<td> 105˚ </td>
+<td> 3.5mm jack </td>
+<td style="text-align: center;">No</td>
+<td> Fall 2017 </td>
 <td> <a href="http://3glasses.com/goods.action?gid=30">3Glasses</a> </td>
 </tr>
 </table>
