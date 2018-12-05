@@ -23,7 +23,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, pre-sal
 
 ### Which manufacturers are selling Windows Mixed Reality devices?
 
-**Quick Answer:** Headsets and motion controllers are currently available from Acer, ASUS, Dell, HP and Samsung. See <https://www.microsoft.com/en-us/store/collections/vrandmixedrealityheadsets>
+**Quick Answer:** Headsets and motion controllers are currently available from Acer, ASUS, HP and Samsung. See <https://www.microsoft.com/en-us/store/collections/vrandmixedrealityheadsets>
 
 ### Where can I buy standalone motion controllers?
 
@@ -151,6 +151,18 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <td style="text-align: center;">No</td>
 <td> Fall 2017 </td>
 <td> <a href="https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/virtual-and-augmented-reality/lenovo-explorer/Lenovo-Explorer/p/G10NREAG0A2">Lenovo</a> </td>
+</tr>
+
+<tr>
+<td> Medion ERAZER MR X1000 </td>
+<td> 2880x1440 </td>
+<td> LCD </td>
+<td> Up to 90Hz </td>
+<td> 105˚ </td>
+<td> 3.5mm jack </td>
+<td style="text-align: center;">No</td>
+<td> Fall 2017 </td>
+<td> <a href="https://www.medion.com/be/shop/monitoren-medion-erazer-mr-x1000-vr-headset-controllers-30023616a1.html">Lenovo</a> </td>
 </tr>
 
 <tr>
