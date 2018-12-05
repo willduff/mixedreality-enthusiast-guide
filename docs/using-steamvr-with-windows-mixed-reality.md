@@ -113,9 +113,10 @@ When motion reprojection is enabled, all Steam VR games will render nominally at
 When motionReprojectionMode is set to "auto", motion reprojection will turn on automatically when a game is rendering too slowly to maintain 90 FPS. When a game begins to maintain 90 FPS or starts rendering at less than 45 FPS, motion reprojection will turn off. Asynchronous rotational reprojection is enabled at all times.
 
 **Expected Visual Artifacts** 
-1.	Sharp contrast edges or text, especially on in-game HUDs or menus, may look temporarily warped or distorted due to disocclusion
-2.	SteamVR Home and many other games that do not reliably hit 50-60 FPS on your PC will continue to have a poor experience with this mode
-3.  Some games have been reported to run at 50% speed or with increased latency (lag). Please report these games through the [Windows Feedback Hub](filing-feedback.md) instructions below.
+1.	When using a application resolution greater than 150% you may experience blurring. When using motion reprojection we recommend using a value less than 150%
+2. Sharp contrast edges or text, especially on in-game HUDs or menus, may look temporarily warped or distorted due to disocclusion
+3.	SteamVR Home and many other games that do not reliably hit 50-60 FPS on your PC will continue to have a poor experience with this mode
+4.  Some games have been reported to run at 50% speed or with increased latency (lag). Please report these games through the [Windows Feedback Hub](filing-feedback.md) instructions below.
  
 Initially we have experimental support for recent generation NVidia GPUs. We are continuing to iterate on and improve our motion reprojection support on additional GPUs, and we’re eager to hear your feedback.
 
