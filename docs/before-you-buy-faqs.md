@@ -78,8 +78,6 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 
 ## Technical specifications
 
-## Technical specifications
-
 <table>
 <tr>
 <th style="width:25%"> Headset </th>
