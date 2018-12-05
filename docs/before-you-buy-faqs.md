@@ -172,7 +172,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <td> 3.5mm jack </td>
 <td style="text-align: center;">No</td>
 <td> Fall 2017 </td>
-<td> <a href="https://www.medion.com/be/shop/monitoren-medion-erazer-mr-x1000-vr-headset-controllers-30023616a1.html">Lenovo</a> </td>
+<td> <a href="https://www.medion.com/be/shop/monitoren-medion-erazer-mr-x1000-vr-headset-controllers-30023616a1.html">Medion</a> </td>
 </tr>
 
 <tr>
