@@ -86,6 +86,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <th style="width:10%"> Refresh Rate </th>
 <th style="width:10%"> FOV </th>
 <th style="width:15%"> Audio </th>
+<th style="width:10%"> Bluetooth </th>
 <th style="width:10%"> Manual IPD </th>
 <th style="width:10%"> Release Date </th>
 <th style="width:25%"> More info </th>
@@ -98,6 +99,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <td> Up to 90Hz </td>
 <td> 105˚ </td>
 <td> 3.5mm jack </td>
+<td> None </td>
 <td style="text-align: center;">No</td>
 <td> Fall 2017 </td>
 <td> <a href="https://www.acer.com/ac/en/US/content/windows-mixed-reality-home">Acer</a> </td>
@@ -110,6 +112,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <td> Up to 90Hz </td>
 <td> 95˚ </td>
 <td> 3.5mm jack </td>
+<td> None </td>
 <td style="text-align: center;">No</td>
 <td> Fall 2017 </td>
 <td> <a href="https://www.asus.com/us/Headset/ASUS-Windows-Mixed-Reality-Headset-HC102/">ASUS</a> </td>
@@ -122,6 +125,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <td> Up to 90Hz </td>
 <td> 105˚ </td>
 <td> 3.5mm jack </td>
+<td> None </td>
 <td style="text-align: center;">No</td>
 <td> Fall 2017 </td>
 <td> <a href="https://www.dell.com/en-us/shop/accessories/apd/536-bbbr?~ck=mn">Dell</a> </td>
@@ -134,6 +138,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <td> Up to 90Hz </td>
 <td> 105˚ </td>
 <td> 3.5mm jack </td>
+<td> None </td>
 <td style="text-align: center;">No</td>
 <td> Fall 2017 </td>
 <td> <a href="http://pr.fujitsu.com/jp/news/2017/10/17.html">Fujitsu</a> </td>
@@ -146,6 +151,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <td> Up to 90Hz </td>
 <td> 105˚ </td>
 <td> 3.5mm jack </td>
+<td> None </td>
 <td style="text-align: center;">No</td>
 <td> Fall 2017 </td>
 <td> <a href="https://store.hp.com/us/en/pdp/hp-windows-mixed-reality-headset-vr1000-100">HP</a> </td>
@@ -158,6 +164,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <td> Up to 90Hz </td>
 <td> 105˚ </td>
 <td> 3.5mm jack </td>
+<td> None </td>
 <td style="text-align: center;">No</td>
 <td> Fall 2017 </td>
 <td> <a href="https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/virtual-and-augmented-reality/lenovo-explorer/Lenovo-Explorer/p/G10NREAG0A2">Lenovo</a> </td>
@@ -170,6 +177,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <td> Up to 90Hz </td>
 <td> 105˚ </td>
 <td> 3.5mm jack </td>
+<td> None </td>
 <td style="text-align: center;">No</td>
 <td> Fall 2017 </td>
 <td> <a href="https://www.medion.com/be/shop/monitoren-medion-erazer-mr-x1000-vr-headset-controllers-30023616a1.html">Medion</a> </td>
@@ -182,6 +190,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <td> Up to 90Hz </td>
 <td> 110˚ </td>
 <td> Integrated </td>
+<td> None </td>
 <td style="text-align: center;">Yes</td>
 <td> Fall 2017 </td>
 <td> <a href="https://www.samsung.com/us/computing/hmd/windows-mixed-reality/xe800zaa-hc1us-xe800zaa-hc1us/?redir=windows%20mixed%20reality">Samsung</a> </td>
@@ -194,6 +203,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <td> Up to 90Hz </td>
 <td> 110˚ </td>
 <td> Integrated </td>
+<td> Built-in </td>
 <td style="text-align: center;">Yes</td>
 <td> Fall 2018 </td>
 <td> <a href="https://www.samsung.com/us/computing/hmd/windows-mixed-reality/hmd-odyssey-windows-mixed-reality-headset-xe800zba-hc1us/">Samsung</a> </td>
@@ -206,6 +216,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <td> Up to 90Hz </td>
 <td> 105˚ </td>
 <td> 3.5mm jack </td>
+<td> None </td>
 <td style="text-align: center;">No</td>
 <td> Fall 2017 </td>
 <td> <a href="http://3glasses.com/goods.action?gid=30">3Glasses</a> </td>
