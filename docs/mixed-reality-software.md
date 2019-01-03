@@ -36,7 +36,7 @@ This driver is automatically downloaded and installed via Windows Update, but do
 
    | Version          | Release Date          | Major changes                                                 |
    |------------------|-----------------------|---------------------------------------------------------------|
-   | [10.0.17763.1069](https://www.microsoft.com/en-us/download/details.aspx?id=57358)  | January 2nd, 2019      | Compatible with Windows 10, version 1803, and newer.<br/><ul><li>Headset tracking jitter and stutter fixes</li><li>Flashlight mode reliability fixes</li></ul>  | 
+   | [10.0.17763.1069](https://www.microsoft.com/en-us/download/details.aspx?id=57702)  | January 2nd, 2019      | Compatible with Windows 10, version 1803, and newer.<br/><ul><li>Headset tracking jitter and stutter fixes</li><li>Flashlight mode reliability fixes</li></ul>  | 
    | [10.0.17760.1000](https://www.microsoft.com/en-us/download/details.aspx?id=57358)  | October 1st, 2018      | Initial public release of the driver for Windows 10, version 1809.<br/>Compatible with Windows 10, version 1803, and newer.<br/><ul><li>Enables new Windows Mixed Reality features, such as flashlight mode, in Windows 10, version 1809</li><li>Headset tracking and reliability improvements</li><li>Motion controller tracking and performance improvements</li><li>USB performance and improvements</li></ul>  | 
    | [10.0.17134.1004](https://www.microsoft.com/en-us/download/details.aspx?id=56845)  | April 27th, 2018      | Initial public release of the driver for Windows 10, version 1803<br/> <ul><li>Headset tracking and reliability improvements</li><li>Motion controller tracking and performance improvements</li></ul>  |
 
