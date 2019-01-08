@@ -27,7 +27,7 @@ The **[Windows Mixed Reality PC Check](windows-mixed-reality-pc-check-app.md)** 
 
 After running the app, you'll get one of the following messages:
 * **You're good to go.** Your PC has what it takes to run Windows Mixed Reality.
-* **You’re nearly there.** This PC may be able to run Windows Mixed Reality, but some features might be limited.
+* **Supports some features.** This PC may be able to run Windows Mixed Reality, but some features might be limited.
 * **Can't run mixed reality.** This PC doesn't meet the minimum requirements needed to run Windows Mixed Reality.
 
 You will then get an analysis of your PC against the required hardware, drivers, and operating system.
