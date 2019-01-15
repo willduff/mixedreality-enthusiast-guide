@@ -10,9 +10,9 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, compati
 ## What you'll need to run Windows Mixed Reality
 * A Windows [Mixed Reality head mounted display (HMD)](https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices).
 * A new [Windows Mixed Reality ready PC](https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices) or a Windows Mixed Reality compatible PC running Windows 10 Version 1709 or later.   
-* Display, USB, and Bluetooth adapters (if required)
-* Motion Controllers, an Xbox controller, or a mouse and keyboard
-* Headphones with a mic (if your HMD doesn't have them built in)
+* Display, USB, and Bluetooth adapters (if not built into headset or computer)
+* Either motion Controllers, an Xbox controller, or a mouse and keyboard
+* Headphones with a microphone (if your HMD doesn't have them built in)
 * An internet connection
 * A large, open space 
 
@@ -37,6 +37,7 @@ After the app has installed to run the app. After reading the terms and conditio
 You must be running the Windows 10 Version 1709 (the Fall Creators Update) or newer to use Windows Mixed Reality. Compatible versions of Windows 10 include:
 * Windows 10 Version 1709 (Fall Creators Update, build 16299)
 * Windows 10 Version 1803 (Spring Update, build 17134)
+* Windows 10 Version 1809 (October Update, build 17763)
 
 To see which version of Windows 10 your device is currently running, select the **Start** button, then select **Settings  > System > About**. 
 
