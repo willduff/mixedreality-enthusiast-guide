@@ -19,7 +19,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, pre-sal
 ### Where can I try Windows Mixed Reality?
 
 **Quick Answer:** You can try Windows Mixed Reality in store at many local retailers including the Microsoft Store.  
-* Find you local Microsoft Store: <https://www.microsoft.com/en-us/store/locations/all-locations>
+* Find your local Microsoft Store: <https://www.microsoft.com/en-us/store/locations/all-locations>
 
 ### Which manufacturers are selling Windows Mixed Reality devices?
 
@@ -51,7 +51,7 @@ Learn more about Mixed Reality here: <https://docs.microsoft.com/en-us/windows/m
 
 ### Does Mixed Reality mean that inside-out cameras are passthrough? Can you they do Augmented Reality in addition to Virtual Reality?
 
-**Quick Answer:** No, the inside-out cameras on Windows Mixed Reality headsets are used for positional tracking only. Windows Mixed Reality headsets are occluded, meaning that they are for Virtual Reality and do not provide a view of the real world or Augented Reality. 
+**Quick Answer:** No, the inside-out cameras on Windows Mixed Reality headsets are used for positional tracking only. Windows Mixed Reality headsets are occluded, meaning that they are for Virtual Reality and do not provide a view of the real world or Augmented Reality. 
 
 ### What is inside-out tracking? How is it different than Outside-in tracking or Lighthouse tracking?
 
@@ -87,7 +87,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <th style="width:10%"> FOV </th>
 <th style="width:15%"> Audio </th>
 <th style="width:10%"> Bluetooth </th>
-<th style="width:10%"> Manual IPD </th>
+<th style="width:10%"> IPD Adjustment </th>
 <th style="width:10%"> Release Date </th>
 <th style="width:25%"> More info </th>
 </tr>
@@ -100,7 +100,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <td> 105˚ </td>
 <td> 3.5mm jack </td>
 <td> None </td>
-<td style="text-align: center;">No</td>
+<td style="text-align: center;">Software</td>
 <td> Fall 2017 </td>
 <td> <a href="https://www.acer.com/ac/en/US/content/windows-mixed-reality-home">Acer</a> </td>
 </tr>
@@ -113,7 +113,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <td> 95˚ </td>
 <td> 3.5mm jack </td>
 <td> None </td>
-<td style="text-align: center;">No</td>
+<td style="text-align: center;">Software</td>
 <td> Fall 2017 </td>
 <td> <a href="https://www.asus.com/us/Headset/ASUS-Windows-Mixed-Reality-Headset-HC102/">ASUS</a> </td>
 </tr>
@@ -126,7 +126,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <td> 105˚ </td>
 <td> 3.5mm jack </td>
 <td> None </td>
-<td style="text-align: center;">No</td>
+<td style="text-align: center;">Software</td>
 <td> Fall 2017 </td>
 <td> <a href="https://www.dell.com/en-us/shop/accessories/apd/536-bbbr?~ck=mn">Dell</a> </td>
 </tr>
@@ -139,7 +139,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <td> 105˚ </td>
 <td> 3.5mm jack </td>
 <td> None </td>
-<td style="text-align: center;">No</td>
+<td style="text-align: center;">Software</td>
 <td> Fall 2017 </td>
 <td> <a href="http://pr.fujitsu.com/jp/news/2017/10/17.html">Fujitsu</a> </td>
 </tr>
@@ -152,7 +152,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <td> 105˚ </td>
 <td> 3.5mm jack </td>
 <td> None </td>
-<td style="text-align: center;">No</td>
+<td style="text-align: center;">Software</td>
 <td> Fall 2017 </td>
 <td> <a href="https://store.hp.com/us/en/pdp/hp-windows-mixed-reality-headset-vr1000-100">HP</a> </td>
 </tr>
@@ -165,7 +165,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <td> 105˚ </td>
 <td> 3.5mm jack </td>
 <td> None </td>
-<td style="text-align: center;">No</td>
+<td style="text-align: center;">Software</td>
 <td> Fall 2017 </td>
 <td> <a href="https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/virtual-and-augmented-reality/lenovo-explorer/Lenovo-Explorer/p/G10NREAG0A2">Lenovo</a> </td>
 </tr>
@@ -178,7 +178,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <td> 105˚ </td>
 <td> 3.5mm jack </td>
 <td> None </td>
-<td style="text-align: center;">No</td>
+<td style="text-align: center;">Software</td>
 <td> Fall 2017 </td>
 <td> <a href="https://www.medion.com/be/shop/monitoren-medion-erazer-mr-x1000-vr-headset-controllers-30023616a1.html">Medion</a> </td>
 </tr>
@@ -191,7 +191,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <td> 110˚ </td>
 <td> Integrated </td>
 <td> None </td>
-<td style="text-align: center;">Yes</td>
+<td style="text-align: center;">Mechanical</td>
 <td> Fall 2017 </td>
 <td> <a href="https://www.samsung.com/us/computing/hmd/windows-mixed-reality/xe800zaa-hc1us-xe800zaa-hc1us/?redir=windows%20mixed%20reality">Samsung</a> </td>
 </tr>
@@ -204,7 +204,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <td> 110˚ </td>
 <td> Integrated </td>
 <td> Built-in </td>
-<td style="text-align: center;">Yes</td>
+<td style="text-align: center;">Mechanical</td>
 <td> Fall 2018 </td>
 <td> <a href="https://www.samsung.com/us/computing/hmd/windows-mixed-reality/hmd-odyssey-windows-mixed-reality-headset-xe800zba-hc1us/">Samsung</a> </td>
 </tr>
@@ -217,33 +217,11 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <td> 105˚ </td>
 <td> 3.5mm jack </td>
 <td> None </td>
-<td style="text-align: center;">No</td>
+<td style="text-align: center;">Software</td>
 <td> Fall 2017 </td>
 <td> <a href="http://3glasses.com/goods.action?gid=30">3Glasses</a> </td>
 </tr>
 </table>
-
-### Samsung HMD Odyssey Questions
-
-#### Samsung HMD Odyssey: What is the lens type for the Samsung HMD Odyssey?
-**Quick Answer:** The Samsung HMD Odyssey has a fresnel lens. For more details, see <https://www.samsung.com/us/computing/computing-accessories/computers/xe800zaa-hc1us-xe800zaa-hc1us/#specs>
-
-#### Samsung HMD Odyssey: Is the Samsung HMD Odyssey wired or wireless?
-**Quick Answer:** The Samsung HMD Odyssey is a wired headset that requires USB 3.0 and HDMI connectors. For more details, please see: <https://www.samsung.com/us/computing/computing-accessories/computers/xe800zaa-hc1us-xe800zaa-hc1us>
-
-#### Samsung HMD Odyssey: Does the Samsung HMD Odyssey have a microphone?
-**Quick Answer:** The Samsung HMD Odyssey has an integrated microphone array. For more details, please see: <https://www.samsung.com/us/computing/computing-accessories/computers/xe800zaa-hc1us-xe800zaa-hc1us>
-
-#### Samsung HMD Odyssey: Does the Samsung HMD Odyssey have a headphone jack?
-**Quick Answer:** No, the Samsung HMD Odyssey does not have a headphone jack, as the HMD has built-in AKG headphones. For more details, please see: <https://www.samsung.com/us/computing/computing-accessories/computers/xe800zaa-hc1us-xe800zaa-hc1us>
-
-#### Samsung HMD Odyssey: How much does the Samsung HMD Odyssey weigh?
-**Quick Answer:** Samsung says that the HMD Odyssey headset weighs 1.38lbs +/- 0.71 oz (without cable). For more details, please see: <https://www.samsung.com/us/computing/computing-accessories/computers/xe800zaa-hc1us-xe800zaa-hc1us>
-
-### HP Headset Questions
-
-#### HP: What is the difference between the VR1000 and the Professional Edition? 
-**Quick Answer:** The technical specifications for the VR1000-100 and the Professional Edition are the same.  The difference between the two version is that the Professional Edition will be easily cleanable with removable face cushions which have been created to be resistent to cleaning solutions so that they won't degrade over time and are designed for long lasting repetitive use.  Additionally the Professional edition will come with a shorter cable specifically for use with HP's Z VR Backpack. 
 
 ### Does"Mixed Reality" mean that the inside-out cameras are passthrough?
 
@@ -251,7 +229,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 
 ### Do the mixed reality headsets have IPD adjustment?
 
-**Quick Answer:** The only Windows Mixed Reality Headset with manual IPD adjustment is the Samsung Odyssey.  For those without the manual IPD adjustment Windows Mixed Reality comes with software IPD adjustment, which improves image distortion and depth accuracy based on your IPD. Users can set their custom IPD via **Settings > Mixed Reality > Headset display > Calibration**
+**Quick Answer:** The only Windows Mixed Reality Headset with manual IPD adjustment is the Samsung Odyssey.  For those without the manual IPD adjustment Windows Mixed Reality comes with software IPD adjustment, which improves image distortion and depth accuracy based on your IPD. Users can set their custom IPD via **Settings > Mixed Reality > Headset display > Calibration**.
 
 ### Do the mixed reality headsets have eye relief adjustment?
 
@@ -259,7 +237,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 
 ### Will there be issues with motion controller tracking if multiple Windows Mixed Reality Headsets are in close proximity?
 
-**Quick Answer:** We have found that there is no interference with motion controllers but you should give users enough room for the best experience in mixed reality - i.e. 10 feet x 10 feet
+**Quick Answer:** We have found that there is no interference with motion controllers but you should give users enough room for the best experience in mixed reality - i.e. 10 feet x 10 feet.
 
 ### Is there boundary, chaperone, or guardian system in Windows Mixed Reality?
 
@@ -275,7 +253,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 
 ### Can I use an USB / HDMI extension cables with Windows Mixed Reality Headsets?
 
-**Quick Answer:** We have designed Windows Mixed Reality to work without extension cords. Use of extension cords with mixed reality headset is unsupported and use may impact your experience
+**Quick Answer:** We have designed Windows Mixed Reality to work without extension cords. Use of extension cords with mixed reality headset is unsupported and use may impact your experience.
 
 ## PC Compatibility
 
@@ -285,7 +263,7 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 
 ### What are the minimums specs to run Windows Mixed Reality?
 
-**Quick Answer:** You can find the minimum specs [here](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md)
+**Quick Answer:** You can find the minimum specs [here](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md).
 
 ### Will Windows Mixed Reality work with my Xbox?
 
@@ -311,6 +289,10 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 
 **Quick Answer:** No, Windows Mixed Reality will only work with approved headsets / controllers. See <https://www.microsoft.com/en-us/store/collections/VRandMixedrealityheadsets>
 
+### Will Windows Mixed Reality work with my SteamVR Knuckle controllers?
+
+**Quick Answer:** No, Windows Mixed Reality will only work with approved headsets / controllers. See <https://www.microsoft.com/en-us/store/collections/VRandMixedrealityheadsets>
+
 ### Are Windows Mixed Reality motion controllers cross-compatible between Windows Mixed Reality headsets?
 
 **Quick Answer:** Yes, Windows Mixed Reality motion controllers will work on all Windows Mixed Reality headsets.
@@ -318,14 +300,6 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 ### Will Windows Mixed Reality controllers work with HoloLens?
 
 **Quick Answer:** No, Windows Mixed Reality motion controllers do not work with HoloLens.
-
-### Does the Samsung HMD Odyssey come with bundled controllers?
-
-**Quick Answer:** The Samsung HMD Odyssey includes bundled motion controllers. Please see details at <https://www.samsung.com/us/computing/computing-accessories/computers/xe800zaa-hc1us-xe800zaa-hc1us>
-
-### The early dev kit versions of motion controllers had micro-USB ports, is this true of the final hardware?
-
-**Quick Answer:** No, connection to the controllers via USB was used briefly during development. Consumer controllers connect exclusively over Bluetooth.
 
 ### How do I connect motion controllers if I do not have built-in Bluetooth?
 
@@ -344,22 +318,6 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 ### Can I wear a Windows Mixed Reality headset with glasses?
 
 **Quick Answer:** Yes, you can wear a Windows Mixed Reality headset both with and without glasses.
-
-### What is the field-of-view (FOV) on the Samsung HMD Odyssey?
-
-**Quick Answer:** Samsung says that the HMD Odyssey has up to 110° field-of-view. For more details, see: <https://www.samsung.com/us/computing/computing-accessories/computers/xe800zaa-hc1us-xe800zaa-hc1us>
-
-### What is the field-of-view (FOV) on the Asus headset?
-
-**Quick Answer:** Asus says that their Windows Mixed Reality headset has up to 95° field-of-view. For more details, see: <https://www.asus.com/us/Headset/ASUS-Windows-Mixed-Reality-Headset-HC102/specifications>
-
-### What is the field-of-view (FOV) on the Dell headset?
-
-**Quick Answer:** Dell says that their Windows Mixed Reality headset has up to 110° field-of-view. For more details, see: <http://www.dell.com/en-us/shop/accessories/apd/536-bbbr?c=us&l=en&s=dhs&cs=19&sku=536-BBBR>
-
-### Which Windows Mixed Reality headsets have a mechanical IPD adjustment?
-
-**Quick Answer:** The Samsung HMD Odyssey has a mechanical IPD adjustment. For more details about this headset, please see: <https://www.samsung.com/us/computing/computing-accessories/computers/xe800zaa-hc1us-xe800zaa-hc1us>
 
 ### Does Windows Mixed Reality support productivity within a VR headset on a desktop environment?
 
@@ -397,29 +355,12 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 
 **Quick Answer:** You can play all your favorite Xbox One games in Windows Mixed Reality using the streaming feature of the Xbox app for Windows 10. You can resize the app inside the Windows Mixed Reality home to fill the wall. To learn how to set up Xbox One game streaming, you can check out our instructions here: <http://support.xbox.com/en-US/games/game-setup/how-to-use-game-streaming>
 
-### When will Minecraft be available for Windows Mixed Reality?
-
-**Quick Answer:** Minecraft will be available for Windows Mixed Reality towards the end of the calendar Q4 2017.
-
 ## SteamVR
 
 ### Are the minimum specs for SteamVR higher than a Windows Mixed Reality Ultra PC?
 
-**Quick Answer:** You can run SteamVR with the Ultra PC requirements for Windows Mixed Reality. However, we recommend running the SteamVR Preview on a PC with a GTX 1070 video card (or better) and an Intel Core i7 processor. We are continuing to review feedback and optimize the performance to support additional system configurations in future updates. Your PC will not be blocked from running the Windows Mixed Reality SteamVR preview if you don't meet these higher specs, however, this will impact the performance and quality of the overall experience.
+**Quick Answer:** You can run SteamVR with the Ultra PC requirements for Windows Mixed Reality. However, we recommend running the SteamVR Preview on a PC with a GTX 1070 video card (or better) and an Intel Core i7 processor. We are continuing to review feedback and optimize the performance to support additional system configurations in future updates. Your PC will not be blocked from running Windows Mixed Reality SteamVR if you don't meet these higher specs, however, this will impact the performance and quality of the overall experience.
 
-### When will SteamVR become available?
-
-**Quick Answer:** Starting 10/3/17, some developers will have access to the Windows Mixed Reality SteamVR preview so they can try out their experiences. This holiday, consumers will get access to the preview. For more details, see: <https://blogs.windows.com/windowsexperience/2017/10/03/the-era-of-windows-mixed-reality-begins-october-17>
-
-### Will all Steam VR games be supported?
+### Are all Steam VR games be supported?
 
 **Quick Answer:** Our intent is to support as wide a range of Steam games as possible, but keep in mind that Steam games can take dependencies on specific hardware and controller configurations based on the game developer's decisions during development.
-
-### I'm a developer. Where can I learn more about participating in Windows Mixed Reality SteamVR preview?
-
-**Quick Answer:** See here for more details about participating in the Windows Mixed Reality SteamVR preview: <https://aka.ms/WindowsMixedRealitySteamVR>
-
-### Will Windows Mixed Reality work with my SteamVR Knuckle controllers?
-
-**Quick Answer:** No, Windows Mixed Reality will only work with approved headsets / controllers. See <https://www.microsoft.com/en-us/store/collections/VRandMixedrealityheadsets>
-
