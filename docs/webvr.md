@@ -13,13 +13,13 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, WebVR, 
 
 ## What is the difference between WebVR and browsing the web in VR?
 
-WebVR is a technology that allows a website author to add VR functionality to a page. The WebVR API is used by a page to display 3D content (such as 360 degree video, or a 3D model, or a 3D game) to the entirety of your headset. Example: Viewing a 360 Video on [cnn.com/vr](http://cnn.com/vr). If a page supports WebVR, it will add a button or other UI element that you can click to enter VR.
+WebVR is a technology that allows a website author to add VR functionality to a page. The WebVR API is used by a page to display 3D content (such as 360 degree video, or a 3D model, or a 3D game) to the entirety of your headset. **Example:** Viewing a 360 Video on [cnn.com/vr](http://cnn.com/vr). If a page supports WebVR, it will add a button or other UI element that you can click to enter VR.
 
-Browsing the web in VR means using the Edge browser while you are wearing your headset, as a 2D app within the Cliffhouse.
+Browsing the web in VR means using the Edge browser while you are wearing your headset, as a 2D app slate within the Cliffhouse.
 
 ## Do all websites support WebVR?
 
-No. Website authors must opt-in to use WebVR and further more may create sites that are optimized for specific browsers, headsets and controllers. For example, some WebVR content is optimized for mobile VR devices only. Also, keep in mind that web sites need to explicitly create and provide WebVR content. The number of sites that have some WebVR compatible content is growing every day.
+No. Website authors must opt-in to use WebVR and furthermore they may create sites that are optimized for specific browsers, headsets, and controllers. For example, some WebVR content is optimized for mobile VR devices only. Also, keep in mind that web sites need to explicitly create and provide WebVR content. The number of sites that have some WebVR compatible content is growing every day.
 
 ## Can I use my Vive/Oculus etc to view WebVR content in Microsoft Edge?
 
@@ -33,7 +33,7 @@ The developer documentation is located here: [WebVR Developer Documentation](htt
 
 You can report broken sites directly to the Microsoft Edge browser team in the [issue tracker](https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/), or via twitter using [#EdgeBug hashtag](https://blogs.windows.com/msedgedev/2016/08/11/edgebug-twitter/).
 
-You can also log bugs using the feedback tool under category:
+You can also log bugs using the Windows Feedback Hub app under category:
 
 Microsoft Edge -> Website Issues
 
@@ -44,12 +44,12 @@ See [webvr.info samples](http://webvr.info/samples/XX-vr-controllers.html)
 ## How do I set up WebVR?
 
 To experience WebVR content on a Windows Mixed Reality headset (using hardware or simulation) you must:
-1. Ensure your headset is connected
-2. Launch Microsoft Edge either on the desktop, or within Mixed Realty
-3. Navigate to a WebVR enabled page
-4. Click the Enter VR button within the page (the location and visual representation of this button may vary per website)
-5. The first time you try to enter VR on a specific domain, the browser will ask for consent to use immersive view. Click Yes
-6. Your headset should begin presenting
+1. Ensure your headset is connected.
+2. Launch Microsoft Edge, either on the desktop or within Mixed Reality.
+3. Navigate to a WebVR enabled page.
+4. Click the Enter VR button within the page (the location and visual representation of this button may vary per website).
+5. The first time you try to enter VR on a specific domain, the browser will ask for consent to use immersive view, click yes.
+6. Your headset should begin displaying the WebVR content.
 
 
 ## See also
