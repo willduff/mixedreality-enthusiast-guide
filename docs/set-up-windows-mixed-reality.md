@@ -83,6 +83,9 @@ Here's your boundary.
 
 There are no additional steps required if you choose this option.
 
+## What is the maximum size of the boundary?
+The currently supported maximum boundary size in Windows Mixed Reality is 18x18ft (5.7x5.7m) or 13ft (4m) radius from the center.  The boundary size is dependent on the anchor point and how far from the anchor point you can move before you risk the stability of the boundary.  Windows Mixed Reality is built on a stage abstraction in the platform, the stage being the space you move around in, and that stage depends on a single anchor (which nearly every app also assumes – it’s how Vive and Oculus work too, as they only have a single coordinate system).  The reason that this is important is that with inside-out tracking, as you move further away from an anchor point the headset tracking is reliable at keeping the boundary stable.  Where the boundary is intended to help avoid physical obstacles, it becomes more and more of a problem the further out from the center you go.  Two factors went into the decision on maximum boundary size; the maximum distance at which Windows Mixed Reality headsets could provide the best room scale experience with a boundary and the length of the headset cable, which for most Windows Mixed Reality headsets is 10ft (3m). 
+
 ## Set up speech
 
 You can enable Cortana commands inside of mixed reality. This allows you to use speech commands inside of mixed reality to teleport, open apps, and do other things. You'll learn more about this in the [Learn Mixed Reality](learn-mixed-reality.md) chapter.
@@ -92,6 +95,10 @@ You can enable Cortana commands inside of mixed reality. This allows you to use 
 ## Set up your audio headset
 
 Unless you purchased a Samsung HMD Odyssey (which has integrated AKG headphones and an integrated dual microphone array), you will need to get an audio headset (that has both microphone and headphones) and plug that into your headset's 3.5mm audio jack. The 3.5mm audio jack for your headset will - depending on the headset model - be located either on the underside of the headset visor or at the end of a short audio cable coming out of the headset visor.
+
+## How do I change the visual quality settings?
+
+To change the visual quality settings, go to **Settings > Mixed Reality > Visual Quality**. From this screen you can set the quality to low, medium, or high. The Automatic setting directs Windows Mixed Reality to select the best setting for your PC hardware. Note, that not all hardware will run the high setting.
 
 ## Launching mixed reality after the first time
 
