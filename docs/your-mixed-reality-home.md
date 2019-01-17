@@ -10,7 +10,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Home, N
 
 ## What is the mixed reality home?
 
-Windows Mixed Reality is the first spatial operating system. Instead of using a flat screen and a 2D interface, it leverages our instinctual ability to navigate three-dimensional space. Every place has a purpose, and content has context. Just as your PC starts at the desktop interface and your phone begins with a home screen, Windows Mixed Reality starts at the mixed reality home. It's an environment that you can navigate and personalize to make your own. It's the canvas for the thousands of apps available in the Microsoft Store. You can multitask with these apps like you've never been able to before--in 3D where space almost limitless. 
+Windows Mixed Reality is the first spatial operating system. Instead of using a flat screen and a 2D interface, it leverages our instinctual ability to navigate three-dimensional space. Every place has a purpose, and content has context. Just as your PC starts at the desktop interface and your phone begins with a home screen, Windows Mixed Reality starts at the mixed reality home. It's an environment that you can navigate and personalize to make your own. It's the canvas for the thousands of apps available in the Microsoft Store. You can multitask with these apps like you've never been able to before--in 3D where space is almost limitless. 
 
 ## How do I move through the mixed reality home?
 * **Physically walking:** If you have setup your headset with a room boundary and have cleared available space to safely walk around, you can take physical steps to move short distances in your home. One step in the real world is approximately a step in the virtual experience.
@@ -25,7 +25,8 @@ Windows Mixed Reality is the first spatial operating system. Instead of using a 
 
 1. From your mixed reality home, press the Windows button on your controller to launch the Start menu. 
 2. Select the app you wish to launch. 
-3. Place the app where you would like to use it.
+3. Place the app where you would like to use it, and it will launch.
+4. From now on you can simply click on the 3D model to launch the app.
 
 ## How do I browse the web?
 
@@ -55,14 +56,6 @@ You can decorate your home with apps and holograms. Apps can be downloaded from 
 
 You can adjust the location and size of things in your home by using the Adjust button. You can also use two motion controllers to quickly move and resize items by pointing to any part of a hologram, or the menu bar of an app window, with both controllers and then moving them closer or farther apart.
 
-## How do I go to the roof?
-
-To get to the roof, start in the yard facing the mountain. Use the platforms to the right to teleport up to the roof.
-
-## How do I change the visual quality settings?
-
-To change the visual quality settings, go to **Settings > Mixed Reality > Visual Quality**. From this screen you can set the quality to low, medium, or high. The Automatic setting directs Windows Mixed Reality to select the best setting for your PC hardware. Note, that not all hardware will run the high setting.
-
 ## How do I reset my home's furniture and app placement back to default?
 
 Go to **Settings > Mixed Reality > Environment > Reset my home** ![Windows Settings panel to reset my home](images/1050px-environmentreset.png)
@@ -72,24 +65,13 @@ Go to **Settings > Mixed Reality > Environment > Reset my home** ![Windows Setti
 2. Close Mixed Reality Portal
 3. Go to **Settings > Mixed Reality > Uninstall > Uninstall** ![Windows Settings panel to uninstall mixed reality](images/1050px-uninstall2.png)
 
-## What is the maximum size of the boundary?
-The currently supported maximum boundary size in Windows Mixed Reality is 18x18ft (5.7x5.7m) or 13ft (4m) radius from the center.  The boundary size is dependent on the anchor point and how far from the anchor point you can move before you risk the stability of the boundary.  Windows Mixed Reality is built on a stage abstraction in the platform, the stage being the space you move around in, and that stage depends on a single anchor (which nearly every app also assumes – it’s how Vive and Oculus work too, as they only have a single coordinate system).  The reason that this is important is that with inside-out tracking, as you move further away from an anchor point the headset tracking is reliable at keeping the boundary stable.  Where the boundary is intended to help avoid physical obstacles, it becomes more and more of a problem the further out from the center you go.  Two factors went into the decision on maximum boundary size; the maximum distance at which Windows Mixed Reality headsets could provide the best room scale experience with a boundary and the length of the headset cable, which for most Windows Mixed Reality headsets is 10ft (3m). 
-
 ## How do I turn off the boundary?
 
 Go to Mixed Reality Portal and open the menu in the upper left of the screen. Select **Run Set up > Room Boundary**. Switch the toggle to OFF. You should remain seated at your desk if you turn off the boundary.
 
 ## How does spatial sound work in the Windows Mixed Reality home?
 
-The Windows Mixed Reality home includes a spatial sound simulation where sound from each app come from the location of the app. As you turn around, or move closer or farther to the app, the sound direction and volume will change, just like in real life.
-
-## How do I use voice commands and Cortana inside of the Windows Mixed Reality home?
-
-[Learn the voice commands you can use in the Windows Mixed Reality home](https://support.microsoft.com/en-us/help/4041322/windows-10-speech-in-windows-mixed-reality)
-
-## How can I show a preview of what I'm seeing in my headset on my desktop's screen?
-
-Just press the **Play** icon at the bottom of the Mixed Reality Portal app. 
+The Windows Mixed Reality home includes a spatial sound simulation where sound from each app come from the location of the app. As you turn around, or move closer or farther to the app, the sound direction and volume will change, just like in real life. 
 
 > [!NOTE]
 > This feature is disabled on PCs with integrated graphics due to the load placed on the GPU.
