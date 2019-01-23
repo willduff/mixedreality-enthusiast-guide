@@ -46,12 +46,12 @@ Your [Windows Mixed Reality compatible PC](windows-mixed-reality-minimum-pc-hard
 
 These tables will help you determine if you'll need display or USB adapters for your Windows Mixed Reality PC or Windows Mixed Reality Ultra PC and, if so, which you'll need. See the [table above](recommended-adapters-for-windows-mixed-reality-capable-pcs.md#recommended-display-adapters) for recommended display adapter models.
 
-### [Windows Mixed Reality Ultra PC Badge](Windows-Mixed-Reality-minimum-PC-hardware-compatibility-guidelines.md)
+### [Windows Mixed Reality Ultra PC Badge (90Hz)](Windows-Mixed-Reality-minimum-PC-hardware-compatibility-guidelines.md)
 
 <table>
   <tr style="border: 1px solid black">
-    <th colspan="5" style="border: 1px solid black; background-color: lightgrey">Built-in display port</th>
-    <th colspan="2" style="border: 1px solid black; background-color: lightgrey">Built-in data port</th>
+    <th colspan="4" style="border: 1px solid black; background-color: lightgrey">Computer display output</th>
+    <th colspan="3" style="border: 1px solid black; background-color: lightgrey">Computer USB port</th>
     <th rowspan="2" style=" vertical-align: middle; border: 1px solid black; background-color: lightgrey">Required adapter(s)</th>
   </tr>
   <tr style="border: 1px solid black; background-color: lightgrey">
@@ -130,12 +130,12 @@ These tables will help you determine if you'll need display or USB adapters for 
 </table>
 
 
-### [Windows Mixed Reality PC](Windows-Mixed-Reality-minimum-PC-hardware-compatibility-guidelines.md)
+### [Windows Mixed Reality PC (60Hz)](Windows-Mixed-Reality-minimum-PC-hardware-compatibility-guidelines.md)
 
 <table>
   <tr style="border: 1px solid black">
-    <th colspan="5" style="border: 1px solid black; background-color: lightgrey">Built-in display port</th>
-    <th colspan="2" style="border: 1px solid black; background-color: lightgrey">Built-in data port</th>
+    <th colspan="4" style="border: 1px solid black; background-color: lightgrey">Computer display output</th>
+    <th colspan="3" style="border: 1px solid black; background-color: lightgrey">Computer USB port</th>
     <th rowspan="2" style=" vertical-align: middle; border: 1px solid black; background-color: lightgrey">Required adapter(s)</th>
   </tr>
   <tr style="border: 1px solid black; background-color: lightgrey">
