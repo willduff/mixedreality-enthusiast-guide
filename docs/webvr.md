@@ -27,7 +27,7 @@ No. You must use a Windows Mixed Reality headset to use WebVR in Edge. However, 
 
 ## Where can I find the WebVR developer documentation?
 
-The developer documentation is located here: [WebVR Developer Documentation](https://docs.microsoft.com/en-us/microsoft-edge/webvr/)
+The developer documentation is located here: [WebVR Developer Documentation](https://docs.microsoft.com/en-us/microsoft-edge/webvr/).
 
 ## I've found a website with WebVR that doesn't work in Windows Mixed Reality. What do I do?
 
@@ -39,7 +39,7 @@ Microsoft Edge -> Website Issues
 
 ## What is a good page to test if WebVR is working?
 
-See [webvr.info samples](http://webvr.info/samples/XX-vr-controllers.html)
+See [webvr.info samples](http://webvr.info/samples/XX-vr-controllers.html).
 
 ## How do I set up WebVR?
 
@@ -47,8 +47,9 @@ To experience WebVR content on a Windows Mixed Reality headset (using hardware o
 1. Ensure your headset is connected.
 2. Launch Microsoft Edge, either on the desktop or within Mixed Reality.
 3. Navigate to a WebVR enabled page.
-4. Click the Enter VR button within the page (the location and visual representation of this button may vary per website).
-5. The first time you try to enter VR on a specific domain, the browser will ask for consent to use immersive view, click yes.
+4. Click the Enter VR button within the page (the location and visual representation of this button may vary per website). It may look similar to:\
+   ![VR Goggles image](images/75px-enter-vr.png)
+5. The first time you try to enter VR on a specific domain, the browser will ask for consent to use immersive view, click yes: ![Consent UI that is displayed on the first attempt to Enter VR on a particular domain](images/1053px-Webvr-consent-ui.png)
 6. Your headset should begin displaying the WebVR content.
 
 
