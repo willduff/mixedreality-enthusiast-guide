@@ -27,9 +27,9 @@ There are two concerns to address to ensure tracking will work well for you:
 
 A good rule of thumb is if you can comfortably move around in the environment without feeling it is too dark and if you can observe the features on another persons face from across the room, then the tracking system probably has enough light.
 
-## How many environmental features are enough features?
+## What is the recommended amount of environmental features?
 
-The product has been designed to work in normal environments. Consider the thought experiment - if you were in a completely blank room (white walls, white ceiling, white floor) then the tracking system would find no features to track and would fail. If you were in a room that was covered in art work and decoration, then the tracking system would find many features to track and would work well. Typically decorated homes and offices have been demonstrated to have sufficient feature detail to track.
+The product has been designed to work in normal environments. Consider the following thought experiment - if you were in a completely blank room (white walls, white ceiling, white floor) then the tracking system would find no features to track and would fail. If you were in a room that was covered in art work and decoration, then the tracking system would find many features to track and would work well. For the most part, typically decorated homes and offices have been demonstrated to have sufficient feature detail to track well.
 
 ## How fast can I move with the device?
 
@@ -41,7 +41,7 @@ Tracking will not work in a dark room where the cameras will not be able to see 
 
 ## What is the difference between 3DOF and 6DOF?
 
-First, DOF is short-hand for "degrees of freedom." When discussing tracking systems, this means the degrees or types of movement that can be detected. These movements are broken down into two major categories: 'rotation' and 'rotation with translation'. 3DOF refers to 3 degrees of freedom and represents rotations about each axis. Put simply, 3DOF tracking allows you to look left/right, up/down and tilt your head (roll) side to side. You cannot translate or walk forwards/backwards in 3DOF. 6DOF is short for 6 degrees of freedom. It builds on the rotations of 3DOF and adds to it translations. This means you can walk forwards/backwards, strafe left/right and crouch down and stand up. 3 DOF tracking is the type of tracking you would typically find on a phone or mobile based VR product, while 6DOF will be found on more power VR platforms. Some experiences are tailored to 3DOF and will only allow 3DOF motion (rotations), even if the device supports 6DOF tracking. an example of this would be watching a 360 video in Windows Mixed Reality. The video will allow you to look around but will not allow you to walk in your environment. For more information, see here.
+First, DOF is short-hand for "degrees of freedom." When discussing tracking systems, this means the degrees or types of movement that can be detected. These movements are broken down into two major categories: 'rotation' and 'rotation with translation'. 3DOF refers to 3 degrees of freedom and represents rotations about each axis. Put simply, 3DOF tracking allows you to look left/right, up/down and tilt your head (roll) side to side. You cannot translate or walk forwards/backwards in 3DOF. 6DOF is short for 6 degrees of freedom. It builds on the rotations of 3DOF and adds to it translations. This means you can walk forwards/backwards, strafe left/right and crouch down and stand up. 3 DOF tracking is the type of tracking you would typically find on a phone or mobile based VR product, while 6DOF will be found on more powerful VR platforms. Some experiences are tailored to 3DOF and will only allow 3DOF motion (rotations), even if the device supports 6DOF tracking. An example of this would be watching a 360 video in Windows Mixed Reality. The video will allow you to look around but will not allow you to walk in your environment.
 
 ## Things are jittering or stuttering in my headset. Is my tracking not working?
 
@@ -49,7 +49,7 @@ There are a couple sources of this kind of error. It is important to be able to 
 
 ## Can I bring my own tracking technology to Windows Mixed Reality?
 
-That is not supported at this time.
+This is not currently supported.
 
 ## Why do I see UI that says "Can't find your boundary?"
 
@@ -63,7 +63,7 @@ Tracking in Windows Mixed Reality is simple to use. There is no infrastructure o
 
 ## How do I clear tracking and environment data?
 
-The tracking system stores some environment data so that it can recall the real-world physical location of things like your safety bounds. This information, including your safety bounds, can be removed at any time. If this information is removed, the system will no longer recognize your space or be able to recall your safety bounds. If you wish to use safety bounds after clearing the environment data, you will have to set it up again. See the Section on setting up a boundary to learn how to set up a bounds. To remove this data, open Settings, and navigate to "Mixed Reality." From here, select the Environment section of the left hand side menu. Click the "Clear Environment Data"
+The tracking system stores some environment data so that it can recall the real-world physical location of things like your safety bounds. This information, including your safety bounds, can be removed at any time. If this information is removed, the system will no longer recognize your space or be able to recall your safety bounds. If you wish to use safety bounds after clearing the environment data, you will have to set it up again. See the section on [setting up your boundary](set-up-windows-mixed-reality.md#set-up-your-room-boundary) to set up a new boundary. To remove all of this data, open Settings, navigate to "Mixed Reality", and select the Environment section of the left hand side menu. Click the button labelled "Clear Environment Data" to remove all environment and tracking data.
 
 ## See also
 * [Troubleshooting the tracking system](troubleshooting-windows-mixed-reality.md#tracking-system)

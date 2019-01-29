@@ -1,3 +1,12 @@
+---
+title: Contributing instructions
+description: How to contribute to the Windows Mixed Reality documentation. 
+author: mattwojo
+ms.author: mattwoj
+ms.date: 03/21/2018
+ms.topic: article
+---
+
 # Contributing to the Mixed Reality Enthusiast Guide
 
 Thank you for your interest in the Enthusiast Guide. We appreciate your feedback, edits, additions and help with improving our docs. This page covers the basic steps and guidelines for contributing.
