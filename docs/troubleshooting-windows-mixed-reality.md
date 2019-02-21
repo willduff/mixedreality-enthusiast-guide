@@ -188,6 +188,12 @@ Lastly, try connecting your headset to another PC, and open up Device Manager. E
 
 If Mixed Reality Portal did not launch automatically, there could be an underlying issue causing the headset to not be detected properly. Try launching Mixed Reality Portal manually, and look for any error messages that appear. 
 
+### My headset stopped working after putting my PC to sleep, hibernate, or restarting my PC with my headset attached
+
+1. Open Device Manager and confirm that your headset is listed under "Mixed Reality devices".
+2. Double click on your headset under "Mixed Reality devices" and confirm that the device status indicates "This device is working properly."
+3. If you see a "Code 43" error indicating that the device has stopped working, or if you don't see your headset listed under "Mixed Reality devices", try unplugging and replugging in your headset's USB cable.
+
 ### Manually installing the headset driver
 
 You may need to install the driver for your headset manually if Windows 10 does not install the driver automatically when you plug your headset in. For example, on new PCs or PCs with a newly installed copy of Windows 10, the headset driver could be queued behind other Windows Updates and not install right away.
