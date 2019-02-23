@@ -97,12 +97,25 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <td> 2880x1440 </td>
 <td> LCD </td>
 <td> Up to 90Hz </td>
-<td> 105˚ </td>
+<td> 100˚ </td>
 <td> 3.5mm jack </td>
 <td> None </td>
 <td style="text-align: center;">Software</td>
 <td> Fall 2017 </td>
 <td> <a href="https://www.acer.com/ac/en/US/content/windows-mixed-reality-home">Acer</a> </td>
+</tr>
+
+<tr>
+<td> Acer OJO 500 </td>
+<td> 2880x1440 </td>
+<td> LCD </td>
+<td> Up to 90Hz </td>
+<td> 100˚ </td>
+<td> Integrated + 3.5mm jack </td>
+<td> Built-in </td>
+<td style="text-align: center;">Mechanical</td>
+<td> Fall 2018 </td>
+<td> <a href="https://www.acer.com/ac/en/US/press/2018/427890">Acer</a> </td>
 </tr>
 
 <tr>
