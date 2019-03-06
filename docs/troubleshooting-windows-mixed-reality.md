@@ -477,6 +477,15 @@ For laptops check if they are connected to 2.4GHz or 5GHz Wifi network. Laptops 
 
 Need to take account if user has paired earlier and Bluetooth settings have motion controllers already paired. Windows won’t discover new devices before those are removed. If those have been added using a specific dongle, they can be only removed with that dongle in place.
 
+## Motion controllers (headsets with built-in Bluetooth)
+
+Some Windows Mixed Reality headsets, including the Acer OJO 500 and Samsung Odyssey+, have built-in Bluetooth radios for use with motion controllers. 
+
+* The motion controllers that come with these headsets are pre-paired to the headset from the factory, and do not require your PC to have a separate Bluetooth radio.
+* These motion controllers _can_ be manually paired to your PC's Bluetooth radio, for example, for use with Windows Mixed Reality headsets that do not have built-in Bluetooth radios.
+* To return the motion controllers to their factory pairing, or to pair them with a Windows Mixed Reality headset with built-in Bluetooth radio, simply run the headset's device companion app (for example, the "Acer OJO 500" app or the "Samsung HMD Odyssey+ Setup" app, automatically installed the first time the headset is plugged in) and follow the instructions for motion controller pairing.
+
+
 ## Graphics Drivers
 
 Windows Mixed Reality requires a WDDM 2.2 or later graphics driver in order to complete Mixed Reality setup.

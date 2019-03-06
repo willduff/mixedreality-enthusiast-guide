@@ -236,13 +236,13 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 </tr>
 </table>
 
-### Does"Mixed Reality" mean that the inside-out cameras are passthrough?
+### Does "Mixed Reality" mean that the inside-out cameras are passthrough?
 
 **Quick Answer:** No, the inside-out cameras are used for positional tracking only. Windows Mixed Reality headsets are occluded.
 
 ### Do the mixed reality headsets have IPD adjustment?
 
-**Quick Answer:** The only Windows Mixed Reality Headset with manual IPD adjustment is the Samsung Odyssey.  For those without the manual IPD adjustment Windows Mixed Reality comes with software IPD adjustment, which improves image distortion and depth accuracy based on your IPD. Users can set their custom IPD via **Settings > Mixed Reality > Headset display > Calibration**.
+**Quick Answer:** Depending on the headset, some mixed reality headsets feature mechanical IPD adjustment. Other headsets feature software IPD adjustment, which improves image distortion and depth accuracy based on your IPD. Users can set their custom IPD via **Settings > Mixed Reality > Headset display > Calibration**.
 
 ### Do the mixed reality headsets have eye relief adjustment?
 
@@ -298,21 +298,16 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 
 ## Motion Controllers
 
-### Will Windows Mixed Reality work with my Oculus Touch controllers or HTC Vive headsets / controllers?
+### How do motion controllers work with my PC?
 
-**Quick Answer:** No, Windows Mixed Reality will only work with approved headsets / controllers. See <https://www.microsoft.com/en-us/store/collections/VRandMixedrealityheadsets>
+**Quick Answer:** Windows Mixed Reality motion controllers use Bluetooth. Depending on the headset, the motion controllers are either paired to the Bluetooth radio on the headset (if equipped), or to the Bluetooth radio on your PC.
 
-### Will Windows Mixed Reality work with my SteamVR Knuckle controllers?
-
-**Quick Answer:** No, Windows Mixed Reality will only work with approved headsets / controllers. See <https://www.microsoft.com/en-us/store/collections/VRandMixedrealityheadsets>
+* Some Windows Mixed Reality headsets, including the Acer OJO 500 and Samsung Odyssey+, feature built-in Bluetooth radios for use with motion controllers. The motion controllers that come with these headsets are pre-paired to the headset from the factory, and do not require your PC to have a separate Bluetooth radio.
+* Other Windows Mixed Reality headsets will need to be paired with a Bluetooth radio on your PC. 
 
 ### Are Windows Mixed Reality motion controllers cross-compatible between Windows Mixed Reality headsets?
 
 **Quick Answer:** Yes, Windows Mixed Reality motion controllers will work on all Windows Mixed Reality headsets.
-
-### Will Windows Mixed Reality controllers work with HoloLens?
-
-**Quick Answer:** No, Windows Mixed Reality motion controllers do not work with HoloLens.
 
 ### How do I connect motion controllers if I do not have built-in Bluetooth?
 
@@ -320,7 +315,19 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 
 ### Will the controllers work with Bluetooth 3.1 or do I need Bluetooth 4.0?
 
-**Quick Answer:** The minimum supported specification for Windows Mixed Reality is Bluetooth 4.0. If your PC has Bluetooth 3.1, you won’t be blocked from using the controllers, but the best experience is on BT 4.0. Check your PC's compatability here: <https://aka.ms/mrcheck>
+**Quick Answer:** The minimum supported specification for Windows Mixed Reality is Bluetooth 4.0. If your PC has Bluetooth 3.1, you won’t be blocked from using the controllers, but the best experience is on BT 4.0. Check your PC's compatability here: <https://aka.ms/pccheckapp>
+
+### Will Windows Mixed Reality controllers work with HoloLens?
+
+**Quick Answer:** No, Windows Mixed Reality motion controllers do not work with HoloLens.
+
+### Will Windows Mixed Reality work with my Oculus Touch controllers or HTC Vive headsets / controllers?
+
+**Quick Answer:** No, Windows Mixed Reality will only work with approved headsets / controllers. See <https://www.microsoft.com/en-us/store/collections/VRandMixedrealityheadsets>
+
+### Will Windows Mixed Reality work with my SteamVR Knuckle controllers?
+
+**Quick Answer:** No, Windows Mixed Reality will only work with approved headsets / controllers. See <https://www.microsoft.com/en-us/store/collections/VRandMixedrealityheadsets>
 
 ### Will Windows Mixed Reality support my Xbox One controller with the wireless Xbox adapter?
 
