@@ -260,6 +260,16 @@ This typically indicates an occasional USB controller reliability issue on your 
 * Try connecting an externally-powered USB 3.0 hub to your PC, and connecting your headset to the hub
 * If you're using a Desktop PC, consider purchasing a USB 3.0 PCIe card to add another USB controller to your PC
 
+### My headset causes my PC to hang or show a black screen while starting up
+
+On some PCs, leaving your headset plugged in before turning on your PC or while rebooting your PC may interfere with the PC's startup process:
+* Your PC could select the headset displays as the "primary monitor" to show PC startup progress
+* Your PC could be prevented from starting up properly and may 'hang' and/or produce a beeping error code
+
+The exact behavior depends largely on the PC make and model, and/or the make and model of the graphics card. While this is not an issue with Windows, you may be able to work around this:
+* Try connecting your headset to a different port on your graphics card. In some cases, you may need to use an adapter to use the other ports.
+* Make sure your PC's BIOS / UEFI firmware is up-to-date (note: only update your PC's BIOS / UEFI firmware if you're comfortable with doing so)
+
 ### My PC or headset displays flicker, flash or remain black when using a Surface PC
 
 * Make sure you're using a compatible HDMI adapter. Specifically, make sure the HDMI adapter supports HDMI 2.0. Many older HDMI adapters only support 1080p resolution, which is insufficient for Mixed Reality headsets
