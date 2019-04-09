@@ -120,6 +120,7 @@ When motionReprojectionMode is set to "auto", motion reprojection will turn on a
  
 Initially we have experimental support for recent generation NVidia GPUs. We are continuing to iterate on and improve our motion reprojection support on additional GPUs, and we’re eager to hear your feedback.
 
+
 **Supported GPUs:** Nvidia GeForce GTX1060, AMD RX470 or better, with Windows Mixed Reality compatible graphics drivers installed
 
 To enable motion reprojection: 
