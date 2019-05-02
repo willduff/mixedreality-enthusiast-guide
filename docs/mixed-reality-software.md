@@ -32,6 +32,14 @@ In addition, using Windows Mixed Reality in SteamVR requires the following softw
 
 This driver is automatically downloaded and installed via Windows Update, but download links are provided inline:
 
+
+#### Windows 10, version 1903 (May 2019 Update) ####
+
+   | Version          | Release Date          | Major changes                                                 |
+   |------------------|-----------------------|---------------------------------------------------------------|
+   | [10.0.18362.1024](https://www.microsoft.com/en-us/download/details.aspx?id=58225)  | May 1st, 2019      | Compatible with Windows 10, version 1809, and newer.<br/><ul><li>Contains firmware update for 2017 Acer, Asus, Dell, Fujitsu, HP, Lenovo and Medion Windows Mixed Reality headsets. This firmware update improves headset display compatibility and reliability with certain graphics adapters and/or graphics drivers.</li><li>Windows Mixed Reality headset platform and reliability improvements</li></ul>  | 
+
+
 #### Windows 10, version 1803 (April 2018 Update) and version 1809 (October 2018 Update) ####
 
    | Version          | Release Date          | Major changes                                                 |
