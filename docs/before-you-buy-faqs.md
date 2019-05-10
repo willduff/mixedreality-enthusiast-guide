@@ -158,6 +158,19 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 </tr>
 
 <tr>
+<td> HP Reverb </td>
+<td> 4320x2160 </td>
+<td> LCD </td>
+<td> Up to 90Hz </td>
+<td> 114˚ </td>
+<td> Integrated + 3.5mm jack </td>
+<td> Built-in </td>
+<td style="text-align: center;">Software</td>
+<td> Spring 2019 </td>
+<td> <a href="https://www8.hp.com/us/en/workstations/mixed-reality-headset/index.html">HP</a> </td>
+</tr>
+
+<tr>
 <td> HP VR1000 </td>
 <td> 2880x1440 </td>
 <td> LCD </td>
@@ -235,6 +248,8 @@ To learn more about inside-out tracking you can go here: <https://docs.microsoft
 <td> <a href="http://3glasses.com/goods.action?gid=30">3Glasses</a> </td>
 </tr>
 </table>
+
+Technical details listed above are referenced from manufacturer specifications and are subject to change.
 
 ### Does "Mixed Reality" mean that the inside-out cameras are passthrough?
 
