@@ -313,12 +313,24 @@ The exact behavior depends largely on the PC make and model, and/or the make and
 | -     | S0002261-101<br>S0002361-101 | <ul><li>**Likely reason for the error code**: A problem with a Mixed Reality shell component is preventing Mixed Reality Portal from starting properly.</li><li>Open the Application Log using Event Viewer on your PC to check for any application crashes at around the time you tried to start Windows Mixed Reality.</li><li>Make sure your graphics driver is up-to-date.</li><li>The HDMI adapter you are using is incompatible with Windows Mixed Reality. Please see the supported and recommended HDMI to mini display port (DP) dongle [here](recommended-adapters-for-windows-mixed-reality-capable-pcs.md).</li></ul> |
 
 
-
 ## I'm getting a "The install class is not present or is invalid" error in Device Manager
 
 If you see "HoloLens Sensors" with a yellow exclamation mark in Device Manager, double click on the device for additional details. If you see a message saying "The drivers for this device are not installed. (Code 28) -- The install class is not present or is invalid", this is typically because your PC is running Windows 10 N. Please note that N-editions of Windows 10 do not support Windows Mixed Reality, and you'll need to install a non-N version of Windows 10.
 
 For more information on Windows 10 N, please visit [this page](https://support.microsoft.com/en-us/help/4039813/media-feature-pack-for-windows-10-n-october-2017).
+
+## Firmware update issues
+
+### My Samsung Odyssey or Odyssey+ headset firmware update is getting stuck
+
+Samsung owns and publishes headset firmware updates delivered via their "Samsung HMD Odyssey Setup" and "Samsung HMD Odyssey+ Setup" Device Companion Apps. For more details and for help with Samsung firmware update issues, please reach out to Samsung Customer Service.
+
+If the firmware update process is getting stuck, and there has been no progress for more than about 5 minutes, here are some general things to try:
+
+* Try unplug all of your other USB devices temporarily, and retry the firmware update
+* Try connecting your Samsung headset to a different USB 3.0 port on your PC
+* Try using a different PC to perform the Samsung headset firmware update
+
 
 ## Motion Controllers
 
