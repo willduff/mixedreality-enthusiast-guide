@@ -327,8 +327,9 @@ Samsung owns and publishes headset firmware updates delivered via their "Samsung
 
 If the firmware update process is getting stuck, and there has been no progress for more than about 5 minutes, here are some general things to try:
 
-* Try unplug all of your other USB devices temporarily, and retry the firmware update
-* Try connecting your Samsung headset to a different USB 3.0 port on your PC
+* Unplug all of your other USB devices temporarily, and retry the firmware update
+* Connect your Samsung headset to a different USB 3.0 port on your PC
+* If you have any software installed that may interfere with firmware updates, for example, Gigabyte's AORUS App Center, please try disabling and/or uninstalling them first
 * Try using a different PC to perform the Samsung headset firmware update
 
 
