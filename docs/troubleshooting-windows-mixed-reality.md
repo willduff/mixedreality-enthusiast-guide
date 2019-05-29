@@ -196,7 +196,7 @@ If Mixed Reality Portal did not launch automatically, there could be an underlyi
 
 Note: Microsoft is investigating a potential software/driver interoperability issue which may result in the "Code 43" error above, after putting your PC to sleep or hibernate. The workaround is to unplug and replug your headset's USB cable. This issue affects a small number of PCs, and is expected to be resolved in a future update to the Mixed Reality headset driver.
 
-### My headset causes my PC to generate a Bug Check (blue screen) when I put my PC to sleep or hiberate
+### My headset causes my PC to generate a Bug Check (blue screen) when I put my PC to sleep or hibernate
 
 Note: Microsoft is investigating a potential software/driver interoperability issue which may result in a small number of PCs generating a "9F" Bug Check (blue screen) when the PC is put to sleep or hibernate with the headset attached. This issue affects a small number of PCs, and is expected to be resolved in a future update to the Mixed Reality headset driver.
 
