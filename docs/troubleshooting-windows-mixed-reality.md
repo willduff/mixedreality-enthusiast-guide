@@ -198,7 +198,7 @@ Note: Microsoft is investigating a potential software/driver interoperability is
 
 ### My headset causes my PC to generate a Bug Check (blue screen) when I put my PC to sleep or hibernate
 
-Note: Microsoft is investigating a potential software/driver interoperability issue which may result in a small number of PCs generating a "9F" Bug Check (blue screen) when the PC is put to sleep or hibernate with the headset attached. This issue affects a small number of PCs, and is expected to be resolved in a future update to the Mixed Reality headset driver.
+Note: Microsoft is investigating a potential software/driver interoperability issue which may result in a small number of PCs potentially generating a "9F" Bug Check (blue screen) when the PC is put to sleep or hibernate with the headset attached. This issue is expected to be resolved in a future update to the Mixed Reality headset driver.
 
 ### Manually installing the headset driver
 
