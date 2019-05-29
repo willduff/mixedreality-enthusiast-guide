@@ -194,6 +194,12 @@ If Mixed Reality Portal did not launch automatically, there could be an underlyi
 2. Double click on your headset under "Mixed Reality devices" and confirm that the device status indicates "This device is working properly."
 3. If you see a "Code 43" error indicating that the device has stopped working, or if you don't see your headset listed under "Mixed Reality devices", try unplugging and replugging in your headset's USB cable.
 
+Note: Microsoft is investigating a potential software/driver interoperability issue which may result in the "Code 43" error above, after putting your PC to sleep or hibernate. The workaround is to unplug and replug your headset's USB cable. This issue affects a small number of PCs, and is expected to be resolved in a future update to the Mixed Reality headset driver.
+
+### My headset causes my PC to generate a Bug Check (blue screen) when I put my PC to sleep or hibernate
+
+Note: Microsoft is investigating a potential software/driver interoperability issue which may result in a small number of PCs potentially generating a "9F" Bug Check (blue screen) when the PC is put to sleep or hibernate with the headset attached. This issue is expected to be resolved in a future update to the Mixed Reality headset driver.
+
 ### Manually installing the headset driver
 
 You may need to install the driver for your headset manually if Windows 10 does not install the driver automatically when you plug your headset in. For example, on new PCs or PCs with a newly installed copy of Windows 10, the headset driver could be queued behind other Windows Updates and not install right away.
@@ -327,8 +333,9 @@ Samsung owns and publishes headset firmware updates delivered via their "Samsung
 
 If the firmware update process is getting stuck, and there has been no progress for more than about 5 minutes, here are some general things to try:
 
-* Try unplug all of your other USB devices temporarily, and retry the firmware update
-* Try connecting your Samsung headset to a different USB 3.0 port on your PC
+* Unplug all of your other USB devices temporarily, and retry the firmware update
+* Connect your Samsung headset to a different USB 3.0 port on your PC
+* If you have any software installed that may interfere with firmware updates, for example, Gigabyte's AORUS App Center, please try disabling and/or uninstalling them first
 * Try using a different PC to perform the Samsung headset firmware update
 
 
