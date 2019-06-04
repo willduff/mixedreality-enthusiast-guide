@@ -96,9 +96,48 @@ You can enable Cortana commands inside of mixed reality. This allows you to use 
 
 Unless you purchased a Samsung HMD Odyssey (which has integrated AKG headphones and an integrated dual microphone array), you will need to get an audio headset (that has both microphone and headphones) and plug that into your headset's 3.5mm audio jack. The 3.5mm audio jack for your headset will - depending on the headset model - be located either on the underside of the headset visor or at the end of a short audio cable coming out of the headset visor.
 
-## How do I change the visual quality settings?
+## Adjusting your headset's display settings
 
-To change the visual quality settings, go to **Settings > Mixed Reality > Visual Quality**. From this screen you can set the quality to low, medium, or high. The Automatic setting directs Windows Mixed Reality to select the best setting for your PC hardware. Note, that not all hardware will run the high setting.
+Windows Mixed Reality automatically chooses display settings that balance quality and performance, based on your PC's hardware configuration. To adjust these settings, go to **Settings > Mixed Reality > Headset display**.
+
+### Visuals
+
+This setting controls the visual quality of your Mixed reality home. The default is "Automatic".
+
+### Resolution
+
+Your headset's native resolution is shown here.
+
+If you connect a headset with higher resolution displays (for example, headsets with 4320x2160 displays) to your PC, you'll see a setting to adjust the Mixed reality display resolution.
+
+* This setting provides the option for the Windows Mixed Reality composition stack to render natively (for example, at 4320x2160), or to have the composition stack render at a lower resolution and upscale (for example, render at 2880x1440 and upscale to 4320x2160.
+* The default setting is to render natively (for example, the **4320 x 2160 (best quality)** option) to provide the best visual quality possible from your headset.
+* If your PC does not meet the minimum graphics hardware requirements for your headset with higher resolution displays, and/or if you're seeing graphics performance issues, you could try using selecting the **Automatic upscaling (best performance)** option.
+
+This setting is available on Windows 10, version 1903, or newer.
+
+### Calibration
+
+This setting is to adjust the IPD calibration for headsets with software IPD support.
+
+### Experience options
+
+This advanced setting overrides the default headset display refresh rate experience.
+
+* **Automatic (default)**: Automatically select the 60Hz or 90Hz experience based on your PC's hardware configuration.
+* **60Hz**
+* **90Hz**
+
+Certain Windows Mixed Reality features, including Mixed Reality Portal preview and a larger headset display FOV, are only available with the 90Hz experience.
+
+### Input switching
+
+This setting controls the behavior of Windows Mixed Reality in response to your headset's presence sensor:
+
+* **Automatically switch using headset presence sensor** (default): Windows will automatically direct input (keyboard, mouse...) to Windows Mixed Reality whenever you're wearing your headset. You can override this at anytime with Win + Y.
+* **Manually switch using Windows logo key + Y**: Windows will not use the headset presence sensor to detect when you're wearing your headset. You'll need to use Win + Y to switch your input between your PC desktop and Windows Mixed Reality.
+
+This setting is available on Windows 10, version 1903, or newer.
 
 ## Launching mixed reality after the first time
 
