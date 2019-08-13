@@ -377,7 +377,9 @@ Some environments with unusual lighting conditions can affect tracking.
 
 Check the [Bluetooth Best Practices section](troubleshooting-windows-mixed-reality.md#bluetooth-best-practices) below. These symptoms are generally caused by poor Bluetooth link quality.
 
-If you have tried to improve your Bluetooth link quality and Motion Controllers are still not appearing in Mixed Reality Portal, it is possible that the Motion Controller calibration cache has become corrupt. To delete the Motion Controller calibration cache, run the following command in an Administrator Command Prompt:
+### Motion Controller LEDs are not lit, but buttons and thumbstick still work in Mixed Reality Portal
+
+It is possible that the Motion Controller calibration cache has become corrupt. To delete the Motion Controller calibration cache, run the following command in an Administrator Command Prompt:
 
 `rmdir /S /Q C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\Windows\MotionController\Calibration`
 
