@@ -25,12 +25,25 @@ In addition, using Windows Mixed Reality in SteamVR requires the following softw
 6. **SteamVR**, developed and maintained by Valve Corporation that enables virtual reality apps and games on Steam. More information can be found [here](https://go.microsoft.com/fwlink/?linkid=862788)
 7. The **Windows Mixed Reality for SteamVR** component, which bridges SteamVR with Windows Mixed Reality. More information about this component can be found [on the Windows Mixed Reality for SteamVR page](http://store.steampowered.com/app/719950/Windows_Mixed_Reality_for_SteamVR/)
 
+Managing your Windows Mixed Reality headset:
+
+8. The **Device Companion App**, developed and maintained by each of the headset manufacturers, provides a quick introduction to your Windows Mixed Reality headset. On headsets with built-in Bluetooth capability, the Device Companion app enables restoring Motion Controllers to their factory Bluetooth pairing. Some headsets (such as the Samsung Odyssey, and Samsung Odyssey+) also use the Device Companion App to deliver headset firmware updates from the headset manufacturer. This app is downloaded automatically the first time your headset is plugged in and can be found in the Windows Start Menu.
+
 
 ## Release history ##
 
 ### Mixed Reality headset and motion controller driver release history ###
 
 This driver is automatically downloaded and installed via Windows Update, but download links are provided inline:
+
+
+#### Windows 10, version 1903 (May 2019 Update) ####
+
+   | Version          | Release Date          | Major changes                                                 |
+   |------------------|-----------------------|---------------------------------------------------------------|
+   | [10.0.18362.1062](https://www.microsoft.com/en-us/download/details.aspx?id=58492)  | June 24th, 201 9      | Compatible with Windows 10, version 1809, and newer.<br/><ul><li>Windows Mixed Reality headset platform and reliability improvements around sleeping computers and power state transitions.</li></ul>  | 
+   | [10.0.18362.1024](https://www.microsoft.com/en-us/download/details.aspx?id=58225)  | May 1st, 2019      | Compatible with Windows 10, version 1809, and newer.<br/><ul><li>Contains firmware update for 2017 Acer, Asus, Dell, Fujitsu, HP, Lenovo and Medion Windows Mixed Reality headsets. This firmware update improves headset display compatibility and reliability with certain graphics adapters and/or graphics drivers.</li><li>Windows Mixed Reality headset platform and reliability improvements</li></ul>  | 
+
 
 #### Windows 10, version 1803 (April 2018 Update) and version 1809 (October 2018 Update) ####
 
