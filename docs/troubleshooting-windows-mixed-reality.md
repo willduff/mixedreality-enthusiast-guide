@@ -127,6 +127,9 @@ Windows Mixed Reality VR headset customers who want to use the new, Chromium-bas
 
 For the best possible Microsoft Edge experience in the mixed reality home, we also recommend waiting for **some key Windows Mixed Reality optimizations for the new Microsoft Edge arriving with the 2020-01 Cumulative update for Windows 10 Version 1903 (or later)**, which should be available in Windows Update by the end of January.
 
+>[!IMPORTANT]
+>The new Microsoft Edge launches with support for WebXR, the new standard for creating immersive web experiences for VR headsets. When you install the new Microsoft Edge, you will no longer be able to play WebVR experiences in Microsoft Edge. 
+
 ### Known issues with the new Microsoft Edge in Windows Mixed Reality
 
 **Known issues resolved by the 2020-01 Cumulative update for Windows 10 Version 1903 (or later)**
