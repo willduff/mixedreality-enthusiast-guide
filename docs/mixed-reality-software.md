@@ -91,7 +91,7 @@ In Windows 10, version 1809 and newer, [Mixed Reality Portal](https://www.micros
 
    | Version            | Release Date          | Major changes                                                 |
    |--------------------|-----------------------|---------------------------------------------------------------|
-   | 2000.20011.1312.0  | February 11, 2019     | <ul><li>Improved support for applications using [OpenXR](https://docs.microsoft.com/en-us/windows/mixed-reality/openxr) on devices with the May 2019 Update.</li><li>Addresses accessibility and keyboard focus issues</li></ul>  | 
+   | 2000.20011.1312.0  | February 11, 2020     | <ul><li>Improved support for applications using [OpenXR](https://docs.microsoft.com/en-us/windows/mixed-reality/openxr) on devices with the May 2019 Update.</li><li>Addresses accessibility and keyboard focus issues</li></ul>  | 
    | 2000.19101.1211.0  | November 11, 2019     | <ul><li>Addresses an issue that prevents you from toggling room boundary visuals.</li><li>Addresses an issue that prevents you from centering a headset during room boundary setup.</li></ul>  | 
    | 2000.19081.1301.0  | September 23, 2019    | <ul><li>Addresses an issue where headsets encountering hardware problems were shown an incorrect error message. Users that received a 1-4 error code on previous versions may now receive a more specific error code for their device state.</li></ul>  |
    | 2000.19071.1302.0  | August 13th, 2019     | <ul><li>Support for applications using [OpenXR](https://docs.microsoft.com/en-us/windows/mixed-reality/openxr) on devices with the May 2019 Update.</li></ul>  | 
