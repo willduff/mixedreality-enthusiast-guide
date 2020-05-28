@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting Windows Mixed Reality
+title: Windows Mixed Reality FAQs
 description: Advanced Windows Mixed Reality troubleshooting that goes beyond our standard consumer support documentation.
 ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Troubleshoot, Errors, Help, Support
@@ -7,39 +7,39 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 
 
 
-# Troubleshooting Windows Mixed Reality
+# Windows Mixed Reality FAQs
 
-## Installation and Setup
+## Installation Errors
 
-### I get a message that says my PC can’t run Windows Mixed Reality
+### "Your PC can’t run Windows Mixed Reality"
 
-If you get this message, your PC doesn’t meet the minimum requirements needed to run Windows Mixed Reality. This could be because the computer’s hardware setup isn’t compatible with Windows Mixed Reality, or because you need to update to the latest version of Windows.
+Your PC doesn’t meet the minimum requirements needed to run Windows Mixed Reality either because the computer’s hardware setup isn’t compatible with Windows Mixed Reality, or because you need to update to the latest version of Windows.
 
 Notes on graphics cards:
 * If Windows Mixed Reality setup says your graphics card doesn’t meet the requirements and you think it does, make sure your headset is plugged into the correct card.
 * Check with your graphics card manufacturer for the latest driver update. Windows Mixed Reality requires a graphics card driver that supports at least [WDDM 2.2.](https://en.wikipedia.org/wiki/Windows-Display-Driver-Model#WDDM-2.2)
 
-### I get a message that says, "You’re nearly there—this PC doesn’t meet the minimum requirements needed to run Windows Mixed Reality"
+### "You’re nearly there—this PC doesn’t meet the minimum requirements needed to run Windows Mixed Reality"
 
-If you get this message, your PC doesn’t meet the minimum requirements needed for the best experience in Windows Mixed Reality. Your PC may be able to run an immersive headset, but may not be able to run certain apps or might have problems with performance.
+Your PC doesn’t meet the minimum requirements needed for the best experience in Windows Mixed Reality. Your PC may be able to run an immersive headset, but may not be able to run certain applications or might have problems with performance.
 
-### I get a message that says, "Before we can set up Windows Mixed Reality, your administrator will need to enable it for your organization. Learn More"
+### "Before we can set up Windows Mixed Reality, your administrator will need to enable it for your organization. Learn More"
 
-If you get this message, you are likely on an Enterprise managed network and your organization is using Windows Server Update Services (WSUS) or has other policies that may block the download.  You will need to contact your organizations IT department or system administrator to [enable Windows Mixed Reality](https://docs.microsoft.com/windows/application-management/manage-windows-mixed-reality#enable) 
+If you get this message, you are likely on an Enterprise managed network and your organization is using Windows Server Update Services (WSUS) or has other policies that may block the download. You will need to contact your organizations IT department or system administrator to [enable Windows Mixed Reality](https://docs.microsoft.com/windows/application-management/manage-windows-mixed-reality#enable) 
 
-### I get a message that says, "We couldn't download the mixed reality software"
+### "We couldn't download the mixed reality software"
 
 If you get this message, try the following troubleshooting steps:
 
 **Are you connected to the internet?**
-Your PC must be connected to the Internet to download Windows Mixed Reality.  To check try this: 
-1. Make sure that you are connected to the internet by going to:  **Settings > Network & Internet > Status** and check your network status.  
+Your PC must be connected to the internet to download Windows Mixed Reality. 
+1. Go to:  **Settings > Network & Internet > Status** and check your network status.  
 2. If you are having problems connecting to the internet go [here](https://support.microsoft.com/en-us/help/10741/windows-10-fix-network-connection-issues) for help.  
 
 **Are you on a Metered Network?**  
-Metered Networks can limit how much you download.  To check, try this:
-1. Make sure your internet is not set as a Metered Connection by going to: **Settings > Network & Internet > Status > Change connection properties > Set as metered connection > Off**. 
-2. To see more details on Metered Connections [here](https://support.microsoft.com/en-us/help/17452/windows-metered-internet-connections-faq).
+Metered networks can limit how much you download. Make sure your internet is not set as a Metered Connection by going to: **Settings > Network & Internet > Status > Change connection properties > Set as metered connection > Off**. 
+
+See more details on Metered Connections [here](https://support.microsoft.com/en-us/help/17452/windows-metered-internet-connections-faq).
 
 **Do you have pending updates?**  
 Sometimes a pending update can block the Mixed Reality Software from successfully downloading.  To check, try this: 
@@ -49,7 +49,7 @@ Sometimes a pending update can block the Mixed Reality Software from successfull
 4. If you get an error with Windows Update when attempting these steps go [here](https://support.microsoft.com/en-us/help/10164/fix-windows-update-errors) for help. 
 
 **Did you recently install an update?** 
-We don’t recommend that you remove any installed updates.  However, sometimes an update can cause problems and removing the most recent update can help determine the source of the problem.  To do this: 
+We don’t recommend that you remove any installed updates. However, sometimes an update can cause problems and removing the most recent update can help determine the source of the problem. To do this: 
 1. Go to **Settings > Update & Security > View Installed Update History > Uninstall Updates**
 2. Click on last update installed and then click **Uninstall**.
 3. When prompted "Are you sure you want to uninstall this update?" click **Yes**.  If you get an error with Windows Update when attempting these steps go [here](https://support.microsoft.com/en-us/help/10164/fix-windows-update-errors) for help. 
@@ -59,7 +59,9 @@ We don’t recommend that you remove any installed updates.  However, sometimes 
  
 **IMPORTANT**: While we are providing guidance that uninstalling a Windows Update can be used as a Troubleshooting step we do not recommend that you leave any update uninstalled after troubleshooting, especially Security Updates.  Security Updates are critical to keeping your PC safe and secure so if you do uninstall them when troubleshooting we suggest reinstalling them even if it fixes the problem and contacting Windows Support for additional help.  
 
-**Note**: If you are on Enterprise managed network, and having issues downloading Mixed Reality Portal, it could be because your organization is using Windows Server Update Services (WSUS) or has other policies that may block the download.  You will need to contact your organizations IT department or system administrator to [enable Windows Mixed Reality](https://docs.microsoft.com/windows/application-management/manage-windows-mixed-reality#enable) 
+**Note**: If you are on Enterprise managed network, and having issues downloading Mixed Reality Portal, it could be because your organization is using Windows Server Update Services (WSUS) or has other policies that may block the download.  You will need to contact your organizations IT department or system administrator to [enable Windows Mixed Reality](https://docs.microsoft.com/windows/application-management/manage-windows-mixed-reality#enable)
+
+## Setup Errors
 
 ### Setup is stuck on the "Hang tight while we do some downloading" page
 
@@ -85,11 +87,11 @@ Try the following:
 
 ### I cannot direct input (controllers, gamepad, mouse/keyboard) into mixed reality
 
-When you put on your headset, input should automatically get toggled to your mixed reality experience via your headset's presence sensor. You will know input is being directed to your headset because a blue bar will appear on your desktop like so:
+When you put on your headset, input should automatically get toggled to your mixed reality experience via your headset's presence sensor. You will know input is being directed to your headset because a blue bar will appear on your desktop:
 
 ![Windows Desktop with input being directed to headset](images/1050px-windowsy.png)
 
-If input doesn't get toggled automatically, you will need to manually toggle input to your headset. You can do this by typing **Windows Key + Y** on your keyboard (and the same to toggle input back to the Desktop)
+If input doesn't get toggled automatically, you will need to manually toggle input to your headset. You can do this by typing **Windows Key + Y** on your keyboard (and the same to toggle input back to the Desktop).
 
 ### Learn Mixed Reality didn't run on first launch, and I went right into the Windows Mixed Reality home
 
@@ -97,11 +99,11 @@ You can re-run the learning experience by following the [re-run steps](learn-mix
 
 ### During start up of Mixed Reality, I'm stuck at the step "Turn your head side to side, and then at the floor"
 
-You are asked to turn your head side to side so your headset can recognizing your space and restore the virtual floor and boundary you set up previously. When you put on your headset, this scanning process can take up to 10 seconds. After it is complete, you will either be in the Mixed Reality Home or you will be prompted to set up your boundary again.
+You are asked to turn your head side to side so your headset can recognize your space and restore the virtual floor and boundary you set up previously. When you put on your headset, this scanning process can take up to 10 seconds. After it is complete, you will either be in the Mixed Reality Home or you will be prompted to set up your boundary again.
 
 If the scanning process takes longer than 10 seconds, there could be a problem with the proximity sensor in the headset:
-1. Check that the sticker has been removed from the proximity sensor (the proximity sensor is located inside the headset roughly where the center of your forehead would be)
-2. Check that your proximity sensor is toggling input to your headset: with your finger, cover and uncover the proximity sensor a few times to verify input is switching to the headset. You should see the **Windows Key + Y** banner at the top of your PC. You can manually switch input to the headset at any time by typing **Windows Key + Y** on your keyboard
+1. Check that the sticker has been removed from the proximity sensor (the proximity sensor is located inside the headset roughly where the center of your forehead would be).
+2. Check that your proximity sensor is toggling input to your headset: with your finger, cover and uncover the proximity sensor a few times to verify input is switching to the headset. You should see the **Windows Key + Y** banner at the top of your PC. You can manually switch input to the headset at any time by typing **Windows Key + Y** on your keyboard.
 
 ## Windows Mixed Reality Home
 
@@ -111,26 +113,24 @@ Make sure your controllers have full batteries and that they are paired correctl
 
 ### The floor of my Windows Mixed Reality Home doesn't appear to be at the correct height, or it is slanted
 
-If the floor of your Windows Mixed Reality Home doesn't feel like it's at the right height, open the Room Adjustment app from the start menu. This app will be launched once you place the app in the world. In this app, you will be directed to use the touch pad (motion controller) or direction pad (gamepad) to adjust the floor height. When the floor feels correct, use the Windows button to exit back to your Home.
+If the floor doesn't feel like it's at the right height, open the Room Adjustment app from the start menu. This app will be launched once you place the app in the world. In this app, you will be directed to use the touch pad (motion controller) or direction pad (gamepad) to adjust the floor height. When the floor feels correct, use the Windows button to exit back to your Home.
 
 ### My headset has stopped tracking
 
-Make sure the lights are turned on and that there isn't anything obstructing the inside-out tracking cameras on the front of your headset. If tracking is lost, it can take a few seconds for tracking to resume. If tracking does not resume, try restarting the Windows Mixed Reality Portal. See [Tracking Troubleshooting](troubleshooting-windows-mixed-reality.md#tracking-system) for more details.
+Make sure the lights are turned on and that there isn't anything obstructing the inside-out tracking cameras on the front of your headset. If tracking is lost, it can take a few seconds to resume. If tracking does not resume, try restarting the Windows Mixed Reality Portal. See [Tracking Troubleshooting](troubleshooting-windows-mixed-reality.md#tracking-system) for more details.
 
 ### I cannot show a preview of what I'm seeing in my headset on my Desktop's screen?
 
 Mixed Reality Portal has a **Play** button at the bottom of the screen that allows you to show a preview of what you're seeing in your headset on your desktop's screen. However, for performance reasons, this feature is only available on PCs running at Windows Mixed Reality Ultra (90Hz).
 
-## Get ready for the new Microsoft Edge
+## Microsoft Edge installation 
 
-Windows Mixed Reality VR headset customers who want to use the new, Chromium-based, Microsoft Edge in the mixed reality home should **upgrade to Windows 10 Version 1903 or later for native support of Win32 applications (like the new Microsoft Edge)** in the mixed reality home. Check Windows Update or [manually install the latest version of Windows 10](https://www.microsoft.com/software-download/windows10).
-
-For the best possible Microsoft Edge experience in the mixed reality home, we also recommend waiting for **some key Windows Mixed Reality optimizations for the new Microsoft Edge arriving with the 2020-01 Cumulative update for Windows 10 Version 1903 (or later)**, which should be available in Windows Update by the end of January.
+To use the new Chromium-based Microsoft Edge in Windows Mixed Reality home, **upgrade to Windows 10 Version 1903 or later for native support of Win32 applications (like the new Microsoft Edge)** in Windows Mixed Reality home. Check Windows Update or [manually install the latest version of Windows 10](https://www.microsoft.com/software-download/windows10).
 
 >[!IMPORTANT]
 >The new Microsoft Edge launches with support for WebXR, the new standard for creating immersive web experiences for VR headsets. When you install the new Microsoft Edge, you will no longer be able to play WebVR experiences in Microsoft Edge. 
 
-### Known issues with the new Microsoft Edge in Windows Mixed Reality
+### Issues with the new Microsoft Edge in Windows Mixed Reality
 
 **Known issues resolved by the 2020-01 Cumulative update for Windows 10 Version 1903 (or later)**
 - Launching any Win32 app, including the new Microsoft Edge, causes the headset display to briefly freeze.
