@@ -49,15 +49,13 @@ Sometimes a pending update can block the Mixed Reality Software download. To che
 4. If you get an error with Windows Update when attempting these steps go [here](https://support.microsoft.com/en-us/help/10164/fix-windows-update-errors) for help. 
 
 **Did you recently install an update?** 
-We don’t recommend that you remove any installed updates. However, sometimes an update can cause problems and removing the most recent update can help determine the source of the problem. To do this: 
+We don’t recommend that you remove any installed updates, especially any security updates which are critical to keeping your PC safe. However, sometimes an update can cause problems and removing the most recent update can help determine the source of the problem. To do this: 
 1. Go to **Settings > Update & Security > View Installed Update History > Uninstall Updates**
 2. Click on last update installed and then click **Uninstall**.
 3. When prompted "Are you sure you want to uninstall this update?" click **Yes**.  If you get an error with Windows Update when attempting these steps go [here](https://support.microsoft.com/en-us/help/10164/fix-windows-update-errors) for help. 
 4. Restart your PC and try again.
-5. If Windows Mixed Reality installs correctly reinstall the latest update **Settings > Windows Update > Check for Update** and see if Windows Mixed Reality continues to work. 
-6. If it doesn’t contact Windows Support for more help.  
- 
-**IMPORTANT**: While we are providing guidance that uninstalling a Windows Update can be used as a Troubleshooting step we do not recommend that you leave any update uninstalled after troubleshooting, especially Security Updates. Security Updates are critical to keeping your PC safe and secure so if you do uninstall them when troubleshooting we suggest reinstalling them even if it fixes the problem and contacting Windows Support for additional help.  
+5. If Windows Mixed Reality installs correctly, reinstall the latest updates under **Settings > Windows Update > Check for Updates** and see if Windows Mixed Reality continues to work. If it does not, contact Windows Support for additional help. 
+6. If Windows Mixed Reality does not install, reinstall the latest updates under **Settings > Windows Update > Check for Updates**.  Contact Windows Support for additional help.  
 
 ## Troubleshooting setup errors
 
@@ -78,7 +76,6 @@ Here are some guidelines for creating a boundary:
 
 ### My Xbox controller isn't working with Windows Mixed Reality
 
-Try the following:
 * Make sure your controller is turned on, fully charged, and connected to the PC.
 * Replace the controller’s batteries.
 * If you're using a Bluetooth controller, go to **Settings > Devices > Bluetooth & other devices** on your PC and make sure it's paired (you should see it listed on the page).
