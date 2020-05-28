@@ -17,7 +17,7 @@ Your PC doesn’t meet the minimum requirements needed to run Windows Mixed Real
 
 Notes on graphics cards:
 * If Windows Mixed Reality setup says your graphics card doesn’t meet the requirements and you think it does, make sure your headset is plugged into the correct card.
-* Check with your graphics card manufacturer for the latest driver update. Windows Mixed Reality requires a graphics card driver that supports at least [WDDM 2.2.](https://en.wikipedia.org/wiki/Windows-Display-Driver-Model#WDDM-2.2)
+* Check with your graphics card manufacturer for the latest driver update. Windows Mixed Reality requires a graphics card driver that supports at least [WDDM 2.2.](https://en.wikipedia.org/wiki/Windows-Display-Driver-Model#WDDM-2.2).
 
 ### "You’re nearly there—this PC doesn’t meet the minimum requirements needed to run Windows Mixed Reality"
 
@@ -28,8 +28,6 @@ Your PC doesn’t meet the minimum requirements needed for the best experience i
 You are probably on an Enterprise managed network and your organization is using Windows Server Update Services (WSUS) or has other policies that may block the download. Contact your organizations IT department or system administrator to [enable Windows Mixed Reality](https://docs.microsoft.com/windows/application-management/manage-windows-mixed-reality#enable).
 
 ### "We couldn't download the mixed reality software"
-
-Try the following troubleshooting steps:
 
 **Are you connected to the internet?**
 Your PC must be connected to the internet to download Windows Mixed Reality. 
@@ -112,7 +110,7 @@ If the floor doesn't feel like it's at the right height, open the Room Adjustmen
 
 Make sure the lights are turned on and that there isn't anything obstructing the inside-out tracking cameras on the front of your headset. If tracking is lost, it can take a few seconds to resume. If tracking does not resume, try restarting the Windows Mixed Reality Portal. See [Tracking Troubleshooting](troubleshooting-windows-mixed-reality.md#tracking-system) for more details.
 
-### I can't show a preview of what I'm seeing in my headset on my desktop screen?
+### I can't show a preview of what I'm seeing in my headset on my desktop screen
 
 Mixed Reality Portal has a **Play** button at the bottom of the screen that allows you to show a preview of what you're seeing in your headset on your desktop's screen. But for performance reasons, this feature is only available on PCs running at Windows Mixed Reality Ultra (90Hz).
 
@@ -122,26 +120,26 @@ Mixed Reality Portal has a **Play** button at the bottom of the screen that allo
 If your computer does not have an HDMI port, but it does have a DisplayPort (DP), mini DisplayPort (miniDP) or USB Type-C (USB-C) port for outputting video, you may need to use a [supported adapter](recommended-adapters-for-windows-mixed-reality-capable-pcs.md).
 
 ### Can I use USB or HDMI extension cables with Windows Mixed Reality headsets?
-The use of USB or HDMI extension cables is not officially supported with Windows Mixed Reality headsets. Due to varying resulting signal integrity and bus power between your PC's USB controller and the Mixed Reality headset, the use of such cables may significantly impact your Mixed Reality experience.
+Windows Mixed Reality headsets do not officially support the use of USB or HDMI extension cables. Using these cables may significantly impact your Mixed Reality experience because of variances in resulting signal integrity and bus power between your PC's USB controller and the Mixed Reality headset.
 
 If you're running into any of the following symptoms while using Windows Mixed Reality, try your headset without any extension cables to see if the symptoms persist:
-* Headset de-enumerates during use (headset displays briefly show a blue screen and then turn black and Mixed Reality Portal restarts, or completely de-enumerates)
+* Headset displays briefly show a blue screen and then turn black and Mixed Reality Portal restarts, or completely de-enumerates during use
 * Headset audio cuts out during use or becomes glitchy
-* Headset displays flicker between black and working
+* Headset flickers between black and the correct display
 
 ### I am getting a "Check your display cable" error
 * If you are using any adapters to connect your headset to your PC, make sure they support Windows Mixed Reality. Also try connecting the adapter to the PC before connecting the HMD to the adapter.
 * If your PC has both integrated and discrete graphics, make sure you're using the HDMI port on your active graphics card. In some cases, this may mean that you'll need to connect your PC display to a non HDMI port.
 * If your PC has both integrated and discrete graphics, and the integrated graphics is older and does not support Windows Mixed Reality, try disabling the integrated GPU.
-* Make sure your PC's HDMI port is working by trying to connect a PC monitor to it. Make sure your graphics drivers are up to date. Download and install the ones from AMD, Nvidia or Intel directly as they will likely be newer than what's published to Windows Update.
+* Connect a PC monitor to your PC's HDMI port. Make sure your graphics drivers are up to date. Download and install the ones from AMD, Nvidia or Intel directly as they will likely be newer than what's published to Windows Update.
 * Make sure that you plugged your headset's HDMI cable into an **HDMI out** port on your PC, not an HDMI in port.
-* In some cases, Windows is unable to detect the display cable connection. Open device manager and see if the headset is listed under "Monitors". If not, click on "Action"->"Scan for hardware changes". This may resolve the issue.
+* In some cases, Windows is unable to detect the display cable connection. Open the device manager and see if the headset is listed under "Monitors". If not, click on "Action"->"Scan for hardware changes". This may resolve the issue.
 
 ### A message says "Connect your headset" even though I’ve plugged in my headset
 
 1. Make sure your headset's USB and HDMI cables are securely connected to your PC.
 
-2. Try unplugging both the USB and HDMI cables from your headset, then plug them back in. When plugging in the USB cable, do so quickly (try not to pause during insertion of the USB cable)
+2. Try unplugging both the USB and HDMI cables from your headset, then plug them back in. When plugging in the USB cable, do so quickly (try not to pause during insertion of the USB cable).
 
 3. Open Device Manager and confirm that your headset is listed under "Mixed Reality devices". Double click on your headset under "Mixed Reality devices" and confirm that the device status indicates "This device is working properly".
 
@@ -362,12 +360,12 @@ Some Qualcomm (QCA) Bluetooth radios have issue where the device may end up in b
 
 Please ensure you have driver 15.68.9210.47 or later in use (**device manager->Bluetooth->Marvell AVASTAR Bluetooth Radio Adapter->Properties->Driver**) 
 
-### Mixed Reality Portal is working, but motion controllers are tracking poorly (controllers keep flying away, shaking, etc.)
+### The Mixed Reality Portal is working, but my motion controllers are tracking poorly (controllers keep flying away, shaking, etc.)
 
 1. Some lighting conditions can affect tracking. Make sure that you are not exposed to direct sunlight and that you don't have a lot of point light sources visible to your HMD (for example, strings of lights like a christmas tree). 
 2. Check the [Bluetooth Best Practices section](troubleshooting-windows-mixed-reality.md#bluetooth-best-practices). These symptoms are generally caused by failures to communicate between the controller and the host PC, and indicate poor Bluetooth link quality.
 
-### Mixed Reality Portal is working, but motion controllers do not appear
+### The Mixed Reality Portal is working, but my motion controllers do not appear
 
 Check the [Bluetooth Best Practices section](troubleshooting-windows-mixed-reality.md#bluetooth-best-practices) below. These symptoms are generally caused by poor Bluetooth link quality.
 
@@ -523,28 +521,28 @@ The Headset display -> visual quality settings only affect the rendering of the 
 * If your GPU only has a HDMI 1.4 output, you can use a DisplayPort to HDMI 2.0 adapter as a workaround. 
 [View the full list of recommended adapters here](https://holodocswiki.com/wiki/Recommended_adapters_for_Windows_Mixed_Reality_Capable_PCs) 
 
-### What do I do if my PC appears to be running sluggish?
+### What do I do if my PC appears to be running slowly?
 
-There are many reasons for the system to be sluggish. In most cases this will subside after a few seconds. However, if you are experiencing this over long periods of time, please ensure the following:
+The system may be sluggish for many reasons and in most cases this will subside after a few seconds. If you are experiencing this over long periods of time:
 1. Close all un-used application on the Desktop.
-2. Ensure that you have proper graphics drivers on our PC. (Please look at the Graphics drivers section.)
-3. Ensure that your laptop is plugged into a power source.
-4. Ensure that the PC is not warming up.
-5. Lower visual quality in your Windows Mixed Reality Home.
+2. Ensure that your laptop is plugged into a power source.
+3. Ensure that the PC is not warming up.
+4. Lower the visual quality in your Windows Mixed Reality Home.
+5. Ensure that you have the latest graphics drivers for your PC. (Please look at the Graphics drivers section).
 
-### What do I do if my PC is warming up as I run MR experiences?
+### What do I do if my PC is warming up as I run the Mixed Reality experiences?
 
-There are many reasons that a PC might warm up. Below are a few mechanisms to keep the PC running cool:
+To keep your PC cool:
 1. Ensure that the battery is charged and power source is plugged in.
 2. Make sure that the fans that blow air into / out of PC are not blocked.
 3. Use the PC in a relatively cool environment.
-4. Make sure there are no heat sources (i.e. Sun, Heat vents, etc...) pointed at the PC.
+4. Make sure there are no heat sources (for example, the sun or heat vents) pointed at the PC.
 
 ## Tracking System
 
 ### The system cannot find the boundary and I'm being presented with setup UI
 
-This means that the tracking system was unable to recognize your environment. If you are in a new environment, this is to be expected, please set up a bounds. If you have used the device in this environment in the past, and have previously set up a bounds here, then check the following:
+This means that the tracking system was unable to recognize your environment. If you are in a new environment, this is to be expected, please set up the [boundary](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality). If you have used the device in this environment in the past, and have previously set up a bounds here, then check the following:
 * Make sure the room has enough light.
 * Make sure you have worn the device and looked around the room. The device must observe your environment to know where it is. It will not find your bounds when it is sitting on a desk or table.
 * Try unplugging the device, closing Windows Mixed Reality, and plugging the device back in.
