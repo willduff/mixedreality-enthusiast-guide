@@ -37,9 +37,7 @@ Your PC must be connected to the internet to download Windows Mixed Reality.
 2. If you are unable to connect to the internet go [here](https://support.microsoft.com/en-us/help/10741/windows-10-fix-network-connection-issues) for help.  
 
 **Are you on a Metered Network?**  
-Metered networks can limit how much you download. Make sure your internet is not set as a Metered Connection by going to: **Settings > Network & Internet > Status > Change connection properties > Set as metered connection > Off**. 
-
-See more details on Metered Connections [here](https://support.microsoft.com/en-us/help/17452/windows-metered-internet-connections-faq).
+[Metered networks](https://support.microsoft.com/en-us/help/17452/windows-metered-internet-connections-faq) can limit how much you download. Make sure your internet is not set as a Metered Connection by going to: **Settings > Network & Internet > Status > Change connection properties > Set as metered connection > Off**. 
 
 **Do you have pending updates?**  
 Sometimes a pending update can block the Mixed Reality Software download. To check, try this: 
