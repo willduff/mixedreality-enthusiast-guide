@@ -25,16 +25,16 @@ Your PC doesn’t meet the minimum requirements needed for the best experience i
 
 ### "Before we can set up Windows Mixed Reality, your administrator will need to enable it for your organization. Learn More"
 
-If you get this message, you are likely on an Enterprise managed network and your organization is using Windows Server Update Services (WSUS) or has other policies that may block the download. You will need to contact your organizations IT department or system administrator to [enable Windows Mixed Reality](https://docs.microsoft.com/windows/application-management/manage-windows-mixed-reality#enable) 
+You are probably on an Enterprise managed network and your organization is using Windows Server Update Services (WSUS) or has other policies that may block the download. Contact your organizations IT department or system administrator to [enable Windows Mixed Reality](https://docs.microsoft.com/windows/application-management/manage-windows-mixed-reality#enable).
 
 ### "We couldn't download the mixed reality software"
 
-If you get this message, try the following troubleshooting steps:
+Try the following troubleshooting steps:
 
 **Are you connected to the internet?**
 Your PC must be connected to the internet to download Windows Mixed Reality. 
-1. Go to:  **Settings > Network & Internet > Status** and check your network status.  
-2. If you are having problems connecting to the internet go [here](https://support.microsoft.com/en-us/help/10741/windows-10-fix-network-connection-issues) for help.  
+1. Check your network status at:  **Settings > Network & Internet > Status**  
+2. If you are unable to connect to the internet go [here](https://support.microsoft.com/en-us/help/10741/windows-10-fix-network-connection-issues) for help.  
 
 **Are you on a Metered Network?**  
 Metered networks can limit how much you download. Make sure your internet is not set as a Metered Connection by going to: **Settings > Network & Internet > Status > Change connection properties > Set as metered connection > Off**. 
@@ -42,7 +42,7 @@ Metered networks can limit how much you download. Make sure your internet is not
 See more details on Metered Connections [here](https://support.microsoft.com/en-us/help/17452/windows-metered-internet-connections-faq).
 
 **Do you have pending updates?**  
-Sometimes a pending update can block the Mixed Reality Software from successfully downloading.  To check, try this: 
+Sometimes a pending update can block the Mixed Reality Software download. To check, try this: 
 1. Make sure you don’t have any pending update by running **Settings > Windows Update > Check for Update**.
 2. Make sure you have Windows Update enabled. 
 3. Restart your PC and try again.
@@ -57,9 +57,7 @@ We don’t recommend that you remove any installed updates. However, sometimes a
 5. If Windows Mixed Reality installs correctly reinstall the latest update **Settings > Windows Update > Check for Update** and see if Windows Mixed Reality continues to work. 
 6. If it doesn’t contact Windows Support for more help.  
  
-**IMPORTANT**: While we are providing guidance that uninstalling a Windows Update can be used as a Troubleshooting step we do not recommend that you leave any update uninstalled after troubleshooting, especially Security Updates.  Security Updates are critical to keeping your PC safe and secure so if you do uninstall them when troubleshooting we suggest reinstalling them even if it fixes the problem and contacting Windows Support for additional help.  
-
-**Note**: If you are on Enterprise managed network, and having issues downloading Mixed Reality Portal, it could be because your organization is using Windows Server Update Services (WSUS) or has other policies that may block the download.  You will need to contact your organizations IT department or system administrator to [enable Windows Mixed Reality](https://docs.microsoft.com/windows/application-management/manage-windows-mixed-reality#enable)
+**IMPORTANT**: While we are providing guidance that uninstalling a Windows Update can be used as a Troubleshooting step we do not recommend that you leave any update uninstalled after troubleshooting, especially Security Updates. Security Updates are critical to keeping your PC safe and secure so if you do uninstall them when troubleshooting we suggest reinstalling them even if it fixes the problem and contacting Windows Support for additional help.  
 
 ## Setup Errors
 
