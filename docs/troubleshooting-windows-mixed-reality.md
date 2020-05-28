@@ -724,7 +724,7 @@ If SteamVR is still crashing after updating you may have two installations of Wi
 
 ### My left and right controllers are reversed
 
-If you encounter a game that reverses your controllers, try starting the game with your controllers off and then turning the left one on, followed by the right one.
+If a game reverses your controllers, start the game with your controllers off and then turning the left one on, followed by the right one.
 
 ### My games are running slowly
 
@@ -816,26 +816,25 @@ Windows Mixed Reality environments and the applications within, such as placing 
 ## Accessing your Desktop in Mixed Reality
 
 ### Desktop App
-You can access your PC desktop in Mixed Reality using the Desktop app. You can launch Desktop app in the headset from **Windows Button > All apps > Desktop** 
+You can access your PC desktop in Mixed Reality using the Desktop app. Launch it in the headset from **Windows Button > All apps > Desktop**. 
 
 ### Using Desktop app with Multiple Monitors
-By default, Desktop app automatically switch to display the monitor with focus. 
-If you wish to see all of your monitors in Mixed Reality, follow steps below: 
+By default, Desktop app automatically switches to display the monitor with focus. If you want to see all of your monitors in Mixed Reality: 
 * Click the monitor icon on the top left corner of the app
 * Disable "Automatically Switch Monitor"
-* Pick the monitor you wish to see
+* Pick the monitor you want to see
 * Launch another instance of the Desktop app
-* Pick the monitor you wish to see on that instance 
-* Repeat for as many physical monitors as you have. 
-Please note that you will have to re-pick which monitor to show on each Desktop app every time you restart Mixed Reality. 
+* Pick the monitor you want to see on that instance 
+* Repeat for all of your physical monitors 
+Note that you will have to reselect the monitor to show on each Desktop app every time you restart Mixed Reality. 
 
 ### Desktop apps showing Black Screen
 If the Desktop app shows only a black screen, and your PC has Nvidia hybrid GPU, the issue may be caused by Nvidia device running the runtimebroker.exe on the discrete GPU instead of the integrated one. To fix this issue, follow these instructions under "[How do I create Optimus settings for a new program?](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/~/how-do-i-customize-optimus-profiles-and-settings%3F)" to add C:\windows\system32\runtimebroker.exe and force it to run on the "Integrated graphics" processor. 
 
 ## Uninstalling Mixed Reality
 You can uninstall Windows Mixed Reality from **Settings -> Mixed Reality -> Uninstall**. 
-If you uninstall Windows Mixed Reality and then see a message that says "We couldn't finish uninstalling Windows Mixed Reality," here's what to do. 
-**Note**: This section is intended for advanced users. It involves modifying the registry and using Windows PowerShell to run commands. If you modify the registry incorrectly, serious problems might occur. Make sure to follow these steps carefully. For added protection, back up your registry before you modify it. Then, you can restory the registry if a problem occurrs. For more info, see How to back up and restory the registry in Windows. 
+
+If you uninstall Windows Mixed Reality but get a "We couldn't finish uninstalling Windows Mixed Reality" message, you can modify the registry and use Windows PowerShell to run commands. **If you modify the registry incorrectly, serious problems might occur. Make sure to follow these steps carefully. For added protection, back up your registry before you modify it so you can restore it if a problem occurrs.** For more info, see [How to back up and restory the registry in Windows](https://support.microsoft.com/en-us/help/322756/how-to-back-up-and-restore-the-registry-in-windows). 
 
 1. Restart your PC.
 2. In the **Search** box, type "regedit" and then select **Yes**.
@@ -847,28 +846,21 @@ If you uninstall Windows Mixed Reality and then see a message that says "We coul
     <li><b>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\PerceptionSimulationExtensions</b>, then delete <b>DeviceID</b> and <b>Mode</b>.</li> 
     <li><b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Holographic</b>, then delete <b>OnDeviceLearningCompleted</b>.</li> 
    </ul>
-
 4. Remove the following registry keys: 
    <ul>
    <li> <b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\HoloSI</b></li> 
    <li> <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\HoloSI</b></li> 
    <li> <b>HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Settings\HolographicPreferences</b></li><br/></ul>
-
 5. Close Registry Editor.
-
 6. Navigate to **C:\Users\user name\AppData\Local\Packages\Microsoft.Windows.HolographicFirstRun_cw5n1h2txyewy\LocalState**, and then delete **RoomBounds.json**. Repeat this for each user who has used Windows Mixed Reality.
-
 7. Open admin cmd prompt and navigate to **C:\ProgramData\WindowsHolographicDevices\SpatialStore\HoloLensSensors**. Then delete the contents of the **HeadTracking data** folder (but not the folder itself).
-
 8. Type "powershell" in the **Search box**, right-click **Windows PowerShell**, and then select **Run as administrator**.
-
 9. In Windows PowerShell, do the following:
    <ul>
    <li>Copy and paste the following at the command prompt, then press Enter: <b>Dism /online /Get-Capabilities</b></li> 
    <li>Copy the Capability Identity that begins with Analog.Holographic.Desktop (if it isn&#39;t there, that means this item isn&#39;t installed. In that case, skip to step 10 ).</li> 
    <li>Copy and paste the following command prompt, then press Enter: <b>Dism /online /Remove-Capability /CapabilityName:the Capability Identity copied in the last step</b></li>
    </ul>
-
 10. Restart your PC.
 
 
