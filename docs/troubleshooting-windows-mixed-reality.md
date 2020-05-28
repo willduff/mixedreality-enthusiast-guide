@@ -338,7 +338,7 @@ For a direct install of Nvidia Graphics Driver 436.48, visit [NVIDIA](https://ww
 
 Samsung owns and publishes headset firmware updates delivered via their "Samsung HMD Odyssey Setup" and "Samsung HMD Odyssey+ Setup" Device Companion apps. For more details and for help with Samsung firmware update issues, please reach out to Samsung Customer Service.
 
-If the firmware update process is getting stuck, and there has been no progress for more than about 5 minutes, try to:
+If the firmware update process is getting stuck, and there has been no progress for more than about five minutes, try to:
 
 * Unplug all of your other USB devices temporarily, and retry the firmware update
 * Connect your Samsung headset to a different USB 3.0 port on your PC
@@ -405,9 +405,9 @@ To check that the Motion Controller model driver is correctly installed:
 
 To manually download and install the Motion Controller model driver, please visit [this page](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/mixed-reality-software#mixed-reality-motion-controller-model-driver-release-history) and look for the driver version corresponding to your version of Windows 10. Installation instructions are available on the download page.
 
-### The Motion controllers firmware update takes significantly longer than 2 minutes
+### The Motion controllers firmware update takes significantly longer than two minutes
 
-Check the [Bluetooth Best Practices section](troubleshooting-windows-mixed-reality.md#bluetooth-best-practices) below. These symptoms are generally caused by poor Bluetooth link quality.
+Check the [Bluetooth Best Practices section](troubleshooting-windows-mixed-reality.md#bluetooth-best-practices) below. Poor Bluetooth link quality is ususally the cause of these problems.
 
 ### I just inserted fresh batteries but controller virtual battery level does not indicate full level
 
@@ -487,7 +487,7 @@ Plugging the USB Bluetooth Adapter into the opposite side of the computer as far
 
 **Motion Controllers Troubleshooting Steps:**
 
-**Step A**: Make sure the motion controllers show up as "Connected". "Paired" does not necessarily mean the controllers are connected to the PC. Controllers should appear under "Mouse, keyboard & pen" category. Motion controllers under "Other devices" have failed pairing process and are not functional.
+**Step A**: Make sure the motion controllers show up as "Connected". "Paired" does not necessarily mean the controllers are connected to the PC. Controllers should appear under "Mouse, keyboard & pen" category. Motion controllers under "Other devices" have failed the pairing process and are not functional.
 
 **Step B**: If you're using an external USB Bluetooth Adapter, make sure it is connected to a USB 2.0 port (black) if available. Plug the USB Bluetooth Adapter into a port that is physically separated from:
 * the headset USB connector
@@ -524,24 +524,6 @@ Some Windows Mixed Reality headsets, including the Acer OJO 500 and Samsung Odys
 * These motion controllers _can_ be manually paired to your PC's Bluetooth radio, for example, for use with Windows Mixed Reality headsets that do not have built-in Bluetooth radios.
 * To return the motion controllers to their factory pairing, or to pair them with a Windows Mixed Reality headset with built-in Bluetooth radio, simply run the headset's device companion app (for example, the "Acer OJO 500" app or the "Samsung HMD Odyssey+ Setup" app, automatically installed the first time the headset is plugged in) and follow the instructions for motion controller pairing.
 
-
-## Graphics Drivers
-
-Windows Mixed Reality requires a WDDM 2.2 or later graphics driver in order to complete Mixed Reality setup.
-
-If your PC does not already have a compatible graphics driver, please try these sources:
-1. Check for the latest critical driver updates using Windows Update (**Start -> Windows Settings -> Update and Security -> Check for Updates**)
-2. Check for the latest optional driver updates using Device Manager (Right-click **Start -> Device Manager** -> expand **Display Adapters** -> right-click on the graphics card, choose **Update Driver -> Search automatically for updated driver software**)
-3. The website for the manufacturer (OEM) of your PC
-4. The website for the manufacturer of the graphics card in your PC (e.g., AMD, Intel, NVIDIA)
-
-**Note**: Recent graphics drivers tend to have performance and quality fixes for the latest content and experiences. If you are encountering performance problems with Mixed Reality, consider updating the graphics driver to the most recent version available for the graphics card in your PC.
-
-### Graphics Driver Troubleshooting Flowchart
-
-This flow chart below helps further explain the best steps to acquire a WDDM 2.2 or later graphics driver.
-
-![Troubleshooting Flow Chart for Graphics Drivers](images/graphics-driver.jpg)
 
 ## Performance
 
