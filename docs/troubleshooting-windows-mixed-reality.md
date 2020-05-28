@@ -117,7 +117,7 @@ Mixed Reality Portal has a **Play** button at the bottom of the screen that allo
 ## HMD Connectivity Issues
 
 ### My computer does not have an HDMI port
-If your computer does not have an HDMI port, but it does have a DisplayPort (DP), mini DisplayPort (miniDP) or USB Type-C (USB-C) port for outputting video, you may need to use a [supported adapter](recommended-adapters-for-windows-mixed-reality-capable-pcs.md).
+If your computer does not have an HDMI port, but does have a DisplayPort (DP), mini DisplayPort (miniDP) or USB Type-C (USB-C) port for outputting video, you may need to use a [supported adapter](recommended-adapters-for-windows-mixed-reality-capable-pcs.md).
 
 ### Can I use USB or HDMI extension cables with Windows Mixed Reality headsets?
 Windows Mixed Reality headsets do not officially support the use of USB or HDMI extension cables. Using these cables may significantly impact your Mixed Reality experience because of variances in resulting signal integrity and bus power between your PC's USB controller and the Mixed Reality headset.
@@ -128,6 +128,7 @@ If you're running into any of the following symptoms while using Windows Mixed R
 * Headset flickers between black and the correct display
 
 ### I am getting a "Check your display cable" error
+
 * If you are using any adapters to connect your headset to your PC, make sure they support Windows Mixed Reality. Also try connecting the adapter to the PC before connecting the HMD to the adapter.
 * If your PC has both integrated and discrete graphics, make sure you're using the HDMI port on your active graphics card. In some cases, this may mean that you'll need to connect your PC display to a non HDMI port.
 * If your PC has both integrated and discrete graphics, and the integrated graphics is older and does not support Windows Mixed Reality, try disabling the integrated GPU.
@@ -403,13 +404,13 @@ Motion controller battery level is tuned for AA batteries, some low voltage rech
 
 Haptics is disabled when battery level gets low, replace with fresh batteries to get rumble back.
 
-### My device vibrated 3 times and then shutdown
+### My device vibrated three times and then shutdown
 
 Your batteries are running low and hitting the cut-off threshold. Replace with fresh batteries.
 
-### My Samsung Motion Controller’s touchpad is off center or has a dead spot 
+### My Samsung Motion Controller’s touchpad is off-center or has a dead spot 
 
-This is most likely a hardware defect and you should go back to your retailer or OEM for a replacement or exchange.
+This is probably a hardware defect and you should go back to your retailer or equipment manufacturer for a replacement or exchange.
 
 ### Device recovery
 
@@ -523,18 +524,18 @@ The Headset display -> visual quality settings only affect the rendering of the 
 
 ### What do I do if my PC appears to be running slowly?
 
-The system may be sluggish for many reasons and in most cases this will subside after a few seconds. If you are experiencing this over long periods of time:
-1. Close all un-used application on the Desktop.
+The system may be sluggish for many reasons and in most cases this will subside after a few seconds. If you are experiencing this problem over long periods of time:
+1. Close all unused application on the desktop.
 2. Ensure that your laptop is plugged into a power source.
 3. Ensure that the PC is not warming up.
 4. Lower the visual quality in your Windows Mixed Reality Home.
-5. Ensure that you have the latest graphics drivers for your PC. (Please look at the Graphics drivers section).
+5. Ensure that you have the latest graphics drivers for your PC (see the graphics drivers section).
 
 ### What do I do if my PC is warming up as I run the Mixed Reality experiences?
 
 To keep your PC cool:
 1. Ensure that the battery is charged and power source is plugged in.
-2. Make sure that the fans that blow air into / out of PC are not blocked.
+2. Make sure that the fans that blow air into or out of the PC are not blocked.
 3. Use the PC in a relatively cool environment.
 4. Make sure there are no heat sources (for example, the sun or heat vents) pointed at the PC.
 
@@ -542,13 +543,13 @@ To keep your PC cool:
 
 ### The system cannot find the boundary and I'm being presented with setup UI
 
-This means that the tracking system was unable to recognize your environment. If you are in a new environment, this is to be expected, please set up the [boundary](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality). If you have used the device in this environment in the past, and have previously set up a bounds here, then check the following:
+This means that the tracking system was unable to recognize your environment. If you are in a new environment, you must set up the [boundary](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality#set-up-your-room-boundary). If you have previously used the device in this environment and set up a boundary:
 * Make sure the room has enough light.
-* Make sure you have worn the device and looked around the room. The device must observe your environment to know where it is. It will not find your bounds when it is sitting on a desk or table.
-* Try unplugging the device, closing Windows Mixed Reality, and plugging the device back in.
+* Make sure you have worn the device and looked around the room. The device must observe your environment to know where it is. It will not find your bounds if it is sitting on a desk or table.
+* Unplug the device, close Windows Mixed Reality, and plug the device in again.
 * Something may have changed in your environment and the device no longer recognizes it. Try setting up a new boundary.
 
-If these steps do not resolve the problem, then delete your environment data and re-setup your bounds.
+If these steps do not resolve the problem, then delete your environment data and set up the boundary again.
 
 ### The system is presenting me with UI that asks me to choose setup for all experiences or seated/standing, and I see my bounds
 
@@ -556,32 +557,31 @@ This is caused by the device taking too long to find the bounds. You can bypass 
 
 ### I frequently see a message saying "I've lost my bounds"
 
-This means that the tracking system is having a hard time tracking and identifying your environment. In this state, the device can no longer show you your bounds and to encourage you to not move around and accidently bump into things in the real world, you will be in 3DOF in the headset until the device can find your bounds again. Check the following:
-1. Make sure the room has enough light.
-2. If you have recently redecorated or remodeled the room, re-run setup.
-3. Try unplugging the device, closing Windows Mixed Reality, and plugging the device back in.
-4. Try clearing your environment data and re-setting up the device.
-5. If this message persists, contact customer support.
+The tracking system is having a hard time tracking and identifying your environment. In this state, the device can no longer display your bounds and the headset switches to 3DOF to keep you from to bumping into things in the real world until it locates your bounds again. To fix this:
+1. Make sure that the room has enough light.
+2. Rerun the setup if you recently redecorated or remodeled the room.
+3. Unplug the device, close Windows Mixed Reality, and plug it in again.
+4. Clear your environment data and set up the device again.
+5. If the message persists, contact customer support.
 
-### I can look around but I can't translate (stuck in 3DOF)
+### I can look around but I can't translate (I'm stuck in 3DOF)
 
 This means that the tracking system cannot generate pose, or the application has stopped using new pose data to render. Check the following:
 * Make sure the room has enough light.
-* Make sure the room has enough details to track
-* Try unplugging the device, closing Windows Mixed Reality, and plugging the device back in.
-
-If this message persists, contact customer support
+* Make sure the room has enough details to track.
+* Unplug the device, close Windows Mixed Reality, and plug the device in again.
+* If the message persists, contact customer support
 
 ### The view in the HMD is completely frozen
 
-Typically, this means the application or a system level component has failed. Try the following.
+This usually means the application or a system level component has failed. Try to:
 1. Press the "home" button to leave the application.
 2. Unplug the device, close MRP and plug the device back in.
 3. Reboot the PC.
 
 ### I frequently see a black border around the edges of the view in the HMD. Sometimes it looks like I'm looking down a tunnel
 
-This means that the application is not able to hit frame rate on your PC and the system is having to use old frames to render the view in the HMD. Since applications only render the part of the world you are looking at, if they do not consistently hit their frame rates, then the system will attempt to continue to render the world from a previous point of view and will fill in the missing details with black. If this happens frequently, Check the following:
+This means that the application is not able to hit frame rate on your PC and the system is using old frames to render the view in the HMD. Since applications only render the part of the world you are looking at, if they do not consistently hit their frame rates, then the system will attempt to continue to render the world from a previous point of view and will fill in the missing details with black. If this happens frequently:
 1. Close or terminate all unneeded programs to free up memory and CPU.
 2. Reduce detail settings in your application.
 3. Reduce detail settings in Windows Mixed Reality settings.
@@ -589,13 +589,12 @@ This means that the application is not able to hit frame rate on your PC and the
 ### The view in the HMD is jittering and stuttering a lot
 
 There are several reasons this may happen. The primary causes are the system not being able to render content to the headset, or the tracking system is experiencing problems. Check the following:
-1. Make sure your PC is not under resource contention. Open Task Manager and ensure your compute resources are free (e.g. 80% CPU free, 400MB of ram and disk IO is below 80%).
-2. Make sure you have the latest graphics drivers for your hardware. See the graphics drive section for more info.
+1. Make sure your PC is not under resource contention. Open Task Manager and ensure your compute resources are free (for example, 80% CPU free, 400MB of ram and disk IO is below 80%).
+2. Make sure you have the latest graphics drivers for your hardware. See the graphics driver section for more info.
 3. Make sure the room has enough light.
-4. Try unplugging the device, closing Windows Mixed Reality, and plugging the device back in.
-5. Try rebooting your PC.
-
-If this problem persists, contact customer support.
+4. Unplug the device, close Windows Mixed Reality, and plug the device in again.
+5. Reboot your PC.
+6. If the problem persists, contact customer support.
 
 ### The world briefly froze and perhaps tilted or flipped upside before returning to normal
 
@@ -606,11 +605,10 @@ This could be caused by an app or system level component hitting a fatal error, 
 
 ### The world flipped upside down momentarily and returned to normal
 
-This is typically caused by errors in obtaining sensor data from the headset to inform the tracking algorithms. If this happens frequently, try the following:
+This is typically caused by errors in obtaining sensor data from the headset to inform the tracking algorithms. If this happens frequently:
 1. Plug the headset into a different USB 3.0 port.
 2. Plug the headset directly into the PC rather than a USB 3.0 hub.
-
-If this problem persists, contact customer support.
+3. If the problem persists, contact customer support.
 
 ### The world is tilted but I can navigate and walk around fine in Windows Mixed Reality
 
@@ -627,19 +625,15 @@ Not all WebVR content is authored to support motion controllers. WebVR allows de
 
 ### Why can't I use the mouse in an immersive WebVR view?
 
-Not all WebVR content is authored to support mouse input.
-
-This is an optional feature of the WebVR specification; not all browsers support this feature.
-
-WebVR allows developers of content to support different types of input, such as mouse, keyboard, game controllers or motion controllers. Mouse input behavior varies per browser. Within Microsoft Edge, website authors must ensure they take 'pointerlock' when presenting to the headset for mouse input to work.
+This is an optional feature of the WebVR specification. Not all browsers support this feature, and not all WebVR content is authored to support mouse input. WebVR allows content developers to support different types of input, such as mouse, keyboard, game controllers or motion controllers. Mouse input behavior varies per browser. Within Microsoft Edge, website authors must ensure they take 'pointerlock' when presenting to the headset for mouse input to work.
 
 ### Why does my controller look like a Vive/Oculus, has strange orientation, or the buttons are incorrectly mapped?
 
-This website likely doesn’t have full motion controller support.
+The website likely doesn’t have full motion controller support.
 
-### Why can’t I view 360 degree videos from Youtube/Facebook/Vimeo/The Guardian/New York Times etc. from Edge in VR?
+### Why can’t I view 360 degree videos from Youtube/Facebook/Vimeo/The Guardian/New York Times, etc. from Edge in VR?
 
-Just like any other web specification or standard, the author has the choice about whether or not they implement it. There is a WebVR specification that allows websites to launch VR experiences directly from the browser; these authors of these websites have not implemented this specification at this time. There may be downloadable apps on some platforms that enable viewing of VR content from these vendors.
+Just like any other web specification or standard, the author has the choice to implement it or not. There is a WebVR specification that allows websites to launch VR experiences directly from the browser and the authors of these websites have not implemented this specification at this time. There may be downloadable apps on some platforms that enable viewing of VR content from these vendors.
 
 ### Why can’t I enter VR from Firefox or Chrome?
 
@@ -649,13 +643,11 @@ WebVR is only supported by Windows Mixed Reality devices in Edge at this time.
 
 It is possible that the website has not implemented support for Multi GPU machines (including Hybrid GPU laptops). Things to try:
 * Reloading the page may help.
-* On desktop machines, try plugging the headset in to the same graphics adapter as the monitor that is displaying Microsoft Edge. (Try to plug both into the higher powered graphics card, not the integrated graphics adapter)
+* On desktop machines, plug the headset into the same graphics adapter as the monitor that is displaying Microsoft Edge. Try to plug both into the higher powered graphics card, not the integrated graphics adapter.
 
 ### When I exit VR when watching a video from Edge, the sound continues playing but the Edge window is grayed out
 
-This is a known issue when running WebVR from Edge in the Mixed Reality cliffhouse. The workaround is as follows:
-* Rather than pressing the windows button to exit the WebVR experience, press escape on the keyboard.
-* Alternatively, activate the greyed out Edge window by selecting it, then stop the video playing.
+This is a known issue when running WebVR from Edge in the Mixed Reality cliffhouse. To resolve it, press escape on the keyboard rather than pressing the windows button to exit the WebVR experience, or activate the greyed out Edge window by selecting it, and then stop the video.
 
 ### Can I use WebVR on the HoloLens?
 
@@ -663,16 +655,16 @@ Microsoft has not announced anything about WebVR on the HoloLens at this point.
 
 ### Why is my view at floor level when viewing WebVR content from Edge?
 
-This website does not properly support Windows Mixed Reality headsets. To work around this:
+The website does not properly support Windows Mixed Reality headsets. To work around this:
 1. Place the headset on the floor of your space.
 2. Navigate to the WebVR page using Microsoft Edge on your desktop (not within Mixed Reality).
 3. Click the button on the webpage to Enter VR.
-4. Wait 5-10 seconds (for the experience to fully enter immersive mode).
-5. Pick up the headset, and place on your head.
+4. Wait 5-10 seconds for the experience to fully enter immersive mode.
+5. Pick up the headset and place it on your head.
 
 ### The display is very low resolution in some WebVR experiences
 
-This website does not properly support high resolution headsets. To workaround this, some things that may work:
+The websites do not properly support high resolution headsets. To workaround this:
 * If launching WebVR from the desktop (as opposed to from within the Mixed Reality cliffhouse), ensure the window is maximized prior to Entering VR.
 * Avoid resizing the Microsoft Edge window after you have entered VR.
 
@@ -693,17 +685,19 @@ Microsoft Edge does not currently support haptics on the WebVR gamepad API exten
 ## SteamVR
 
 ### I get a message that says “To use SteamVR with Windows Mixed Reality, you need to install the latest Windows Update." or "Windows Developer Mode Required"
+
 1. Make sure your PC is running the latest version of Windows 10. To check this, go to **Settings  > System > About**. Under **Windows specifications**, make sure **OS Build** is 16299.64 or greater.
 2. Make sure you don’t have any updates waiting to download or install. Go to **Settings  > Update & Security > Windows Update**, and select **Check for updates**. You may have to check for updates multiple times so keep checking for updates until no further updates are available and then restart your PC.
 
 ### SteamVR is crashing after updating Windows
-Some older versions of Windows Mixed Reality for SteamVR are no longer compatible with Windows. If SteamVR is crashing it's possible that you have an old version of Windows Mixed Reality for SteamVR. To ensure that you are up to date:
+
+Some older versions of Windows Mixed Reality for SteamVR are no longer compatible with Windows. You may have an old version of Windows Mixed Reality for SteamVR. To ensure that you are up to date:
 1. In your Steam library, locate Windows Mixed Reality for SteamVR, under Software
 2. Right click it, go to properties, select the update tab, select "Always keep this application up to date"
 3. Force the update by going to the Local Files tab and selecting “Verify integrity of application files”
 4. Restart Steam and SteamVR
 
-If SteamVR is still crashing after updating its possible you have 2 installations of Windows Mixed Reality for SteamVR on your machine. To confirm if this is the case:
+If SteamVR is still crashing after updating you may have two installations of Windows Mixed Reality for SteamVR on your machine. To confirm if this is the case:
 1. Locate the following file and open it in notepad %localappdata%\openvr\openvrpaths.vrpath
 2. Under the external drivers sections look for multiple entries for "MixedRealityVRDriver" 
    ```json
@@ -712,7 +706,6 @@ If SteamVR is still crashing after updating its possible you have 2 installation
       "E:\\Steam\\steamapps\\common\\MixedRealityVRDriver"
    ],
    ```
-
 3. If you see multiple entries remove the older of the two entries. Note that once you have only one entry there should no longer be a comma at the end of the line, for example:
    ```json
    "external_drivers" : [
@@ -723,15 +716,18 @@ If SteamVR is still crashing after updating its possible you have 2 installation
 5. Restart Steam and SteamVR
 
 ### My controllers aren't working as expected
+
 1. Close SteamVR.
 2. Return to the Mixed Reality Home and confirm that your controllers are working as expected.
 3. Launch the SteamVR experience again and your controllers should be back to normal.
 4. If issues persist please file feedback using the Windows Feedback Hub under the Mixed Reality category and include SteamVR in the summary.
 
 ### My left and right controllers are reversed
+
 If you encounter a game that reverses your controllers, try starting the game with your controllers off and then turning the left one on, followed by the right one.
 
 ### My games are running slowly
+
 1. Confirm that your PC meets the specifications for SteamVR in Windows Mixed Reality
 2. Confirm that your PC meets the specifications for the SteamVR game you are playing.
 2. In Mixed Reality Portal on your desktop, select **Pause** to stop desktop preview.
@@ -744,9 +740,11 @@ If you encounter a game that reverses your controllers, try starting the game wi
 If you're still running into unexpected performance issues, please send us feedback using the Windows Feedback Hub. Make sure to follow the instructions to [include a SteamVR Performance Trace](using-steamvr-with-windows-mixed-reality.md#sharing-feedback-on-steamvr). 
 
 ### SteamVR is showing a compositor error (e.g. Shared IPC Compositor Connect Failed (400))
+
 There is a known issue where this can happen if your HMD and primary monitor are on two different video adapters. To work around, attach your monitor to the same adapter as your headset and configure that monitor to be the primary using **Settings app -> System -> Display**
 
 ### SteamVR content appears in the wrong place (e.g., beneath the floor or above my head)
+
 Try this to reset your position: 
 1. Click the left controller's thumbstick to bring up the **SteamVR Dashboard**
 2. Click the **Settings** button
@@ -756,7 +754,7 @@ Try this to reset your position:
 
 ### I can't hear any sound in my headset, or sound is playing through my computer
 
-If your immersive headset doesn’t include built-in headphones, you’ll need to connect headphones to the audio jack on the headset. (The jack is often located just behind or under the headset visor or lenses; check with your headset manufacturer if you have trouble finding it.)
+If your immersive headset doesn’t include built-in headphones, you’ll need to connect headphones to the audio jack on the headset. The jack is often located just behind or under the headset visor or lenses. Check with your headset manufacturer if you can't find it.
 
 Some audio headsets have physical buttons to control the volume. If audio isn't working, check to see whether the volume is turned down or muted.
 
@@ -765,20 +763,20 @@ Windows Mixed Reality is designed to play sound through your immersive headset w
 Other troubleshooting steps:
 * Make sure your audio headset is plugged into the audio jack completely - the Acer headset in particular may require more care to ensure the audio headset is plugged in all the way.
 * Check that the audio headset/mic is plugged into the headset and not the PC.
-* The Windows Sound Control Panel shows a list of enabled audio endpoints. It does not by default show disabled endpoints. The headset audio device will be disabled when you're not wearing the headset, so you have to right-click in the sound control panel and choose "Show disabled devices" to see it; the device name is "Realtek USB2.0 Audio". Once you do this, you can change the friendly name in the "Properties" page to something you'll recognize more easily. You can do this for both the playback and recording tabs.
-* If your audio is not working in Mixed Reality apps (for example Netflix), this may be caused by a known issue where Windows Mixed Reality is not be automatically updated to match the OS version. To fix this issue and get the best Mixed Reality experience, go to **Settings -> Update & Security -> Windows Update -> Check for Updates**.
+* The Windows Sound Control Panel only shows enabled audio endpoints, not disabled endpoints. The headset audio device will be disabled when you're not wearing the headset, so you have to right-click in the sound control panel and choose "Show disabled devices" to see it; the device name is "Realtek USB2.0 Audio". Once you do this, you can change the friendly name in the "Properties" page to something you'll recognize more easily. You can do this for both the playback and recording tabs.
+* If your audio is not working in Mixed Reality apps (for example, Netflix), this may be caused by a known issue where Windows Mixed Reality is not be automatically updated to match the OS version. To fix this issue and get the best Mixed Reality experience, go to **Settings -> Update & Security -> Windows Update -> Check for Updates**.
 
 ### I'm experiencing sudden volume changes, lost audio, or buzzing
 
 Some applications, including many of those launched through SteamVR, can lose audio or hang when the audio device changes as you start or stop the Mixed Reality Portal. Restart the app after you have opened the Mixed Reality Portal app to correct this.
 
-When another multimedia USB device (such as a web cam) shares the same USB hub (either external or inside your PC) with the Windows Mixed Reality headset, in rare cases the headset's audio jack/headphones may either have a buzzing sound or no audio at all. You can fix this by plugging your headset into a USB port that does not share the same hub as the other device, or disconnect/disable your other USB multimedia device.
+When another multimedia USB device (such as a web cam) shares the same USB hub (either external or inside your PC) with the Windows Mixed Reality headset, in rare cases the headset's audio jack/headphones may either have a buzzing sound or no audio at all. Plug your headset into a USB port that does not share the same hub as the other device, or disconnect/disable your other USB multimedia device.
 
-In very rare cases, the host PC's USB hub cannot provide enough power to the Windows Mixed Reality headset and you may notice a loud burst of noise from the headphones connected to the headset. If this occurs please file a Feedback Hub bug immediately. Workarounds that have helped some users include not using extension cables, using a dedicated, external powered USB 3.0 HUB or trying a different USB port on the PC.
+In very rare cases, the host PC's USB hub cannot provide enough power to the Windows Mixed Reality headset and you may notice a loud burst of noise from the headphones connected to the headset. If this occurs please file a Feedback Hub bug immediately. Workarounds that have helped some users include not using extension cables, using a dedicated, external powered USB 3.0 HUB, or trying a different USB port on the PC.
 
 ### My Bluetooth audio headset isn't working as expected
 
-Bluetooth audio peripherals do not work well with Windows Mixed Reality voice and spatial sound experiences. BT Audio headsets cannot support mic input and stereo output at the same time so when using it for gamechat or other voice input, you won't hear stereo or spatialized sound. BT Audio headsets can also negatively affect your motion controller experience. Microsoft does not recommend using Bluetooth Audio headsets with Windows Mixed Reality.
+Bluetooth audio peripherals do not work well with Windows Mixed Reality voice and spatial sound experiences. BT Audio headsets cannot support mic input and stereo output at the same time, so when using it for gamechat or other voice input, you won't hear stereo or spatialized sound. BT Audio headsets can also negatively affect your motion controller experience. Microsoft does not recommend using Bluetooth Audio headsets with Windows Mixed Reality.
 
 ### Sound is or isn't coming from expected directions
 
@@ -795,7 +793,7 @@ If you have Cortana enabled on your host PC prior to using your Windows Mixed Re
 
 ### Speech commands are not working as expected
 
-To use speech commands, your PC’s speech and language settings must be set to one of the languages supported in Windows Mixed Reality. To check this, go to **Settings > Time & language > Region & language and Settings > Time & language > Speech.** Dictation will not work correctly if your system keyboard language does not match the language you've selected for Windows Mixed Reality.
+To use speech commands, your PC’s speech and language settings must be set to one of the languages supported in Windows Mixed Reality. To check this, go to **Settings > Time & language > Region & language and Settings > Time & language > Speech**. Dictation will not work correctly if your system keyboard language does not match the language you've selected for Windows Mixed Reality.
 
 If your headset doesn’t have a built-in mic, you’ll need to attach headphones with a mic to the headset or to your PC. To have mic input switch automatically to your headset when you wear it, go to **Settings > Mixed reality > Audio and speech**, and make sure that "When I wear my headset, switch to headset mic" is turned on.
 
@@ -805,7 +803,7 @@ Some audio headsets have a physical button to mute and unmute the microphone. If
 
 Cortana can be slow the first time she is invoked in a Mixed Reality Portal session. You can work around this by making sure "Let Cortana respond to Hey Cortana" under **Settings** > **Cortana** > **Talk to Cortana** is enabled.
 
-On some PCs, the default voice capture gain for your headset-connected microphone may be set too low. If you experience unreliable speech commands or dictation, you can try running the Microphone Setup troubleshooter. You can reach this troubleshooter through the **Settings** > **Time & Language** > **Speech**, then click "Get Started" in the "Microphone" section. To affect the microphone you use for Windows Mixed Reality, you have to do this through the Desktop app in the Windows Mixed Reality home while wearing the headset. Select the appropriate endpoint in the troubleshooter wizard.
+On some PCs, the default voice capture gain for your headset-connected microphone may be set too low. If you experience unreliable speech commands or dictation, you can try running the Microphone Setup troubleshooter. You can reach this troubleshooter through the **Settings > Time & Language > Speech**, then select "Get Started" in the "Microphone" section. To affect the microphone you use for Windows Mixed Reality, you have to do this through the Desktop app in the Windows Mixed Reality home while wearing the headset. Select the appropriate endpoint in the troubleshooter wizard.
 
 ### I only have one audio headset and I want to use it for both Desktop and my headset
 
