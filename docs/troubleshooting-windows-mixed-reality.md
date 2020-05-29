@@ -402,13 +402,13 @@ Haptics is disabled when battery level gets low, replace with fresh batteries to
 
 ### My device vibrated three times and then shutdown
 
-Your batteries are running low and hitting the cut-off threshold. Replace with fresh batteries.
+Your batteries are running low and hitting the cut-off threshold. Replace them with fresh batteries.
 
 ### My Samsung Motion Controller’s touchpad is off-center or has a dead spot 
 
 This is probably a hardware defect and you should go back to your retailer or equipment manufacturer for a replacement or exchange.
 
-### Device recovery
+### Controller device recovery
 
 If the controller isn’t working correctly and you’re unable to update the device, you can always restore the device to factory conditions. To recover your device:
 1. Unplug and power off the controllers.
@@ -508,9 +508,9 @@ Some Windows Mixed Reality headsets, including the Acer OJO 500 and Samsung Odys
 * To return the motion controllers to their factory pairing, or to pair them with a Windows Mixed Reality headset with built-in Bluetooth radio, simply run the headset's device companion app (for example, the "Acer OJO 500" app or the "Samsung HMD Odyssey+ Setup" app, automatically installed the first time the headset is plugged in) and follow the instructions for motion controller pairing.
 
 
-## Performance
+## Performance questions
 
-### How do I tell if the Windows Mixed Reality headset is rendering at 60Hz or 90Hz framerate?
+### How can I tell if the Windows Mixed Reality headset is rendering at 60Hz or 90Hz framerate?
 
 The easiest way to check if Windows Mixed Reality is running at 60 Hz or 90 Hz is to use the [Device Portal](https://docs.microsoft.com/windows/uwp/debug-test-perf/device-portal) -> Performance tab. 
 The Headset display -> visual quality settings only affect the rendering of the Windows Mixed Reality Home experience.
@@ -527,9 +527,8 @@ The system may be sluggish for many reasons and in most cases this will subside 
 4. Lower the visual quality in your Windows Mixed Reality Home.
 5. Ensure that you have the latest graphics drivers for your PC (see the graphics drivers section).
 
-### What do I do if my PC is warming up as I run the Mixed Reality experiences?
+### My PC is warming up as I run the Mixed Reality experiences. How do I keep it cool?
 
-To keep your PC cool:
 1. Ensure that the battery is charged and power source is plugged in.
 2. Make sure that the fans that blow air into or out of the PC are not blocked.
 3. Use the PC in a relatively cool environment.
@@ -565,7 +564,7 @@ The tracking system is having a hard time tracking and identifying your environm
 This means that the tracking system cannot generate pose, or the application has stopped using new pose data to render. Check the following:
 * Make sure the room has enough light.
 * Make sure the room has enough details to track.
-* Unplug the device, close Windows Mixed Reality, and plug the device in again.
+* Unplug the device, close Windows Mixed Reality, and plug in the device again.
 * If the message persists, contact customer support
 
 ### The view in the HMD is completely frozen
@@ -613,7 +612,7 @@ This is typically caused by errors in sensor data being recorded into the enviro
 2. Reboot the PC.
 3. Clear your environment data.
 
-## WebVR
+## WebVR questions
 
 ### Why can’t I see my controllers when viewing VR content from Edge?
 
@@ -678,7 +677,7 @@ You can report broken sites directly to the Microsoft Edge browser team in the [
 
 Microsoft Edge does not currently support haptics on the WebVR gamepad API extensions.
 
-## SteamVR
+## SteamVR questions
 
 ### I get a message that says “To use SteamVR with Windows Mixed Reality, you need to install the latest Windows Update." or "Windows Developer Mode Required"
 
@@ -746,7 +745,7 @@ Try this to reset your position:
 2. Click the **Settings** button
 3. Click **Reset Seated Position**
 
-## Speech and Audio
+## Speech and audio problems
 
 ### I can't hear any sound in my headset, or sound is playing through my computer
 
@@ -768,19 +767,19 @@ Some applications, including many of those launched through SteamVR, can lose au
 
 When another multimedia USB device (such as a web cam) shares the same USB hub (either external or inside your PC) with the Windows Mixed Reality headset, in rare cases the headset's audio jack/headphones may either have a buzzing sound or no audio at all. Plug your headset into a USB port that does not share the same hub as the other device, or disconnect/disable your other USB multimedia device.
 
-In very rare cases, the host PC's USB hub cannot provide enough power to the Windows Mixed Reality headset and you may notice a loud burst of noise from the headphones connected to the headset. If this occurs please file a Feedback Hub bug immediately. Workarounds that have helped some users include not using extension cables, using a dedicated, external powered USB 3.0 HUB, or trying a different USB port on the PC.
+In very rare cases, the host PC's USB hub cannot provide enough power to the Windows Mixed Reality headset and you may notice a loud burst of noise from the headphones connected to the headset. If this occurs please file a [Feedback Hub](https://docs.microsoft.com/en-us/hololens/hololens-feedback) bug immediately. Workarounds that have helped some users include not using extension cables, using a dedicated, external powered USB 3.0 HUB, or trying a different USB port on the PC.
 
 ### My Bluetooth audio headset isn't working as expected
 
-Bluetooth audio peripherals do not work well with Windows Mixed Reality voice and spatial sound experiences. BT Audio headsets cannot support mic input and stereo output at the same time, so when using it for gamechat or other voice input, you won't hear stereo or spatialized sound. BT Audio headsets can also negatively affect your motion controller experience. Microsoft does not recommend using Bluetooth Audio headsets with Windows Mixed Reality.
+Bluetooth audio peripherals do not work well with Windows Mixed Reality voice and spatial sound experiences. Bluetooth audio headsets cannot support mic input and stereo output at the same time, so when using it for gamechat or other voice input, you won't hear stereo or spatialized sound. Bluetooth audio headsets can also negatively affect your motion controller experience. Microsoft does not recommend using Bluetooth audio headsets with Windows Mixed Reality.
 
 ### Sound is or isn't coming from expected directions
 
-The Windows Mixed Reality home includes spatial sound simulation, where audio from apps you've placed in your home sounds like it's coming from the location of those apps. As you turn around, and move closer or farther from each app, the sound direction and level will change, just like in real life. This change in audio isn't a bug, it's designed to further the sense of realism.
+The Windows Mixed Reality home includes spatial sound simulation, so the audio sounds like it's coming from the app location in your home. As you turn around, and move closer or farther from each app, the sound direction and level will change, just like in real life. This change in audio isn't a bug, it's designed to further the sense of realism.
 
-Additionally, when you open and play music from a background-capable music app (like Groove Music) in your Windows Mixed Reality home and then open an immersive VR experience (like a game) the sound from the music app will crossfade from spatial sound to stereo. It may appear louder than before because the distance between you and the sound is now zero.
+Additionally, when you open and play music from a background-capable music app (like Groove Music) in your home and then open an immersive VR experience (like a game) the sound from the music app will crossfade from spatial sound to stereo. It may appear louder than before because there is no longer any distance between you and the sound.
 
-If you have Cortana enabled on your host PC prior to using your Windows Mixed Reality headset, you may lose the spatial sound simulation applied to the apps you place around the Windows Mixed Reality home. The work around is to enable "Windows Sonic for Headphones" on all the audio devices attached to your PC, even your headset-connected audio device:
+If you have Cortana enabled on your host PC prior to using your Windows Mixed Reality headset, you may lose the spatial sound simulation applied to the apps in your Windows Mixed Reality home. The work around is to enable "Windows Sonic for Headphones" on all the audio devices attached to your PC, even your headset-connected audio device:
 1. Left-click the speaker icon on the desktop taskbar and select from list of audio devices.
 2. Right-click the speaker icon on the desktop taskbar and select "Windows Sonic for Headphones" in the "Speaker setup" menu.
 3. Repeat these steps for all of your audio devices (endpoints).
@@ -809,12 +808,12 @@ If you only have one audio headset and not an headset with built in headphones, 
 
 Windows Mixed Reality environments and the applications within, such as placing a web browser on the wall of the Cliff House or the Sky Loft use the Windows Sonic for Headphones spatial audio technology. This technology differs from others in that it is customized for mixed reality experiences. Other spatial audio technologies can be applied for full screen applications like SteamVR games but not for the Windows Mixed Reality shell environments which have been specially designed using Windows Sonic for Headphones spatial sound and acoustics. So trying to switch Dolby Atmos for Headphones on the endpoint used for Windows Mixed Reality is not supported.
 
-## Accessing your Desktop in Mixed Reality
+## Questions about Desktop in Mixed Reality
 
-### Desktop App
+### How do I access my PC desktop in Mixed Reality?
 You can access your PC desktop in Mixed Reality using the Desktop app. Launch it in the headset from **Windows Button > All apps > Desktop**. 
 
-### Using Desktop app with Multiple Monitors
+### How can I see multiple monitors in Mixed Reality?
 By default, Desktop app automatically switches to display the monitor with focus. If you want to see all of your monitors in Mixed Reality: 
 * Click the monitor icon on the top left corner of the app
 * Disable "Automatically Switch Monitor"
@@ -824,8 +823,8 @@ By default, Desktop app automatically switches to display the monitor with focus
 * Repeat for all of your physical monitors 
 Note that you will have to reselect the monitor to show on each Desktop app every time you restart Mixed Reality. 
 
-### Desktop apps showing Black Screen
-If the Desktop app shows only a black screen, and your PC has Nvidia hybrid GPU, the issue may be caused by Nvidia device running the runtimebroker.exe on the discrete GPU instead of the integrated one. To fix this issue, follow these instructions under "[How do I create Optimus settings for a new program?](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/~/how-do-i-customize-optimus-profiles-and-settings%3F)" to add C:\windows\system32\runtimebroker.exe and force it to run on the "Integrated graphics" processor. 
+### My Desktop app only shows a black screen
+If your PC has an Nvidia hybrid GPU, the issue may be caused by Nvidia device running the runtimebroker.exe on the discrete GPU instead of the integrated one. To fix this issue, follow these instructions under "[How do I create Optimus settings for a new program?](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/~/how-do-i-customize-optimus-profiles-and-settings%3F)" to add C:\windows\system32\runtimebroker.exe and force it to run on the "Integrated graphics" processor. 
 
 ## Uninstalling Mixed Reality
 You can uninstall Windows Mixed Reality from **Settings -> Mixed Reality -> Uninstall**. 
