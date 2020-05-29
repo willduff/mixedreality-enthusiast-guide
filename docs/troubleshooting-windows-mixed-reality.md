@@ -734,13 +734,13 @@ If a game reverses your controllers, start the game with your controllers off an
 
 If you're still running into unexpected performance issues, please send us feedback using the Windows Feedback Hub. Make sure to follow the instructions to [include a SteamVR Performance Trace](using-steamvr-with-windows-mixed-reality.md#sharing-feedback-on-steamvr). 
 
-### SteamVR is showing a compositor error (e.g. Shared IPC Compositor Connect Failed (400))
+### SteamVR is showing a compositor error (for example, "Shared IPC Compositor Connect Failed (400)")
 
 There is a known issue where this can happen if your HMD and primary monitor are on two different video adapters. To work around, attach your monitor to the same adapter as your headset and configure that monitor to be the primary using **Settings app -> System -> Display**
 
-### SteamVR content appears in the wrong place (e.g., beneath the floor or above my head)
+### SteamVR content appears in the wrong place, like beneath the floor or above my head
 
-Try this to reset your position: 
+Reset your position: 
 1. Click the left controller's thumbstick to bring up the **SteamVR Dashboard**
 2. Click the **Settings** button
 3. Click **Reset Seated Position**
@@ -749,23 +749,19 @@ Try this to reset your position:
 
 ### I can't hear any sound in my headset, or sound is playing through my computer
 
-If your immersive headset doesn’t include built-in headphones, you’ll need to connect headphones to the audio jack on the headset. The jack is often located just behind or under the headset visor or lenses. Check with your headset manufacturer if you can't find it.
-
-Some audio headsets have physical buttons to control the volume. If audio isn't working, check to see whether the volume is turned down or muted.
-
-Windows Mixed Reality is designed to play sound through your immersive headset when the Mixed Reality Portal is running and you have headphones connected to it. When you close the Mixed Reality Portal application or when that app has not been used for 15 minutes, audio will switch to your default Windows playback device. You can change this setting in **Settings > Mixed reality > Audio and speech.**
-
-Other troubleshooting steps:
-* Make sure your audio headset is plugged into the audio jack completely - the Acer headset in particular may require more care to ensure the audio headset is plugged in all the way.
+* If your immersive headset doesn’t include built-in headphones, you’ll need to connect headphones to the audio jack on the headset. The jack is often located just behind or under the headset visor or lenses. Check with your headset manufacturer if you can't find it.
+* Some audio headsets have physical buttons to control the volume. If audio isn't working, check to see whether the volume is turned down or muted.
+* Windows Mixed Reality is designed to play sound through your immersive headset when the Mixed Reality Portal is running and you have headphones connected to it. When you close the Mixed Reality Portal application or when that app has not been used for 15 minutes, audio will switch to your default Windows playback device. You can change this setting in **Settings > Mixed reality > Audio and speech.**
+* Make sure your audio headset is plugged into the audio jack completely. The Acer headset in particular may require more care to ensure the audio headset is plugged in all the way.
 * Check that the audio headset/mic is plugged into the headset and not the PC.
-* The Windows Sound Control Panel only shows enabled audio endpoints, not disabled endpoints. The headset audio device will be disabled when you're not wearing the headset, so you have to right-click in the sound control panel and choose "Show disabled devices" to see it; the device name is "Realtek USB2.0 Audio". Once you do this, you can change the friendly name in the "Properties" page to something you'll recognize more easily. You can do this for both the playback and recording tabs.
+* The Windows Sound Control Panel only shows enabled audio endpoints, not disabled endpoints. The headset audio device will be disabled when you're not wearing the headset, so you have to right-click in the sound control panel and choose "Show disabled devices" to see it; the device name is "Realtek USB2.0 Audio". Once you do this, you can change the name in the "Properties" page to something you'll recognize more easily. You can do this for both the playback and recording tabs.
 * If your audio is not working in Mixed Reality apps (for example, Netflix), this may be caused by a known issue where Windows Mixed Reality is not be automatically updated to match the OS version. To fix this issue and get the best Mixed Reality experience, go to **Settings -> Update & Security -> Windows Update -> Check for Updates**.
 
 ### I'm experiencing sudden volume changes, lost audio, or buzzing
 
 Some applications, including many of those launched through SteamVR, can lose audio or hang when the audio device changes as you start or stop the Mixed Reality Portal. Restart the app after you have opened the Mixed Reality Portal app to correct this.
 
-When another multimedia USB device (such as a web cam) shares the same USB hub (either external or inside your PC) with the Windows Mixed Reality headset, in rare cases the headset's audio jack/headphones may either have a buzzing sound or no audio at all. Plug your headset into a USB port that does not share the same hub as the other device, or disconnect/disable your other USB multimedia device.
+If another multimedia USB device (such as a web cam) shares the same USB hub (either external or inside your PC) with the Windows Mixed Reality headset, the headset's audio jack/headphones may occasionally have a buzzing sound or no audio at all. Plug your headset into a USB port that uses a different hub or disconnect/disable your other USB multimedia device.
 
 In very rare cases, the host PC's USB hub cannot provide enough power to the Windows Mixed Reality headset and you may notice a loud burst of noise from the headphones connected to the headset. If this occurs please file a [Feedback Hub](https://docs.microsoft.com/en-us/hololens/hololens-feedback) bug immediately. Workarounds that have helped some users include not using extension cables, using a dedicated, external powered USB 3.0 HUB, or trying a different USB port on the PC.
 
@@ -775,9 +771,9 @@ Bluetooth audio peripherals do not work well with Windows Mixed Reality voice an
 
 ### Sound is or isn't coming from expected directions
 
-The Windows Mixed Reality home includes spatial sound simulation, so the audio sounds like it's coming from the app location in your home. As you turn around, and move closer or farther from each app, the sound direction and level will change, just like in real life. This change in audio isn't a bug, it's designed to further the sense of realism.
+The Windows Mixed Reality home includes spatial sound to make the audio sounds like it's coming from the app location in your home. As you turn around and move closer or farther from each app, the sound direction and level will change to further the sense of realism. This is not a bug.
 
-Additionally, when you open and play music from a background-capable music app (like Groove Music) in your home and then open an immersive VR experience (like a game) the sound from the music app will crossfade from spatial sound to stereo. It may appear louder than before because there is no longer any distance between you and the sound.
+When you open and play music from a background-capable music app (like Groove Music) in your home and then open an immersive VR experience (like a game) the sound from the music app will crossfade from spatial sound to stereo. It may appear louder than before because there is no longer any distance between you and the sound.
 
 If you have Cortana enabled on your host PC prior to using your Windows Mixed Reality headset, you may lose the spatial sound simulation applied to the apps in your Windows Mixed Reality home. The work around is to enable "Windows Sonic for Headphones" on all the audio devices attached to your PC, even your headset-connected audio device:
 1. Left-click the speaker icon on the desktop taskbar and select from list of audio devices.
@@ -826,10 +822,13 @@ Note that you will have to reselect the monitor to show on each Desktop app ever
 ### My Desktop app only shows a black screen
 If your PC has an Nvidia hybrid GPU, the issue may be caused by Nvidia device running the runtimebroker.exe on the discrete GPU instead of the integrated one. To fix this issue, follow these instructions under "[How do I create Optimus settings for a new program?](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/~/how-do-i-customize-optimus-profiles-and-settings%3F)" to add C:\windows\system32\runtimebroker.exe and force it to run on the "Integrated graphics" processor. 
 
-## Uninstalling Mixed Reality
-You can uninstall Windows Mixed Reality from **Settings -> Mixed Reality -> Uninstall**. 
+## Questions about uninstalling Mixed Reality
 
-If you uninstall Windows Mixed Reality but get a "We couldn't finish uninstalling Windows Mixed Reality" message, you can modify the registry and use Windows PowerShell to run commands. **If you modify the registry incorrectly, serious problems might occur. Make sure to follow these steps carefully. For added protection, back up your registry before you modify it so you can restore it if a problem occurrs.** For more info, see [How to back up and restory the registry in Windows](https://support.microsoft.com/en-us/help/322756/how-to-back-up-and-restore-the-registry-in-windows). 
+### How do I uninstall Windows Mixed Reality?
+Go to  **Settings -> Mixed Reality -> Uninstall**. 
+
+### I got a "We couldn't finish uninstalling Windows Mixed Reality" message
+Experienced users can modify the registry and use Windows PowerShell to run commands. **If you modify the registry incorrectly, serious problems might occur. Make sure to follow these steps carefully. For added protection, back up your registry before you modify it so you can restore it if a problem occurrs.** For more info, see [How to back up and restory the registry in Windows](https://support.microsoft.com/en-us/help/322756/how-to-back-up-and-restore-the-registry-in-windows). 
 
 1. Restart your PC.
 2. In the **Search** box, type "regedit" and then select **Yes**.
