@@ -186,18 +186,18 @@ If the manual install doesn’t work, or you don't find the driver under Other D
 ### My headset displays are black
 
 * Check your PC performance and stability
-    * Check the Task Manager to see if any processes are maxing out your PC's CPU, GPU and/or disk drives.
-    * Check the Applications and System Event Logs in Windows (using Event Viewer) to see if you have an app that is frequently crashing and generating Windows Error Reporting (WER) reports.
-    * Make sure Windows is up-to-date by checking Windows Update. You may have to click "Check for Updates" multiple times.
+    * Use the Task Manager to see if any processes are maxing out your PC's CPU, GPU, and/or disk drives.
+    * Look at the Applications and System Event Logs in Windows (using Event Viewer) to see if you have an app that is frequently crashing and generating Windows Error Reporting (WER) reports.
+    * Check Windows Update to make sure your version of Windows is current. You may have to select "Check for Updates" multiple times.
 * Check app and game stability
-    * Check that your PC meets the minimum system requirements to run the app/game that is stuttering or otherwise non-performant.    
-    * Double check your GPU driver version: Make sure it's recent, but also pay attention to any new performance and compatibility issues and regressions on brand new drivers.
-    * For SteamVR apps and games, make sure SteamVR and the Windows Mixed Reality for SteamVR components are up to date.
+    * Ensure that your PC meets the minimum system requirements to run any app/game that is not performing correctly.    
+    * Make sure your GPU driver version is recent, and check for any new performance and compatibility issues and regressions on new drivers.
+    * If you are using SteamVR apps and games, make sure SteamVR and the Windows Mixed Reality for SteamVR components are up to date.
 * Check HDMI adapter compatibility
     * Make sure that the HDMI cable is plugged in all the way.
-    * If you're using an HDMI adapter (for example, a Mini DisplayPort to HDMI adapter), make sure it is compatible with Windows Mixed Reality. The adapter must support HDMI 2.0, and there are many older adapters that only support 1080p which is not sufficient for Windows Mixed Reality. See [Recommended adapters for Windows Mixed Reality](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs).
-    * Connect the HDMI adapter to your PC before connecting the headset to the adapter, especially if you're using a USB-C to HDMI adapter. Plug order can be important.
-    * If you're using extension cables, try removing them.
+    * If you're using an HDMI adapter (for example, a Mini DisplayPort to HDMI adapter), make sure it is compatible with Windows Mixed Reality. The adapter must support HDMI 2.0, and there are many older adapters that only support 1080p. See [Recommended adapters for Windows Mixed Reality](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs).
+    * Plug order can be important. Connect the HDMI adapter to your PC before connecting the headset to the adapter, especially if you're using a USB-C to HDMI adapter. 
+    * Try removing extension cables if you are using them.
 * Check graphics card and driver compatibility
     * Try your PC's HDMI port with a PC monitor. Some PCs may have more than one HDMI port, and not all of them may be active.
     * If your PC has both an integrated graphics processing unit (iGPU) and a discrete graphics processing unit (dGPU), make sure that you are plugged into your dGPU's HDMI port.<br> ![HDMI Ports](images/HP_HDMI_Ports_s.png)
@@ -205,8 +205,8 @@ If the manual install doesn’t work, or you don't find the driver under Other D
     * If you're using Mixed Reality on a laptop and you've installed a newer graphics driver from the graphics card manufacturer's website, try downgrading to the latest graphics card driver provided on your PC manufacturer's website, or on Windows Update.
     * If you have multiple PC monitors connected to your PC, try temporarily disconnecting all but one PC monitor.
     * If you've set a custom refresh rate for your PC monitor, try temporarily reverting to a standard refresh rate, such as 60Hz.
-    * If you've recently changed your graphics card without reinstalling Windows, check that the headset monitor still has the correct driver installed. To do this, with your headset plugged in, confirm that "Mixed Reality headset" is listed under the Monitors node in Device Manager.
-    * If your PC has an Nvidia graphics card, make sure Nvidia's 3D Vision software is disabled.
+    * If you've recently changed your graphics card without reinstalling Windows, check that the headset monitor still has the correct driver installed. With your headset plugged in, confirm that "Mixed Reality headset" is listed under the Monitors node in Device Manager.
+    * If your PC has an Nvidia graphics card, make sure that Nvidia's 3D Vision software is disabled.
     * On some graphics cards (especially older graphics cards), the HDMI port may not support HDMI 2.0 or may not be fully compatible with Windows Mixed Reality. Please try your graphics card's DisplayPort port by using an [active DisplayPort 1.2 to HDMI 2.0 adapter](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs)
     * HP Omen PCs with HP product number 1RJ99EA#ABU have HDMI ports that are incompatible with Windows Mixed Reality. To look this up, open up the "HP Support Assistant" and the product number will be listed towards the bottom of the app.
     * If your PC has an AMD R9-series graphics card and you're using a Samsung Mixed Reality headset, you'll need to update your headset's firmware to version 1.0.8 or newer in order to use the HDMI port of your graphics card with the headset.
@@ -220,9 +220,9 @@ Also consult the headset black screen troubleshooting flow chart below.
 
 ### My headset display occasionally turns black after some time
 
-* Try disabling any USB suspend / power saving features your PC might have. For example, selective suspend in Windows power options, the "Allow the computer to turn off this device to save power" setting in Device Manager, and any USB power saving settings in your PC's firmware.
+* Try disabling any USB suspend or power saving features your PC might have. For example, [USB selective suspend](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-selective-suspend) in Windows power options, the "Allow the computer to turn off this device to save power" setting in Device Manager, and any USB power saving settings in your PC's firmware.
 * Temporarily disconnect any other USB devices and peripherals connected to your PC.
-* Double check your GPU driver version: Make sure it's recent, but also pay attention to any new performance and compatibility issues and regressions on brand new drivers.
+* Double check your GPU driver version. Make sure it's recent, but also pay attention to any new performance and compatibility issues and regressions on brand new drivers.
 
 ### One of the displays on my headset is black
 
@@ -242,12 +242,8 @@ This typically indicates an occasional USB controller reliability issue on your 
 
 ### My headset causes my PC to hang or show a black screen while starting up
 
-On some PCs, leaving your headset plugged in before turning on your PC or while rebooting your PC may interfere with the PC's startup process:
-* Your PC could select the headset displays as the "primary monitor" to show PC startup progress
-* Your PC could be prevented from starting up properly and may 'hang' and/or produce a beeping error code
-
-The exact behavior depends largely on the PC make and model, and/or the make and model of the graphics card. While this is not an issue with Windows, you may be able to work around this:
-* Try connecting your headset to a different port on your graphics card. In some cases, you may need to use an adapter to use the other ports.
+On some PCs, leaving your headset plugged in before turning on your PC or while rebooting your PC may interfere with the PC's startup process. Your PC could select the headset displays as the "primary monitor" to show PC startup progress or it could be prevented from starting up properly and may 'hang' and/or produce a beeping error code. The exact behavior depends largely on the PC make and model, and/or the make and model of the graphics card. While this is not an issue with Windows, you may be able to work around this:
+* Connect your headset to a different port on your graphics card. In some cases, you may need to use an adapter to use the other ports.
 * Make sure your PC's BIOS / UEFI firmware is up-to-date (note: only update your PC's BIOS / UEFI firmware if you're comfortable with doing so)
 
 ### My PC or headset displays flicker, flash or remain black when using a Surface PC
