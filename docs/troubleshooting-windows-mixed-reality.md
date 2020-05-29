@@ -13,11 +13,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 
 ### "Your PC can’t run Windows Mixed Reality"
 
-Your PC doesn’t meet the minimum requirements needed to run Windows Mixed Reality. Either your computer’s hardware setup isn’t compatible with Windows Mixed Reality, or you need to update to the latest version of Windows.
-
-Notes on graphics cards:
-* If Windows Mixed Reality setup says your graphics card doesn’t meet the requirements and you think it does, make sure your headset is plugged into the correct card.
-* Check with your graphics card manufacturer for the latest driver update. Windows Mixed Reality requires a graphics card driver that supports at least [WDDM 2.2.](https://en.wikipedia.org/wiki/Windows-Display-Driver-Model#WDDM-2.2).
+Your PC doesn’t meet the minimum requirements needed to run Windows Mixed Reality. Make sure your computer’s hardware setup is compatible with Windows Mixed Reality (for example, check your [graphics drivers](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality). You may also need to update to the latest version of Windows. 
 
 ### "You’re nearly there—this PC doesn’t meet the minimum requirements needed to run Windows Mixed Reality"
 
