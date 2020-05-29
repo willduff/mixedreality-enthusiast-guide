@@ -185,17 +185,35 @@ If the manual install doesn’t work, or you don't find the driver under Other D
 
 ### My headset displays are black
 
-Here are some of the most common causes and how to troubleshoot them:
-
-| **Common causes**          | **Troubleshooting steps**                                          |
-|----------------------------|--------------------------------------------------------------------|
-| **PC performance and stability**  | <ul><li>Check Task Manager to see if any processes are maxing out your PC's CPU, GPU and/or disk drives</li><li>Check the Applications and System Event Logs in Windows (using Event Viewer) to see if you have an app that is frequently crashing and generating Windows Error Reporting (WER) reports.</li><li>Make sure Windows is up-to-date by checking Windows Update. You may have to click "Check for Updates" multiple times</li></ul> |
-| **App and game stability** | <ul><li>Check that your PC meets the minimum system requirements to run the app/game that is stuttering or otherwise non-performant.</li><li>Double check your GPU driver version: Make sure it's recent, but also pay attention to any new performance and compatibility issues and regressions on brand new drivers.</li><li>For SteamVR apps and games, make sure SteamVR and the Windows Mixed Reality for SteamVR components are up to date.</li></ul> |
-| **HDMI adapter compatibility** | <ul><li>Make sure that the HDMI cable is plugged in all the way.</li><li>If you're using an HDMI adapter (for example, a Mini DisplayPort to HDMI adapter):<ul><li>Please make sure the HDMI adapter is compatible with Windows Mixed Reality: the adapter must support HDMI 2.0, and there are many older adapters that only support 1080p which is not sufficient for Windows Mixed Reality. See [Recommended adapters for Windows Mixed Reality](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs) for more details.</li><li>Plug order: Try connecting the HDMI adapter to your PC before connecting the headset to the adapter, especially if you're using a USB-C to HDMI adapter.</li></ul></li><li>If you're using extension cables, try removing them.</li></ul> |
-| **Graphics card and driver compatibility** | <ul><li>Try your PC's HDMI port with a PC monitor. Some PCs may have more than one HDMI port, and not all of them may be active.</li><li>If your PC has both an integrated graphics processing unit (iGPU) and a discrete graphics processing unit (dGPU), make sure that you are plugged into your dGPU's HDMI port.<br> ![HDMI Ports](images/HP_HDMI_Ports_s.png)</li><li>Double check your GPU driver version: Make sure it's recent, but also pay attention to any new performance and compatibility issues and regressions on brand new drivers.</li><li>If you're using Mixed Reality on a laptop and you've installed a newer graphics driver from the graphics card manufacturer's website, try downgrading to the latest graphics card driver provided on your PC manufacturer's website, or on Windows Update.</li><li>If you have multiple PC monitors connected to your PC, try temporarily disconnecting all but one PC monitor.</li><li>If you've set a custom refresh rate for your PC monitor, try temporarily reverting to a standard refresh rate, such as 60Hz.</li><li>If you've recently changed your graphics card without reinstalling Windows, check that the headset monitor still has the correct driver installed. To do this, with your headset plugged in, confirm that "Mixed Reality headset" is listed under the Monitors node in Device Manager.</li><li>If your PC has an Nvidia graphics card, make sure Nvidia's 3D Vision software is disabled.</li><li>On some graphics cards (especially older graphics cards), the HDMI port may not support HDMI 2.0 or may not be fully compatible with Windows Mixed Reality. Please try your graphics card's DisplayPort port by using an [active DisplayPort 1.2 to HDMI 2.0 adapter](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs)</li><li>HP Omen PCs with HP product number 1RJ99EA#ABU have HDMI ports that are incompatible with Windows Mixed Reality. To look this up, open up the "HP Support Assistant" and the product number will be listed towards the bottom of the app.</li><li>If your PC has an AMD R9-series graphics card and you're using a Samsung Mixed Reality headset, you'll need to update your headset's firmware to version 1.0.8 or newer in order to use the HDMI port of your graphics card with the headset.</li><li>If you're using a Surface Book 2, please make sure you're using the [Surface USB-C to HDMI adapter](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs).</li></ul> | 
-| **Mixed Reality headset hardware issue** | To confirm or rule out hardware issues with your Mixed Reality headset, please try connecting and trying your Mixed Reality headset to another PC. <ul><li>Please check for PC compatibility and setup issues first, as the symptoms are very similar.</li></ul> |
-
-**Other helpful tips:**
+* Check your PC performance and stability
+    * Check the Task Manager to see if any processes are maxing out your PC's CPU, GPU and/or disk drives.
+    * Check the Applications and System Event Logs in Windows (using Event Viewer) to see if you have an app that is frequently crashing and generating Windows Error Reporting (WER) reports.
+    * Make sure Windows is up-to-date by checking Windows Update. You may have to click "Check for Updates" multiple times.
+* Check app and game stability
+    * Check that your PC meets the minimum system requirements to run the app/game that is stuttering or otherwise non-performant.    
+    * Double check your GPU driver version: Make sure it's recent, but also pay attention to any new performance and compatibility issues and regressions on brand new drivers.
+    * For SteamVR apps and games, make sure SteamVR and the Windows Mixed Reality for SteamVR components are up to date.
+* Check HDMI adapter compatibility
+    * Make sure that the HDMI cable is plugged in all the way.
+    * If you're using an HDMI adapter (for example, a Mini DisplayPort to HDMI adapter), make sure it is compatible with Windows Mixed Reality. The adapter must support HDMI 2.0, and there are many older adapters that only support 1080p which is not sufficient for Windows Mixed Reality. See [Recommended adapters for Windows Mixed Reality](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs).
+    * Connect the HDMI adapter to your PC before connecting the headset to the adapter, especially if you're using a USB-C to HDMI adapter. Plug order can be important.
+    * If you're using extension cables, try removing them.
+* Check graphics card and driver compatibility
+    * Try your PC's HDMI port with a PC monitor. Some PCs may have more than one HDMI port, and not all of them may be active.
+    * If your PC has both an integrated graphics processing unit (iGPU) and a discrete graphics processing unit (dGPU), make sure that you are plugged into your dGPU's HDMI port.<br> ![HDMI Ports](images/HP_HDMI_Ports_s.png)
+    * Double check your GPU driver version. Make sure it's recent, but also pay attention to any new performance and compatibility issues and regressions on brand new drivers.
+    * If you're using Mixed Reality on a laptop and you've installed a newer graphics driver from the graphics card manufacturer's website, try downgrading to the latest graphics card driver provided on your PC manufacturer's website, or on Windows Update.
+    * If you have multiple PC monitors connected to your PC, try temporarily disconnecting all but one PC monitor.
+    * If you've set a custom refresh rate for your PC monitor, try temporarily reverting to a standard refresh rate, such as 60Hz.
+    * If you've recently changed your graphics card without reinstalling Windows, check that the headset monitor still has the correct driver installed. To do this, with your headset plugged in, confirm that "Mixed Reality headset" is listed under the Monitors node in Device Manager.
+    * If your PC has an Nvidia graphics card, make sure Nvidia's 3D Vision software is disabled.
+    * On some graphics cards (especially older graphics cards), the HDMI port may not support HDMI 2.0 or may not be fully compatible with Windows Mixed Reality. Please try your graphics card's DisplayPort port by using an [active DisplayPort 1.2 to HDMI 2.0 adapter](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs)
+    * HP Omen PCs with HP product number 1RJ99EA#ABU have HDMI ports that are incompatible with Windows Mixed Reality. To look this up, open up the "HP Support Assistant" and the product number will be listed towards the bottom of the app.
+    * If your PC has an AMD R9-series graphics card and you're using a Samsung Mixed Reality headset, you'll need to update your headset's firmware to version 1.0.8 or newer in order to use the HDMI port of your graphics card with the headset.
+    * If you're using a Surface Book 2, please make sure you're using the [Surface USB-C to HDMI adapter](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs).
+* Check for a Mixed Reality headset hardware issue
+    * To confirm or rule out hardware issues with your Mixed Reality headset, try connecting your Mixed Reality headset to another PC. 
+    * Check for PC compatibility and setup issues first, as the symptoms are very similar.
 * Check to make sure the USB cable is plugged into a USB 3.0 or faster port. USB 3.0 ports have SS (Super Speed) written next to them. They are often (but not always) colored blue.		
 
 Also consult the headset black screen troubleshooting flow chart below.
@@ -818,7 +836,7 @@ Experienced users can modify the registry and use Windows PowerShell to run comm
    <li> <b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\HoloSI</b></li> 
    <li> <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\HoloSI</b></li> 
    <li> <b>HKEY_CURRENT_USER\Software\Microsoft\Speech_OneCore\Settings\HolographicPreferences</b></li><br/></ul>
-5. Close Registry Editor.
+5. Close the Registry Editor.
 6. Navigate to **C:\Users\user name\AppData\Local\Packages\Microsoft.Windows.HolographicFirstRun_cw5n1h2txyewy\LocalState**, and then delete **RoomBounds.json**. Repeat this for each user who has used Windows Mixed Reality.
 7. Open admin cmd prompt and navigate to **C:\ProgramData\WindowsHolographicDevices\SpatialStore\HoloLensSensors**. Then delete the contents of the **HeadTracking data** folder (but not the folder itself).
 8. Type "powershell" in the **Search box**, right-click **Windows PowerShell**, and then select **Run as administrator**.
