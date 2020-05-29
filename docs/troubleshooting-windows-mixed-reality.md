@@ -25,7 +25,7 @@ Your PC doesn’t meet the minimum requirements needed for the best experience i
 
 ### "Before we can set up Windows Mixed Reality, your administrator will need to enable it for your organization. Learn More"
 
-You are probably on an Enterprise managed network and your organization is using Windows Server Update Services (WSUS) or has other policies that may block the download. Contact your organizations IT department or system administrator to [enable Windows Mixed Reality](https://docs.microsoft.com/windows/application-management/manage-windows-mixed-reality#enable).
+You are probably on an enterprise managed network and your organization is using Windows Server Update Services (WSUS) or has other policies that may block the download. Contact your organization's IT department or system administrator to [enable Windows Mixed Reality](https://docs.microsoft.com/windows/application-management/manage-windows-mixed-reality#enable).
 
 ### "We couldn't download the mixed reality software"
 
@@ -108,7 +108,7 @@ If the floor doesn't feel like it's at the right height, open the Room Adjustmen
 
 ### My headset has stopped tracking
 
-Make sure the lights are turned on and that there isn't anything obstructing the inside-out tracking cameras on the front of your headset. If tracking is lost, it can take a few seconds to resume. If tracking does not resume, try restarting the Windows Mixed Reality Portal. See [Tracking Troubleshooting](troubleshooting-windows-mixed-reality.md#tracking-system) for more details.
+Make sure the lights are on and that there isn't anything obstructing the inside-out tracking cameras on the front of your headset. If tracking is lost, it can take a few seconds to resume. If tracking does not resume, try restarting the Windows Mixed Reality Portal. See [Tracking Troubleshooting](troubleshooting-windows-mixed-reality.md#tracking-system) for more details.
 
 ### I can't show a preview of what I'm seeing in my headset on my desktop screen
 
@@ -148,11 +148,11 @@ If you're running into any of the following symptoms while using Windows Mixed R
 
 ![Mixed Reality Device appear in Device Manager](images/mixedrealitydevices.png)
 
-**Ensure that the headset driver is installed:** If you see "Hololens Sensors" listed with a yellow exclamation mark, double click on the device. If you see a **"Code 10: The drivers for this device are not installed. There are no compatible drivers for this device"**, follow the instructions [below](troubleshooting-windows-mixed-reality.md#manually-installing-the-headset-driver) to manually install the headset driver.
+**Ensure that the headset driver is installed:** If you see "Hololens Sensors" listed with a yellow exclamation mark, double click on the device. If you see a **"Code 10: The drivers for this device are not installed. There are no compatible drivers for this device"**, follow the [instructions](troubleshooting-windows-mixed-reality.md#manually-installing-the-headset-driver) to manually install the headset driver.
 
-**Note for Surface users:** Earlier versions of the Surface Dock and Surface Book USB Hub firmware update software are incompatible with Mixed Reality headsets. If you get a "Connect your headset" message on a Surface PC, check to see if any devices are reporting a **"Code 10: The device cannot start" error** in Device Manager. If so, follow the instructions in this [Support Article](https://support.microsoft.com/en-us/help/4032123/kinect-sensor-is-not-recognized-on-a-surface-book) to remove the conflicting driver. You should only need to do this once.
+**Note for Surface users:** Earlier versions of the Surface Dock and Surface Book USB Hub firmware update software are incompatible with Mixed Reality headsets. If you get a "Connect your headset" message on a Surface PC, check to see if any devices are reporting a **"Code 10: The device cannot start" error** in Device Manager. If so, follow these [instructions](https://support.microsoft.com/en-us/help/4032123/kinect-sensor-is-not-recognized-on-a-surface-book) to remove the conflicting driver. You should only need to do this once.
 
-**Note for Windows 10 N users:** If your PC is running Windows 10 N, you'll see a **"Code 28: The install class is not present or is invalid" error** in Device Manager after plugging in your Mixed Reality headset. Unfortunately, N-editions of Windows 10 are not supported by Windows Mixed Reality. Follow the instructions in [this section](troubleshooting-windows-mixed-reality.md#im-getting-a-the-install-class-is-not-present-or-is-invalid-error-in-device-manager) for more information.
+**Note for Windows 10 N users:** If your PC is running Windows 10 N, you'll see a **"Code 28: The install class is not present or is invalid" error** in Device Manager after plugging in your Mixed Reality headset. Unfortunately, N-editions of Windows 10 are not supported by Windows Mixed Reality. Follow these [instructions](troubleshooting-windows-mixed-reality.md#im-getting-a-the-install-class-is-not-present-or-is-invalid-error-in-device-manager) for more information.
 
 **If you alternate between multiple headsets on your PC:** If you have and use multiple Mixed Reality headsets on your PC, and have manually installed the Mixed Reality headset driver before, in some circumstances, the manual driver update may only apply to the headset connected at the time, and not to your other headsets. In this case, you'll see **"Code 31: This device is not working properly because Windows cannot load the drivers required for this device. (Code 31). The ALPC message requested is no longer available."** To resolve this, in Device Manager, right click on your headset under "Mixed Reality devices", and click "Uninstall device". Click OK to confirm, and then unplug and replug your headset.
 
@@ -222,7 +222,7 @@ If the manual install doesn’t work, or you don't find the driver under Other D
 
 ### My headset displays are black
 
-If your Mixed Reality headset displays are showing black, here are a few of the most common causes and how to troubleshoot them:
+Here are some of the most common causes and how to troubleshoot them:
 
 | **Common causes**          | **Troubleshooting steps**                                          |
 |----------------------------|--------------------------------------------------------------------|
@@ -240,9 +240,9 @@ Also consult the headset black screen troubleshooting flow chart below.
 ### One of the displays on my headset are black
 
 * If you're using an HDMI adapter, make sure it supports HDMI 2.0
-* Remove any USB and HDMI extension cables if you're using any
+* Remove any USB and HDMI extension cables that you may be using
 * Make sure your graphics driver is up-to-date
-* If possible, try the Mixed Reality headset on another PC
+* Try the Mixed Reality headset on another PC
 
 ### My headset displays turn blue for a moment, and then Mixed Reality Portal reinitializes
 
