@@ -32,34 +32,34 @@ You are probably on an enterprise managed network and your organization is using
     * Make sure you have Windows Update enabled. 
     * Restart your PC and try again.
     * If you get an error with Windows Update when attempting these steps go [here](https://support.microsoft.com/en-us/help/10164/fix-windows-update-errors) for help. 
-* If you recently installed an update, it can cause problems. We don’t recommend that you remove any installed updates, especially any security updates which are critical to keeping your PC safe. However, sometimes removing the most recent update can help determine the source of the problem. To do this: 
+* If you recently installed an update, it can cause problems. We don’t recommend that you remove any installed updates, especially security updates which keep your PC safe, but sometimes removing the most recent update can help determine the source of the problem. To do this: 
     * Go to **Settings > Update & Security > View Installed Update History > Uninstall Updates**
     * Click on last update installed and then select **Uninstall**.
-    * When prompted "Are you sure you want to uninstall this update?" answer **Yes**.  If you get an error with Windows Update when attempting these steps go [here](https://support.microsoft.com/en-us/help/10164/fix-windows-update-errors) for help. 
-    * Restart your PC and try again.
+    * When prompted "Are you sure you want to uninstall this update?" answer **Yes**. If you get an error with Windows Update when attempting these steps go [here](https://support.microsoft.com/en-us/help/10164/fix-windows-update-errors). 
+    * Restart your PC and try again. 
     * If Windows Mixed Reality installs correctly, reinstall the latest updates under **Settings > Windows Update > Check for Updates** and see if Windows Mixed Reality continues to work. If it does not install correctly, reinstall the latest updates and contact Windows Support for additional help. 
 
 ## Troubleshooting setup errors
 
 ### I get an error message when I try to create a boundary
 
-* Don't get too close to a wall or other obstruction when creating a boundary
-* Make sure to hold your headset at waist height, and face toward your computer while you trace the boundary
-* Make sure the sensor isn’t blocked and there’s enough light
-* The space you’re tracing should be larger than 3 square meters
-* The space should not be too large or too complicated. Stick to a simple geometric shape without a lot of twists and turns
-* Don’t cross back over your own path as you’re tracing
-* If you get stuck in a corner, start over
+* Don't get too close to a wall or other obstruction when creating a boundary.
+* Make sure to hold your headset at waist height, and face toward your computer while you trace the boundary.
+* Make sure the sensor isn’t blocked and there’s enough light.
+* The space you’re tracing should be larger than 3 square meters.
+* The space should not be too large or too complicated. Stick to a simple geometric shape without a lot of twists and turns.
+* Don’t cross back over your own path as you’re tracing.
+* If you get stuck in a corner, start over.
 
 ### My Xbox controller isn't working with Windows Mixed Reality
 
 * Make sure your controller is turned on, fully charged, and connected to the PC.
 * Replace the controller’s batteries.
-* If you're using a Bluetooth controller, go to **Settings > Devices > Bluetooth & other devices** on your PC and make sure it's paired (you should see it listed on the page).
+* If you're using a Bluetooth controller, go to **Settings > Devices > Bluetooth & other devices** on your PC and make sure it's paired (it should be listed on the page).
 
 ### I cannot direct input (controllers, gamepad, mouse/keyboard) into mixed reality
 
-When you put on your headset, input should automatically get toggled to your mixed reality experience via your headset's presence sensor. You will know input is being directed to your headset because a blue bar will appear on your desktop:
+When you put on your headset, input should automatically get toggled to your mixed reality experience through your headset's presence sensor. A blue bar should appear on your Desktop:
 
 ![Windows Desktop with input being directed to headset](images/1050px-windowsy.png)
 
@@ -296,11 +296,11 @@ For a direct install of Nvidia Graphics Driver 436.48, visit [NVIDIA](https://ww
 
 Samsung owns and publishes headset firmware updates delivered via their "Samsung HMD Odyssey Setup" and "Samsung HMD Odyssey+ Setup" Device Companion apps. For more details and for help with Samsung firmware update issues, please reach out to Samsung Customer Service.
 
-If the firmware update process is getting stuck, and there has been no progress for more than about five minutes:
-* Unplug all of your other USB devices temporarily, and retry the firmware update
-* Connect your Samsung headset to a different USB 3.0 port on your PC
-* If you have any software installed that may interfere with firmware updates, for example, Gigabyte's AORUS App Center, please try disabling and/or uninstalling them first
-* Try using a different PC to perform the Samsung headset firmware update
+If the firmware update process is getting stuck, and there has been no progress for more than five minutes:
+* Unplug all of your other USB devices temporarily and retry the firmware update.
+* Connect your Samsung headset to a different USB 3.0 port on your PC.
+* Disabling and/or uninstall any software installed that may interfere with firmware updates, like Gigabyte's AORUS App Center.
+* Use a different PC to perform the Samsung headset firmware update.
 
 
 ## Problems with your motion controllers
@@ -321,15 +321,15 @@ Your notebook may share its Wi-Fi antenna with Bluetooth when connected to 2.4GH
 
 ### My second controller takes a long time to re-connect
 
-Some older Intel radios experience this issue if motion controllers are powered on at the same time. To workaround this, do not power on controllers at the same time.
+Some older Intel radios experience this issue if motion controllers are powered on at the same time. Avoid powering on controllers at the same time.
 
-### Qualcomm Bluetooth radio cannot pair controllers after PC crash
+### My Qualcomm Bluetooth radio cannot pair controllers after PC crash
 
-Some Qualcomm (QCA) Bluetooth radios have issue where the device may end up in bad state after a Windows crash. Power off the PC completely to workaround this problem. This issue is fixed in QCA Bluetooth radio driver 10.0.0.448 or later. 
+Qualcomm (QCA) Bluetooth radio drivers prior to 10.0.0.448 may end up in bad state after a Windows crash. Power off the PC completely to workaround this problem. 
 
-### Poor controller tracking with Marvell radio
+### I'm experiencing poor controller tracking with Marvell radio
 
-Please ensure you have driver 15.68.9210.47 or later in use (**device manager->Bluetooth->Marvell AVASTAR Bluetooth Radio Adapter->Properties->Driver**) 
+Make sure that you are using driver 15.68.9210.47 or later (**device manager->Bluetooth->Marvell AVASTAR Bluetooth Radio Adapter->Properties->Driver**) 
 
 ### The Mixed Reality Portal is working, but my motion controllers are tracking poorly (controllers keep flying away, shaking, etc.)
 
@@ -346,14 +346,14 @@ The Motion Controller calibration cache may be corrupt. To delete the cache, run
 
 `rmdir /S /Q C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\Windows\MotionController\Calibration`
 
-This folder is not accessible in Windows Explorer, and can only be modified from an Administrator Command Prompt. After you have deleted the folder, restart your PC and reconnect your Motion Controllers to restore the calibration files.
+This folder is not accessible in Windows Explorer and can only be modified from an Administrator Command Prompt. After you have deleted the folder, restart your PC and reconnect your Motion Controllers to restore the calibration files.
 
-### Motion controllers do not appear in SteamVR apps/games ###
+### Motion controllers do not appear in SteamVR apps and games 
 
-If you're able to see your Motion Controllers in the cliff house, but not in SteamVR apps and games, the Motion Controller model driver may not be installed properly. This driver is typically automatically downloaded and installed via Windows Update, but if you're on a PC that has enterprise policies or if Windows Update is otherwise restricted, you may need to install this manually.
+If you're able to see your Motion Controllers in the cliff house, but not in SteamVR apps and games, the Motion Controller model driver may not be installed properly. This driver is automatically downloaded and installed via Windows Update, but if you're on a PC that has enterprise policies or if Windows Update is otherwise restricted, you may need to install this manually.
 
 To check that the Motion Controller model driver is correctly installed:
-1. Turn on both of your motion controllers, and make sure both of them show up as "Connected" in the Settings app under Devices > Bluetooth & other devices. If they do not show up or show up as "Paired", follow the instructions above to properly pair your motion controllers.
+1. Turn on both of your motion controllers, and make sure both of them show up as "Connected" in the Settings app under Devices > Bluetooth & other devices. If they do not show up or show up as "Paired", [pair your motion controllers](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality).
 2. Open Device Manager and look for "Motion controller - Left" and "Motion controller - Right" under "Bluetooth"
 3. Single click either of the two devices, and then go to View > Devices by Connection.
 4. You will now see a view of the Motion Controller Bluetooth devices roll up to your Bluetooth radio. Under the same node as the two Motion Controllers should be two **Bluetooth HID Device** devices, and under each Bluetooth HID Device should be devices named **Motion Controller** (with gray icons).
@@ -383,7 +383,7 @@ This is probably a hardware defect and you should go back to your retailer or eq
 
 ### Controller device recovery
 
-If the controller isn’t working correctly and you’re unable to update the device, you can always restore the device to factory conditions. To recover your device:
+If the controller isn’t working correctly and you’re unable to update the device, restore the device to factory conditions. To do this:
 1. Unplug and power off the controllers.
 2. Open the battery cover.
 3. Insert batteries (ensure you have good batteries when performing device recovery).
