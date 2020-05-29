@@ -134,21 +134,17 @@ Windows Mixed Reality headsets do not officially support the use of USB or HDMI 
 
 ### A message says "Check your USB cable" or "Insufficient USB speed"
 
-**Make sure that you're using a supported USB 3.0 port on your PC:**
-
-* Make sure that your headset's USB cable is plugged in all the way.
-* Run the [Windows Mixed Reality PC Check](https://aka.ms/pccheckapp) app to make sure your PC's USB 3.0 controller is supported.
-* Try each of the other USB 3.0 ports on your PC. Some PCs have more than one USB 3.0 controller.
-* Temporarily disconnect all of the USB devices attached to your PC, and only connect your headset.
-
-**Other troubleshooting steps:**
-
-* Check that the headset is connected through a USB 3.0 (XHCI) controller. On custom-built PCs, even though a port may be marked as a USB 3.0 port, it may be connected to a USB 2.0 controller. To do this, with your headset connected, open Device Manager, locate and single click any of the devices enumerated from your headset, then go to View > Devices by connection.
+* Make sure that you're using a supported USB 3.0 port on your PC:
+    * Make sure that your headset's USB cable is plugged in all the way.
+    * Run the [Windows Mixed Reality PC Check](https://aka.ms/pccheckapp) app to make sure your PC's USB 3.0 controller is supported.
+    * Try each of the other USB 3.0 ports on your PC. Some PCs have more than one USB 3.0 controller.
+    * Temporarily disconnect all of the USB devices attached to your PC, and only connect your headset.
+    * On custom-built PCs, even though a port may be marked as a USB 3.0 port, it may be connected to a USB 2.0 controller. With your headset connected, open Device Manager, locate and single click any of the devices enumerated from your headset, then go to View > Devices by connection.
 * Try your headset on another PC. If that other PC is not fully compatible with Windows Mixed Reality, check in Device Manager to see if you see the "insufficient USB speed" message. If your headset does not enumerate properly on multiple PCs, your headset could be defective.
 
-### The Mixed Reality portal did not launch automatically after I plugged in my headset
+### The Mixed Reality Portal did not launch automatically after I plugged in my headset
 
-The headset might hot have been detected properly because of an underlying issue. Try launching Mixed Reality Portal manually and look for any error messages that appear. 
+The headset might hot have been detected properly because of an underlying issue. Try launching the Mixed Reality Portal manually and look for any error messages that appear. 
 
 ### My headset stopped working after putting my PC to sleep, hibernate, or restarting my PC with my headset attached
 
