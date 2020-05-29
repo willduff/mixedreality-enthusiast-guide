@@ -118,17 +118,17 @@ Windows Mixed Reality headsets do not officially support the use of USB or HDMI 
 
 2. Try unplugging both the USB and HDMI cables from your headset, then plug them back in. When plugging in the USB cable, do it quickly (try not to pause during insertion of the USB cable).
 
-3. Open Device Manager and confirm that your headset is listed under "Mixed Reality devices". Double click on your headset under "Mixed Reality devices" and confirm that the device status indicates "This device is working properly". Yellow exclamation marks on devices listed in Device Manager indicate errors reported by the devices connected to your PC:
-
-![Mixed Reality Device appear in Device Manager](images/mixedrealitydevices.png)
+3. Open Device Manager and confirm that your headset is listed under "Mixed Reality devices". Double click on your headset under "Mixed Reality devices" and confirm that the device status indicates "This device is working properly". Yellow exclamation marks on devices listed in Device Manager indicate errors reported by the devices connected to your PC.
 
     * If "Hololens Sensors" is listed with a yellow exclamation mark in Device Manager, double click on the device. If you see a **"Code 10: The drivers for this device are not installed. There are no compatible drivers for this device"**, follow the [instructions](troubleshooting-windows-mixed-reality.md#manually-installing-the-headset-driver) to manually install the headset driver.
 
     * If you use multiple Mixed Reality headsets on your PC and have manually installed the Mixed Reality headset driver before, in some circumstances the manual driver update may only apply to the headset connected at the time and not to your other headsets. In this case, you'll see **"Code 31: This device is not working properly because Windows cannot load the drivers required for this device. (Code 31). The ALPC message requested is no longer available"** in Device Manager. In Device Manager, right click on your headset under "Mixed Reality devices", and click "Uninstall device". Click OK to confirm and then unplug and replug your headset.
 
-6. If you're seeing partial enumeration of the headset (a series of USB devices enumerate, but nothing under "Mixed Reality headsets" in Device Manager), try an externally powered USB 3.0 hub.
+![Mixed Reality Device appear in Device Manager](images/mixedrealitydevices.png)
 
-7. Connect your headset to another PC and open Device Manager. Even if that PC is not fully compatible with Windows Mixed Reality, you can check to see if your headset enumerates. If your headset does not enumerate on multiple PCs, it could have a hardware issue.
+4. If you're seeing partial enumeration of the headset (a series of USB devices enumerate, but nothing under "Mixed Reality headsets" in Device Manager), try an externally powered USB 3.0 hub.
+
+5. Connect your headset to another PC and open Device Manager. Even if that PC is not fully compatible with Windows Mixed Reality, you can check to see if your headset enumerates. If your headset does not enumerate on multiple PCs, it could have a hardware issue.
 
 **Note for Surface users:** Earlier versions of the Surface Dock and Surface Book USB Hub firmware update software are incompatible with Mixed Reality headsets. If you get a "Connect your headset" message on a Surface PC, check to see if any devices are reporting a **"Code 10: The device cannot start" error** in Device Manager. If so, follow these [instructions](https://support.microsoft.com/en-us/help/4032123/kinect-sensor-is-not-recognized-on-a-surface-book) to remove the conflicting driver. You should only need to do this once.
 
