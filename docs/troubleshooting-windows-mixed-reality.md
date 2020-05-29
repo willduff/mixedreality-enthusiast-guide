@@ -28,16 +28,16 @@ You are probably on an enterprise managed network and your organization is using
 * Your PC must be connected to the internet to download Windows Mixed Reality. Check your network status at:  **Settings > Network & Internet > Status**. If you are unable to connect to the internet go [here](https://support.microsoft.com/en-us/help/10741/windows-10-fix-network-connection-issues) for help.  
 * [Metered networks](https://support.microsoft.com/en-us/help/17452/windows-metered-internet-connections-faq) can limit how much you download. Make sure your internet is not set as a Metered Connection by going to: **Settings > Network & Internet > Status > Change connection properties > Set as metered connection > Off**. 
 * Sometimes a pending update can block the Mixed Reality Software download. To check if you have pending updates: 
-1. Run **Settings > Windows Update > Check for Update**.
-2. Make sure you have Windows Update enabled. 
-3. Restart your PC and try again.
-4. If you get an error with Windows Update when attempting these steps go [here](https://support.microsoft.com/en-us/help/10164/fix-windows-update-errors) for help. 
+    * Run **Settings > Windows Update > Check for Update**.
+    * Make sure you have Windows Update enabled. 
+    * Restart your PC and try again.
+    * If you get an error with Windows Update when attempting these steps go [here](https://support.microsoft.com/en-us/help/10164/fix-windows-update-errors) for help. 
 * If you recently installed an update, it can cause problems. We don’t recommend that you remove any installed updates, especially any security updates which are critical to keeping your PC safe. However, sometimes removing the most recent update can help determine the source of the problem. To do this: 
-1. Go to **Settings > Update & Security > View Installed Update History > Uninstall Updates**
-2. Click on last update installed and then click **Uninstall**.
-3. When prompted "Are you sure you want to uninstall this update?" click **Yes**.  If you get an error with Windows Update when attempting these steps go [here](https://support.microsoft.com/en-us/help/10164/fix-windows-update-errors) for help. 
-4. Restart your PC and try again.
-5. If Windows Mixed Reality installs correctly, reinstall the latest updates under **Settings > Windows Update > Check for Updates** and see if Windows Mixed Reality continues to work. If it does not install correctly, reinstall the latest updates and contact Windows Support for additional help. 
+    * Go to **Settings > Update & Security > View Installed Update History > Uninstall Updates**
+    * Click on last update installed and then select **Uninstall**.
+    * When prompted "Are you sure you want to uninstall this update?" answer **Yes**.  If you get an error with Windows Update when attempting these steps go [here](https://support.microsoft.com/en-us/help/10164/fix-windows-update-errors) for help. 
+    * Restart your PC and try again.
+    * If Windows Mixed Reality installs correctly, reinstall the latest updates under **Settings > Windows Update > Check for Updates** and see if Windows Mixed Reality continues to work. If it does not install correctly, reinstall the latest updates and contact Windows Support for additional help. 
 
 ## Troubleshooting setup errors
 
