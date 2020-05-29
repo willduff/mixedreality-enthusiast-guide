@@ -26,8 +26,8 @@ You are probably on an enterprise managed network and your organization is using
 ### "We couldn't download the mixed reality software" or "Hang tight while we do some downloading"
 
 * Your PC must be connected to the internet to download Windows Mixed Reality. Check your network status at:  **Settings > Network & Internet > Status**. If you are unable to connect to the internet go [here](https://support.microsoft.com/en-us/help/10741/windows-10-fix-network-connection-issues) for help.  
-* [Metered networks](https://support.microsoft.com/en-us/help/17452/windows-metered-internet-connections-faq) can limit how much you download. Make sure your internet is not set as a Metered Connection by going to: **Settings > Network & Internet > Status > Change connection properties > Set as metered connection > Off**. 
-* Sometimes a pending update can block the Mixed Reality Software download. To check if you have pending updates: 
+* [Metered networks](https://support.microsoft.com/en-us/help/17452/windows-metered-internet-connections-faq) can limit how much you download. Make sure your internet is not set as a metered connection by going to: **Settings > Network & Internet > Status > Change connection properties > Set as metered connection > Off**. 
+* Sometimes a pending update can block the Mixed Reality Software download. To check for pending updates: 
     * Run **Settings > Windows Update > Check for Update**.
     * Make sure you have Windows Update enabled. 
     * Restart your PC and try again.
@@ -43,12 +43,11 @@ You are probably on an enterprise managed network and your organization is using
 
 ### I get an error message when I try to create a boundary
 
-Here are some guidelines for creating a boundary:
-* Don't get too close to a wall or other obstruction
+* Don't get too close to a wall or other obstruction when creating a boundary
 * Make sure to hold your headset at waist height, and face toward your computer while you trace the boundary
 * Make sure the sensor isn’t blocked and there’s enough light
 * The space you’re tracing should be larger than 3 square meters
-* The space should not be too large or too complicated—stick to a simple geometric shape without a lot of twists and turns
+* The space should not be too large or too complicated. Stick to a simple geometric shape without a lot of twists and turns
 * Don’t cross back over your own path as you’re tracing
 * If you get stuck in a corner, start over
 
@@ -86,7 +85,7 @@ Make sure your controllers have full batteries and that they are paired correctl
 
 ### The floor of my Windows Mixed Reality Home doesn't appear to be at the correct height, or it is slanted
 
-If the floor doesn't feel like it's at the right height, open the Room Adjustment app from the start menu. This app will be launched once you place the app in the world. In this app, you will be directed to use the touch pad (motion controller) or direction pad (gamepad) to adjust the floor height. When the floor feels correct, use the Windows button to exit back to your Home.
+Open the Room Adjustment app from the start menu. This app will be launched once you place the app in the world. In this app, you will be directed to use the touch pad (motion controller) or direction pad (gamepad) to adjust the floor height. When the floor feels correct, use the Windows button to exit back to your Home.
 
 ### My headset has stopped tracking
 
@@ -99,15 +98,10 @@ Mixed Reality Portal has a **Play** button at the bottom of the screen that allo
 ## HMD Connectivity Issues
 
 ### My computer does not have an HDMI port
-If your computer does not have an HDMI port, but does have a DisplayPort (DP), mini DisplayPort (miniDP) or USB Type-C (USB-C) port for outputting video, you may need to use a [supported adapter](recommended-adapters-for-windows-mixed-reality-capable-pcs.md).
+If your computer does not have an HDMI port but does have a DisplayPort (DP), mini DisplayPort (miniDP) or USB Type-C (USB-C) port for outputting video, you may need to use a [supported adapter](recommended-adapters-for-windows-mixed-reality-capable-pcs.md).
 
 ### Can I use USB or HDMI extension cables with Windows Mixed Reality headsets?
-Windows Mixed Reality headsets do not officially support the use of USB or HDMI extension cables. Using these cables may significantly impact your Mixed Reality experience because of variances in resulting signal integrity and bus power between your PC's USB controller and the Mixed Reality headset.
-
-If you're running into any of the following symptoms while using Windows Mixed Reality, try your headset without any extension cables to see if the symptoms persist:
-* Headset displays briefly show a blue screen and then turn black and Mixed Reality Portal restarts, or completely de-enumerates during use
-* Headset audio cuts out during use or becomes glitchy
-* Headset flickers between black and the correct display
+Windows Mixed Reality headsets do not officially support the use of USB or HDMI extension cables. Using these cables may significantly impact your Mixed Reality experience because of variances in resulting signal integrity and bus power between your PC's USB controller and the Mixed Reality headset. If the headset display briefly shows a blue screen and then turn black and Mixed Reality Portal restarts or completely de-enumerates during use, or if the headset audio cuts out or becomes glitchy, or if the headset flickers between black and the correct display, try using your headset without extension cables.
 
 ### I am getting a "Check your display cable" error
 
