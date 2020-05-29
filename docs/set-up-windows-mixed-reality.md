@@ -8,6 +8,21 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, get sta
 
 # Set up Windows Mixed Reality
 
+## Prequisites (Graphics Drivers)
+Windows Mixed Reality requires a WDDM 2.2 or later graphics driver in order to complete Mixed Reality setup. If your PC does not already have a compatible graphics driver, please try these sources:
+1. Check for the latest critical driver updates using Windows Update (**Start -> Windows Settings -> Update and Security -> Check for Updates**)
+2. Check for the latest optional driver updates using Device Manager (Right-click **Start -> Device Manager** -> expand **Display Adapters** -> right-click on the graphics card, choose **Update Driver -> Search automatically for updated driver software**)
+3. The website for the manufacturer (OEM) of your PC
+4. The website for the manufacturer of the graphics card in your PC (e.g., AMD, Intel, NVIDIA)
+
+### Graphics Driver Troubleshooting 
+If Windows Mixed Reality setup says your graphics card doesn’t meet the requirements and you think it does, make sure your headset is plugged into the correct card.
+
+This flow chart below helps further explain the best steps to acquire a WDDM 2.2 or later graphics driver.
+
+![Troubleshooting Flow Chart for Graphics Drivers](images/graphics-driver.jpg)
+
+
 ## Set up your motion controllers
 The first step is to set up your Motion Controllers. If you plan to use an Xbox gamepad or keyboard and mouse you can skip this step. 
 
