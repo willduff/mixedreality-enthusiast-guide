@@ -144,23 +144,23 @@ Windows Mixed Reality headsets do not officially support the use of USB or HDMI 
 
 ### The Mixed Reality Portal did not launch automatically after I plugged in my headset
 
-The headset might hot have been detected properly because of an underlying issue. Try launching the Mixed Reality Portal manually and look for any error messages that appear. 
+The headset might not have been detected properly because of an underlying issue. Try launching the Mixed Reality Portal manually and look for any error messages that appear. 
 
-### My headset stopped working after putting my PC to sleep, hibernate, or restarting my PC with my headset attached
+### My headset stopped working after putting my PC to sleep, into hibernation mode, or when restarting my PC with my headset attached
 
 1. Open Device Manager and confirm that your headset is listed under "Mixed Reality devices".
 2. Double click on your headset under "Mixed Reality devices" and confirm that the device status indicates "This device is working properly".
 3. If you see a "Code 43" error indicating that the device has stopped working, or if you don't see your headset listed under "Mixed Reality devices", try unplugging and replugging in your headset's USB cable.
 
-Note: Microsoft is investigating a potential software/driver interoperability issue which may result in the "Code 43" error above, after putting your PC to sleep or hibernate. The workaround is to unplug and replug your headset's USB cable. This issue affects a small number of PCs, and is expected to be resolved in a future update to the Mixed Reality headset driver.
+Note: Microsoft is investigating a potential software/driver interoperability issue which may result in the "Code 43" error above, after putting your PC to sleep or into hibernation mode. The workaround is to unplug and replug your headset's USB cable. This issue affects a small number of PCs, and is expected to be resolved in a future update to the Mixed Reality headset driver.
 
-### My headset causes my PC to generate a Bug Check (blue screen) when I put my PC to sleep or hibernate
+### My headset causes my PC to generate a Bug Check (blue screen) when I put my PC to sleep or into hibernation mode
 
-Note: Microsoft is investigating a potential software/driver interoperability issue which may result in a small number of PCs potentially generating a "9F" Bug Check (blue screen) when the PC is put to sleep or hibernate with the headset attached. This issue is expected to be resolved in a future update to the Mixed Reality headset driver.
+Microsoft is investigating a potential software/driver interoperability issue which may result in a small number of PCs potentially generating a "9F" Bug Check (blue screen) when the PC is put to sleep or into hibernation mode with the headset attached. This issue is expected to be resolved in a future update to the Mixed Reality headset driver.
 
 ### The headset driver did not install automatically when I plugged in the headset
 
-On new PCs, or PCs with a newly installed copy of Windows 10, the headset driver could be queued behind other Windows Updates and may not install immediately. To install it manually:
+On new PCs, or PCs with a newly installed copy of Windows 10, the headset driver could be queued behind other Windows updates and may not install immediately (note that if you have an "N"-edition of Windows, you will need to switch to a regular edition of Windows 10 to use Windows Mixed Reality). To install it manually:
 
 * Open the Device Manager (**Start > Device Manager**), look under **Other devices** for a **HoloLens Sensors** device with a yellow exclamation mark:
 ![View of Device Manager HoloLens Sensors](images/hololenssensors.png)
@@ -169,8 +169,6 @@ On new PCs, or PCs with a newly installed copy of Windows 10, the headset driver
 * Right click on the device again and select **Update Drivers...** and then **Search automatically for updated driver software**
 After the device updates, you should see your headset listed under "Mixed Reality devices" in Device Manager:
 ![Mixed Reality Device appear in Device Manager](images/mixedrealitydevices.png)
-
-**Note**:If you have an "N"-edition of Windows, you will need to switch to a regular edition of Windows 10 to use Windows Mixed Reality. 
 
 If the manual install doesn’t work, or you don't find the driver under Other Devices, then you probably need to uninstall the existing driver and reinstall it. To do that:
 * Open Device Manager (**Start > Device Manager**), and look under **Mixed Reality devices** for your headset. The device status should indicate that "The device is working properly."
