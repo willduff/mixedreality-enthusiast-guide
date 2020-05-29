@@ -154,7 +154,7 @@ This setting controls the behavior of Windows Mixed Reality in response to your 
 
 This setting is available on Windows 10, version 1903, or newer.
 
-## Installing Microsoft Edge (Optional)
+## Installing Microsoft Edge (optional)
 
 To use the new Chromium-based Microsoft Edge in Windows Mixed Reality home, **upgrade to Windows 10 Version 1903 or later for native support of Win32 applications (like the new Microsoft Edge)** in Windows Mixed Reality home. Check Windows Update or [manually install the latest version of Windows 10](https://www.microsoft.com/software-download/windows10).
 
