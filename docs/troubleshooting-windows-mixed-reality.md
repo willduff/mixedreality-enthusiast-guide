@@ -115,17 +115,11 @@ Windows Mixed Reality headsets do not officially support the use of USB or HDMI 
 ### A message says "Connect your headset" even though I’ve plugged in my headset
 
 1. Make sure your headset's USB and HDMI cables are securely connected to your PC. Your headset's USB cable should be plugged into a USB 3.0 port (try another USB 3.0 port if possible). Your headset's HDMI cable should be plugged into your PC's discrete graphics card.
-
 2. Try unplugging both the USB and HDMI cables from your headset, then plug them back in. When plugging in the USB cable, do it quickly (try not to pause during insertion of the USB cable).
-
 3. Open Device Manager and confirm that your headset is listed under "Mixed Reality devices". Double click on your headset under "Mixed Reality devices" and confirm that the device status indicates "This device is working properly". Yellow exclamation marks on devices listed in Device Manager indicate errors reported by the devices connected to your PC.
-
     * If "Hololens Sensors" is listed with a yellow exclamation mark in Device Manager, double click on the device. If you see a **"Code 10: The drivers for this device are not installed. There are no compatible drivers for this device"**, follow the [instructions](troubleshooting-windows-mixed-reality.md#manually-installing-the-headset-driver) to manually install the headset driver.
-
     * If you use multiple Mixed Reality headsets on your PC and have manually installed the Mixed Reality headset driver before, in some circumstances the manual driver update may only apply to the headset connected at the time and not to your other headsets. In this case, you'll see **"Code 31: This device is not working properly because Windows cannot load the drivers required for this device. (Code 31). The ALPC message requested is no longer available"** in Device Manager. In Device Manager, right click on your headset under "Mixed Reality devices", and click "Uninstall device". Click OK to confirm and then unplug and replug your headset.
-
 4. If you're seeing partial enumeration of the headset (a series of USB devices enumerate, but nothing under "Mixed Reality headsets" in Device Manager), try an externally powered USB 3.0 hub.
-
 5. Connect your headset to another PC and open Device Manager. Even if that PC is not fully compatible with Windows Mixed Reality, you can check to see if your headset enumerates. If your headset does not enumerate on multiple PCs, it could have a hardware issue.
 
 **Note for Surface users:** Earlier versions of the Surface Dock and Surface Book USB Hub firmware update software are incompatible with Mixed Reality headsets. If you get a "Connect your headset" message on a Surface PC, check to see if any devices are reporting a **"Code 10: The device cannot start" error** in Device Manager. If so, [remove the conflicting driver](https://support.microsoft.com/en-us/help/4032123/kinect-sensor-is-not-recognized-on-a-surface-book). You should only need to do this once.
@@ -185,20 +179,20 @@ If the manual install doesn’t work, or you don't find the driver under Other D
 
 ### My headset displays are black
 
-* Check your PC performance and stability
+* Check your PC performance and stability:
     * Use the Task Manager to see if any processes are maxing out your PC's CPU, GPU, and/or disk drives.
     * Look at the Applications and System Event Logs in Windows (using Event Viewer) to see if you have an app that is frequently crashing and generating Windows Error Reporting (WER) reports.
     * Check Windows Update to make sure your version of Windows is current. You may have to select "Check for Updates" multiple times.
-* Check app and game stability
+* Check app and game stability:
     * Ensure that your PC meets the minimum system requirements to run any app/game that is not performing correctly.    
     * Make sure your GPU driver version is recent, and check for any new performance and compatibility issues and regressions on new drivers.
     * If you are using SteamVR apps and games, make sure SteamVR and the Windows Mixed Reality for SteamVR components are up to date.
-* Check HDMI adapter compatibility
+* Check HDMI adapter compatibility:
     * Make sure that the HDMI cable is plugged in all the way.
     * If you're using an HDMI adapter (for example, a Mini DisplayPort to HDMI adapter), make sure it is compatible with Windows Mixed Reality. The adapter must support HDMI 2.0, and there are many older adapters that only support 1080p. See [Recommended adapters for Windows Mixed Reality](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs).
     * Plug order can be important. Connect the HDMI adapter to your PC before connecting the headset to the adapter, especially if you're using a USB-C to HDMI adapter. 
     * Try removing extension cables if you are using them.
-* Check graphics card and driver compatibility
+* Check graphics card and driver compatibility:
     * Try your PC's HDMI port with a PC monitor. Some PCs may have more than one HDMI port, and not all of them may be active.
     * If your PC has both an integrated graphics processing unit (iGPU) and a discrete graphics processing unit (dGPU), make sure that you are plugged into your dGPU's HDMI port.<br> ![HDMI Ports](images/HP_HDMI_Ports_s.png)
     * Double check your GPU driver version. Make sure it's recent, but also pay attention to any new performance and compatibility issues and regressions on brand new drivers.
@@ -211,7 +205,7 @@ If the manual install doesn’t work, or you don't find the driver under Other D
     * HP Omen PCs with HP product number 1RJ99EA#ABU have HDMI ports that are incompatible with Windows Mixed Reality. To look this up, open up the "HP Support Assistant" and the product number will be listed towards the bottom of the app.
     * If your PC has an AMD R9-series graphics card and you're using a Samsung Mixed Reality headset, you'll need to update your headset's firmware to version 1.0.8 or newer in order to use the HDMI port of your graphics card with the headset.
     * If you're using a Surface Book 2, please make sure you're using the [Surface USB-C to HDMI adapter](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs).
-* Check for a Mixed Reality headset hardware issue
+* Check for a Mixed Reality headset hardware issue:
     * To confirm or rule out hardware issues with your Mixed Reality headset, try connecting your Mixed Reality headset to another PC. 
     * Check for PC compatibility and setup issues first, as the symptoms are very similar.
 * Check to make sure the USB cable is plugged into a USB 3.0 or faster port. USB 3.0 ports have SS (Super Speed) written next to them. They are often (but not always) colored blue.		
@@ -269,6 +263,7 @@ On a laptop with integrated graphics and an Nvidia GPU, an error occurs after a 
 
 For a direct install of Nvidia Graphics Driver 436.48, visit [NVIDIA](https://www.nvidia.com/Download/driverResults.aspx/152007/en-us).
 
+
 ## "Something Went Wrong" error codes and how to resolve them
 
 | **Windows 10 error codes** (version 1809/versions 1709, 1803) | **Error message and troubleshooting suggestions**                    |
@@ -294,21 +289,21 @@ For a direct install of Nvidia Graphics Driver 436.48, visit [NVIDIA](https://ww
 |   -     / H0002000-0    | **Your PC's operating system has gotten into a mismatched state for Windows Mixed Reality**<br/><br/>Check Windows Updates for updates. |
 |   -     / S0002261-101, S0002361-101 | **A problem with a Mixed Reality shell component is preventing Mixed Reality Portal from starting properly**<br/><br/><ul><li>Open the Application Log using Event Viewer on your PC to check for any application crashes at around the time you tried to start Windows Mixed Reality.</li><li>Make sure your graphics driver is up-to-date.</li><li>The HDMI adapter you are using is incompatible with Windows Mixed Reality. See the supported and recommended HDMI to mini display port (DP) dongle [here](recommended-adapters-for-windows-mixed-reality-capable-pcs.md).</li></ul> |
 
+
 ## Firmware update issues
 
 ### My Samsung Odyssey or Odyssey+ headset firmware update is getting stuck
 
 Samsung owns and publishes headset firmware updates delivered via their "Samsung HMD Odyssey Setup" and "Samsung HMD Odyssey+ Setup" Device Companion apps. For more details and for help with Samsung firmware update issues, please reach out to Samsung Customer Service.
 
-If the firmware update process is getting stuck, and there has been no progress for more than about five minutes, try to:
-
+If the firmware update process is getting stuck, and there has been no progress for more than about five minutes:
 * Unplug all of your other USB devices temporarily, and retry the firmware update
 * Connect your Samsung headset to a different USB 3.0 port on your PC
 * If you have any software installed that may interfere with firmware updates, for example, Gigabyte's AORUS App Center, please try disabling and/or uninstalling them first
 * Try using a different PC to perform the Samsung headset firmware update
 
 
-## Problems with your Motion Controllers
+## Problems with your motion controllers
 
 ### My controller is stuck in an infinite reboot (buzzing after LEDs cycle) OR the controller doesn't turn on at all
 
@@ -358,7 +353,6 @@ This folder is not accessible in Windows Explorer, and can only be modified from
 If you're able to see your Motion Controllers in the cliff house, but not in SteamVR apps and games, the Motion Controller model driver may not be installed properly. This driver is typically automatically downloaded and installed via Windows Update, but if you're on a PC that has enterprise policies or if Windows Update is otherwise restricted, you may need to install this manually.
 
 To check that the Motion Controller model driver is correctly installed:
-
 1. Turn on both of your motion controllers, and make sure both of them show up as "Connected" in the Settings app under Devices > Bluetooth & other devices. If they do not show up or show up as "Paired", follow the instructions above to properly pair your motion controllers.
 2. Open Device Manager and look for "Motion controller - Left" and "Motion controller - Right" under "Bluetooth"
 3. Single click either of the two devices, and then go to View > Devices by Connection.
@@ -480,11 +474,9 @@ If your Bluetooth settings have motion controllers already paired, Windows won�
 
 ### Motion controllers (headsets with built-in Bluetooth)
 
-Some Windows Mixed Reality headsets, including the Acer OJO 500 and Samsung Odyssey+, have built-in Bluetooth radios for use with motion controllers. 
+Some Windows Mixed Reality headsets, including the Acer OJO 500 and Samsung Odyssey+, have built-in Bluetooth radios for use with motion controllers. The motion controllers that come with these headsets are pre-paired to the headset from the factory, and do not require your PC to have a separate Bluetooth radio. These motion controllers _can_ be manually paired to your PC's Bluetooth radio, for example, for use with Windows Mixed Reality headsets that do not have built-in Bluetooth radios.
 
-* The motion controllers that come with these headsets are pre-paired to the headset from the factory, and do not require your PC to have a separate Bluetooth radio.
-* These motion controllers _can_ be manually paired to your PC's Bluetooth radio, for example, for use with Windows Mixed Reality headsets that do not have built-in Bluetooth radios.
-* To return the motion controllers to their factory pairing, or to pair them with a Windows Mixed Reality headset with built-in Bluetooth radio, simply run the headset's device companion app (for example, the "Acer OJO 500" app or the "Samsung HMD Odyssey+ Setup" app, automatically installed the first time the headset is plugged in) and follow the instructions for motion controller pairing.
+To return the motion controllers to their factory pairing, or to pair them with a Windows Mixed Reality headset with built-in Bluetooth radio, simply run the headset's device companion app (for example, the "Acer OJO 500" app or the "Samsung HMD Odyssey+ Setup" app, automatically installed the first time the headset is plugged in) and follow the instructions for motion controller pairing.
 
 
 ## Performance questions
@@ -494,8 +486,7 @@ Some Windows Mixed Reality headsets, including the Acer OJO 500 and Samsung Odys
 The easiest way to check if Windows Mixed Reality is running at 60 Hz or 90 Hz is to use the [Device Portal](https://docs.microsoft.com/windows/uwp/debug-test-perf/device-portal) -> Performance tab. 
 The Headset display -> visual quality settings only affect the rendering of the Windows Mixed Reality Home experience.
 * If you have a discrete GPU with HDMI 2.0 ports and a CPU with 4+ physical cores, you should be getting 90 Hz.
-* If your GPU only has a HDMI 1.4 output, you can use a DisplayPort to HDMI 2.0 adapter as a workaround. 
-[View the full list of recommended adapters here](https://holodocswiki.com/wiki/Recommended_adapters_for_Windows_Mixed_Reality_Capable_PCs) 
+* If your GPU only has a HDMI 1.4 output, you can use a DisplayPort to [HDMI 2.0 adapter](https://holodocswiki.com/wiki/Recommended_adapters_for_Windows_Mixed_Reality_Capable_PCs) as a workaround. 
 
 ### What do I do if my PC appears to be running slowly?
 
@@ -512,6 +503,7 @@ The system may be sluggish for many reasons and in most cases this will subside 
 2. Make sure that the fans that blow air into or out of the PC are not blocked.
 3. Use the PC in a relatively cool environment.
 4. Make sure there are no heat sources (for example, the sun or heat vents) pointed at the PC.
+
 
 ## Tracking System
 
@@ -616,12 +608,12 @@ WebVR is only supported by Windows Mixed Reality devices in Edge at this time.
 ### When I enter VR from a website, why do I see a blank screen in my headset?
 
 It is possible that the website has not implemented support for Multi GPU machines (including Hybrid GPU laptops). Things to try:
-* Reloading the page may help.
+* Reload the page.
 * On desktop machines, plug the headset into the same graphics adapter as the monitor that is displaying Microsoft Edge. Try to plug both into the higher powered graphics card, not the integrated graphics adapter.
 
 ### When I exit VR when watching a video from Edge, the sound continues playing but the Edge window is grayed out
 
-This is a known issue when running WebVR from Edge in the Mixed Reality cliffhouse. To resolve it, press escape on the keyboard rather than pressing the windows button to exit the WebVR experience, or activate the greyed out Edge window by selecting it, and then stop the video.
+This is a known issue when running WebVR from Edge in the Mixed Reality cliffhouse. To resolve it, press escape on the keyboard rather than pressing the windows button to exit the WebVR experience, or activate the greyed out Edge window by selecting it and then stop the video.
 
 ### Can I use WebVR on the HoloLens?
 
@@ -655,6 +647,7 @@ You can report broken sites directly to the Microsoft Edge browser team in the [
 ### Why does Haptic feedback not work in WebVR with motion controllers?
 
 Microsoft Edge does not currently support haptics on the WebVR gamepad API extensions.
+
 
 ## SteamVR questions
 
@@ -724,6 +717,7 @@ Reset your position:
 2. Click the **Settings** button
 3. Click **Reset Seated Position**
 
+
 ## Speech and audio problems
 
 ### I can't hear any sound in my headset, or sound is playing through my computer
@@ -783,6 +777,7 @@ If you only have one audio headset and not an headset with built in headphones, 
 
 Windows Mixed Reality environments and the applications within, such as placing a web browser on the wall of the Cliff House or the Sky Loft use the Windows Sonic for Headphones spatial audio technology. This technology differs from others in that it is customized for mixed reality experiences. Other spatial audio technologies can be applied for full screen applications like SteamVR games but not for the Windows Mixed Reality shell environments which have been specially designed using Windows Sonic for Headphones spatial sound and acoustics. So trying to switch Dolby Atmos for Headphones on the endpoint used for Windows Mixed Reality is not supported.
 
+
 ## Questions about Desktop in Mixed Reality
 
 ### How do I access my PC desktop in Mixed Reality?
@@ -801,14 +796,14 @@ Note that you will have to reselect the monitor to show on each Desktop app ever
 ### My Desktop app only shows a black screen
 If your PC has an Nvidia hybrid GPU, the issue may be caused by Nvidia device running the runtimebroker.exe on the discrete GPU instead of the integrated one. To fix this issue, follow these instructions under "[How do I create Optimus settings for a new program?](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/~/how-do-i-customize-optimus-profiles-and-settings%3F)" to add C:\windows\system32\runtimebroker.exe and force it to run on the "Integrated graphics" processor. 
 
-## Questions about uninstalling Mixed Reality
+
+## How to uninstall Windows Mixed Reality
 
 ### How do I uninstall Windows Mixed Reality?
 Go to  **Settings -> Mixed Reality -> Uninstall**. 
 
 ### I got a "We couldn't finish uninstalling Windows Mixed Reality" message
-Experienced users can modify the registry and use Windows PowerShell to run commands. **If you modify the registry incorrectly, serious problems might occur. Make sure to follow these steps carefully. For added protection, back up your registry before you modify it so you can restore it if a problem occurrs.** For more info, see [How to back up and restory the registry in Windows](https://support.microsoft.com/en-us/help/322756/how-to-back-up-and-restore-the-registry-in-windows). 
-
+You can modify the registry and use Windows PowerShell to run commands. **If you modify the registry incorrectly, serious problems might occur. Make sure to follow these steps carefully. For added protection, back up your registry before you modify it so you can restore it if a problem occurrs.** For more info, see [How to back up and restory the registry in Windows](https://support.microsoft.com/en-us/help/322756/how-to-back-up-and-restore-the-registry-in-windows). To uninstall Windows mixed reality using these commands:
 1. Restart your PC.
 2. In the **Search** box, type "regedit" and then select **Yes**.
 3. Remove the following registry values:
