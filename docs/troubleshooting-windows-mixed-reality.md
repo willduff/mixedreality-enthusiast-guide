@@ -216,7 +216,9 @@ If the manual install doesn’t work, or you don't find the driver under Other D
     * Check for PC compatibility and setup issues first, as the symptoms are very similar.
 * Check to make sure the USB cable is plugged into a USB 3.0 or faster port. USB 3.0 ports have SS (Super Speed) written next to them. They are often (but not always) colored blue.		
 
-Also consult the headset black screen troubleshooting flow chart below.
+If helpful, consult the headset black screen troubleshooting flow chart below.
+
+![Black screen/Can't see anything](images/hmd-connectivity.jpg)
 
 ### My headset display occasionally turns black after some time
 
@@ -242,25 +244,20 @@ This typically indicates an occasional USB controller reliability issue on your 
 
 ### My headset causes my PC to hang or show a black screen while starting up
 
-On some PCs, leaving your headset plugged in before turning on your PC or while rebooting your PC may interfere with the PC's startup process. Your PC could select the headset displays as the "primary monitor" to show PC startup progress or it could be prevented from starting up properly and may 'hang' and/or produce a beeping error code. The exact behavior depends largely on the PC make and model, and/or the make and model of the graphics card. While this is not an issue with Windows, you may be able to work around this:
+On some PCs, leaving your headset plugged in before turning on or while rebooting your PC may interfere with its startup process. Your PC could select the headset displays as the "primary monitor" to show PC startup progress or it could be prevented from starting up properly and may 'hang' and/or produce a beeping error code. The exact behavior depends largely on the PC make and model, and/or the make and model of the graphics card. You may be able to work around this:
 * Connect your headset to a different port on your graphics card. In some cases, you may need to use an adapter to use the other ports.
 * Make sure your PC's BIOS / UEFI firmware is up-to-date (note: only update your PC's BIOS / UEFI firmware if you're comfortable with doing so)
 
 ### My PC or headset displays flicker, flash or remain black when using a Surface PC
 
-* Make sure you're using a compatible HDMI adapter. Specifically, make sure the HDMI adapter supports HDMI 2.0. Many older HDMI adapters only support 1080p resolution, which is insufficient for Mixed Reality headsets
+* Make sure you're using an HDMI adapter that supports HDMI 2.0. Many older HDMI adapters only support 1080p resolution, which is insufficient for Mixed Reality headsets
 * Make sure your graphics driver is up-to-date. In addition to checking Windows Update, you may wish to check the PC manufacturer's website for an updated graphics driver
-
-**Note:** Not all Surface devices are compatible with Windows Mixed Reality.  Learn more about [Surface compatiblity and requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md#windows-mixed-reality-and-surface) 
+* Some Surface devices are incompatible with Windows Mixed Reality. Learn more about [Surface compatiblity and requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md#windows-mixed-reality-and-surface) 
 
 ### My headset displays are very choppy, but Mixed Reality Portal's preview window appears fine
 
-* Make sure your PC's system resources (CPU, memory and hard drive) are available and not pegged or maxed out by another app or process.
-* Try updating your graphics driver.
-
-### Troubleshooting Flowchart
-
-![Black screen/Can't see anything](images/hmd-connectivity.jpg)
+* Make sure your PC's system resources (CPU, memory, and hard drive) are available and not pegged or maxed out by another app or process.
+* Update your graphics driver.
 
 
 ## I am getting a "Something Went Wrong" error code
