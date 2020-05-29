@@ -124,15 +124,13 @@ Windows Mixed Reality headsets do not officially support the use of USB or HDMI 
 
     * If you use multiple Mixed Reality headsets on your PC and have manually installed the Mixed Reality headset driver before, in some circumstances the manual driver update may only apply to the headset connected at the time and not to your other headsets. In this case, you'll see **"Code 31: This device is not working properly because Windows cannot load the drivers required for this device. (Code 31). The ALPC message requested is no longer available"** in Device Manager. In Device Manager, right click on your headset under "Mixed Reality devices", and click "Uninstall device". Click OK to confirm and then unplug and replug your headset.
 
-![Mixed Reality Device appear in Device Manager](images/mixedrealitydevices.png)
-
 4. If you're seeing partial enumeration of the headset (a series of USB devices enumerate, but nothing under "Mixed Reality headsets" in Device Manager), try an externally powered USB 3.0 hub.
 
 5. Connect your headset to another PC and open Device Manager. Even if that PC is not fully compatible with Windows Mixed Reality, you can check to see if your headset enumerates. If your headset does not enumerate on multiple PCs, it could have a hardware issue.
 
-**Note for Surface users:** Earlier versions of the Surface Dock and Surface Book USB Hub firmware update software are incompatible with Mixed Reality headsets. If you get a "Connect your headset" message on a Surface PC, check to see if any devices are reporting a **"Code 10: The device cannot start" error** in Device Manager. If so, follow these [instructions](https://support.microsoft.com/en-us/help/4032123/kinect-sensor-is-not-recognized-on-a-surface-book) to remove the conflicting driver. You should only need to do this once.
+**Note for Surface users:** Earlier versions of the Surface Dock and Surface Book USB Hub firmware update software are incompatible with Mixed Reality headsets. If you get a "Connect your headset" message on a Surface PC, check to see if any devices are reporting a **"Code 10: The device cannot start" error** in Device Manager. If so, [remove the conflicting driver](https://support.microsoft.com/en-us/help/4032123/kinect-sensor-is-not-recognized-on-a-surface-book). You should only need to do this once.
 
-**Note for Windows 10 N users:** If your PC is running Windows 10 N, you'll see a **"Code 28: The install class is not present or is invalid" error** in Device Manager after plugging in your Mixed Reality headset. Unfortunately, N-editions of Windows 10 are not supported by Windows Mixed Reality. Follow these [instructions](troubleshooting-windows-mixed-reality.md#im-getting-a-the-install-class-is-not-present-or-is-invalid-error-in-device-manager) for more information.
+**Note for Windows 10 N users:** If your PC is running Windows 10 N, you'll see a **"Code 28: The install class is not present or is invalid" error** in Device Manager after plugging in your Mixed Reality headset. N-editions of Windows 10 are not supported by Windows Mixed Reality. Follow these [instructions](troubleshooting-windows-mixed-reality.md#im-getting-a-the-install-class-is-not-present-or-is-invalid-error-in-device-manager) for more information.
 
 ### A message says "Check your USB cable" or "Insufficient USB speed"
 
@@ -140,8 +138,8 @@ Windows Mixed Reality headsets do not officially support the use of USB or HDMI 
 
 * Make sure that your headset's USB cable is plugged in all the way.
 * Run the [Windows Mixed Reality PC Check](https://aka.ms/pccheckapp) app to make sure your PC's USB 3.0 controller is supported.
-* Try each of the other USB 3.0 ports on your PC. Some PCs may have more than one USB 3.0 controller.
-* Try temporarily disconnecting all of your USB devices attached to your PC, and connecting just your headset.
+* Try each of the other USB 3.0 ports on your PC. Some PCs have more than one USB 3.0 controller.
+* Temporarily disconnect all of the USB devices attached to your PC, and only connect your headset.
 
 **Other troubleshooting steps:**
 
