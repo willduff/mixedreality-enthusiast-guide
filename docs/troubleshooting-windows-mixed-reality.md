@@ -353,29 +353,29 @@ This folder is not accessible in Windows Explorer and can only be modified from 
 If you're able to see your Motion Controllers in the cliff house, but not in SteamVR apps and games, the Motion Controller model driver may not be installed properly. This driver is automatically downloaded and installed via Windows Update, but if you're on a PC that has enterprise policies or if Windows Update is otherwise restricted, you may need to install this manually.
 
 To check that the Motion Controller model driver is correctly installed:
-1. Turn on both of your motion controllers, and make sure both of them show up as "Connected" in the Settings app under Devices > Bluetooth & other devices. If they do not show up or show up as "Paired", [pair your motion controllers](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality).
-2. Open Device Manager and look for "Motion controller - Left" and "Motion controller - Right" under "Bluetooth"
+1. Turn on both of your motion controllers, and make sure both of them show up as "Connected" in the Settings app under Devices > Bluetooth & other devices. If they do not show up or show up as "Paired", [pair them](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality).
+2. Open Device Manager and look for "Motion controller - Left" and "Motion controller - Right" under "Bluetooth".
 3. Single click either of the two devices, and then go to View > Devices by Connection.
 4. You will now see a view of the Motion Controller Bluetooth devices roll up to your Bluetooth radio. Under the same node as the two Motion Controllers should be two **Bluetooth HID Device** devices, and under each Bluetooth HID Device should be devices named **Motion Controller** (with gray icons).
-5. Double click each of the "Motion Controller" devices and go to the **Driver** tab. Confirm that the Driver Version listed corresponds to the Motion Controller model driver versions listed on [this page](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/mixed-reality-software#mixed-reality-motion-controller-model-driver-release-history)
+5. Double click each of the "Motion Controller" devices and go to the **Driver** tab. Confirm that the Driver Version listed corresponds to one of [these Motion Controller model driver versions](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/mixed-reality-software#mixed-reality-motion-controller-model-driver-release-history).
 
-To manually download and install the Motion Controller model driver, please visit [this page](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/mixed-reality-software#mixed-reality-motion-controller-model-driver-release-history) and look for the driver version corresponding to your version of Windows 10. Installation instructions are available on the download page.
+To manually download and install the Motion Controller model driver, visit [this page](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/mixed-reality-software#mixed-reality-motion-controller-model-driver-release-history) and look for the driver version corresponding to your version of Windows 10. Installation instructions are available on the download page.
 
 ### The Motion controllers firmware update takes significantly longer than two minutes
 
 Check the [Bluetooth Best Practices section](troubleshooting-windows-mixed-reality.md#bluetooth-best-practices) below. Poor Bluetooth link quality is ususally the cause of these problems.
 
-### I just inserted fresh batteries but controller virtual battery level does not indicate full level
+### I just inserted fresh batteries but the controller virtual battery level does not indicate full level
 
-Motion controller battery level is tuned for AA batteries, some low voltage rechargeable batteries may not report full although being fully charged.
+Motion controller battery level is tuned for AA batteries, and some low voltage rechargeable batteries may not report as full although being fully charged.
 
 ### My controller does not vibrate when battery is low
 
-Haptics is disabled when battery level gets low, replace with fresh batteries to get rumble back.
+Haptics is disabled when battery level gets low. Replace your batteries.
 
 ### My device vibrated three times and then shutdown
 
-Your batteries are running low and hitting the cut-off threshold. Replace them with fresh batteries.
+Your batteries are running low and hit the cut-off threshold. Replace your batteries.
 
 ### My Samsung Motion Controller’s touchpad is off-center or has a dead spot 
 
@@ -383,15 +383,16 @@ This is probably a hardware defect and you should go back to your retailer or eq
 
 ### Controller device recovery
 
-If the controller isn’t working correctly and you’re unable to update the device, restore the device to factory conditions. To do this:
+If the controller isn’t working correctly and you can't update the device, restore it to factory conditions. You will need fresh batteries. To do this:
 1. Unplug and power off the controllers.
 2. Open the battery cover.
-3. Insert batteries (ensure you have good batteries when performing device recovery).
-4. Press and hold pairing button (tab at the bottom under the batteries).
-5. While holding pairing button, power on the controller by pressing and holding the Windows button for five seconds (keep both buttons depressed).
-6. Release buttons and wait for controller to power on. This takes up to 15 seconds and there are no indicators when device recovery is happening. If device powers on immediately on button release, recovery button sequence did not get registered and you need to try again.
-7. Remove old controller associations from Bluetooth settings (**Settings->Bluetooth>other devices**, select **"Motion controller - Left"** or **"Motion controller - Right"** and **Remove device**. After that pair controller with PC again.
-8. After connecting with host and HMD, device will update to the latest available firmware.
+3. Insert your new batteries.
+4. Press and hold the pairing button (the tab at the bottom under the batteries).
+5. While holding the pairing button, power on the controller by pressing and holding the Windows button for five seconds (keep both buttons depressed).
+6. Release buttons and wait for controller to power on. This takes up to 15 seconds and there are no indicators when device recovery is happening. If device powers on immediately on button release, the recovery button sequence did not get registered and you need to try again.
+7. Remove old controller associations from Bluetooth settings (**Settings->Bluetooth>other devices**, select **"Motion controller - Left"** or **"Motion controller - Right"** and **Remove device**). 
+8. Pair the controller with the PC again.
+9. After connecting with host and HMD, device will update to the latest available firmware.
 
 ### Lights and indicators
 
