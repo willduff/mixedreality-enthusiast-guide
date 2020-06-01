@@ -38,6 +38,15 @@ If the previous solutions don't work, try:
     * Restart your PC and try again. 
     * If Windows Mixed Reality installs correctly, reinstall the latest updates under **Settings > Windows Update > Check for Updates** and see if Windows Mixed Reality continues to work. If it does not install correctly, reinstall the latest updates and contact Windows Support. 
 
+### I get a message that says "Something went wrong, and we couldn't start Windows Mixed Reality."
+* Unplug both cables of your headset from the PC.
+* Restart the PC.
+* Go **Settings > Update & security > Windows Update** and make sure Windows Update is turned on. Then, download and install any updates that are waiting to be installed.
+* Reconnect your headset to the PC and then try setup again.
+
+If the above steps don’t work, try uninstalling and then reinstalling Windows Mixed Reality. Go to **Settings > Mixed reality > Uninstall** and select "Uninstall". Then restart your PC. To start the setup process again, just plug your headset into your PC.
+    
+
 ## Troubleshooting setup questions 
 
 ### My Xbox controller isn't working with Windows Mixed Reality.
