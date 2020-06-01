@@ -72,7 +72,7 @@ If input doesn't get toggled automatically, you will need to manually toggle inp
 
 ### How do I choose between "Seated and standing" and "All experiences"?
 
-If you choose "Seated and standing," either during headset setup or later on, you'll be using your headset without a boundary. You can sit down or stand up, but not move around. Some apps might be designed to work with a boundary, so you might not be able to use them or you might not have the same experience if you use them without a boundary. See "What's a boundary and why should I create one?" below for more information.
+If you choose "Seated and standing," either during headset setup or later on, you'll be using your headset without a boundary. You can sit down or stand up, but you'll otherwise need to stay in one place, as you’ll have no boundary to help you avoid physical obstacles. Some apps might be designed to work with a boundary, so you might not be able to use them or you might not have the same experience if you use them without a boundary. See "What's a boundary and why should I create one?" below for more information.
 
 If you choose "All experiences", you'll set up a boundary and you can use apps and experiences that work with a boundary as well as those that don't require one. 
 
@@ -100,7 +100,7 @@ If someone new uses your headset, make sure they understand the boundary and how
 * Don't get too close to a wall or other obstruction when creating a boundary.
 * Make sure to hold your headset at waist height, and face toward your computer while you trace the boundary.
 * Make sure the sensor isn’t blocked and there’s enough light.
-* The space you’re tracing should be larger than 3 square meters.
+* The space you’re tracing should be larger than three square meters.
 * The space should not be too large or too complicated. Stick to a simple geometric shape without a lot of twists and turns.
 * Don’t cross back over your own path as you’re tracing.
 * If you get stuck in a corner, start over.
@@ -327,6 +327,11 @@ On a laptop with integrated graphics and an Nvidia GPU, an error occurs after a 
 
 ### I’m experiencing discomfort when I use my headset.
 For general info about comfort in Windows Mixed Reality, see [Windows Mixed Reality immersive headset health, safety, and comfort](https://support.microsoft.com/en-us/help/4039969/windows-10-mixed-reality-immersive-headset-health-safety-comfort). For details about your specific headset, check with the headset manufacturer.
+
+### How can I get a clearer view in my headset?
+Try adjusting the fit of your headset. Adjust its position on your face by moving it up and down or left and right, and adjust the straps so it feels snug.
+
+If your headset supports it, you can also adjust its calibration settings. If the headset has a knob to adjust calibration, use that. If it doesn’t, go to **Settings > Mixed reality > Visual quality** and adjust the calibration there. For more information on calibration for your specific device, check with your headset manufacturer.
 
 
 ## "Something Went Wrong" error codes and how to resolve them
@@ -875,6 +880,32 @@ The Experience options setting (**Settings > Mixed reality > Headset display > E
 * Automatic: Windows Mixed Reality will determine the best experience for your hardware configuration. For most people, this is the best choice to start with.
 * 60Hz: Sets the refresh rate to 60Hz and turns off certain features, such as video capture and preview in Mixed Reality Portal.
 * 90Hz: Sets the refresh rate to 90Hz.
+
+### What languages are supported in Windows Mixed Reality?
+
+Windows Mixed Reality is available in the following languages. If your PC is set to a different language, you can still use Windows Mixed Reality, but the interface will appear in English (United States), and speech commands and dictation won't be available.
+
+* Chinese Simplified (China)
+* English (Australia)
+* English (Canada)
+* English (Great Britain)
+* English (United States)
+* French (Canada)
+* French (France)
+* German (Germany)
+* Italian (Italy)
+* Japanese (Japan)
+* Spanish (Mexico)
+* Spanish (Spain)
+
+The Windows Mixed Reality on-screen keyboard is English (United States) only. To enter text in another language, use a physical keyboard connected to your PC. You can also use dictation in one of the supported Windows Mixed Reality languages listed above—just select microphone  on the on-screen keyboard.
+
+Windows Mixed Reality is also available in the following languages without speech commands or dictation features:
+
+* Chinese Traditional (Taiwan and Hong Kong)
+* Dutch (Netherlands)
+* Korean (Korea)
+* Russian (Russia)
 
 ### I have questions about my headset hardware.
 
