@@ -835,6 +835,11 @@ If the firmware update process is getting stuck, and there has been no progress 
 * Disabling and/or uninstall any software installed that may interfere with firmware updates, like Gigabyte's AORUS App Center.
 * Use a different PC to perform the Samsung headset firmware update.
 
+### My Wi-Fi slows down when I'm using Windows Mixed Reality.
+If you're using a 2.4GHz Wi-Fi connection, your motion controllers might slow down your Wi-Fi. Try one of the following:
+* Switch to a 5GHz Wi-Fi connection, if one is available. [Learn more](https://support.microsoft.com/en-us/help/4000461).
+* Use a separate Bluetooth adapter to connect your motion controllers to your PC. See [recommended adapters](https://support.microsoft.com/en-us/help/4039260/windows-10-mixed-reality-pc-hardware-guidelines).
+
 ### I got a message that said to plug in and charge my PC. Why?
 
 If you're using a laptop, Windows Mixed Reality works best when the PC is both fully charged and plugged in. 
