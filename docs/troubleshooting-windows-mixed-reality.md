@@ -47,7 +47,7 @@ You are probably on an enterprise managed network and your organization is using
 * Replace the controller’s batteries.
 * If you're using a Bluetooth controller, go to **Settings > Devices > Bluetooth & other devices** on your PC and make sure it's paired (it should be listed on the page).
 
-### I cannot direct input (controllers, gamepad, mouse/keyboard) into mixed reality.
+### I can't direct input (controllers, gamepad, mouse/keyboard) into mixed reality.
 
 When you put on your headset, input should automatically get toggled to your mixed reality experience through your headset's presence sensor. A blue bar should appear on your Desktop:
 
@@ -332,41 +332,29 @@ For a direct install of Nvidia Graphics Driver 436.48, visit [NVIDIA](https://ww
 |   -     / S0002261-101, S0002361-101 | **A problem with a Mixed Reality shell component is preventing Mixed Reality Portal from starting properly**<br/><br/><ul><li>Open the Application Log using Event Viewer on your PC to check for any application crashes at around the time you tried to start Windows Mixed Reality.</li><li>Make sure your graphics driver is up-to-date.</li><li>The HDMI adapter you are using is incompatible with Windows Mixed Reality. See the supported and recommended HDMI to mini display port (DP) dongle [here](recommended-adapters-for-windows-mixed-reality-capable-pcs.md).</li></ul> |
 
 
-## Firmware update issues
-
-### My Samsung Odyssey or Odyssey+ headset firmware update is getting stuck
-
-Samsung owns and publishes headset firmware updates delivered via their "Samsung HMD Odyssey Setup" and "Samsung HMD Odyssey+ Setup" Device Companion apps. For more details and for help with Samsung firmware update issues, please reach out to Samsung Customer Service.
-
-If the firmware update process is getting stuck, and there has been no progress for more than five minutes:
-* Unplug all of your other USB devices temporarily and retry the firmware update.
-* Connect your Samsung headset to a different USB 3.0 port on your PC.
-* Disabling and/or uninstall any software installed that may interfere with firmware updates, like Gigabyte's AORUS App Center.
-* Use a different PC to perform the Samsung headset firmware update.
-
-
 ## Motion controller problems
 
-### My Motion Controllers aren't working
+### My Motion Controllers aren't working properly
 
-1. Make sure the motion controllers show up as "Connected". "Paired" does not necessarily mean the controllers are connected to the PC. Controllers should appear under "Mouse, keyboard & pen" category. Motion controllers under "Other devices" have failed the pairing process and are not functional.
-2. If you're using an external USB Bluetooth Adapter, make sure it is connected to a USB 2.0 port (black) if available. Plug the USB Bluetooth Adapter into a port that is physically separated from:
-    * the headset USB connector
-    * flash drives
-    * hard drives
-    * wireless USB receivers like those for keyboards/mice
-Plug the USB Bluetooth Adapter into the opposite side of the computer as far as possible from these other connectors.
-3. Verify that there’s only one Bluetooth radio in the PC by right clicking on the Windows Start Menu and select Device Manager. Expand the Bluetooth section and look for one Adapter. If you are using the desktop PC configuration with built-in radio, check if an external antenna is connected. If there isn’t an external antenna connected, it can cause tracking issues. Or use an external bluetooth dongle (USB), disable the internal Bluetooth capability, and retry pairing and connecting.
-4. Close the Bluetooth settings window if it's open. Leaving it open in the background means that a lot of extra calls are made to the Bluetooth protocol.
-5. Check the virtual battery level on the motion controller. In mixed reality, turn the controllers over, and you'll be able to see a battery icon. If it is red, replace the batteries. Battery reporting typically reports higher than the actual level immediately after connecting a controller. Wait about 15 seconds to let the battery level stabilize and then read the level.
-6. Power off Bluetooth headphones and speakers. These are not supported with Windows Mixed Reality. You can use the headphone jack or built-in speakers on your Mixed Reality headset for the best audio experience.
-7. Unplug the USB cable on your headset and plugging it back into the PC to restart the controller functionality on the PC.
-8. Check the motion controllers LEDs. Brightly lit controllers are paired and connected, dimly lit controllers aren't connected.
-9. Controller lights flash when they are undergoing a firmware update. Wait for the firmware update to complete and the controllers should appear in Mixed Reality.
-10. If your laptop is connected to a 2.4GHz Wifi network (instead of a 5GHz network), it is typically sharing the Bluetooth connection. This may impact negatively either Wifi or Bluetooth performance, depending on the product design. To resolve this:
-* Change the preferred band to 5Ghz in the network adapter settings.
-* If your network does not support 5GHz, a Bluetooth dongle can be used instead of the internal Bluetooth capability.
-11. If your Bluetooth settings have motion controllers already paired, Windows won’t discover the new devices until those are removed. If they have been added using a specific dongle, they can be only removed with that dongle in place.
+If your motion controllers aren’t working, aren't connecting, or if you don’t see an image of the controllers when you’re wearing your headset, try the following:
+1. Make sure your controllers are turned on. To turn them on, press and hold the Windows button for two seconds.
+2. Select **Settings  > Devices > Bluetooth & other devices** on your PC and make sure the controllers are listed as paired. If they’re not, you’ll need to [pair them](https://support.microsoft.com/en-us/help/4040517/windows-10-controllers-windows-mixed-reality). 
+3. Make sure the motion controllers show up as "Connected". "Paired" does not necessarily mean the controllers are connected to the PC. Controllers should appear under "Mouse, keyboard & pen" category. Motion controllers under "Other devices" have failed the pairing process and are not functional. Check the motion controllers LEDs: Brightly lit controllers are paired and connected, dimly lit controllers aren't connected.
+4. Select **Start  > Mixed Reality Portal** on your PC and then select "Menu". You should see your motion controllers listed, along with a status message:
+    * Ready – The controllers are all set.
+    * Lost tracking – Mixed Reality Portal can’t find your controllers. Hold them in front of your headset and restart them by pressing the Windows button for 4 seconds, then again for 2 seconds.
+    * Low battery – Replace the controller batteries.
+5. If you're using an external USB Bluetooth Adapter, make sure it’s plugged into a black USB 2.0 port. It should also be plugged in as far away as possible from any other wireless transmitters or USB flash drives, including the USB connector for your headset. 
+6. Verify that there’s only one Bluetooth radio in the PC by right clicking on the Windows Start Menu and select Device Manager. Expand the Bluetooth section and look for one Adapter. If you are using the desktop PC configuration with built-in radio, check if an external antenna is connected. If there is no external antenna connected, it can cause tracking issues. Or use an external bluetooth dongle (USB), disable the internal Bluetooth capability, and retry pairing and connecting.
+7. Close the Bluetooth settings window if it's open. If it is open in the background, a lot of extra calls are made to the Bluetooth protocol.
+8. Check the virtual battery level on the motion controller. In mixed reality, turn the controllers over, and you'll be able to see a battery icon. If it is red, replace the batteries. Battery reporting typically reports higher than the actual level immediately after connecting a controller. Wait about 15 seconds to let the battery level stabilize and then read the level.
+9. Remove Bluetooth headphones and speakers in **Settings > Devices > Bluetooth & other devices**, and turn the devices off. Use the headphone jack or built-in speakers on your Mixed Reality headset for the best audio experience.
+10. If you have other Bluetooth devices paired with your PC, such as headphones or gamepads, remove some of them. Select **Settings > Devices > Bluetooth & other devices on your PC**, select the devices, and then select "Remove device".
+10. Unplug the USB cable on your headset and plugging it back into the PC to restart the controller functionality on the PC.
+11. Controller lights flash when they are undergoing a firmware update. Wait for the firmware update to complete and the controllers should appear in Mixed Reality.
+13. Make sure your PC is connected to a 5GHz Wi-Fi network. If your laptop is connected to a 2.4GHz Wifi network, it is typically sharing the Bluetooth connection. This may negatively impact either Wifi or Bluetooth performance, depending on the product design. Change the preferred band to 5Ghz in the network adapter settings. If your network does not support 5GHz, a Bluetooth dongle can be used instead of the internal Bluetooth capability.
+14. If your Bluetooth settings have motion controllers already paired, Windows won’t discover the new devices until those are removed (if they have been added using a specific dongle, they can be only removed with that dongle).
+15. If your PC has built-in Bluetooth and you’re having connection problems, try using a USB Bluetooth adapter instead. To do this, you’ll need to turn off your built-in Bluetooth radio in Device Manager and then pair your other Bluetooth devices with the new adapter.
 
 ### Motion Controller Troubleshooting Flowchart
 
@@ -501,6 +489,19 @@ Ideally, plug the USB Bluetooth Adapter into the opposite side of the computer a
 ### How can I pair my motion controllers to a Windows Mixed Reality headset with built-in Bluetooth radio, or return them to their factory pairing?
 
 Some Windows Mixed Reality headsets, including the Acer OJO 500 and Samsung Odyssey+, have built-in Bluetooth radios for use with motion controllers. The motion controllers that come with these headsets are pre-paired to the headset from the factory, and do not require your PC to have a separate Bluetooth radio. These motion controllers _can_ be manually paired to your PC's Bluetooth radio, for example, for use with Windows Mixed Reality headsets that do not have built-in Bluetooth radios. To return the motion controllers to their factory pairing, or to pair them with a Windows Mixed Reality headset with built-in Bluetooth radio, simply run the headset's device companion app (for example, the "Acer OJO 500" app or the "Samsung HMD Odyssey+ Setup" app, automatically installed the first time the headset is plugged in) and follow the instructions for motion controller pairing.
+
+
+## Firmware update issues
+
+### My Samsung Odyssey or Odyssey+ headset firmware update is getting stuck
+
+Samsung owns and publishes headset firmware updates delivered via their "Samsung HMD Odyssey Setup" and "Samsung HMD Odyssey+ Setup" Device Companion apps. For more details and for help with Samsung firmware update issues, please reach out to Samsung Customer Service.
+
+If the firmware update process is getting stuck, and there has been no progress for more than five minutes:
+* Unplug all of your other USB devices temporarily and retry the firmware update.
+* Connect your Samsung headset to a different USB 3.0 port on your PC.
+* Disabling and/or uninstall any software installed that may interfere with firmware updates, like Gigabyte's AORUS App Center.
+* Use a different PC to perform the Samsung headset firmware update.
 
 
 ## Performance questions
