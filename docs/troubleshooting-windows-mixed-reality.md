@@ -824,7 +824,7 @@ The Windows Mixed Reality home includes spatial sound, so audio comes from the a
 
 ### Speech commands are not working as expected.
 
-* To use speech commands, speech and language settings on your PC must be set to a [language supported in Windows Mixed Reality](https://support.microsoft.com/en-us/help/4039262/windows-10-mixed-reality-setup-faq#Languages). To check your Windows region and language, select **Settings  > Time & language > Region & language**. To check your Speech language, select **Settings  > Time & language > Speech**.
+* To use speech commands, speech and language settings on your PC must be set to a [language supported in Windows Mixed Reality](https://support.microsoft.com/en-us/help/4039262/windows-10-mixed-reality-setup-faq#Languages). To check your Windows speech and language settings, select **Settings  > Time & language > Region & language** and **Settings  > Time & language > Speech**.
 * If your headset doesn’t have a built-in microphone, you’ll need to attach headphones with a microphone to the headset or to your PC. To have microphone input switch automatically to your headset when you wear it, go to **Settings > Mixed reality > Audio and speech**, and turn on "When I wear my headset, switch to headset mic".
 * Some audio headsets have a physical button to mute and unmute the microphone. If speech commands aren't working, check to see whether your mic is muted.
 * Audio headsets with a microphone that dangles from the earbud cable do not perform well for voice commands in environments with ambient noise.
