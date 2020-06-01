@@ -663,12 +663,21 @@ Microsoft Edge does not currently support haptics on the WebVR gamepad API exten
 
 ## SteamVR questions
 
-### I get a message that says “To use SteamVR with Windows Mixed Reality, you need to install the latest Windows Update." or "Windows Developer Mode Required"
+### How can I play SteamVR games in my Windows Mixed Reality immersive headset?
+
+Install Windows Mixed Reality for SteamVR on your PC and set up SteamVR:
+* [Download and install SteamVR](https://steamcdn-a.akamaihd.net/client/installer/SteamWindowsMRInstaller.exe).
+* Start SteamVR. The SteamVR Tutorial should start automatically.
+* Connect your headset to your PC and turn on your motion controllers.
+* Once the Windows Mixed Reality home has loaded and your controllers are visible, open the Steam app on your desktop.
+* Use the Steam app to launch a SteamVR game from your Steam library. To launch SteamVR games without taking off your headset, you can find and launch them under Windows Mixed Reality's **Start > All Apps**. 
+
+### I get a message that says “To use SteamVR with Windows Mixed Reality, you need to install the latest Windows Update" or "Windows Developer Mode Required".
 
 1. Make sure your PC is running the latest version of Windows 10. To check this, go to **Settings  > System > About**. Under **Windows specifications**, make sure **OS Build** is 16299.64 or greater.
 2. Make sure you don’t have any updates waiting to download or install. Go to **Settings  > Update & Security > Windows Update**, and select **Check for updates**. You may have to check for updates multiple times so keep checking for updates until no further updates are available and then restart your PC.
 
-### SteamVR is crashing after updating Windows
+### SteamVR is crashing after updating Windows.
 
 Some older versions of Windows Mixed Reality for SteamVR are no longer compatible with Windows. You may have an old version of Windows Mixed Reality for SteamVR. To ensure that you are up to date:
 1. In your Steam library, locate Windows Mixed Reality for SteamVR, under Software
@@ -694,18 +703,22 @@ If SteamVR is still crashing after updating you may have two installations of Wi
 4. Save the file and close it
 5. Restart Steam and SteamVR
 
-### My controllers aren't working as expected
+### My controllers aren't working as expected in SteamVR.
 
 1. Close SteamVR.
 2. Return to the Mixed Reality Home and confirm that your controllers are working as expected.
 3. Launch the SteamVR experience again and your controllers should be back to normal.
 4. If issues persist please file feedback using the Windows Feedback Hub under the Mixed Reality category and include SteamVR in the summary.
 
-### My left and right controllers are reversed
+Note that you'll use your motion controllers differently in different games. Here are a few basics to help you get started:
+* To open the Steam dashboard, press straight down on the left thumbstick.
+* To exit a SteamVR game and return to the Windows Mixed Reality home, press the Windows button. And then select the Mixed Reality Home button that appears on screen.
+
+### My left and right controllers are reversed in SteamVR.
 
 If a game reverses your controllers, start the game with your controllers off and then turning the left one on, followed by the right one.
 
-### My games are running slowly
+### My games are running slowly.
 
 1. Confirm that your PC meets the specifications for SteamVR in Windows Mixed Reality
 2. Confirm that your PC meets the specifications for the SteamVR game you are playing.
@@ -718,21 +731,25 @@ If a game reverses your controllers, start the game with your controllers off an
 
 If you're still running into unexpected performance issues, please send us feedback using the Windows Feedback Hub. Make sure to follow the instructions to [include a SteamVR Performance Trace](using-steamvr-with-windows-mixed-reality.md#sharing-feedback-on-steamvr). 
 
-### SteamVR is showing a compositor error (for example, "Shared IPC Compositor Connect Failed (400)")
+### SteamVR is showing a compositor error (for example, "Shared IPC Compositor Connect Failed (400)").
 
 There is a known issue where this can happen if your HMD and primary monitor are on two different video adapters. To work around, attach your monitor to the same adapter as your headset and configure that monitor to be the primary using **Settings app > System > Display**
 
-### SteamVR content appears in the wrong place, like beneath the floor or above my head
+### SteamVR content appears in the wrong place, like beneath the floor or above my head.
 
 Reset your position: 
 1. Click the left controller's thumbstick to bring up the **SteamVR Dashboard**
 2. Click the **Settings** button
 3. Click **Reset Seated Position**
 
+### My Steam app closed unexpectedly.
+
+If you lock your PC screen, remove your headset, or switch users, or if your PC goes to sleep, the Steam app will close.
+
 
 ## Speech and audio problems
 
-### I can't hear any sound in my headset, or sound is playing through my computer
+### I can't hear any sound in my headset, or sound is playing through my computer.
 
 * If your immersive headset doesn’t include built-in headphones, you’ll need to connect headphones to the audio jack on the headset. The jack is often located just behind or under the headset visor or lenses. Check with your headset manufacturer if you can't find it.
 * Some audio headsets have physical buttons to control the volume. If audio isn't working, check to see whether the volume is turned down or muted.
@@ -742,17 +759,17 @@ Reset your position:
 * The Windows Sound Control Panel only shows enabled audio endpoints, not disabled endpoints. The headset audio device will be disabled when you're not wearing the headset, so you have to right-click in the sound control panel and choose "Show disabled devices" to see it; the device name is "Realtek USB2.0 Audio". Once you do this, you can change the name in the "Properties" page to something you'll recognize more easily. You can do this for both the playback and recording tabs.
 * If your audio is not working in Mixed Reality apps (for example, Netflix), this may be caused by a known issue where Windows Mixed Reality is not be automatically updated to match the OS version. To fix this issue and get the best Mixed Reality experience, go to **Settings > Update & Security > Windows Update > Check for Updates**.
 
-### I'm experiencing sudden volume changes, lost audio, or buzzing
+### I'm experiencing sudden volume changes, lost audio, or buzzing.
 
 * Some applications, including many of those launched through SteamVR, can lose audio or hang when the audio device changes as you start or stop the Mixed Reality Portal. Restart the app after you have opened the Mixed Reality Portal app to correct this.
 * If another multimedia USB device (such as a web cam) shares the same internal or external USB hub with the Windows Mixed Reality headset, the headset's audio jack/headphones may occasionally have a buzzing sound or no audio at all. Plug your headset into a USB port that uses a different hub or disconnect/disable your other USB multimedia device.
 * If you notice a loud burst of noise from headphones connected to the headset, it is possible that the PC's USB hub is not able to provide enough power to the Windows Mixed Reality headset. If this occurs, file a [Feedback Hub](https://docs.microsoft.com/en-us/hololens/hololens-feedback) bug immediately. Workarounds that may help include not using extension cables, using a dedicated, external powered USB 3.0 HUB, or trying a different USB port on the PC.
 
-### My Bluetooth audio headset isn't working as expected
+### My Bluetooth audio headset isn't working as expected.
 
-Bluetooth audio peripherals do not work well with Windows Mixed Reality voice and spatial sound experiences. Bluetooth audio headsets cannot support mic input and stereo output at the same time, so when using it for gamechat or other voice input, you won't hear stereo or spatialized sound. Bluetooth audio headsets can also negatively affect your motion controller experience. Microsoft does not recommend using Bluetooth audio headsets with Windows Mixed Reality.
+Bluetooth audio peripherals do not work well with Windows Mixed Reality voice and spatial sound experiences. Bluetooth audio headsets cannot support microphone input and stereo output at the same time, so when using it for gamechat or other voice input, you won't hear stereo or spatialized sound. Bluetooth audio headsets can also negatively affect your motion controller experience. Microsoft does not recommend using Bluetooth audio headsets with Windows Mixed Reality.
 
-### Sound isn't coming from expected directions
+### Sound isn't coming from expected directions.
 
 The Windows Mixed Reality home includes spatial sound, so audio comes from the apps located in your home. As you turn around and move closer or farther from each app, the sound direction and level will change to further the sense of realism. Here are some possible reasons that the sound direction may be unexpected: 
 * When you open and play music from a background-capable music app (like Groove Music) in your home and then open an immersive VR experience (like a game), the sound from the music app will crossfade from spatial sound to stereo. It may appear louder than before because there is no longer any distance between you and the sound.
@@ -761,7 +778,7 @@ The Windows Mixed Reality home includes spatial sound, so audio comes from the a
     2. Right-click the speaker icon on the desktop taskbar and select "Windows Sonic for Headphones" in the "Speaker setup" menu.
     3. Repeat these steps for all of your audio devices (endpoints).
 
-### Speech commands are not working as expected
+### Speech commands are not working as expected.
 
 * To use speech commands, speech and language settings on your PC must be set to a language supported in Windows Mixed Reality. To check this, go to **Settings > Time & language > Region & language and Settings > Time & language > Speech**. Dictation will not work correctly if your system keyboard language does not match the language you've selected for Windows Mixed Reality.
 * If your headset doesn’t have a built-in microphone, you’ll need to attach headphones with a microphone to the headset or to your PC. To have microphone input switch automatically to your headset when you wear it, go to **Settings > Mixed reality > Audio and speech**, and turn on "When I wear my headset, switch to headset mic".
@@ -770,13 +787,13 @@ The Windows Mixed Reality home includes spatial sound, so audio comes from the a
 * Cortana can be slow the first time she is invoked in a Mixed Reality Portal session. You can work around this by making sure "Let Cortana respond to Hey Cortana" under **Settings > Cortana > Talk to Cortana** is enabled.
 * On some PCs, the default voice capture gain for your headset-connected microphone may be set too low. If you experience unreliable speech commands or dictation, you can try running the Microphone Setup troubleshooter. You can reach this troubleshooter through the **Settings > Time & Language > Speech**, then select "Get Started" in the "Microphone" section. Do this through the Desktop app in the Windows Mixed Reality home while wearing the headset to affect the microphone you use for Windows Mixed Reality. Select the appropriate endpoint in the troubleshooter wizard.
 
-### I only have one audio headset and I want to use it for both Desktop and my headset
+### I only have one audio headset and I want to use it for both Desktop and my headset.
 
 If you only have one audio headset and do not have a headset with built in headphones, connect the audio headset to the host PC instead of the headset. Then turn off "switch to headset audio" in the MRP settings.
 
-### I can't switch to Dolby Atmos for Headphones 
+### I want to switch to Dolby Atmos for Headphones.
 
-Windows Mixed Reality environments and its applications (such as placing a web browser on the wall of the Cliff House or the Sky Loft) use the Windows Sonic for Headphones spatial audio technology which is customized for mixed reality experiences. Other spatial audio technologies, like Dolby Atmos for Headphones, can be applied for full screen applications like SteamVR games but not for the Windows Mixed Reality shell environments which have been designed using Windows Sonic for Headphones spatial sound and acoustics.
+Windows Mixed Reality environments and its applications use Windows Sonic for Headphones spatial audio technology which is customized for mixed reality experiences. Other spatial audio technologies, like Dolby Atmos for Headphones, can be applied for full screen applications like SteamVR games but not for the Windows Mixed Reality shell environments and applications (such as placing a web browser on the wall of the Cliff House or the Sky Loft) which have been designed using Windows Sonic for Headphones spatial sound and acoustics.
 
 
 ## Questions about Desktop in Mixed Reality
@@ -801,7 +818,7 @@ If your PC has an Nvidia hybrid GPU, the issue may be caused by Nvidia device ru
 ## How to uninstall Windows Mixed Reality
 
 ### How do I uninstall Windows Mixed Reality?
-Go to  **Settings -> Mixed Reality -> Uninstall**. 
+Go to  **Settings > Mixed Reality > Uninstall**. 
 
 ### I got a "We couldn't finish uninstalling Windows Mixed Reality" message
 You can modify the registry and use Windows PowerShell to run commands. **If you modify the registry incorrectly, serious problems might occur. Make sure to follow these steps carefully. For added protection, back up your registry before you modify it so you can restore it if a problem occurrs.** For more info, see [How to back up and restory the registry in Windows](https://support.microsoft.com/en-us/help/322756/how-to-back-up-and-restore-the-registry-in-windows). To uninstall Windows mixed reality using these commands:
