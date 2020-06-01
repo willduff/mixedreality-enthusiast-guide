@@ -57,7 +57,7 @@ If input doesn't get toggled automatically, you will need to manually toggle inp
 
 ### How do I choose between "Seated and standing" and "All experiences"?
 
-If you choose "Seated and standing," either during headset setup or later on, you'll be using your headset without a boundary. This means you'll need to stay in one spot when using the headset, so that you can avoid physical obstacles and tripping hazards. You can sit down or stand up, but you won't be able to move around (keep in mind that obstacles might be overhead as well as around you). Some apps might be designed to work with a boundary, so you might not be able to use them, or you might not have the same experience if you use them without a boundary.
+If you choose "Seated and standing," either during headset setup or later on, you'll be using your headset without a boundary. You can sit down or stand up, but not move around. Some apps might be designed to work with a boundary, so you might not be able to use them or you might not have the same experience if you use them without a boundary. See "What's a boundary and why should I create one?" below for more information.
 
 If you choose "All experiences", you'll set up a boundary and you can use apps and experiences that work with a boundary as well as those that don't require one. 
 
