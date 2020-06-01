@@ -795,9 +795,13 @@ If you lock your PC screen, remove your headset, or switch users, or if your PC 
 * Some audio headsets have physical buttons to control the volume. If audio isn't working, check to see whether the volume is turned down or muted.
 * Windows Mixed Reality is designed to play sound through your immersive headset when the Mixed Reality Portal is running and you have headphones connected to it. When you take the headset off or flip the visor up, close the Mixed Reality Portal application, or when that app has not been used for 15 minutes, audio will switch to your default Windows playback device. You can change this setting in **Settings > Mixed reality > Audio and speech.**
 * Make sure your audio headset is plugged into the audio jack completely. The Acer headset in particular may require more care to ensure the audio headset is plugged in all the way.
-* Check that the audio headset/mic is plugged into the headset and not the PC.
+* Check that the audio headset/microphone is plugged into the headset and not the PC.
 * The Windows Sound Control Panel only shows enabled audio endpoints, not disabled endpoints. The headset audio device will be disabled when you're not wearing the headset, so you have to right-click in the sound control panel and choose "Show disabled devices" to see it; the device name is "Realtek USB2.0 Audio". Once you do this, you can change the name in the "Properties" page to something you'll recognize more easily. You can do this for both the playback and recording tabs.
 * If your audio is not working in Mixed Reality apps (for example, Netflix), this may be caused by a known issue where Windows Mixed Reality is not be automatically updated to match the OS version. To fix this issue and get the best Mixed Reality experience, go to **Settings > Update & Security > Windows Update > Check for Updates**.
+
+**Note:** Windows Mixed Reality spatial audio works best with headphones built into or connected directly to your immersive headset. PC speakers or headphones connected to the PC might not work well for spatial audio.
+
+**Note:** Windows Mixed Reality doesn’t support Bluetooth audio headsets.
 
 ### I'm experiencing sudden volume changes, lost audio, or buzzing.
 
