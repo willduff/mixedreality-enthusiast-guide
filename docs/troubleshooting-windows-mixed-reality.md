@@ -256,20 +256,20 @@ If helpful, consult the headset black screen troubleshooting flow chart below.
 
 ![Black screen/Can't see anything](images/hmd-connectivity.jpg)
 
-### My headset display occasionally turns black after some time
+### My headset display occasionally turns black after some use.
 
 * Try disabling any USB suspend or power saving features your PC might have. For example, [USB selective suspend](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-selective-suspend) in Windows power options, the "Allow the computer to turn off this device to save power" setting in Device Manager, and any USB power saving settings in your PC's firmware.
 * Temporarily disconnect any other USB devices and peripherals connected to your PC.
 * Double check your GPU driver version. Make sure it's recent, but also pay attention to any new performance and compatibility issues and regressions on brand new drivers.
 
-### One of the displays on my headset is black
+### One of the displays on my headset is black.
 
 * If you're using an HDMI adapter, make sure it supports HDMI 2.0
 * Remove any USB and HDMI extension cables that you may be using
 * Make sure your graphics driver is up-to-date
 * Try the Mixed Reality headset on another PC
 
-### My headset displays turn blue for a moment, and then Mixed Reality Portal reinitializes
+### My headset displays turn blue for a moment, and then Mixed Reality Portal reinitializes.
 
 This typically indicates an occasional USB controller reliability issue on your PC:
 * Try another USB port. Your PC may have multiple USB 3.0 controllers
@@ -278,32 +278,33 @@ This typically indicates an occasional USB controller reliability issue on your 
 * Try connecting an externally-powered USB 3.0 hub to your PC, and connecting your headset to the hub
 * If you're using a Desktop PC, consider purchasing a USB 3.0 PCIe card to add another USB controller to your PC
 
-### My headset causes my PC to hang or show a black screen while starting up
+### My headset causes my PC to hang or show a black screen while starting up.
 
 On some PCs, leaving your headset plugged in before turning on or while rebooting your PC may interfere with its startup process. Your PC could select the headset displays as the "primary monitor" to show PC startup progress or it could be prevented from starting up properly and may 'hang' and/or produce a beeping error code. The exact behavior depends largely on the PC make and model, and/or the make and model of the graphics card. You may be able to work around this:
 * Connect your headset to a different port on your graphics card. In some cases, you may need to use an adapter to use the other ports.
 * Make sure your PC's BIOS / UEFI firmware is up-to-date (note: only update your PC's BIOS / UEFI firmware if you're comfortable with doing so)
 
-### My PC or headset displays flicker, flash or remain black when using a Surface PC
+### My PC or headset displays flicker, flash or remain black when using a Surface PC.
 
 * Make sure you're using an HDMI adapter that supports HDMI 2.0. Many older HDMI adapters only support 1080p resolution, which is insufficient for Mixed Reality headsets
 * Make sure your graphics driver is up-to-date. In addition to checking Windows Update, you may wish to check the PC manufacturer's website for an updated graphics driver
 * Some Surface devices are incompatible with Windows Mixed Reality. Learn more about [Surface compatiblity and requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md#windows-mixed-reality-and-surface) 
 
-### My headset displays are very choppy, but Mixed Reality Portal's preview window appears fine
+### My headset displays are very choppy, but Mixed Reality Portal's preview window appears fine.
 
 * Make sure your PC's system resources (CPU, memory, and hard drive) are available and not pegged or maxed out by another app or process.
 * Update your graphics driver.
 
-### I'm getting a "The install class is not present or is invalid" error in Device Manager
+### I'm getting a "The install class is not present or is invalid" error in Device Manager.
 
 If you see "HoloLens Sensors" with a yellow exclamation mark in Device Manager, double click on the device for additional details. If you see a message saying "The drivers for this device are not installed. (Code 28) -- The install class is not present or is invalid", this is typically because your PC is running [Windows 10 N](https://support.microsoft.com/en-us/help/4039813/media-feature-pack-for-windows-10-n-october-2017). Please note that N-editions of Windows 10 do not support Windows Mixed Reality, and you'll need to install a non-N version of Windows 10.
 
-### My WMR environment is jittery or stutters when I move my head and displays double vision
+### My WMR environment is jittery or stutters when I move my head and displays double vision.
 
-On a laptop with integrated graphics and an Nvidia GPU, an error occurs after a period of time that appears to cause a previous frame to display after the next frame, resulting in double vision the faster you move your head in a yaw, pitch, or roll movement.  The issue appears to be on drivers after Nvidia Graphics Driver 436.48.  Installing this driver will fix the issue until Nvidia solves the problem in the updated drivers.
+On a laptop with integrated graphics and an Nvidia GPU, an error occurs after a period of time that appears to cause a previous frame to display after the next frame, resulting in double vision the faster you move your head in a yaw, pitch, or roll movement. The issue appears to be on drivers after Nvidia Graphics Driver 436.48.  Installing this driver will fix the issue until Nvidia solves the problem in the updated drivers. For a direct install of Nvidia Graphics Driver 436.48, visit [NVIDIA](https://www.nvidia.com/Download/driverResults.aspx/152007/en-us).
 
-For a direct install of Nvidia Graphics Driver 436.48, visit [NVIDIA](https://www.nvidia.com/Download/driverResults.aspx/152007/en-us).
+### I’m experiencing discomfort when I use my headset.
+For general info about comfort in Windows Mixed Reality, see [Windows Mixed Reality immersive headset health, safety, and comfort](https://support.microsoft.com/en-us/help/4039969/windows-10-mixed-reality-immersive-headset-health-safety-comfort). For details about your specific headset, check with the headset manufacturer.
 
 
 ## "Something Went Wrong" error codes and how to resolve them
@@ -528,6 +529,13 @@ The system may be sluggish for many reasons and in most cases this will subside 
 2. Make sure that the fans that blow air into or out of the PC are not blocked.
 3. Use the PC in a relatively cool environment.
 4. Make sure there are no heat sources (for example, the sun or heat vents) pointed at the PC.
+
+### My visuals are choppy, load slowly, or don't look good.
+* Make sure your headset is plugged into the correct graphics card on your PC. Some PCs have both integrated and discrete graphics cards. The discrete card will generally provide the best performance. [Learn more about PC hardware](https://support.microsoft.com/en-us/help/4039260/windows-10-mixed-reality-pc-hardware-guidelines).
+* Close unused applications on your desktop.
+* Make sure your headset fits snugly (move it lower and higher or left and right to adjust).
+* Adjust your headset's visual settings in **Settings > Mixed reality > Headset display**. When "Visual quality" is set to "Automatic", we'll choose the best mixed reality experience for your PC. For an experience with more visual detail, set "Visual quality" to "High". If your visuals are choppy, you may want to select a lower setting.
+* Try adjusting your headset's calibration. The lenses should be adjusted to match your interpupillary distance (IPD), the distance between your pupils. If you don't know your IPD, an optometrist should be able to measure it for you. There are also websites designed to measure IPD. Once you know your IPD, use your headset's calibration knob to make adjustments. If the headset doesn't have a calibration knob, select **Settings > Mixed reality > Headset display** and adjust the "Calibration control".
 
 
 ## Tracking System
