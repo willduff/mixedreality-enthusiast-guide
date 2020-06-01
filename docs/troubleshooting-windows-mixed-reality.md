@@ -39,7 +39,7 @@ You are probably on an enterprise managed network and your organization is using
     * Restart your PC and try again. 
     * If Windows Mixed Reality installs correctly, reinstall the latest updates under **Settings > Windows Update > Check for Updates** and see if Windows Mixed Reality continues to work. If it does not install correctly, reinstall the latest updates and contact Windows Support for additional help. 
 
-## Troubleshooting setup errors 
+## Troubleshooting setup questions 
 
 ### My Xbox controller isn't working with Windows Mixed Reality
 
@@ -66,7 +66,7 @@ If you choose "All experiences", you'll set up a boundary and you can use apps a
 You can re-run the learning experience by following the [re-run steps](learn-mixed-reality.md#how-do-i-re-run-the-learning-experience). 
 
 
-## Boundary questions and setup
+## Boundary setup and questions
 
 ### What's a boundary and why should I create one?
 
