@@ -836,6 +836,7 @@ If the firmware update process is getting stuck, and there has been no progress 
 * Use a different PC to perform the Samsung headset firmware update.
 
 ### My Wi-Fi slows down when I'm using Windows Mixed Reality.
+
 If you're using a 2.4GHz Wi-Fi connection, your motion controllers might slow down your Wi-Fi. Try one of the following:
 * Switch to a 5GHz Wi-Fi connection, if one is available. [Learn more](https://support.microsoft.com/en-us/help/4000461).
 * Use a separate Bluetooth adapter to connect your motion controllers to your PC. See [recommended adapters](https://support.microsoft.com/en-us/help/4039260/windows-10-mixed-reality-pc-hardware-guidelines).
@@ -843,6 +844,13 @@ If you're using a 2.4GHz Wi-Fi connection, your motion controllers might slow do
 ### I got a message that said to plug in and charge my PC. Why?
 
 If you're using a laptop, Windows Mixed Reality works best when the PC is both fully charged and plugged in. 
+
+### What is the Experience options setting?
+
+The Experience options setting (**Settings > Mixed reality > Headset display > Experience options**) allows you to change the Windows Mixed Reality performance settings. This enables you to choose the best possible experience for your hardware configuration across a range of content. The 90Hz experience is available to all systems, but you might want to try Automatic to see which setting you prefer. Here are the options:
+* Automatic: Windows Mixed Reality will determine the best experience for your hardware configuration. For most people, this is the best choice to start with.
+* 60Hz: Sets the refresh rate to 60Hz and turns off certain features, such as video capture and preview in Mixed Reality Portal.
+* 90Hz: Sets the refresh rate to 90Hz.
 
 ### I have questions about my headset hardware.
 
