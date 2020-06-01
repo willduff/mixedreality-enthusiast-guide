@@ -127,7 +127,7 @@ Make sure your controllers have full batteries and that they are paired correctl
 
 ### The floor of my Windows Mixed Reality Home doesn't appear to be at the correct height, or it is slanted
 
-Open the Room Adjustment app from the start menu. This app will be launched once you place the app in the world. In this app, you will be directed to use the touch pad (motion controller) or direction pad (gamepad) to adjust the floor height. When the floor feels correct, use the Windows button to exit back to your Home.
+Select **Start > Room Adjustment** which will launch once you place the app in the world, to make changes while wearing your headset. In this app, you will be directed to use the touch pad (motion controller) or direction pad (gamepad) to adjust the floor height. When the floor feels correct, use the Windows button to exit back to your Home.
 
 ### My headset has stopped tracking
 
@@ -835,6 +835,10 @@ If the firmware update process is getting stuck, and there has been no progress 
 * Disabling and/or uninstall any software installed that may interfere with firmware updates, like Gigabyte's AORUS App Center.
 * Use a different PC to perform the Samsung headset firmware update.
 
+### I got a message that said to plug in and charge my PC. Why?
+
+If you're using a laptop, Windows Mixed Reality works best when the PC is both fully charged and plugged in. 
+
 ### I have questions about my headset hardware.
 
 For details about your headset, check with the manufacturer. There may be a product guide in the box, or you can try the manufacturer’s website.
@@ -843,10 +847,10 @@ For details about your headset, check with the manufacturer. There may be a prod
 ## How to uninstall Windows Mixed Reality
 
 ### How do I uninstall Windows Mixed Reality?
-Go to  **Settings > Mixed Reality > Uninstall**. 
+Go to  **Start > Settings > Mixed Reality** and select "Uninstall". Make sure to disconnect your headset from your PC and close Mixed Reality Portal before uninstalling. When you're ready to start using your headset again, plug it in, and Mixed Reality Portal will take you through setup.
 
 ### I got a "We couldn't finish uninstalling Windows Mixed Reality" message
-You can modify the registry and use Windows PowerShell to run commands. **If you modify the registry incorrectly, serious problems might occur. Make sure to follow these steps carefully. For added protection, back up your registry before you modify it so you can restore it if a problem occurrs.** For more info, see [How to back up and restory the registry in Windows](https://support.microsoft.com/en-us/help/322756/how-to-back-up-and-restore-the-registry-in-windows). To uninstall Windows mixed reality using these commands:
+This means that some files, including information about your environment, might still be on your computer. This can cause problems if you decide to reinstall Windows Mixed Reality later on. You can manually remove any remaining Windows Mixed Reality info from your PC by modifying the registry and using Windows PowerShell to run commands. **If you modify the registry incorrectly, serious problems might occur. Make sure to follow these steps carefully. For added protection, back up your registry before you modify it so you can restore it if a problem occurrs.** For more info, see [How to back up and restory the registry in Windows](https://support.microsoft.com/en-us/help/322756/how-to-back-up-and-restore-the-registry-in-windows). To uninstall Windows mixed reality using these commands:
 1. Restart your PC.
 2. In the **Search** box, type "regedit" and then select **Yes**.
 3. Remove the following registry values:
