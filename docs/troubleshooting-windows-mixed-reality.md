@@ -329,7 +329,7 @@ Qualcomm (QCA) Bluetooth radio drivers prior to 10.0.0.448 may end up in bad sta
 
 ### I'm experiencing poor controller tracking with Marvell radio
 
-Make sure that you are using driver 15.68.9210.47 or later (**device manager->Bluetooth->Marvell AVASTAR Bluetooth Radio Adapter->Properties->Driver**) 
+Make sure that you are using driver 15.68.9210.47 or later (**device manager > Bluetooth > Marvell AVASTAR Bluetooth Radio Adapter > Properties > Driver**) 
 
 ### The Mixed Reality Portal is working, but my motion controllers are tracking poorly (controllers keep flying away, shaking, etc.)
 
@@ -381,16 +381,16 @@ Your batteries are running low and hit the cut-off threshold. Replace your batte
 
 This is probably a hardware defect and you should go back to your retailer or equipment manufacturer for a replacement or exchange.
 
-### Controller device recovery
+### The Controller isn't working correctly and I can't update the device
 
-If the controller isn’t working correctly and you can't update the device, restore it to factory conditions. You will need fresh batteries. To do this:
+Restore it to factory conditions (you will need fresh batteries):
 1. Unplug and power off the controllers.
 2. Open the battery cover.
 3. Insert your new batteries.
 4. Press and hold the pairing button (the tab at the bottom under the batteries).
 5. While holding the pairing button, power on the controller by pressing and holding the Windows button for five seconds (keep both buttons depressed).
 6. Release buttons and wait for controller to power on. This takes up to 15 seconds and there are no indicators when device recovery is happening. If device powers on immediately on button release, the recovery button sequence did not get registered and you need to try again.
-7. Remove old controller associations from Bluetooth settings (**Settings->Bluetooth>other devices**, select **"Motion controller - Left"** or **"Motion controller - Right"** and **Remove device**). 
+7. Remove old controller associations from Bluetooth settings (**Settings > Bluetooth > other devices**, select **"Motion controller - Left"** or **"Motion controller - Right"** and **Remove device**). 
 8. Pair the controller with the PC again.
 9. After connecting with host and HMD, device will update to the latest available firmware.
 
@@ -398,45 +398,44 @@ If the controller isn’t working correctly and you can't update the device, res
 
 The LED constellation ring and haptics indicate the state of the motion controller.
 
-| Motion controller state    | How you get into this state | Motion controller light and vibration behavior associated with state |
+| State    | What causes this state | Light and vibration behavior associated with this state |
 |----------------------------|-----------------------------|----------------------------------------------------------------------|
-| **Power on**               | Press and hold Windows button on controller for 2s to turn on controller.       | LEDs turn on and controller vibrates once. |
-| **Power off**              | Press and hold Windows button on controller for 4s to turn off controller.      | LEDs turn off and controller vibrates twice. |
-| **Sleeping**               | Controller enters sleeping state automatically when it’s motionless for 30s. <br><br> Controller automatically wakes when it detects motion (except when device is not paired with host PC, button press will be required to wake-up). |LEDs turn off, blink every 3 seconds while in sleeping state. |
-| **Pairing**                | Press and hold pairing button inside battery case for 3s.                       | LEDs slowly pulse while in pairing mode. <br><br> LEDs go solid when exiting pairing mode. Controller vibrates once if pairing was successful or vibrates 3 times if pairing is unsuccessful and times out. |
-| **Controller connects to/disconnects from PC** | Controller successfully connects to PC after you turned it on.<br><br>Controller disconnects from PC during use for some reason.|Controller vibrates once on PC connection or disconnection. |
-| **Low Battery Level**      | When battery level is low.|No LED or vibration indication when battery is low. If you look at the representation of the controller in headset, there is a battery indicator icon on the handle. When battery is low, the indicator icon will show 1/4 full. |
-| **Critical Battery Level** | During power on when battery level is "Critical". "Critical" battery level means there is insufficient power for controller to stay on and the controller will turn off automatically.|Controller vibrates 3 times when you turn it on, then automatically turns off. As you approach this state, the battery indicator icon will display red. |
+| **Power on**               | Press and hold Windows button on controller for two seconds to turn on the controller.       | LEDs turn on and controller vibrates once. |
+| **Power off**              | Press and hold Windows button on controller for four seconds to turn off controller.      | LEDs turn off and controller vibrates twice. |
+| **Sleeping**               | The controller enters sleeping state automatically when it’s motionless for 30 seconds. The controller automatically wakes when it detects motion except when the device is not paired with the host PC. In that case, a button press will be required to wake it up. | LEDs turn off and blink every three seconds while in sleeping state. |
+| **Pairing**                | Press and hold pairing button inside battery case for three seconds.     | LEDs slowly pulse while in pairing mode, and go solid when exiting pairing mode. The controller vibrates once if pairing was successful or vibrates three times if pairing is unsuccessful and times out. |
+| **Controller connects/disconnects from PC** | The controller successfully connects to PC after you turn it on, or the controller disconnects from the PC during use for some reason.| The controller vibrates once on PC connection or disconnection. |
+| **Low Battery Level**      | The battery level is low.| There is no LED or vibration indication when battery is low. There is a battery indicator icon on the handle of the controller representation in headset. When battery is low, the indicator icon will show 1/4 full. |
+| **Critical Battery Level** | During power on when battery level is "Critical". "Critical" battery level means there is insufficient power and the controller will turn off automatically.| The controller vibrates three times when you turn it on and then automatically turns off. As you approach this state, the battery indicator icon will display red. |
 
 
-### Bluetooth best practices
+### How can I tell if I'm using Bluetooth technology?
 
-Motion Controllers use the same Bluetooth technology found in many consumer devices and are designed to work with the Bluetooth capability included in any recent PC.
-
-First verify that your PC has a Bluetooth radio. If the device passed the Mixed Reality Compatibility Checker then it should. Right click on the Windows Start Menu and select Device Manager. Expand the Bluetooth section and look for an adapter. If your PC doesn’t have Bluetooth, one recommended dongle is the [Plugable USB Bluetooth 4.0 Low Energy Micro Adapter](https://www.amazon.com/Plugable-Bluetooth-Adapter-Raspberry-Compatible/dp/B009ZIILLI/ref=sr-1-1?ie=UTF8&qid=1490148230&sr=8-1&keywords=plugable+broadcom).\
+Motion controllers use the same Bluetooth technology found in many consumer devices and are designed to work with the Bluetooth capability included in any recent PC. To verify that your PC has a Bluetooth radio (it should if the device passed the Mixed Reality Compatibility Checker): 
+* Right click on the Windows Start Menu and select Device Manager. 
+* Expand the Bluetooth section and look for an adapter. 
+* If your PC doesn’t have Bluetooth, one recommended dongle is the [Plugable USB Bluetooth 4.0 Low Energy Micro Adapter](https://www.amazon.com/Plugable-Bluetooth-Adapter-Raspberry-Compatible/dp/B009ZIILLI/ref=sr-1-1?ie=UTF8&qid=1490148230&sr=8-1&keywords=plugable+broadcom).\
 ![Screenshot of an Example Device Manager. The Adapter is the Bluetooth radio.](images/devicemanagerbtadapterpic.png) 
 
-If your computer has Bluetooth but you are still having problems with the Motion Controllers, consider replacing your Bluetooth radio with the Plugable external Bluetooth Adapter plugged into USB.
 
-**Note**: you can only have one Bluetooth radio adapter active at a time. if you plug in an external radio in addition to an existing radio you need to disable your existing Bluetooth radio in Device Manager (right click on the adapter and select Disable Device) and un-pair / re-pair all of your previous Bluetooth devices.
+### My PC has Bluetooth technology but I'm having problems with my motion controllers
 
-Motion Controllers should work with other Bluetooth keyboards, mice, and game controllers, but the experience will vary depending on the model of keyboard, mouse, or game controller you use.
-
-* If you're using a USB Bluetooth Adapter, connect it to a USB 2.0 port (black and doesn’t say SS), if available. The port should be physically separated from:
+Motion controllers should work with other Bluetooth keyboards, mice, and game controllers, but the experience will vary depending on the model of keyboard, mouse, or game controller you use. Here are some things you can do to improve performance:
+* If your computer has Bluetooth but you are still having problems with the motion controllers, consider replacing your Bluetooth radio with the Plugable external Bluetooth Adapter plugged into USB. Note that you can only have one Bluetooth radio adapter active at a time. If you plug in an external radio in addition to an existing radio you need to disable your existing Bluetooth radio in Device Manager (right click on the adapter and select "Disable Device") and un-pair/re-pair all of your previous Bluetooth devices.
+* If you're using a USB Bluetooth Adapter, connect it to a USB 2.0 port (2.0 ports are black and aren’t labeled "SS"), if available. The port should be physically separated from:
     - the HMD USB connector
     - flash drives
     - hard drives
     - wireless USB receivers like those for keyboards/mice
-Plugging the USB Bluetooth Adapter into the opposite side of the computer as far as possible from these other connectors is ideal.
-
+Ideally, plug the USB Bluetooth Adapter into the opposite side of the computer as far as possible from these other connectors.
 * Do not install any third party software.
 * Close the Bluetooth settings window if it's open. Leaving it open in the background means that a lot of extra calls are made to the Bluetooth protocol.
-* Disable "Show notification to connect using Swift Pair" setting under Bluetooth & other devices, this will reduce host radio scanning activity.
+* Disable "Show notification to connect using Swift Pair" setting under Bluetooth & other devices to reduce host radio scanning activity.
 * If you are using an internal Bluetooth card, please ensure you are using an external Bluetooth antenna. 
   * Lack of external Bluetooth antenna in this case is known to cause tracking issues. 
   * If this doesn’t work, please use an external Bluetooth dongle (USB) after disabling the internal Bluetooth.
-* It is important that the device appears under Mouse, Keyboard & Pen category in the Bluetooth settings. If under Other devices then unpair/pair.
-* Please remove, un-pair and power off Bluetooth headphones and speakers. These are not supported with Windows Mixed Reality. You can use the headphone jack or built-in speakers on your Mixed Reality headset for the best audio experience.
+* It is important that the device appears under the "Mouse, Keyboard & Pen" category in the Bluetooth settings. If under "Other devices" then unpair/pair.
+* Remove, un-pair, and power off Bluetooth headphones and speakers. These are not supported with Windows Mixed Reality. You can use the headphone jack or built-in speakers on your Mixed Reality headset for the best audio experience.
 
 ### Motion Controller Troubleshooting Flowchart
 
@@ -473,11 +472,9 @@ If your laptop is connected to a 2.4GHz Wifi network (instead of a 5GHz network)
 
 If your Bluetooth settings have motion controllers already paired, Windows won’t discover the new devices until those are removed. If they have been added using a specific dongle, they can be only removed with that dongle in place.
 
-### Motion controllers (headsets with built-in Bluetooth)
+### How can I pair my motion controllers to a Windows Mixed Reality headset with built-in Bluetooth radio, or return them to their factory pairing?
 
-Some Windows Mixed Reality headsets, including the Acer OJO 500 and Samsung Odyssey+, have built-in Bluetooth radios for use with motion controllers. The motion controllers that come with these headsets are pre-paired to the headset from the factory, and do not require your PC to have a separate Bluetooth radio. These motion controllers _can_ be manually paired to your PC's Bluetooth radio, for example, for use with Windows Mixed Reality headsets that do not have built-in Bluetooth radios.
-
-To return the motion controllers to their factory pairing, or to pair them with a Windows Mixed Reality headset with built-in Bluetooth radio, simply run the headset's device companion app (for example, the "Acer OJO 500" app or the "Samsung HMD Odyssey+ Setup" app, automatically installed the first time the headset is plugged in) and follow the instructions for motion controller pairing.
+Some Windows Mixed Reality headsets, including the Acer OJO 500 and Samsung Odyssey+, have built-in Bluetooth radios for use with motion controllers. The motion controllers that come with these headsets are pre-paired to the headset from the factory, and do not require your PC to have a separate Bluetooth radio. These motion controllers _can_ be manually paired to your PC's Bluetooth radio, for example, for use with Windows Mixed Reality headsets that do not have built-in Bluetooth radios. To return the motion controllers to their factory pairing, or to pair them with a Windows Mixed Reality headset with built-in Bluetooth radio, simply run the headset's device companion app (for example, the "Acer OJO 500" app or the "Samsung HMD Odyssey+ Setup" app, automatically installed the first time the headset is plugged in) and follow the instructions for motion controller pairing.
 
 
 ## Performance questions
@@ -709,7 +706,7 @@ If you're still running into unexpected performance issues, please send us feedb
 
 ### SteamVR is showing a compositor error (for example, "Shared IPC Compositor Connect Failed (400)")
 
-There is a known issue where this can happen if your HMD and primary monitor are on two different video adapters. To work around, attach your monitor to the same adapter as your headset and configure that monitor to be the primary using **Settings app -> System -> Display**
+There is a known issue where this can happen if your HMD and primary monitor are on two different video adapters. To work around, attach your monitor to the same adapter as your headset and configure that monitor to be the primary using **Settings app > System > Display**
 
 ### SteamVR content appears in the wrong place, like beneath the floor or above my head
 
@@ -729,7 +726,7 @@ Reset your position:
 * Make sure your audio headset is plugged into the audio jack completely. The Acer headset in particular may require more care to ensure the audio headset is plugged in all the way.
 * Check that the audio headset/mic is plugged into the headset and not the PC.
 * The Windows Sound Control Panel only shows enabled audio endpoints, not disabled endpoints. The headset audio device will be disabled when you're not wearing the headset, so you have to right-click in the sound control panel and choose "Show disabled devices" to see it; the device name is "Realtek USB2.0 Audio". Once you do this, you can change the name in the "Properties" page to something you'll recognize more easily. You can do this for both the playback and recording tabs.
-* If your audio is not working in Mixed Reality apps (for example, Netflix), this may be caused by a known issue where Windows Mixed Reality is not be automatically updated to match the OS version. To fix this issue and get the best Mixed Reality experience, go to **Settings -> Update & Security -> Windows Update -> Check for Updates**.
+* If your audio is not working in Mixed Reality apps (for example, Netflix), this may be caused by a known issue where Windows Mixed Reality is not be automatically updated to match the OS version. To fix this issue and get the best Mixed Reality experience, go to **Settings > Update & Security > Windows Update > Check for Updates**.
 
 ### I'm experiencing sudden volume changes, lost audio, or buzzing
 
@@ -741,9 +738,9 @@ Reset your position:
 
 Bluetooth audio peripherals do not work well with Windows Mixed Reality voice and spatial sound experiences. Bluetooth audio headsets cannot support mic input and stereo output at the same time, so when using it for gamechat or other voice input, you won't hear stereo or spatialized sound. Bluetooth audio headsets can also negatively affect your motion controller experience. Microsoft does not recommend using Bluetooth audio headsets with Windows Mixed Reality.
 
-### Sound is or isn't coming from expected directions
+### Sound isn't coming from expected directions
 
-The Windows Mixed Reality home includes spatial sound, so audio sounds like it's coming from the apps located in your home. As you turn around and move closer or farther from each app, the sound direction and level will change to further the sense of realism. If the sound direction still sounds odd to you, here are some possible reasons: 
+The Windows Mixed Reality home includes spatial sound, so audio comes from the apps located in your home. As you turn around and move closer or farther from each app, the sound direction and level will change to further the sense of realism. Here are some possible reasons that the sound direction may be unexpected: 
 * When you open and play music from a background-capable music app (like Groove Music) in your home and then open an immersive VR experience (like a game), the sound from the music app will crossfade from spatial sound to stereo. It may appear louder than before because there is no longer any distance between you and the sound.
 * If you had Cortana enabled on your host PC prior to using your Windows Mixed Reality headset, you may lose the spatial sound applied to the apps in your Windows Mixed Reality home. To fix this, either turn off "Let Cortana respond to Hey Cortana" in **Settings > Cortana** on your desktop before launching Windows Mixed Reality, or enable "Windows Sonic for Headphones" from within the Desktop app window in Windows Mixed Reality home:
     1. Left-click the speaker icon on the desktop taskbar and select it from the list of audio devices.
