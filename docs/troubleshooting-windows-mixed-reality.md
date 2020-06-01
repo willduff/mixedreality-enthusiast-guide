@@ -136,31 +136,31 @@ The boundary appears when you are close to it. If your boundary includes any sec
 
 ## Problems in Windows Mixed Reality Home
 
-### My controllers aren't showing in my Windows Mixed Reality Home
+### My controllers aren't showing in my Windows Mixed Reality Home.
 
 Make sure your controllers have full batteries and that they are paired correctly using Bluetooth. Try powering the controllers off and on using the Windows Button. If you still cannot see your controllers, try in-pairing and re-pairing each controller in the Settings menu under Devices > Bluetooth.
 
-### The floor of my Windows Mixed Reality Home doesn't appear to be at the correct height, or it is slanted
+### The floor of my Windows Mixed Reality Home doesn't appear to be at the correct height, or it is slanted.
 
 Select **Start > Room Adjustment** which will launch once you place the app in the world, to make changes while wearing your headset. In this app, you will be directed to use the touch pad (motion controller) or direction pad (gamepad) to adjust the floor height. When the floor feels correct, use the Windows button to exit back to your Home.
 
-### My headset has stopped tracking
+### My headset has stopped tracking.
 
 Make sure the lights are on and that there isn't anything obstructing the inside-out tracking cameras on the front of your headset. If tracking is lost, it can take a few seconds to resume. If tracking does not resume, try restarting the Windows Mixed Reality Portal. See [Tracking Troubleshooting](troubleshooting-windows-mixed-reality.md#tracking-system) for more details.
 
-### I can't show a preview of what I'm seeing in my headset on my desktop screen
+### I can't show a preview of what I'm seeing in my headset on my desktop screen.
 
 Mixed Reality Portal has a **Play** button at the bottom of the screen that allows you to show a preview of what you're seeing in your headset on your desktop's screen. But for performance reasons, this feature is only available on PCs running at Windows Mixed Reality Ultra (90Hz).
 
 ## HMD Connectivity Issues
 
-### My computer does not have an HDMI port
+### My computer does not have an HDMI port.
 If your computer does not have an HDMI port but does have a DisplayPort (DP), mini DisplayPort (miniDP) or USB Type-C (USB-C) port for outputting video, you may need to use a [supported adapter](recommended-adapters-for-windows-mixed-reality-capable-pcs.md).
 
 ### Can I use USB or HDMI extension cables with Windows Mixed Reality headsets?
 Windows Mixed Reality headsets do not officially support the use of USB or HDMI extension cables. Using these cables may significantly impact your Mixed Reality experience because of variances in resulting signal integrity and bus power between your PC's USB controller and the Mixed Reality headset. If the headset display briefly shows a blue screen and then turn black and Mixed Reality Portal restarts or completely de-enumerates during use, or if the headset audio cuts out or becomes glitchy, or if the headset flickers between black and the correct display, try using your headset without extension cables.
 
-### I am getting a "Check your display cable" error
+### I am getting a "Check your display cable" error.
 
 * If you are using any adapters to connect your headset to your PC, make sure they support Windows Mixed Reality. Also try connecting the adapter to the PC before connecting the HMD to the adapter.
 * If your PC has both integrated and discrete graphics, make sure you're using the HDMI port on your active graphics card. In some cases, this may mean that you'll need to connect your PC display to a non HDMI port.
@@ -173,11 +173,11 @@ Windows Mixed Reality headsets do not officially support the use of USB or HDMI 
 
 When you put on your headset, Windows Mixed Reality needs a bit of time to reload your space. This can take a few seconds. If this message doesn't go away, make sure the protective sticker has been removed from the proximity sensor, which is on the inside of the headset between the lenses. If the sticker has been removed and you're still having problems, contact your headset manufacturer.
 
-### A message says "Connect your headset" even though I’ve plugged in my headset
+### A message says "Connect your headset" even though I’ve plugged in my headset.
 
 1. Make sure the headset's USB and HDMI cables are connected to the correct ports on your PC. Here is how to identify the correct ports:
-* USB 3.0 ports have a special logo with an "SS" mark (indicating "SuperSpeed"). The port's inside piece is normally blue, whereas older USB 2.0 ports are typically black or white on the inside.
-* If your computer has two HDMI ports, use the one that connects to the graphics card, not the computer's motherboard. It's not always obvious which is which, though discrete ports are often located in an expansion slot on the computer. If you try one port and it doesn't work, try the other.
+    * USB 3.0 ports have a special logo with an "SS" mark (indicating "SuperSpeed"). The port's inside piece is normally blue, whereas older USB 2.0 ports are typically black or white on the inside.
+    * If your computer has two HDMI ports, use the one that connects to the graphics card, not the computer's motherboard. It's not always obvious which is which, though discrete ports are often located in an expansion slot on the computer. If you try one port and it doesn't work, try the other.
 2. Try unplugging both the USB and HDMI cables from your headset, then plug them back in to make sure they are securely connected. When plugging in the USB cable, do it quickly (try not to pause during insertion of the USB cable).
 3. Open Device Manager and confirm that your headset is listed under "Mixed Reality devices". Double click on your headset under "Mixed Reality devices" and confirm that the device status indicates "This device is working properly". Yellow exclamation marks on devices listed in Device Manager indicate errors reported by the devices connected to your PC.
     * If "Hololens Sensors" is listed with a yellow exclamation mark in Device Manager, double click on the device. If you see a **"Code 10: The drivers for this device are not installed. There are no compatible drivers for this device"**, follow the [instructions](troubleshooting-windows-mixed-reality.md#manually-installing-the-headset-driver) to manually install the headset driver.
