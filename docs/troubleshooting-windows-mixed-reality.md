@@ -733,11 +733,9 @@ Reset your position:
 
 ### I'm experiencing sudden volume changes, lost audio, or buzzing
 
-Some applications, including many of those launched through SteamVR, can lose audio or hang when the audio device changes as you start or stop the Mixed Reality Portal. Restart the app after you have opened the Mixed Reality Portal app to correct this.
-
-If another multimedia USB device (such as a web cam) shares the same USB hub (either external or inside your PC) with the Windows Mixed Reality headset, the headset's audio jack/headphones may occasionally have a buzzing sound or no audio at all. Plug your headset into a USB port that uses a different hub or disconnect/disable your other USB multimedia device.
-
-In very rare cases, the host PC's USB hub cannot provide enough power to the Windows Mixed Reality headset and you may notice a loud burst of noise from the headphones connected to the headset. If this occurs please file a [Feedback Hub](https://docs.microsoft.com/en-us/hololens/hololens-feedback) bug immediately. Workarounds that have helped some users include not using extension cables, using a dedicated, external powered USB 3.0 HUB, or trying a different USB port on the PC.
+* Some applications, including many of those launched through SteamVR, can lose audio or hang when the audio device changes as you start or stop the Mixed Reality Portal. Restart the app after you have opened the Mixed Reality Portal app to correct this.
+* If another multimedia USB device (such as a web cam) shares the same internal or external USB hub with the Windows Mixed Reality headset, the headset's audio jack/headphones may occasionally have a buzzing sound or no audio at all. Plug your headset into a USB port that uses a different hub or disconnect/disable your other USB multimedia device.
+* If you notice a loud burst of noise from headphones connected to the headset, it is possible that the PC's USB hub is not able to provide enough power to the Windows Mixed Reality headset. If this occurs, file a [Feedback Hub](https://docs.microsoft.com/en-us/hololens/hololens-feedback) bug immediately. Workarounds that may help include not using extension cables, using a dedicated, external powered USB 3.0 HUB, or trying a different USB port on the PC.
 
 ### My Bluetooth audio headset isn't working as expected
 
@@ -745,38 +743,29 @@ Bluetooth audio peripherals do not work well with Windows Mixed Reality voice an
 
 ### Sound is or isn't coming from expected directions
 
-The Windows Mixed Reality home includes spatial sound to make the audio sounds like it's coming from the app location in your home. As you turn around and move closer or farther from each app, the sound direction and level will change to further the sense of realism. This is not a bug.
-
-When you open and play music from a background-capable music app (like Groove Music) in your home and then open an immersive VR experience (like a game) the sound from the music app will crossfade from spatial sound to stereo. It may appear louder than before because there is no longer any distance between you and the sound.
-
-If you have Cortana enabled on your host PC prior to using your Windows Mixed Reality headset, you may lose the spatial sound simulation applied to the apps in your Windows Mixed Reality home. The work around is to enable "Windows Sonic for Headphones" on all the audio devices attached to your PC, even your headset-connected audio device:
-1. Left-click the speaker icon on the desktop taskbar and select from list of audio devices.
-2. Right-click the speaker icon on the desktop taskbar and select "Windows Sonic for Headphones" in the "Speaker setup" menu.
-3. Repeat these steps for all of your audio devices (endpoints).
-4. **Note:** Because the headphones/speakers connected to your headset won't appear unless you're wearing it, you have to do this from within the Desktop app window in the Windows Mixed Reality home to apply this setting to the audio device connected to your headset (or integrated into your headset).
-5. **Note:** Another option is to turn off "Let Cortana respond to Hey Cortana" in **Settings** > **Cortana** on your desktop prior to launching Windows Mixed Reality.
+The Windows Mixed Reality home includes spatial sound, so audio sounds like it's coming from the apps located in your home. As you turn around and move closer or farther from each app, the sound direction and level will change to further the sense of realism. If the sound direction still sounds odd to you, here are some possible reasons: 
+* When you open and play music from a background-capable music app (like Groove Music) in your home and then open an immersive VR experience (like a game), the sound from the music app will crossfade from spatial sound to stereo. It may appear louder than before because there is no longer any distance between you and the sound.
+* If you had Cortana enabled on your host PC prior to using your Windows Mixed Reality headset, you may lose the spatial sound applied to the apps in your Windows Mixed Reality home. To fix this, either turn off "Let Cortana respond to Hey Cortana" in **Settings > Cortana** on your desktop before launching Windows Mixed Reality, or enable "Windows Sonic for Headphones" from within the Desktop app window in Windows Mixed Reality home:
+    1. Left-click the speaker icon on the desktop taskbar and select it from the list of audio devices.
+    2. Right-click the speaker icon on the desktop taskbar and select "Windows Sonic for Headphones" in the "Speaker setup" menu.
+    3. Repeat these steps for all of your audio devices (endpoints).
 
 ### Speech commands are not working as expected
 
-To use speech commands, your PC’s speech and language settings must be set to one of the languages supported in Windows Mixed Reality. To check this, go to **Settings > Time & language > Region & language and Settings > Time & language > Speech**. Dictation will not work correctly if your system keyboard language does not match the language you've selected for Windows Mixed Reality.
-
-If your headset doesn’t have a built-in mic, you’ll need to attach headphones with a mic to the headset or to your PC. To have mic input switch automatically to your headset when you wear it, go to **Settings > Mixed reality > Audio and speech**, and make sure that "When I wear my headset, switch to headset mic" is turned on.
-
-Audio headsets with a microphone that dangles from the earbud cable do not perform well for voice commands in environments with ambient noise.
-
-Some audio headsets have a physical button to mute and unmute the microphone. If speech commands aren't working, check to see whether your mic is muted.
-
-Cortana can be slow the first time she is invoked in a Mixed Reality Portal session. You can work around this by making sure "Let Cortana respond to Hey Cortana" under **Settings** > **Cortana** > **Talk to Cortana** is enabled.
-
-On some PCs, the default voice capture gain for your headset-connected microphone may be set too low. If you experience unreliable speech commands or dictation, you can try running the Microphone Setup troubleshooter. You can reach this troubleshooter through the **Settings > Time & Language > Speech**, then select "Get Started" in the "Microphone" section. To affect the microphone you use for Windows Mixed Reality, you have to do this through the Desktop app in the Windows Mixed Reality home while wearing the headset. Select the appropriate endpoint in the troubleshooter wizard.
+* To use speech commands, speech and language settings on your PC must be set to a language supported in Windows Mixed Reality. To check this, go to **Settings > Time & language > Region & language and Settings > Time & language > Speech**. Dictation will not work correctly if your system keyboard language does not match the language you've selected for Windows Mixed Reality.
+* If your headset doesn’t have a built-in microphone, you’ll need to attach headphones with a microphone to the headset or to your PC. To have microphone input switch automatically to your headset when you wear it, go to **Settings > Mixed reality > Audio and speech**, and turn on "When I wear my headset, switch to headset mic".
+* Audio headsets with a microphone that dangles from the earbud cable do not perform well for voice commands in environments with ambient noise.
+* Some audio headsets have a physical button to mute and unmute the microphone. If speech commands aren't working, check to see whether your mic is muted.
+* Cortana can be slow the first time she is invoked in a Mixed Reality Portal session. You can work around this by making sure "Let Cortana respond to Hey Cortana" under **Settings > Cortana > Talk to Cortana** is enabled.
+* On some PCs, the default voice capture gain for your headset-connected microphone may be set too low. If you experience unreliable speech commands or dictation, you can try running the Microphone Setup troubleshooter. You can reach this troubleshooter through the **Settings > Time & Language > Speech**, then select "Get Started" in the "Microphone" section. Do this through the Desktop app in the Windows Mixed Reality home while wearing the headset to affect the microphone you use for Windows Mixed Reality. Select the appropriate endpoint in the troubleshooter wizard.
 
 ### I only have one audio headset and I want to use it for both Desktop and my headset
 
-If you only have one audio headset and not an headset with built in headphones, you may want to connect the audio headset to the host PC instead of the headset. Then you must turn off "switch to headset audio" in the MRP settings.
+If you only have one audio headset and do not have a headset with built in headphones, connect the audio headset to the host PC instead of the headset. Then turn off "switch to headset audio" in the MRP settings.
 
-### Dolby Atmos for Headphones
+### I can't switch to Dolby Atmos for Headphones 
 
-Windows Mixed Reality environments and the applications within, such as placing a web browser on the wall of the Cliff House or the Sky Loft use the Windows Sonic for Headphones spatial audio technology. This technology differs from others in that it is customized for mixed reality experiences. Other spatial audio technologies can be applied for full screen applications like SteamVR games but not for the Windows Mixed Reality shell environments which have been specially designed using Windows Sonic for Headphones spatial sound and acoustics. So trying to switch Dolby Atmos for Headphones on the endpoint used for Windows Mixed Reality is not supported.
+Windows Mixed Reality environments and its applications (such as placing a web browser on the wall of the Cliff House or the Sky Loft) use the Windows Sonic for Headphones spatial audio technology which is customized for mixed reality experiences. Other spatial audio technologies, like Dolby Atmos for Headphones, can be applied for full screen applications like SteamVR games but not for the Windows Mixed Reality shell environments which have been designed using Windows Sonic for Headphones spatial sound and acoustics.
 
 
 ## Questions about Desktop in Mixed Reality
