@@ -492,19 +492,6 @@ Ideally, plug the USB Bluetooth Adapter into the opposite side of the computer a
 Some Windows Mixed Reality headsets, including the Acer OJO 500 and Samsung Odyssey+, have built-in Bluetooth radios for use with motion controllers. The motion controllers that come with these headsets are pre-paired to the headset from the factory, and do not require your PC to have a separate Bluetooth radio. These motion controllers _can_ be manually paired to your PC's Bluetooth radio, for example, for use with Windows Mixed Reality headsets that do not have built-in Bluetooth radios. To return the motion controllers to their factory pairing, or to pair them with a Windows Mixed Reality headset with built-in Bluetooth radio, simply run the headset's device companion app (for example, the "Acer OJO 500" app or the "Samsung HMD Odyssey+ Setup" app, automatically installed the first time the headset is plugged in) and follow the instructions for motion controller pairing.
 
 
-## Firmware update issues
-
-### My Samsung Odyssey or Odyssey+ headset firmware update is getting stuck
-
-Samsung owns and publishes headset firmware updates delivered via their "Samsung HMD Odyssey Setup" and "Samsung HMD Odyssey+ Setup" Device Companion apps. For more details and for help with Samsung firmware update issues, please reach out to Samsung Customer Service.
-
-If the firmware update process is getting stuck, and there has been no progress for more than five minutes:
-* Unplug all of your other USB devices temporarily and retry the firmware update.
-* Connect your Samsung headset to a different USB 3.0 port on your PC.
-* Disabling and/or uninstall any software installed that may interfere with firmware updates, like Gigabyte's AORUS App Center.
-* Use a different PC to perform the Samsung headset firmware update.
-
-
 ## Performance questions
 
 ### How can I tell if the Windows Mixed Reality headset is rendering at 60Hz or 90Hz framerate?
@@ -538,7 +525,7 @@ The system may be sluggish for many reasons and in most cases this will subside 
 * Try adjusting your headset's calibration. The lenses should be adjusted to match your interpupillary distance (IPD), the distance between your pupils. If you don't know your IPD, an optometrist should be able to measure it for you. There are also websites designed to measure IPD. Once you know your IPD, use your headset's calibration knob to make adjustments. If the headset doesn't have a calibration knob, select **Settings > Mixed reality > Headset display** and adjust the "Calibration control".
 
 
-## Tracking System
+## Tracking system problems
 
 ### The system cannot find the boundary and I'm being presented with setup UI
 
@@ -834,6 +821,23 @@ Note that you will have to reselect the monitor to show on each Desktop app ever
 
 ### My Desktop app only shows a black screen
 If your PC has an Nvidia hybrid GPU, the issue may be caused by Nvidia device running the runtimebroker.exe on the discrete GPU instead of the integrated one. To fix this issue, follow these instructions under "[How do I create Optimus settings for a new program?](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/~/how-do-i-customize-optimus-profiles-and-settings%3F)" to add C:\windows\system32\runtimebroker.exe and force it to run on the "Integrated graphics" processor. 
+
+
+## Other Questions
+
+### My Samsung Odyssey or Odyssey+ headset firmware update is getting stuck.
+
+Samsung owns and publishes headset firmware updates delivered via their "Samsung HMD Odyssey Setup" and "Samsung HMD Odyssey+ Setup" Device Companion apps. For more details and for help with Samsung firmware update issues, please reach out to Samsung Customer Service.
+
+If the firmware update process is getting stuck, and there has been no progress for more than five minutes:
+* Unplug all of your other USB devices temporarily and retry the firmware update.
+* Connect your Samsung headset to a different USB 3.0 port on your PC.
+* Disabling and/or uninstall any software installed that may interfere with firmware updates, like Gigabyte's AORUS App Center.
+* Use a different PC to perform the Samsung headset firmware update.
+
+### I have questions about my headset hardware.
+
+For details about your headset, check with the manufacturer. There may be a product guide in the box, or you can try the manufacturer’s website.
 
 
 ## How to uninstall Windows Mixed Reality
