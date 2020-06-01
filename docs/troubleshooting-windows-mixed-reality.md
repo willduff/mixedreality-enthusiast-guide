@@ -41,13 +41,13 @@ You are probably on an enterprise managed network and your organization is using
 
 ## Troubleshooting setup questions 
 
-### My Xbox controller isn't working with Windows Mixed Reality
+### My Xbox controller isn't working with Windows Mixed Reality.
 
 * Make sure your controller is turned on, fully charged, and connected to the PC.
 * Replace the controller’s batteries.
 * If you're using a Bluetooth controller, go to **Settings > Devices > Bluetooth & other devices** on your PC and make sure it's paired (it should be listed on the page).
 
-### I cannot direct input (controllers, gamepad, mouse/keyboard) into mixed reality
+### I cannot direct input (controllers, gamepad, mouse/keyboard) into mixed reality.
 
 When you put on your headset, input should automatically get toggled to your mixed reality experience through your headset's presence sensor. A blue bar should appear on your Desktop:
 
@@ -61,12 +61,12 @@ If you choose "Seated and standing," either during headset setup or later on, yo
 
 If you choose "All experiences", you'll set up a boundary and you can use apps and experiences that work with a boundary as well as those that don't require one. 
 
-### Learn Mixed Reality didn't run on first launch, and I went right into the Windows Mixed Reality home
+### Learn Mixed Reality didn't run on first launch, and I went right into the Windows Mixed Reality home.
 
 You can re-run the learning experience by following the [re-run steps](learn-mixed-reality.md#how-do-i-re-run-the-learning-experience). 
 
 
-## Boundary setup and questions
+## Boundary setup and other questions
 
 ### What's a boundary and why should I create one?
 
@@ -80,7 +80,7 @@ When you first set up your headset, the setup app (Mixed Reality Portal) will ta
 
 If someone new uses your headset, make sure they understand the boundary and how to use it. If you move your headset to a new location, you'll need to set up a new boundary that works for that space.
 
-### I get an error message when I try to create a boundary
+### I get an error message when I try to create a boundary.
 
 * Don't get too close to a wall or other obstruction when creating a boundary.
 * Make sure to hold your headset at waist height, and face toward your computer while you trace the boundary.
@@ -90,7 +90,7 @@ If someone new uses your headset, make sure they understand the boundary and how
 * Don’t cross back over your own path as you’re tracing.
 * If you get stuck in a corner, start over.
 
-### During start up of Mixed Reality, I'm stuck at the step "Turn your head side to side, and then at the floor"
+### During start up of Mixed Reality, I'm stuck at the step "Turn your head side to side, and then at the floor".
 
 You are asked to turn your head side to side so your headset can recognize your space and restore the virtual floor and boundary you set up previously. When you put on your headset, this scanning process can take up to 10 seconds. After it is complete, you will either be in the Mixed Reality Home or you will be prompted to set up your boundary again.
 
@@ -102,9 +102,12 @@ If the scanning process takes longer than 10 seconds, there could be a problem w
 
 Windows Mixed Reality might have trouble identifying a boundary that you previously created. You can create a new boundary or you can use your device in Seated and standing mode. 
 
-### Can I turn off the boundary temporarily?
+## I see a message that says “Lost tracking” or “We don’t have a boundary for this space”.
+Select **Start > Mixed Reality Portal** on your desktop. Select "Menu", then select "Run setup" to create a new boundary.
 
-Yes. **Select Start > Mixed Reality Portal**, then open Menu. Turn Boundary to Off. While the boundary is off, make sure to stay in one place.
+### How can I turn off the boundary temporarily?
+
+**Select Start > Mixed Reality Portal**, then open "Menu". Turn "Boundary" to "Off". Make sure to stay in one place while the boundary is off.
 
 
 ## Problems in Windows Mixed Reality Home
@@ -665,7 +668,7 @@ Microsoft Edge does not currently support haptics on the WebVR gamepad API exten
 
 ### How can I play SteamVR games in my Windows Mixed Reality immersive headset?
 
-Install Windows Mixed Reality for SteamVR on your PC and set up SteamVR:
+You must install Windows Mixed Reality for SteamVR on your PC and set up SteamVR:
 * [Download and install SteamVR](https://steamcdn-a.akamaihd.net/client/installer/SteamWindowsMRInstaller.exe).
 * Start SteamVR. The SteamVR Tutorial should start automatically.
 * Connect your headset to your PC and turn on your motion controllers.
@@ -749,11 +752,11 @@ If you lock your PC screen, remove your headset, or switch users, or if your PC 
 
 ## Speech and audio problems
 
-### I can't hear any sound in my headset, or sound is playing through my computer.
+### I can't hear any sound in my headset, or sound is playing through my computer instead of my headset.
 
 * If your immersive headset doesn’t include built-in headphones, you’ll need to connect headphones to the audio jack on the headset. The jack is often located just behind or under the headset visor or lenses. Check with your headset manufacturer if you can't find it.
 * Some audio headsets have physical buttons to control the volume. If audio isn't working, check to see whether the volume is turned down or muted.
-* Windows Mixed Reality is designed to play sound through your immersive headset when the Mixed Reality Portal is running and you have headphones connected to it. When you close the Mixed Reality Portal application or when that app has not been used for 15 minutes, audio will switch to your default Windows playback device. You can change this setting in **Settings > Mixed reality > Audio and speech.**
+* Windows Mixed Reality is designed to play sound through your immersive headset when the Mixed Reality Portal is running and you have headphones connected to it. When you take the headset off or flip the visor up, close the Mixed Reality Portal application, or when that app has not been used for 15 minutes, audio will switch to your default Windows playback device. You can change this setting in **Settings > Mixed reality > Audio and speech.**
 * Make sure your audio headset is plugged into the audio jack completely. The Acer headset in particular may require more care to ensure the audio headset is plugged in all the way.
 * Check that the audio headset/mic is plugged into the headset and not the PC.
 * The Windows Sound Control Panel only shows enabled audio endpoints, not disabled endpoints. The headset audio device will be disabled when you're not wearing the headset, so you have to right-click in the sound control panel and choose "Show disabled devices" to see it; the device name is "Realtek USB2.0 Audio". Once you do this, you can change the name in the "Properties" page to something you'll recognize more easily. You can do this for both the playback and recording tabs.
