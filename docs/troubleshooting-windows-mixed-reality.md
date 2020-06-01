@@ -140,7 +140,7 @@ Windows Mixed Reality headsets do not officially support the use of USB or HDMI 
 
 The headset might not have been detected properly because of an underlying issue. Try launching the Mixed Reality Portal manually and look for any error messages that appear. 
 
-### My headset stopped working after putting my PC to sleep, into hibernation mode, or when restarting my PC with my headset attached
+### My headset stopped working after putting my PC to sleep, in hibernation mode, or when restarting my PC with my headset attached
 
 1. Open Device Manager and confirm that your headset is listed under "Mixed Reality devices".
 2. Double click on your headset under "Mixed Reality devices" and confirm that the device status indicates "This device is working properly".
@@ -148,7 +148,7 @@ The headset might not have been detected properly because of an underlying issue
 
 Note: Microsoft is investigating a potential software/driver interoperability issue which may result in the "Code 43" error above, after putting your PC to sleep or into hibernation mode. The workaround is to unplug and replug your headset's USB cable. This issue affects a small number of PCs, and is expected to be resolved in a future update to the Mixed Reality headset driver.
 
-### My headset causes my PC to generate a Bug Check (blue screen) when I put my PC to sleep or into hibernation mode
+### My headset causes my PC to generate a Bug Check (blue screen) when I put my PC to sleep or when it is in hibernation mode
 
 Microsoft is investigating a potential software/driver interoperability issue which may result in a small number of PCs potentially generating a "9F" Bug Check (blue screen) when the PC is put to sleep or into hibernation mode with the headset attached. This issue is expected to be resolved in a future update to the Mixed Reality headset driver.
 
@@ -309,10 +309,10 @@ If the firmware update process is getting stuck, and there has been no progress 
 
 1. Make sure the motion controllers show up as "Connected". "Paired" does not necessarily mean the controllers are connected to the PC. Controllers should appear under "Mouse, keyboard & pen" category. Motion controllers under "Other devices" have failed the pairing process and are not functional.
 2. If you're using an external USB Bluetooth Adapter, make sure it is connected to a USB 2.0 port (black) if available. Plug the USB Bluetooth Adapter into a port that is physically separated from:
-* the headset USB connector
-* flash drives
-* hard drives
-* wireless USB receivers like those for keyboards/mice
+    * the headset USB connector
+    * flash drives
+    * hard drives
+    * wireless USB receivers like those for keyboards/mice
 Plug the USB Bluetooth Adapter into the opposite side of the computer as far as possible from these other connectors.
 3. Verify that there’s only one Bluetooth radio in the PC by right clicking on the Windows Start Menu and select Device Manager. Expand the Bluetooth section and look for one Adapter. If you are using the desktop PC configuration with built-in radio, check if an external antenna is connected. If there isn’t an external antenna connected, it can cause tracking issues. Or use an external bluetooth dongle (USB), disable the internal Bluetooth capability, and retry pairing and connecting.
 4. Close the Bluetooth settings window if it's open. Leaving it open in the background means that a lot of extra calls are made to the Bluetooth protocol.
