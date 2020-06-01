@@ -102,12 +102,21 @@ If the scanning process takes longer than 10 seconds, there could be a problem w
 
 Windows Mixed Reality might have trouble identifying a boundary that you previously created. You can create a new boundary or you can use your device in Seated and standing mode. 
 
-## I see a message that says “Lost tracking” or “We don’t have a boundary for this space”.
-Select **Start > Mixed Reality Portal** on your desktop. Select "Menu", then select "Run setup" to create a new boundary.
+### I see a message that says “Lost tracking” or “We don’t have a boundary for this space”.
+
+You must create a new boundary. To do this:
+* Select **Start > Mixed Reality Portal**.
+* Select "Run setup".
+
+### The boundary is always visible. How can I make it go away?
+
+The boundary appears when you are close to it. If your boundary includes any sections that have a narrow or irregular shape, you might end up getting close to it, and causing it to appear, more often than you’d like. To fix this, try creating your boundary again using a larger and more regular shape. Select **Start  > Mixed Reality Portal** on your desktop, then select "Run setup". 
 
 ### How can I turn off the boundary temporarily?
 
-**Select Start > Mixed Reality Portal**, then open "Menu". Turn "Boundary" to "Off". Make sure to stay in one place while the boundary is off.
+* Select **Start > Mixed Reality Portal**.
+* Open "Menu". 
+* Turn "Boundary" to "Off". Make sure to stay in one place while the boundary is off.
 
 
 ## Problems in Windows Mixed Reality Home
@@ -783,10 +792,10 @@ The Windows Mixed Reality home includes spatial sound, so audio comes from the a
 
 ### Speech commands are not working as expected.
 
-* To use speech commands, speech and language settings on your PC must be set to a language supported in Windows Mixed Reality. To check this, go to **Settings > Time & language > Region & language and Settings > Time & language > Speech**. Dictation will not work correctly if your system keyboard language does not match the language you've selected for Windows Mixed Reality.
+* To use speech commands, speech and language settings on your PC must be set to a [language supported in Windows Mixed Reality](https://support.microsoft.com/en-us/help/4039262/windows-10-mixed-reality-setup-faq#Languages). To check your Windows region and language, select **Settings  > Time & language > Region & language**. To check your Speech language, select **Settings  > Time & language > Speech**.
 * If your headset doesn’t have a built-in microphone, you’ll need to attach headphones with a microphone to the headset or to your PC. To have microphone input switch automatically to your headset when you wear it, go to **Settings > Mixed reality > Audio and speech**, and turn on "When I wear my headset, switch to headset mic".
-* Audio headsets with a microphone that dangles from the earbud cable do not perform well for voice commands in environments with ambient noise.
 * Some audio headsets have a physical button to mute and unmute the microphone. If speech commands aren't working, check to see whether your mic is muted.
+* Audio headsets with a microphone that dangles from the earbud cable do not perform well for voice commands in environments with ambient noise.
 * Cortana can be slow the first time she is invoked in a Mixed Reality Portal session. You can work around this by making sure "Let Cortana respond to Hey Cortana" under **Settings > Cortana > Talk to Cortana** is enabled.
 * On some PCs, the default voice capture gain for your headset-connected microphone may be set too low. If you experience unreliable speech commands or dictation, you can try running the Microphone Setup troubleshooter. You can reach this troubleshooter through the **Settings > Time & Language > Speech**, then select "Get Started" in the "Microphone" section. Do this through the Desktop app in the Windows Mixed Reality home while wearing the headset to affect the microphone you use for Windows Mixed Reality. Select the appropriate endpoint in the troubleshooter wizard.
 
