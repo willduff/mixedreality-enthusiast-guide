@@ -315,6 +315,10 @@ On some PCs, leaving your headset plugged in before turning on or while rebootin
 * Make sure your graphics driver is up-to-date. In addition to checking Windows Update, you may wish to check the PC manufacturer's website for an updated graphics driver
 * Some Surface devices are incompatible with Windows Mixed Reality. Learn more about [Surface compatiblity and requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md#windows-mixed-reality-and-surface) 
 
+## My headset display doesn't work after I shut down and do a fast startup.
+
+Unplug the HDMI cable and the USB cable from the headset and then plug them back in.
+
 ### My headset displays are very choppy, but Mixed Reality Portal's preview window appears fine.
 
 * Make sure your PC's system resources (CPU, memory, and hard drive) are available and not pegged or maxed out by another app or process.
