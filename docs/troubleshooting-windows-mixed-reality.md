@@ -62,13 +62,16 @@ If the above steps don’t work, try uninstalling and then reinstalling Windows 
 * Replace the controller’s batteries.
 * If you're using a Bluetooth controller, go to **Settings > Devices > Bluetooth & other devices** on your PC and make sure it's paired (it should be listed on the page).
 
-### I can't direct input (controllers, gamepad, mouse/keyboard) into mixed reality.
+### I can't direct input (controllers, gamepad, mouse/keyboard) into Windows Mixed Reality.
 
 When you put on your headset, input should automatically get toggled to your mixed reality experience through your headset's presence sensor. A blue bar should appear on your Desktop:
 
 ![Windows Desktop with input being directed to headset](images/1050px-windowsy.png)
 
 If input doesn't get toggled automatically, you will need to manually toggle input to your headset. You can do this by typing **Windows Key + Y** on your keyboard (and the same to toggle input back to the desktop).
+
+### When I plug in my headset, nothing happens. Mixed Reality Portal doesn’t open.
+Mixed Reality Portal, the app that takes you through Windows Mixed Reality setup, is designed to open automatically when you plug in a compatible headset. If it doesn’t open, go to Start and type "Mixed Reality Portal" in the Search box to open the app from there. If you can’t find Mixed Reality Portal, that might mean you need to [update to the latest version of Windows](https://support.microsoft.com/en-us/help/12373/windows-update-faq).
 
 ### How do I choose between "Seated and standing" and "All experiences"?
 
