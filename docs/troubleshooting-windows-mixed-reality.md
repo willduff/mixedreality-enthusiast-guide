@@ -55,6 +55,12 @@ When you put on your headset, input should automatically get toggled to your mix
 
 If input doesn't get toggled automatically, you will need to manually toggle input to your headset. You can do this by typing **Windows Key + Y** on your keyboard (and the same to toggle input back to the desktop).
 
+### How do I choose between "Seated and standing" and "All experiences"?
+
+If you choose "Seated and standing," either during headset setup or later on, you'll be using your headset without a boundary. This means you'll need to stay in one spot when using the headset, so that you can avoid physical obstacles and tripping hazards. You can sit down or stand up, but you won't be able to move around (keep in mind that obstacles might be overhead as well as around you). Some apps might be designed to work with a boundary, so you might not be able to use them, or you might not have the same experience if you use them without a boundary.
+
+If you choose "All experiences", you'll set up a boundary and you can use apps and experiences that work with a boundary as well as those that don't require one. 
+
 ### Learn Mixed Reality didn't run on first launch, and I went right into the Windows Mixed Reality home
 
 You can re-run the learning experience by following the [re-run steps](learn-mixed-reality.md#how-do-i-re-run-the-learning-experience). 
@@ -62,7 +68,7 @@ You can re-run the learning experience by following the [re-run steps](learn-mix
 
 ## Boundary questions and setup
 
-### What's a boundary, and why should I create one?
+### What's a boundary and why should I create one?
 
 A boundary defines the area in which you can move around while you're wearing your Windows Mixed Reality immersive headset. Because you can't see your surroundings while you're using your headset, it's important to create a boundary to help you avoid obstacles. The boundary looks like a white outline inside mixed reality and appears when you come close to it. When you see it, slow your movements, and avoid crossing the boundary or extending your limbs beyond it.
 
@@ -83,12 +89,6 @@ If someone new uses your headset, make sure they understand the boundary and how
 * The space should not be too large or too complicated. Stick to a simple geometric shape without a lot of twists and turns.
 * Don’t cross back over your own path as you’re tracing.
 * If you get stuck in a corner, start over.
-
-### How do I choose between "Seated and standing" and "All experiences"?
-
-If you choose "Seated and standing," either during headset setup or later on, you'll be using your headset without a boundary. This means you'll need to stay in one spot when using the headset, so that you can avoid physical obstacles and tripping hazards. You can sit down or stand up, but you won't be able to move around (keep in mind that obstacles might be overhead as well as around you). Some apps might be designed to work with a boundary, so you might not be able to use them, or you might not have the same experience if you use them without a boundary.
-
-If you choose "All experiences", you'll set up a boundary and you can use apps and experiences that work with a boundary as well as those that don't require one. 
 
 ### During start up of Mixed Reality, I'm stuck at the step "Turn your head side to side, and then at the floor"
 
