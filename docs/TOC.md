@@ -19,6 +19,24 @@
 ### [SteamVR](using-steamvr-with-windows-mixed-reality.md)
 ### [WebVR](webvr.md)
 
+## Troubleshooting FAQs
+### [Common installation error messages](Common-installation-error-messages.md)
+### [Setup questions](set-up-questions.md)
+### [Boundary questions](boundary-questions.md)
+### [Problems in Windows Mixed Reality Home](problems-in-WMR-home.md)
+### [Headset connectivity issues](headset-connectivity-issues.md)
+### [Headset display problems](headset-display-problems.md)
+### [Mixed Reality Portal error messages](mixed-reality-portal-error-messages.md)
+### [Error codes and how to resolve them](error-codes.md)
+### [Motion controller problems](motion-controller-problems.md)
+### [Performance questions](performance-questions.md)
+### [Tracking system problems](tracking-problems.md)
+### [WebVR questions](webvr-questions.md)
+### [SteamVR questions](steamvr-questions.md)
+### [Speech and audio problems](speech-n-audio-problems.md)
+### [Other questions](other-questions.md)
+### [How to uninstall Windows Mixed Reality](uninstall-wmr.md)
+
 ## [Troubleshooting](troubleshooting-windows-mixed-reality.md)
 
 ## Appendix
