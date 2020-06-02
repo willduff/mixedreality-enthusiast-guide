@@ -38,7 +38,7 @@ If your [motion controllers](https://support.microsoft.com/en-us/help/4040517/wi
 
 ## My controller is stuck in an infinite reboot (buzzing after LEDs cycle).
 
-This is a critical battery indicator, so make sure you have fresh batteries in the device. If the issue persists, perform [device recovery](troubleshooting-windows-mixed-reality.md#device-recovery) to reset the controller to factory settings.
+This is a critical battery indicator, so make sure you have fresh batteries in the device. If the issue persists, perform [device recovery](motion-controller-problems.md#How-can-I-restore-the-controllers-to-factory-settings?) to reset the controller to factory settings.
 
 ## I'm trying to pair my controllers, but they never show up in the "Add a new device menu" in Bluetooth Settings.
 
@@ -78,7 +78,7 @@ This folder is not accessible in Windows Explorer and can only be modified from 
 ## Motion controllers do not appear in SteamVR apps and games.
 
 If you're able to see your Motion Controllers in the cliff house, but not in SteamVR apps and games, the Motion Controller model driver may not be installed properly. This driver is automatically downloaded and installed via Windows Update, but if you're on a PC that has enterprise policies or if Windows Update is otherwise restricted, you may need to install this manually. To check that the Motion Controller model driver is correctly installed:
-1. Turn on both of your motion controllers, and make sure they show up as "Connected" in the Settings app under **Devices > Bluetooth & other devices**. If they do not show up or show up as "Paired", [pair them](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality).
+1. Turn on both of your motion controllers, and make sure they show up as "Connected" in the Settings app under **Devices > Bluetooth & other devices**. If they do not show up or show up as "Paired", [pair them](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality).
 2. Open Device Manager and look for "Motion controller - Left" and "Motion controller - Right" under "Bluetooth".
 3. Select either device and then go to **View > Devices by Connection**.
 4. You will now see a view of the Motion Controller Bluetooth devices roll up to your Bluetooth radio. Under the same node as the two Motion Controllers should be two "Bluetooth HID Device" devices, and under each Bluetooth HID Device should be devices named "Motion Controller" (with gray icons).
@@ -106,7 +106,7 @@ Your batteries are running low and hit the cut-off threshold. Replace your batte
 
 This is probably a hardware defect and you should go back to your retailer or equipment manufacturer for a replacement or exchange.
 
-## The controller isn't working correctly and I can't update the device.
+## How can I restore the controllers to factory settings?
 
 Restore it to factory conditions (you will need fresh batteries):
 1. Unplug and power off the controllers.
