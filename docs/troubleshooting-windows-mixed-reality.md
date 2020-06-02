@@ -344,23 +344,24 @@ If your headset supports it, you can also adjust its calibration settings. If th
 
 ### I got a "Something went wrong" error message, or I'm having problems in the Mixed Reality Portal.
 
-Try to restart Windows Mixed Reality:
-1. Disconnect your headset from your PC (both cables).
-2. Restart your PC, then reconnect your headset.
+Restart Windows Mixed Reality:
+1. Disconnect both headset cables from your PC.
+2. Restart your PC.
+3. Reconnect your headset.
 
 If that doesn't work, make sure that your PC recognizes your headset:
 1. Select Start.
-2. Type device manager in the search box and select it in the list. 
-3. Expand Mixed reality devices and see if your headset is listed. 
+2. Type "device manager" in the search box and select it in the list. 
+3. Expand "Mixed reality devices" and see if your headset is listed. 
 
 If it isn't listed, try the following:
 1. Plug the headset into different ports on the PC, if available.
 2. Check for the latest software updates from Windows Update.
 3. Uninstall and reinstall Windows Mixed Reality:
-    1. Disconnect your headset from your PC (both cables).
-    2. Select Settings  > Mixed reality > Uninstall.
+    1. Disconnect both headset cables from your PC.
+    2. Select **Settings  > Mixed reality > Uninstall**.
     3. Select **Settings  > Devices  > Bluetooth & other devices** to unpair your motion controllers. Select each controller, and then select "Remove device".
-    4. To reinstall Windows Mixed Reality, plug your headset back into your PC.
+    4. Plug your headset back into your PC to reinstall Windows Mixed Reality.
     
 ### I'm getting a "Check your USB cable" error message
 
