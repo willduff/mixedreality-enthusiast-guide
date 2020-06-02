@@ -6,15 +6,15 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 ---
 
 
-## Headset connectivity issues
+# Headset connectivity issues
 
-### My computer does not have an HDMI port.
+## My computer does not have an HDMI port.
 If your computer does not have an HDMI port but does have a DisplayPort (DP), mini DisplayPort (miniDP) or USB Type-C (USB-C) port for outputting video, you may need to use a [supported adapter](recommended-adapters-for-windows-mixed-reality-capable-pcs.md).
 
-### Can I use USB or HDMI extension cables with Windows Mixed Reality headsets?
+## Can I use USB or HDMI extension cables with Windows Mixed Reality headsets?
 Windows Mixed Reality headsets do not officially support the use of USB or HDMI extension cables. Using these cables may significantly impact your Mixed Reality experience because of variances in resulting signal integrity and bus power between your PC's USB controller and the Mixed Reality headset. If the headset display briefly shows a blue screen and then turn black and Mixed Reality Portal restarts or completely de-enumerates during use, or if the headset audio cuts out or becomes glitchy, or if the headset flickers between black and the correct display, try using your headset without extension cables.
 
-### I am getting a "Check your display cable" error.
+## I am getting a "Check your display cable" error.
 
 * If you are using any adapters to connect your headset to your PC, make sure they support Windows Mixed Reality. Also try connecting the adapter to the PC before connecting the HMD to the adapter.
 * If your PC has both integrated and discrete graphics, make sure you're using the HDMI port on your active graphics card. In some cases, this may mean that you'll need to connect your PC display to a non HDMI port.
@@ -23,11 +23,11 @@ Windows Mixed Reality headsets do not officially support the use of USB or HDMI 
 * Make sure that you plugged your headset's HDMI cable into an **HDMI out** port on your PC, not an HDMI in port.
 * Windows may be unable to detect the display cable connection. Open the Device Manager and see if the headset is listed under "Monitors". If not, select **Action > Scan for hardware changes**. 
 
-### I see a message that says "Put on your headset" even though I have my headset on.
+## I see a message that says "Put on your headset" even though I have my headset on.
 
 When you put on your headset, Windows Mixed Reality may need a few seconds to reload your space. If this message doesn't go away, make sure the protective sticker has been removed from the proximity sensor, which is on the inside of the headset between the lenses. If this doesn't resolve the problem, contact your headset manufacturer.
 
-### A message says "Connect your headset" even though I’ve plugged in my headset.
+## A message says "Connect your headset" even though I’ve plugged in my headset.
 
 1. Make sure the headset's USB and HDMI cables are connected to the correct ports on your PC. Here is how to identify the correct ports:
     * USB 3.0 ports have a special logo with an "SS" mark (indicating "SuperSpeed"). The port's inside piece is normally blue, whereas older USB 2.0 ports are typically black or white on the inside.
@@ -44,7 +44,7 @@ When you put on your headset, Windows Mixed Reality may need a few seconds to re
 
 **Note for Windows 10 N users:** If your PC is running Windows 10 N, you'll see a **"Code 28: The install class is not present or is invalid" error** in Device Manager after plugging in your Mixed Reality headset. N-editions of Windows 10 are not supported by Windows Mixed Reality. Follow these [instructions](troubleshooting-windows-mixed-reality.md#im-getting-a-the-install-class-is-not-present-or-is-invalid-error-in-device-manager) for more information.
 
-### A message says "Check your USB cable" or "Insufficient USB speed".
+## A message says "Check your USB cable" or "Insufficient USB speed".
 
 * Make sure that you're using a supported USB 3.0 port on your PC:
     * Make sure that your headset's USB cable is plugged in all the way.
@@ -54,21 +54,21 @@ When you put on your headset, Windows Mixed Reality may need a few seconds to re
     * On custom-built PCs, even though a port may be marked as a USB 3.0 port, it may be connected to a USB 2.0 controller. With your headset connected, open Device Manager, locate and single click any of the devices enumerated from your headset, then go to **View > Devices by connection**.
 * Try your headset on another PC. If that other PC is not fully compatible with Windows Mixed Reality, check in Device Manager to see if you see the "insufficient USB speed" message. If your headset does not enumerate properly on multiple PCs, your headset could be defective.
 
-### The Mixed Reality Portal did not launch automatically after I plugged in my headset.
+## The Mixed Reality Portal did not launch automatically after I plugged in my headset.
 
 The headset might not have been detected properly because of an underlying issue. Try launching the Mixed Reality Portal manually and look for any error messages that appear. 
 
-### My headset stopped working after putting my PC to sleep, in hibernation mode, or when restarting my PC with my headset attached.
+## My headset stopped working after putting my PC to sleep, in hibernation mode, or when restarting my PC with my headset attached.
 
 1. Open Device Manager and confirm that your headset is listed under "Mixed Reality devices".
 2. Double click on your headset under "Mixed Reality devices" and confirm that the device status indicates "This device is working properly".
 3. If you see a "Code 43" error indicating that the device has stopped working, or if you don't see your headset listed under "Mixed Reality devices", unplug and replug in your headset's USB cable. Microsoft is investigating a potential software/driver interoperability issue which may result in this error. This issue affects a small number of PCs, and is expected to be resolved in a future update to the Mixed Reality headset driver.
 
-### My headset causes my PC to generate a Bug Check (blue screen) when I put my PC to sleep or when it is in hibernation mode.
+## My headset causes my PC to generate a Bug Check (blue screen) when I put my PC to sleep or when it is in hibernation mode.
 
 Microsoft is investigating a potential software/driver interoperability issue which may result in a small number of PCs potentially generating a "9F" Bug Check (blue screen) when the PC is put to sleep or into hibernation mode with the headset attached. This issue is expected to be resolved in a future update to the Mixed Reality headset driver.
 
-### The headset driver did not install automatically when I plugged in the headset.
+## The headset driver did not install automatically when I plugged in the headset.
 
 On new PCs, or PCs with a newly installed copy of Windows 10, the headset driver could be queued behind other Windows updates and may not install immediately. If you have an "N"-edition of Windows, you will need to switch to a regular edition of Windows 10 to use Windows Mixed Reality. To install it manually:
 
@@ -86,6 +86,6 @@ If the manual install doesn’t work, or you don't find the driver under Other D
 3. In the new popup that appears, select the check box "Delete the driver software for this device" and then select "Uninstall".
 4. When that completes, unplug the headset from your PC, and plug it back in. Windows Update will now download and install a new driver.
 
-### Troubleshooting flowchart
+## Troubleshooting flowchart
 
 ![Connect your headset/check your USB cable](images/hmd-connectivity2.jpg)
