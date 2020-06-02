@@ -5,9 +5,9 @@ ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Troubleshoot, Errors, Help, Support, Performance
 ---
 
-## Performance questions
+# Performance questions
 
-### How can I tell if the Windows Mixed Reality headset is rendering at 60Hz or 90Hz framerate?
+## How can I tell if the Windows Mixed Reality headset is rendering at 60Hz or 90Hz framerate?
 
 Check the **Device Portal > Performance** tab. 
 
@@ -15,7 +15,7 @@ Check the **Device Portal > Performance** tab.
 
 **Note**: The **Headset display > visual quality settings** only affect the rendering of the Windows Mixed Reality Home experience.
 
-### What do I do if my PC appears to be running slowly?
+## What do I do if my PC appears to be running slowly?
 
 The system may be sluggish for many reasons and in most cases this will subside after a few seconds. If you experience this problem over long periods of time:
 1. Close all unused application on the desktop.
@@ -24,14 +24,14 @@ The system may be sluggish for many reasons and in most cases this will subside 
 4. Lower the visual quality in your Windows Mixed Reality Home.
 5. Ensure that you have the latest graphics drivers for your PC (see the graphics drivers section).
 
-### My PC is warming up as I run the Mixed Reality experiences. How do I keep it cool?
+## My PC is warming up as I run the Mixed Reality experiences. How do I keep it cool?
 
 1. Ensure that the battery is charged and power source is plugged in.
 2. Make sure that the fans that blow air into or out of the PC are not blocked.
 3. Use the PC in a relatively cool environment.
 4. Make sure there are no heat sources (for example, the sun or heat vents) pointed at the PC.
 
-### My visuals are choppy, load slowly, or don't look good.
+## My visuals are choppy, load slowly, or don't look good.
 * Make sure your headset is plugged into the correct graphics card on your PC. Some PCs have both integrated and discrete graphics cards. The discrete card will generally provide the best performance. [Learn more about PC hardware](https://support.microsoft.com/en-us/help/4039260/windows-10-mixed-reality-pc-hardware-guidelines).
 * Close unused applications on your desktop.
 * Make sure your headset fits snugly (move it lower and higher or left and right to adjust).
