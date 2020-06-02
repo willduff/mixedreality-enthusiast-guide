@@ -188,7 +188,7 @@ When you put on your headset, Windows Mixed Reality may need a few seconds to re
     * If your computer has two HDMI ports, use the one that connects to the graphics card, not the computer's motherboard. It's not always obvious which is which, though discrete ports are often located in an expansion slot on the computer. If you try one port and it doesn't work, try the other.
 2. Unplug and plug in the USB and HDMI cables from your headset to make sure they are securely connected. When plugging in the USB cable, try not to pause during insertion of the USB cable.
 3. Open Device Manager and confirm that your headset is listed under "Mixed Reality devices". Double click on your headset under "Mixed Reality devices" and confirm that the device status indicates "This device is working properly". Yellow exclamation marks on devices listed in Device Manager indicate errors reported by the devices connected to your PC.
-    * If "Hololens Sensors" is listed with a yellow exclamation mark in Device Manager, double click on the device. If you see a **"Code 10: The drivers for this device are not installed. There are no compatible drivers for this device"**, follow the [instructions](troubleshooting-windows-mixed-reality.md#manually-installing-the-headset-driver) to manually install the headset driver.
+    * If "Hololens Sensors" is listed with a yellow exclamation mark in Device Manager, double click on the device. If you see a **"Code 10: The drivers for this device are not installed. There are no compatible drivers for this device"**, follow the [instructions](headset-connectivity-issues.md#The-headset-driver-did-not-install-automatically-when-I-plugged-in-the-headset.) to manually install the headset driver.
     * If you use multiple Mixed Reality headsets on your PC and have manually installed the Mixed Reality headset driver before, in some circumstances the manual driver update may only apply to the headset connected at the time and not to your other headsets. In this case, you'll see **"Code 31: This device is not working properly because Windows cannot load the drivers required for this device. (Code 31). The ALPC message requested is no longer available"** in Device Manager. In Device Manager, right click on your headset under "Mixed Reality devices", and select "Uninstall device". Select "OK" to confirm and then unplug and replug your headset.
 4. If you're seeing partial enumeration of the headset (a series of USB devices enumerate, but nothing under "Mixed Reality headsets" in Device Manager), try an externally powered USB 3.0 hub.
 5. Go to the headset manufacturer’s website and update the drivers and firmware for your headset.
@@ -286,7 +286,7 @@ If helpful, consult the headset black screen troubleshooting flow chart below.
 
 ### My headset display occasionally turns black after some use.
 
-* Try disabling any USB suspend or power saving features your PC might have. For example, [USB selective suspend](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-selective-suspend) in Windows power options, the "Allow the computer to turn off this device to save power" setting in Device Manager, and any USB power saving settings in your PC's firmware.
+* Try disabling any USB suspend or power saving features your PC might have. For example, [USB selective suspend](https://docs.microsoft.com/windows-hardware/drivers/usbcon/usb-selective-suspend) in Windows power options, the "Allow the computer to turn off this device to save power" setting in Device Manager, and any USB power saving settings in your PC's firmware.
 * Temporarily disconnect any other USB devices and peripherals connected to your PC.
 * Double check your GPU driver version. Make sure it's recent, but also pay attention to any new performance and compatibility issues and regressions on brand new drivers.
 
@@ -477,7 +477,7 @@ This folder is not accessible in Windows Explorer and can only be modified from 
 ### Motion controllers do not appear in SteamVR apps and games.
 
 If you're able to see your Motion Controllers in the cliff house, but not in SteamVR apps and games, the Motion Controller model driver may not be installed properly. This driver is automatically downloaded and installed via Windows Update, but if you're on a PC that has enterprise policies or if Windows Update is otherwise restricted, you may need to install this manually. To check that the Motion Controller model driver is correctly installed:
-1. Turn on both of your motion controllers, and make sure they show up as "Connected" in the Settings app under **Devices > Bluetooth & other devices**. If they do not show up or show up as "Paired", [pair them](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality).
+1. Turn on both of your motion controllers, and make sure they show up as "Connected" in the Settings app under **Devices > Bluetooth & other devices**. If they do not show up or show up as "Paired", [pair them](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality).
 2. Open Device Manager and look for "Motion controller - Left" and "Motion controller - Right" under "Bluetooth".
 3. Select either device and then go to **View > Devices by Connection**.
 4. You will now see a view of the Motion Controller Bluetooth devices roll up to your Bluetooth radio. Under the same node as the two Motion Controllers should be two "Bluetooth HID Device" devices, and under each Bluetooth HID Device should be devices named "Motion Controller" (with gray icons).
@@ -604,7 +604,7 @@ The system may be sluggish for many reasons and in most cases this will subside 
 
 ### The system cannot find the boundary and I'm being presented with setup UI.
 
-This means that the tracking system was unable to recognize your environment. If you are in a new environment, you must set up the [boundary](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality#set-up-your-room-boundary). If you have previously used the device in this environment and set up a boundary:
+This means that the tracking system was unable to recognize your environment. If you are in a new environment, you must set up the [boundary](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality#set-up-your-room-boundary). If you have previously used the device in this environment and set up a boundary:
 * Make sure the room has enough light.
 * Make sure you have worn the device and looked around the room. The device must observe your environment to know where it is. It will not find your bounds if it is sitting on a desk or table.
 * Unplug the device, close Windows Mixed Reality, and plug the device in again.
@@ -851,7 +851,7 @@ The Steam app will close if you lock your PC screen, remove your headset, switch
 
 * Some applications, including many of those launched through SteamVR, can lose audio or hang when the audio device changes as you start or stop the Mixed Reality Portal. Restart the app after you have opened the Mixed Reality Portal app to correct this.
 * If another multimedia USB device (such as a web cam) shares the same internal or external USB hub with the Windows Mixed Reality headset, the headset's audio jack/headphones may occasionally have a buzzing sound or no audio at all. Plug your headset into a USB port that uses a different hub or disconnect/disable your other USB multimedia device.
-* If you notice a loud burst of noise from headphones connected to the headset, it is possible that the PC's USB hub is not able to provide enough power to the Windows Mixed Reality headset. If this occurs, file a [Feedback Hub](https://docs.microsoft.com/en-us/hololens/hololens-feedback) bug immediately. Workarounds that may help include not using extension cables, using a dedicated, external powered USB 3.0 HUB, or trying a different USB port on the PC.
+* If you notice a loud burst of noise from headphones connected to the headset, it is possible that the PC's USB hub is not able to provide enough power to the Windows Mixed Reality headset. If this occurs, file a [Feedback Hub](https://docs.microsoft.com/hololens/hololens-feedback) bug immediately. Workarounds that may help include not using extension cables, using a dedicated, external powered USB 3.0 HUB, or trying a different USB port on the PC.
 
 ### My Bluetooth audio headset isn't working as expected.
 
