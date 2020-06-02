@@ -5,25 +5,25 @@ ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Troubleshoot, Errors, Help, Support, Installation
 ---
 
-## Common installation error messages
+# Common installation error messages
 
-### "Your PC can’t run Windows Mixed Reality"
+## "Your PC can’t run Windows Mixed Reality"
 
 Your PC doesn’t meet the [minimum requirements](https://support.microsoft.com/en-us/help/4039260/windows-10-mixed-reality-pc-hardware-guidelines) needed to run Windows Mixed Reality. This could be because the computer’s hardware setup isn’t compatible with Windows Mixed Reality, or because you need to [update to the latest version of Windows](https://support.microsoft.com/en-us/help/12373/windows-update-faq). 
 
 Note that Windows Mixed Reality requires a graphics card driver that supports at least WDDM 2.2, so make sure you have the latest driver update from the manufacturer. If Windows Mixed Reality setup says your graphics card doesn’t meet the requirements and you think it does, make sure your headset is plugged into the correct card.
 
-### "You’re nearly there—this PC doesn’t meet the minimum requirements needed to run Windows Mixed Reality"
+## "You’re nearly there—this PC doesn’t meet the minimum requirements needed to run Windows Mixed Reality"
 
 Your PC doesn’t meet the [minimum requirements](https://support.microsoft.com/en-us/help/4039260/windows-10-mixed-reality-pc-hardware-guidelines) needed for the best experience in Windows Mixed Reality. Your PC may be able to run an immersive headset, but may not be able to run certain applications or might have problems with performance.
 
 Note that Windows Mixed Reality requires a graphics card driver that supports at least WDDM 2.2, so make sure you have the latest driver update from the manufacturer. If Windows Mixed Reality setup says your graphics card doesn’t meet the requirements and you think it does, make sure your headset is plugged into the correct card.
 
-### "Before we can set up Windows Mixed Reality, your administrator will need to enable it for your organization. Learn More"
+## "Before we can set up Windows Mixed Reality, your administrator will need to enable it for your organization. Learn More"
 
 You are probably on an enterprise managed network and your organization is using Windows Server Update Services (WSUS) or has other policies that may block the download. Contact your organization's IT department or system administrator to [enable Windows Mixed Reality](https://docs.microsoft.com/windows/application-management/manage-windows-mixed-reality#enable).
 
-### "We couldn't download the mixed reality software" or "Hang tight while we do some downloading"
+## "We couldn't download the mixed reality software" or "Hang tight while we do some downloading"
 
 * Sometimes a pending update can block the Mixed Reality Software download. Go to **Settings > Update & security > Windows Update** and make sure Windows Update is turned on. Then download and install any updates that are waiting to be installed. If you get an error with Windows Update when attempting these steps go [here](https://support.microsoft.com/en-us/help/10164/fix-windows-update-errors).
 * Make sure your PC is connected to the internet and has at least 2GB of free storage space. Check your network status at: **Settings > Network & Internet > Status**. If you are unable to connect to the internet go [here](https://support.microsoft.com/en-us/help/10741/windows-10-fix-network-connection-issues) for help.  
@@ -38,7 +38,7 @@ If the previous solutions don't work, try:
     * Restart your PC and try again. 
     * If Windows Mixed Reality installs correctly, reinstall the latest updates under **Settings > Windows Update > Check for Updates** and see if Windows Mixed Reality continues to work. If it does not install correctly, reinstall the latest updates and contact Windows Support. 
 
-### "Something went wrong, and we couldn't start Windows Mixed Reality"
+## "Something went wrong, and we couldn't start Windows Mixed Reality"
 * Unplug both cables of your headset from the PC.
 * Restart the PC.
 * Go to **Settings > Update & security > Windows Update** and make sure that Windows Update is turned on. Then download and install any waiting updates.
