@@ -6,9 +6,9 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 ---
 
 
-## SteamVR questions
+# SteamVR questions
 
-### How can I play SteamVR games in my Windows Mixed Reality immersive headset?
+## How can I play SteamVR games in my Windows Mixed Reality immersive headset?
 
 You must install Windows Mixed Reality for SteamVR on your PC and set up SteamVR:
 * [Download and install SteamVR](https://steamcdn-a.akamaihd.net/client/installer/SteamWindowsMRInstaller.exe).
@@ -17,12 +17,12 @@ You must install Windows Mixed Reality for SteamVR on your PC and set up SteamVR
 * Once the Windows Mixed Reality home has loaded and your controllers are visible, open the Steam app on your desktop.
 * Use the Steam app to launch a SteamVR game from your Steam library. To launch SteamVR games without taking off your headset, you can find and launch them under Windows Mixed Reality's **Start > All Apps**. 
 
-### I get a message that says “To use SteamVR with Windows Mixed Reality, you need to install the latest Windows Update" or "Windows Developer Mode Required".
+## I get a message that says “To use SteamVR with Windows Mixed Reality, you need to install the latest Windows Update" or "Windows Developer Mode Required".
 
 1. Make sure your PC is running the latest version of Windows 10. To check this, go to **Settings  > System > About**. Under "Windows specifications", make sure "OS Build" is 16299.64 or greater.
 2. Make sure you don’t have any updates waiting to download or install. Go to **Settings  > Update & Security > Windows Update** and select "Check for updates". You may have to check for updates multiple times so keep checking for updates until no further updates are available and then restart your PC.
 
-### SteamVR is crashing after updating Windows.
+## SteamVR is crashing after updating Windows.
 
 Some older versions of Windows Mixed Reality for SteamVR are no longer compatible with Windows. You may have an old version of Windows Mixed Reality for SteamVR. To ensure that you are up to date:
 1. In your Steam library, go to **Software > Windows Mixed Reality for SteamVR**.
@@ -49,7 +49,7 @@ If SteamVR is still crashing after updating you may have two installations of Wi
 4. Save the file and close it.
 5. Restart Steam and SteamVR.
 
-### My controllers aren't working as expected in SteamVR.
+## My controllers aren't working as expected in SteamVR.
 
 1. Close SteamVR.
 2. Return to the Mixed Reality Home and confirm that your controllers are working as expected.
@@ -60,11 +60,11 @@ Note that you'll use your motion controllers differently in different games. Her
 * To open the Steam dashboard, press straight down on the left thumbstick.
 * To exit a SteamVR game and return to the Windows Mixed Reality home, press the Windows button. Then select the Mixed Reality Home button that appears on screen.
 
-### My left and right controllers are reversed in SteamVR.
+## My left and right controllers are reversed in SteamVR.
 
 Start the game with your controllers off and then turn the left one on, followed by the right one.
 
-### My games are running slowly.
+## My games are running slowly.
 
 1. Confirm that your PC meets the specifications for SteamVR in Windows Mixed Reality
 2. Confirm that your PC meets the specifications for the SteamVR game you are playing.
@@ -77,17 +77,17 @@ Start the game with your controllers off and then turn the left one on, followed
 
 If you're still running into unexpected performance issues, please send us feedback using the Windows Feedback Hub. Make sure to follow the instructions to [include a SteamVR Performance Trace](using-steamvr-with-windows-mixed-reality.md#sharing-feedback-on-steamvr). 
 
-### SteamVR is showing a compositor error (for example, "Shared IPC Compositor Connect Failed (400)").
+## SteamVR is showing a compositor error (for example, "Shared IPC Compositor Connect Failed (400)").
 
 There is a known issue where this can happen if your headset and primary monitor are on two different video adapters. Attach your monitor to the same adapter as your headset and configure that monitor to be the primary monitor in **Settings app > System > Display**.
 
-### SteamVR content appears in the wrong place, like beneath the floor or above my head.
+## SteamVR content appears in the wrong place, like beneath the floor or above my head.
 
 Reset your position: 
 1. Click the left controller's thumbstick to bring up the "SteamVR Dashboard".
 2. Select the "Settings" button.
 3. Select "Reset Seated Position".
 
-### My Steam app closed unexpectedly.
+## My Steam app closed unexpectedly.
 
 The Steam app will close if you lock your PC screen, remove your headset, switch users, or if your PC goes to sleep.
