@@ -38,7 +38,7 @@ If your [motion controllers](https://support.microsoft.com/en-us/help/4040517/wi
 
 ## My controller is stuck in an infinite reboot (buzzing after LEDs cycle).
 
-This is a critical battery indicator, so make sure you have fresh batteries in the device. If the issue persists, perform [device recovery](motion-controller-problems.md#how-can-I-restore-the-controllers-to-factory-settings?) to reset the controller to factory settings.
+This is a critical battery indicator, so make sure you have fresh batteries in the device. If the issue persists, perform [device recovery](motion-controller-problems.md#how-can-I-restore-the-controllers-to-factory-settings) to reset the controller to factory settings.
 
 ## I'm trying to pair my controllers, but they never show up in the "Add a new device menu" in Bluetooth Settings.
 
