@@ -7,7 +7,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 
 
 
-## Error codes and how to resolve them
+# Error codes and how to resolve them
 
 | **Windows 10 error codes** (version 1809/versions 1709, 1803) | **Error message and troubleshooting suggestions**                    |
 |-------------------------------------------------------------|--------------------------------------------------------------------|
