@@ -315,7 +315,7 @@ On some PCs, leaving your headset plugged in before turning on or while rebootin
 * Make sure your graphics driver is up-to-date. In addition to checking Windows Update, you may wish to check the PC manufacturer's website for an updated graphics driver
 * Some Surface devices are incompatible with Windows Mixed Reality. Learn more about [Surface compatiblity and requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md#windows-mixed-reality-and-surface) 
 
-## My headset display doesn't work after I shut down and do a fast startup.
+### My headset display doesn't work after I shut down and do a fast startup.
 
 Unplug the HDMI cable and the USB cable from the headset and then plug them back in.
 
@@ -339,6 +339,41 @@ For general info about comfort in Windows Mixed Reality, see [Windows Mixed Real
 Try adjusting the fit of your headset. Adjust its position on your face by moving it up and down or left and right, and adjust the straps so it feels snug.
 
 If your headset supports it, you can also adjust its calibration settings. If the headset has a knob to adjust calibration, use that. If it doesn’t, go to **Settings > Mixed reality > Visual quality** and adjust the calibration there. For more information on calibration for your specific device, check with your headset manufacturer.
+
+## Mixed Reality Portal error messages and problems
+
+### I got a "Something went wrong" error message, or I'm having problems in the Mixed Reality Portal.
+
+Try to restart Windows Mixed Reality:
+1. Disconnect your headset from your PC (both cables).
+2. Restart your PC, then reconnect your headset.
+
+If that doesn't work, make sure that your PC recognizes your headset:
+1. Select Start.
+2. Type device manager in the search box and select it in the list. 
+3. Expand Mixed reality devices and see if your headset is listed. 
+
+If it isn't listed, try the following:
+1. Plug the headset into different ports on the PC, if available.
+2. Check for the latest software updates from Windows Update.
+3. Uninstall and reinstall Windows Mixed Reality:
+    1. Disconnect your headset from your PC (both cables).
+    2. Select Settings  > Mixed reality > Uninstall.
+    3. Select **Settings  > Devices  > Bluetooth & other devices** to unpair your motion controllers. Select each controller, and then select "Remove device".
+    4. To reinstall Windows Mixed Reality, plug your headset back into your PC.
+    
+### I'm getting a "Check your USB cable" error message
+
+Connect your headset to a different USB port (and make sure it’s a SuperSpeed USB 3.0). Also, try removing any extenders or hubs between the headset and the computer.
+
+### I'm getting a "Check your display cable" error message
+
+Try the following:
+
+* Connect your headset to a DisplayPort 1.2 or later, or HDMI 1.4 or later. Make sure the port corresponds with the most advanced graphics card on your PC.
+* If you’re using an adapter, make sure it's 4K capable.
+* Try using a different HDMI port.
+* If you have an external monitor plugged into an HDMI port, try plugging it into a DisplayPort instead, and use the HDMI port for your headset.
 
 
 ## "Something Went Wrong" error codes and how to resolve them
