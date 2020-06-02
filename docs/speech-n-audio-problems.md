@@ -26,7 +26,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 
 * Some applications, including many of those launched through SteamVR, can lose audio or hang when the audio device changes as you start or stop the Mixed Reality Portal. Restart the app after you have opened the Mixed Reality Portal app to correct this.
 * If another multimedia USB device (such as a web cam) shares the same internal or external USB hub with the Windows Mixed Reality headset, the headset's audio jack/headphones may occasionally have a buzzing sound or no audio at all. Plug your headset into a USB port that uses a different hub or disconnect/disable your other USB multimedia device.
-* If you notice a loud burst of noise from headphones connected to the headset, it is possible that the PC's USB hub is not able to provide enough power to the Windows Mixed Reality headset. If this occurs, file a [Feedback Hub](https://docs.microsoft.com/en-us/hololens/hololens-feedback) bug immediately. Workarounds that may help include not using extension cables, using a dedicated, external powered USB 3.0 HUB, or trying a different USB port on the PC.
+* If you notice a loud burst of noise from headphones connected to the headset, it is possible that the PC's USB hub is not able to provide enough power to the Windows Mixed Reality headset. If this occurs, file a [Feedback Hub](https://docs.microsoft.com/hololens/hololens-feedback) bug immediately. Workarounds that may help include not using extension cables, using a dedicated, external powered USB 3.0 HUB, or trying a different USB port on the PC.
 
 ## My Bluetooth audio headset isn't working as expected.
 
