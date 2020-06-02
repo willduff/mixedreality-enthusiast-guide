@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting Windows Mixed Reality (FAQs)
+title: Troubleshooting Windows Mixed Reality
 description: Advanced Windows Mixed Reality troubleshooting that goes beyond our standard consumer support documentation.
 ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Troubleshoot, Errors, Help, Support
@@ -7,7 +7,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 
 
 
-# Windows Mixed Reality FAQs
+# Troubleshooting Windows Mixed Reality (FAQs)
 
 ## Understanding common installation error messages
 
