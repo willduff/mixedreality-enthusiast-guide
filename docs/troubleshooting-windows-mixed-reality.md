@@ -30,22 +30,22 @@ You are probably on an enterprise managed network and your organization is using
 ### "We couldn't download the mixed reality software" or "Hang tight while we do some downloading"
 
 * Sometimes a pending update can block the Mixed Reality Software download. Go to **Settings > Update & security > Windows Update** and make sure Windows Update is turned on. Then download and install any updates that are waiting to be installed. If you get an error with Windows Update when attempting these steps go [here](https://support.microsoft.com/en-us/help/10164/fix-windows-update-errors).
-* Make sure your PC is connected to the internet and has at least 2GB of free storage space. Check your network status at:  **Settings > Network & Internet > Status**. If you are unable to connect to the internet go [here](https://support.microsoft.com/en-us/help/10741/windows-10-fix-network-connection-issues) for help.  
+* Make sure your PC is connected to the internet and has at least 2GB of free storage space. Check your network status at: **Settings > Network & Internet > Status**. If you are unable to connect to the internet go [here](https://support.microsoft.com/en-us/help/10741/windows-10-fix-network-connection-issues) for help.  
 * Restart your PC and try again. 
 
 If the previous solutions don't work, try:
 * If your Wi-Fi network connection is set to [metered](https://support.microsoft.com/en-us/help/17452/windows-metered-internet-connections-faq), change it to unmetered. To turn off a metered connection, go to: **Settings > Network & Internet > Status > Change connection properties > Set as metered connection** and select "Off".  
 * If you recently installed an update, it can cause problems. We don’t recommend that you remove any installed updates, especially security updates which keep your PC safe, but sometimes removing the most recent update can help determine the source of the problem. To do this: 
     * Go to **Settings > Update & Security > View Installed Update History > Uninstall Updates**
-    * Click on last update installed and then select "Uninstall".
-    * When prompted "Are you sure you want to uninstall this update?" answer "Yes". If you get an error with Windows Update when attempting these steps go [here](https://support.microsoft.com/en-us/help/10164/fix-windows-update-errors). 
+    * Select the last update installed and "Uninstall".
+    * When prompted "Are you sure you want to uninstall this update?" answer "Yes". If you get an error when attempting these steps go [here](https://support.microsoft.com/en-us/help/10164/fix-windows-update-errors). 
     * Restart your PC and try again. 
     * If Windows Mixed Reality installs correctly, reinstall the latest updates under **Settings > Windows Update > Check for Updates** and see if Windows Mixed Reality continues to work. If it does not install correctly, reinstall the latest updates and contact Windows Support. 
 
 ### "Something went wrong, and we couldn't start Windows Mixed Reality"
 * Unplug both cables of your headset from the PC.
 * Restart the PC.
-* Go to **Settings > Update & security > Windows Update** and make sure Windows Update is turned on. Then, download and install any updates that are waiting to be installed.
+* Go to **Settings > Update & security > Windows Update** and make sure that Windows Update is turned on. Then download and install any waiting updates.
 * Reconnect your headset to the PC and then try setup again.
 
 If the above steps don’t work, try uninstalling and then reinstalling Windows Mixed Reality:
@@ -113,7 +113,7 @@ If someone else uses your headset, make sure they understand the boundary and ho
 
 ### During start up of Mixed Reality, I'm stuck at the step "Turn your head side to side, and then at the floor".
 
-You are asked to turn your head side to side so your headset can recognize your space and restore any existing virtual floor and boundary. When you put on your headset, this scanning process can take up to 10 seconds. After it is complete, you will either be in the Mixed Reality Home or you will be prompted to set up your boundary again.
+This step lets your headset recognize your space and restore any existing virtual floor and boundary. When you put on your headset, this scanning process can take up to 10 seconds. After it is complete, you will either be in the Mixed Reality Home or you will be prompted to set up your boundary again.
 
 If the scanning process takes longer than 10 seconds, there could be a problem with the proximity sensor in the headset:
 1. Check that the sticker has been removed from the proximity sensor. The proximity sensor is located inside the headset roughly where the center of your forehead would be.
@@ -121,7 +121,7 @@ If the scanning process takes longer than 10 seconds, there could be a problem w
 
 ### I see a message that says my boundary can't be found. What should I do?
 
-Windows Mixed Reality might have trouble identifying a boundary that you previously created. You can create a new boundary or you can use your device in Seated and standing mode. 
+Windows Mixed Reality might have trouble identifying your existing boundary. You can create a new boundary or you can use your device in "Seated and standing" mode. 
 
 ### I see a message that says “Lost tracking” or “We don’t have a boundary for this space”.
 
@@ -175,18 +175,18 @@ Windows Mixed Reality headsets do not officially support the use of USB or HDMI 
 * If your PC has both integrated and discrete graphics, and the integrated graphics is older and does not support Windows Mixed Reality, try disabling the integrated GPU.
 * Connect a PC monitor to your PC's HDMI port. Make sure your graphics drivers are up to date. Download and install the ones from AMD, Nvidia or Intel directly as they will likely be newer than what's published to Windows Update.
 * Make sure that you plugged your headset's HDMI cable into an **HDMI out** port on your PC, not an HDMI in port.
-* In some cases, Windows is unable to detect the display cable connection. Open the device manager and see if the headset is listed under "Monitors". If not, select **Action > Scan for hardware changes**. This may resolve the issue.
+* Windows may be unable to detect the display cable connection. Open the Device Manager and see if the headset is listed under "Monitors". If not, select **Action > Scan for hardware changes**. 
 
 ### I see a message that says "Put on your headset" even though I have my headset on.
 
-When you put on your headset, Windows Mixed Reality needs a bit of time to reload your space. This can take a few seconds. If this message doesn't go away, make sure the protective sticker has been removed from the proximity sensor, which is on the inside of the headset between the lenses. If the sticker has been removed and you're still having problems, contact your headset manufacturer.
+When you put on your headset, Windows Mixed Reality may need a few seconds to reload your space. If this message doesn't go away, make sure the protective sticker has been removed from the proximity sensor, which is on the inside of the headset between the lenses. If this doesn't resolve the problem, contact your headset manufacturer.
 
 ### A message says "Connect your headset" even though I’ve plugged in my headset.
 
 1. Make sure the headset's USB and HDMI cables are connected to the correct ports on your PC. Here is how to identify the correct ports:
     * USB 3.0 ports have a special logo with an "SS" mark (indicating "SuperSpeed"). The port's inside piece is normally blue, whereas older USB 2.0 ports are typically black or white on the inside.
     * If your computer has two HDMI ports, use the one that connects to the graphics card, not the computer's motherboard. It's not always obvious which is which, though discrete ports are often located in an expansion slot on the computer. If you try one port and it doesn't work, try the other.
-2. Try unplugging both the USB and HDMI cables from your headset, then plug them back in to make sure they are securely connected. When plugging in the USB cable, do it quickly (try not to pause during insertion of the USB cable).
+2. Unplug and plug in the USB and HDMI cables from your headset to make sure they are securely connected. When plugging in the USB cable, try not to pause during insertion of the USB cable.
 3. Open Device Manager and confirm that your headset is listed under "Mixed Reality devices". Double click on your headset under "Mixed Reality devices" and confirm that the device status indicates "This device is working properly". Yellow exclamation marks on devices listed in Device Manager indicate errors reported by the devices connected to your PC.
     * If "Hololens Sensors" is listed with a yellow exclamation mark in Device Manager, double click on the device. If you see a **"Code 10: The drivers for this device are not installed. There are no compatible drivers for this device"**, follow the [instructions](troubleshooting-windows-mixed-reality.md#manually-installing-the-headset-driver) to manually install the headset driver.
     * If you use multiple Mixed Reality headsets on your PC and have manually installed the Mixed Reality headset driver before, in some circumstances the manual driver update may only apply to the headset connected at the time and not to your other headsets. In this case, you'll see **"Code 31: This device is not working properly because Windows cannot load the drivers required for this device. (Code 31). The ALPC message requested is no longer available"** in Device Manager. In Device Manager, right click on your headset under "Mixed Reality devices", and select "Uninstall device". Select "OK" to confirm and then unplug and replug your headset.
@@ -216,9 +216,7 @@ The headset might not have been detected properly because of an underlying issue
 
 1. Open Device Manager and confirm that your headset is listed under "Mixed Reality devices".
 2. Double click on your headset under "Mixed Reality devices" and confirm that the device status indicates "This device is working properly".
-3. If you see a "Code 43" error indicating that the device has stopped working, or if you don't see your headset listed under "Mixed Reality devices", try unplugging and replugging in your headset's USB cable.
-
-Note: Microsoft is investigating a potential software/driver interoperability issue which may result in the "Code 43" error above, after putting your PC to sleep or into hibernation mode. The workaround is to unplug and replug your headset's USB cable. This issue affects a small number of PCs, and is expected to be resolved in a future update to the Mixed Reality headset driver.
+3. If you see a "Code 43" error indicating that the device has stopped working, or if you don't see your headset listed under "Mixed Reality devices", unplug and replug in your headset's USB cable. Microsoft is investigating a potential software/driver interoperability issue which may result in this error. This issue affects a small number of PCs, and is expected to be resolved in a future update to the Mixed Reality headset driver.
 
 ### My headset causes my PC to generate a Bug Check (blue screen) when I put my PC to sleep or when it is in hibernation mode.
 
@@ -310,9 +308,9 @@ This typically indicates an occasional USB controller reliability issue on your 
 
 ### My headset causes my PC to hang or show a black screen while starting up.
 
-On some PCs, leaving your headset plugged in before turning on or while rebooting your PC may interfere with its startup process. Your PC could select the headset displays as the "primary monitor" to show PC startup progress or it could be prevented from starting up properly and may 'hang' and/or produce a beeping error code. The behavior depends largely on the PC make and model, and/or the make and model of the graphics card. To work around this:
-* Connect your headset to a different port on your graphics card. In some cases, you may need to use an adapter to use the other ports.
-* Make sure your PC's BIOS / UEFI firmware is up-to-date (only update your PC's BIOS / UEFI firmware if you're comfortable doing so).
+On some PCs, leaving your headset plugged in before turning on or while rebooting your PC may interfere with its startup process. Your PC could select the headset displays as the "primary monitor" to show PC startup progress or it could be prevented from starting up properly and may "hang" and/or produce a beeping error code. The behavior depends largely on the PC make and model, and/or the make and model of the graphics card. To fix this:
+* Connect your headset to a different port on your graphics card (you may need to use an adapter to use the other ports).
+* Make sure your PC's BIOS / UEFI firmware is up-to-date (but only update your PC's BIOS / UEFI firmware if you're comfortable doing so).
 
 ### My PC or headset displays flicker, flash or remain black when using a Surface PC.
 
@@ -375,7 +373,6 @@ Connect your headset to a different USB port (and make sure it’s a SuperSpeed 
 ### I'm getting a "Check your display cable" error message.
 
 Try the following:
-
 * Connect your headset to a DisplayPort 1.2 or later, or HDMI 1.4 or later. Make sure the port corresponds with the most advanced graphics card on your PC.
 * If you’re using an adapter, make sure it's 4K capable.
 * Try using a different HDMI port.
@@ -416,9 +413,9 @@ If your [motion controllers](https://support.microsoft.com/en-us/help/4040517/wi
 1. Make sure your controllers are turned on. To turn them on, press and hold the Windows button for two seconds.
 2. Make sure the controllers are fully charged and replace the batteries if they are not.
 3. Turn the controllers off and on again while holding them in front of you. Press and hold the Windows button for four seconds to turn a controller off, then press and hold it again for two seconds to turn it on. 
-4. Select **Settings  > Devices > Bluetooth & other devices** on your PC and make sure the controllers are listed as paired. If they’re not, you’ll need to [pair them](https://support.microsoft.com/en-us/help/4040517/windows-10-controllers-windows-mixed-reality). 
+4. Select **Settings > Devices > Bluetooth & other devices** on your PC and make sure the controllers are listed as paired. If they’re not, you’ll need to [pair them](https://support.microsoft.com/en-us/help/4040517/windows-10-controllers-windows-mixed-reality). 
 5. Make sure the motion controllers show up as "Connected". "Paired" does not necessarily mean the controllers are connected to the PC. Controllers should appear under "Mouse, keyboard & pen" category. Motion controllers under "Other devices" have failed the pairing process and are not functional. Check the motion controllers LEDs: Brightly lit controllers are paired and connected, dimly lit controllers aren't connected.
-6. Select **Start  > Mixed Reality Portal** on your PC and then select "Menu". You should see your motion controllers listed, along with a status message:
+6. Go to **Start  > Mixed Reality Portal** on your PC and select "Menu". You should see your motion controllers listed, along with a status message:
     * Ready – The controllers are all set.
     * Lost tracking – Mixed Reality Portal can’t find your controllers. Hold them in front of your headset and restart them by pressing the Windows button for 4 seconds, then again for 2 seconds.
     * Low battery – Replace the controller batteries.
@@ -444,11 +441,11 @@ This is a critical battery indicator, so make sure you have fresh batteries in t
 
 ### I'm trying to pair my controllers, but they never show up in the "Add a new device menu" in Bluetooth Settings.
 
-Check that you do not have controllers paired already, remove them and try again. If problem persists reboot the PC and try again. If that fails, consult the [Bluetooth Best Practices](troubleshooting-windows-mixed-reality.md#bluetooth-best-practices) section.
+Check that you do not have controllers paired already, remove them and try again. If problem persists restart the PC and try again. If that fails, consult the [Bluetooth Best Practices](troubleshooting-windows-mixed-reality.md#bluetooth-best-practices) section.
 
 ### Wi-Fi speeds becomes slow on my notebook when motion controllers are turned on.
 
-Your notebook may share its Wi-Fi antenna with Bluetooth when connected to 2.4GHz access point. Check from device manager if you can switch band preference to 5GHz. If 5GHz network is not available and performance is severely impacted, consider using Bluetooth dongle.
+Your notebook may share its Wi-Fi antenna with Bluetooth when connected to 2.4GHz access point. Check from device manager if you can switch band preference to 5GHz. If 5GHz network is not available and performance is severely impacted, consider using a Bluetooth dongle.
 
 ![Wifi band selection settings can be found through device manager](images/wifi5ghz.png)
 
@@ -462,7 +459,7 @@ Qualcomm (QCA) Bluetooth radio drivers prior to 10.0.0.448 may end up in bad sta
 
 ### I'm experiencing poor controller tracking with Marvell radio.
 
-Go to **device manager > Bluetooth > Marvell AVASTAR Bluetooth Radio Adapter > Properties > Driver** and make sure that you are using driver 15.68.9210.47 or later.
+Go to **Device Manager > Bluetooth > Marvell AVASTAR Bluetooth Radio Adapter > Properties > Driver** and make sure that you are using driver 15.68.9210.47 or later.
 
 ### The Mixed Reality Portal is working, but my motion controllers are tracking poorly (controllers keep flying away, shaking, etc.).
 
@@ -480,9 +477,9 @@ This folder is not accessible in Windows Explorer and can only be modified from 
 ### Motion controllers do not appear in SteamVR apps and games.
 
 If you're able to see your Motion Controllers in the cliff house, but not in SteamVR apps and games, the Motion Controller model driver may not be installed properly. This driver is automatically downloaded and installed via Windows Update, but if you're on a PC that has enterprise policies or if Windows Update is otherwise restricted, you may need to install this manually. To check that the Motion Controller model driver is correctly installed:
-1. Turn on both of your motion controllers, and make sure both of them show up as "Connected" in the Settings app under Devices > Bluetooth & other devices. If they do not show up or show up as "Paired", [pair them](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality).
+1. Turn on both of your motion controllers, and make sure they show up as "Connected" in the Settings app under **Devices > Bluetooth & other devices**. If they do not show up or show up as "Paired", [pair them](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality).
 2. Open Device Manager and look for "Motion controller - Left" and "Motion controller - Right" under "Bluetooth".
-3. Single click either of the two devices, and then go to View > Devices by Connection.
+3. Select either device and then go to **View > Devices by Connection**.
 4. You will now see a view of the Motion Controller Bluetooth devices roll up to your Bluetooth radio. Under the same node as the two Motion Controllers should be two "Bluetooth HID Device" devices, and under each Bluetooth HID Device should be devices named "Motion Controller" (with gray icons).
 5. Double click each of the "Motion Controller" devices and go to the **Driver** tab. Confirm that the Driver Version listed corresponds to one of [these Motion Controller model driver versions](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/mixed-reality-software#mixed-reality-motion-controller-model-driver-release-history).
 
@@ -490,11 +487,11 @@ To manually download and install the Motion Controller model driver, visit [this
 
 ### The Motion controllers firmware update takes significantly longer than two minutes.
 
-Check the [Bluetooth Best Practices section](troubleshooting-windows-mixed-reality.md#bluetooth-best-practices) below. Poor Bluetooth link quality is ususally the cause of these problems.
+Check the [Bluetooth Best Practices section](troubleshooting-windows-mixed-reality.md#bluetooth-best-practices) below. Poor Bluetooth link quality is usually the cause of these problems.
 
 ### I just inserted fresh batteries but the controller virtual battery level does not indicate full level.
 
-Motion controller battery level is tuned for AA batteries, and some low voltage rechargeable batteries may not report as full although being fully charged.
+Motion controller battery level is tuned for AA batteries. Some low voltage rechargeable batteries may not report as full although being fully charged.
 
 ### My controller does not vibrate when battery is low.
 
@@ -573,10 +570,11 @@ Some Windows Mixed Reality headsets, including the Acer OJO 500 and Samsung Odys
 
 ### How can I tell if the Windows Mixed Reality headset is rendering at 60Hz or 90Hz framerate?
 
-The easiest way to check if Windows Mixed Reality is running at 60 Hz or 90 Hz is to use the **[Device Portal](https://docs.microsoft.com/windows/uwp/debug-test-perf/device-portal) > Performance** tab. 
-The **Headset display > visual quality settings** only affect the rendering of the Windows Mixed Reality Home experience.
-* If you have a discrete GPU with HDMI 2.0 ports and a CPU with 4+ physical cores, you should be getting 90 Hz.
-* If your GPU only has a HDMI 1.4 output, you can use a DisplayPort to [HDMI 2.0 adapter](https://holodocswiki.com/wiki/Recommended_adapters_for_Windows_Mixed_Reality_Capable_PCs) as a workaround. 
+Check the **Device Portal > Performance** tab. 
+
+**Note**: If you have a discrete GPU with HDMI 2.0 ports and a CPU with four or more physical cores, you should be getting 90 Hz. If your GPU only has a HDMI 1.4 output, you can use a DisplayPort to [HDMI 2.0 adapter](https://holodocswiki.com/wiki/Recommended_adapters_for_Windows_Mixed_Reality_Capable_PCs) as a workaround. 
+
+**Note**: The **Headset display > visual quality settings** only affect the rendering of the Windows Mixed Reality Home experience.
 
 ### What do I do if my PC appears to be running slowly?
 
