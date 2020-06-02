@@ -6,9 +6,9 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 ---
 
 
-## How to uninstall Windows Mixed Reality
+# How to uninstall Windows Mixed Reality
 
-### How do I uninstall Windows Mixed Reality?
+## How do I uninstall Windows Mixed Reality?
 
 1. Disconnect your headset from your PC.
 2. Close Mixed Reality Portal.
@@ -16,7 +16,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 
 When you're ready to start using your headset again, plug it in, and Mixed Reality Portal will take you through setup.
 
-### I got a "We couldn't finish uninstalling Windows Mixed Reality" message.
+## I got a "We couldn't finish uninstalling Windows Mixed Reality" message.
 
 This means that some files, including information about your environment, might still be on your computer. This can cause problems if you decide to reinstall Windows Mixed Reality later. You can manually remove any remaining Windows Mixed Reality info from your PC by modifying the registry and using Windows PowerShell to run commands. _If you modify the registry incorrectly, serious problems might occur. Make sure to follow these steps carefully. For added protection, back up your registry before you modify it so you can restore it if a problem occurrs._ For more info, see [How to back up and restory the registry in Windows](https://support.microsoft.com/en-us/help/322756/how-to-back-up-and-restore-the-registry-in-windows). 
 
