@@ -42,7 +42,7 @@ If the previous solutions don't work, try:
     * Restart your PC and try again. 
     * If Windows Mixed Reality installs correctly, reinstall the latest updates under **Settings > Windows Update > Check for Updates** and see if Windows Mixed Reality continues to work. If it does not install correctly, reinstall the latest updates and contact Windows Support. 
 
-### "Something went wrong, and we couldn't start Windows Mixed Reality."
+### "Something went wrong, and we couldn't start Windows Mixed Reality"
 * Unplug both cables of your headset from the PC.
 * Restart the PC.
 * Go **Settings > Update & security > Windows Update** and make sure Windows Update is turned on. Then, download and install any updates that are waiting to be installed.
@@ -155,7 +155,7 @@ Make sure the lights are on and that there isn't anything obstructing the inside
 
 Mixed Reality Portal has a **Play** button at the bottom of the screen that allows you to show a preview of what you're seeing in your headset on your desktop's screen. But for performance reasons, this feature is only available on PCs running at Windows Mixed Reality Ultra (90Hz).
 
-## HMD Connectivity Issues
+## Headset connectivity issues
 
 ### My computer does not have an HDMI port.
 If your computer does not have an HDMI port but does have a DisplayPort (DP), mini DisplayPort (miniDP) or USB Type-C (USB-C) port for outputting video, you may need to use a [supported adapter](recommended-adapters-for-windows-mixed-reality-capable-pcs.md).
@@ -193,7 +193,7 @@ When you put on your headset, Windows Mixed Reality needs a bit of time to reloa
 
 **Note for Windows 10 N users:** If your PC is running Windows 10 N, you'll see a **"Code 28: The install class is not present or is invalid" error** in Device Manager after plugging in your Mixed Reality headset. N-editions of Windows 10 are not supported by Windows Mixed Reality. Follow these [instructions](troubleshooting-windows-mixed-reality.md#im-getting-a-the-install-class-is-not-present-or-is-invalid-error-in-device-manager) for more information.
 
-### A message says "Check your USB cable" or "Insufficient USB speed"
+### A message says "Check your USB cable" or "Insufficient USB speed".
 
 * Make sure that you're using a supported USB 3.0 port on your PC:
     * Make sure that your headset's USB cable is plugged in all the way.
@@ -203,11 +203,11 @@ When you put on your headset, Windows Mixed Reality needs a bit of time to reloa
     * On custom-built PCs, even though a port may be marked as a USB 3.0 port, it may be connected to a USB 2.0 controller. With your headset connected, open Device Manager, locate and single click any of the devices enumerated from your headset, then go to View > Devices by connection.
 * Try your headset on another PC. If that other PC is not fully compatible with Windows Mixed Reality, check in Device Manager to see if you see the "insufficient USB speed" message. If your headset does not enumerate properly on multiple PCs, your headset could be defective.
 
-### The Mixed Reality Portal did not launch automatically after I plugged in my headset
+### The Mixed Reality Portal did not launch automatically after I plugged in my headset.
 
 The headset might not have been detected properly because of an underlying issue. Try launching the Mixed Reality Portal manually and look for any error messages that appear. 
 
-### My headset stopped working after putting my PC to sleep, in hibernation mode, or when restarting my PC with my headset attached
+### My headset stopped working after putting my PC to sleep, in hibernation mode, or when restarting my PC with my headset attached.
 
 1. Open Device Manager and confirm that your headset is listed under "Mixed Reality devices".
 2. Double click on your headset under "Mixed Reality devices" and confirm that the device status indicates "This device is working properly".
@@ -215,11 +215,11 @@ The headset might not have been detected properly because of an underlying issue
 
 Note: Microsoft is investigating a potential software/driver interoperability issue which may result in the "Code 43" error above, after putting your PC to sleep or into hibernation mode. The workaround is to unplug and replug your headset's USB cable. This issue affects a small number of PCs, and is expected to be resolved in a future update to the Mixed Reality headset driver.
 
-### My headset causes my PC to generate a Bug Check (blue screen) when I put my PC to sleep or when it is in hibernation mode
+### My headset causes my PC to generate a Bug Check (blue screen) when I put my PC to sleep or when it is in hibernation mode.
 
 Microsoft is investigating a potential software/driver interoperability issue which may result in a small number of PCs potentially generating a "9F" Bug Check (blue screen) when the PC is put to sleep or into hibernation mode with the headset attached. This issue is expected to be resolved in a future update to the Mixed Reality headset driver.
 
-### The headset driver did not install automatically when I plugged in the headset
+### The headset driver did not install automatically when I plugged in the headset.
 
 On new PCs, or PCs with a newly installed copy of Windows 10, the headset driver could be queued behind other Windows updates and may not install immediately (note that if you have an "N"-edition of Windows, you will need to switch to a regular edition of Windows 10 to use Windows Mixed Reality). To install it manually:
 
@@ -237,14 +237,14 @@ If the manual install doesn’t work, or you don't find the driver under Other D
 * In the new popup that appears, select the check box **Delete the driver software for this device** and this click **Uninstall**.
 * When that completes, unplug the headset from your PC, and plug it back in. Windows Update will now download and install a new driver.
 
-### Troubleshooting Flowchart
+### Troubleshooting flowchart
 
 ![Connect your headset/check your USB cable](images/hmd-connectivity2.jpg)
 
 
 ## Mixed Reality headset display problems ##
 
-### My headset displays are black
+### My headset displays are black.
 
 * Check your PC performance and stability:
     * Use the Task Manager to see if any processes are maxing out your PC's CPU, GPU, and/or disk drives.
@@ -363,11 +363,11 @@ If it isn't listed, try the following:
     3. Select **Settings  > Devices  > Bluetooth & other devices** to unpair your motion controllers. Select each controller, and then select "Remove device".
     4. Plug your headset back into your PC to reinstall Windows Mixed Reality.
     
-### I'm getting a "Check your USB cable" error message
+### I'm getting a "Check your USB cable" error message.
 
 Connect your headset to a different USB port (and make sure it’s a SuperSpeed USB 3.0). Also, try removing any extenders or hubs between the headset and the computer.
 
-### I'm getting a "Check your display cable" error message
+### I'm getting a "Check your display cable" error message.
 
 Try the following:
 
@@ -405,7 +405,7 @@ Try the following:
 
 ## Motion controller problems
 
-### My Motion Controllers aren't working properly
+### My Motion controllers aren't working properly.
 
 If your [motion controllers](https://support.microsoft.com/en-us/help/4040517/windows-10-controllers-windows-mixed-reality) aren’t working, aren't connecting, or if you don’t see an image of the controllers when you’re wearing your headset, try the following:
 1. Make sure your controllers are turned on. To turn them on, press and hold the Windows button for two seconds.
@@ -429,42 +429,42 @@ If your [motion controllers](https://support.microsoft.com/en-us/help/4040517/wi
 16. If your Bluetooth settings have motion controllers already paired, Windows won’t discover the new devices until those are removed (if they have been added using a specific dongle, they can be only removed with that dongle).
 17. If your PC has built-in Bluetooth and you’re having connection problems, try using a USB Bluetooth adapter instead. To do this, you’ll need to turn off your built-in Bluetooth radio in Device Manager and then pair your other Bluetooth devices with the new adapter.
 
-### Motion Controller Troubleshooting Flowchart
+### Motion controller troubleshooting flowchart
 
 ![Troubleshooting Flow Chart for Motion Controllers](images/motion-controllers.jpg)
 
-### My controller is stuck in an infinite reboot (buzzing after LEDs cycle)
+### My controller is stuck in an infinite reboot (buzzing after LEDs cycle).
 
 This is a critical battery indicator, so make sure you have fresh batteries in the device. If the issue persists, perform [device recovery](troubleshooting-windows-mixed-reality.md#device-recovery) to reset the controller to factory settings.
 
-### I'm trying to pair my controllers, but they never show up in the "Add a new device menu" in Bluetooth Settings
+### I'm trying to pair my controllers, but they never show up in the "Add a new device menu" in Bluetooth Settings.
 
 Check that you do not have controllers paired already, remove them and try again. If problem persists reboot the PC and try again. If that fails, consult the [Bluetooth Best Practices](troubleshooting-windows-mixed-reality.md#bluetooth-best-practices) section.
 
-### Wi-Fi speeds becomes slow on my notebook when motion controllers are turned on
+### Wi-Fi speeds becomes slow on my notebook when motion controllers are turned on.
 
 Your notebook may share its Wi-Fi antenna with Bluetooth when connected to 2.4GHz access point. Check from device manager if you can switch band preference to 5GHz. If 5GHz network is not available and performance is severely impacted, consider using Bluetooth dongle.
 
 ![Wifi band selection settings can be found through device manager](images/wifi5ghz.png)
 
-### My second controller takes a long time to reconnect
+### My second controller takes a long time to reconnect.
 
 Some older Intel radios experience this issue if motion controllers are powered on at the same time. Avoid powering on controllers at the same time.
 
-### My Qualcomm Bluetooth radio cannot pair controllers after a PC crash
+### My Qualcomm Bluetooth radio cannot pair controllers after a PC crash.
 
 Qualcomm (QCA) Bluetooth radio drivers prior to 10.0.0.448 may end up in bad state after a Windows crash. Power off the PC completely to workaround this problem. 
 
-### I'm experiencing poor controller tracking with Marvell radio
+### I'm experiencing poor controller tracking with Marvell radio.
 
 Make sure that you are using driver 15.68.9210.47 or later (**device manager > Bluetooth > Marvell AVASTAR Bluetooth Radio Adapter > Properties > Driver**) 
 
-### The Mixed Reality Portal is working, but my motion controllers are tracking poorly (controllers keep flying away, shaking, etc.)
+### The Mixed Reality Portal is working, but my motion controllers are tracking poorly (controllers keep flying away, shaking, etc.).
 
 1. Some lighting conditions can affect tracking. Make sure that you are not exposed to direct sunlight and that you don't have a lot of point light sources visible to your HMD (for example, strings of lights like a christmas tree). 
 2. Check the [Bluetooth Best Practices section](troubleshooting-windows-mixed-reality.md#bluetooth-best-practices). These symptoms are generally caused by failures to communicate between the controller and the host PC, and indicate poor Bluetooth link quality.
 
-### Motion Controller LEDs are not lit, but buttons and thumbstick still work in Mixed Reality Portal
+### Motion Controller LEDs are not lit, but the buttons and thumbstick still work in Mixed Reality Portal.
 
 The Motion Controller calibration cache may be corrupt. To delete the cache, run the following command in an Administrator Command Prompt:
 
@@ -472,7 +472,7 @@ The Motion Controller calibration cache may be corrupt. To delete the cache, run
 
 This folder is not accessible in Windows Explorer and can only be modified from an Administrator Command Prompt. After you have deleted the folder, restart your PC and reconnect your Motion Controllers to restore the calibration files.
 
-### Motion controllers do not appear in SteamVR apps and games 
+### Motion controllers do not appear in SteamVR apps and games.
 
 If you're able to see your Motion Controllers in the cliff house, but not in SteamVR apps and games, the Motion Controller model driver may not be installed properly. This driver is automatically downloaded and installed via Windows Update, but if you're on a PC that has enterprise policies or if Windows Update is otherwise restricted, you may need to install this manually. To check that the Motion Controller model driver is correctly installed:
 1. Turn on both of your motion controllers, and make sure both of them show up as "Connected" in the Settings app under Devices > Bluetooth & other devices. If they do not show up or show up as "Paired", [pair them](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality).
@@ -483,27 +483,27 @@ If you're able to see your Motion Controllers in the cliff house, but not in Ste
 
 To manually download and install the Motion Controller model driver, visit [this page](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/mixed-reality-software#mixed-reality-motion-controller-model-driver-release-history) and look for the driver version corresponding to your version of Windows 10. Installation instructions are available on the download page.
 
-### The Motion controllers firmware update takes significantly longer than two minutes
+### The Motion controllers firmware update takes significantly longer than two minutes.
 
 Check the [Bluetooth Best Practices section](troubleshooting-windows-mixed-reality.md#bluetooth-best-practices) below. Poor Bluetooth link quality is ususally the cause of these problems.
 
-### I just inserted fresh batteries but the controller virtual battery level does not indicate full level
+### I just inserted fresh batteries but the controller virtual battery level does not indicate full level.
 
 Motion controller battery level is tuned for AA batteries, and some low voltage rechargeable batteries may not report as full although being fully charged.
 
-### My controller does not vibrate when battery is low
+### My controller does not vibrate when battery is low.
 
 Haptics is disabled when battery level gets low. Replace your batteries.
 
-### My device vibrated three times and then shutdown
+### My device vibrated three times and then shutdown.
 
 Your batteries are running low and hit the cut-off threshold. Replace your batteries.
 
-### My Samsung Motion Controller’s touchpad is off-center or has a dead spot 
+### My Samsung motion controller’s touchpad is off-center or has a dead spot.
 
 This is probably a hardware defect and you should go back to your retailer or equipment manufacturer for a replacement or exchange.
 
-### The Controller isn't working correctly and I can't update the device
+### The controller isn't working correctly and I can't update the device.
 
 Restore it to factory conditions (you will need fresh batteries):
 1. Unplug and power off the controllers.
@@ -540,7 +540,7 @@ Motion controllers use the same Bluetooth technology found in many consumer devi
 ![Screenshot of an Example Device Manager. The Adapter is the Bluetooth radio.](images/devicemanagerbtadapterpic.png) 
 
 
-### My PC has Bluetooth technology but I'm having problems with my motion controllers
+### My PC has Bluetooth technology but I'm having problems with my motion controllers.
 
 Motion controllers should work with other Bluetooth keyboards, mice, and game controllers, but the experience will vary depending on the model of keyboard, mouse, or game controller you use. Here are some things you can do to improve performance:
 * If your computer has Bluetooth but you are still having problems with the motion controllers, consider replacing your Bluetooth radio with the Plugable external Bluetooth Adapter plugged into USB. Note that you can only have one Bluetooth radio adapter active at a time. If you plug in an external radio in addition to an existing radio you need to disable your existing Bluetooth radio in Device Manager (right click on the adapter and select "Disable Device") and un-pair/re-pair all of your previous Bluetooth devices.
@@ -599,7 +599,7 @@ The system may be sluggish for many reasons and in most cases this will subside 
 
 ## Tracking system problems
 
-### The system cannot find the boundary and I'm being presented with setup UI
+### The system cannot find the boundary and I'm being presented with setup UI.
 
 This means that the tracking system was unable to recognize your environment. If you are in a new environment, you must set up the [boundary](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality#set-up-your-room-boundary). If you have previously used the device in this environment and set up a boundary:
 * Make sure the room has enough light.
@@ -609,11 +609,11 @@ This means that the tracking system was unable to recognize your environment. If
 
 If these steps do not resolve the problem, then delete your environment data and set up the boundary again.
 
-### The system is presenting me with UI that asks me to choose setup for all experiences or seated/standing, and I see my bounds
+### The system is presenting me with UI that asks me to choose setup for all experiences or seated/standing, and I see my bounds.
 
-This is caused by the device taking too long to find the bounds. You can bypass this message by choosing the option to use a boundary and you will be taken to your Windows Mixed Reality Home with your bounds present.
+The device is taking too long to find the bounds. You can bypass this message by choosing the option to use a boundary and you will be taken to your Windows Mixed Reality Home with your bounds present.
 
-### I frequently see a message saying "I've lost my bounds"
+### I frequently see a message saying "I've lost my bounds".
 
 The tracking system is having a hard time tracking and identifying your environment. In this state, the device can no longer display your bounds and the headset switches to 3DOF to keep you from to bumping into things in the real world until it locates your bounds again. To fix this:
 1. Make sure that the room has enough light.
@@ -622,7 +622,7 @@ The tracking system is having a hard time tracking and identifying your environm
 4. Clear your environment data and set up the device again.
 5. If the message persists, contact customer support.
 
-### I can look around but I can't translate (I'm stuck in 3DOF)
+### I can look around but I can't translate (I'm stuck in 3DOF).
 
 This means that the tracking system cannot generate pose, or the application has stopped using new pose data to render. Check the following:
 * Make sure the room has enough light.
@@ -630,21 +630,21 @@ This means that the tracking system cannot generate pose, or the application has
 * Unplug the device, close Windows Mixed Reality, and plug in the device again.
 * If the message persists, contact customer support
 
-### The view in the HMD is completely frozen
+### The view in the HMD is completely frozen.
 
 This usually means the application or a system level component has failed. Try to:
 1. Press the "home" button to leave the application.
 2. Unplug the device, close MRP and plug the device back in.
 3. Reboot the PC.
 
-### I frequently see a black border around the edges of the view in the HMD. Sometimes it looks like I'm looking down a tunnel
+### I frequently see a black border around the edges of the view in the HMD. Sometimes it looks like I'm looking down a tunnel.
 
 This means that the application is not able to hit frame rate on your PC and the system is using old frames to render the view in the HMD. Since applications only render the part of the world you are looking at, if they do not consistently hit their frame rates, then the system will attempt to continue to render the world from a previous point of view and will fill in the missing details with black. If this happens frequently:
 1. Close or terminate all unneeded programs to free up memory and CPU.
 2. Reduce detail settings in your application.
 3. Reduce detail settings in Windows Mixed Reality settings.
 
-### The view in the HMD is jittering and stuttering a lot
+### The view in the HMD is jittering and stuttering a lot.
 
 There are several reasons this may happen. The primary causes are the system not being able to render content to the headset, or the tracking system is experiencing problems. Check the following:
 1. Make sure your PC is not under resource contention. Open Task Manager and ensure your compute resources are free (for example, 80% CPU free, 400MB of ram and disk IO is below 80%).
@@ -654,21 +654,21 @@ There are several reasons this may happen. The primary causes are the system not
 5. Reboot your PC.
 6. If the problem persists, contact customer support.
 
-### The world briefly froze and perhaps tilted or flipped upside before returning to normal
+### The world briefly froze and perhaps tilted or flipped upside before returning to normal.
 
 This could be caused by an app or system level component hitting a fatal error, or a temporary lack of memory or CPU resources. Check the following:
 1. Open task manager and ensure you have at least 20% CPU free and 400MB memory free (e.g. 80% CPU free, 400MB of ram and disk IO is below 80%).
 2. Check to see if any processes crashed. Open event viewer, navigate to Windows Logs -> Application and Error level event entries around the time of the brief freeze that would indicate a process crashed.
 3. Try rebooting the PC if this problem persists.
 
-### The world flipped upside down momentarily and returned to normal
+### The world flipped upside down momentarily and returned to normal.
 
 This is typically caused by errors in obtaining sensor data from the headset to inform the tracking algorithms. If this happens frequently:
 1. Plug the headset into a different USB 3.0 port.
 2. Plug the headset directly into the PC rather than a USB 3.0 hub.
 3. If the problem persists, contact customer support.
 
-### The world is tilted but I can navigate and walk around fine in Windows Mixed Reality
+### The world is tilted but I can navigate and walk around fine in Windows Mixed Reality.
 
 This is typically caused by errors in sensor data being recorded into the environment data that is stored on your PC. This can cause the Windows Mixed Reality to appear tilted, sometimes permanently. Try the following:
 1. Unplug the HMD, close Windows Mixed Reality and plug the headset back in.
@@ -703,7 +703,7 @@ It is possible that the website has not implemented support for Multi GPU machin
 * Reload the page.
 * On desktop machines, plug the headset into the same graphics adapter as the monitor that is displaying Microsoft Edge. Try to plug both into the higher powered graphics card, not the integrated graphics adapter.
 
-### When I exit VR when watching a video from Edge, the sound continues playing but the Edge window is grayed out
+### When I exit VR when watching a video from Edge, the sound continues playing but the Edge window is grayed out.
 
 This is a known issue when running WebVR from Edge in the Mixed Reality cliffhouse. To resolve it, press escape on the keyboard rather than pressing the windows button to exit the WebVR experience, or activate the greyed out Edge window by selecting it and then stop the video.
 
@@ -720,7 +720,7 @@ The website does not properly support Windows Mixed Reality headsets. To work ar
 4. Wait 5-10 seconds for the experience to fully enter immersive mode.
 5. Pick up the headset and place it on your head.
 
-### The display is very low resolution in some WebVR experiences
+### The display is very low resolution in some WebVR experiences.
 
 The websites do not properly support high resolution headsets. To workaround this:
 * If launching WebVR from the desktop (as opposed to from within the Mixed Reality cliffhouse), ensure the window is maximized prior to Entering VR.
@@ -895,7 +895,7 @@ By default, Desktop app automatically switches to display the monitor with focus
 * Repeat for all of your physical monitors 
 Note that you will have to reselect the monitor to show on each Desktop app every time you restart Mixed Reality. 
 
-### My Desktop app only shows a black screen
+### My Desktop app only shows a black screen.
 If your PC has an Nvidia hybrid GPU, the issue may be caused by Nvidia device running the runtimebroker.exe on the discrete GPU instead of the integrated one. To fix this issue, follow these instructions under "[How do I create Optimus settings for a new program?](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/~/how-do-i-customize-optimus-profiles-and-settings%3F)" to add C:\windows\system32\runtimebroker.exe and force it to run on the "Integrated graphics" processor. 
 
 
@@ -964,7 +964,7 @@ For details about your headset, check with the manufacturer. There may be a prod
 ### How do I uninstall Windows Mixed Reality?
 Go to  **Start > Settings > Mixed Reality** and select "Uninstall". Make sure to disconnect your headset from your PC and close Mixed Reality Portal before uninstalling. When you're ready to start using your headset again, plug it in, and Mixed Reality Portal will take you through setup.
 
-### I got a "We couldn't finish uninstalling Windows Mixed Reality" message
+### I got a "We couldn't finish uninstalling Windows Mixed Reality" message.
 This means that some files, including information about your environment, might still be on your computer. This can cause problems if you decide to reinstall Windows Mixed Reality later on. You can manually remove any remaining Windows Mixed Reality info from your PC by modifying the registry and using Windows PowerShell to run commands. **If you modify the registry incorrectly, serious problems might occur. Make sure to follow these steps carefully. For added protection, back up your registry before you modify it so you can restore it if a problem occurrs.** For more info, see [How to back up and restory the registry in Windows](https://support.microsoft.com/en-us/help/322756/how-to-back-up-and-restore-the-registry-in-windows). To uninstall Windows mixed reality using these commands:
 1. Restart your PC.
 2. In the **Search** box, type "regedit" and then select **Yes**.
