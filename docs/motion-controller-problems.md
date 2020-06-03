@@ -119,21 +119,6 @@ Restore it to factory conditions (you will need fresh batteries):
 8. Pair the controller with the PC again.
 9. After connecting with the host and HMD, the device will update to the latest available firmware.
 
-## Lights and indicators
-
-The LED constellation ring and haptics indicate the state of the motion controller.
-
-| State    | What causes the state | Light and vibration behavior associated with the state |
-|----------------------------|-----------------------------|----------------------------------------------------------------------|
-| **Power on**               | Press and hold Windows button on controller for two seconds to turn on the controller.       | LEDs turn on and controller vibrates once. |
-| **Power off**              | Press and hold Windows button on controller for four seconds to turn off controller.      | LEDs turn off and controller vibrates twice. |
-| **Sleeping**               | The controller enters sleeping state automatically when it’s motionless for 30 seconds. The controller automatically wakes when it detects motion except when the device is not paired with the host PC. In that case, a button press will be required to wake it up. | LEDs turn off and blink every three seconds while in sleeping state. |
-| **Pairing**                | Press and hold pairing button inside battery case for three seconds.     | LEDs slowly pulse while in pairing mode, and go solid when exiting pairing mode. The controller vibrates once if pairing was successful or vibrates three times if pairing is unsuccessful and times out. |
-| **Controller connects/disconnects from PC** | The controller successfully connects to PC after you turn it on, or the controller disconnects from the PC during use for some reason.| The controller vibrates once on PC connection or disconnection. |
-| **Low Battery Level**      | The battery level is low.| There is no LED or vibration indication when battery is low. There is a battery indicator icon on the handle of the controller representation in headset. When battery is low, the indicator icon will show 1/4 full. |
-| **Critical Battery Level** | During power on when battery level is "Critical". "Critical" battery level means there is insufficient power and the controller will turn off automatically.| The controller vibrates three times when you turn it on and then automatically turns off. As you approach this state, the battery indicator icon will display red. |
-
-
 ## How can I tell if I'm using Bluetooth technology?
 
 Motion controllers use the same Bluetooth technology found in many consumer devices and are designed to work with the Bluetooth capability included in any recent PC. To verify that your PC has a Bluetooth radio (it should if the device passed the Mixed Reality Compatibility Checker): 
@@ -169,3 +154,17 @@ Some Windows Mixed Reality headsets, including the Acer OJO 500 and Samsung Odys
 ## How can I return my motion controllers to their factory pairing?
 
 To return the motion controllers to their factory pairing, or to pair them with a Windows Mixed Reality headset with built-in Bluetooth radio, run the headset's device companion application (for example, the "Acer OJO 500" app or the "Samsung HMD Odyssey+ Setup" app, automatically installed the first time the headset is plugged in) and follow the instructions for motion controller pairing.
+
+## Lights and indicators
+
+The LED constellation ring and haptics indicate the state of the motion controller.
+
+| State    | What causes the state | Light and vibration behavior associated with the state |
+|----------------------------|-----------------------------|----------------------------------------------------------------------|
+| **Power on**               | Press and hold Windows button on controller for two seconds to turn on the controller.       | LEDs turn on and controller vibrates once. |
+| **Power off**              | Press and hold Windows button on controller for four seconds to turn off controller.      | LEDs turn off and controller vibrates twice. |
+| **Sleeping**               | The controller enters sleeping state automatically when it’s motionless for 30 seconds. The controller automatically wakes when it detects motion except when the device is not paired with the host PC. In that case, a button press will be required to wake it up. | LEDs turn off and blink every three seconds while in sleeping state. |
+| **Pairing**                | Press and hold pairing button inside battery case for three seconds.     | LEDs slowly pulse while in pairing mode, and go solid when exiting pairing mode. The controller vibrates once if pairing was successful or vibrates three times if pairing is unsuccessful and times out. |
+| **Controller connects/disconnects from PC** | The controller successfully connects to PC after you turn it on, or the controller disconnects from the PC during use for some reason.| The controller vibrates once on PC connection or disconnection. |
+| **Low Battery Level**      | The battery level is low.| There is no LED or vibration indication when battery is low. There is a battery indicator icon on the handle of the controller representation in headset. When battery is low, the indicator icon will show 1/4 full. |
+| **Critical Battery Level** | During power on when battery level is "Critical". "Critical" battery level means there is insufficient power and the controller will turn off automatically.| The controller vibrates three times when you turn it on and then automatically turns off. As you approach this state, the battery indicator icon will display red. |
