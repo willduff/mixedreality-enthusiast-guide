@@ -11,10 +11,10 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 
 * Check your PC performance and stability:
     * Use the Task Manager to see if any processes are maxing out your PC's CPU, GPU, and/or disk drives.
-    * Look at the Applications and System Event Logs in Windows (using Event Viewer) to see if you have an app that is frequently crashing and generating Windows Error Reporting (WER) reports.
+    * Look at the "Applications and System Event Logs" in Windows (using Event Viewer) to see if you have an app that is frequently crashing and generating Windows Error Reporting (WER) reports.
     * Check Windows Update to make sure your version of Windows is current. You may have to select "Check for Updates" multiple times.
 * Check app and game stability:
-    * Ensure that your PC meets the minimum system requirements to run any app/game that is not performing correctly.    
+    * Ensure that your PC meets the minimum system requirements to run any app or game that is not performing correctly.    
     * Make sure your GPU driver version is recent, and check for any new performance and compatibility issues and regressions on new drivers.
     * If you are using SteamVR apps and games, make sure SteamVR and the Windows Mixed Reality for SteamVR components are up to date.
 * Check HDMI adapter compatibility:
@@ -48,13 +48,13 @@ If helpful, consult the headset black screen troubleshooting flow chart below.
 
 * Try disabling any USB suspend or power saving features your PC might have. For example, [USB selective suspend](https://docs.microsoft.com/windows-hardware/drivers/usbcon/usb-selective-suspend) in Windows power options, the "Allow the computer to turn off this device to save power" setting in Device Manager, and any USB power saving settings in your PC's firmware.
 * Temporarily disconnect any other USB devices and peripherals connected to your PC.
-* Double check your GPU driver version. Make sure it's recent, but also pay attention to any new performance and compatibility issues and regressions on brand new drivers.
+* Check that your GPU driver version is recent, and check for any new performance and compatibility issues and regressions on new drivers.
 
 ## One of the displays on my headset is black.
 
 * If you're using an HDMI adapter, make sure it supports HDMI 2.0.
 * Remove any USB and HDMI extension cables that you may be using.
-* Make sure your graphics driver is up-to-date.
+* Make sure your graphics driver is current.
 * Try the Mixed Reality headset on another PC.
 
 ## My headset displays turn blue for a moment, and then Mixed Reality Portal reinitializes.
@@ -68,14 +68,14 @@ This typically indicates an occasional USB controller reliability issue on your 
 
 ## My headset causes my PC to hang or show a black screen while starting up.
 
-On some PCs, leaving your headset plugged in before turning on or while rebooting your PC may interfere with its startup process. Your PC could select the headset displays as the "primary monitor" to show PC startup progress or it could be prevented from starting up properly and may "hang" and/or produce a beeping error code. The behavior depends largely on the PC make and model, and/or the make and model of the graphics card. To fix this:
+On some PCs, leaving your headset plugged in before turning on or while rebooting your PC may interfere with its startup process. Your PC could select the headset displays as the "primary monitor" to show PC startup progress, not start up properly, or "hang" and/or produce a beeping error code. The behavior depends on the PC make and model and/or the make and model of the graphics card. To fix this:
 * Connect your headset to a different port on your graphics card (you may need to use an adapter to use the other ports).
 * Make sure your PC's BIOS / UEFI firmware is up-to-date (but only update your PC's BIOS / UEFI firmware if you're comfortable doing so).
 
-## My PC or headset displays flicker, flash or remain black when using a Surface PC.
+## My PC or headset displays flicker, flash, or remain black when using a Surface PC.
 
 * Make sure you're using an HDMI adapter that supports HDMI 2.0. Many older HDMI adapters only support 1080p resolution, which is insufficient for Mixed Reality headsets.
-* Make sure your graphics driver is up-to-date. In addition to checking Windows Update, you may wish to check the PC manufacturer's website for an updated graphics driver.
+* Make sure your graphics driver is up-to-date. Check Windows Update and the PC manufacturer's website for an updated graphics driver.
 * Some Surface devices are incompatible with Windows Mixed Reality. Learn more about [Surface compatiblity and requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md#windows-mixed-reality-and-surface).
 
 ## My headset display doesn't work after I shut down and do a fast startup.
@@ -84,12 +84,12 @@ Unplug the HDMI cable and the USB cable from the headset and then plug them back
 
 ## My headset displays are very choppy, but Mixed Reality Portal's preview window appears fine.
 
-* Make sure your PC's system resources (CPU, memory, and hard drive) are available and not pegged or maxed out by another app or process.
+* Make sure your PC's system resources (CPU, memory, and hard drive) are available and not consumed by another app or process.
 * Update your graphics driver.
 
 ## I'm getting a "The install class is not present or is invalid" error in Device Manager.
 
-If you see "HoloLens Sensors" with a yellow exclamation mark in Device Manager, double click on the device for additional details. If you see a message saying "The drivers for this device are not installed. (Code 28) -- The install class is not present or is invalid", this is typically because your PC is running [Windows 10 N](https://support.microsoft.com/en-us/help/4039813/media-feature-pack-for-windows-10-n-october-2017). Please note that N-editions of Windows 10 do not support Windows Mixed Reality, and you'll need to install a non-N version of Windows 10.
+If you see "HoloLens Sensors" with a yellow exclamation mark in Device Manager, select the device for additional details. If you see a message saying "The drivers for this device are not installed. (Code 28) -- The install class is not present or is invalid", this is typically because your PC is running [Windows 10 N](https://support.microsoft.com/en-us/help/4039813/media-feature-pack-for-windows-10-n-october-2017). Note that N-editions of Windows 10 do not support Windows Mixed Reality, and you'll need to install a non-N version of Windows 10.
 
 ## My WMR environment is jittery or stutters when I move my head and displays double vision.
 
@@ -101,4 +101,4 @@ For general info about comfort in Windows Mixed Reality, see [Windows Mixed Real
 ## How can I get a clearer view in my headset?
 Try adjusting the fit of your headset. Adjust its position on your face by moving it up and down or left and right, and adjust the straps so it feels snug.
 
-If your headset supports it, you can also adjust its calibration settings. If the headset has a knob to adjust calibration, use that. If it doesn’t, go to **Settings > Mixed reality > Visual quality** and adjust the calibration there. For more information on calibration for your specific device, check with your headset manufacturer.
+If your headset has a knob to adjust calibration, adjust its calibration settings. If it doesn’t, go to **Settings > Mixed reality > Visual quality** and adjust the calibration there. For more information on calibration for your specific device, check with your headset manufacturer.
