@@ -183,7 +183,8 @@ Entering mixed reality a second time is as easy as putting the headset back on w
 
 ## See also
 
-* [Troubleshooting installation and setup](troubleshooting-windows-mixed-reality.md#installation-and-setup)
+* [Troubleshooting installation](Common-installation-error-messages.md)
+* [Troubleshooting setup](set-up-questions.md)
 * [Learn Mixed Reality](learn-mixed-reality.md)
 * [How motion controllers work](motion-controllers.md)
 * [How inside-out tracking works](tracking-system.md)
