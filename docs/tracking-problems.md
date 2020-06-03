@@ -46,18 +46,18 @@ This usually means the application or a system level component has failed. Try t
 2. Unplug the device, close MRP and plug the device back in.
 3. Reboot the PC.
 
-## I frequently see a black border around the edges of the view in the HMD. Sometimes it looks like I'm looking down a tunnel.
+## I frequently see a black border around the view in the headset. Sometimes it looks like I'm looking down a tunnel.
 
-This means that the application is not able to hit frame rate on your PC and the system is using old frames to render the view in the HMD. Since applications only render the part of the world you are looking at, if they do not consistently hit their frame rates, then the system will attempt to continue to render the world from a previous point of view and will fill in the missing details with black. If this happens frequently:
+This means that the application is not able to hit frame rate on your PC and the system is using old frames to render the view in the headset. Since applications only render the part of the world you are looking at, if they do not consistently hit their frame rates, then the system will attempt to continue to render the world from a previous point of view and will fill in the missing details with black. If this happens frequently:
 1. Close or terminate all unneeded programs to free up memory and CPU.
 2. Reduce detail settings in your application.
 3. Reduce detail settings in Windows Mixed Reality settings.
 
-## The view in the HMD is jittering and stuttering a lot.
+## The view in the headset is jittering and stuttering a lot.
 
-There are several reasons this may happen. The primary causes are the system not being able to render content to the headset, or the tracking system is experiencing problems. Check the following:
-1. Make sure your PC is not under resource contention. Open Task Manager and ensure your compute resources are free (for example, 80% CPU free, 400MB of ram and disk IO is below 80%).
-2. Make sure you have the latest graphics drivers for your hardware. See the graphics driver section for more info.
+It is likely that the system is not able to render content to the headset, or the tracking system is experiencing problems. Check the following:
+1. Open "Task Manager" to make sure that your PC has enough compute resources (for example, you should have 80% of CPU free, 400MB of RAM, and disk IO should be below 80%).
+2. Make sure you have the latest graphics drivers for your hardware. See the [graphics driver section](set-up-windows-mixed-reality.md#prequisites-graphics-drivers).
 3. Make sure the room has enough light.
 4. Unplug the device, close Windows Mixed Reality, and plug the device in again.
 5. Reboot your PC.
@@ -65,21 +65,21 @@ There are several reasons this may happen. The primary causes are the system not
 
 ## The world briefly froze and perhaps tilted or flipped upside before returning to normal.
 
-This could be caused by an app or system level component hitting a fatal error, or a temporary lack of memory or CPU resources. Check the following:
-1. Open "Task Manager" and ensure you have at least 20% CPU free and 400MB memory free (e.g. 80% CPU free, 400MB of ram and disk IO is below 80%).
+This could be caused by an application or system level component hitting a fatal error, or a temporary lack of memory or CPU resources. Check the following:
+1. Open "Task Manager" and ensure that at least 20% of the CPU is free and 400MB of memory is available (for example, you should have 80% of CPU free, 400MB of RAM, and disk IO should be below 80%).
 2. Open "Event Viewer" and go to **Windows Logs > Application and Error** event entries around the time of the freeze. Check to see if any processes crashed.
-3. Try rebooting the PC if this problem persists.
+3. Reboot the PC if the problem persists.
 
 ## The world flipped upside down momentarily and returned to normal.
 
 This is typically caused by errors in obtaining sensor data from the headset to inform the tracking algorithms. If this happens frequently:
 1. Plug the headset into a different USB 3.0 port.
-2. Plug the headset directly into the PC rather than a USB 3.0 hub.
+2. Plug the headset directly into the PC rather than into a USB 3.0 hub.
 3. If the problem persists, contact customer support.
 
 ## The world is tilted but I can navigate and walk around fine in Windows Mixed Reality.
 
-This is usually caused by sensor data errors being recorded into the environment data that is stored on your PC. This can cause the Windows Mixed Reality to appear tilted, sometimes permanently. Try the following:
-1. Unplug the HMD, close Windows Mixed Reality and plug the headset back in.
+Sensor data errors being recorded into the environment data that is stored on your PC can cause Windows Mixed Reality to appear tilted, sometimes permanently. To fix this:
+1. Unplug the headset, close Windows Mixed Reality and plug the headset back in.
 2. Reboot the PC.
 3. Clear your environment data.
