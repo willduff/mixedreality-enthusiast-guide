@@ -23,7 +23,6 @@
 ### [Common installation error messages](Common-installation-error-messages.md)
 ### [Setup questions](set-up-questions.md)
 ### [Boundary questions](boundary-questions.md)
-### [Problems in Windows Mixed Reality Home](problems-in-WMR-home.md)
 ### [Headset connectivity issues](headset-connectivity-issues.md)
 ### [Headset display problems](headset-display-problems.md)
 ### [Mixed Reality Portal error messages](mixed-reality-portal-error-messages.md)
