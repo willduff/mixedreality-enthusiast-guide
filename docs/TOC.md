@@ -37,8 +37,6 @@
 ### [Other questions](other-questions.md)
 ### [How to uninstall Windows Mixed Reality](uninstall-wmr.md)
 
-## [Troubleshooting](troubleshooting-windows-mixed-reality.md)
-
 ## Appendix
 ### [Filing bugs and feedback](filing-feedback.md)
 ### [Mixed Reality software overview and release history](mixed-reality-software.md)
