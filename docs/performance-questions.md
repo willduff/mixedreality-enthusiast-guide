@@ -11,9 +11,9 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 
 Check the **Device Portal > Performance** tab. 
 
-**Note**: If you have a discrete GPU with HDMI 2.0 ports and a CPU with four or more physical cores, you should be getting 90 Hz. If your GPU only has a HDMI 1.4 output, you can use a DisplayPort to [HDMI 2.0 adapter](https://holodocswiki.com/wiki/Recommended_adapters_for_Windows_Mixed_Reality_Capable_PCs) as a workaround. 
+Note: If you have a discrete GPU with HDMI 2.0 ports and a CPU with four or more physical cores, you should be getting 90 Hz. If your GPU only has a HDMI 1.4 output, you can use a DisplayPort to [HDMI 2.0 adapter](https://holodocswiki.com/wiki/Recommended_adapters_for_Windows_Mixed_Reality_Capable_PCs) as a workaround. 
 
-**Note**: The **Headset display > visual quality settings** only affect the rendering of the Windows Mixed Reality Home experience.
+Note: The **Headset display > visual quality settings** only affect the rendering of the Windows Mixed Reality Home experience.
 
 ## What do I do if my PC appears to be running slowly?
 
