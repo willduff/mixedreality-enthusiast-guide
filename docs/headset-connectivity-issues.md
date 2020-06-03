@@ -16,11 +16,14 @@ Windows Mixed Reality headsets do not officially support the use of USB or HDMI 
 
 ## I am getting a "Check your display cable" error.
 
-* If you are using any adapters to connect your headset to your PC, make sure they support Windows Mixed Reality. Also try connecting the adapter to the PC before connecting the HMD to the adapter.
+* If you are using any adapters to connect your headset to your PC, make sure they support Windows Mixed Reality (the adapter must be 4K capable). Also try connecting the adapter to the PC before connecting the HMD to the adapter.
+* Try using a different HDMI port.
+* Connect your headset to a DisplayPort 1.2 or later, or HDMI 1.4 or later. Make sure the port corresponds with the most advanced graphics card on your PC.
 * If your PC has both integrated and discrete graphics, make sure you're using the HDMI port on your active graphics card. In some cases, this may mean that you'll need to connect your PC display to a non HDMI port.
 * If your PC has both integrated and discrete graphics, and the integrated graphics is older and does not support Windows Mixed Reality, try disabling the integrated GPU.
 * Connect a PC monitor to your PC's HDMI port. Make sure your graphics drivers are up to date. Download and install the ones from AMD, Nvidia or Intel directly as they will likely be newer than what's published to Windows Update.
-* Make sure that you plugged your headset's HDMI cable into an **HDMI out** port on your PC, not an HDMI in port.
+* If you have an external monitor plugged into an HDMI port, try plugging it into a DisplayPort instead, and use the HDMI port for your headset.
+* Make sure that you plugged your headset's HDMI cable into an "HDMI out" port on your PC, not an "HDMI in" port.
 * Windows may be unable to detect the display cable connection. Open the Device Manager and see if the headset is listed under "Monitors". If not, select **Action > Scan for hardware changes**. 
 
 ## I see a message that says "Put on your headset" even though I have my headset on.
@@ -49,10 +52,11 @@ When you put on your headset, Windows Mixed Reality may need a few seconds to re
 * Make sure that you're using a supported USB 3.0 port on your PC:
     * Make sure that your headset's USB cable is plugged in all the way.
     * Run the [Windows Mixed Reality PC Check](https://aka.ms/pccheckapp) app to make sure your PC's USB 3.0 controller is supported.
-    * Try each of the other USB 3.0 ports on your PC. Some PCs have more than one USB 3.0 controller.
+    * Connect your headset to the other USB 3.0 ports on your PC. Some PCs have more than one USB 3.0 controller.
     * Temporarily disconnect all of the USB devices attached to your PC, and only connect your headset.
     * On custom-built PCs, even though a port may be marked as a USB 3.0 port, it may be connected to a USB 2.0 controller. With your headset connected, open Device Manager, locate and single click any of the devices enumerated from your headset, then go to **View > Devices by connection**.
 * Try your headset on another PC. If that other PC is not fully compatible with Windows Mixed Reality, check in Device Manager to see if you see the "insufficient USB speed" message. If your headset does not enumerate properly on multiple PCs, your headset could be defective.
+* Remove any extenders or hubs between the headset and the computer.
 
 ## The Mixed Reality Portal did not launch automatically after I plugged in my headset.
 
