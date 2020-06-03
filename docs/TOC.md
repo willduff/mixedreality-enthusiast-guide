@@ -34,7 +34,6 @@
 ### [SteamVR questions](steamvr-questions.md)
 ### [Speech and audio problems](speech-n-audio-problems.md)
 ### [Other questions](other-questions.md)
-### [How to uninstall Windows Mixed Reality](uninstall-wmr.md)
 
 ## Appendix
 ### [Filing bugs and feedback](filing-feedback.md)
