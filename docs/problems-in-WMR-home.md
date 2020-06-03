@@ -18,7 +18,7 @@ Select **Start > Room Adjustment** which will launch once you place the app in t
 
 ## My headset has stopped tracking.
 
-Make sure the lights are on and that there isn't anything obstructing the inside-out tracking cameras on the front of your headset. If tracking is lost, it can take a few seconds to resume. If tracking does not resume, try restarting the Windows Mixed Reality Portal. See [Tracking Troubleshooting](troubleshooting-windows-mixed-reality.md#tracking-system) for more details.
+Make sure the lights are on and that there isn't anything obstructing the inside-out tracking cameras on the front of your headset. If tracking is lost, it can take a few seconds to resume. If tracking does not resume, try restarting the Windows Mixed Reality Portal. See [Tracking system problems](tracking-problems.md) for more details.
 
 ## I can't show a preview of what I'm seeing in my headset on my desktop screen.
 
