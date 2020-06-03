@@ -437,11 +437,11 @@ If your [motion controllers](https://support.microsoft.com/en-us/help/4040517/wi
 
 ### My controller is stuck in an infinite reboot (buzzing after LEDs cycle).
 
-This is a critical battery indicator, so make sure you have fresh batteries in the device. If the issue persists, perform [device recovery](troubleshooting-windows-mixed-reality.md#device-recovery) to reset the controller to factory settings.
+This is a critical battery indicator, so make sure you have fresh batteries in the device. If the issue persists, perform [device recovery](motion-controller-problems.md#how-can-i-restore-the-controllers-to-factory-settings) to reset the controller to factory settings.
 
 ### I'm trying to pair my controllers, but they never show up in the "Add a new device menu" in Bluetooth Settings.
 
-Check that you do not have controllers paired already, remove them and try again. If problem persists restart the PC and try again. If that fails, consult the [Bluetooth Best Practices](troubleshooting-windows-mixed-reality.md#bluetooth-best-practices) section.
+Check that you do not have controllers paired already, remove them and try again. If problem persists restart the PC and try again. If that fails, consult the [Bluetooth FAQs](motion-controller-problems.md#how-can-i-tell-if-im-using-bluetooth-technology).
 
 ### Wi-Fi speeds becomes slow on my notebook when motion controllers are turned on.
 
@@ -464,7 +464,7 @@ Go to **Device Manager > Bluetooth > Marvell AVASTAR Bluetooth Radio Adapter > P
 ### The Mixed Reality Portal is working, but my motion controllers are tracking poorly (controllers keep flying away, shaking, etc.).
 
 1. Some lighting conditions can affect tracking. Make sure that you are not exposed to direct sunlight and that you don't have a lot of point light sources visible to your HMD (for example, strings of lights like a christmas tree). 
-2. Check the [Bluetooth Best Practices section](troubleshooting-windows-mixed-reality.md#bluetooth-best-practices). These symptoms are generally caused by failures to communicate between the controller and the host PC, and indicate poor Bluetooth link quality.
+2. Check the [Bluetooth FAQs](motion-controller-problems.md#how-can-i-tell-if-im-using-bluetooth-technology). These symptoms are generally caused by failures to communicate between the controller and the host PC, and indicate poor Bluetooth link quality.
 
 ### Motion Controller LEDs are not lit, but the buttons and thumbstick still work in Mixed Reality Portal.
 
@@ -487,7 +487,7 @@ To manually download and install the Motion Controller model driver, visit [this
 
 ### The Motion controllers firmware update takes significantly longer than two minutes.
 
-Check the [Bluetooth Best Practices section](troubleshooting-windows-mixed-reality.md#bluetooth-best-practices) below. Poor Bluetooth link quality is usually the cause of these problems.
+Check the [Bluetooth FAQs](motion-controller-problems.md#how-can-i-tell-if-im-using-bluetooth-technology). Poor Bluetooth link quality is usually the cause of these problems.
 
 ### I just inserted fresh batteries but the controller virtual battery level does not indicate full level.
 
