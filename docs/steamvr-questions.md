@@ -68,15 +68,15 @@ Start the game with your controllers off and then turn on the left controller, f
 2. In Mixed Reality Portal on your desktop, select "Pause" to stop desktop preview.
 3. [Make sure you are running Windows 10 build 16299.64 or later](steamvr-questions.md#i-get-a-message-that-says-to-use-steamvr-with-windows-mixed-reality-you-need-to-install-the-latest-windows-update-or-windows-developer-mode-required).
 4. Make sure your PC has the latest graphics drivers.
-5. Check Task Manager to see what other processes might be running on your PC and consuming resources.
+5. Check "Task Manager" to see what other processes might be consuming resources on your PC.
 6. Check to see if Steam is downloading a game in the background. This can consume resources and make games run poorly.
-7. There is a known performance issue that affects a small class of apps that do not have a visible window, for example, SteamVR Home. The vast majority of apps do not fall into this category, and a fix will be available in a future update.
+7. A small class of apps that do not have a visible window (for example, SteamVR Home), have a known performance issue. The vast majority of apps do not fall into this category, and a fix will be available in a future update.
 
-If you're still running into unexpected performance issues, send us feedback using the Windows Feedback Hub. Make sure to follow the instructions to [include a SteamVR Performance Trace](using-steamvr-with-windows-mixed-reality.md#sharing-feedback-on-steamvr). 
+If you're still running into unexpected performance issues, send us feedback using the [Windows Feedback Hub](https://support.microsoft.com/en-us/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app). Make sure to follow the instructions to [include a SteamVR Performance Trace](using-steamvr-with-windows-mixed-reality.md#sharing-feedback-on-steamvr). 
 
 ## SteamVR is showing a compositor error (for example, "Shared IPC Compositor Connect Failed (400)").
 
-There is a known issue where this can happen if your headset and primary monitor are on two different video adapters. Attach your monitor to the same adapter as your headset and configure that monitor to be the primary monitor in **Settings app > System > Display**.
+This can happen if your headset and primary monitor are on two different video adapters. Attach your monitor to the same adapter as your headset and configure that monitor to be the primary monitor in **Settings app > System > Display**.
 
 ## SteamVR content appears in the wrong place, like beneath the floor or above my head.
 
