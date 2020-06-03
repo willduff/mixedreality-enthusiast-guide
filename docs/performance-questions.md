@@ -9,9 +9,9 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 
 ## How can I tell if the Windows Mixed Reality headset is rendering at 60Hz or 90Hz framerate?
 
-Check the **Device Portal > Performance** tab. 
+If you have a discrete GPU with HDMI 2.0 ports and a CPU with four or more physical cores, you should be getting 90 Hz. To confirm, check the **Device Portal > Performance** tab. 
 
-Note: If you have a discrete GPU with HDMI 2.0 ports and a CPU with four or more physical cores, you should be getting 90 Hz. If your GPU only has a HDMI 1.4 output, you can use a DisplayPort to [HDMI 2.0 adapter](https://holodocswiki.com/wiki/Recommended_adapters_for_Windows_Mixed_Reality_Capable_PCs) as a workaround. 
+Note: If your GPU only has a HDMI 1.4 output, you can use a DisplayPort to [HDMI 2.0 adapter](https://holodocswiki.com/wiki/Recommended_adapters_for_Windows_Mixed_Reality_Capable_PCs) as a workaround. 
 
 Note: The **Headset display > visual quality settings** only affect the rendering of the Windows Mixed Reality Home experience.
 
