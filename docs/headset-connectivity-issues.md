@@ -78,7 +78,7 @@ On new PCs, or PCs with a newly installed copy of Windows 10, the headset driver
 
 1. Go to **Start > Device Manager** and look under "Other devices" for a "HoloLens Sensors" device with a yellow exclamation mark:
 ![View of Device Manager HoloLens Sensors](images/hololenssensors.png)
-2. Right click on the device and select properties. If the device's properties read **The drivers for this device are not installed (Code 28)**, close the window and proceed. If there is another message, follow troubleshooting steps on the rest of this page.
+2. Right click on the device and select properties. If the device's properties read "The drivers for this device are not installed (Code 28)", close the window and proceed. If there is another message, follow troubleshooting steps on the rest of this page.
 ![Code 28 of HoloLens Sensors in Device Manager](images/code28.png)
 3. Right click on the device again and select "Update Drivers..." and then "Search automatically for updated driver software"
 After the device updates, you should see your headset listed under "Mixed Reality devices" in Device Manager:
