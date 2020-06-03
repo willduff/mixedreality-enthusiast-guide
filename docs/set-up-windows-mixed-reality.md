@@ -10,10 +10,13 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, get sta
 
 ## Prequisites (Graphics Drivers)
 Windows Mixed Reality requires a WDDM 2.2 or later graphics driver in order to complete Mixed Reality setup. If your PC does not already have a compatible graphics driver, please try these sources:
-1. Check for the latest critical driver updates using Windows Update (**Start -> Windows Settings -> Update and Security -> Check for Updates**)
-2. Check for the latest optional driver updates using Device Manager (Right-click **Start -> Device Manager** -> expand **Display Adapters** -> right-click on the graphics card, choose **Update Driver -> Search automatically for updated driver software**)
-3. The website for the manufacturer (OEM) of your PC
-4. The website for the manufacturer of the graphics card in your PC (e.g., AMD, Intel, NVIDIA)
+* Check for the latest critical driver updates using Windows Update (**Start > Windows Settings > Update and Security > Check for Updates**)
+* Check for the latest optional driver updates: 
+    1. Right-click **Start > Device Manager**.
+    2. Expand **Display Adapters**.
+    3. Right-click on the graphics card and choose **Update Driver > Search automatically for updated driver software**.
+* The website for the manufacturer (OEM) of your PC
+* The website for the manufacturer of the graphics card in your PC (e.g., AMD, Intel, NVIDIA)
 
 ### Graphics Driver Troubleshooting 
 If Windows Mixed Reality setup says your graphics card doesn’t meet the requirements and you think it does, make sure your headset is plugged into the correct card.
@@ -159,7 +162,7 @@ This setting is available on Windows 10, version 1903, or newer.
 To use the new Chromium-based Microsoft Edge in Windows Mixed Reality home, **upgrade to Windows 10 Version 1903 or later for native support of Win32 applications (like the new Microsoft Edge)** in Windows Mixed Reality home. Check Windows Update or [manually install the latest version of Windows 10](https://www.microsoft.com/software-download/windows10).
 
 >[!IMPORTANT]
->The new Microsoft Edge launches with support for WebXR, the new standard for creating immersive web experiences for VR headsets. When you install the new Microsoft Edge, you will no longer be able to play WebVR experiences in Microsoft Edge. 
+>The new Microsoft Edge launches with support for WebXR, the new standard for creating immersive web experiences for VR headsets. You will no longer be able to play WebVR experiences in Microsoft Edge if you install the new Microsoft Edge. 
 
 ### Issues with the new Microsoft Edge in Windows Mixed Reality
 
@@ -179,7 +182,7 @@ To use the new Chromium-based Microsoft Edge in Windows Mixed Reality home, **up
 
 ## Launching mixed reality after the first time
 
-Entering mixed reality a second time is as easy as putting the headset back on while its connected to your PC. You can also launch the Mixed Reality Portal app manually by opening it from the Start menu. Input and audio will route automatically to the headset when you put it on, or you can trigger this manually by pressing **Windows + Y** on your keyboard. 
+Entering mixed reality a second time is as easy as putting the headset back on while its connected to your PC. You can also launch the Mixed Reality Portal application manually by opening it from the Start menu. Input and audio will route automatically to the headset when you put it on, or you can trigger this manually by pressing **Windows + Y** on your keyboard. 
 
 ## See also
 
