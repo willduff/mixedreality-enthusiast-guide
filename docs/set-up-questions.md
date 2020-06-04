@@ -2,7 +2,7 @@
 title: Setup questions
 description: Advanced Windows Mixed Reality troubleshooting for setup questions that goes beyond our standard consumer support documentation.
 ms.topic: article
-keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Troubleshoot, Errors, Help, Support, Setup
+keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Troubleshoot, Errors, Help, Support, Setup, Windows Mixed Reality Home, Windows Mixed Reality Portal
 ---
 
 
@@ -50,3 +50,25 @@ Make sure the lights are on and that there isn't anything obstructing the inside
 ## I can't show a preview of what I'm seeing in my headset on my desktop screen.
 
 Mixed Reality Portal has a **Play** button at the bottom of the screen that allows you to show a preview of what you're seeing in your headset on your desktop's screen. But for performance reasons, this feature is only available on PCs running at Windows Mixed Reality Ultra (90Hz).
+
+## I got a "Something went wrong" error message, or I'm having problems in the Mixed Reality Portal.
+
+Restart Windows Mixed Reality:
+1. Disconnect both headset cables from your PC.
+2. Restart your PC.
+3. Reconnect your headset.
+
+If that doesn't work, make sure that your PC recognizes your headset:
+1. Select Start.
+2. Type "Device Manager" in the search box and select it in the list. 
+3. Expand "Mixed reality devices" and see if your headset is listed. 
+
+If it isn't listed, try the following:
+1. Plug the headset into different ports on the PC, if available.
+2. Check for the latest software updates from Windows Update.
+3. Uninstall and reinstall Windows Mixed Reality:
+    1. Disconnect both headset cables from your PC.
+    2. Select **Settings  > Mixed reality > Uninstall**.
+    3. Select **Settings  > Devices  > Bluetooth & other devices** to unpair your motion controllers. Select each controller, and then select "Remove device".
+    4. Plug your headset back into your PC to reinstall Windows Mixed Reality.
+

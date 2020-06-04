@@ -26,7 +26,6 @@
 ### [Error codes and how to resolve them](error-codes.md)
 ### [Headset connectivity issues](headset-connectivity-issues.md)
 ### [Headset display problems](headset-display-problems.md)
-### [Mixed Reality Portal error messages](mixed-reality-portal-error-messages.md)
 ### [Motion controller problems](motion-controller-problems.md)
 ### [Performance questions](performance-questions.md)
 ### [Speech and audio problems](speech-n-audio-problems.md)

@@ -10,19 +10,19 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 
 ## Why can’t I see my controllers when viewing VR content from Edge?
 
-Not all WebVR content is authored to support motion controllers. WebVR allows developers of content to support different types of input, such as game controllers or motion controllers. If you do not see your controllers on a site, it likely doesn’t have motion controller support.
+Not all WebVR content is authored to support motion controllers. WebVR allows content developers to support different types of input, such as game controllers or motion controllers. If you do not see your controllers on a site, it probably doesn’t have motion controller support.
 
 ## Why can't I use the mouse in an immersive WebVR view?
 
 This is an optional feature of the WebVR specification. Not all browsers support this feature, and not all WebVR content is authored to support mouse input. WebVR allows content developers to support different types of input, such as mouse, keyboard, game controllers or motion controllers. Mouse input behavior varies per browser. Within Microsoft Edge, website authors must ensure they take 'pointerlock' when presenting to the headset for mouse input to work.
 
-## Why does my controller look like a Vive/Oculus, has strange orientation, or the buttons are incorrectly mapped?
+## My controller looks like a Vive/Oculus, has strange orientation, or the buttons are incorrectly mapped.
 
 The website likely doesn’t have full motion controller support.
 
-## Why can’t I view 360 degree videos from Youtube/Facebook/Vimeo/The Guardian/New York Times, etc. from Edge in VR?
+## Why can’t I view 360 degree videos from Youtube/Facebook/Vimeo/The Guardian, etc. from Edge in VR?
 
-Just like any other web specification or standard, the author has the choice to implement it or not. There is a WebVR specification that allows websites to launch VR experiences directly from the browser and the authors of these websites have not implemented this specification at this time. There may be downloadable apps on some platforms that enable viewing of VR content from these vendors.
+There is a WebVR specification that allows websites to launch VR experiences directly from the browser and the authors of these websites have not implemented this specification at this time. There may be downloadable apps on some platforms that enable viewing of VR content from these vendors.
 
 ## Why can’t I enter VR from Firefox or Chrome?
 
@@ -36,7 +36,7 @@ The website may not have implemented support for Multi GPU machines (including H
 
 ## When I exit VR when watching a video from Edge, the sound continues playing but the Edge window is grayed out.
 
-This is a known issue when running WebVR from Edge in the Mixed Reality cliffhouse. To resolve it, press escape on the keyboard rather than pressing the windows button to exit the WebVR experience, or activate the greyed out Edge window by selecting it and then stop the video.
+This is a known issue when running WebVR from Edge in the Mixed Reality Cliff House. To resolve it, press escape on the keyboard rather than pressing the windows button to exit the WebVR experience, or activate the greyed out Edge window by selecting it and then stop the video.
 
 ## Can I use WebVR on the HoloLens?
 
@@ -47,14 +47,14 @@ Microsoft has not announced anything about WebVR on the HoloLens at this point.
 The website does not properly support Windows Mixed Reality headsets. To work around this:
 1. Place the headset on the floor of your space.
 2. Navigate to the WebVR page using Microsoft Edge on your desktop (not within Mixed Reality).
-3. Click the button on the webpage to Enter VR.
-4. Wait 5-10 seconds for the experience to fully enter immersive mode.
-5. Pick up the headset and place it on your head.
+3. Select "Enter VR".
+4. Wait five to 10 seconds for the experience to fully enter immersive mode.
+5. Put on the headset.
 
 ## The display is very low resolution in some WebVR experiences.
 
-The websites do not properly support high resolution headsets. To workaround this:
-* If launching WebVR from the desktop (as opposed to from within the Mixed Reality cliffhouse), ensure the window is maximized prior to Entering VR.
+Those websites do not properly support high resolution headsets. To workaround this:
+* If launching WebVR from the desktop (rather than the Mixed Reality Cliff House), ensure the window is maximized before selecting "Enter VR".
 * Avoid resizing the Microsoft Edge window after you have entered VR.
 
 ## Why does the WebVR immersive view exit when I change browser tabs?
