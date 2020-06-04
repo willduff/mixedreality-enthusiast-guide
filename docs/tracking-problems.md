@@ -67,7 +67,7 @@ It is likely that the system is not able to render content to the headset, or th
 
 This could be caused by an application or system level component hitting a fatal error, or a temporary lack of memory or CPU resources. Check the following:
 1. Open "Task Manager" and ensure that at least 20% of the CPU is free and 400MB of memory is available (for example, you should have 80% of CPU free, 400MB of RAM, and disk IO should be below 80%).
-2. Open "Event Viewer" and go to **Windows Logs > Application and Error** event entries around the time of the freeze. Check to see if any processes crashed.
+2. Go to **Event Viewer > Windows Logs > Application and Error** event entries around the time of the freeze. Check to see if any processes crashed.
 3. Reboot the PC if the problem persists.
 
 ## The world flipped upside down momentarily and returned to normal.
