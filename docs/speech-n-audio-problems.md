@@ -37,12 +37,14 @@ Microsoft does not recommend using Bluetooth audio headsets with Windows Mixed R
 
 ## Sound isn't coming from expected directions.
 
-The Windows Mixed Reality Home includes spatial sound (audio that sounds like it comes from the applications located in your Home). As you turn around and move closer or farther from each app, the sound direction and level will change to further the sense of realism. 
-Sound may also be unexpected when you open and play music from a background-capable music app (like Groove Music) in your Home and then open an immersive VR experience (like a game), because the sound from the music app will crossfade from spatial sound to stereo. It may appear louder than before because there is no longer any distance between you and the sound. Also, if you had Cortana enabled on your PC before using your Windows Mixed Reality headset, you may lose the spatial sound applied to the apps in your Windows Mixed Reality Home. To fix this, either turn off "Let Cortana respond to Hey Cortana" in **Settings > Cortana** on your desktop before launching Windows Mixed Reality, or enable "Windows Sonic for Headphones":
-1. Go to the Desktop app window in Windows Mixed Reality Home.
-2. Left-click the speaker icon on the desktop taskbar and select it from the list of audio devices.
-3. Right-click the speaker icon on the desktop taskbar and select "Windows Sonic for Headphones" in the "Speaker setup" menu.
-4. Repeat these steps for all of your audio devices (endpoints).
+The Windows Mixed Reality Home includes spatial sound (audio that sounds like it comes from the applications located in your Home). As you turn around and move closer or farther from each app, the sound direction and level will change to further the sense of realism. Here are some potential reasons for unexpected sound directions:
+
+* If you open and play music from a background-capable music app (like Groove Music) in your Home and then open an immersive VR experience (like a game), because the sound from the music app will crossfade from spatial sound to stereo. It may appear louder than before because there is no longer any distance between you and the sound. 
+* If you had Cortana enabled on your PC before using your Windows Mixed Reality headset, you may lose the spatial sound applied to the apps in your Windows Mixed Reality Home. To fix this, either turn off "Let Cortana respond to Hey Cortana" in **Settings > Cortana** on your desktop before launching Windows Mixed Reality, or enable "Windows Sonic for Headphones":
+    1. Go to the Desktop app window in Windows Mixed Reality Home.
+    2. Left-click the speaker icon on the desktop taskbar and select it from the list of audio devices.
+    3. Right-click the speaker icon on the desktop taskbar and select "Windows Sonic for Headphones" in the "Speaker setup" menu.
+    4. Repeat these steps for all of your audio devices (endpoints).
 
 ## Speech commands are not working as expected.
 
@@ -53,7 +55,7 @@ Sound may also be unexpected when you open and play music from a background-capa
 * Cortana can be slow the first time she is invoked in a Mixed Reality Portal session. Go to **Settings > Cortana > Talk to Cortana** and make sure "Let Cortana respond to Hey Cortana" is enabled.
 * On some PCs, the default voice capture gain for your headset-connected microphone may be set too low. If you experience unreliable speech commands or dictation, try running the Microphone Setup troubleshooter:
     1. Go to the Desktop app in the Windows Mixed Reality home while wearing the headset (to affect the microphone you use for Windows Mixed Reality).
-    2. Go to **Settings > Time & Language > Speech**
+    2. Go to **Settings > Time & Language > Speech**.
     3. Select "Get Started" in the "Microphone" section. 
     4. Select the appropriate endpoint in the troubleshooter wizard.
 
@@ -64,4 +66,5 @@ If you only have one audio headset and do not have a headset with built in headp
 ## I want to switch to Dolby Atmos for Headphones.
 
 Windows Mixed Reality environments and its apps use Windows Sonic for Headphones spatial audio technology which is customized for mixed reality experiences. Other spatial audio technologies, like Dolby Atmos for Headphones, can be applied for full screen apps like SteamVR games but not for the Windows Mixed Reality shell environments and apps (such as placing a web browser on the wall of the Cliff House or the Sky Loft) which have been designed using Windows Sonic for Headphones spatial sound and acoustics.
+
 
