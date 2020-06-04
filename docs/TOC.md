@@ -29,8 +29,8 @@
 ### [Motion controllers](motion-controller-problems.md)
 ### [Performance](performance-questions.md)
 ### [Speech and audio](speech-n-audio-problems.md)
-### [Tracking system](tracking-problems.md)
 ### [SteamVR](steamvr-questions.md)
+### [Tracking system](tracking-problems.md)
 ### [WebVR](webvr-questions.md)
 ### [Other questions](other-questions.md)
 
