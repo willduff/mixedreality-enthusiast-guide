@@ -12,7 +12,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 
 * If your immersive headset doesn’t include built-in headphones, connect headphones to the audio jack on the headset. The jack is often located just behind or under the headset visor or lenses. Check with your headset manufacturer if you can't find it.
 * Some audio headsets have physical buttons to control the volume. If audio isn't working, check to see whether the volume is turned down or muted.
-* If you take the headset off, flip the visor up, close the Mixed Reality Portal application, or when that app has not been used for 15 minutes, audio will switch to your default Windows playback device. You can change this setting in **Settings > Mixed reality > Audio and speech.**
+* If you take the headset off, flip the visor up, close the Mixed Reality Portal app, or when that app has not been used for 15 minutes, audio will switch to your default Windows playback device. You can change this setting in **Settings > Mixed reality > Audio and speech.**
 * Make sure your audio headset is plugged into the audio jack completely. The Acer headset in particular may require more care to ensure the audio headset is plugged in all the way.
 * Check that the audio headset/microphone is plugged into the headset and not the PC.
 * The Windows Sound Control Panel only shows enabled audio endpoints, not disabled endpoints. The headset audio device will be disabled when you're not wearing the headset. To see it, right-click in the sound control panel and choose "Show disabled devices". The device name is "Realtek USB2.0 Audio", which you can change in the "Properties" page. You can do this for both the playback and recording tabs.
@@ -24,7 +24,7 @@ Note: Windows Mixed Reality doesn’t support Bluetooth audio headsets.
 
 ## I'm experiencing sudden volume changes, lost audio, or buzzing.
 
-* Some applications, including many of those launched through SteamVR, can lose audio or hang when the audio device changes as you start or stop the Mixed Reality Portal. To correct this, reopen the Mixed Reality Portal and restart the app.
+* Some apps, including many of those launched through SteamVR, can lose audio or hang when the audio device changes as you start or stop the Mixed Reality Portal. To correct this, reopen the Mixed Reality Portal and restart the app.
 * If another multimedia USB device (such as a web cam) shares the same internal or external USB hub with the Windows Mixed Reality headset, the headset audio jack or headphones may occasionally have a buzzing sound or no audio at all. Plug your headset into a USB port that uses a different hub or disconnect/disable your other USB multimedia device.
 * If you notice a loud burst of noise from headphones connected to the headset, it is possible that the PC's USB hub is not able to provide enough power to the Windows Mixed Reality headset. If this occurs, file a [Feedback Hub](https://docs.microsoft.com/hololens/hololens-feedback) bug and try:
 * removing extension cables
@@ -64,5 +64,5 @@ If you only have one audio headset and do not have a headset with built in headp
 
 ## I want to switch to Dolby Atmos for Headphones.
 
-Windows Mixed Reality environments and its applications use Windows Sonic for Headphones spatial audio technology which is customized for mixed reality experiences. Other spatial audio technologies, like Dolby Atmos for Headphones, can be applied for full screen applications like SteamVR games but not for the Windows Mixed Reality shell environments and applications (such as placing a web browser on the wall of the Cliff House or the Sky Loft) which have been designed using Windows Sonic for Headphones spatial sound and acoustics.
+Windows Mixed Reality environments and its apps use Windows Sonic for Headphones spatial audio technology which is customized for mixed reality experiences. Other spatial audio technologies, like Dolby Atmos for Headphones, can be applied for full screen apps like SteamVR games but not for the Windows Mixed Reality shell environments and apps (such as placing a web browser on the wall of the Cliff House or the Sky Loft) which have been designed using Windows Sonic for Headphones spatial sound and acoustics.
 
