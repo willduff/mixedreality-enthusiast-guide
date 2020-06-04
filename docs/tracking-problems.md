@@ -57,7 +57,7 @@ This means that the application is not able to hit frame rate on your PC and the
 
 It is likely that the system is not able to render content to the headset, or the tracking system is experiencing problems. Check the following:
 1. Open "Task Manager" to make sure that your PC has enough compute resources (for example, you should have 80% of CPU free, 400MB of RAM, and disk IO should be below 80%).
-2. Make sure you have the latest graphics drivers for your hardware. See the [graphics driver section](set-up-windows-mixed-reality.md#prequisites-graphics-drivers).
+2. Make sure you have the latest graphics drivers for your hardware. See the [graphics driver section](before-you-start.md#make-sure-you-have-a-compatible-graphics-driver).
 3. Make sure the room has enough light.
 4. Unplug the device, close Windows Mixed Reality, and plug the device in again.
 5. Reboot your PC.
