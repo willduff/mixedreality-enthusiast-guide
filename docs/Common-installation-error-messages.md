@@ -5,7 +5,7 @@ ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Troubleshoot, Errors, Help, Support, Installation
 ---
 
-# Installation error messages
+# Installation errors
 
 ## "Your PC can’t run Windows Mixed Reality"
 
