@@ -1,12 +1,12 @@
 ---
-title: Tracking system problems
+title: Tracking FAQs
 description: Advanced Windows Mixed Reality troubleshooting that goes beyond our standard consumer support documentation.
 ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Troubleshoot, Errors, Help, Support, Tracking
 ---
 
 
-# Tracking system problems
+# Tracking FAQs
 
 ## The system cannot find the boundary and I'm being presented with setup UI.
 
