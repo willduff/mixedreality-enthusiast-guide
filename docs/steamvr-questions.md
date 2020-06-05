@@ -6,7 +6,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 ---
 
 
-# SteamVR questions
+# SteamVR FAQs
 
 ## How can I play SteamVR games in my Windows Mixed Reality immersive headset?
 
