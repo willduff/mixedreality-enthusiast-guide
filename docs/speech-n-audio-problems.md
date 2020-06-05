@@ -6,7 +6,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 ---
 
 
-# Speech and audio problems
+# Speech and audio FAQs
 
 ## I can't hear any sound in my headset, or sound is playing through my computer instead of my headset.
 
