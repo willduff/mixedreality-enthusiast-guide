@@ -6,7 +6,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 ---
 
 
-# Motion controller problems
+# Motion controller FAQs
 
 ## My Motion controllers aren't working properly.
 
