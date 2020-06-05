@@ -20,7 +20,7 @@ If these steps do not resolve the problem, then delete your environment data and
 
 ## The system is presenting me with UI that asks me to choose setup for all experiences or seated/standing, and I see my bounds.
 
-The device is taking too long to find the bounds. You can bypass this message by choosing the option to use a boundary and you will be taken to your Windows Mixed Reality Home with your bounds present.
+The device is taking too long to find the bounds. You can bypass this message by choosing the option to use a boundary and you will be taken to your Windows Mixed Reality home with your bounds present.
 
 ## I frequently see a message saying "I've lost my bounds".
 
@@ -83,3 +83,4 @@ Sensor data errors being recorded into the environment data that is stored on yo
 1. Unplug the headset, close Windows Mixed Reality and plug the headset back in.
 2. Reboot the PC.
 3. Clear your environment data.
+
