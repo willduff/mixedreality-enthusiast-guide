@@ -1,5 +1,5 @@
 ---
-title: Understanding error codes
+title: Error codes
 description: Advanced Windows Mixed Reality troubleshooting that goes beyond our standard consumer support documentation.
 ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Troubleshoot, Errors, Help, Support, Error Codes
@@ -7,7 +7,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 
 
 
-# Understanding error codes
+# Error codes
 
 | **Windows 10 error codes** (version 1809/versions 1709, 1803) | **Error message and troubleshooting suggestions**                    |
 |-------------------------------------------------------------|--------------------------------------------------------------------|
