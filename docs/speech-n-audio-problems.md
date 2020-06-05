@@ -39,9 +39,9 @@ Microsoft does not recommend using Bluetooth audio headsets with Windows Mixed R
 
 The Windows Mixed Reality Home includes spatial sound (audio that sounds like it comes from the applications located in your Home). As you turn around and move closer or farther from each app, the sound direction and level will change to further the sense of realism. Here are some potential reasons for unexpected sound directions:
 
-* If you open and play music from a background-capable music app (like Groove Music) in your Home and then open an immersive VR experience (like a game), because the sound from the music app will crossfade from spatial sound to stereo. It may appear louder than before because there is no longer any distance between you and the sound. 
-* If you had Cortana enabled on your PC before using your Windows Mixed Reality headset, you may lose the spatial sound applied to the apps in your Windows Mixed Reality Home. To fix this, either turn off "Let Cortana respond to Hey Cortana" in **Settings > Cortana** on your desktop before launching Windows Mixed Reality, or enable "Windows Sonic for Headphones":
-    1. Go to the Desktop app window in Windows Mixed Reality Home.
+* If you open and play music from a background-capable music app (like Groove Music) in your Home and then open an immersive VR experience like a game, the sound from the music app will crossfade from spatial sound to stereo. It may appear louder than before because there is no longer any distance between you and the sound. 
+* If you had Cortana enabled on your PC before using your Windows Mixed Reality headset, you may lose the spatial sound applied to the apps in your Windows Mixed Reality home. To fix this, either turn off "Let Cortana respond to Hey Cortana" in **Settings > Cortana** on your desktop before launching Windows Mixed Reality, or enable "Windows Sonic for Headphones":
+    1. Go to the Desktop app window in Windows Mixed Reality home.
     2. Left-click the speaker icon on the desktop taskbar and select it from the list of audio devices.
     3. Right-click the speaker icon on the desktop taskbar and select "Windows Sonic for Headphones" in the "Speaker setup" menu.
     4. Repeat these steps for all of your audio devices (endpoints).
