@@ -11,7 +11,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 
 * Check your PC performance and stability:
     * Use the Task Manager to see if any processes are maxing out your PC's CPU, GPU, and/or disk drives.
-    * Look at the "Applications and System Event Logs" in Windows (using Event Viewer) to see if you have an app that is frequently crashing and generating Windows Error Reporting (WER) reports.
+    * Check the “Application” and “System” logs in **Event Viewer > Windows Logs** to see if you have an app that is frequently crashing and generating Windows Error Reporting (WER) reports.
     * Check Windows Update to make sure your version of Windows is current. You may have to select "Check for Updates" multiple times.
 * Check app and game stability:
     * Ensure that your PC meets the minimum system requirements to run any app or game that is not performing correctly.    
