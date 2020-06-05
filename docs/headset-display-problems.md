@@ -5,7 +5,7 @@ ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Troubleshoot, Errors, Help, Support
 ---
 
-# Headset display problems
+# Headset display FAQs
 
 ## My headset displays are black.
 
