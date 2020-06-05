@@ -34,7 +34,7 @@ If someone else uses your headset, make sure they understand the boundary and ho
 
 ## During start up of Mixed Reality, I'm stuck at the step "Turn your head side to side, and then at the floor".
 
-This step lets your headset recognize your space and restore any existing virtual floor and boundary. When you put on your headset, this scanning process can take up to 10 seconds. After it is complete, you will either be in the Mixed Reality Home or you will be prompted to set up your boundary again.
+This step lets your headset recognize your space and restore any existing virtual floor and boundary. When you put on your headset, this scanning process can take up to 10 seconds. After it is complete, you will either be in Windows Mixed Reality home or you will be prompted to set up your boundary again.
 
 If the scanning process takes longer than 10 seconds, there could be a problem with the proximity sensor in the headset:
 1. Check that the sticker has been removed from the proximity sensor. The proximity sensor is located inside the headset roughly where the center of your forehead would be.
@@ -61,3 +61,5 @@ The boundary appears when you are close to it. If your boundary includes any sec
 * Select **Start > Mixed Reality Portal**.
 * Open "Menu". 
 * Turn "Boundary" to "Off". Make sure to stay in one place while the boundary is off.
+
+
