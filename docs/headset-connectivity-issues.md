@@ -6,7 +6,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 ---
 
 
-# Headset connectivity issues
+# Headset connectivity FAQs
 
 ## My computer does not have an HDMI port.
 If your computer does not have an HDMI port but does have a DisplayPort (DP), mini DisplayPort (miniDP) or USB Type-C (USB-C) port for outputting video, you may need to use a [supported adapter](recommended-adapters-for-windows-mixed-reality-capable-pcs.md).
