@@ -61,7 +61,7 @@ It is likely that the system is not able to render content to the headset, or th
 3. Make sure the room has enough light.
 4. Unplug the device, close Windows Mixed Reality, and plug the device in again.
 5. Reboot your PC.
-6. If the problem persists, contact customer support.
+6. If the problem persists, contact [customer support](https://support.microsoft.com/).
 
 ## The world briefly froze and perhaps tilted or flipped upside before returning to normal.
 
@@ -75,7 +75,7 @@ This could be caused by an application or system level component hitting a fatal
 This is typically caused by errors in obtaining sensor data from the headset to inform the tracking algorithms. If this happens frequently:
 1. Plug the headset into a different USB 3.0 port.
 2. Plug the headset directly into the PC rather than into a USB 3.0 hub.
-3. If the problem persists, contact customer support.
+3. If the problem persists, contact [customer support](https://support.microsoft.com/).
 
 ## The world is tilted but I can navigate and walk around fine in Windows Mixed Reality.
 
