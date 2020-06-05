@@ -5,7 +5,7 @@ ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Troubleshoot, Errors, Help, Support, Performance
 ---
 
-# Performance questions
+# Performance FAQs
 
 ## How can I tell if the Windows Mixed Reality headset is rendering at 60Hz or 90Hz framerate?
 
