@@ -37,15 +37,15 @@ When you put on your headset, Windows Mixed Reality may need a few seconds to re
     * If your computer has two HDMI ports, use the one that connects to the graphics card, not the computer's motherboard. It's not always obvious which is which, though discrete ports are often located in an expansion slot on the computer. If you try one port and it doesn't work, try the other.
 2. Unplug and plug in the USB and HDMI cables from your headset to make sure they are securely connected. When plugging in the USB cable, try not to pause during insertion of the USB cable.
 3. Open Device Manager and confirm that your headset is listed under "Mixed Reality devices". Double click on your headset under "Mixed Reality devices" and confirm that the device status indicates "This device is working properly". Errors reported by the devices connected to your PC are indicated by yellow exclamation marks on those devices in Device Manager.
-    * If "Hololens Sensors" is listed with a yellow exclamation mark in Device Manager, double click on the device. If you see a **"Code 10: The drivers for this device are not installed. There are no compatible drivers for this device"**, [manually install the headset driver](headset-connectivity-issues.md#the-headset-driver-did-not-install-automatically-when-i-plugged-in-the-headset).
-    * If you use multiple Mixed Reality headsets on your PC and have manually installed the Mixed Reality headset driver, the manual driver update may only apply to the headset connected at the time and not to other headsets. In this case, you'll see **"Code 31: This device is not working properly because Windows cannot load the drivers required for this device. (Code 31). The ALPC message requested is no longer available"** in Device Manager. In Device Manager, right click on your headset under "Mixed Reality devices", and select "Uninstall device". Select "OK" to confirm and then unplug and replug your headset.
+    * If "Hololens Sensors" is listed with a yellow exclamation mark in Device Manager, select the device. If you see a "Code 10: The drivers for this device are not installed. There are no compatible drivers for this device", [manually install the headset driver](headset-connectivity-issues.md#the-headset-driver-did-not-install-automatically-when-i-plugged-in-the-headset).
+    * If you use multiple Mixed Reality headsets on your PC and have manually installed the Mixed Reality headset driver, the manual driver update may only apply to the headset connected at the time and not to other headsets. In this case, you'll see "Code 31: This device is not working properly because Windows cannot load the drivers required for this device. (Code 31). The ALPC message requested is no longer available" in Device Manager. In **Device Manager > Mixed Reality devices**, right-click on your headset and select "Uninstall device". Select "OK" to confirm and then unplug and replug your headset.
 4. If you're seeing partial enumeration of the headset (a series of USB devices enumerate, but nothing under "Mixed Reality headsets" in Device Manager), try an externally powered USB 3.0 hub.
 5. Go to the headset manufacturer’s website and update the drivers and firmware for your headset.
 6. Connect your headset to another PC and open Device Manager. Even if that PC is not fully compatible with Windows Mixed Reality, you can check to see if your headset enumerates. If your headset does not enumerate on multiple PCs, it could have a hardware issue.
 
 Note for Surface users: Earlier versions of the Surface Dock and Surface Book USB Hub firmware update software are incompatible with Mixed Reality headsets. If you get a "Connect your headset" message on a Surface PC, check to see if any devices are reporting a "Code 10: The device cannot start" error in Device Manager. If so, [remove the conflicting driver](https://support.microsoft.com/en-us/help/4032123/kinect-sensor-is-not-recognized-on-a-surface-book). You should only need to do this once.
 
-Note for Windows 10 N users: If your PC is running Windows 10 N, you'll see a "Code 28: The install class is not present or is invalid" error in Device Manager after plugging in your Mixed Reality headset. N-editions of Windows 10 are not supported by Windows Mixed Reality. Follow these [instructions](troubleshooting-windows-mixed-reality.md#im-getting-a-the-install-class-is-not-present-or-is-invalid-error-in-device-manager) for more information.
+Note for Windows 10 N users: If your PC is running Windows 10 N, you'll see a "Code 28: The install class is not present or is invalid" error in Device Manager after plugging in your Mixed Reality headset. N editions of Windows 10 are not supported by Windows Mixed Reality. Follow these [instructions](troubleshooting-windows-mixed-reality.md#im-getting-a-the-install-class-is-not-present-or-is-invalid-error-in-device-manager) for more information.
 
 ## A message says "Check your USB cable" or "Insufficient USB speed".
 
@@ -85,11 +85,11 @@ After the device updates, you should see your headset listed under "Mixed Realit
 
 If the manual install doesn’t work, or you don't find the driver under Other Devices, then you probably need to uninstall the existing driver and reinstall it. To do that:
 1. Go to **Start > Device Manager** and look under "Mixed Reality devices" for your headset. The device status should indicate that "The device is working properly".
-2. Right click on the device and select "Uninstall Device".
+2. Right-click on the device and select "Uninstall Device".
 3. In the new popup that appears, select the check box "Delete the driver software for this device" and then select "Uninstall".
 4. When that completes, unplug the headset from your PC, and plug it back in. Windows Update will now download and install a new driver.
 
-Note:  If you have an "N"-edition of Windows, you will need to switch to a regular edition of Windows 10 to use Windows Mixed Reality.
+Note:  If you have an N edition of Windows, you will need to switch to a regular edition of Windows 10 to use Windows Mixed Reality.
 
 ## Troubleshooting flowchart
 
