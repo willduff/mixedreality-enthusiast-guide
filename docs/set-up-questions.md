@@ -6,7 +6,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 ---
 
 
-# Setup questions 
+# Setup FAQs 
 
 ## My Xbox controller isn't working with Windows Mixed Reality.
 
