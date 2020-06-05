@@ -51,7 +51,7 @@ This usually means the application or a system level component has failed. Try t
 This means that the application is not able to hit frame rate on your PC and the system is using old frames to render the view in the headset. Since applications only render the part of the world you are looking at, if they do not consistently hit their frame rates, then the system will attempt to continue to render the world from a previous point of view and will fill in the missing details with black. If this happens frequently:
 1. Close or terminate all unneeded programs to free up memory and CPU.
 2. Reduce detail settings in your application.
-3. Reduce detail settings in Windows Mixed Reality settings.
+3. Go to **Settings > Mixed Reality > Headset Display** to reduce the amount of detail shown in the Windows Mixed Reality home.
 
 ## The view in the headset is jittering and stuttering a lot.
 
