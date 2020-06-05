@@ -5,7 +5,7 @@ ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Troubleshoot, Errors, Help, Support, Boundary
 ---
 
-# Boundary questions
+# Boundary FAQs
 
 ## What's a boundary and why should I create one?
 
