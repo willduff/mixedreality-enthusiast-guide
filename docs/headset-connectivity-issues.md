@@ -93,6 +93,6 @@ Note:  If you have an N edition of Windows, you will need to switch to a regular
 
 ## Troubleshooting flowchart
 
-First time Windows Mixed Reality users should use the [Mixed Reality Portal](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/install-windows-mixed-reality#launch-mixed-reality-portal) to set up their headset. If you have trouble with headset connectivity after a successful setup, you can consult this flowchart for troubleshooting proceedures: 
+First time Windows Mixed Reality users should use the [Mixed Reality Portal](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/install-windows-mixed-reality#launch-mixed-reality-portal) for setup. If you have trouble with headset connectivity after a successful setup, consult this flowchart for troubleshooting proceedures: 
 
 ![Connect your headset/check your USB cable](images/hmd-connectivity2.jpg)
