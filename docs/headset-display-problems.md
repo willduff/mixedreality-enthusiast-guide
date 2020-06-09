@@ -57,7 +57,7 @@ If helpful, consult the headset black screen troubleshooting flow chart below.
 * Make sure your graphics driver is current.
 * Try the Mixed Reality headset on another PC.
 
-## My headset displays turn blue for a moment, and then Mixed Reality Portal reinitializes.
+## My headset displays turn blue and then Mixed Reality Portal reinitializes.
 
 This typically indicates an occasional USB controller reliability issue on your PC:
 * Try another USB port. Your PC may have multiple USB 3.0 controllers.
@@ -95,7 +95,7 @@ If you see "HoloLens Sensors" with a yellow exclamation mark in Device Manager, 
 
 On a laptop with integrated graphics and an Nvidia GPU, an error occurs after a period of time that appears to cause a previous frame to display after the next frame, resulting in double vision the faster you move your head in a yaw, pitch, or roll movement. The issue appears to be on drivers after Nvidia Graphics Driver 436.48.  Installing this driver will fix the issue until Nvidia solves the problem in the updated drivers. For a direct install of Nvidia Graphics Driver 436.48, visit [NVIDIA](https://www.nvidia.com/Download/driverResults.aspx/152007/en-us).
 
-## I’m experiencing discomfort when I use my headset.
+## I’m uncomfortable in my headset.
 For general info about comfort in Windows Mixed Reality, see [Windows Mixed Reality immersive headset health, safety, and comfort](https://support.microsoft.com/en-us/help/4039969/windows-10-mixed-reality-immersive-headset-health-safety-comfort). For details about your specific headset, check with the headset manufacturer.
 
 ## How can I get a clearer view in my headset?
