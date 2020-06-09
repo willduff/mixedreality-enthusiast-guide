@@ -8,7 +8,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 
 # SteamVR FAQs
 
-## How can I play SteamVR games in my Windows Mixed Reality immersive headset?
+## How can I play SteamVR games in my Windows Mixed Reality headset?
 
 1. [Download and install SteamVR](https://steamcdn-a.akamaihd.net/client/installer/SteamWindowsMRInstaller.exe). The SteamVR tutorial should start automatically when you start SteamVR.
 2. Connect your headset to your PC and turn on your motion controllers.
