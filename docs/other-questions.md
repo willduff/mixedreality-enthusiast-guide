@@ -7,7 +7,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 
 # Other questions
 
-## My Samsung Odyssey or Odyssey+ headset firmware update is getting stuck.
+## My Samsung Odyssey or Odyssey+ headset firmware update is stuck.
 
 Samsung owns and publishes headset firmware updates delivered via their "Samsung HMD Odyssey Setup" and "Samsung HMD Odyssey+ Setup" Device Companion apps. For more details and for help with Samsung firmware update issues, please reach out to Samsung Customer Service.
 
