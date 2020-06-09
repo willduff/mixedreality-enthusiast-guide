@@ -15,7 +15,7 @@ Note: If your GPU only has a HDMI 1.4 output, you can use a DisplayPort to [HDMI
 
 Note: The **Headset display > visual quality settings** only affect the rendering of the Windows Mixed Reality home experience.
 
-## My PC is running slowly
+## My PC is running slowly.
 
 The system may be slow for many reasons and in most cases this only last a few seconds. If you experience this problem over long periods of time:
 1. Close all unused application on the desktop.
