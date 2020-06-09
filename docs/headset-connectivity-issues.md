@@ -26,11 +26,11 @@ Windows Mixed Reality headsets do not officially support the use of USB or HDMI 
 * Make sure that you plugged your headset's HDMI cable into an "HDMI out" port on your PC, not an "HDMI in" port.
 * Windows may be unable to detect the display cable connection. Open the Device Manager and see if the headset is listed under "Monitors". If not, select **Action > Scan for hardware changes**. 
 
-## I see a message that says "Put on your headset" even though I have my headset on.
+## A message says "Put on your headset" but I have my headset on.
 
 When you put on your headset, Windows Mixed Reality may need a few seconds to reload your space. If this message doesn't go away, make sure the protective sticker has been removed from the proximity sensor, which is on the inside of the headset between the lenses. If this doesn't resolve the problem, contact your headset manufacturer.
 
-## A message says "Connect your headset" even though I’ve plugged in my headset.
+## A message says "Connect your headset" but I’ve plugged in my headset.
 
 1. Make sure the headset's USB and HDMI cables are connected to the correct ports on your PC. Here is how to identify the correct ports:
     * USB 3.0 ports have a special logo with an "SS" mark (indicating "SuperSpeed"). The port's inside piece is normally blue, whereas older USB 2.0 ports are typically black or white on the inside.
@@ -58,11 +58,11 @@ Note for Windows 10 N users: If your PC is running Windows 10 N, you'll see a "C
 * Try your headset on another PC. If that other PC is not fully compatible with Windows Mixed Reality, check in Device Manager to see if you see the "insufficient USB speed" message. If it does not enumerate properly on multiple PCs, your headset could be defective.
 * Remove any extenders or hubs between the headset and the computer.
 
-## The Mixed Reality Portal did not launch automatically after I plugged in my headset.
+## The Mixed Reality Portal did not launch after I plugged in my headset.
 
 The headset might not have been detected properly because of an underlying issue. Launch the Mixed Reality Portal manually and look for any error messages that appear. 
 
-## My headset stopped working after putting my PC to sleep, in hibernation mode, or when restarting my PC with my headset attached.
+## My headset stopped working when my PC goes into sleep or hibernation mode, or when restarting my PC with my headset attached.
 
 1. Open Device Manager and confirm that your headset is listed under "Mixed Reality devices".
 2. Select your headset under "Mixed Reality devices" and confirm that the device status indicates "This device is working properly".
