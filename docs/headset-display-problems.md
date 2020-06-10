@@ -38,7 +38,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 * Check for a Mixed Reality headset hardware issue:
     * To confirm or rule out hardware issues with your Mixed Reality headset, try connecting your Mixed Reality headset to another PC. 
     * Check for PC compatibility and setup issues first, as the symptoms are very similar.
-* Check to make sure the USB cable is plugged into a USB 3.0 or faster port. USB 3.0 ports have SS (Super Speed) written next to them. They are often (but not always) colored blue.		
+* Check to make sure the USB cable is plugged into a USB 3.0 or faster port. USB 3.0 ports have SS (Super Speed) next to them and are often colored blue.		
 
 If helpful, consult the headset black screen troubleshooting flow chart below.
 
