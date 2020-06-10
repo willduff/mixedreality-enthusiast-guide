@@ -20,7 +20,7 @@
 ### [WebVR](webvr.md)
 
 ## Troubleshooting FAQs
-### [Installation errors](Common-installation-error-messages.md)
+### [Installation errors](installation-errors.md)
 ### [Set up](set-up-questions.md)
 ### [Boundaries](boundary-questions.md)
 ### [Error codes](error-codes.md)
