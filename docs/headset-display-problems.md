@@ -36,7 +36,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
     * If your PC has an AMD R9-series graphics card and you're using a Samsung Mixed Reality headset, you'll need to update your headset's firmware to version 1.0.8 or newer in order to use the HDMI port of your graphics card with the headset.
     * If you're using a Surface Book 2, please make sure you're using the [Surface USB-C to HDMI adapter](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs).
 * Check for a Mixed Reality headset hardware issue:
-    * To confirm or rule out hardware issues with your Mixed Reality headset, try connecting your Mixed Reality headset to another PC. 
+    * To confirm or rule out hardware issues with your headset, connect your Mixed Reality headset to another PC. 
     * Check for PC compatibility and setup issues first, as the symptoms are very similar.
 * Check to make sure the USB cable is plugged into a USB 3.0 or faster port. USB 3.0 ports have SS (Super Speed) next to them and are often colored blue.		
 
