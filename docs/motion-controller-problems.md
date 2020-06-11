@@ -14,7 +14,7 @@ If your [motion controllers](https://support.microsoft.com/en-us/help/4040517/wi
 1. Make sure your controllers are turned on. To turn them on, press and hold the Windows button for two seconds.
 2. Make sure the controllers are fully charged and replace the batteries if they are not.
 3. Turn the controllers off and on again while holding them in front of you. Press and hold the Windows button for four seconds to turn a controller off, then press and hold it again for two seconds to turn it on. 
-4. Select **Settings > Devices > Bluetooth & other devices** on your PC and make sure the controllers are listed as paired. If they’re not, you’ll need to [pair them](https://support.microsoft.com/en-us/help/4040517/windows-10-controllers-windows-mixed-reality). 
+4. Select **Settings > Devices > Bluetooth & other devices** on your PC and make sure the controllers are listed as paired. If they’re not, you’ll need to [pair them](motion-controller-problems.md#how-do-i-pair-my-controllers-again-after-the-initial-setup). 
 5. Make sure the motion controllers show up as "Connected". "Paired" does not necessarily mean the controllers are connected to the PC. Controllers should appear under "Mouse, keyboard & pen" category. Motion controllers under "Other devices" have failed the pairing process and are not functional. Check the motion controllers LEDs: Brightly lit controllers are paired and connected, dimly lit controllers aren't connected.
 6. Go to **Start  > Mixed Reality Portal** on your PC and select "Menu". You should see your motion controllers listed, along with a status message:
     * Ready – The controllers are all set.
