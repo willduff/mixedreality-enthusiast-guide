@@ -40,6 +40,9 @@ If your [motion controllers](https://support.microsoft.com/en-us/help/4040517/wi
 * On your PC, go to **Settings > Devices > Bluetooth & other devices**, then to **Add Bluetooth or other device > Bluetooth**.
 When the controllers appear, select them to pair.
 
+Note: If another set of motion controllers is paired with your PC, you'll need to unpair those controllers before pairing new ones.
+If you paired a set of motion controllers with your current PC and then paired them with a second PC, you'll need to unpair and re-pair them with the current PC before using them again.
+
 ## My controller is stuck in an infinite reboot (buzzing after LEDs cycle).
 
 This is a critical battery indicator, so make sure you have fresh batteries in the device. If the issue persists, [reset the controller to factory settings](motion-controller-problems.md#how-can-i-restore-the-controllers-to-factory-settings).
