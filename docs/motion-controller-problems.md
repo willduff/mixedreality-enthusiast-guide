@@ -94,7 +94,7 @@ Check the [Bluetooth questions section](motion-controller-problems.md#how-can-i-
 
 Motion controller battery level is tuned for AA batteries. Some low voltage rechargeable batteries may not report as full although being fully charged.
 
-### My controller does not vibrate.
+## My controller does not vibrate.
 
 Replace your batteries. Haptics are disabled when the battery level gets low.
 
