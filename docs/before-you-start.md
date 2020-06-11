@@ -63,21 +63,14 @@ Unless you purchased a Samsung HMD Odyssey headset (which has integrated AKG hea
 Check that your PC is connected to the Internet. You will need to download drivers and some additional software to get Windows Mixed Reality up and running.  If your Wi-Fi network connection is set to metered, change it to unmetered. [Learn more](https://support.microsoft.com/en-us/help/4028458/windows-metered-connections-in-windows-10)
 
 ## Make sure you have a compatible graphics driver
-Windows Mixed Reality requires a WDDM 2.2 or later graphics driver in order to complete Mixed Reality setup. If your PC does not already have a compatible graphics driver, please try these sources:
+Windows Mixed Reality requires a WDDM 2.2 or later graphics driver in order to complete Mixed Reality setup. If your PC does not already have a compatible graphics driver, try these sources:
 * Check for the latest critical driver updates using Windows Update (**Start > Windows Settings > Update and Security > Check for Updates**)
 * Check for the latest optional driver updates: 
     1. Right-click **Start > Device Manager**.
     2. Expand **Display Adapters**.
     3. Right-click on the graphics card and choose **Update Driver > Search automatically for updated driver software**.
-* Check the website for the manufacturer (OEM) of your PC
-* Check the website for the manufacturer of the graphics card in your PC (e.g., AMD, Intel, NVIDIA)
-
-### Graphics Driver Troubleshooting 
-If Windows Mixed Reality setup says your graphics card doesn’t meet the requirements and you think it does, make sure your headset is plugged into the correct card.
-
-This flow chart below helps further explain the best steps to acquire a WDDM 2.2 or later graphics driver.
-
-![Troubleshooting Flow Chart for Graphics Drivers](images/graphics-driver.jpg)
+* Check the website for the manufacturer (OEM) of your PC.
+* Check the website for the manufacturer of the graphics card in your PC (for example, AMD, Intel, or NVIDIA).
 
 ## Make sure that you have a large, open space
 
