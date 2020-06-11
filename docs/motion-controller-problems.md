@@ -32,9 +32,13 @@ If your [motion controllers](https://support.microsoft.com/en-us/help/4040517/wi
 16. If your Bluetooth settings have motion controllers already paired, Windows won’t discover the new devices until those are removed (if they have been added using a specific dongle, they can be only removed with that dongle).
 17. If your PC has built-in Bluetooth and you’re having connection problems, try using a USB Bluetooth adapter instead. To do this, you’ll need to turn off your built-in Bluetooth radio in Device Manager and then pair your other Bluetooth devices with the new adapter.
 
-## Motion controller troubleshooting flowchart
+## How do I pair my controllers again (after the initial setup)?
 
-![Troubleshooting Flow Chart for Motion Controllers](images/motion-controllers.jpg)
+* Insert 2 AA batteries into each controller. Don’t put the battery cover back on yet.
+* Press and hold the Windows button for 2 seconds to turn on each controller. They’ll buzz when they turn on.
+* Put the controllers in pairing mode. The pairing button is inside the battery compartment. Press and hold it until the controller lights start flashing.
+* On your PC, go to **Settings > Devices > Bluetooth & other devices**, then to **Add Bluetooth or other device > Bluetooth**.
+When the controllers appear, select them to pair.
 
 ## My controller is stuck in an infinite reboot (buzzing after LEDs cycle).
 
@@ -167,3 +171,7 @@ The LED constellation ring and haptics indicate the state of the motion controll
 | **Controller connects/disconnects from PC** | The controller successfully connects to PC after you turn it on, or the controller disconnects from the PC during use for some reason.| The controller vibrates once on PC connection or disconnection. |
 | **Low Battery Level**      | The battery level is low.| There is no LED or vibration indication when battery is low. There is a battery indicator icon on the handle of the controller representation in headset. When battery is low, the indicator icon will show 1/4 full. |
 | **Critical Battery Level** | During power on when battery level is "Critical". "Critical" battery level means there is insufficient power and the controller will turn off automatically.| The controller vibrates three times when you turn it on and then automatically turns off. As you approach this state, the battery indicator icon will display red. |
+
+## Motion controller troubleshooting flowchart
+
+![Troubleshooting Flow Chart for Motion Controllers](images/motion-controllers.jpg)
