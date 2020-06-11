@@ -7,6 +7,21 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 
 # Other questions
 
+## My graphics driver isn't supported (I am getting graphics driver failure errors).
+
+Search for and run "dxdiag":
+1.	If the result is “Basic Renderer”, the graphics driver is not installed. To fix this:
+    * Go to **Device Manager > Action > Scan for Hardware Changes**.
+    * Use Windows Update to update the driver.
+    * If this doesn't fix the problem, go to the manufacturer’s website and install the latest driver update. 
+    * If an update isn't available for your GPU, WMR may not be supported on your device. If you think it should be, contact support.
+2.	If you get a “WDDM 2.1” or lower version, the graphics driver is installed but it might not be the latest version. To get the latest version:
+    * Use Windows Update to update the driver.
+    * If that update doesn't fix the problem, go to the manufacturer’s website and install the latest driver update. 
+    * If an update isn't available for your GPU, WMR may not be supported on your device. If you think it should be, contact support.
+    
+If Windows Mixed Reality setup says your graphics card doesn’t meet the requirements and you think it does, make sure your headset is plugged into the correct card.
+
 ## My Samsung Odyssey or Odyssey+ headset firmware update is stuck.
 
 Samsung owns and publishes headset firmware updates delivered via their "Samsung HMD Odyssey Setup" and "Samsung HMD Odyssey+ Setup" Device Companion apps. For more details and for help with Samsung firmware update issues, please reach out to Samsung Customer Service.
