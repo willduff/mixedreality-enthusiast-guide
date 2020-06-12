@@ -9,13 +9,13 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 
 ## What's a boundary and why should I create one?
 
-A boundary defines the area in which you can move around while you're wearing your Windows Mixed Reality immersive headset. Because you can't see your surroundings while you're using your headset, it's important to create a boundary to help you avoid obstacles. The boundary looks like a white outline inside mixed reality and appears when you come close to it. When you see it, slow your movements, and avoid crossing the boundary or extending your limbs beyond it.
+A boundary defines the area you can move around in while wearing your Windows Mixed Reality headset. It's important to create a boundary to help you avoid the obstacles you can't see while in headset. The boundary looks like a white outline inside mixed reality and appears when you come close to it. When you see it, slow your movements, and avoid crossing the boundary or extending your limbs beyond it.
 
 The area inside the boundary should be free of furniture, low-hanging light fixtures, ceiling fans, etc. so you won't bump into or trip over anything. [Learn about health and safety in Windows Mixed Reality](HMD-health-safety-comfort.md).
 
 ## How do I create a boundary?
 
-When you first set up your headset, the setup app (Mixed Reality Portal) will take you through the steps to create a boundary. But you can create one at any time. To do this:
+When you first set up your headset, the setup app (Mixed Reality Portal) will take you through the steps to create a boundary. But you to create one at any time:
 1. Select **Start > Mixed Reality Portal** on your desktop. 
 2. Open "Menu".
 3. Select "Run setup" to create a new boundary.
@@ -47,14 +47,16 @@ Windows Mixed Reality might have trouble identifying your existing boundary. You
 ## A message says “Lost tracking” or “We don’t have a boundary for this space”.
 
 You must create a new boundary. To do this:
-* Select **Start > Mixed Reality Portal**.
-* Select "Run setup".
+1. Select **Start > Mixed Reality Portal**.
+2. Open "Menu".
+3. Select "Run setup".
 
 ## The boundary is always visible. How can I make it go away?
 
 The boundary appears when you are close to it. If your boundary includes any sections that have a narrow or irregular shape, you might end up getting close to it, and causing it to appear, more often than you’d like. To fix this, try creating your boundary again using a larger and more regular shape. To do this:
-* Select **Start > Mixed Reality Portal**.
-* Select "Run setup".
+1. Select **Start > Mixed Reality Portal**.
+2. Open "Menu".
+3. Select "Run setup".
 
 ## Can I turn off the boundary temporarily?
 
