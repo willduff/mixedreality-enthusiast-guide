@@ -42,15 +42,15 @@ Make sure your controllers have full batteries and that they are paired correctl
 
 ## The floor of my Windows Mixed Reality home doesn't appear to be at the correct height, or it is slanted.
 
-Select **Start > Room Adjustment** which will launch once you place the app in the world, to make changes while wearing your headset. In this app, you will be directed to use the touch pad (motion controller) or direction pad (gamepad) to adjust the floor height. When the floor feels correct, use the Windows button to return to your home.
+Select **Start > Room Adjustment**, which will launch once you place the app in the world, to make changes while wearing your headset. In this app, you will be directed to use the touch pad (motion controller) or direction pad (gamepad) to adjust the floor height. When the floor feels correct, use the Windows button to return to your home.
 
 ## My headset has stopped tracking.
 
-Make sure the lights are on and that there isn't anything obstructing the inside-out tracking cameras on the front of your headset. If tracking is lost, it can take a few seconds to resume. If tracking does not resume, try restarting the Windows Mixed Reality Portal. See [Tracking system problems](tracking-problems.md) for more details.
+Make sure the lights are on, and that there isn't anything obstructing the inside-out tracking cameras on the front of your headset. If tracking is lost, it can take a few seconds to resume. If it doesn't resume, restart the Windows Mixed Reality Portal. See [Tracking system problems](tracking-problems.md) for more details.
 
 ## I can't show a preview of what I'm seeing in my headset on my desktop.
 
-Windows Mixed Reality Portal has a **Play** button at the bottom of the screen that allows you to show a preview of what you're seeing in your headset on your desktop screen. But for performance reasons, this feature is only available on PCs running at Windows Mixed Reality Ultra (90Hz).
+Windows Mixed Reality Portal has a **Play** button at the bottom of the screen that allows you to preview what you're seeing in your headset on your desktop screen. For performance reasons, this feature is only available on PCs running at Windows Mixed Reality Ultra (90Hz).
 
 ## I got a "Something went wrong" error message, or I'm having problems in the Mixed Reality Portal.
 
@@ -70,6 +70,6 @@ If it isn't listed, try the following:
 3. Uninstall and reinstall Windows Mixed Reality:
     1. Disconnect both headset cables from your PC.
     2. Select **Settings  > Mixed reality > Uninstall**.
-    3. Select **Settings  > Devices  > Bluetooth & other devices** to unpair your motion controllers. Select each controller, and then select "Remove device".
+    3. Select **Settings  > Devices  > Bluetooth & other devices** to unpair your motion controllers. Select each controller, and "Remove device".
     4. Plug your headset back into your PC to reinstall Windows Mixed Reality.
 
