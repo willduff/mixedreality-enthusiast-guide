@@ -36,7 +36,7 @@ If your [motion controllers](https://support.microsoft.com/en-us/help/4040517/wi
 
 * Insert 2 AA batteries into each controller. Don’t put the battery cover back on yet.
 * Press and hold the Windows button for 2 seconds to turn on each controller. They’ll buzz when they turn on.
-* Put the controllers in pairing mode. The pairing button is inside the battery compartment. Press and hold it until the controller lights start flashing.
+* Put the controllers in pairing mode. The pairing button is inside the battery compartment (see this [image](set-up-windows-mixed-reality.md#pair-your-motion-controllers-with-your-pc)). Press and hold it until the controller lights start flashing.
 * On your PC, go to **Settings > Devices > Bluetooth & other devices**, then to **Add Bluetooth or other device > Bluetooth**.
 When the controllers appear, select them to pair.
 
