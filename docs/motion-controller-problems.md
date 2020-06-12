@@ -43,6 +43,14 @@ When the controllers appear, select them to pair.
 Note: If another set of motion controllers is paired with your PC, you'll need to unpair those controllers before pairing new ones.
 If you paired a set of motion controllers with your current PC and then paired them with a second PC, you'll need to unpair and re-pair them with the current PC before using them again.
 
+## How can I pair my Xbox controller to my PC to use with my headset?
+
+You can pair a Bluetooth Xbox controller to use it with your headset by following [these instructions](https://support.xbox.com/help/hardware-network/accessories/connect-and-troubleshoot-xbox-one-bluetooth-issues). 
+
+If you have a wired Xbox controller, plug it in to your PC.
+
+Some games and apps use the Xbox controller differently than it's used in mixed reality. To use the controller for a game or app, select "Use as gamepad" on the app bar or say, "Use as gamepad." To switch the controller back to mixed reality, select "Use as gamepad"  again, or say, "Use with gaze."  
+
 ## My controller is stuck in an infinite reboot (buzzing after LEDs cycle).
 
 This is a critical battery indicator, so make sure you have fresh batteries in the device. If the issue persists, [reset the controller to factory settings](motion-controller-problems.md#how-can-i-restore-the-controllers-to-factory-settings).
@@ -51,7 +59,7 @@ This is a critical battery indicator, so make sure you have fresh batteries in t
 
 Check that you do not have controllers paired already, remove them, and try again. If problem persists restart the PC and try again. If that fails, see more [information about Bluetooth](motion-controller-problems.md#how-can-i-tell-if-im-using-bluetooth-technology) section.
 
-## Wi-Fi speeds becomes slow on my notebook when motion controllers are turned on.
+## Wi-Fi slows down on my notebook when motion controllers are turned on.
 
 Your notebook may share its Wi-Fi antenna with Bluetooth when connected to a 2.4GHz access point. Check from device manager if you can switch band preference to 5GHz. If a 5GHz network is not available and performance is severely impacted, consider using a Bluetooth dongle.
 
@@ -74,7 +82,7 @@ Go to **Device Manager > Bluetooth > Marvell AVASTAR Bluetooth Radio Adapter > P
 1. Some lighting conditions can affect tracking. Make sure that you are not exposed to direct sunlight and that you don't have a lot of point light sources visible to your HMD (for example, strings of lights like a christmas tree). 
 2. These symptoms are generally caused by failures to communicate between the controller and the host PC, and indicate poor Bluetooth link quality. See the [questions about Bluetooth](motion-controller-problems.md#how-can-i-tell-if-im-using-bluetooth-technology).
 
-## Motion Controller LEDs are not lit, but the buttons and thumbstick still work in Mixed Reality Portal.
+## Motion controller LEDs are not lit, but the buttons and thumbstick still work in Mixed Reality Portal.
 
 The Motion Controller calibration cache may be corrupt. To delete the cache, run the following command in an Administrator Command Prompt:
 
