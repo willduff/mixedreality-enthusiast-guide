@@ -24,7 +24,7 @@
 ### [Setup](set-up-questions.md)
 ### [Boundaries](boundary-questions.md)
 ### [Error codes](error-codes.md)
-### [Headset connectivity](headset-connectivity-issues.md)
+### [Headset connectivity](headset-connectivity.md)
 ### [Headset display](headset-display-problems.md)
 ### [Motion controllers](motion-controller-problems.md)
 ### [Performance](performance-questions.md)
