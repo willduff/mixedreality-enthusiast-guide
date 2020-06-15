@@ -96,7 +96,7 @@ If you're able to see your motion controllers in the Cliff House, but not in Ste
 1. Turn on both of your motion controllers. Go to **Settings > Devices > Bluetooth & other devices** and make sure they show up as "Connected". If they do not show up or show up as "Paired", [pair them](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality).
 2. Go to **Device Manager > Bluetooth** and look for "Motion controller - Left" and "Motion controller - Right".
 3. Select either device and then go to **View > Devices by Connection**.
-4. You will now see a view of the motion controller Bluetooth devices roll up to your Bluetooth radio. Under the same node as the two Motion Controllers should be two "Bluetooth HID Device" devices, and under each Bluetooth HID Device should be devices named "Motion Controller" (with gray icons).
+4.  Depending on whether you paired the controllers to your headset or your PC, they may or may not be visible in the Settings app. If they are visible, there will be two "Bluetooth HID Device" devices, and under each Bluetooth HID Device should be devices named "Motion Controller" (with gray icons) in the same node as the motion controller.
 5. Double click each of the "Motion Controller" devices and go to the "Driver" tab. Confirm that the Driver Version listed corresponds to one of [these motion controller model driver versions](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/mixed-reality-software#mixed-reality-motion-controller-model-driver-release-history).
 
 To manually download and install the motion controller model driver, visit [this page](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/mixed-reality-software#mixed-reality-motion-controller-model-driver-release-history) and look for the driver version corresponding to your version of Windows 10. Installation instructions are available on the download page.
@@ -154,7 +154,7 @@ Motion controllers should work with other Bluetooth keyboards, mice, and game co
     - hard drives
     - wireless USB receivers like those for keyboards/mice
 Ideally, plug the USB Bluetooth Adapter into the opposite side of the computer as far as possible from these other connectors.
-* Do not install any third-party software.
+* If you pair your controllers to a Windows PC, use the Windows Bluetooth driver stack and do not install any 3rd party Bluetooth driver stacks. 
 * Close the Bluetooth settings window if it's open. Leaving it open in the background means that a lot of extra calls are made to the Bluetooth protocol.
 * Disable "Show notification to connect using Swift Pair" setting under "Bluetooth & other devices" to reduce host radio scanning activity.
 * If you are using an internal Bluetooth card, make sure that you are using an external Bluetooth antenna or you may experience tracking issues. If this doesn’t work, use an external Bluetooth dongle (USB) after disabling the internal Bluetooth.
