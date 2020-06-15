@@ -251,11 +251,13 @@ These tables will help you determine if you'll need display or USB adapters for 
 
 ## Windows Mixed Reality compatible USB Bluetooth adapters
 
+Adapters are not needed and controllers pair to the headset on headsets released after 2018. 
+
+Devices shipped in 2017 or earlier need an adapter for controllers. If your PC doesn't include Bluetooth for pairing [Windows Mixed Reality motion controllers](motion-controllers.md), you can use an adapter similar to this one:
+* Plugable USB Bluetooth 4.0 Low Energy Micro Adapter
+
 > [!NOTE]
 > Microsoft does not manufacture, test, certify, nor guarantee the functionality, reliability or quality of any adapter. For any questions, concerns or issues with any adapter, you should contact the seller or manufacturer of your adapter.
-
-If your PC doesn't include Bluetooth for pairing [Windows Mixed Reality motion controllers](motion-controllers.md), you might try:
-* Plugable USB Bluetooth 4.0 Low Energy Micro Adapter
 
 ## Using external USB 3.0 hubs with Windows Mixed Reality headsets
 
