@@ -154,7 +154,7 @@ Motion controllers should work with other Bluetooth keyboards, mice, and game co
     - hard drives
     - wireless USB receivers like those for keyboards/mice
 Ideally, plug the USB Bluetooth Adapter into the opposite side of the computer as far as possible from these other connectors.
-* If you pair your controllers to a Windows PC, use the Windows Bluetooth driver stack and do not install any 3rd party Bluetooth driver stacks. 
+* If you pair your controllers to a Windows PC, use the Windows Bluetooth driver stack and do not install any third party Bluetooth driver stacks. 
 * Close the Bluetooth settings window if it's open. Leaving it open in the background means that a lot of extra calls are made to the Bluetooth protocol.
 * Disable "Show notification to connect using Swift Pair" setting under "Bluetooth & other devices" to reduce host radio scanning activity.
 * If you are using an internal Bluetooth card, make sure that you are using an external Bluetooth antenna or you may experience tracking issues. If this doesn’t work, use an external Bluetooth dongle (USB) after disabling the internal Bluetooth.
