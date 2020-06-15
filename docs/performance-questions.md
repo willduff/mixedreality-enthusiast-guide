@@ -13,7 +13,7 @@ If you have a discrete GPU with HDMI 2.0 ports and a CPU with four or more physi
 
 Note: If your GPU only has a HDMI 1.4 output, you can use a DisplayPort to [HDMI 2.0 adapter](https://holodocswiki.com/wiki/Recommended_adapters_for_Windows_Mixed_Reality_Capable_PCs) as a workaround. 
 
-Note: The **Headset display > visual quality settings** only affect the rendering of the Windows Mixed Reality home experience.
+Note: The visual quality settings in "Headset display" only affect the rendering of the Windows Mixed Reality home experience.
 
 ## My PC is running slowly.
 
