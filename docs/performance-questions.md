@@ -22,7 +22,7 @@ The system may be slow for many reasons and in most cases this only last a few s
 2. Ensure that your laptop is plugged into a power source.
 3. Make sure that the PC is not warming up.
 4. Lower the visual quality in your Windows Mixed Reality home.
-5. Ensure that you have the latest [graphics drivers](other-questions.md#my-graphics-driver-isnt-supported-i-am-getting-graphics-driver-failure-errors) for your PC.
+5. Ensure that you have the latest [graphics drivers](other-questions.md#my-graphics-driver-isnt-supported-im-getting-graphics-driver-failure-errors) for your PC.
 
 ## My PC is warming up as I run the Mixed Reality experiences. How do I keep it cool?
 
