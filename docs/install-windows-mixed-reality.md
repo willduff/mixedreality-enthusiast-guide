@@ -47,6 +47,6 @@ You will see a "Getting ready to set you up" message on your screen with a spinn
 
 ## See also
 
-* [Troubleshooting Installation](Common-installation-error-messages.md)
+* [Troubleshooting Installation](installation_errors.md)
 * [Troubleshooting Setup](set-up-questions.md)
 * [Set up Windows Mixed Reality](set-up-windows-mixed-reality.md)
