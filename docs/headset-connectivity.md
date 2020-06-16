@@ -45,7 +45,7 @@ When you put on your headset, Windows Mixed Reality may need a few seconds to re
 
 Note for Surface users: Earlier versions of the Surface Dock and Surface Book USB Hub firmware update software are incompatible with Mixed Reality headsets. If you get a "Connect your headset" message on a Surface PC, check to see if any devices are reporting a "Code 10: The device cannot start" error in Device Manager. If so, [remove the conflicting driver](https://support.microsoft.com/en-us/help/4032123/kinect-sensor-is-not-recognized-on-a-surface-book). You should only need to do this once.
 
-Note for Windows 10 N users: If your PC is running Windows 10 N, you'll see a "Code 28: The install class is not present or is invalid" error in Device Manager after plugging in your Mixed Reality headset. N editions of Windows 10 are not supported by Windows Mixed Reality. Follow these [instructions](troubleshooting-windows-mixed-reality.md#im-getting-a-the-install-class-is-not-present-or-is-invalid-error-in-device-manager) for more information.
+Note for Windows 10 N users: If your PC is running Windows 10 N, you'll see a "Code 28: The install class is not present or is invalid" error in Device Manager after plugging in your Mixed Reality headset. N editions of Windows 10 are not supported by Windows Mixed Reality. Follow these [instructions](headset-display.md#im-getting-a-the-install-class-is-not-present-or-is-invalid-error-in-device-manager) for more information.
 
 ## A message says "Check your USB cable" or "Insufficient USB speed".
 
