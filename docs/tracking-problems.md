@@ -67,7 +67,7 @@ The system may not be able to render content to the headset, or the tracking sys
 
 This could be caused by an application or system level component hitting a fatal error, or a temporary lack of memory or CPU resources. To check:
 1. Open Task Manager and ensure that at least 20% of the CPU is free, 400MB of memory is available and disk IO should be below 80%.
-2. Go to **Event Viewer > Windows Logs > Application** to look for any errors from around the time of the freeze. Look for anything that refers to HololensSensors, Mixed Reality, or the application that you were running around that time. Those logs might explain what caused the failure.
+2. Go to **Event Viewer > Windows Logs > Application** to look for any errors from around the time of the freeze. Look for anything that refers to HoloLens sensors, Mixed Reality, or the application that you were running around that time. Those logs might explain what caused the failure.
 3. Restart the PC if the problem persists.
 
 ## The world flipped upside down momentarily and returned to normal.
