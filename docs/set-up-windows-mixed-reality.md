@@ -168,7 +168,7 @@ Entering mixed reality a second time is as easy as putting the headset back on w
 
 ## See also
 
-* [Troubleshooting installation](Common-installation-error-messages.md)
+* [Troubleshooting installation](installation-errors.md)
 * [Troubleshooting setup](set-up-questions.md)
 * [Learn Mixed Reality](learn-mixed-reality.md)
 * [How motion controllers work](motion-controllers.md)
