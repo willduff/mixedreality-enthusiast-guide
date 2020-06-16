@@ -16,7 +16,7 @@ After finishing setup, the Mixed Reality Portal app should launch an immersive e
 
 ## How do I re-run the learning experience?
 
-Learn Mixed Reality is an app. The app can be launched from the Start menu inside of [your mixed reality home](your-mixed-reality-home.md) at any time. Using your Motion controllers or keyboard:
+Learn Mixed Reality is an app. The app can be launched from the Start menu inside of [your mixed reality home](your-mixed-reality-home.md) at any time. Using your motion controllers or keyboard:
 
 ### Using your motion controllers
 1. Press the Windows button on your controller
@@ -29,6 +29,8 @@ Learn Mixed Reality is an app. The app can be launched from the Start menu insid
 2. Select "All apps"
 3. Select "Learn Mixed Reality"
 4. Left-click with your mouse to place the app in your home and launch the app
+
+See this [page](https://support.microsoft.com/en-us/help/4040517) to learn about how to get around in mixed reality with motion controllers.
 
 ## How do I use voice commands and Cortana inside of the Windows Mixed Reality home?
 

@@ -31,22 +31,22 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
     * If you've set a custom refresh rate for your PC monitor, try temporarily reverting to a standard refresh rate, such as 60Hz.
     * If you've recently changed your graphics card without reinstalling Windows, check that the headset monitor still has the correct driver installed. With your headset plugged in, confirm that "Mixed Reality headset" is listed under the Monitors node in Device Manager.
     * If your PC has an Nvidia graphics card, make sure that Nvidia's 3D Vision software is disabled.
-    * On some graphics cards (especially older graphics cards), the HDMI port may not support HDMI 2.0 or may not be fully compatible with Windows Mixed Reality. Please try your graphics card's DisplayPort port by using an [active DisplayPort 1.2 to HDMI 2.0 adapter](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs)
-    * HP Omen PCs with HP product number 1RJ99EA#ABU have HDMI ports that are incompatible with Windows Mixed Reality. To look this up, open up the "HP Support Assistant" and the product number will be listed towards the bottom of the app.
-    * If your PC has an AMD R9-series graphics card and you're using a Samsung Mixed Reality headset, you'll need to update your headset's firmware to version 1.0.8 or newer in order to use the HDMI port of your graphics card with the headset.
-    * If you're using a Surface Book 2, please make sure you're using the [Surface USB-C to HDMI adapter](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs).
+    * On some graphics cards (especially older cards), the HDMI port may not support HDMI 2.0 or may not be fully compatible with Windows Mixed Reality. Try using your graphics card's DisplayPort with a [DisplayPort 1.2 to HDMI 2.0 adapter](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs).
+    * HP Omen PCs with HP product number 1RJ99EA#ABU have HDMI ports that are incompatible with Windows Mixed Reality (open the "HP Support Assistant" and the number will be listed towards the bottom of the app).
+    * If your PC has an AMD R9-series graphics card and you're using a Samsung Mixed Reality headset, update your headset's firmware to version 1.0.8 or newer to use the HDMI port of your graphics card with the headset.
+    * If you're using a Surface Book 2, make sure you're using the [Surface USB-C to HDMI adapter](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/recommended-adapters-for-windows-mixed-reality-capable-pcs).
 * Check for a Mixed Reality headset hardware issue:
     * To confirm or rule out hardware issues with your headset, connect your Mixed Reality headset to another PC. 
     * Check for PC compatibility and setup issues first, as the symptoms are very similar.
-* Check to make sure the USB cable is plugged into a USB 3.0 or faster port. USB 3.0 ports have SS (Super Speed) next to them and are often colored blue.		
+* Make sure the USB cable is plugged into a USB 3.0 or faster port. USB 3.0 ports have SS (Super Speed) next to them and are often colored blue.		
 
-If helpful, consult the headset black screen troubleshooting flow chart below.
+If helpful, consult the headset troubleshooting flowchart below.
 
 ![Black screen/Can't see anything](images/hmd-connectivity.jpg)
 
 ## My headset display occasionally turns black after some use.
 
-* Try disabling any USB suspend or power saving features your PC might have. For example, **Settings > System > Power & Sleep > [USB selective suspend](https://docs.microsoft.com/windows-hardware/drivers/usbcon/usb-selective-suspend)**, the "Allow the computer to turn off this device to save power" setting in Device Manager, and any USB power saving settings in your PC's firmware.
+* Try disabling any USB suspend or power saving features on your PC. For example, **Settings > System > Power & Sleep > [USB selective suspend](https://docs.microsoft.com/windows-hardware/drivers/usbcon/usb-selective-suspend)**, the "Allow the computer to turn off this device to save power" setting in Device Manager, and any USB power saving settings in your PC's firmware.
 * Temporarily disconnect any other USB devices and peripherals connected to your PC.
 * Check that your GPU driver version is recent, and check for any new performance and compatibility issues and regressions on new drivers.
 
@@ -62,8 +62,8 @@ If helpful, consult the headset black screen troubleshooting flow chart below.
 This typically indicates an occasional USB controller reliability issue on your PC:
 * Try another USB port. Your PC may have multiple USB 3.0 controllers.
 * Remove any extension cables (if applicable).
-* Try unplugging all other USB devices from your PC.
-* Try connecting an externally-powered USB 3.0 hub to your PC, and connecting your headset to the hub.
+* Unplug all other USB devices from your PC.
+* Connect an externally-powered USB 3.0 hub to your PC, and connect your headset to the hub.
 * If you're using a Desktop PC, consider purchasing a USB 3.0 PCIe card to add another USB controller to your PC.
 
 ## My headset causes my PC to hang or show a black screen while starting up.
@@ -89,7 +89,7 @@ Unplug the HDMI cable and the USB cable from the headset and then plug them back
 
 ## I'm getting a "The install class is not present or is invalid" error in Device Manager.
 
-If you see "HoloLens Sensors" with a yellow exclamation mark in Device Manager, select the device for additional details. If you see a message saying "The drivers for this device are not installed. (Code 28) -- The install class is not present or is invalid", this is typically because your PC is running [Windows 10 N](https://support.microsoft.com/en-us/help/4039813/media-feature-pack-for-windows-10-n-october-2017). Note that N-editions of Windows 10 do not support Windows Mixed Reality, and you'll need to install a non-N version of Windows 10.
+If you see "HoloLens Sensors" with a yellow exclamation mark in Device Manager, select the device for additional details. If you see a message saying "The drivers for this device are not installed. (Code 28) -- The install class is not present or is invalid", this is typically because your PC is running [Windows 10 N](https://support.microsoft.com/en-us/help/4039813/media-feature-pack-for-windows-10-n-october-2017). Note that N editions of Windows 10 do not support Windows Mixed Reality, and you'll need to install a non-N version of Windows 10.
 
 ## My WMR environment is jittery or stutters when I move my head and displays double vision.
 
@@ -99,6 +99,6 @@ On a laptop with integrated graphics and an Nvidia GPU, an error occurs after a 
 For general info about comfort in Windows Mixed Reality, see [Windows Mixed Reality immersive headset health, safety, and comfort](HMD-health-safety-comfort.md). For details about your specific headset, check with the headset manufacturer.
 
 ## How can I get a clearer view in my headset?
-Try adjusting the fit of your headset. Adjust its position on your face by moving it up and down or left and right, and adjust the straps so it feels snug.
+Try adjusting the fit of your headset. Move it up and down, or left and right, on your face and adjust the straps so it feels snug.
 
 If your headset has a knob to adjust calibration, adjust its calibration settings. If it doesn’t, go to **Settings > Mixed reality > Visual quality** and adjust the calibration there. For more information on calibration for your specific device, check with your headset manufacturer.
