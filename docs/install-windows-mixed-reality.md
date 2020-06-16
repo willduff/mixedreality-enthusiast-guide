@@ -25,7 +25,7 @@ In Mixed Reality Portal, you can:
 
 ## Download Windows Mixed Reality
 
-Windows Mixed Reality is approximately 1GB in size, and your download times will vary depending on your internet connection. If you hit a message that says "We couldn't download the Mixed Reality software", please view [the troubleshooting steps](Common-installation-error-messages.md#we-couldnt-download-the-mixed-reality-software-or-hang-tight-while-we-do-some-downloading).
+Windows Mixed Reality is approximately 1GB in size, and your download times will vary depending on your internet connection. If you hit a message that says "We couldn't download the Mixed Reality software", please view [the troubleshooting steps](installation_errors.md#we-couldnt-download-the-mixed-reality-software-or-hang-tight-while-we-do-some-downloading).
 
 ## Review and Accept Terms and Conditions
 
