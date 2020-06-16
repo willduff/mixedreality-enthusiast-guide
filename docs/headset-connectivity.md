@@ -51,7 +51,7 @@ Note for Windows 10 N users: If your PC is running Windows 10 N, you'll see a "C
 
 * Make sure that you're using a supported USB 3.0 port on your PC:
     * Make sure that your headset's USB cable is plugged in all the way.
-    * Run the [Windows Mixed Reality PC Check](https://aka.ms/pccheckapp) app to make sure your PC's USB 3.0 controller is supported.
+    * Run the [Windows Mixed Reality Portal](install-windows-mixed-reality.md#launch-mixed-reality-portal) to make sure your PC's USB 3.0 controller is supported.
     * Connect your headset to the other USB 3.0 ports on your PC. Some PCs have more than one USB 3.0 controller.
     * Temporarily disconnect all of the USB devices attached to your PC, and only connect your headset.
     * On custom-built PCs, even though a port may be marked as a USB 3.0 port, it may be connected to a USB 2.0 controller. With your headset connected, open Device Manager, locate and single click any of the devices enumerated from your headset, then go to **View > Devices by connection**.
