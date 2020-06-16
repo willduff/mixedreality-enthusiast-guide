@@ -5,4 +5,6 @@ ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, flowchart, black screen, display, display cable
 ---
 
+# Windows Mixed Reality Headset Display Flowchart
+
 !(images/Flowchart_BlackscreenV2.png)
