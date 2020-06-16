@@ -57,7 +57,7 @@ This is a critical battery indicator. Put fresh batteries in the device, and if 
 
 ## I'm trying to pair my controllers, but they never show up in the "Add a new device menu" in Bluetooth Settings.
 
-Check that you do not have controllers paired already, remove them, and try again. If problem persists restart the PC and try again. If that fails, see more [information about Bluetooth](motion-controller-problems.md#how-can-i-tell-if-im-using-bluetooth-technology) section.
+Check that you do not have controllers paired already, remove them, and try again. If problem persists restart the PC and try again. If that fails, see more [information about Bluetooth](motion-controller-problems.md#how-can-i-tell-if-im-using-bluetooth-technology).
 
 ## Wi-Fi slows down on my notebook when motion controllers are turned on.
 
