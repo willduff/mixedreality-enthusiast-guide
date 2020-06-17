@@ -47,7 +47,7 @@ Note for Surface users: Earlier versions of the Surface Dock and Surface Book US
 
 Note for Windows 10 N users: If your PC is running Windows 10 N, you'll see a "Code 28: The install class is not present or is invalid" error in Device Manager after plugging in your Mixed Reality headset. N editions of Windows 10 are not supported by Windows Mixed Reality. Follow these [instructions](headset-display.md#im-getting-a-the-install-class-is-not-present-or-is-invalid-error-in-device-manager) for more information.
 
-You can also consult [this flowchart](headset-connectivity-flowchart.md) for a different view of troubleshooting proceedures. 
+This information is also displayed in a [troubleshooting flowchart](headset-connectivity-flowchart.md). 
 
 ## A message says "Check your USB cable" or "Insufficient USB speed".
 
