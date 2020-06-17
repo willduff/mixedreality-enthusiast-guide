@@ -5,6 +5,6 @@ ms.topic: article
 keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, flowchart, black screen, display, connectivity
 ---
 
-# Windows Mixed Reality Headset Connectivity Flowchart
+# Resolving Windows Mixed Reality Headset Connectivity Problems
 
 <img src="images/Flowchart_HMDConnectiivityV2.png" width="800">
