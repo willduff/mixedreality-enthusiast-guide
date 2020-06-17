@@ -7,4 +7,4 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, flowcha
 
 # Windows Mixed Reality Headset Display Flowchart
 
-!(images/Flowchart_BlackscreenV2.png)
+!<img src="images/Flowchart_BlackscreenV2.png" width="800">
