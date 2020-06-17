@@ -30,7 +30,7 @@ Unless you purchased a Samsung HMD Odyssey headset (which has integrated AKG hea
 
 ## See also
 
-* [Troubleshooting headset connectivity](headset-connectivity-issues.md)
+* [Troubleshooting headset connectivity](headset-connectivity.md)
 * [Install Windows Mixed Reality](install-windows-mixed-reality.md)
 * [Recommended adapters](recommended-adapters-for-windows-mixed-reality-capable-pcs.md)
 * [Minimum PC hardware guidelines](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md)
