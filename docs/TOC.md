@@ -30,7 +30,7 @@
 ### [Performance](performance-questions.md)
 ### [Speech and audio](speech-and-audio.md)
 ### [SteamVR](steamvr-questions.md)
-### [Tracking system](tracking-problems.md)
+### [Tracking system](tracking.md)
 ### [WebVR](webvr-questions.md)
 ### [Other questions](other-questions.md)
 
