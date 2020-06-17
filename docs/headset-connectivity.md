@@ -26,8 +26,6 @@ Windows Mixed Reality headsets do not officially support the use of USB or HDMI 
 * Make sure that you plugged your headset's HDMI cable into an "HDMI out" port on your PC, not an "HDMI in" port.
 * Windows may be unable to detect the display cable connection. Open the Device Manager and see if the headset is listed under "Monitors". If not, select **Action > Scan for hardware changes**. 
 
-You can also consult [this flowchart](headset-connectivity-flowchart.md) for a different view of troubleshooting proceedures. 
-
 ## A message says "Put on your headset" but I have my headset on.
 
 When you put on your headset, Windows Mixed Reality may need a few seconds to reload your space. If this message doesn't go away, make sure the protective sticker has been removed from the proximity sensor, which is on the inside of the headset between the lenses. If this doesn't resolve the problem, contact your headset manufacturer.
@@ -48,6 +46,8 @@ When you put on your headset, Windows Mixed Reality may need a few seconds to re
 Note for Surface users: Earlier versions of the Surface Dock and Surface Book USB Hub firmware update software are incompatible with Mixed Reality headsets. If you get a "Connect your headset" message on a Surface PC, check to see if any devices are reporting a "Code 10: The device cannot start" error in Device Manager. If so, [remove the conflicting driver](https://support.microsoft.com/en-us/help/4032123/kinect-sensor-is-not-recognized-on-a-surface-book). You should only need to do this once.
 
 Note for Windows 10 N users: If your PC is running Windows 10 N, you'll see a "Code 28: The install class is not present or is invalid" error in Device Manager after plugging in your Mixed Reality headset. N editions of Windows 10 are not supported by Windows Mixed Reality. Follow these [instructions](headset-display.md#im-getting-a-the-install-class-is-not-present-or-is-invalid-error-in-device-manager) for more information.
+
+You can also consult [this flowchart](headset-connectivity-flowchart.md) for a different view of troubleshooting proceedures. 
 
 ## A message says "Check your USB cable" or "Insufficient USB speed".
 
