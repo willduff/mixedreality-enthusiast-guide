@@ -26,6 +26,8 @@ Windows Mixed Reality headsets do not officially support the use of USB or HDMI 
 * Make sure that you plugged your headset's HDMI cable into an "HDMI out" port on your PC, not an "HDMI in" port.
 * Windows may be unable to detect the display cable connection. Open the Device Manager and see if the headset is listed under "Monitors". If not, select **Action > Scan for hardware changes**. 
 
+You can also consult [this flowchart](headset-connectivity-flowchart.md) for a different view of troubleshooting proceedures. 
+
 ## A message says "Put on your headset" but I have my headset on.
 
 When you put on your headset, Windows Mixed Reality may need a few seconds to reload your space. If this message doesn't go away, make sure the protective sticker has been removed from the proximity sensor, which is on the inside of the headset between the lenses. If this doesn't resolve the problem, contact your headset manufacturer.
@@ -91,8 +93,4 @@ If the manual install doesn’t work, or you don't find the driver under Other D
 
 Note:  If you have an N edition of Windows, you will need to switch to a regular edition of Windows 10 to use Windows Mixed Reality.
 
-## Troubleshooting flowchart
 
-If you have issues with headset connectivity after initial setup, consult this flowchart for troubleshooting proceedures: 
-
-![Connect your headset/check your USB cable](images/hmd-connectivity2.jpg)
