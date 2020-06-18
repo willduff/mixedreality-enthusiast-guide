@@ -92,7 +92,7 @@ This folder is not accessible in Windows Explorer and can only be modified from 
 
 ## Motion controllers do not appear in SteamVR apps and games.
 
-First, make sure that your controller's batteries are charged. If the batteries are dying, the controllers will not work. 
+First, make sure that your controller's batteries are charged. The controllers will not work if the batteries are dead or dying. 
 
 If you can see your controllers in the Cliff House but not in SteamVR apps and games, the motion controller model driver may not be installed properly. To check that the motion controller model driver is correctly installed:
 1. Turn on both of your controllers. Go to **Settings > Devices > Bluetooth & other devices** and make sure they show up as "Connected". If they do not show up or show up as "Paired", [pair them](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality).
