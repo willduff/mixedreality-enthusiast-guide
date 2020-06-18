@@ -11,7 +11,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, compati
 * A Windows [Mixed Reality head mounted display (HMD)](https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices).
 * A new [Windows Mixed Reality ready PC](https://support.microsoft.com/en-us/help/4039260/windows-10-mixed-reality-pc-hardware-guidelines) or a Windows Mixed Reality compatible PC running Windows 10 Version 1709 or later.   
 * Display, USB, and Bluetooth adapters (if not built into headset or computer)
-* Either motion Controllers, an Xbox controller, or a mouse and keyboard
+* Either motion controllers, an Xbox controller, or a mouse and keyboard
 * Headphones with a microphone (if your HMD doesn't have them built in)
 * An internet connection
 * Make sure your PC has a compatible graphics driver
