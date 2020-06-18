@@ -14,7 +14,6 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, compati
 * Either motion controllers, an Xbox controller, or a mouse and keyboard
 * Headphones with a microphone (if your HMD doesn't have them built in)
 * An internet connection
-* Make sure your PC has a compatible graphics driver
 * A large, open space 
 
 ## Make sure your PC is compatible with Windows Mixed Reality
@@ -46,6 +45,16 @@ To ensure that Windows 10 is up to date on your PC, select the **Start** button,
 
 For more information on how to keep your PC up to date go [here](https://support.microsoft.com/en-us/help/12373/windows-update-faq)
 
+## Make sure you have a compatible graphics driver
+Your PC must have a WDDM 2.2 or later graphics driver in order to complete Mixed Reality setup. If it does not already have a compatible graphics driver, try these sources:
+* Check for the latest critical driver updates using Windows Update (**Start > Windows Settings > Update and Security > Check for Updates**)
+* Check for the latest optional driver updates: 
+    1. Right-click **Start > Device Manager**.
+    2. Expand **Display Adapters**.
+    3. Right-click on the graphics card and choose **Update Driver > Search automatically for updated driver software**.
+* Check the website for the manufacturer (OEM) of your PC.
+* Check the website for the manufacturer of the graphics card in your PC (for example, AMD, Intel, or NVIDIA).
+
 ## Make sure that you have any required adapters
 
 Your Windows Mixed Reality compatible PC may not have the full-sized HDMI and USB 3.0 ports needed to connect your immersive headset. Or you may need a Bluetooth adapter to meet the PC Check requirements.  If that's the case, you'll need adapters to connect your headset and Motion Contollers. You'll find a list of adapter types you may need, and some recommendations on specific adapter models [here](recommended-adapters-for-windows-mixed-reality-capable-pcs.md).
@@ -61,16 +70,6 @@ Unless you purchased a Samsung HMD Odyssey headset (which has integrated AKG hea
 ## Make sure your PC is connected to the internet
 
 Check that your PC is connected to the Internet. You will need to download drivers and some additional software to get Windows Mixed Reality up and running.  If your Wi-Fi network connection is set to metered, change it to unmetered. [Learn more](https://support.microsoft.com/en-us/help/4028458/windows-metered-connections-in-windows-10)
-
-## Make sure you have a compatible graphics driver
-Windows Mixed Reality requires a WDDM 2.2 or later graphics driver in order to complete Mixed Reality setup. If your PC does not already have a compatible graphics driver, try these sources:
-* Check for the latest critical driver updates using Windows Update (**Start > Windows Settings > Update and Security > Check for Updates**)
-* Check for the latest optional driver updates: 
-    1. Right-click **Start > Device Manager**.
-    2. Expand **Display Adapters**.
-    3. Right-click on the graphics card and choose **Update Driver > Search automatically for updated driver software**.
-* Check the website for the manufacturer (OEM) of your PC.
-* Check the website for the manufacturer of the graphics card in your PC (for example, AMD, Intel, or NVIDIA).
 
 ## Make sure that you have a large, open space
 
