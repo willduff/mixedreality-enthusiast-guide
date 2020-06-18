@@ -92,14 +92,15 @@ This folder is not accessible in Windows Explorer and can only be modified from 
 
 ## Motion controllers do not appear in SteamVR apps and games.
 
-If you're able to see your motion controllers in the Cliff House, but not in SteamVR apps and games, the motion controller model driver may not be installed properly. This driver is automatically downloaded and installed through Windows Update, but if you're on a PC that has enterprise policies or if Windows Update is otherwise restricted, you may need to install this manually. To check that the motion controller model driver is correctly installed:
-1. Turn on both of your motion controllers. Go to **Settings > Devices > Bluetooth & other devices** and make sure they show up as "Connected". If they do not show up or show up as "Paired", [pair them](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality).
+First, make sure that your controller's batteries are charged. If the battery is dying, the controllers will not work. 
+
+If you can see your controllers in the Cliff House but not in SteamVR apps and games, the motion controller model driver may not be installed properly. To check that the motion controller model driver is correctly installed:
+1. Turn on both of your controllers. Go to **Settings > Devices > Bluetooth & other devices** and make sure they show up as "Connected". If they do not show up or show up as "Paired", [pair them](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality).
 2. Go to **Device Manager > Bluetooth** and look for "Motion controller - Left" and "Motion controller - Right".
 3. Select either device and then go to **View > Devices by Connection**.
-4.  Depending on whether you paired the controllers to your headset or your PC, they may or may not be visible in the Settings app. If they are visible, there will be two "Bluetooth HID Device" devices, and under each Bluetooth HID Device should be devices named "Motion Controller" (with gray icons) in the same node as the motion controller.
-5. Double click each of the "Motion Controller" devices and go to the "Driver" tab. Confirm that the Driver Version listed corresponds to one of [these motion controller model driver versions](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/mixed-reality-software#mixed-reality-motion-controller-model-driver-release-history).
-
-To manually download and install the motion controller model driver, visit [this page](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/mixed-reality-software#mixed-reality-motion-controller-model-driver-release-history) and look for the driver version corresponding to your version of Windows 10. Installation instructions are available on the download page.
+4. Go to **System settings > Devices > Bluetooth & other devices > Other devices** to see if they are visible. There will be two "Bluetooth HID Device" devices, and under each Bluetooth HID Device should be devices named "Motion Controller" (with gray icons) in the same node as the motion controller.
+5. Double-click each "Motion Controller" device and go to the "Driver" tab. Confirm that the driver version listed corresponds to one of [these versions](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/mixed-reality-software#mixed-reality-motion-controller-model-driver-release-history).
+6. If it does not, run Windows Update, which will automatically download and install the driver. If you're on a PC that has enterprise policies or if Windows Update is otherwise restricted, you may need to install the motion controller model driver manually. To do this, visit [this page](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/mixed-reality-software#mixed-reality-motion-controller-model-driver-release-history) and look for the driver version corresponding to your version of Windows 10. Installation instructions are available on the download page.
 
 ## The controller firmware update takes significantly longer than two minutes.
 
