@@ -55,7 +55,7 @@ Some games and apps use the Xbox controller differently than it's used in mixed 
 
 This is a critical battery indicator. Put fresh batteries in the device, and if the issue persists, [reset the controller to factory settings](motion-controller-problems.md#how-can-i-restore-the-controllers-to-factory-settings).
 
-## I'm trying to pair my controllers, but they never show up in the "Add a new device menu" in Bluetooth Settings.
+## I'm trying to pair my controllers, but they never show up in the "Add a new device menu" in Bluetooth settings.
 
 Check that you do not have controllers paired already, remove them, and try again. If problem persists restart the PC and try again. If that fails, see more [information about Bluetooth](motion-controller-problems.md#how-can-i-tell-if-im-using-bluetooth-technology).
 
