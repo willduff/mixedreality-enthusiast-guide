@@ -40,15 +40,15 @@ If your [motion controllers](https://support.microsoft.com/en-us/help/4040517/wi
 
 ## My controller is on infinite reboot. 
 
-Restore the device to its factory settings by powering on the device while holding down the pairing buttons. See the [device recovery steps](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/motion-controller-problems#how-can-i-restore-the-controllers-to-factory-settings) for more details.  
+Restore the device to its factory settings by powering on the device while holding down the pairing buttons. See the [device recovery steps](motion-controller-problems.md#how-can-i-restore-the-controllers-to-factory-settings) for more details.  
 
 ## My controller keeps buzzing and turning off. 
 
-Replace the batteries if needed. If the problem persists, restore the device to its factory settings by powering on the device while holding down the pairing buttons. See the [device recovery steps](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/motion-controller-problems#how-can-i-restore-the-controllers-to-factory-settings) for more details. 
+Replace the batteries if needed. If the problem persists, restore the device to its factory settings by powering on the device while holding down the pairing buttons. See the [device recovery steps](motion-controller-problems.md#how-can-i-restore-the-controllers-to-factory-settings) for more details. 
 
 ## My motion controllers are not pairing. 
 
-* If the controllers don’t turn on, insert fresh batteries. If this doesn’t fix it, restore the device to its factory settings by powering on the device while holding down the pairing buttons. See the [device recovery steps](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/motion-controller-problems#how-can-i-restore-the-controllers-to-factory-settings) for more details. 
+* If the controllers don’t turn on, insert fresh batteries. If this doesn’t fix it, restore the device to its factory settings by powering on the device while holding down the pairing buttons. See the [device recovery steps](motion-controller-problems.md#how-can-i-restore-the-controllers-to-factory-settings) for more details. 
 * If the controllers turn on, and you are using an external Bluetooth adapter, make sure the adapter is plugged into a USB 2.0 port (which is often, but not always, black), away from other wireless transmitters or USB flash drives. If it still doesn’t work, run the Bluetooth Troubleshooter in Settings > Update & Security > Troubleshoot > Bluetooth. 
 * If you are using a Qualcomm adapter and the PC just crashed, restart the PC. 
 * Try restarting the motion controllers that aren’t pairing, one at a time, then restart the PC. 
