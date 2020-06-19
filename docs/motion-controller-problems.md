@@ -57,7 +57,7 @@ This is a critical battery indicator. Put fresh batteries in the device, and if 
 
 ## I'm trying to pair my controllers, but they never show up in the "Add a new device menu" in Bluetooth Settings.
 
-Check that you do not have controllers paired already, remove them, and try again. If problem persists restart the PC and try again. If that fails, see more [information about Bluetooth](motion-controller-problems.md#how-can-i-tell-if-im-using-bluetooth-technology) section.
+Check that you do not have controllers paired already, remove them, and try again. If problem persists restart the PC and try again. If that fails, see more [information about Bluetooth](motion-controller-problems.md#how-can-i-tell-if-im-using-bluetooth-technology).
 
 ## Wi-Fi slows down on my notebook when motion controllers are turned on.
 
@@ -90,16 +90,17 @@ The Motion Controller calibration cache may be corrupt. To delete the cache, run
 
 This folder is not accessible in Windows Explorer and can only be modified from an Administrator Command Prompt. After you have deleted the folder, restart your PC and reconnect your motion controllers to restore the calibration files.
 
-## Motion controllers do not appear in SteamVR apps and games.
+## My motion controllers do not appear in SteamVR apps and games.
 
-If you're able to see your motion controllers in the Cliff House, but not in SteamVR apps and games, the motion controller model driver may not be installed properly. This driver is automatically downloaded and installed through Windows Update, but if you're on a PC that has enterprise policies or if Windows Update is otherwise restricted, you may need to install this manually. To check that the motion controller model driver is correctly installed:
-1. Turn on both of your motion controllers. Go to **Settings > Devices > Bluetooth & other devices** and make sure they show up as "Connected". If they do not show up or show up as "Paired", [pair them](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality).
-2. Go to **Device Manager > Bluetooth** and look for "Motion controller - Left" and "Motion controller - Right".
-3. Select either device and then go to **View > Devices by Connection**.
-4.  Depending on whether you paired the controllers to your headset or your PC, they may or may not be visible in the Settings app. If they are visible, there will be two "Bluetooth HID Device" devices, and under each Bluetooth HID Device should be devices named "Motion Controller" (with gray icons) in the same node as the motion controller.
-5. Double click each of the "Motion Controller" devices and go to the "Driver" tab. Confirm that the Driver Version listed corresponds to one of [these motion controller model driver versions](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/mixed-reality-software#mixed-reality-motion-controller-model-driver-release-history).
+First, make sure that your controller's batteries are charged. The controllers will not work if the batteries are dead or dying. 
 
-To manually download and install the motion controller model driver, visit [this page](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/mixed-reality-software#mixed-reality-motion-controller-model-driver-release-history) and look for the driver version corresponding to your version of Windows 10. Installation instructions are available on the download page.
+If you can see your controllers in the Cliff House but not in SteamVR apps and games, the motion controller model driver may not be installed properly. To check that the motion controller model driver is correctly installed:
+1. Turn on both controllers. Go to **Settings > Devices > Bluetooth & other devices** and make sure they show up as "Connected". If they do not show up or show up as "Paired", [pair them](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality).
+2. Go to **Device Manager > Bluetooth** and look for "Motion controller".
+3. Select the device and then go to **View > Devices by Connection**.
+4. Go to **System settings > Devices > Bluetooth & other devices > Other devices** to see if they are visible. There will be two "Bluetooth HID Device" devices, and under each Bluetooth HID Device should be devices named "Motion Controller" (with gray icons) in the same node as the motion controller.
+5. Double-click each "Motion Controller" device and go to the "Driver" tab. Confirm that the driver version listed corresponds to one of [these versions](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/mixed-reality-software#mixed-reality-motion-controller-model-driver-release-history).
+6. If it does not, run Windows Update, which will automatically download and install the driver. If you're on a PC that has enterprise policies or if Windows Update is otherwise restricted, you may need to install the motion controller model driver manually. To do this, visit [this page](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/mixed-reality-software#mixed-reality-motion-controller-model-driver-release-history) and look for the driver version corresponding to your version of Windows 10. Installation instructions are available on the download page.
 
 ## The controller firmware update takes significantly longer than two minutes.
 
@@ -154,7 +155,7 @@ Motion controllers should work with other Bluetooth keyboards, mice, and game co
     - hard drives
     - wireless USB receivers like those for keyboards/mice
 Ideally, plug the USB Bluetooth Adapter into the opposite side of the computer as far as possible from these other connectors.
-* If you pair your controllers to a Windows PC, use the Windows Bluetooth driver stack and do not install any third-party Bluetooth driver stacks. 
+* If you pair your controllers to a Windows PC, we recommend that you use the Windows Bluetooth driver stack and do not install any third-party Bluetooth driver stacks. Third-party software may not work correctly.
 * Close the Bluetooth settings window if it's open. Leaving it open in the background means that a lot of extra calls are made to the Bluetooth protocol.
 * Disable "Show notification to connect using Swift Pair" setting under "Bluetooth & other devices" to reduce host radio scanning activity.
 * If you are using an internal Bluetooth card, make sure that you are using an external Bluetooth antenna or you may experience tracking issues. If this doesn’t work, use an external Bluetooth dongle (USB) after disabling the internal Bluetooth.
