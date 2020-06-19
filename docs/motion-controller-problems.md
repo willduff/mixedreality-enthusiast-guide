@@ -29,7 +29,7 @@ If your [motion controllers](https://support.microsoft.com/en-us/help/4040517/wi
 13. Controller lights flash when they are undergoing a firmware update. Wait for the update to complete and the controllers should appear in Mixed Reality.
 14. Make sure your PC is connected to a 5GHz Wi-Fi network. If your laptop is connected to a 2.4GHz Wifi network, it is typically sharing the Bluetooth connection. This may negatively impact either Wifi or Bluetooth performance, depending on the product design. Change the preferred band to 5GHz in the network adapter settings. If your network does not support 5GHz, a Bluetooth dongle can be used instead of the internal Bluetooth capability.
 15. If your Bluetooth settings have motion controllers already paired, Windows won’t discover the new devices until those are removed (if they have been added using a specific dongle, they can be only removed with that dongle).
-16. If your PC has built-in Bluetooth and you’re having connection problems, try using a USB Bluetooth adapter instead. To do this, you’ll need to turn off your built-in Bluetooth radio in Device Manager and then pair your other Bluetooth devices with the new adapter.
+16. If your PC has built-in Bluetooth and you’re having connection problems, try using a USB Bluetooth adapter. To do this, turn off your built-in Bluetooth radio in Device Manager and then pair your other Bluetooth devices with the new adapter.
 
 ## How do I pair new controllers if Windows Mixed Reality is already set up on my PC?
 
