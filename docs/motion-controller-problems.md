@@ -32,6 +32,29 @@ If your [motion controllers](https://support.microsoft.com/en-us/help/4040517/wi
 16. If your Bluetooth settings have motion controllers already paired, Windows won’t discover the new devices until those are removed (if they have been added using a specific dongle, they can be only removed with that dongle).
 17. If your PC has built-in Bluetooth and you’re having connection problems, try using a USB Bluetooth adapter. To do this, turn off your built-in Bluetooth radio in Device Manager and then pair your other Bluetooth devices with the new adapter.
 
+## My controllers jitter, get stuck, or flicker and disappear in mixed reality. 
+
+* If your PC is running on 2.4 GHz wifi, switch to 5 GHz wifi. 
+* If you are using an external Bluetooth adapter, make sure it is plugged into a USB 2.0 port (which is often, but not always, black), away from other wireless transmitters or USB flash drives. 
+* Run the Bluetooth Troubleshooter in **Settings > Update & Security > Troubleshoot > Bluetooth**. 
+
+## My controller is on infinite reboot. 
+
+Restore the device to its factory settings by powering on the device while holding down the pairing buttons. See the [device recovery steps](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/motion-controller-problems#how-can-i-restore-the-controllers-to-factory-settings) for more details.  
+
+## My controller keeps buzzing and turning off. 
+
+Replace the batteries if needed. If the problem persists, restore the device to its factory settings by powering on the device while holding down the pairing buttons. See the [device recovery steps](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/motion-controller-problems#how-can-i-restore-the-controllers-to-factory-settings) for more details. 
+
+## My motion controllers are not pairing. 
+
+* If the controllers don’t turn on, insert fresh batteries. If this doesn’t fix it, restore the device to its factory settings by powering on the device while holding down the pairing buttons. See the [device recovery steps](https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/motion-controller-problems#how-can-i-restore-the-controllers-to-factory-settings) for more details. 
+* If the controllers turn on, and you are using an external Bluetooth adapter, make sure the adapter is plugged into a USB 2.0 port (which is often, but not always, black), away from other wireless transmitters or USB flash drives. If it still doesn’t work, run the Bluetooth Troubleshooter in Settings > Update & Security > Troubleshoot > Bluetooth. 
+* If you are using a Qualcomm adapter and the PC just crashed, restart the PC. 
+* Try restarting the motion controllers that aren’t pairing, one at a time, then restart the PC. 
+* The motion controller cache may be corrupt. To fix this problem, see these steps. 
+* If none of these steps fix the problem, you should contact the manufacturer. 
+
 ## My paired controllers don’t show up in the Mixed Reality Portal. 
 
 * Hold the controllers in front of your headset and restart them by pressing the Windows button for four seconds, then again for two seconds. 
