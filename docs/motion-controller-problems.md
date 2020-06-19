@@ -20,7 +20,7 @@ If your [motion controllers](https://support.microsoft.com/en-us/help/4040517/wi
     * Ready – The controllers are all set.
     * Lost tracking – Mixed Reality Portal can’t find your controllers. Hold them in front of your headset and restart them by pressing the Windows button for four seconds, then again for two seconds.
     * Low battery – Replace the controller batteries.
-7. If you're using an external USB Bluetooth Adapter, make sure it’s plugged into a black USB 2.0 port. It should also be plugged in as far as possible from any other wireless transmitters or USB flash drives, including the USB connector for your headset. 
+7. If you're using an external USB Bluetooth Adapter, make sure it’s plugged into a USB 2.0 port (they are often but not always black). It should also be plugged in as far as possible from any other wireless transmitters or USB flash drives, including the USB connector for your headset. 
 8. To verify that there’s only one Bluetooth radio in the PC, go to **Device Manager > Bluetooth** and look for one adapter. If you are using the desktop PC configuration with built-in radio, check if an external antenna is connected. If there is no external antenna connected, it can cause tracking issues. Or use an external Bluetooth dongle (USB), disable the internal Bluetooth capability, and retry pairing and connecting.
 9. If the Bluetooth settings window is open in the background, many extra calls are made to the Bluetooth protocol. Close it.
 10. Check the virtual battery level on the motion controller by turning the controllers over in mixed reality to see the battery icon. Wait about 15 seconds before reading the level, since the reported level is higher than the actual level immediately after connecting a controller. Replace the batteries if the icon is red. 
@@ -182,7 +182,7 @@ If your PC doesn’t have Bluetooth, one recommended dongle is the [Plugable USB
 
 Motion controllers should work with other Bluetooth keyboards, mice, and game controllers, but the experience will vary depending on the model of keyboard, mouse, or game controller you use. Here are some things you can do to improve performance:
 * If your computer has Bluetooth but you are still having problems with the motion controllers, consider replacing your Bluetooth radio with a Plugable external Bluetooth Adapter plugged into USB. Note that you can only have one Bluetooth radio adapter active at a time. If you plug in an external radio in addition to an existing radio, you need to disable your existing Bluetooth radio in Device Manager (right-click on the adapter and select "Disable Device") and un-pair/re-pair all of your previous Bluetooth devices.
-* If you're using a USB Bluetooth Adapter, connect it to a USB 2.0 port (2.0 ports are black and aren’t labeled "SS"), if available. The port should be physically separated from:
+* If you're using a USB Bluetooth Adapter, connect it to a USB 2.0 port (2.0 ports are often black and aren’t labeled "SS"), if available. The port should be physically separated from:
     - the HMD USB connector
     - flash drives
     - hard drives
