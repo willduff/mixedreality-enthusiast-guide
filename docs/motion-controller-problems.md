@@ -32,6 +32,16 @@ If your [motion controllers](https://support.microsoft.com/en-us/help/4040517/wi
 16. If your Bluetooth settings have motion controllers already paired, Windows won’t discover the new devices until those are removed (if they have been added using a specific dongle, they can be only removed with that dongle).
 17. If your PC has built-in Bluetooth and you’re having connection problems, try using a USB Bluetooth adapter. To do this, turn off your built-in Bluetooth radio in Device Manager and then pair your other Bluetooth devices with the new adapter.
 
+## My paired controllers don’t show up in the Mixed Reality Portal. 
+
+* Hold the controllers in front of your headset and restart them by pressing the Windows button for four seconds, then again for two seconds. 
+* If the controllers are paired to your PC, make sure that they show as connected in **Settings > Bluetooth & other devices**. If the controllers are paired to your headset, make sure that you see "Motion Controller" in the Device Manager under Human Interface Devices. If your controllers are showing correctly in those locations, unpair them and go through the pairing process again. 
+* If the controller LEDs are cycling, turning on one quadrant of lights at a time and then turning them off, they are undergoing a firmware update. Wait for the update to complete and the controllers should appear in Mixed Reality. 
+* If an external Bluetooth adapter is used, make sure the adapter is plugged into a USB 2.0 port (which is often, but not always, black), away from other wireless transmitters or USB 3.0 devices. 
+* If the PC just crashed and a Qualcomm adapter is being used, a reset may not work. To fix this, unplug the power from the back of the computer (or if on a laptop, hold down the power button for 10 seconds) and restart the PC. 
+
+* Run the Bluetooth troubleshooter in **Settings > Update & Security > Troubleshoot > Bluetooth**.  
+
 ## How do I pair new controllers if Windows Mixed Reality is already set up on my PC?
 
 * Insert two AA batteries into each controller. Don’t put the battery cover back on yet.
@@ -184,6 +194,3 @@ The LED constellation ring and haptics indicate the state of the motion controll
 | **Low Battery Level**      | The battery level is low.| There is no LED or vibration indication when battery is low. There is a battery indicator icon on the handle of the controller representation in headset. When battery is low, the indicator icon will show 1/4 full. |
 | **Critical Battery Level** | During power on when battery level is "Critical". "Critical" battery level means there is insufficient power and the controller will turn off automatically.| The controller vibrates three times when you turn it on and then automatically turns off. As you approach this state, the battery indicator icon will display red. |
 
-## Motion controller troubleshooting flowchart
-
-![Troubleshooting Flow Chart for Motion Controllers](images/motion-controllers.jpg)
