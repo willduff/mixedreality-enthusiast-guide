@@ -285,19 +285,19 @@ Technical details listed above are referenced from manufacturer specifications a
 
 ### Will my PC work with Windows Mixed Reality? What are the minimum specs?
 
-**Quick Answer:** You can find the minimum specs [here](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md) or you can download and run the Windows Mixed Reality Portal app from the Windows Store to see if your PC will work with Windows Mixed Reality.
+**Quick Answer:** You can find the minimum specs [here](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md) or you can download and run [Mixed Reality Portal](https://www.microsoft.com/en-us/p/mixed-reality-portal/9ng1h8b3zc7m?activetab=pivot:overviewtab) to see if your PC will work with Windows Mixed Reality.
 
 ### Will Windows Mixed Reality work with my Xbox?
 
-**Quick Answer:** No, Windows Mixed Reality only works with PCs. Download and run the Windows Mixed Reality Portal app from the Windows Store to see if your PC is WMR ready.
+**Quick Answer:** No, Windows Mixed Reality only works with PCs. Download and run [Mixed Reality Portal](https://www.microsoft.com/en-us/p/mixed-reality-portal/9ng1h8b3zc7m?activetab=pivot:overviewtab) to see if your PC is WMR ready.
 
 ### What PCs have been badged for Windows Mixed Reality?
 
-**Quick Answer:** The full list of badged PCs hasn't been published yet, but will be later this year. Download and run the Windows Mixed Reality Portal app from the Windows Store to see if your PC is WMR ready.
+**Quick Answer:** The full list of badged PCs hasn't been published yet, but will be later this year. Download and run [Mixed Reality Portal](https://www.microsoft.com/en-us/p/mixed-reality-portal/9ng1h8b3zc7m?activetab=pivot:overviewtab) to see if your PC is WMR ready.
 
 ### What Windows version supports Windows Mixed Reality?
 
-**Quick Answer:** You must have Windows 10 Fall Creators Update (version 1709) or greater installed. Download and run the Windows Mixed Reality Portal app from the Windows Store to see if your PC is WMR ready.
+**Quick Answer:** You must have Windows 10 Fall Creators Update (version 1709) or greater installed. Download and run [Mixed Reality Portal](https://www.microsoft.com/en-us/p/mixed-reality-portal/9ng1h8b3zc7m?activetab=pivot:overviewtab) to see if your PC is WMR ready.
 
 ### Does the Windows Mixed Reality platform support Rift and Vive hardware?
 
