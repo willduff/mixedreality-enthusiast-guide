@@ -17,20 +17,10 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, compati
 * A large, open space 
 
 ## Make sure your PC is compatible with Windows Mixed Reality
-To see if your PC is Windows Mixed Reality compatible check the [Windows Mixed Reality minimum PC hardware requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md) or run the Windows Mixed Reality PC Check app
+To see if your PC is Windows Mixed Reality compatible check the [Windows Mixed Reality minimum PC hardware requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md) or run the [Windows Mixed Reality Portal](install-windows-mixed-reality.md#launch-mixed-reality-portal) on your PC.
 
-### How do I get the app?
-**Download and run the app:** Launch the Windows Store from your Desktop, search for the **Mixed Reality PC Check App** and click Get to download and install it. You can also [follow this link](https://aka.ms/mrcheck) to launch the correct Store page. On Windows 10 PCs with at least Windows 10 Version 1607 (Anniversary Update), this application can check your hardware and software to determine whether the device can support Windows Mixed Reality in its current state. 
+For more information on PC compatibility issues, go [here](https://support.microsoft.com/en-us/help/4045777/windows-10-get-help-with-pc-compatibility-in-windows-mixed-reality).
 
-![Mixed Reality PC Check App](images/700px-mrpccheck.png)
-
-After the app has installed to run the app. After reading the terms and conditions, press **I agree** to accept.
-
-![PC Compat Check](images/700px-pccompatcheck.png)
-
-**See if your PC is compatible with Windows Mixed Reality:** You should get results that look similar to the image below. If all checks are **green**, you're good to go! **Orange** triangles mean that your mixed reality experience may be sub-optimal. **Red** X's mean that your PC does not meet the minimum requirements to run Windows Mixed Reality. For more information on troubleshooting issues with PC Compatibility go [here](https://support.microsoft.com/en-us/help/4045777/windows-10-get-help-with-pc-compatibility-in-windows-mixed-reality).
-
-![Good to go](images/700px-goodtogo.png)
 
 ## Make sure you have the Windows 10 Version 1709 or newer installed
 
