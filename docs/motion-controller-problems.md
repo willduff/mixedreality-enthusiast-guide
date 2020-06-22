@@ -127,7 +127,7 @@ This folder is not accessible in Windows Explorer and can only be modified from 
 First, make sure that your controller's batteries are charged. The controllers will not work if the batteries are dead or dying. 
 
 If you can see your controllers in the Cliff House but not in SteamVR apps and games, the motion controller model driver may not be installed properly. To check that the motion controller model driver is correctly installed:
-1. Turn on both controllers. Go to **Settings > Devices > Bluetooth & other devices** and make sure they show up as "Connected". If they do not show up or show up as "Paired", [pair them](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality).
+1. Turn on both of your motion controllers. If your controllers are paired to your PC, go to **Settings > Devices > Bluetooth & other devices**, or if your controllers are paired to your headset, go to **Device Manager > Human Interface Devices > Motion Controller**. Make sure they show up as "Connected". If they do not show up or show up as "Paired", [pair them](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality).
 2. Go to **Device Manager > Bluetooth** and look for "Motion controller".
 3. Select the device and then go to **View > Devices by Connection**.
 4. Go to **System settings > Devices > Bluetooth & other devices > Other devices** to see if they are visible. There will be two "Bluetooth HID Device" devices, and under each Bluetooth HID Device should be devices named "Motion Controller" (with gray icons) in the same node as the motion controller.
