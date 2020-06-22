@@ -283,25 +283,21 @@ Technical details listed above are referenced from manufacturer specifications a
 
 ## PC Compatibility
 
-### Will my PC work with Windows Mixed Reality?
+### Will my PC work with Windows Mixed Reality? What are the minimum specs?
 
-**Quick Answer:** The Mixed Reality PC Check app in the Windows Store can tell you if your PC is compatible: <https://aka.ms/mrcheck>
-
-### What are the minimums specs to run Windows Mixed Reality?
-
-**Quick Answer:** You can find the minimum specs [here](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md).
+**Quick Answer:** You can find the minimum specs [here](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md) or you can download and run the Windows Mixed Reality Portal app from the Windows Store to see if your PC will work with Windows Mixed Reality.
 
 ### Will Windows Mixed Reality work with my Xbox?
 
-**Quick Answer:** No, Windows Mixed Reality only works with PCs. See if your PC is WMR ready by running <https://aka.ms/mrcheck>
+**Quick Answer:** No, Windows Mixed Reality only works with PCs. Download and run the Windows Mixed Reality Portal app from the Windows Store to see if your PC is WMR ready.
 
 ### What PCs have been badged for Windows Mixed Reality?
 
-**Quick Answer:** The full list of badged PCs hasn't been published yet, but will be later this year. See if your PC is MR ready by running <https://aka.ms/mrcheck>
+**Quick Answer:** The full list of badged PCs hasn't been published yet, but will be later this year. Download and run the Windows Mixed Reality Portal app from the Windows Store to see if your PC is WMR ready.
 
 ### What Windows version supports Windows Mixed Reality?
 
-**Quick Answer:** You must have Windows 10 Fall Creators Update (version 1709) or greater installed. See if your PC is MR ready by running <https://aka.ms/mrcheck>
+**Quick Answer:** You must have Windows 10 Fall Creators Update (version 1709) or greater installed. Download and run the Windows Mixed Reality Portal app from the Windows Store to see if your PC is WMR ready.
 
 ### Does the Windows Mixed Reality platform support Rift and Vive hardware?
 
@@ -328,7 +324,7 @@ Technical details listed above are referenced from manufacturer specifications a
 
 ### Will the controllers work with Bluetooth 3.1 or do I need Bluetooth 4.0?
 
-**Quick Answer:** The minimum supported specification for Windows Mixed Reality is Bluetooth 4.0. If your PC has Bluetooth 3.1, you won’t be blocked from using the controllers, but the best experience is on BT 4.0. Check your PC's compatability here: <https://aka.ms/pccheckapp>
+**Quick Answer:** The minimum supported specification for Windows Mixed Reality is Bluetooth 4.0. If your PC has Bluetooth 3.1, you won’t be blocked from using the controllers, but the best experience is on BT 4.0. Download and run the Windows Mixed Reality Portal app from the Windows Store to see if your PC is WMR ready.
 
 ### Will Windows Mixed Reality controllers work with HoloLens?
 
