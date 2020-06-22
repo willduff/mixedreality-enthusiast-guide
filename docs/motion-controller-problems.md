@@ -181,7 +181,7 @@ If your PC doesn’t have Bluetooth, one recommended dongle is the [Plugable USB
 ## My PC has Bluetooth technology but I'm having problems with my controllers.
 
 Motion controllers should work with other Bluetooth keyboards, mice, and game controllers, but the experience will vary depending on the model of keyboard, mouse, or game controller you use. Here are some things you can do to improve performance:
-* If your computer has Bluetooth but you are still having problems with the motion controllers, consider replacing your Bluetooth radio with a Plugable external Bluetooth Adapter plugged into USB. Note that you can only have one Bluetooth radio adapter active at a time. If you plug in an external radio in addition to an existing radio, you need to disable your existing Bluetooth radio in Device Manager (right-click on the adapter and select "Disable Device") and un-pair/re-pair all of your previous Bluetooth devices.
+* If your computer has Bluetooth but you are still having problems with the motion controllers, consider replacing your Bluetooth radio with a Plugable external Bluetooth adapter plugged into USB. Note that you can only have one Bluetooth radio adapter active at a time. If you plug in an external radio in addition to an existing radio, you need to disable your existing Bluetooth radio in Device Manager (right-click on the adapter and select "Disable Device") and un-pair/re-pair all of your previous Bluetooth devices.
 * If you're using a USB Bluetooth Adapter, connect it to a USB 2.0 port (2.0 ports are often black and aren’t labeled "SS"), if available. The port should be physically separated from:
     - the HMD USB connector
     - flash drives
