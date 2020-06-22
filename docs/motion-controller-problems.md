@@ -163,8 +163,9 @@ Restore it to factory conditions (you'll need fresh batteries):
 4. Press and hold the pairing button (the tab at the bottom under the batteries).
 5. While holding the pairing button, power on the controller by pressing and holding the Windows button for five seconds (keep both buttons depressed).
 6. Release the buttons and wait for controller to power on. This takes up to 15 seconds and there are no indicators when device recovery is happening. If device powers on immediately on button release, the recovery button sequence did not get registered and you need to try again.
-7. Go to **Settings > Bluetooth > other devices**, and select "Motion controller" and "Remove device") to remove old controller associations from Bluetooth settings. 
-8. Pair the controller with the PC again.
+7. If your controllers are paired to your headset, go to **Device Manager > Human Interface Devices > Motion Controller**. If the controllers are paired to your PC, go to **Settings > Bluetooth > other devices**. 
+8. Select “Motion Controller”, and "Remove device" to remove controller associations from Bluetooth settings. 
+8. Pair the controller with the headset or PC again.
 9. After connecting with the host and headset, the device will update to the latest available firmware.
 
 ## How can I tell if I'm using Bluetooth technology?
