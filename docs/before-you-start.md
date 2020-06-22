@@ -17,7 +17,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, compati
 * A large, open space 
 
 ## Make sure your PC is compatible with Windows Mixed Reality
-To see if your PC is Windows Mixed Reality compatible check the [Windows Mixed Reality minimum PC hardware requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md) or run the [Windows Mixed Reality Portal](install-windows-mixed-reality.md#launch-mixed-reality-portal) on your PC.
+To see if your PC is Windows Mixed Reality compatible, check the [Windows Mixed Reality minimum PC hardware requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md) or run the [Windows Mixed Reality Portal](install-windows-mixed-reality.md#launch-mixed-reality-portal) on your PC.
 
 For more information on PC compatibility issues, go [here](https://support.microsoft.com/en-us/help/4045777/windows-10-get-help-with-pc-compatibility-in-windows-mixed-reality).
 
