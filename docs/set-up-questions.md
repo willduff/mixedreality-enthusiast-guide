@@ -40,7 +40,7 @@ You can re-run the learning experience by following the [re-run steps](learn-mix
 
 Make sure your controllers have full batteries and that they are paired correctly using Bluetooth. Try powering the controllers off and on using the Windows Button. If you still cannot see your controllers, try un-pairing and re-pairing each controller: 
 * If the controllers are paired to the PC,  go to **Devices > Bluetooth > Settings** to unpair and pair your controllers again. 
-* If your headset has a built-in radio, use the companion app that came with the headset to unpair and then pair the controllers again. 
+* If your headset has a built-in radio, use the companion app that came with the headset to unpair and then pair the controllers again  (the Mixed Reality Portal can help you find the correct companion app). 
 
 ## The floor of my Windows Mixed Reality home doesn't appear to be at the correct height, or it is slanted.
 
