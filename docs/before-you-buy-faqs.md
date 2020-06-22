@@ -324,7 +324,7 @@ Technical details listed above are referenced from manufacturer specifications a
 
 ### Will the controllers work with Bluetooth 3.1 or do I need Bluetooth 4.0?
 
-**Quick Answer:** The minimum supported specification for Windows Mixed Reality is Bluetooth 4.0. If your PC has Bluetooth 3.1, you won’t be blocked from using the controllers, but the best experience is on BT 4.0. Download and run the Windows Mixed Reality Portal app from the Windows Store to see if your PC is WMR ready.
+**Quick Answer:** The minimum supported specification for Windows Mixed Reality is Bluetooth 4.0. If your PC has Bluetooth 3.1, you won’t be blocked from using the controllers, but the best experience is on BT 4.0. Download and run [Mixed Reality Portal](https://www.microsoft.com/en-us/p/mixed-reality-portal/9ng1h8b3zc7m?activetab=pivot:overviewtab) to see if your PC is WMR ready.
 
 ### Will Windows Mixed Reality controllers work with HoloLens?
 
