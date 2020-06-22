@@ -72,6 +72,6 @@ If it isn't listed, try the following:
 3. Uninstall and reinstall Windows Mixed Reality:
     1. Disconnect both headset cables from your PC.
     2. Select **Settings  > Mixed reality > Uninstall**.
-    3. Select **Settings  > Devices  > Bluetooth & other devices** to unpair your motion controllers. Select each controller, and "Remove device".
+    3. If your motion controllers are paired to your PC, select **Settings  > Devices  > Bluetooth & other devices** to unpair them. Select each controller, and "Remove device". If your controllers are paired to your headset, you can skip this step.
     4. Plug your headset back into your PC to reinstall Windows Mixed Reality.
 
