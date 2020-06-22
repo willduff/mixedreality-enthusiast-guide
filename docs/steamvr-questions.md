@@ -50,9 +50,9 @@ If SteamVR is still crashing after updating, you may have two installations of W
 ## My controllers aren't working as expected in SteamVR.
 
 1. Close SteamVR.
-2. Return to Windows Mixed Reality home and confirm that your controllers are working as expected.
+2. Return to Windows Mixed Reality home and confirm that your controllers are working.
 3. Launch the SteamVR experience again and your controllers should be back to normal.
-4. If issues persist please file feedback using the [Windows Feedback Hub](https://support.microsoft.com/en-us/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app) under the Mixed Reality category and include SteamVR in the summary.
+4. If issues persist, file feedback using the [Windows Feedback Hub](https://support.microsoft.com/en-us/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app) under the Mixed Reality category and include SteamVR in the summary.
 
 Note that you'll use your motion controllers differently in different games. Here are a few basics to help you get started:
 * To open the Steam dashboard, press straight down on the left thumbstick.
