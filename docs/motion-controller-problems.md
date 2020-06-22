@@ -52,7 +52,7 @@ Replace the batteries if needed. If the problem persists, restore the device to 
 * If the controllers turn on, and you are using an external Bluetooth adapter, make sure the adapter is plugged into a USB 2.0 port (which is often, but not always, black), away from other wireless transmitters or USB flash drives. If it still doesn’t work, run the Bluetooth Troubleshooter in Settings > Update & Security > Troubleshoot > Bluetooth. 
 * If you are using a Qualcomm adapter and the PC just crashed, restart the PC. 
 * Try restarting the motion controllers that aren’t pairing, one at a time, then restart the PC. 
-* The motion controller cache may be corrupt. To fix this problem, see these [steps](motion-controller-problems.md#motion-controller-leds-are-not-lit-but-the-buttons-and-thumbstick-still-work-in-mixed-reality-portals). 
+* The motion controller cache may be corrupt. To fix this problem, see these [steps](motion-controller-problems.md#motion-controller-leds-are-not-lit-but-the-buttons-and-thumbstick-still-work-in-mixed-reality-portal). 
 * If none of these steps fix the problem, you should contact the manufacturer. 
 
 ## My paired controllers don’t show up in the Mixed Reality Portal. 
