@@ -67,11 +67,10 @@ Replace the batteries if needed. If the problem persists, restore the device to 
 
 ## How do I pair new controllers if Windows Mixed Reality is already set up on my PC?
 
-* Insert two AA batteries into each controller. Don’t put the battery cover back on yet.
-* Press and hold the Windows button for two seconds to turn on each controller. They’ll buzz when they turn on.
-* Put the controllers in pairing mode. The pairing button is inside the battery compartment (see this [image](set-up-windows-mixed-reality.md#pair-your-motion-controllers-with-your-pc)). Press and hold it until the controller lights start flashing.
-* On your PC, go to **Settings > Devices > Bluetooth & other devices**, then to **Add Bluetooth or other device > Bluetooth**.
-When the controllers appear, select them to pair.
+1. Insert two AA batteries into each controller. Don’t put the battery cover back on yet.
+2. Press and hold the Windows button for two seconds to turn on each controller. They’ll buzz when they turn on.
+3. Put the controllers in pairing mode. The pairing button is inside the battery compartment (see this [image](set-up-windows-mixed-reality.md#pair-your-motion-controllers-with-your-pc)). Press and hold it until the controller lights start flashing.
+4. If you are pairing your controllers to the PC, go to **Settings > Devices > Bluetooth & other devices**, then to **Add Bluetooth or other device > Bluetooth**. When the controllers appear, select them to pair. If you are pairing your controllers to your headset, use the companion app (the Mixed Reality Portal can help you find a companion app to launch or give you a list of companion apps that you can select from).
 
 Note: If another set of motion controllers is paired with your PC, you'll need to unpair those controllers before pairing new ones.
 If you paired a set of motion controllers with your current PC and then paired them with a second PC, you'll need to unpair and re-pair them with the current PC before using them again.
