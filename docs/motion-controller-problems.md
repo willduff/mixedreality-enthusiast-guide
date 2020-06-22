@@ -182,12 +182,12 @@ If your PC doesn’t have Bluetooth, one recommended dongle is the [Plugable USB
 
 Motion controllers should work with other Bluetooth keyboards, mice, and game controllers, but the experience will vary depending on the model of keyboard, mouse, or game controller you use. Here are some things you can do to improve performance:
 * If your computer has Bluetooth but you are still having problems with the motion controllers, consider replacing your Bluetooth radio with a Plugable external Bluetooth adapter plugged into USB. Note that you can only have one Bluetooth radio adapter active at a time. If you plug in an external radio in addition to an existing radio, you need to disable your existing Bluetooth radio in Device Manager (right-click on the adapter and select "Disable Device") and un-pair/re-pair all of your previous Bluetooth devices.
-* If you're using a USB Bluetooth Adapter, connect it to a USB 2.0 port (2.0 ports are often black and aren’t labeled "SS"), if available. The port should be physically separated from:
+* If you're using a USB Bluetooth adapter, connect it to a USB 2.0 port (2.0 ports are often black and aren’t labeled "SS"), if available. The port should be physically separated from:
     - the HMD USB connector
     - flash drives
     - hard drives
     - wireless USB receivers like those for keyboards/mice
-Ideally, plug the USB Bluetooth Adapter into the opposite side of the computer as far as possible from these other connectors.
+Ideally, plug the USB Bluetooth adapter into the opposite side of the computer as far as possible from these other connectors.
 * If you pair your controllers to a Windows PC, we recommend that you use the Windows Bluetooth driver stack and do not install any third-party Bluetooth driver stacks. Third-party software may not work correctly.
 * Close the Bluetooth settings window if it's open. Leaving it open in the background means that a lot of extra calls are made to the Bluetooth protocol.
 * Disable "Show notification to connect using Swift Pair" setting under "Bluetooth & other devices" to reduce host radio scanning activity.
