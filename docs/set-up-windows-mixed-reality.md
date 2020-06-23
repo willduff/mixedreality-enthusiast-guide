@@ -21,7 +21,7 @@ If you are only planning to use an Xbox gamepad or keyboard and mouse, you donâ€
 
 ### If you need to pair your motion controllers with your PC
 
-Power on controllers by pressing the Windows button for 2 seconds until LEDs light up.
+Power on the controllers by pressing the Windows button for 2 seconds until LEDs light up.
 
 Remove the battery cover from your controllers and find the small pairing button at the edge of the controller. Per the instructions in Mixed Reality Portal, hold this button down to pair with your PC
 
