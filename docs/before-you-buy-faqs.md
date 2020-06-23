@@ -372,13 +372,11 @@ Technical details listed above are referenced from manufacturer specifications a
 
 ### What games and apps run on Windows Mixed Reality?
 
-**Quick Answer:** Check here to view a selection of games and apps: <https://www.microsoft.com/en-US/store/collections/MR-All-ImmersiveContent/pc?rtc=1>. Consumers will also get SteamVR preview by this holiday.
-
-**More details:** The following Windows Mixed Reality games and apps are coming to the Microsoft Store: Obduction, Dreams of Dali, Space Pirate Trainer, Superhot, Arizona Sunshine, Luna, Skyworld, Move, Free the Night, Minecraft, and Fantastic Contraption (with more on the way). Beginning October 3, 2017, some developers will be provided access to the Windows Mixed Reality SteamVR preview, allowing them to play SteamVR content with Windows Mixed Reality headsets and motion controllers. This holiday, consumers will get access to the preview as well. For more details, see <https://blogs.windows.com/windowsexperience/2017/10/03/the-era-of-windows-mixed-reality-begins-october-17>
+**Quick Answer:** Windows Mixed Reality is compatible with the SteamVR library and with content available in the [Microsoft store](https://www.microsoft.com/en-us/store/collections/MR-All-ImmersiveContent/pc?rtc=2). Look for the Windows Mixed Reality logo on Steam for game compatibility.  
 
 ### Will Vive be able to run Windows Mixed Reality content?
 
-**Not so Quick Answer:** The Vive will not be able to run Windows Mixed Reality apps that come from the Microsoft Store. However, SteamVR apps will run on Windows Mixed Reality headsets. Beginning October 3, 2017, some developers will be provided access to the Windows Mixed Reality SteamVR preview, allowing them to play SteamVR content with Windows Mixed Reality headsets and motion controllers. This holiday, consumers will get access to the preview as well. For more details, see <https://blogs.windows.com/windowsexperience/2017/10/03/the-era-of-windows-mixed-reality-begins-october-17>
+**Quick Answer:** Vive headsets are not compatible with Windows Mixed Reality.
 
 ### Can I play my Xbox One games in Windows Mixed Reality?
 
