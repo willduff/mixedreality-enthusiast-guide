@@ -69,7 +69,7 @@ Replace the batteries if needed. If the problem persists, restore the device to 
 
 1. Insert two AA batteries into each controller. Don’t put the battery cover back on yet.
 2. Press and hold the Windows button for two seconds to turn on each controller. They’ll buzz when they turn on.
-3. Put the controllers in pairing mode. The pairing button is inside the battery compartment (see this [image](set-up-windows-mixed-reality.md#pair-your-motion-controllers-with-your-pc)). Press and hold it until the controller lights start flashing.
+3. Put the controllers in pairing mode. The pairing button is inside the battery compartment (see this [image](set-up-windows-mixed-reality.md#if-you-need-to-pair-your-motion-controllers-with-your-pc)). Press and hold it until the controller lights start flashing.
 4. If you are pairing your controllers to the PC, go to **Settings > Devices > Bluetooth & other devices**, then to **Add Bluetooth or other device > Bluetooth**. When the controllers appear, select them to pair. If you are pairing your controllers to your headset, use the companion app (the Mixed Reality Portal can help you find a companion app to launch or give you a list of companion apps that you can select from).
 
 Note: If another set of motion controllers is paired with your PC, you'll need to unpair those controllers before pairing new ones.
@@ -164,7 +164,7 @@ Restore it to factory conditions (you'll need fresh batteries):
 5. While holding the pairing button, power on the controller by pressing and holding the Windows button for five seconds (keep both buttons depressed).
 6. Release the buttons and wait for controller to power on. This takes up to 15 seconds and there are no indicators when device recovery is happening. If device powers on immediately on button release, the recovery button sequence did not get registered and you need to try again.
 7. If the controllers were paired to your PC, go to **Settings > Bluetooth > other devices** and select “Motion Controller”, and "Remove device" to remove controller associations from Bluetooth settings. 
-8. [Pair the controllers](set-up-windows-mixed-reality.md#pair-your-motion-controllers-with-your-pc) with the headset or PC again.
+8. [Pair the controllers](set-up-windows-mixed-reality.md#if-you-need-to-pair-your-motion-controllers-with-your-pc) with the headset or PC again.
 9. After connecting with the host and headset, the device will update to the latest available firmware.
 
 ## How can I tell if I'm using Bluetooth technology?
