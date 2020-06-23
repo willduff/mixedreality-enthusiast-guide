@@ -11,7 +11,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, get sta
 ## Get familiar with your motion controllers
 If your headset has a built-in radio, the controllers that come with your headset are paired to it in the factory. When you first turn on your new controllers and headset, they will already be paired.
 
-If you have a headset without a built-in radio, you will have to set up your motion controllers (most headsets manufactured after 2018 have built-in radio).
+If you have a headset without a built-in radio, you will have to set up your motion controllers by pairing them to your PC (most headsets manufactured after 2018 have built-in radio). See [Pair your motion controllers with your PC](set-up-windows-mixed-reality.md#pair-your-motion-controllers-with-your-pc).
 
 If you are only planning to use an Xbox gamepad or keyboard and mouse, you don’t need to pair your controllers.  If you ever plan to use controllers, you should probably pair them.
 
@@ -26,8 +26,6 @@ Power on controllers by pressing the Windows button for 2 seconds until LEDs lig
 Remove the battery cover from your controllers and find the small pairing button at the edge of the controller. Per the instructions in Mixed Reality Portal, hold this button down to pair with your PC
 
 ![Motion controller pairing](images/1050px-controllers3.png)
-
-### Pairing successful
 
 Once your controllers are paired successfully, you will see two green checkmarks for the left and right controllers
 
