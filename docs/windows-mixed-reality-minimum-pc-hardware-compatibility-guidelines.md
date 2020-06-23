@@ -31,7 +31,8 @@ After running the app, you'll get one of the following messages:
 * **Can't run mixed reality.** This PC doesn't meet the minimum requirements needed to run Windows Mixed Reality.
 
 You will then get an analysis of your PC against the required hardware, drivers, and operating system.
- 
+![Screenshot of Windows Mixed Reality PC Check](images/screenshot-mr-pc-check.jpg) 
+
 <table>
 <tr>
 <th>Icon</th><th>What it means</th>
