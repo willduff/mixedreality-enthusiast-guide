@@ -27,25 +27,25 @@ Remove the battery cover from your controllers and find the small pairing button
 
 ![Motion controller pairing](images/1050px-controllers3.png)
 
-Once your controllers are paired successfully, you will see two green checkmarks for the left and right controllers
+You will see two green checkmarks for the left and right controllers once they are paired successfully.
 
 ![Motion controller pairing successful](images/1050px-controllersconnected.png)
 
-You may see a message in the bottom right hand corner of your screen as the firmware on your controllers get updated. While this is happening, you can advance to the next step in the tutorial, but please don't turn off your controllers.
+You may see a message in the bottom right hand corner of your screen as the firmware on your controllers get updated. While this is happening, you can advance to the next step in the tutorial, but don't turn off your controllers.
 
 Once controller firmware update is complete it will restart and re-connect to host PC. LEDs will be solid on and bright.
 
 ### Common issues
-* Verify you have one and only one Bluetooth radio active on your PC. If you have more than one Bluetooth radio, you’ll need to disable the other radios in Device Manager.
+* Verify that you have only one Bluetooth radio active on your PC. If you have more than one Bluetooth radio, you’ll need to disable the other radios in Device Manager.
 * Place your Bluetooth dongle in a port that has a clear line of sight to your controllers, and far from plugged in USB 3.0 devices. USB 3.0 is known to have RF interference with Bluetooth (read [this paper](https://www.intel.com/content/dam/www/public/us/en/documents/white-papers/usb3-frequency-interference-paper.pdf) from Intel for more details). USB 2.0 ports may work better for your Bluetooth dongle.
-* Make sure your Bluetooth dongle is not plugged into a USB port adjacent to your HMD's USB cable. The HMD's cable has been known to cause interference with Bluetooth dongles as well. Plug the dongle into the front USB port on your PC for best results.
-* For notebook ensure WiFi is connected to 5GHz band for best experience (click wireless network icon bottom right tray, select properties for the network you are connected). Notebooks that are designed to share a 2.4GHz antenna for Bluetooth and WiFi connectivity are most likely to see data congestion in the form of slow network speeds or poor tracking performance for motion controllers
-* Your motion controllers will receive new software updates from Microsoft on a regular basis. The controllers will show an alternating pattern of flashing lights when they receive these new software updates. This is normal. You will want to wait until the controllers complete the software upgrade, indicated by a vibration and the replacement of the alternating flash pattern with a constant light emitted from the controllers, in order to use the controllers
-* You may be told to "Put on the headset and use the thumbstick to teleport" before the controllers finish the update process. The controllers will not be visible or usable until the update is completed. Most updates occur within 2mins, but it's possible the occasional update is as long as ~10mins. Please wait for the update to complete to proceed to the next step
+* Make sure your Bluetooth dongle is not plugged into a USB port adjacent to your HMD's USB cable. The headset cable has been known to cause interference with Bluetooth dongles as well. Plug the dongle into the front USB port on your PC for best results.
+* For notebooks, ensure WiFi is connected to 5GHz band for the best experience (select the wireless network icon bottom right tray, and select properties for the network you are using). Notebooks that are designed to share a 2.4GHz antenna for Bluetooth and WiFi connectivity are most likely to see data congestion in the form of slow network speeds or poor tracking performance for motion controllers.
+* Your motion controllers will receive new software updates from Microsoft on a regular basis. The controllers will show an alternating pattern of flashing lights when they receive these new software updates. This is normal. Wait until the software upgrade is complete before using the controllers (the controllers will vibrate and a constant light will replace the alternating flash pattern when it is done).
+* You may be told to "Put on the headset and use the thumbstick to teleport" before the controllers finish the update process. The controllers will not be visible or usable until the update is completed. Most updates occur within two minutes, but updates can take as long as 10 minutes or so. Wait for the update to complete before proceeding to the next step.
 
 ## Set up your room boundary
 
-The next step is to choose a room scale or desk scale experience:
+Choose a room scale or desk scale experience:
 
 **Option 1: Set me up for all experiences (also known as room scale)** will allow you to walk around the room and is the most immersive mixed reality experience. We recommend you at clear at least 5 foot x 7 foot (1.5 meters x 2 meters) of space for mixed reality.
 
