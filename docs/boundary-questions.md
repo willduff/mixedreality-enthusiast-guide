@@ -18,7 +18,7 @@ The area inside the boundary should be free of furniture, low-hanging light fixt
 When you first set up your headset, the setup app (Mixed Reality Portal) will take you through the steps to create a boundary. But you to create one at any time:
 1. Select **Start > Mixed Reality Portal** on your desktop. 
 2. Open "Menu".
-3. Select "Run setup" to create a new boundary.
+3. Select "Setup up room boundary" to create a new boundary.
 
 If someone else uses your headset, make sure they understand the boundary and how to use it. If you move your headset to a new location, you'll need to set up a new boundary that works for that space.
 
@@ -49,14 +49,14 @@ Windows Mixed Reality might have trouble identifying your existing boundary. You
 You must create a new boundary. To do this:
 1. Select **Start > Mixed Reality Portal**.
 2. Open "Menu".
-3. Select "Run setup".
+3. Select "Setup up room boundary".
 
 ## The boundary is always visible. How can I make it go away?
 
 The boundary appears when you are close to it. If your boundary includes any sections that have a narrow or irregular shape, you might end up getting close to it, and causing it to appear, more often than you’d like. To fix this, try creating your boundary again using a larger and more regular shape. To do this:
 1. Select **Start > Mixed Reality Portal**.
 2. Open "Menu".
-3. Select "Run setup".
+3. Select "Setup up room boundary".
 
 ## Can I turn off the boundary temporarily?
 
