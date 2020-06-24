@@ -42,9 +42,9 @@ Make sure your controllers have full batteries and that they are paired correctl
 * If the controllers are paired to the PC,  go to **Devices > Bluetooth > Settings** to unpair and pair your controllers again. 
 * If your headset has a built-in radio, use the companion app that came with the headset to unpair and then pair the controllers again  (the Mixed Reality Portal can help you find the correct companion app). 
 
-## The floor of my Windows Mixed Reality home doesn't appear to be at the correct height, or it is slanted.
+## The floor of my Windows Mixed Reality home doesn't appear to be at the correct height.
 
-Select **Start > Room Adjustment**, which will launch once you place the app in the world, to make changes while wearing your headset. In this app, you will be directed to use the touch pad (motion controller) or direction pad (gamepad) to adjust the floor height. When the floor feels correct, use the Windows button to return to your home.
+Select **Start > Floor Adjustment**, which will launch once you place the app in the world, to make changes while wearing your headset. In this app, you will be directed to use the touch pad (motion controller) or direction pad (gamepad) to adjust the floor height. When the floor feels correct, use the Windows button to return to your home.
 
 ## My headset has stopped tracking.
 
