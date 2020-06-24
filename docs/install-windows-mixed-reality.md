@@ -35,7 +35,7 @@ To continue with setup you must have 2GB of free space on your PC. Review and pr
 
 ## Compatibility check
 
-Next up is the compatible check. MRP will check to confirm that your PC is compatible with mixed reality. **Green** checks mean your PC passed the required item! **Orange** triangles mean that there may be issues with your PC for the given requirement. If you encounter issues, you may need to troubleshoot or upgrade your PC. **Red** X's mean your PC does not meet the requirements for the specified item.
+Next up is the compatible check. Mixed Reality Portal will check to confirm that your PC is compatible with mixed reality. **Green** checks mean your PC passed the required item! **Orange** triangles mean that there may be issues with your PC for the given requirement. If you encounter issues, you may need to troubleshoot or upgrade your PC. **Red** X's mean your PC does not meet the requirements for the specified item.
 
 ![Compat check](images/1050px-compatcheck.png)
 
