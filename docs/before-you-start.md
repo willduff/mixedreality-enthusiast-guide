@@ -62,10 +62,10 @@ Unless you purchased a Samsung HMD Odyssey headset (which has integrated AKG hea
 
 ## Make sure that you have a large, open space
 
-If you want to move around while using Windows Mixed Reality you'll need to have a large, open space.  During setup you will be asked to choose between "Seated and standing," or "All experiences" and you'll want to chose  "All experiences" and set up a boundary if you want to move around.   
+If you want to move around while using Windows Mixed Reality you'll need to have a large, open space.  During setup you will be asked to choose between "Seated and standing" or "All experiences". Chose "All experiences" and set up a boundary if you want to move around.   
 
 ### Seated and standing (no boundary)
-If you select "Seated and standing", you'll be using your headset without a boundary. This means you'll need to stay in one spot when using the headset, so that you can avoid physical obstacles and tripping hazards. You can sit down or stand up, but you shouldn't move around. Some apps might be designed to work with a boundary, so you might not be able to use them, or might not have the same experience, if you use them without a boundary.
+If you select "Seated and standing," you'll be using your headset without a boundary. This means you'll need to stay in one spot when using the headset, so that you can avoid physical obstacles and tripping hazards. You can sit down or stand up, but you shouldn't move around. Some apps might be designed to work with a boundary, so you might not be able to use them, or might not have the same experience, if you use them without a boundary.
 
 ### All experiences (boundary)
 If you choose "All experiences," you'll set up a boundary, and you will be able to move around and use apps and experiences that work with a boundary as well as those that don't require one. You'll need to prepare your space to make sure there are no obstacles, hazards, or fragile items in the area you’ll be using (including above your head). Don’t set up at the top of a staircase or under an extra-low ceiling fan. Remove breakables and obstacles from the area, and make sure that you and anyone who uses your headset reads and understands the [safety guidelines](https://support.microsoft.com/en-us/help/4039969/windows-10-mixed-reality-immersive-headset-health-safety-comfort).
