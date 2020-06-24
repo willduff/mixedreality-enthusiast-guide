@@ -10,17 +10,16 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, compati
 ## What you'll need to run Windows Mixed Reality
 * A Windows [Mixed Reality head mounted display (HMD)](https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices).
 * A new [Windows Mixed Reality ready PC](https://support.microsoft.com/en-us/help/4039260/windows-10-mixed-reality-pc-hardware-guidelines) or a Windows Mixed Reality compatible PC running Windows 10 Version 1709 or later.   
+* An internet connection
 * Display, USB, and Bluetooth adapters (if not built into headset or computer)
 * Either motion controllers, an Xbox controller, or a mouse and keyboard
 * Headphones with a microphone (if your HMD doesn't have them built in)
-* An internet connection
 * A large, open space 
 
 ## Make sure your PC is compatible with Windows Mixed Reality
 To see if your PC is Windows Mixed Reality compatible, check the [Windows Mixed Reality minimum PC hardware requirements](windows-mixed-reality-minimum-pc-hardware-compatibility-guidelines.md) or run the [Windows Mixed Reality Portal](install-windows-mixed-reality.md#launch-mixed-reality-portal) on your PC.
 
 For more information on PC compatibility issues, go [here](https://support.microsoft.com/en-us/help/4045777/windows-10-get-help-with-pc-compatibility-in-windows-mixed-reality).
-
 
 ## Make sure you have the Windows 10 Version 1709 or newer installed
 
@@ -35,6 +34,10 @@ To ensure that Windows 10 is up to date on your PC, select the **Start** button,
 
 For more information on how to keep your PC up to date go [here](https://support.microsoft.com/en-us/help/12373/windows-update-faq)
 
+## Make sure your PC is connected to the internet
+
+Check that your PC is connected to the Internet. You will need to download drivers and some additional software to get Windows Mixed Reality up and running.  If your Wi-Fi network connection is set to metered, change it to unmetered. [Learn more](https://support.microsoft.com/en-us/help/4028458/windows-metered-connections-in-windows-10).
+
 ## Make sure you have a compatible graphics driver
 Your PC must have a WDDM 2.2 or later graphics driver in order to complete Mixed Reality setup. If it does not already have a compatible graphics driver, try these sources:
 * Check for the latest critical driver updates using Windows Update (**Start > Windows Settings > Update and Security > Check for Updates**)
@@ -47,7 +50,7 @@ Your PC must have a WDDM 2.2 or later graphics driver in order to complete Mixed
 
 ## Make sure that you have any required adapters
 
-Your Windows Mixed Reality compatible PC may not have the full-sized HDMI and USB 3.0 ports needed to connect your immersive headset. Or you may need a Bluetooth adapter to meet the PC Check requirements.  If that's the case, you'll need adapters to connect your headset and Motion Contollers. You'll find a list of adapter types you may need, and some recommendations on specific adapter models [here](recommended-adapters-for-windows-mixed-reality-capable-pcs.md).
+Your Windows Mixed Reality compatible PC may not have the full-sized HDMI and USB 3.0 ports needed to connect your immersive headset. Or you may need a Bluetooth adapter to meet the Mixed Reality Portal requirements.  If that's the case, you'll need adapters to connect your headset and Motion Contollers. You'll find a list of adapter types you may need, and some recommendations on specific adapter models [here](recommended-adapters-for-windows-mixed-reality-capable-pcs.md).
 
 ## Make sure that you have input devices
 
@@ -56,10 +59,6 @@ Windows Mixed Reality is designed to work best with Windows Mixed Reality Motion
 ## Get headphones if your headset didn't come with them
 
 Unless you purchased a Samsung HMD Odyssey headset (which has integrated AKG headphones and an integrated dual-array microphone), you will need to get an audio headset a pair of headphones that can plug into your HMD’s headset's 3.5mm audio jack.
-
-## Make sure your PC is connected to the internet
-
-Check that your PC is connected to the Internet. You will need to download drivers and some additional software to get Windows Mixed Reality up and running.  If your Wi-Fi network connection is set to metered, change it to unmetered. [Learn more](https://support.microsoft.com/en-us/help/4028458/windows-metered-connections-in-windows-10)
 
 ## Make sure that you have a large, open space
 
