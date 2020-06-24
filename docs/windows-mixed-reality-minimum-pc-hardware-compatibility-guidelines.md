@@ -45,7 +45,7 @@ You will then get an analysis of your PC against the required hardware, drivers,
 </tr>
 </table>
 
- [Get help with Mixed Reality Portal's PC Check results](https://support.microsoft.com/en-us/help/4045777/windows-10-get-help-with-pc-compatibility-in-windows-mixed-reality)
+ [Get help with Mixed Reality Portal results](https://support.microsoft.com/en-us/help/4045777/windows-10-get-help-with-pc-compatibility-in-windows-mixed-reality)
 
 ## Compatibility guidelines
 > [!IMPORTANT]

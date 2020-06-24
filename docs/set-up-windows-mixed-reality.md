@@ -8,26 +8,24 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, get sta
 
 # Set up Windows Mixed Reality
 
-## Set up your motion controllers
-The first step is to set up your Motion Controllers. If you plan to use an Xbox gamepad or keyboard and mouse you can skip this step. 
+## Get familiar with your motion controllers
+If your headset has a built-in radio, the controllers that come with your headset are paired to it in the factory. When you first turn on your new controllers and headset, they will already be paired.
 
-**Note**: Windows Mixed Reality motion controllers require Bluetooth 4.0. If your PC does not have built-in Bluetooth, you will need to plug in a USB Bluetooth adapter that supports Bluetooth 4.0 to enable your motion controllers.
+If you have a headset without a built-in radio, you will have to set up your motion controllers by pairing them to your PC (most headsets manufactured after 2018 have built-in radio). 
 
-![Motion controllers](images/1050px-controllers.png)
+If you are only planning to use an Xbox gamepad or keyboard and mouse, you don’t need to pair your controllers.  If you ever plan to use controllers, you should probably pair them.
 
-### Get familiar with your motion controllers
+**Note**: Windows Mixed Reality motion controllers require Bluetooth 4.0. If your PC doesn't have built-in Bluetooth, you will need to plug in a USB Bluetooth adapter that supports Bluetooth 4.0 to enable your motion controllers. If you are using the built-in radio in your headset you don’t need a Bluetooth adapter.
 
 ![Get familiar with your motion controllers](images/1050px-controllers2.png)
 
-### Pair your motion controllers with your PC
+### If you need to pair your motion controllers with your PC
 
-Power on controllers by pressing the Windows button for 2 seconds until LEDs light up.
+Power on the controllers by pressing the Windows button for 2 seconds until LEDs light up.
 
 Remove the battery cover from your controllers and find the small pairing button at the edge of the controller. Per the instructions in Mixed Reality Portal, hold this button down to pair with your PC
 
 ![Motion controller pairing](images/1050px-controllers3.png)
-
-### Pairing successful
 
 Once your controllers are paired successfully, you will see two green checkmarks for the left and right controllers
 

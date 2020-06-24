@@ -14,11 +14,11 @@ Search for and run "dxdiag":
     * Go to **Device Manager > Action > Scan for Hardware Changes**.
     * Use Windows Update to update the driver.
     * If this doesn't fix the problem, go to the manufacturer’s website and install the latest driver update. 
-    * If an update isn't available for your GPU, WMR may not be supported on your device. If you think it should be, contact support.
+    * If an update isn't available for your GPU, WMR may not be supported on your device. If you think it should be, contact [support](https://support.microsoft.com).
 2.	If you get a “WDDM 2.1” or lower version, the graphics driver is installed but it might not be the latest version. To get the latest version:
     * Use Windows Update to update the driver.
     * If that update doesn't fix the problem, go to the manufacturer’s website and install the latest driver update. 
-    * If an update isn't available for your GPU, WMR may not be supported on your device. If you think it should be, contact support.
+    * If an update isn't available for your GPU, WMR may not be supported on your device. If you think it should be, contact [support](https://support.microsoft.com).
     
 If Windows Mixed Reality setup says your graphics card doesn’t meet the requirements and you think it does, make sure your headset is plugged into the correct card.
 

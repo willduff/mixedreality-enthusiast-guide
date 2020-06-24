@@ -38,7 +38,9 @@ You can re-run the learning experience by following the [re-run steps](learn-mix
 
 ## My controllers aren't showing in my Windows Mixed Reality home.
 
-Make sure your controllers have full batteries and that they are paired correctly using Bluetooth. Try powering the controllers off and on using the Windows Button. If you still cannot see your controllers, try in-pairing and re-pairing each controller in the Settings menu under **Devices > Bluetooth**.
+Make sure your controllers have full batteries and that they are paired correctly using Bluetooth. Try powering the controllers off and on using the Windows Button. If you still cannot see your controllers, try un-pairing and re-pairing each controller: 
+* If the controllers are paired to the PC,  go to **Devices > Bluetooth > Settings** to unpair and pair your controllers again. 
+* If your headset has a built-in radio, use the companion app that came with the headset to unpair and then pair the controllers again  (the Mixed Reality Portal can help you find the correct companion app). 
 
 ## The floor of my Windows Mixed Reality home doesn't appear to be at the correct height, or it is slanted.
 
@@ -70,6 +72,6 @@ If it isn't listed, try the following:
 3. Uninstall and reinstall Windows Mixed Reality:
     1. Disconnect both headset cables from your PC.
     2. Select **Settings  > Mixed reality > Uninstall**.
-    3. Select **Settings  > Devices  > Bluetooth & other devices** to unpair your motion controllers. Select each controller, and "Remove device".
+    3. If your motion controllers are paired to your PC, select **Settings  > Devices  > Bluetooth & other devices** to unpair them. Select each controller, and "Remove device". If your controllers are paired to your headset, you can skip this step.
     4. Plug your headset back into your PC to reinstall Windows Mixed Reality.
 
