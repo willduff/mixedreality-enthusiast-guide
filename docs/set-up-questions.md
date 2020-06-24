@@ -55,7 +55,7 @@ Make sure the lights are on, and that there isn't anything obstructing the insid
 Windows Mixed Reality Portal has a **Play** button at the bottom of the screen that allows you to preview what you're seeing in your headset on your desktop screen. For performance reasons, this feature is only available on PCs running at Windows Mixed Reality Ultra (90Hz).
 
 ## I got a "Something went wrong" error message, or I'm having problems in the Mixed Reality Portal
-Look [here](error-codes.md) to get further information about specific error codes. Otherwise, try the following steps:
+Look [here](error-codes.md) to get further information about specific error codes and try the following steps:
 
 Restart Windows Mixed Reality:
 1. Disconnect both headset cables from your PC.
