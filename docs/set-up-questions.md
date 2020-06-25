@@ -37,19 +37,19 @@ Select **Start > Floor Adjustment**, which will launch once you place the app in
 Windows Mixed Reality Portal has a **Play** button at the bottom of the screen that allows you to preview what you're seeing in your headset on your desktop screen. For performance reasons, this feature is only available on PCs running at Windows Mixed Reality Ultra (90Hz).
 
 ## I got a "Something went wrong" error message, or I'm having problems in the Mixed Reality Portal
-Look [here](error-codes.md) to get further information about specific error codes and try the following steps:
+To get more information about a specific error code, look [here](error-codes.md). You can also try to:
 
 Restart Windows Mixed Reality:
 1. Disconnect both headset cables from your PC.
 2. Restart your PC.
 3. Reconnect your headset.
 
-If that doesn't work, make sure that your PC recognizes your headset:
+Make sure that your PC recognizes your headset:
 1. Select Start.
 2. Type "Device Manager" in the search box and select it in the list. 
 3. Expand "Mixed reality devices" and see if your headset is listed. 
 
-If it isn't listed, try the following:
+If it isn't listed, try to:
 1. Plug the headset into different ports on the PC, if available.
 2. Check for the latest software updates from Windows Update.
 3. Uninstall and reinstall Windows Mixed Reality:
