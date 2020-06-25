@@ -20,7 +20,7 @@ The LED constellation ring and haptics indicate the state of the motion controll
 | **Pairing**                |  LEDs slowly pulse while in pairing mode, and go solid when exiting pairing mode. The controller vibrates once if pairing was successful or three times if pairing is unsuccessful and then times out. | Press and hold the pairing button inside battery case for three seconds.     |
 | **Controller connects/disconnects from PC** |  The controller vibrates once on PC connection or disconnection. | This happens when the controller successfully connects to PC after you turn it on, or if the controller disconnects from the PC during use.|
 | **Low Battery Level**      | Haptics are disabled when the battery is low (there is no LED indication). The battery indicator icon on the handle of the controller in headset will show 1/4 full when the battery is low. | Replace your batteries. | 
-| **Critical Battery Level** |  The controller vibrates three times when you turn it on and then automatically turns off. As you approach this state, the battery indicator icon turns red. | Replace the batteries. If the problem persists, [restore the device to its factory settings](motion-controller-problems.md#how-can-i-restore-the-controllers-to-factory-settings)|
+| **Critical Battery Level** |  The controller vibrates three times when you turn it on and then automatically turns off. The battery indicator icon will turn red. | Replace the batteries. If the problem persists, [restore the device to its factory settings](motion-controller-problems.md#how-can-i-restore-the-controllers-to-factory-settings)|
 
 ## My Motion controllers aren't working properly.
 
