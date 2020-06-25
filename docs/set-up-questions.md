@@ -8,14 +8,6 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 
 # Setup FAQs 
 
-## I can't direct input (controllers, gamepad, mouse/keyboard) into Windows Mixed Reality.
-
-When you put on your headset, input should automatically get toggled to your mixed reality experience through your headset's presence sensor. A blue bar should appear on your Desktop:
-
-![Windows Desktop with input being directed to headset](images/1050px-windowsy.png)
-
-If input doesn't get toggled automatically, you will need to manually toggle input to your headset. You can do this by typing **Windows Key + Y** on your keyboard (and the same to toggle input back to the desktop).
-
 ## The Mixed Reality Portal doesn’t open when I plug in my headset.
 
 Mixed Reality Portal, the app that takes you through Windows Mixed Reality setup, is designed to open automatically when you plug in a compatible headset. If it doesn’t open, go to Start and type "Mixed Reality Portal" in the Search box to open the app. If you can’t find Mixed Reality Portal, that might mean you need to [update to the latest version of Windows](https://support.microsoft.com/en-us/help/12373/windows-update-faq).
@@ -69,6 +61,14 @@ If it isn't listed, try the following:
     2. Select **Settings  > Mixed reality > Uninstall**.
     3. If your motion controllers are paired to your PC, select **Settings  > Devices  > Bluetooth & other devices** to unpair them. Select each controller, and "Remove device". If your controllers are paired to your headset, you can skip this step.
     4. Plug your headset back into your PC to reinstall Windows Mixed Reality.
+
+## I can't direct input (controllers, gamepad, mouse/keyboard) into Windows Mixed Reality.
+
+When you put on your headset, input should automatically get toggled to your mixed reality experience through your headset's presence sensor. A blue bar should appear on your Desktop:
+
+![Windows Desktop with input being directed to headset](images/1050px-windowsy.png)
+
+If input doesn't get toggled automatically, you will need to manually toggle input to your headset. You can do this by typing **Windows Key + Y** on your keyboard (and the same to toggle input back to the desktop).
 
 ## My Xbox controller isn't working with Windows Mixed Reality.
 
