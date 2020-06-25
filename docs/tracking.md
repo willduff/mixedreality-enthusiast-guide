@@ -67,7 +67,7 @@ The system may not be able to render content to the headset, or the tracking sys
 5. Restart your PC.
 6. If the problem persists, contact [customer support](https://support.microsoft.com/).
 
-## The world briefly froze and perhaps tilted or flipped upside before returning to normal.
+## The world briefly froze and perhaps tilted or flipped upside down before returning to normal.
 
 This could be caused by an application or system level component hitting a fatal error, or a temporary lack of memory or CPU resources. To check:
 1. Open Task Manager and ensure that at least 20% of the CPU is free, 400MB of memory is available and disk IO should be below 80%.
