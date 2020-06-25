@@ -12,15 +12,15 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 
 The LED constellation ring and haptics indicate the state of the motion controller.
 
-| State    | What causes the state | Light and vibration behavior associated with the state |
+| State    | Behavior associated with the state | How to get to/out of the state | 
 |----------------------------|-----------------------------|----------------------------------------------------------------------|
-| **Power on**               | Press and hold the Windows button on controller for two seconds to turn on the controller.       | LEDs turn on and controller vibrates once. |
-| **Power off**              | Press and hold the Windows button on controller for four seconds to turn off controller.      | LEDs turn off and controller vibrates twice. |
-| **Sleeping**               | The controller enters the sleeping state automatically when it’s motionless for 30 seconds. The controller wakes when it detects motion, except if the device is not paired with the host PC. Press the button to wake it in that case. | LEDs turn off and blink every three seconds while in sleeping state. |
-| **Pairing**                | Press and hold the pairing button inside battery case for three seconds.     | LEDs slowly pulse while in pairing mode, and go solid when exiting pairing mode. The controller vibrates once if pairing was successful or three times if pairing is unsuccessful and then times out. |
-| **Controller connects/disconnects from PC** | The controller successfully connects to PC after you turn it on, or the controller disconnects from the PC during use for some reason.| The controller vibrates once on PC connection or disconnection. |
-| **Low Battery Level**      | The battery level is low.| There is no LED or vibration indication when battery is low. There is a battery indicator icon on the handle of the controller representation in headset. When battery is low, the indicator icon will show 1/4 full. |
-| **Critical Battery Level** | During power on when battery level is "Critical". "Critical" battery level means there is insufficient power and the controller will turn off automatically.| The controller vibrates three times when you turn it on and then automatically turns off. As you approach this state, the battery indicator icon will display red. |
+| **Power on**               | LEDs turn on and controller vibrates once. | Press and hold the Windows button on controller for two seconds to turn on the controller.  | 
+| **Power off**              |  LEDs turn off and controller vibrates twice. | Press and hold the Windows button on controller for four seconds to turn off controller.   |
+| **Sleeping**               |  LEDs turn off and blink every three seconds while in sleeping state. | The controller enters the sleeping state automatically when it’s motionless for 30 seconds. The controller wakes when it detects motion, except if the device is not paired with the host PC. Press the button to wake it in that case. |
+| **Pairing**                |  LEDs slowly pulse while in pairing mode, and go solid when exiting pairing mode. The controller vibrates once if pairing was successful or three times if pairing is unsuccessful and then times out. | Press and hold the pairing button inside battery case for three seconds.     |
+| **Controller connects/disconnects from PC** |  The controller vibrates once on PC connection or disconnection. | This happens when the controller successfully connects to PC after you turn it on, or if the controller disconnects from the PC during use.|
+| **Low Battery Level**      | Haptics are disabled when the battery is low (there is no LED indication). There is a battery indicator icon on the handle of the controller representation in headset. When battery is low, the indicator icon will show 1/4 full. | Replace your batteries. | 
+| **Critical Battery Level** |  The controller vibrates three times when you turn it on and then automatically turns off. As you approach this state, the battery indicator icon will display red. | During power on when battery level is "Critical". "Critical" battery level means there is insufficient power and the controller will turn off automatically. Replace the batteries. If the problem persists, [restore the device to its factory settings](motion-controller-problems.md#how-can-i-restore-the-controllers-to-factory-settings)|
 
 ## My Motion controllers aren't working properly.
 
@@ -51,10 +51,6 @@ If your [motion controllers](https://support.microsoft.com/en-us/help/4040517/wi
 * If your PC is running on 2.4 GHz wifi, switch to 5 GHz wifi. 
 * If you are using an external Bluetooth adapter, make sure it is plugged into a USB 2.0 port (which is often, but not always, black), away from other wireless transmitters or USB flash drives. 
 * Run the Bluetooth Troubleshooter in **Settings > Update & Security > Troubleshoot > Bluetooth**. 
-
-## My controller keeps buzzing and turning off. 
-
-Replace the batteries if needed. If the problem persists, restore the device to its factory settings by powering on the device while holding down the pairing buttons. See the [device recovery steps](motion-controller-problems.md#how-can-i-restore-the-controllers-to-factory-settings) for more details. 
 
 ## My motion controllers are not pairing. 
 
@@ -151,14 +147,6 @@ Check the [Bluetooth questions section](motion-controller-problems.md#how-can-i-
 ## I just inserted fresh batteries but the controller virtual battery level does not indicate full level.
 
 Motion controller battery level is tuned for AA batteries. Some low voltage rechargeable batteries may not report as full although they are fully charged.
-
-## My controller does not vibrate.
-
-Replace your batteries. Haptics are disabled when the battery level gets low.
-
-## My device vibrated three times and then shutdown.
-
-Replace your batteries (they are running low and hit the cut-off threshold). 
 
 ## My Samsung motion controller’s touchpad is off-center or has a dead spot.
 
