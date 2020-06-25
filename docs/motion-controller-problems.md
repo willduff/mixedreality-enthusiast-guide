@@ -52,50 +52,9 @@ If your [motion controllers](https://support.microsoft.com/en-us/help/4040517/wi
 * If you are using an external Bluetooth adapter, make sure it is plugged into a USB 2.0 port (which is often, but not always, black), away from other wireless transmitters or USB flash drives. 
 * Run the Bluetooth Troubleshooter in **Settings > Update & Security > Troubleshoot > Bluetooth**. 
 
-## My motion controllers are not pairing. 
-
-* If the controllers don’t turn on, insert fresh batteries. If this doesn’t fix it, restore the device to its factory settings by powering on the device while holding down the pairing buttons. See the [device recovery steps](motion-controller-problems.md#how-can-i-restore-the-controllers-to-factory-settings) for more details. 
-* If the controllers turn on, and you are using an external Bluetooth adapter, make sure the adapter is plugged into a USB 2.0 port (which is often, but not always, black), away from other wireless transmitters or USB flash drives. If it still doesn’t work, run the Bluetooth Troubleshooter in Settings > Update & Security > Troubleshoot > Bluetooth. 
-* If you are using a Qualcomm adapter and the PC just crashed, restart the PC. 
-* Try restarting the motion controllers that aren’t pairing, one at a time, then restart the PC. 
-* The motion controller cache may be corrupt. To fix this problem, see these [steps](motion-controller-problems.md#motion-controller-leds-are-not-lit-but-the-buttons-and-thumbstick-still-work-in-mixed-reality-portal). 
-* If none of these steps fixes the problem, you should contact the manufacturer. 
-
-## My paired controllers don’t show up in the Mixed Reality Portal. 
-
-* Hold the controllers in front of your headset and restart them by pressing the Windows button for four seconds, then again for two seconds. 
-* If the controllers are paired to your PC, make sure that they show as connected in **Settings > Bluetooth & other devices**. If the controllers are paired to your headset, make sure that you see "Motion Controller" in the Device Manager under Human Interface Devices. If your controllers are showing correctly in those locations, unpair them and go through the pairing process again. 
-* If the controller LEDs are cycling, turning on one quadrant of lights at a time and then turning them off, they are undergoing a firmware update. Wait for the update to complete and the controllers should appear in Mixed Reality. 
-* If an external Bluetooth adapter is used, make sure the adapter is plugged into a USB 2.0 port (which is often, but not always, black), away from other wireless transmitters or USB 3.0 devices. 
-* If the PC just crashed and a Qualcomm adapter is being used, a reset may not work. To fix this, unplug the power from the back of the computer (or if on a laptop, hold down the power button for 10 seconds) and restart the PC. 
-
-* Run the Bluetooth troubleshooter in **Settings > Update & Security > Troubleshoot > Bluetooth**.  
-
-## How do I pair new controllers if Windows Mixed Reality is already set up on my PC?
-
-1. Insert two AA batteries into each controller. Don’t put the battery cover back on yet.
-2. Press and hold the Windows button for two seconds to turn on each controller. They’ll buzz when they turn on.
-3. Put the controllers in pairing mode. The pairing button is inside the battery compartment (see this [image](set-up-windows-mixed-reality.md#if-you-need-to-pair-your-motion-controllers-with-your-pc)). Press and hold it until the controller lights start flashing.
-4. If you are pairing your controllers to the PC, go to **Settings > Devices > Bluetooth & other devices**, then to **Add Bluetooth or other device > Bluetooth**. When the controllers appear, select them to pair. If you are pairing your controllers to your headset, use the companion app (the Mixed Reality Portal can help you find a companion app to launch or give you a list of companion apps that you can select from).
-
-Note: If another set of motion controllers is paired with your PC, you'll need to unpair those controllers before pairing new ones.
-If you paired a set of motion controllers with your current PC and then paired them with a second PC, you'll need to unpair and re-pair them with the current PC before using them again.
-
-## Can I pair my Xbox controller to my PC so I can use it in headset?
-
-You can pair a Bluetooth Xbox controller to use it with your headset by following [these instructions](https://support.xbox.com/help/hardware-network/accessories/connect-and-troubleshoot-xbox-one-bluetooth-issues). 
-
-If you have a wired Xbox controller, plug it in to your PC.
-
-Some games and apps use the Xbox controller differently than it's used in mixed reality. To use the controller for a game or app, select "Use as gamepad" on the app bar or say, "Use as gamepad." To switch the controller back to mixed reality, select "Use as gamepad"  again, or say "Use with gaze."  
-
 ## My controller is stuck in an infinite reboot.
 
 This is a critical battery indicator. Put fresh batteries in the device, and if the issue persists, [reset the controller to factory settings](motion-controller-problems.md#how-can-i-restore-the-controllers-to-factory-settings).
-
-## I'm trying to pair my controllers, but they never show up in the "Add a new device menu" in Bluetooth settings.
-
-Check that you do not have controllers paired already, remove them, and try again. If problem persists restart the PC and try again. If that fails, see more [information about Bluetooth](motion-controller-problems.md#how-can-i-tell-if-im-using-bluetooth-technology).
 
 ## Wi-Fi slows down on my notebook when motion controllers are turned on.
 
@@ -127,6 +86,10 @@ The Motion Controller calibration cache may be corrupt. To delete the cache, run
 `rmdir /S /Q C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\Windows\MotionController\Calibration`
 
 This folder is not accessible in Windows Explorer and can only be modified from an Administrator Command Prompt. After you have deleted the folder, restart your PC and reconnect your motion controllers to restore the calibration files.
+
+## My controller looks like a Vive/Oculus, has strange orientation, or the buttons are incorrectly mapped.
+
+The website likely doesn’t have full motion controller support.
 
 ## My motion controllers do not appear in SteamVR apps and games.
 
@@ -175,18 +138,26 @@ Motion controllers use the same Bluetooth technology found in many consumer devi
 
 If your PC doesn’t have Bluetooth, one recommended dongle is the [Plugable USB Bluetooth 4.0 Low Energy Micro Adapter](https://www.amazon.com/Plugable-Bluetooth-Adapter-Raspberry-Compatible/dp/B009ZIILLI/ref=sr-1-1?ie=UTF8&qid=1490148230&sr=8-1&keywords=plugable+broadcom).
 
+## Can I pair my Xbox controller to my PC so I can use it in headset?
+
+You can pair a Bluetooth Xbox controller to use it with your headset by following [these instructions](https://support.xbox.com/help/hardware-network/accessories/connect-and-troubleshoot-xbox-one-bluetooth-issues). 
+
+If you have a wired Xbox controller, plug it in to your PC.
+
+Some games and apps use the Xbox controller differently than it's used in mixed reality. To use the controller for a game or app, select "Use as gamepad" on the app bar or say, "Use as gamepad." To switch the controller back to mixed reality, select "Use as gamepad"  again, or say "Use with gaze." 
+
 ## My PC has Bluetooth technology but I'm having problems with my controllers.
 
 Motion controllers should work with other Bluetooth keyboards, mice, and game controllers, but the experience will vary depending on the model of keyboard, mouse, or game controller you use. Here are some things you can do to improve performance:
-* If your computer has Bluetooth but you are still having problems with the motion controllers, consider replacing your Bluetooth radio with a Plugable external Bluetooth adapter plugged into USB. Note that you can only have one Bluetooth radio adapter active at a time. If you plug in an external radio in addition to an existing radio, you need to disable your existing Bluetooth radio in Device Manager (right-click on the adapter and select "Disable Device") and un-pair/re-pair all of your previous Bluetooth devices.
+* If your computer has Bluetooth but you are still having problems with the motion controllers, consider replacing your Bluetooth radio with a Plugable external Bluetooth adapter plugged into USB. You can only have one Bluetooth radio adapter active at a time. If you plug in an external radio in addition to an existing radio, you need to disable your existing Bluetooth radio in Device Manager (right-click on the adapter and select "Disable Device") and un-pair/re-pair all of your previous Bluetooth devices.
 * If you're using a USB Bluetooth adapter, connect it to a USB 2.0 port (2.0 ports are often black and aren’t labeled "SS"), if available. The port should be physically separated from:
     - the HMD USB connector
     - flash drives
     - hard drives
     - wireless USB receivers like those for keyboards/mice
 Ideally, plug the USB Bluetooth adapter into the opposite side of the computer as far as possible from these other connectors.
-* If you pair your controllers to a Windows PC, we recommend that you use the Windows Bluetooth driver stack and do not install any third-party Bluetooth driver stacks. Third-party software may not work correctly.
 * Close the Bluetooth settings window if it's open. Leaving it open in the background means that a lot of extra calls are made to the Bluetooth protocol.
+* If your headset is paired to your PC, use the Windows Bluetooth driver stack and do not install any third-party Bluetooth driver stacks. Third-party software may not work correctly.
 * Disable "Show notification to connect using Swift Pair" setting under "Bluetooth & other devices" to reduce host radio scanning activity.
 * If you are using an internal Bluetooth card, make sure that you are using an external Bluetooth antenna or you may experience tracking issues. If this doesn’t work, use an external Bluetooth dongle (USB) after disabling the internal Bluetooth.
 * The device should appear under the "Mouse, Keyboard & Pen" category in the Bluetooth settings. If it is under "Other devices" then unpair and pair the device.
@@ -200,7 +171,40 @@ Some Windows Mixed Reality headsets, including the Acer OJO 500 and Samsung Odys
 
 To return the motion controllers to their factory pairing, or to pair them with a Windows Mixed Reality headset with built-in Bluetooth radio, run the headset's device companion app (for example, the "Acer OJO 500" app or the "Samsung HMD Odyssey+ Setup" app, automatically installed the first time the headset is plugged in) and follow the instructions for motion controller pairing.
 
-## My controller looks like a Vive/Oculus, has strange orientation, or the buttons are incorrectly mapped.
+## If your motion controllers are paired to your PC:
 
-The website likely doesn’t have full motion controller support.
+### My motion controllers are not pairing. 
+
+* If the controllers don’t turn on, insert fresh batteries. If this doesn’t fix it, restore the device to its factory settings by powering on the device while holding down the pairing buttons. See the [device recovery steps](motion-controller-problems.md#how-can-i-restore-the-controllers-to-factory-settings) for more details. 
+* If the controllers turn on, and you are using an external Bluetooth adapter, make sure the adapter is plugged into a USB 2.0 port (which is often, but not always, black), away from other wireless transmitters or USB flash drives. If it still doesn’t work, run the Bluetooth Troubleshooter in Settings > Update & Security > Troubleshoot > Bluetooth. 
+* If you are using a Qualcomm adapter and the PC just crashed, restart the PC. 
+* Try restarting the motion controllers that aren’t pairing, one at a time, then restart the PC. 
+* The motion controller cache may be corrupt. To fix this problem, see these [steps](motion-controller-problems.md#motion-controller-leds-are-not-lit-but-the-buttons-and-thumbstick-still-work-in-mixed-reality-portal). 
+* If none of these steps fixes the problem, you should contact the manufacturer. 
+
+### My paired controllers don’t show up in the Mixed Reality Portal. 
+
+* Hold the controllers in front of your headset and restart them by pressing the Windows button for four seconds, then again for two seconds. 
+* If the controllers are paired to your PC, make sure that they show as connected in **Settings > Bluetooth & other devices**. If the controllers are paired to your headset, make sure that you see "Motion Controller" in the Device Manager under Human Interface Devices. If your controllers are showing correctly in those locations, unpair them and go through the pairing process again. 
+* If the controller LEDs are cycling, turning on one quadrant of lights at a time and then turning them off, they are undergoing a firmware update. Wait for the update to complete and the controllers should appear in Mixed Reality. 
+* If an external Bluetooth adapter is used, make sure the adapter is plugged into a USB 2.0 port (which is often, but not always, black), away from other wireless transmitters or USB 3.0 devices. 
+* If the PC just crashed and a Qualcomm adapter is being used, a reset may not work. To fix this, unplug the power from the back of the computer (or if on a laptop, hold down the power button for 10 seconds) and restart the PC. 
+
+* Run the Bluetooth troubleshooter in **Settings > Update & Security > Troubleshoot > Bluetooth**.  
+
+### I'm trying to pair my controllers, but they never show up in the "Add a new device menu" in Bluetooth settings.
+
+Check that you do not have controllers paired already, remove them, and try again. If problem persists restart the PC and try again. If that fails, see more [information about Bluetooth](motion-controller-problems.md#how-can-i-tell-if-im-using-bluetooth-technology).
+
+### How do I pair new controllers if Windows Mixed Reality is already set up on my PC?
+
+1. Insert two AA batteries into each controller. Don’t put the battery cover back on yet.
+2. Press and hold the Windows button for two seconds to turn on each controller. They’ll buzz when they turn on.
+3. Put the controllers in pairing mode. The pairing button is inside the battery compartment (see this [image](set-up-windows-mixed-reality.md#if-you-need-to-pair-your-motion-controllers-with-your-pc)). Press and hold it until the controller lights start flashing.
+4. If you are pairing your controllers to the PC, go to **Settings > Devices > Bluetooth & other devices**, then to **Add Bluetooth or other device > Bluetooth**. When the controllers appear, select them to pair. If you are pairing your controllers to your headset, use the companion app (the Mixed Reality Portal can help you find a companion app to launch or give you a list of companion apps that you can select from).
+
+Note: If another set of motion controllers is paired with your PC, you'll need to unpair those controllers before pairing new ones.
+If you paired a set of motion controllers with your current PC and then paired them with a second PC, you'll need to unpair and re-pair them with the current PC before using them again.
+
+
 
