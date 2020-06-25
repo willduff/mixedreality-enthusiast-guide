@@ -66,6 +66,14 @@ When you put on your headset, input should automatically get toggled to your mix
 
 If input doesn't get toggled automatically, you will need to manually toggle input to your headset. You can do this by typing **Windows Key + Y** on your keyboard (and the same to toggle input back to the desktop).
 
+## During Mixed Reality start up, I'm stuck at "Turn your head side to side, and then at the floor".
+
+This step lets your headset recognize your space and restore any existing virtual floor and boundary. When you put on your headset, this scanning process can take up to 10 seconds. After it is complete, you will either be in Windows Mixed Reality home or you will be prompted to set up your boundary again.
+
+If the scanning process takes longer than 10 seconds, there could be a problem with the proximity sensor in the headset:
+1. Check that the sticker has been removed from the proximity sensor. The proximity sensor is located inside the headset roughly where the center of your forehead would be.
+2. Check that your proximity sensor is toggling input to your headset: with your finger, cover and uncover the proximity sensor a few times to verify input is switching to the headset. You should see the **Windows Key + Y** banner at the top of your PC. You can manually switch input to the headset at any time by typing **Windows Key + Y** on your keyboard.
+
 ## My Xbox controller isn't working with Windows Mixed Reality.
 
 * Make sure your controller is turned on, fully charged, and connected to the PC.
