@@ -32,6 +32,29 @@ If someone else uses your headset, make sure they understand the boundary and ho
 * Don’t cross back over your own path as you’re tracing.
 * If you get stuck in a corner, start over.
 
+## The system cannot find the boundary and I'm being presented with setup UI.
+
+This means that the tracking system was unable to recognize your environment. If you are in a new environment, you must set up the [boundary](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality#set-up-your-room-boundary). If you have previously used the device in this environment and set up a boundary:
+* Make sure the room has enough light.
+* Make sure you have worn the device and looked around the room. The device must observe your environment to know where it is. It will not find your bounds if it is sitting on a desk or table.
+* Unplug the device, close Windows Mixed Reality, and plug it in again.
+* If something in the environment has changed, the device may no longer recognize it. Set up a new boundary.
+
+If these steps do not resolve the problem, delete your environment data and set up the boundary again.
+
+## The system is presenting me with UI that asks me to choose setup for all experiences or seated/standing, and I see my bounds.
+
+The device is taking too long to find the bounds. You can bypass this message by choosing the option to use a boundary and you will be taken to your Windows Mixed Reality home with your bounds present.
+
+## I often see a message saying "I've lost my bounds".
+
+The tracking system is having a hard time tracking and identifying your environment. In this state, the device can no longer display your bounds and the headset switches to 3DOF to keep you from to bumping into things in the real world until it locates your bounds again. To fix this:
+1. Make sure that the room has enough light.
+2. Rerun the setup if you recently redecorated or remodeled the room.
+3. Unplug the device, close Windows Mixed Reality, and plug it in again.
+4. Clear your environment data and set up the device again.
+5. If the message persists, contact customer support.
+
 ## During Mixed Reality start up, I'm stuck at "Turn your head side to side, and then at the floor".
 
 This step lets your headset recognize your space and restore any existing virtual floor and boundary. When you put on your headset, this scanning process can take up to 10 seconds. After it is complete, you will either be in Windows Mixed Reality home or you will be prompted to set up your boundary again.
