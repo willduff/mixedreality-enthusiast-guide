@@ -27,16 +27,6 @@ This usually means the application or a system level component has failed. Try t
 2. Unplug the device, close MRP and plug the device back in.
 3. Restart the PC.
 
-## The view in the headset is jittering and stuttering a lot.
-
-The system may not be able to render content to the headset, or the tracking system may be experiencing problems. Check the following:
-1. Open Task Manager to make sure that your PC has enough compute resources. You should have 80% of CPU free, 400MB of RAM, and disk IO should be below 80%.
-2. Make sure you have the latest graphics drivers for your hardware. See the [graphics driver section](before-you-start.md#make-sure-you-have-a-compatible-graphics-driver).
-3. Make sure the room has enough light.
-4. Unplug the device, close Windows Mixed Reality, and plug it in again.
-5. Restart your PC.
-6. If the problem persists, contact [customer support](https://support.microsoft.com/).
-
 ## The world briefly froze and perhaps tilted or flipped upside down before returning to normal.
 
 This could be caused by an application or system level component hitting a fatal error, or a temporary lack of memory or CPU resources. To check:
