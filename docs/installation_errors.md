@@ -39,7 +39,7 @@ If these solutions don't work, try:
     * If Windows Mixed Reality installs correctly, reinstall the latest updates under **Settings > Windows Update > Check for Updates** and see if Windows Mixed Reality continues to work. If it does not install correctly, reinstall the updates and contact Windows Support. 
 
 ## "Something went wrong, and we couldn't start Windows Mixed Reality"
-Look [here](error-codes.md) to get information about specific error codes and try the following steps:
+To get more information about a specific error code, look [here](error-codes.md). You can also try to:
 
 * Unplug both headset cables from the PC.
 * Restart the PC.
