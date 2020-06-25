@@ -71,8 +71,7 @@ The headset might not have been detected properly because of an underlying issue
 3. If you see a "Code 43" error indicating that the device has stopped working, or if you don't see your headset listed under "Mixed Reality devices", unplug and replug in your headset's USB cable. Microsoft is investigating a potential software/driver interoperability issue which may result in this error. This issue affects a small number of PCs, and is expected to be resolved in a future update to the Mixed Reality headset driver.
 
 ## My headset causes my PC to generate a Bug Check (blue screen) when I put my PC to sleep or when it is in hibernation mode.
-
-Microsoft is investigating a potential software/driver interoperability issue which may result in a small number of PCs potentially generating a "9F" Bug Check (blue screen) when the PC is put to sleep or into hibernation mode with the headset attached. This issue is expected to be resolved in a future update to the Mixed Reality headset driver.
+Make sure you are on the 10.0.18362.1062 driver or newer.
 
 ## The headset driver did not install automatically when I plugged in the headset.
 
