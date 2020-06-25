@@ -64,7 +64,7 @@ When you put on your headset, input should automatically get toggled to your mix
 
 ![Windows Desktop with input being directed to headset](images/1050px-windowsy.png)
 
-You can toggle the input focus switching (Win+Y) behavior to be automatic or manual. Use the Input Switching setting in **Settings > Mixed Reality > headset display > Input switching** to control the behavior (automatically switch using the headset presence sensor, vs. manually switch using Win+Y).
+If input doesn't get toggled automatically, you may have disabled automatic input switching in **Settings > Mixed Reality > headset display > Input switching**. You can always type **Windows Key + Y** on your keyboard to manually toggle input to your headset or back to the desktop.
 
 ## During Mixed Reality start up, I'm stuck at "Turn your head side to side, and then at the floor".
 
