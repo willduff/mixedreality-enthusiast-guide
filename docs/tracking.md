@@ -12,29 +12,6 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 
 Make sure the lights are on, and that there isn't anything obstructing the inside-out tracking cameras on the front of your headset. If tracking is lost, it can take a few seconds to resume. If it doesn't resume, restart the Windows Mixed Reality Portal. 
 
-## The system cannot find the boundary and I'm being presented with setup UI.
-
-This means that the tracking system was unable to recognize your environment. If you are in a new environment, you must set up the [boundary](https://docs.microsoft.com/windows/mixed-reality/enthusiast-guide/set-up-windows-mixed-reality#set-up-your-room-boundary). If you have previously used the device in this environment and set up a boundary:
-* Make sure the room has enough light.
-* Make sure you have worn the device and looked around the room. The device must observe your environment to know where it is. It will not find your bounds if it is sitting on a desk or table.
-* Unplug the device, close Windows Mixed Reality, and plug it in again.
-* If something in the environment has changed, the device may no longer recognize it. Set up a new boundary.
-
-If these steps do not resolve the problem, delete your environment data and set up the boundary again.
-
-## The system is presenting me with UI that asks me to choose setup for all experiences or seated/standing, and I see my bounds.
-
-The device is taking too long to find the bounds. You can bypass this message by choosing the option to use a boundary and you will be taken to your Windows Mixed Reality home with your bounds present.
-
-## I often see a message saying "I've lost my bounds".
-
-The tracking system is having a hard time tracking and identifying your environment. In this state, the device can no longer display your bounds and the headset switches to 3DOF to keep you from to bumping into things in the real world until it locates your bounds again. To fix this:
-1. Make sure that the room has enough light.
-2. Rerun the setup if you recently redecorated or remodeled the room.
-3. Unplug the device, close Windows Mixed Reality, and plug it in again.
-4. Clear your environment data and set up the device again.
-5. If the message persists, contact customer support.
-
 ## I can look around but I can't translate (I'm stuck in 3DOF).
 
 This means that the tracking system cannot generate pose, or the application has stopped using new pose data to render. Check the following:
