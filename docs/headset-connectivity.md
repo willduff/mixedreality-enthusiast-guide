@@ -19,7 +19,7 @@ Windows Mixed Reality headsets do not officially support the use of USB, HDMI, o
 * If you are using any adapters to connect your headset to your PC, make sure they support Windows Mixed Reality (the adapter must be 4K capable). Also try connecting the adapter to the PC before connecting the headset to the adapter.
 * Try using a different HDMI and/or DisplayPort port.
 * Connect your headset to a DisplayPort 1.2 or later, or HDMI 1.4 or later. Make sure the port corresponds with the most advanced graphics card on your PC.
-* If your PC has both integrated and discrete graphics, make sure you're using the HDMI and/or DisplayPort port on your active graphics card. In some cases, this may mean that you'll need to connect your PC display to a non-HDMI port.
+* If your PC has both integrated and discrete graphics, make sure you're using the HDMI and/or DisplayPort port on your active graphics card. This may mean that you'll need to connect your PC display to a non-HDMI port.
 * If your PC has both integrated and discrete graphics, and the integrated graphics is older and does not support Windows Mixed Reality, try disabling the integrated GPU.
 * Connect a PC monitor to your PC's HDMI and/or DisplayPort port. Make sure your graphics drivers are up to date. Download and install the ones from AMD, Nvidia or Intel directly as they will likely be newer than what's published to Windows Update.
 * If you have an external monitor plugged into an HDMI port, try plugging it into a DisplayPort instead, and use the HDMI port for your headset.
