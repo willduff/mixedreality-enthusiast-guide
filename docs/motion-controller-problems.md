@@ -38,10 +38,6 @@ If your [motion controllers](https://support.microsoft.com/en-us/help/4040517/wi
 * If you are using an external Bluetooth adapter, make sure it is plugged into a USB 2.0 port (which is often, but not always, black), away from other wireless transmitters or USB flash drives. 
 * Run the Bluetooth Troubleshooter in **Settings > Update & Security > Troubleshoot > Bluetooth**. 
 
-## My controller is on infinite reboot. 
-
-Restore the device to its factory settings by powering on the device while holding down the pairing buttons. See the [device recovery steps](motion-controller-problems.md#how-can-i-restore-the-controllers-to-factory-settings) for more details.  
-
 ## My controller keeps buzzing and turning off. 
 
 Replace the batteries if needed. If the problem persists, restore the device to its factory settings by powering on the device while holding down the pairing buttons. See the [device recovery steps](motion-controller-problems.md#how-can-i-restore-the-controllers-to-factory-settings) for more details. 
@@ -83,7 +79,7 @@ If you have a wired Xbox controller, plug it in to your PC.
 
 Some games and apps use the Xbox controller differently than it's used in mixed reality. To use the controller for a game or app, select "Use as gamepad" on the app bar or say, "Use as gamepad." To switch the controller back to mixed reality, select "Use as gamepad"  again, or say "Use with gaze."  
 
-## My controller is stuck in an infinite reboot (buzzing after LEDs cycle).
+## My controller is stuck in an infinite reboot.
 
 This is a critical battery indicator. Put fresh batteries in the device, and if the issue persists, [reset the controller to factory settings](motion-controller-problems.md#how-can-i-restore-the-controllers-to-factory-settings).
 
