@@ -55,14 +55,6 @@ The tracking system is having a hard time tracking and identifying your environm
 4. Clear your environment data and set up the device again.
 5. If the message persists, contact customer support.
 
-## During Mixed Reality start up, I'm stuck at "Turn your head side to side, and then at the floor".
-
-This step lets your headset recognize your space and restore any existing virtual floor and boundary. When you put on your headset, this scanning process can take up to 10 seconds. After it is complete, you will either be in Windows Mixed Reality home or you will be prompted to set up your boundary again.
-
-If the scanning process takes longer than 10 seconds, there could be a problem with the proximity sensor in the headset:
-1. Check that the sticker has been removed from the proximity sensor. The proximity sensor is located inside the headset roughly where the center of your forehead would be.
-2. Check that your proximity sensor is toggling input to your headset: with your finger, cover and uncover the proximity sensor a few times to verify input is switching to the headset. You should see the **Windows Key + Y** banner at the top of your PC. You can manually switch input to the headset at any time by typing **Windows Key + Y** on your keyboard.
-
 ## A message says my boundary can't be found. What should I do?
 
 Windows Mixed Reality might have trouble identifying your existing boundary. You can create a new boundary or you can use your device in "Seated and standing" mode. 
