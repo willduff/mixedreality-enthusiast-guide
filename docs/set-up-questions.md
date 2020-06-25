@@ -8,12 +8,6 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 
 # Setup FAQs 
 
-## My Xbox controller isn't working with Windows Mixed Reality.
-
-* Make sure your controller is turned on, fully charged, and connected to the PC.
-* Replace the controller’s batteries.
-* If you're using a Bluetooth controller, go to **Settings > Devices > Bluetooth & other devices** on your PC and make sure it's paired (it should be listed on the page).
-
 ## I can't direct input (controllers, gamepad, mouse/keyboard) into Windows Mixed Reality.
 
 When you put on your headset, input should automatically get toggled to your mixed reality experience through your headset's presence sensor. A blue bar should appear on your Desktop:
@@ -76,3 +70,8 @@ If it isn't listed, try the following:
     3. If your motion controllers are paired to your PC, select **Settings  > Devices  > Bluetooth & other devices** to unpair them. Select each controller, and "Remove device". If your controllers are paired to your headset, you can skip this step.
     4. Plug your headset back into your PC to reinstall Windows Mixed Reality.
 
+## My Xbox controller isn't working with Windows Mixed Reality.
+
+* Make sure your controller is turned on, fully charged, and connected to the PC.
+* Replace the controller’s batteries.
+* If you're using a Bluetooth controller, go to **Settings > Devices > Bluetooth & other devices** on your PC and make sure it's paired (it should be listed on the page).
