@@ -32,10 +32,6 @@ Make sure your controllers have full batteries and that they are paired correctl
 
 Select **Start > Floor Adjustment**, which will launch once you place the app in the world, to make changes while wearing your headset. In this app, you will be directed to use the touch pad (motion controller) or direction pad (gamepad) to adjust the floor height. When the floor feels correct, use the Windows button to return to your home.
 
-## My headset has stopped tracking.
-
-Make sure the lights are on, and that there isn't anything obstructing the inside-out tracking cameras on the front of your headset. If tracking is lost, it can take a few seconds to resume. If it doesn't resume, restart the Windows Mixed Reality Portal. See [Tracking system problems](tracking-problems.md) for more details.
-
 ## I can't show a preview of what I'm seeing in my headset on my desktop.
 
 Windows Mixed Reality Portal has a **Play** button at the bottom of the screen that allows you to preview what you're seeing in your headset on your desktop screen. For performance reasons, this feature is only available on PCs running at Windows Mixed Reality Ultra (90Hz).
