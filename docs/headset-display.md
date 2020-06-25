@@ -100,3 +100,10 @@ For general info about comfort in Windows Mixed Reality, see [Windows Mixed Real
 Try adjusting the fit of your headset. Move it up and down, or left and right, on your face and adjust the straps so it feels snug.
 
 If your headset has a knob to adjust calibration, adjust its calibration settings. If it doesn’t, go to **Settings > Mixed reality > Visual quality** and adjust the calibration there. For more information on calibration for your specific device, check with your headset manufacturer.
+
+## I frequently see a black border around the view in the headset. Sometimes it's like I'm looking down a tunnel.
+
+This means that the application is not able to hit frame rate on your PC and the system is using old frames to render the view in the headset. Since applications only render the part of the world you are looking at, if they do not consistently hit their frame rates, the system will try to render the world from a previous point of view and will fill in the missing details with black. If this happens frequently:
+1. Close or terminate all unneeded programs to free up memory and CPU.
+2. Reduce detail settings in your application.
+3. Go to **Settings > Mixed Reality > Headset Display** to reduce the amount of detail shown in the Windows Mixed Reality home.
