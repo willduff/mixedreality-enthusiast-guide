@@ -49,7 +49,7 @@ Make sure that your PC recognizes your headset:
 2. Type "Device Manager" in the search box and select it in the list. 
 3. Expand "Mixed reality devices" and see if your headset is listed. 
 
-If it isn't listed, try to:
+If it isn't listed:
 1. Plug the headset into different ports on the PC, if available.
 2. Check for the latest software updates from Windows Update.
 3. Uninstall and reinstall Windows Mixed Reality:
