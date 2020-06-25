@@ -8,8 +8,8 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, Trouble
 
 # Headset connectivity FAQs
 
-## My computer does not have an HDMI port.
-If your computer does not have an HDMI port but does have a DisplayPort (DP), mini DisplayPort (miniDP) or USB Type-C (USB-C) port for outputting video, you may need to use a [supported adapter](recommended-adapters-for-windows-mixed-reality-capable-pcs.md).
+## My computer does not have an HDMI and/or Display Port.
+If your computer does not have an HDMI port but does have a DisplayPort (DP), mini DisplayPort (miniDP) or USB Type-C (USB-C) port for outputting video, you may need to use an adapter. Go [here](recommended-adapters-for-windows-mixed-reality-capable-pcs.md) for a list of supported adapters.
 
 ## Can I use USB or HDMI extension cables with Windows Mixed Reality headsets?
 Windows Mixed Reality headsets do not officially support the use of USB or HDMI extension cables. Using these cables may significantly impact your Mixed Reality experience because of variances in resulting signal integrity and bus power between your PC's USB controller and the Mixed Reality headset. If the headset display briefly shows a blue screen and then turns black and Mixed Reality Portal restarts or completely de-enumerates during use, or if the headset audio cuts out or becomes glitchy, or if the headset flickers between black and the correct display, try using your headset without extension cables.
