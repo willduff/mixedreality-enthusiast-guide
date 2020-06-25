@@ -202,6 +202,10 @@ Some Windows Mixed Reality headsets, including the Acer OJO 500 and Samsung Odys
 
 To return the motion controllers to their factory pairing, or to pair them with a Windows Mixed Reality headset with built-in Bluetooth radio, run the headset's device companion app (for example, the "Acer OJO 500" app or the "Samsung HMD Odyssey+ Setup" app, automatically installed the first time the headset is plugged in) and follow the instructions for motion controller pairing.
 
+## My controller looks like a Vive/Oculus, has strange orientation, or the buttons are incorrectly mapped.
+
+The website likely doesn’t have full motion controller support.
+
 ## What do the vibrations and lights mean?
 
 The LED constellation ring and haptics indicate the state of the motion controller.
