@@ -53,7 +53,7 @@ You will then get an analysis of your PC against the required hardware, drivers,
 
 <table>
 <tr>
-<th style="width:10%"></th><th style="vertical-align: middle; text-align: center; width:30%">Windows Mixed Reality Ultra PCs</th><th style="vertical-align: middle; text-align: center; width:30%">Windows Mixed Reality PCs</th><th style="vertical-align: middle; text-align: center; width:30%">2020 HP Reverb headset</th>
+<th style="width:10%"></th><th style="vertical-align: middle; text-align: center; width:30%">Windows Mixed Reality Ultra PCs</th><th style="vertical-align: middle; text-align: center; width:30%">Windows Mixed Reality PCs</th><th style="vertical-align: middle; text-align: center; width:30%">HP Reverb G1/G2</th>
 </tr><tr>
 <td style="vertical-align: middle">Operating System</td><td colspan="2" style="vertical-align: middle; text-align: center;">Windows 10 Fall Creators Update (RS3) or later - Home, Pro, Business, Education.<br/>    (<b>Note</b>: Not supported on N versions or Windows 10 Pro in S Mode)</td><td style="vertical-align: middle; text-align: center;">Windows 10 May 2019 update or later</td>
 </tr><tr>
@@ -65,17 +65,20 @@ You will then get an analysis of your PC against the required hardware, drivers,
 </tr><tr>
 <td style="vertical-align: middle">Graphics Card</td><td style="vertical-align: middle; text-align: center;"><li>NVIDIA GTX 1060 (or greater) DX12-capable discrete GPU</li> <br><li>AMD RX 470/570 (or greater) DX12-capable discrete GPU </li><br><b>Note:</b> GPU must be hosted in a PCIe 3.0 x4+ Link slot</td><td style="vertical-align: middle; text-align: center;"><li>Integrated Intel HD Graphics 620 (or greater) DX12-capable integrated GPU <a href="https://en.wikipedia.org/wiki/List_of_Intel_graphics_processing_units">(check if your model is greater)</a></li> <br><li>NVIDIA MX150 (or greater) discrete GPU</li><br><li>965M (or greater) DX12-capable discrete GPU</li><br><li>AMD Radeon RX 460/560</li></td><td style="vertical-align: middle; text-align: center;">DX12 capable graphics cards <br></br>Consumer (full resolution):<li>GTX 1080, 1080ti</li><li>RTX 2060 super, 2070, 2070 super, 2080, 2080super, 2080ti </li><li>RX 5700, RX 5700 XT, Radeon 7 </li>Workstation (full resolution):<li>P5200</li><li>RTX 4000, 5000, 6000, 8000 </li><li>AMD Radeon Pro WX 8200, 9200 </li><li>W5700, WX 7100 </li><br></br>Consumer (half resolution):<li>GTX 1060, 1660, 1660ti, 1070 </li><li>RTX 2060 </li><li>AMD RX 580, 5500XT, 590, 5600 XT, Vega 56, Vega 64 </li>Enterprise (half resolution):<li>P3200, P4000, P4200, P5000 </li><li>RTX 3000 </li></td>
 </tr><tr>
-<td style="vertical-align: middle">Graphics Driver</td><td colspan="2" td style="vertical-align: middle; text-align: center;">Windows Display Driver Model (WDDM) 2.2</td>
+<td style="vertical-align: middle">Graphics Driver</td><td colspan="3" td style="vertical-align: middle; text-align: center;">Windows Display Driver Model (WDDM) 2.2</td>
 </tr><tr>
 <td style="vertical-align: middle"><a href="Recommended-adapters-for-Windows-Mixed-Reality-Capable-PCs.md">Graphics display port</a></td><td style="vertical-align: middle; text-align: center;">HDMI 2.0 or DisplayPort 1.2</td><td style="vertical-align: middle; text-align: center;">HDMI 1.4 or DisplayPort 1.2</td><td style="vertical-align: middle; text-align: center;">DisplayPort 1.3 </td>
 </tr><tr>
-<td style="vertical-align: middle">Display</td><td colspan="2" style="vertical-align: middle; text-align: center;">Connected external or integrated VGA (800x600) display (or better)</td>
+<td style="vertical-align: middle">Display</td><td colspan="3" style="vertical-align: middle; text-align: center;">Connected external or integrated VGA (800x600) display (or better)</td>
 </tr><tr>
 <td style="vertical-align: middle"><a href="Recommended-adapters-for-Windows-Mixed-Reality-Capable-PCs.md">USB connectivity</a></td><td colspan="2" style="vertical-align: middle; text-align: center;">USB 3.0 Type-A or Type-C</td><td style="vertical-align: middle; text-align: center;">1x USB 3.0 Type C </td>
 </tr><tr>
 <td style="vertical-align: middle">Bluetooth connectivity (for <a href="Motion-controllers.md">motion controllers</a>)</td><td colspan="3" style="vertical-align: middle; text-align: center;">Bluetooth 4.0</td>
 </tr><tr>
 <td style="vertical-align: middle">Expected headset framerate</td><td style="vertical-align: middle; text-align: center;">90 Hz</td><td style="vertical-align: middle; text-align: center;">60 Hz</td><td style="vertical-align: middle; text-align: center;">90 Hz</td>
+</tr>
+<tr>
+<td style="vertical-align: middle">Power</td><td style="vertical-align: middle; text-align: center;">USB 3.0 (Type A) ports</td><td style="vertical-align: middle; text-align: center;">USB 3.0 (Type A) ports<td style="vertical-align: middle; text-align: center;">USB Type C with power delivery or included power adapter </td>
 </tr>
 </table>
 
