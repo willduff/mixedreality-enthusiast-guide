@@ -7,4 +7,4 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, flowcha
 
 # Resolving Windows Mixed Reality Headset Display Problems
 
-<img src="images/Flowchart_BlackscreenV2.png" width="950">
+<img src="images/Flowchart_BlackscreenV2.png" width="1000">

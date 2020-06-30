@@ -16,10 +16,6 @@ Not all WebVR content is authored to support motion controllers. WebVR allows co
 
 This is an optional feature of the WebVR specification. Not all browsers support this feature, and not all WebVR content is authored to support mouse input. WebVR allows content developers to support different types of input, such as mouse, keyboard, game controllers or motion controllers. Mouse input behavior varies per browser. Within Microsoft Edge, website authors must ensure they take 'pointerlock' when presenting to the headset for mouse input to work.
 
-## My controller looks like a Vive/Oculus, has strange orientation, or the buttons are incorrectly mapped.
-
-The website likely doesn’t have full motion controller support.
-
 ## Why can’t I view 360 degree videos from Youtube/Facebook/Vimeo/The Guardian, etc. from Edge in VR?
 
 There is a WebVR specification that allows websites to launch VR experiences directly from the browser and the authors of these websites have not implemented this specification at this time. There may be downloadable apps on some platforms that enable viewing of VR content from these vendors.
