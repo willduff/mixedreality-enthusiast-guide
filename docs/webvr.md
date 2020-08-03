@@ -8,7 +8,7 @@ keywords: Windows Mixed Reality, Mixed Reality, Virtual Reality, VR, MR, WebVR, 
 # Using WebVR with Windows Mixed Reality
 
 >[!IMPORTANT] 
->Most major web browsers have deprecated support of WebVR in favor of WebXR, the new standard for creating immersive web experiences for VR headsets. Please install [the new Microsoft Edge](using-microsoft-edge.md) for WebXR support.
+>Most modern web browsers have deprecated support of WebVR in favor of WebXR, the new standard for creating immersive web experiences for VR headsets. Please install [the new Microsoft Edge](using-microsoft-edge.md) for WebXR support.
 
 ## What is WebVR?
 
