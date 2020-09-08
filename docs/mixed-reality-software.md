@@ -98,7 +98,7 @@ In Windows 10, version 1809 and newer, [Mixed Reality Portal](https://www.micros
 
    | Version            | Release Date          | Major changes                                                 |
    |--------------------|-----------------------|---------------------------------------------------------------|
-   | 2000.20081.1312.0  | September 8, 2020        | <ul><li>Addresses an issue where error code 1-4 can be reported immediately after resuming from standby.</li><li>Updated high resolution display minimum requirements and settings for the HP Reverb G2.</li></ul>  | 
+   | 2000.20081.1312.0  | September 8, 2020        | <ul><li>Addresses an issue where a 1-4 error code can be reported immediately after resuming from standby.</li><li>Updated high resolution display minimum requirements and settings for the HP Reverb G2.</li></ul>  | 
    | 2000.20071.1133.0  | August 5, 2020        | <ul><li>Support for [OpenXR](https://docs.microsoft.com/windows/mixed-reality/openxr) to pause the preview window.</li></ul>  | 
    | 2000.20041.1212.0  | May 11, 2020          | <ul><li>Addresses a timing issue that was resulting in an inconsistent 15-5 error.</li><li>Improved support for running Windows Mixed Reality with no internet connection.</li><li>Improved support for pairing motion controllers via **Set up controllers**.</li></ul>  | 
    | 2000.20031.1202.0  | April 14, 2020        | <ul><li>Support for signing up for information, tips and offers about Windows Mixed Reality.</li></ul>  | 
